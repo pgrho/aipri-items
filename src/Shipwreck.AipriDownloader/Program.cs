@@ -26,10 +26,12 @@ internal class Program
                 break;
             }
         }
+
+        // TODO 既知の誤記載を訂正する
     }
 
     [return: NotNullIfNotNull(nameof(path))]
-    private static string? GetAbsoluteUrl(string? path)
+    internal static string? GetAbsoluteUrl(string? path)
         => string.IsNullOrEmpty(path) ? null : new Uri(new Uri(VERSE_HOME), path).ToString();
 
     static async Task ParseItemAsync(DownloadContext d, string itemUrl)
@@ -55,9 +57,9 @@ internal class Program
         }
 
         var nav = (HtmlAgilityPack.HtmlNodeNavigator)doc.CreateNavigator();
-        var items = nav.Select("//div[starts-with(@class, 'modal__item')]");
 
-        foreach (HtmlNodeNavigator cNode in items)
+        var currentCoords = new List<Coordinate>();
+        foreach (HtmlNodeNavigator cNode in nav.Select("//div[starts-with(@class, 'modal__item')]"))
         {
             var star = cNode.SelectSingleNode(".//p[@class='item__star']/img/@alt")?.Value?.Trim();
             var title = cNode.SelectSingleNode(".//p[@class='item__ttl']")?.Value?.Trim();
@@ -76,6 +78,8 @@ internal class Program
 
             var coord = await d.AddCoordinateAsync(chapter, b, title, star, GetAbsoluteUrl(imgUrl)).ConfigureAwait(false);
 
+            currentCoords.Add(coord);
+
             foreach (HtmlNodeNavigator iNode in cNode.Select(".//dl[@class='itemList__item']"))
             {
                 var term = iNode.SelectSingleNode(".//dt[@class='itemList__term']")?.Value?.Trim();
@@ -93,6 +97,71 @@ internal class Program
 
                 await d.AddItemAsync(coord, iid, term, point, GetAbsoluteUrl(iUrl), eid).ConfigureAwait(false);
             }
+        }
+
+        foreach (HtmlNodeNavigator cNode in nav.Select("//section[starts-with(@class, 'section js-hidden-item')]"))
+        {
+            var kind = cNode.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim();
+            var period = cNode.SelectSingleNode(".//p[contains(@class, 'txt--period')]")?.Value?.Trim();
+
+            DateOnly? start = null, end = null;
+
+            if (period != null
+                && Regex.Match(period, @"^(\d+)年(\d+)月(\d+)日（[日月火水木金土]）～") is var ma
+                && ma.Success
+                && int.TryParse(ma.Groups[1].Value, out var sy)
+                && 1 <= sy && sy <= 9999
+                && int.TryParse(ma.Groups[2].Value, out var sm)
+                && 1 <= sm && sm <= 12
+                && int.TryParse(ma.Groups[3].Value, out var sd)
+                && 1 <= sd && sd <= DateTime.DaysInMonth(sy, sm))
+            {
+                start = new DateOnly(sy, sm, sd);
+
+                var ma2 = Regex.Match(period, "～(\\d{0,4})年?(\\d+)月(\\d+)日（[日月火水木金土]）$");
+                if (ma2.Success
+                    && int.TryParse(ma2.Groups[2].Value, out var em)
+                    && 1 <= em && em <= 12
+                    && int.TryParse(ma2.Groups[3].Value, out var ed)
+                    && 1 <= ed)
+                {
+                    var ey = ma2.Groups[1] is var g1 && g1.Length == 0 ? sy : int.Parse(g1.Value);
+
+                    if (1 <= ey && ey <= 9999 && ed <= DateTime.DaysInMonth(ey, em))
+                    {
+                        end = new DateOnly(ey, em, ed);
+                    }
+                }
+            }
+
+            foreach (HtmlNodeNavigator iNode in cNode.Select(".//div[@class='grid__item modal__hiddenItem']"))
+            {
+                var iUrl = GetAbsoluteUrl(iNode.SelectSingleNode(".//img/@src")?.Value?.Trim());
+                var item = iNode.SelectSingleNode(".//p[@class='item__txt']")?.Value?.Trim();
+
+                var c = currentCoords.FirstOrDefault(e => e.Name == item);
+
+                if (c != null)
+                {
+                    c.Kind = kind;
+                    c.Start = start;
+                    c.End = end;
+
+                    if (c.ThumbnailUrl != iUrl || !c.IsThumbnailLoaded)
+                    {
+                        c.ThumbnailUrl = await d.GetOrCopyImageAsync(iUrl, "coordinate-thumbnails", c.Id).ConfigureAwait(false);
+                        c.IsThumbnailLoaded = true;
+                    }
+                }
+            }
+        }
+
+        // TODO 現在のチャプターで記載のないコーデを削除する
+
+        if (chapter != null)
+        {
+            chapter.Start = currentCoords.Min(e => e.Start);
+            chapter.End = currentCoords.Max(e => e.End);
         }
     }
 }

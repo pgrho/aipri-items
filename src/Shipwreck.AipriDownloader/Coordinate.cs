@@ -12,9 +12,16 @@ public sealed class Coordinate : DataItem
     public string Star { get; set; } = string.Empty;
     public string Name { get; set; } = string.Empty;
     public string? ImageUrl { get; set; }
+    public string? ThumbnailUrl { get; set; }
+    public string? Kind { get; set; }
+    public DateOnly? Start { get; set; }
+    public DateOnly? End { get; set; }
 
     [JsonIgnore]
     internal bool IsImageLoaded { get; set; }
+
+    [JsonIgnore]
+    internal bool IsThumbnailLoaded { get; set; }
 
     public Coordinate Clone()
         => new()
@@ -24,6 +31,10 @@ public sealed class Coordinate : DataItem
             BrandId = BrandId,
             Star = Star,
             Name = Name,
-            ImageUrl = ImageUrl
+            ImageUrl = ImageUrl,
+            ThumbnailUrl = ThumbnailUrl,
+            Kind = Kind,
+            Start = Start,
+            End = End,
         };
 }

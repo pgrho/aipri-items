@@ -9,7 +9,7 @@ public sealed class DownloadContext : IDisposable
 {
     private readonly HttpClient _Http;
     private readonly AipriVerseData _DataSet;
-     
+
     private readonly DirectoryInfo _OutputDirectory;
 
     private readonly DirectoryInfo _CacheDirectory;
@@ -261,7 +261,7 @@ public sealed class DownloadContext : IDisposable
         return b;
     }
 
-    private async Task<string?> GetOrCopyImageAsync(string? imageUrl, string directory, int id)
+    public async Task<string?> GetOrCopyImageAsync(string? imageUrl, string directory, int id)
     {
         var bip = new FileInfo(Path.Combine(_OutputDirectory.FullName, directory, id.ToString("D6") + Path.GetExtension(imageUrl)));
 
@@ -383,7 +383,8 @@ public sealed class DownloadContext : IDisposable
                 }, new JsonSerializerOptions()
                 {
                     WriteIndented = true,
-                    Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+                    Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+                    DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault
                 });
             }
 
