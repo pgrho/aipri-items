@@ -2,7 +2,7 @@
 
 namespace Shipwreck.AipriDownloader;
 
-public class Coordinate
+public sealed class Coordinate : DataItem
 {
     public int Id { get; set; }
 
@@ -15,4 +15,15 @@ public class Coordinate
 
     [JsonIgnore]
     internal bool IsImageLoaded { get; set; }
+
+    public Coordinate Clone()
+        => new()
+        {
+            Id = Id,
+            ChapterId = ChapterId,
+            BrandId = BrandId,
+            Star = Star,
+            Name = Name,
+            ImageUrl = ImageUrl
+        };
 }

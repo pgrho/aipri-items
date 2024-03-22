@@ -1,17 +1,17 @@
 ﻿using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 using System.Text.Json;
+using System.Xml.Linq;
 
 namespace Shipwreck.AipriDownloader;
 
 public sealed class DownloadContext : IDisposable
 {
     private readonly HttpClient _Http;
-    private readonly Dictionary<string, Chapter> _Chapters;
-    private readonly Dictionary<string, Brand> _Brands;
-    private readonly Dictionary<string, Coordinate> _Coordinates;
-    private readonly Dictionary<string, CoordinateItem> _CoordinateItems;
+    private readonly AipriVerseData _DataSet;
+     
     private readonly DirectoryInfo _OutputDirectory;
+
     private readonly DirectoryInfo _CacheDirectory;
     private readonly Dictionary<string, UrlCache> _Cache;
     private readonly FileStream _JsonStream;
@@ -29,10 +29,7 @@ public sealed class DownloadContext : IDisposable
     {
         _Http = new HttpClient();
         _OutputDirectory = new DirectoryInfo(Path.Combine(GetDirectory(), "output"));
-        _Chapters = new();
-        _Brands = new();
-        _Coordinates = new();
-        _CoordinateItems = new();
+        _DataSet = new();
         if (_OutputDirectory.Exists)
         {
             try
@@ -48,7 +45,7 @@ public sealed class DownloadContext : IDisposable
                         {
                             if (!string.IsNullOrEmpty(c.Id) && !string.IsNullOrEmpty(c.Name))
                             {
-                                _Chapters[c.Id] = c;
+                                _DataSet.Chapters.Add(c.Clone());
                             }
                         }
                         foreach (var c in hd.Brands ?? [])
@@ -56,7 +53,7 @@ public sealed class DownloadContext : IDisposable
                             if (c?.Id > 0
                                 && !string.IsNullOrEmpty(c.Name))
                             {
-                                _Brands[c.Name] = c;
+                                _DataSet.Brands.Add(c.Clone());
                             }
                         }
                         foreach (var c in hd.Coordinates ?? [])
@@ -65,7 +62,7 @@ public sealed class DownloadContext : IDisposable
                                 && !string.IsNullOrEmpty(c.Star)
                                 && !string.IsNullOrEmpty(c.Name))
                             {
-                                _Coordinates[c.Name] = c;
+                                _DataSet.Coordinates.Add(c.Clone());
                             }
                         }
                         foreach (var c in hd.CoordinateItems ?? [])
@@ -74,9 +71,7 @@ public sealed class DownloadContext : IDisposable
                                 && !string.IsNullOrEmpty(c.SealId)
                                 && !string.IsNullOrEmpty(c.Term))
                             {
-                                var coord = _Coordinates.Values.FirstOrDefault(e => e.Id == c.CoordinateId);
-
-                                _CoordinateItems[string.Concat(coord?.Name ?? "?", "/", c.SealId)] = c;
+                                _DataSet.CoordinateItems.Add(c.Clone());
                             }
                         }
                     }
@@ -222,16 +217,18 @@ public sealed class DownloadContext : IDisposable
 
     public Chapter AddChapter(string id, string name)
     {
-        lock (_Chapters)
+        lock (_DataSet)
         {
-            _Chapters.TryGetValue(id, out var c);
-            if (c?.Id != id || c?.Name != name)
+            var c = _DataSet.Chapters.GetById(id);
+            if (c == null)
             {
-                c ??= new();
+                c = new();
                 c.Id = id;
-                c.Name = name;
-                _Chapters[id] = c;
+                _DataSet.Chapters.Add(c);
             }
+
+            c.Name = name;
+
             return c;
         }
     }
@@ -239,15 +236,17 @@ public sealed class DownloadContext : IDisposable
     public async Task<Brand> AddBrandAsync(string name, string? imageUrl)
     {
         Brand? b;
-        lock (_Brands)
+        lock (_DataSet)
         {
-            if (!_Brands.TryGetValue(name, out b))
+            b = _DataSet.Brands.GetByName(name);
+            if (b == null)
             {
-                _Brands[name] = b = new Brand()
+                b = new()
                 {
                     Name = name,
-                    Id = (_Brands.Values.Max(e => e?.Id) ?? 0) + 1
+                    Id = (_DataSet.Brands.Max(e => e?.Id) ?? 0) + 1
                 };
+                _DataSet.Brands.Add(b);
             }
         }
 
@@ -306,15 +305,17 @@ public sealed class DownloadContext : IDisposable
     public async Task<Coordinate> AddCoordinateAsync(Chapter? chapter, Brand? brand, string name, string star, string? imageUrl)
     {
         Coordinate? c;
-        lock (_Coordinates)
+        lock (_DataSet)
         {
-            if (!_Coordinates.TryGetValue(name, out c))
+            c = _DataSet.Coordinates.GetByName(name);
+            if (c == null)
             {
-                _Coordinates[name] = c = new()
+                c = new()
                 {
                     Name = name,
-                    Id = (_Coordinates.Values.Max(e => e?.Id) ?? 0) + 1
+                    Id = (_DataSet.Coordinates.Max(e => e?.Id) ?? 0) + 1
                 };
+                _DataSet.Coordinates.Add(c);
             }
         }
 
@@ -336,20 +337,21 @@ public sealed class DownloadContext : IDisposable
     public async Task<CoordinateItem> AddItemAsync(Coordinate coordinate, string sealId, string term, short point, string? imageUrl, int? estimatedId)
     {
         CoordinateItem? c;
-        var key = string.Concat(coordinate.Name, "/", sealId);
-        lock (_CoordinateItems)
+        lock (_DataSet)
         {
-            if (!_CoordinateItems.TryGetValue(key, out c))
+            c = _DataSet.CoordinateItems.FirstOrDefault(e => e.CoordinateId == coordinate.Id && e.SealId == sealId);
+            if (c == null)
             {
-                _CoordinateItems[key] = c = new()
+                c = new()
                 {
-                    Id = estimatedId > 0 && _CoordinateItems.All(e => e.Value.Id != estimatedId) ? estimatedId.Value : ((_CoordinateItems.Values.Max(e => e?.Id) ?? 0) + 1)
+                    CoordinateId = coordinate.Id,
+                    SealId = sealId,
+                    Id = (_DataSet.Coordinates.Max(e => e?.Id) ?? 0) + 1
                 };
+                _DataSet.CoordinateItems.Add(c);
             }
         }
 
-        c.CoordinateId = coordinate.Id;
-        c.SealId = sealId;
         c.Term = term;
         c.Point = point;
 
@@ -374,10 +376,10 @@ public sealed class DownloadContext : IDisposable
             {
                 JsonSerializer.Serialize(fs, new AipriVerseData()
                 {
-                    Chapters = _Chapters.Values.OrderBy(e => e.Id).ToArray(),
-                    Brands = _Brands.Values.OrderBy(e => e.Id).ToArray(),
-                    Coordinates = _Coordinates.Values.OrderBy(e => e.Id).ToArray(),
-                    CoordinateItems = _CoordinateItems.Values.OrderBy(e => e.Id).ToArray(),
+                    Chapters = new(_DataSet.Chapters.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Brands = new(_DataSet.Brands.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Coordinates = new(_DataSet.Coordinates.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    CoordinateItems = new(_DataSet.CoordinateItems.OrderBy(e => e.Id).Select(e => e.Clone())),
                 }, new JsonSerializerOptions()
                 {
                     WriteIndented = true,

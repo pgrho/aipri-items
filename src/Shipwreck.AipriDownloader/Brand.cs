@@ -2,7 +2,7 @@
 
 namespace Shipwreck.AipriDownloader;
 
-public class Brand
+public sealed class Brand : DataItem
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
@@ -10,4 +10,12 @@ public class Brand
 
     [JsonIgnore]
     internal bool IsImageLoaded { get; set; }
+
+    public Brand Clone()
+        => new()
+        {
+            Id = Id,
+            Name = Name,
+            ImageUrl = ImageUrl
+        };
 }
