@@ -118,7 +118,9 @@ public sealed class DownloadContext : IDisposable
         _JsonStream ??= new FileStream(jp, FileMode.Create, FileAccess.Write, FileShare.None);
     }
 
-    private static string GetDirectory([CallerFilePath] string filePath = "")
+    internal AipriVerseData DataSet => _DataSet;
+
+    internal static string GetDirectory([CallerFilePath] string filePath = "")
         => Path.GetDirectoryName(filePath)!;
 
     public async Task<Stream> GetAsync(string url, CancellationToken cancellationToken = default)

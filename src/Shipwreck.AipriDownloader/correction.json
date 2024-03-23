@@ -1,0 +1,25 @@
+{
+  "CoordinateItems": [
+    {
+      "Key": "Id",
+      "Data": {
+        "Id": 30004,
+        "SealId": "V1-004"
+      }
+    },
+    {
+      "Key": "Id",
+      "Data": {
+        "Id": 30005,
+        "SealId": "V1-005"
+      }
+    },
+    {
+      "Key": "Id",
+      "Data": {
+        "Id": 30006,
+        "SealId": "V1-006"
+      }
+    }
+  ]
+}

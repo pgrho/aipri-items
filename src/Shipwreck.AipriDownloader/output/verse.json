@@ -573,7 +573,7 @@
     {
       "Id": 30004,
       "CoordinateId": 2,
-      "SealId": "V1-001",
+      "SealId": "V1-004",
       "Term": "ワンピ",
       "Point": 320,
       "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30004.webp"
@@ -581,7 +581,7 @@
     {
       "Id": 30005,
       "CoordinateId": 2,
-      "SealId": "V1-002",
+      "SealId": "V1-005",
       "Term": "シューズ",
       "Point": 180,
       "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30005.webp"
@@ -589,7 +589,7 @@
     {
       "Id": 30006,
       "CoordinateId": 2,
-      "SealId": "V1-003",
+      "SealId": "V1-006",
       "Term": "アクセ",
       "Point": 160,
       "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30006.webp"

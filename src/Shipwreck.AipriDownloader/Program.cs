@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using System.Text.Json;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 
@@ -27,7 +28,8 @@ internal class Program
             }
         }
 
-        // TODO 既知の誤記載を訂正する
+        // 既知の誤記載を訂正する
+        await CorrectKnownTypoAsync(d).ConfigureAwait(false);
     }
 
     [return: NotNullIfNotNull(nameof(path))]
@@ -162,6 +164,36 @@ internal class Program
         {
             chapter.Start = currentCoords.Min(e => e.Start);
             chapter.End = currentCoords.Max(e => e.End);
+        }
+    }
+
+    private static async Task CorrectKnownTypoAsync(DownloadContext d)
+    {
+        var cor = new FileInfo(Path.Combine(DownloadContext.GetDirectory(), "correction.json"));
+        if (cor.Exists)
+        {
+            using var fs = cor.OpenRead();
+            var cd = await JsonSerializer.DeserializeAsync<CorrectionData>(fs).ConfigureAwait(false);
+
+            foreach (var ci in cd?.CoordinateItems ?? [])
+            {
+                if (ci?.Data != null)
+                {
+                    var pred = ci.Key switch
+                    {
+                        nameof(ci.Data.Id) => (Func<CoordinateItem, bool>)(e => e.Id == ci.Data.Id),
+                        _ => throw new ArgumentException()
+                    };
+
+                    var t = d.DataSet.CoordinateItems.FirstOrDefault(pred);
+                    if (t != null)
+                    {
+                        t.SealId = ci.Data.SealId.TrimOrNull() ?? t.SealId;
+                        t.Term = ci.Data.Term.TrimOrNull() ?? t.Term;
+                        t.Point = ci.Data.Point.PositiveOrNull() ?? t.Point;
+                    }
+                }
+            }
         }
     }
 }
