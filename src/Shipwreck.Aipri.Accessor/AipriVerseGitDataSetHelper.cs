@@ -19,10 +19,10 @@ public static class AipriVerseGitDataSetHelper
         => Open(Constants.COORDINATE_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
 
     public static string? GetThumbnailPath(this Coordinate? e)
-        => GetFilePath(Constants.COORDINATE_THUMBNAIL_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
+        => GetFilePath(Constants.COORDINATE_THUMBNAIL_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ThumbnailUrl);
 
     public static Stream OpenThumbnail(this Coordinate? e)
-        => Open(Constants.COORDINATE_THUMBNAIL_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
+        => Open(Constants.COORDINATE_THUMBNAIL_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName!, e?.Id ?? -1, e?.ThumbnailUrl!);
 
     public static string? GetImagePath(this CoordinateItem? e)
         => GetFilePath(Constants.COORDINATE_ITEM_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ImageUrl);

@@ -80,7 +80,7 @@ public sealed class AipriVerseDataSetAccessor : IDisposable
 
                         Commands.Pull(repo, new Signature("p", "u", DateTimeOffset.Now), new PullOptions());
 
-                        return Path.Combine(_Directory.FullName, "output", "verse.json");
+                        return Path.Combine(_Directory.FullName, "src", "Shipwreck.AipriDownloader", "output", "verse.json");
                     }
                 }
             }

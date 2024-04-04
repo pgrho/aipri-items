@@ -32,8 +32,11 @@ public class AipriVerseDataSetAccessorTest
                 _Output.WriteLine($"{b.GetType().FullName}: {fs.Length}");
             }
 
-            using var th = b.OpenThumbnail();
-            _Output.WriteLine($"{b.GetType().FullName}: {th.Length}");
+            if (b.ThumbnailUrl != null)
+            {
+                using var th = b.OpenThumbnail();
+                _Output.WriteLine($"{b.GetType().FullName}: {th.Length}");
+            }
         }
         foreach (var b in ds.CoordinateItems)
         {
