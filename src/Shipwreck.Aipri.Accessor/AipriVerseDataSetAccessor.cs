@@ -23,7 +23,7 @@ public sealed class AipriVerseDataSetAccessor : IDisposable
     private Task<AipriVerseGitDataSet>? _Task;
     private DateTime _LastRefreshedAt;
 
-    public Task<AipriVerseGitDataSet> GetAsync(CancellationToken cancellationToken)
+    public Task<AipriVerseGitDataSet> GetAsync(CancellationToken cancellationToken = default)
     {
         var t = _Task;
         if (t == null

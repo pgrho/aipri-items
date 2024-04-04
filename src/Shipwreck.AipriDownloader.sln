@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipwreck.Aipri.Accessor", "Shipwreck.Aipri.Accessor\Shipwreck.Aipri.Accessor.csproj", "{78965C7B-09A5-4149-94C8-399321927909}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipwreck.Aipri.Accessor.Tests", "Shipwreck.Aipri.Accessor.Tests\Shipwreck.Aipri.Accessor.Tests.csproj", "{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{78965C7B-09A5-4149-94C8-399321927909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78965C7B-09A5-4149-94C8-399321927909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78965C7B-09A5-4149-94C8-399321927909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

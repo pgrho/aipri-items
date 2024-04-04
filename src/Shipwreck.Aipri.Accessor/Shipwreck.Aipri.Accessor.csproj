@@ -6,6 +6,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Include="..\Shipwreck.AipriDownloader\Constants.cs" Link="Constants.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <PackageReference Include="LibGit2Sharp" Version="0.30.0" />
 	</ItemGroup>
 
