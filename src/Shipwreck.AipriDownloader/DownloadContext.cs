@@ -59,7 +59,6 @@ public sealed class DownloadContext : IDisposable
                         foreach (var c in hd.Coordinates ?? [])
                         {
                             if (c?.Id > 0
-                                && !string.IsNullOrEmpty(c.Star)
                                 && !string.IsNullOrEmpty(c.Name))
                             {
                                 _DataSet.Coordinates.Add(c.Clone());
@@ -304,7 +303,7 @@ public sealed class DownloadContext : IDisposable
         return null;
     }
 
-    public async Task<Coordinate> AddCoordinateAsync(Chapter? chapter, Brand? brand, string name, string star, string? imageUrl)
+    public async Task<Coordinate> AddCoordinateAsync(Chapter? chapter, Brand? brand, string name, int? star, string? imageUrl)
     {
         Coordinate? c;
         lock (_DataSet)
@@ -323,7 +322,7 @@ public sealed class DownloadContext : IDisposable
 
         c.ChapterId = chapter?.Id;
         c.BrandId = brand?.Id;
-        c.Star = star;
+        c.Star = (byte?)star;
 
         if (c.ImageUrl == imageUrl && c.IsImageLoaded)
         {
@@ -348,12 +347,14 @@ public sealed class DownloadContext : IDisposable
                 {
                     CoordinateId = coordinate.Id,
                     SealId = sealId,
-                    Id = (_DataSet.Coordinates.Max(e => e?.Id) ?? 0) + 1
+                    Id = estimatedId > 0 && _DataSet.CoordinateItems.All(e => e.Id != estimatedId) ? estimatedId.Value : ((_DataSet.CoordinateItems.Max(e => e?.Id) ?? 0) + 1)
                 };
                 _DataSet.CoordinateItems.Add(c);
             }
         }
 
+        c.CoordinateId = coordinate.Id;
+        c.SealId = sealId;
         c.Term = term;
         c.Point = point;
 

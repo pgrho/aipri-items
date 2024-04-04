@@ -5,6 +5,10 @@
       "Name": "1だん",
       "Start": "2024-04-04",
       "End": "2024-06-05"
+    },
+    {
+      "Id": "special",
+      "Name": "スペシャル"
     }
   ],
   "Brands": [
@@ -44,7 +48,7 @@
       "Id": 1,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ポッピンハートバズリウム",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-001F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-001F_thumb.webp",
@@ -56,7 +60,7 @@
       "Id": 2,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ミラクルムーンバズリウム",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-004F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-004F_thumb.webp",
@@ -68,7 +72,7 @@
       "Id": 3,
       "ChapterId": "1",
       "BrandId": 3,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "おひつじざルビー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-010F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-010F_thumb.webp",
@@ -80,7 +84,7 @@
       "Id": 4,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ドーナツパティシエール",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-014F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-014F_thumb.webp",
@@ -92,7 +96,7 @@
       "Id": 5,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ドーナツパティシエールオレンジ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-017F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-017F_thumb.webp",
@@ -104,7 +108,7 @@
       "Id": 6,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ぷるるんゼリーソーダ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-020F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-020F_thumb.webp",
@@ -116,7 +120,7 @@
       "Id": 7,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ぷるるんゼリーグレープ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-024F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-024F_thumb.webp",
@@ -128,7 +132,7 @@
       "Id": 8,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ウェルカムチェリー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-028F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-028F_thumb.webp",
@@ -140,7 +144,7 @@
       "Id": 9,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ウェルカムチェリーブルー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-031F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-031F_thumb.webp",
@@ -152,7 +156,7 @@
       "Id": 10,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "きらきらくらげブルー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-034F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-034F_thumb.webp",
@@ -164,7 +168,7 @@
       "Id": 11,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "きらきらくらげピンク",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-037F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-037F_thumb.webp",
@@ -176,7 +180,7 @@
       "Id": 12,
       "ChapterId": "1",
       "BrandId": 4,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ひみつのオーロラドリームあいら",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-197F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-197F_thumb.webp",
@@ -188,7 +192,7 @@
       "Id": 13,
       "ChapterId": "1",
       "BrandId": 4,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ひみつのオーロラドリームりずむ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-201F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-201F_thumb.webp",
@@ -200,7 +204,7 @@
       "Id": 14,
       "ChapterId": "1",
       "BrandId": 4,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ひみつのオーロラドリームみおん",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-205F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-205F_thumb.webp",
@@ -212,7 +216,7 @@
       "Id": 15,
       "ChapterId": "1",
       "BrandId": 4,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ピュアプレミアムウエディング",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-209F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-209F_thumb.webp",
@@ -224,7 +228,7 @@
       "Id": 16,
       "ChapterId": "1",
       "BrandId": 4,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ピュアホワイトウエディング",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-212F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-212F_thumb.webp",
@@ -236,7 +240,7 @@
       "Id": 17,
       "ChapterId": "1",
       "BrandId": 4,
-      "Star": "☆☆☆☆",
+      "Star": 4,
       "Name": "ピュアフレッシュウエディング",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-215F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-215F_thumb.webp",
@@ -248,7 +252,7 @@
       "Id": 18,
       "ChapterId": "1",
       "BrandId": 4,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "フレッシュピンクベアトップ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-218F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-218F_thumb.webp",
@@ -260,7 +264,7 @@
       "Id": 19,
       "ChapterId": "1",
       "BrandId": 4,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "スターシャインベスト",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-221F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-221F_thumb.webp",
@@ -272,7 +276,7 @@
       "Id": 20,
       "ChapterId": "1",
       "BrandId": 4,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "レッドロックベアトップ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-224F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-224F_thumb.webp",
@@ -282,20 +286,17 @@
     },
     {
       "Id": 21,
-      "ChapterId": "1",
+      "ChapterId": "special",
       "BrandId": 1,
-      "Star": "☆☆☆",
       "Name": "アイプリバースポッピンハート",
-      "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-074F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-074F_thumb.webp",
-      "Kind": "★3",
-      "Start": "2024-04-04"
+      "Kind": "アイプリデビューキャンペーン"
     },
     {
       "Id": 22,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "アイプリバースポッピンハートグリーン",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-077F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-077F_thumb.webp",
@@ -304,20 +305,17 @@
     },
     {
       "Id": 23,
-      "ChapterId": "1",
+      "ChapterId": "special",
       "BrandId": 2,
-      "Star": "☆☆☆",
       "Name": "アイプリバースミラクルムーン",
-      "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-080F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-080F_thumb.webp",
-      "Kind": "★3",
-      "Start": "2024-04-04"
+      "Kind": "アイプリデビューキャンペーン"
     },
     {
       "Id": 24,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "アイプリバースミラクルムーンオレンジ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-084F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-084F_thumb.webp",
@@ -328,7 +326,7 @@
       "Id": 25,
       "ChapterId": "1",
       "BrandId": 5,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "アイプリバーススカーレットバタフライ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-088F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-088F_thumb.webp",
@@ -339,7 +337,7 @@
       "Id": 26,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "フラワーチュール",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-091F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-091F_thumb.webp",
@@ -350,7 +348,7 @@
       "Id": 27,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "フラワーチュールミント",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-095F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-095F_thumb.webp",
@@ -361,7 +359,7 @@
       "Id": 28,
       "ChapterId": "1",
       "BrandId": 5,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "ゴージャスビジュー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-099F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-099F_thumb.webp",
@@ -372,7 +370,7 @@
       "Id": 29,
       "ChapterId": "1",
       "BrandId": 5,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "ゴージャスビジューモスグリーン",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-102F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-102F_thumb.webp",
@@ -383,7 +381,7 @@
       "Id": 30,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "ハニービー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-105F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-105F_thumb.webp",
@@ -394,7 +392,7 @@
       "Id": 31,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "ハニービーリーフ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-109F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-109F_thumb.webp",
@@ -405,7 +403,7 @@
       "Id": 32,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "スターメロディ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-113F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-113F_thumb.webp",
@@ -415,8 +413,8 @@
     {
       "Id": 33,
       "ChapterId": "1",
-      "BrandId": 1,
-      "Star": "☆☆☆",
+      "BrandId": 2,
+      "Star": 3,
       "Name": "ハートメロディ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-117F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-117F_thumb.webp",
@@ -427,7 +425,7 @@
       "Id": 34,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "スターパーティー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-121F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-121F_thumb.webp",
@@ -438,7 +436,7 @@
       "Id": 35,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "スターパーティーいちごチョコ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-125F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-125F_thumb.webp",
@@ -449,7 +447,7 @@
       "Id": 36,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆☆",
+      "Star": 3,
       "Name": "スターパーティーほしぞらブルー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-129F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-129F_thumb.webp",
@@ -460,7 +458,7 @@
       "Id": 37,
       "ChapterId": "1",
       "BrandId": 6,
-      "Star": "☆☆",
+      "Star": 2,
       "Name": "パラダイスがくえんせいふく１ねん",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-133F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-133F_thumb.webp",
@@ -471,7 +469,7 @@
       "Id": 38,
       "ChapterId": "1",
       "BrandId": 6,
-      "Star": "☆☆",
+      "Star": 2,
       "Name": "パラダイスがくえんせいふく2ねん",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-136F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-136F_thumb.webp",
@@ -482,7 +480,7 @@
       "Id": 39,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆",
+      "Star": 2,
       "Name": "ラブリーアイドルイエローミント",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-137F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-137F_thumb.webp",
@@ -493,7 +491,7 @@
       "Id": 40,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆",
+      "Star": 2,
       "Name": "ラブリーアイドルホワイトパープル",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-141F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-141F_thumb.webp",
@@ -504,7 +502,7 @@
       "Id": 41,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆",
+      "Star": 2,
       "Name": "クールアイドルグリーンピンク",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-145F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-145F_thumb.webp",
@@ -515,7 +513,7 @@
       "Id": 42,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆",
+      "Star": 2,
       "Name": "クールアイドルレッドイエロー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-149F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-149F_thumb.webp",
@@ -526,7 +524,7 @@
       "Id": 43,
       "ChapterId": "1",
       "BrandId": 1,
-      "Star": "☆☆",
+      "Star": 2,
       "Name": "ハッピーチアライトグリーン",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-153F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-153F_thumb.webp",
@@ -537,12 +535,262 @@
       "Id": 44,
       "ChapterId": "1",
       "BrandId": 2,
-      "Star": "☆☆",
+      "Star": 2,
       "Name": "セーラーカジュアルラブリーパープル",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-157F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-157F_thumb.webp",
       "Kind": "★2",
       "Start": "2024-04-04"
+    },
+    {
+      "Id": 45,
+      "ChapterId": "1",
+      "BrandId": 6,
+      "Star": 3,
+      "Name": "スプリングツアー2024ひがし",
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-241F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-241F_thumb.webp",
+      "Kind": "1だんマイキャラツアー"
+    },
+    {
+      "Id": 46,
+      "ChapterId": "1",
+      "BrandId": 6,
+      "Star": 3,
+      "Name": "スプリングツアー2024にし",
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-243F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-243F_thumb.webp",
+      "Kind": "1だんマイキャラツアー"
+    },
+    {
+      "Id": 47,
+      "ChapterId": "1",
+      "BrandId": 6,
+      "Star": 3,
+      "Name": "スプリングツアー2024ぜんこく",
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-245F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-245F_thumb.webp",
+      "Kind": "1だんマイキャラツアー"
+    },
+    {
+      "Id": 48,
+      "ChapterId": "special",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "プリマジチェックヘブンズホワイト",
+      "Kind": "「ワッチャプリマジ！」ひきつぎキャンペーン"
+    },
+    {
+      "Id": 49,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Star": 2,
+      "Name": "ラブリーアイドルピンク",
+      "Kind": "ひみつのアイプリ 1だん"
+    },
+    {
+      "Id": 50,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Star": 2,
+      "Name": "ラブリーアイドルブルー",
+      "Kind": "ひみつのアイプリ 1だん"
+    },
+    {
+      "Id": 51,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Star": 2,
+      "Name": "クールアイドルピンク",
+      "Kind": "ひみつのアイプリ 1だん"
+    },
+    {
+      "Id": 52,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Star": 2,
+      "Name": "クールアイドルブルー",
+      "Kind": "ひみつのアイプリ 1だん"
+    },
+    {
+      "Id": 53,
+      "ChapterId": "special",
+      "BrandId": 5,
+      "Star": 2,
+      "Name": "クールアイドルレッド",
+      "Kind": "ひみつのアイプリ 1だん"
+    },
+    {
+      "Id": 54,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Star": 2,
+      "Name": "ハッピーチアピンク",
+      "Kind": "ひみつのアイプリ 1だん"
+    },
+    {
+      "Id": 55,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Star": 2,
+      "Name": "ハッピーチアブルー",
+      "Kind": "ひみつのアイプリ 1だん"
+    },
+    {
+      "Id": 56,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Star": 2,
+      "Name": "セーラーカジュアルピンク",
+      "Kind": "ひみつのアイプリ 1だん"
+    },
+    {
+      "Id": 57,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Star": 2,
+      "Name": "セーラーカジュアルブルー",
+      "Kind": "ひみつのアイプリ 1だん"
+    },
+    {
+      "Id": 58,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "ピンクジュエル",
+      "Kind": "ひみつのアイプリブレス ひまりモデル"
+    },
+    {
+      "Id": 59,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Name": "ブルージュエル",
+      "Kind": "ひみつのアイプリブレス みつきモデル"
+    },
+    {
+      "Id": 60,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "ラブリーコスメ",
+      "Kind": "ひみつのアイプリリップ ひまりモデル"
+    },
+    {
+      "Id": 61,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Name": "クールコスメ",
+      "Kind": "ひみつのアイプリリップ みつきモデル"
+    },
+    {
+      "Id": 62,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "フラワーチュールローズ",
+      "Kind": "ひみつのアイプリブレス リフィルリップ ローズの香り"
+    },
+    {
+      "Id": 63,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Name": "フラワーチュールジャスミン",
+      "Kind": "ひみつのアイプリブレス リフィルパフューム ジャスミンの香り"
+    },
+    {
+      "Id": 64,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "スターパーティーミントベリー",
+      "Kind": "ちゃお5月号付録「ひまり（スターパーティーミントベリー）」"
+    },
+    {
+      "Id": 65,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "キューティーラビットレッド",
+      "Kind": "ひみつのアイプリファンブック 2024年5月号"
+    },
+    {
+      "Id": 66,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "プリうさムギちゃんアクセ",
+      "Kind": "ひみつのアイプリ ぬいぐるみ プリうさムギちゃん"
+    },
+    {
+      "Id": 67,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "ひまりぬいぐるみアクセ",
+      "Kind": "ひみつのアイプリ ぬいぐるみ ひまり"
+    },
+    {
+      "Id": 68,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Name": "みつきぬいぐるみアクセ",
+      "Kind": "ひみつのアイプリ ぬいぐるみ みつき"
+    },
+    {
+      "Id": 69,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "ひまりのアイムゥアクセ",
+      "Kind": "ひみつのアイプリ ボールチェーンマスコット ひまりのアイムゥ"
+    },
+    {
+      "Id": 70,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Name": "みつきのアイムゥアクセ",
+      "Kind": "ひみつのアイプリ ボールチェーンマスコット みつきのアイムゥ"
+    },
+    {
+      "Id": 71,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "ポッピンハートバズリウムミント",
+      "Kind": "アイプリカード♪コレクショングミ"
+    },
+    {
+      "Id": 72,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "ぷるるんゼリーメロン",
+      "Kind": "アイプリカード♪コレクショングミ"
+    },
+    {
+      "Id": 73,
+      "ChapterId": "special",
+      "BrandId": 5,
+      "Star": 3,
+      "Name": "ゴージャスビジューイエロー",
+      "Kind": "アイプリカード♪コレクショングミ"
+    },
+    {
+      "Id": 74,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Star": 3,
+      "Name": "アイプリバースミラクルムーングレー",
+      "Kind": "アイプリカード♪コレクショングミ"
+    },
+    {
+      "Id": 75,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Star": 2,
+      "Name": "ハッピーチアシックブルー",
+      "Kind": "アイプリカード♪コレクショングミ"
+    },
+    {
+      "Id": 76,
+      "ChapterId": "special",
+      "BrandId": 5,
+      "Star": 2,
+      "Name": "クールアイドルネイビーピンク",
+      "Kind": "アイプリカード♪コレクショングミ"
     }
   ],
   "CoordinateItems": [
@@ -1163,6 +1411,69 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30100.webp"
     },
     {
+      "Id": 30101,
+      "CoordinateId": 49,
+      "Term": "アクセ",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30104.webp"
+    },
+    {
+      "Id": 30105,
+      "CoordinateId": 50,
+      "Term": "アクセ",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30108.webp"
+    },
+    {
+      "Id": 30109,
+      "CoordinateId": 51,
+      "Term": "アクセ",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30112.webp"
+    },
+    {
+      "Id": 30113,
+      "CoordinateId": 52,
+      "Term": "アクセ",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30116.webp"
+    },
+    {
+      "Id": 30117,
+      "CoordinateId": 53,
+      "Term": "アクセ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30120.webp"
+    },
+    {
+      "Id": 30121,
+      "CoordinateId": 54,
+      "Term": "アクセ",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30124.webp"
+    },
+    {
+      "Id": 30125,
+      "CoordinateId": 55,
+      "Term": "アクセ",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30128.webp"
+    },
+    {
+      "Id": 30129,
+      "CoordinateId": 56,
+      "Term": "アクセ",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30132.webp"
+    },
+    {
+      "Id": 30133,
+      "CoordinateId": 57,
+      "Term": "アクセ",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30136.webp"
+    },
+    {
       "Id": 30137,
       "CoordinateId": 3,
       "SealId": "V1-010",
@@ -1627,6 +1938,187 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30208.webp"
     },
     {
+      "Id": 30209,
+      "CoordinateId": 45,
+      "SealId": "V1-241",
+      "Term": "トップス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30209.webp"
+    },
+    {
+      "Id": 30210,
+      "CoordinateId": 45,
+      "SealId": "V1-242",
+      "Term": "アクセ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30210.webp"
+    },
+    {
+      "Id": 30211,
+      "CoordinateId": 46,
+      "SealId": "V1-243",
+      "Term": "トップス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30211.webp"
+    },
+    {
+      "Id": 30212,
+      "CoordinateId": 46,
+      "SealId": "V1-244",
+      "Term": "アクセ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30212.webp"
+    },
+    {
+      "Id": 30213,
+      "CoordinateId": 47,
+      "SealId": "V1-245",
+      "Term": "トップス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30213.webp"
+    },
+    {
+      "Id": 30214,
+      "CoordinateId": 47,
+      "SealId": "V1-246",
+      "Term": "アクセ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30214.webp"
+    },
+    {
+      "Id": 40024,
+      "CoordinateId": 58,
+      "Term": "アクセ",
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40026.webp"
+    },
+    {
+      "Id": 40027,
+      "CoordinateId": 59,
+      "Term": "アクセ",
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40029.webp"
+    },
+    {
+      "Id": 40036,
+      "CoordinateId": 60,
+      "Term": "アクセ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40039.webp"
+    },
+    {
+      "Id": 40040,
+      "CoordinateId": 61,
+      "Term": "アクセ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40043.webp"
+    },
+    {
+      "Id": 40044,
+      "CoordinateId": 62,
+      "Term": "アクセ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40047.webp"
+    },
+    {
+      "Id": 40048,
+      "CoordinateId": 63,
+      "Term": "アクセ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40051.webp"
+    },
+    {
+      "Id": 40091,
+      "CoordinateId": 64,
+      "Term": "アクセ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40094.webp"
+    },
+    {
+      "Id": 40099,
+      "CoordinateId": 65,
+      "Term": "アクセ",
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40102.webp"
+    },
+    {
+      "Id": 40103,
+      "CoordinateId": 66,
+      "Term": "アクセ",
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40103.webp"
+    },
+    {
+      "Id": 40104,
+      "CoordinateId": 67,
+      "Term": "アクセ",
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40104.webp"
+    },
+    {
+      "Id": 40105,
+      "CoordinateId": 68,
+      "Term": "アクセ",
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40105.webp"
+    },
+    {
+      "Id": 40106,
+      "CoordinateId": 69,
+      "Term": "アクセ",
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40106.webp"
+    },
+    {
+      "Id": 40107,
+      "CoordinateId": 70,
+      "Term": "アクセ",
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40107.webp"
+    },
+    {
+      "Id": 40108,
+      "CoordinateId": 71,
+      "Term": "アクセ",
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40110.webp"
+    },
+    {
+      "Id": 40111,
+      "CoordinateId": 72,
+      "Term": "アクセ",
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40114.webp"
+    },
+    {
+      "Id": 40115,
+      "CoordinateId": 73,
+      "Term": "アクセ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40117.webp"
+    },
+    {
+      "Id": 40118,
+      "CoordinateId": 74,
+      "Term": "アクセ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40121.webp"
+    },
+    {
+      "Id": 40122,
+      "CoordinateId": 75,
+      "Term": "アクセ",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40125.webp"
+    },
+    {
+      "Id": 40126,
+      "CoordinateId": 76,
+      "Term": "アクセ",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40129.webp"
+    },
+    {
       "Id": 40130,
       "CoordinateId": 15,
       "SealId": "V1-209",
@@ -1785,6 +2277,27 @@
       "Term": "アクセ",
       "Point": 90,
       "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30099.webp"
+    },
+    {
+      "Id": 40188,
+      "CoordinateId": 48,
+      "Term": "アクセ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40191.webp"
+    },
+    {
+      "Id": 40192,
+      "CoordinateId": 21,
+      "Term": "アクセ",
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40194.webp"
+    },
+    {
+      "Id": 40195,
+      "CoordinateId": 23,
+      "Term": "アクセ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40198.webp"
     }
   ]
 }

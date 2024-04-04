@@ -8,36 +8,26 @@ namespace Shipwreck.AipriDownloader;
 internal class Program
 {
     private const string VERSE_HOME = "https://aipri.jp/verse/";
+    private const string ITEM_FORMAT = VERSE_HOME + "item/{0}.html";
 
     static async Task Main(string[] args)
     {
         using var d = new DownloadContext();
 
-        using var html = await d.GetAsync(VERSE_HOME).ConfigureAwait(false);
+        await ParseItemAsync(d, string.Format(ITEM_FORMAT, "1"), true).ConfigureAwait(false);
 
-        var doc = new HtmlDocument();
-        doc.Load(html);
-
-        foreach (var a in doc.DocumentNode.SelectNodes("//a[@class='globalNav__link']"))
+        foreach (var ch in d.DataSet.Chapters.Where(e => e.Id != "1"))
         {
-            var href = a.GetAttributeValue("href", null);
-            if (href != null && Regex.IsMatch(href, @"^\/verse\/item\/(\d)\.html$"))
-            {
-                await ParseItemAsync(d, GetAbsoluteUrl(href)).ConfigureAwait(false);
-                break;
-            }
+            await ParseItemAsync(d, string.Format(ITEM_FORMAT, ch.Id), false).ConfigureAwait(false);
         }
 
         // 既知の誤記載を訂正する
         await CorrectKnownTypoAsync(d).ConfigureAwait(false);
     }
 
-    [return: NotNullIfNotNull(nameof(path))]
-    internal static string? GetAbsoluteUrl(string? path)
-        => string.IsNullOrEmpty(path) ? null : new Uri(new Uri(VERSE_HOME), path).ToString();
-
-    static async Task ParseItemAsync(DownloadContext d, string itemUrl)
+    static async Task ParseItemAsync(DownloadContext d, string itemUrl, bool parseChapters)
     {
+        var url = new Uri(itemUrl);
         using var html = await d.GetAsync(itemUrl).ConfigureAwait(false);
 
         var doc = new HtmlDocument();
@@ -45,14 +35,15 @@ internal class Program
 
         var sn = doc.DocumentNode.SelectSingleNode("//title")?.InnerText;
 
-        Chapter? chapter = null;
+        var chapterKey = Path.GetFileNameWithoutExtension(itemUrl);
+        Chapter? chapter = d.DataSet.Chapters.FirstOrDefault(e => e.Id == chapterKey);
 
         if (!string.IsNullOrEmpty(sn)
-            && Regex.Match(sn, "^【([^】]+)】") is var m
+            && Regex.Match(sn, "^(【(?<coord>[^】]+)】|(?<coord>.+))コーデアイテム") is var m
             && m.Success)
         {
             var ck = Path.GetFileNameWithoutExtension(itemUrl);
-            var cn = m.Groups[1].Value;
+            var cn = m.Groups["coord"].Value;
 
             chapter = d.AddChapter(ck, cn);
             Console.WriteLine(" - Chapter[{0}]: {1}", ck, cn);
@@ -60,50 +51,107 @@ internal class Program
 
         var nav = (HtmlAgilityPack.HtmlNodeNavigator)doc.CreateNavigator();
 
-        var currentCoords = new List<Coordinate>();
-        foreach (HtmlNodeNavigator cNode in nav.Select("//div[starts-with(@class, 'modal__item')]"))
+        if (parseChapters)
         {
-            var star = cNode.SelectSingleNode(".//p[@class='item__star']/img/@alt")?.Value?.Trim();
-            var title = cNode.SelectSingleNode(".//p[@class='item__ttl']")?.Value?.Trim();
-            var imgUrl = cNode.SelectSingleNode(".//p[@class='item__img']/img/@src")?.Value?.Trim();
-            var brand = cNode.SelectSingleNode(".//p[@class='item__brand']/img");
-            var bndImg = brand?.SelectSingleNode("@src")?.Value?.Trim();
-            var bndName = brand?.SelectSingleNode("@alt")?.Value?.Trim();
-
-            if (string.IsNullOrEmpty(title) || string.IsNullOrEmpty(star))
+            foreach (HtmlNodeNavigator cNode in nav.Select("//ul[@class='toggleList toggleList--pageSelect']/li/a/@href"))
             {
-                continue;
+                var v = Path.GetFileNameWithoutExtension(cNode.Value);
+                d.AddChapter(v, v);
+                Console.WriteLine(" - Chapter[{0}]: {1}", v, v);
             }
+        }
+
+        nav = (HtmlAgilityPack.HtmlNodeNavigator)doc.CreateNavigator();
+        var currentCoords = new HashSet<Coordinate>();
+        foreach (HtmlNodeNavigator cNode in nav.Select("//div[@class='grid__item']//a[@data-modal]"))
+        {
+            var modal = cNode.SelectSingleNode("@data-modal")?.Value;
+
+            var bndImg = cNode.SelectSingleNode("@data-brand")?.Value;
+            var bndName = cNode.SelectSingleNode("@data-brandname")?.Value;
 
             var b = string.IsNullOrEmpty(bndName) ? null
-                : await d.AddBrandAsync(bndName, GetAbsoluteUrl(bndImg)).ConfigureAwait(false);
+                : await d.AddBrandAsync(bndName, new Uri(url, bndImg).ToString()).ConfigureAwait(false);
 
-            var coord = await d.AddCoordinateAsync(chapter, b, title, star, GetAbsoluteUrl(imgUrl)).ConfigureAwait(false);
+            var title = cNode.SelectSingleNode("@data-name")?.Value;
+            var star = cNode.SelectSingleNode("@data-icn")?.Value is string icn
+                    && Regex.Match(Path.GetFileNameWithoutExtension(icn), "^icn_star\\d$") is var icnM
+                    && icnM.Success
+                    ? icnM.Value.Last() - '0'
+                    : (int?)null;
 
-            currentCoords.Add(coord);
-
-            foreach (HtmlNodeNavigator iNode in cNode.Select(".//dl[@class='itemList__item']"))
+            if (modal == "item")
             {
-                var term = iNode.SelectSingleNode(".//dt[@class='itemList__term']")?.Value?.Trim();
-                var iUrl = iNode.SelectSingleNode(".//dd[@class='itemList__desc']/img/@src")?.Value?.Trim();
-                var iid = iNode.SelectSingleNode(".//p[@class='item__id']")?.Value?.Trim();
-                var point = short.TryParse(iNode.SelectSingleNode(".//p[@class='item__point']")?.Value?.Trim(), out var pv) ? pv : (short)0;
+                var imgUrl = cNode.SelectSingleNode("@data-img")?.Value;
 
-                if (string.IsNullOrEmpty(iid) || string.IsNullOrEmpty(term))
+                if (string.IsNullOrEmpty(title))
                 {
                     continue;
                 }
 
+                var coord = await d.AddCoordinateAsync(chapter, b, title, star, new Uri(url, imgUrl).ToString()).ConfigureAwait(false);
+
+                currentCoords.Add(coord);
+
+                var thUrl = cNode.SelectSingleNode("./img/@src")?.Value;
+                if (thUrl != null)
+                {
+                    thUrl = new Uri(url, thUrl).ToString();
+                    if (coord.ThumbnailUrl != thUrl || !coord.IsThumbnailLoaded)
+                    {
+                        coord.ThumbnailUrl = await d.GetOrCopyImageAsync(thUrl, "coordinate-thumbnails", coord.Id).ConfigureAwait(false);
+                        coord.IsThumbnailLoaded = true;
+                    }
+                }
+
+                for (var n = 1; n <= 4; n++)
+                {
+                    var term = cNode.SelectSingleNode("@data-term" + n)?.Value?.Trim();
+                    if (string.IsNullOrEmpty(term))
+                    {
+                        break;
+                    }
+                    var iUrl = cNode.SelectSingleNode("@data-img" + n)?.Value?.Trim();
+                    var iid = cNode.SelectSingleNode("@data-id" + n)?.Value?.Trim();
+                    var point = short.TryParse(cNode.SelectSingleNode("@data-point" + n)?.Value?.Trim(), out var pv) ? pv : (short)0;
+
+                    var eid = iUrl != null && Regex.Match(iUrl, "\\/Item_ID(\\d+)\\.webp$") is var em && em.Success ? int.Parse(em.Groups[1].Value)
+                        : (int?)null;
+
+                    await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
+                }
+            }
+            else if (modal == "special")
+            {
+                if (string.IsNullOrEmpty(title))
+                {
+                    continue;
+                }
+
+                var coord = await d.AddCoordinateAsync(chapter, b, title, star, null).ConfigureAwait(false);
+
+                currentCoords.Add(coord);
+
+                var term = cNode.SelectSingleNode("@data-term")?.Value?.Trim();
+                if (string.IsNullOrEmpty(term))
+                {
+                    break;
+                }
+                var iUrl = cNode.SelectSingleNode("@data-img")?.Value?.Trim();
+                var iid = cNode.SelectSingleNode("@data-id")?.Value?.Trim();
+                var point = short.TryParse(cNode.SelectSingleNode("@data-point")?.Value?.Trim(), out var pv) ? pv : (short)0;
+
                 var eid = iUrl != null && Regex.Match(iUrl, "\\/Item_ID(\\d+)\\.webp$") is var em && em.Success ? int.Parse(em.Groups[1].Value)
                     : (int?)null;
 
-                await d.AddItemAsync(coord, iid, term, point, GetAbsoluteUrl(iUrl), eid).ConfigureAwait(false);
+                await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
             }
         }
 
         foreach (HtmlNodeNavigator cNode in nav.Select("//section[starts-with(@class, 'section js-hidden-item')]"))
         {
-            var kind = cNode.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim();
+            var kind = cNode.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim()
+                        ?? cNode.SelectSingleNode(".//h2")?.Value?.Trim();
             var period = cNode.SelectSingleNode(".//p[contains(@class, 'txt--period')]")?.Value?.Trim();
 
             DateOnly? start = null, end = null;
@@ -136,10 +184,10 @@ internal class Program
                 }
             }
 
-            foreach (HtmlNodeNavigator iNode in cNode.Select(".//div[@class='grid__item modal__hiddenItem']"))
+            foreach (HtmlNodeNavigator iNode in cNode.Select(".//div[@class='grid__item']"))
             {
-                var iUrl = GetAbsoluteUrl(iNode.SelectSingleNode(".//img/@src")?.Value?.Trim());
-                var item = iNode.SelectSingleNode(".//p[@class='item__txt']")?.Value?.Trim();
+                var item = iNode.SelectSingleNode(".//p[@class='item__txt']")?.Value?.Trim()
+                        ?? iNode.SelectSingleNode(".//a[@data-modal]/@data-name")?.Value?.Trim();
 
                 var c = currentCoords.FirstOrDefault(e => e.Name == item);
 
@@ -148,12 +196,6 @@ internal class Program
                     c.Kind = kind;
                     c.Start = start;
                     c.End = end;
-
-                    if (c.ThumbnailUrl != iUrl || !c.IsThumbnailLoaded)
-                    {
-                        c.ThumbnailUrl = await d.GetOrCopyImageAsync(iUrl, "coordinate-thumbnails", c.Id).ConfigureAwait(false);
-                        c.IsThumbnailLoaded = true;
-                    }
                 }
             }
         }

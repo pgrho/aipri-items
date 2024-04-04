@@ -9,7 +9,7 @@ public sealed class Coordinate : DataItem
     public string? ChapterId { get; set; }
     public int? BrandId { get; set; }
 
-    public string Star { get; set; } = string.Empty;
+    public byte? Star { get; set; }
     public string Name { get; set; } = string.Empty;
     public string? ImageUrl { get; set; }
     public string? ThumbnailUrl { get; set; }
