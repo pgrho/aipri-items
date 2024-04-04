@@ -1,4 +1,4 @@
-﻿namespace Shipwreck.AipriDownloader;
+﻿namespace Shipwreck.Aipri;
 
 public sealed class ChapterCollection : DataItemCollection<Chapter>
 {
@@ -11,7 +11,7 @@ public sealed class ChapterCollection : DataItemCollection<Chapter>
         Set(items);
     }
 
-    internal ChapterCollection(AipriVerseData? dataSet)
+    internal ChapterCollection(AipriVerseDataSet? dataSet)
         : base(dataSet)
     {
     }

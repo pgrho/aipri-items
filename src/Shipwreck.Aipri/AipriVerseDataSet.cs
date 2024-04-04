@@ -1,6 +1,6 @@
-﻿namespace Shipwreck.AipriDownloader;
+﻿namespace Shipwreck.Aipri;
 
-public sealed class AipriVerseData
+public class AipriVerseDataSet
 {
     #region Chapters
 

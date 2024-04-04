@@ -1,4 +1,4 @@
-﻿namespace Shipwreck.AipriDownloader;
+﻿namespace Shipwreck.Aipri;
 
 public sealed class CoordinateItemCollection : DataItemCollection<CoordinateItem>
 {
@@ -11,7 +11,7 @@ public sealed class CoordinateItemCollection : DataItemCollection<CoordinateItem
         Set(items);
     }
 
-    internal CoordinateItemCollection(AipriVerseData? dataSet)
+    internal CoordinateItemCollection(AipriVerseDataSet? dataSet)
         : base(dataSet)
     {
     }

@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 using System.Xml.Linq;
 
-namespace Shipwreck.AipriDownloader;
+namespace Shipwreck.Aipri;
 
 public sealed class CoordinateItem : DataItem
 {

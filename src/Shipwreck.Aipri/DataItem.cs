@@ -1,9 +1,9 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Shipwreck.AipriDownloader;
+namespace Shipwreck.Aipri;
 
 public abstract class DataItem
 {
     [JsonIgnore]
-    public AipriVerseData? DataSet { get; internal set; }
+    public AipriVerseDataSet? DataSet { get; internal set; }
 }

@@ -1,4 +1,4 @@
-﻿namespace Shipwreck.AipriDownloader;
+﻿namespace Shipwreck.Aipri;
 
 public sealed class BrandCollection : DataItemCollection<Brand>
 {
@@ -11,7 +11,7 @@ public sealed class BrandCollection : DataItemCollection<Brand>
         Set(items);
     }
 
-    internal BrandCollection(AipriVerseData? dataSet)
+    internal BrandCollection(AipriVerseDataSet? dataSet)
         : base(dataSet)
     {
     }

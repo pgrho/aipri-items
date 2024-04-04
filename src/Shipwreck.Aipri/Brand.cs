@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Shipwreck.AipriDownloader;
+namespace Shipwreck.Aipri;
 
 public sealed class Brand : DataItem
 {

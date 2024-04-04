@@ -1,4 +1,4 @@
-﻿namespace Shipwreck.AipriDownloader;
+﻿namespace Shipwreck.Aipri;
 
 public sealed class Chapter : DataItem
 {

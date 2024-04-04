@@ -1,13 +1,13 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace Shipwreck.AipriDownloader;
+namespace Shipwreck.Aipri;
 
 public abstract class DataItemCollection<T> : Collection<T>
     where T : DataItem
 {
-    private readonly AipriVerseData? _DataSet;
+    private readonly AipriVerseDataSet? _DataSet;
 
-    private protected DataItemCollection(AipriVerseData? dataSet)
+    private protected DataItemCollection(AipriVerseDataSet? dataSet)
     {
         _DataSet = dataSet;
     }
