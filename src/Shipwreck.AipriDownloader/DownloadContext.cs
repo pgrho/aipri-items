@@ -28,7 +28,7 @@ public sealed class DownloadContext : IDisposable
     public DownloadContext()
     {
         _Http = new HttpClient();
-        _OutputDirectory = new DirectoryInfo(Path.Combine(GetDirectory(), "output"));
+        _OutputDirectory = new DirectoryInfo(Path.Combine(Path.GetDirectoryName(Path.GetDirectoryName(GetDirectory())!)!, "output"));
         _DataSet = new();
         if (_OutputDirectory.Exists)
         {
