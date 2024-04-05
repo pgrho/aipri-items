@@ -9,11 +9,17 @@ public static class AipriVerseGitDataSetHelper
     public static string? GetImagePath(this Brand? e)
         => GetFilePath(Constants.BRAND_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
 
+    public static Uri? GetImageUri(this Brand? e)
+        => GetUri(Constants.BRAND_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
+
     public static Stream OpenImage(this Brand? e)
         => Open(Constants.BRAND_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
 
     public static string? GetImagePath(this Coordinate? e)
         => GetFilePath(Constants.COORDINATE_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
+
+    public static Uri? GetImageUri(this Coordinate? e)
+        => GetUri(Constants.COORDINATE_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
 
     public static Stream OpenImage(this Coordinate? e)
         => Open(Constants.COORDINATE_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
@@ -21,11 +27,17 @@ public static class AipriVerseGitDataSetHelper
     public static string? GetThumbnailPath(this Coordinate? e)
         => GetFilePath(Constants.COORDINATE_THUMBNAIL_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ThumbnailUrl);
 
+    public static Uri? GetThumbnailUri(this Coordinate? e)
+        => GetUri(Constants.COORDINATE_THUMBNAIL_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ThumbnailUrl);
+
     public static Stream OpenThumbnail(this Coordinate? e)
         => Open(Constants.COORDINATE_THUMBNAIL_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName!, e?.Id ?? -1, e?.ThumbnailUrl!);
 
     public static string? GetImagePath(this CoordinateItem? e)
         => GetFilePath(Constants.COORDINATE_ITEM_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
+
+    public static Uri? GetImageUri(this CoordinateItem? e)
+        => GetUri(Constants.COORDINATE_ITEM_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
 
     public static Stream OpenImage(this CoordinateItem? e)
         => Open(Constants.COORDINATE_ITEM_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
@@ -33,6 +45,11 @@ public static class AipriVerseGitDataSetHelper
     private static string? GetFilePath(string pathFormat, string? jsonPath, int? imageId, string? imageUrl)
         => jsonPath != null && imageId != null && imageUrl != null
         ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl))).LocalPath : null;
+
+    private static Uri? GetUri(string pathFormat, string? jsonPath, int? imageId, string? imageUrl)
+        => imageUrl == null ? null
+        : jsonPath != null && imageId != null ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl))) 
+        : new Uri(imageUrl);
 
     private static Stream Open(string pathFormat, string jsonPath, int imageId, string imageUrl)
         => new FileStream(
