@@ -5,16 +5,16 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.AipriDownloader", "Shipwreck.AipriDownloader\Shipwreck.AipriDownloader.csproj", "{20BC90B0-1DE3-48E4-9C69-49670BD09832}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipwreck.Aipri", "Shipwreck.Aipri\Shipwreck.Aipri.csproj", "{FD0C08EB-AB44-454E-887B-44F6EE99EDA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.Aipri", "Shipwreck.Aipri\Shipwreck.Aipri.csproj", "{FD0C08EB-AB44-454E-887B-44F6EE99EDA2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{72F9EBF2-E6D3-453E-922F-C0E2B17970CC}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.build.props = Directory.build.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipwreck.Aipri.Accessor", "Shipwreck.Aipri.Accessor\Shipwreck.Aipri.Accessor.csproj", "{78965C7B-09A5-4149-94C8-399321927909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.Aipri.Accessor", "Shipwreck.Aipri.Accessor\Shipwreck.Aipri.Accessor.csproj", "{78965C7B-09A5-4149-94C8-399321927909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipwreck.Aipri.Accessor.Tests", "Shipwreck.Aipri.Accessor.Tests\Shipwreck.Aipri.Accessor.Tests.csproj", "{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.Aipri.Accessor.Tests", "Shipwreck.Aipri.Accessor.Tests\Shipwreck.Aipri.Accessor.Tests.csproj", "{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

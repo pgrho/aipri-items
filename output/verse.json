@@ -1413,12 +1413,54 @@
     {
       "Id": 30101,
       "CoordinateId": 49,
+      "Term": "トップス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30101.webp"
+    },
+    {
+      "Id": 30102,
+      "CoordinateId": 49,
+      "Term": "ボトムス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30102.webp"
+    },
+    {
+      "Id": 30103,
+      "CoordinateId": 49,
+      "Term": "シューズ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30103.webp"
+    },
+    {
+      "Id": 30104,
+      "CoordinateId": 49,
       "Term": "アクセ",
       "Point": 80,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30104.webp"
     },
     {
       "Id": 30105,
+      "CoordinateId": 50,
+      "Term": "トップス",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30105.webp"
+    },
+    {
+      "Id": 30106,
+      "CoordinateId": 50,
+      "Term": "ボトムス",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30106.webp"
+    },
+    {
+      "Id": 30107,
+      "CoordinateId": 50,
+      "Term": "シューズ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30107.webp"
+    },
+    {
+      "Id": 30108,
       "CoordinateId": 50,
       "Term": "アクセ",
       "Point": 80,
@@ -1427,12 +1469,54 @@
     {
       "Id": 30109,
       "CoordinateId": 51,
+      "Term": "トップス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30109.webp"
+    },
+    {
+      "Id": 30110,
+      "CoordinateId": 51,
+      "Term": "ボトムス",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30110.webp"
+    },
+    {
+      "Id": 30111,
+      "CoordinateId": 51,
+      "Term": "シューズ",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30111.webp"
+    },
+    {
+      "Id": 30112,
+      "CoordinateId": 51,
       "Term": "アクセ",
       "Point": 90,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30112.webp"
     },
     {
       "Id": 30113,
+      "CoordinateId": 52,
+      "Term": "トップス",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30113.webp"
+    },
+    {
+      "Id": 30114,
+      "CoordinateId": 52,
+      "Term": "ボトムス",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30114.webp"
+    },
+    {
+      "Id": 30115,
+      "CoordinateId": 52,
+      "Term": "シューズ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30115.webp"
+    },
+    {
+      "Id": 30116,
       "CoordinateId": 52,
       "Term": "アクセ",
       "Point": 80,
@@ -1441,12 +1525,54 @@
     {
       "Id": 30117,
       "CoordinateId": 53,
+      "Term": "トップス",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30117.webp"
+    },
+    {
+      "Id": 30118,
+      "CoordinateId": 53,
+      "Term": "ボトムス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30118.webp"
+    },
+    {
+      "Id": 30119,
+      "CoordinateId": 53,
+      "Term": "シューズ",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30119.webp"
+    },
+    {
+      "Id": 30120,
+      "CoordinateId": 53,
       "Term": "アクセ",
       "Point": 100,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30120.webp"
     },
     {
       "Id": 30121,
+      "CoordinateId": 54,
+      "Term": "トップス",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30121.webp"
+    },
+    {
+      "Id": 30122,
+      "CoordinateId": 54,
+      "Term": "ボトムス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30122.webp"
+    },
+    {
+      "Id": 30123,
+      "CoordinateId": 54,
+      "Term": "シューズ",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30123.webp"
+    },
+    {
+      "Id": 30124,
       "CoordinateId": 54,
       "Term": "アクセ",
       "Point": 90,
@@ -1455,6 +1581,27 @@
     {
       "Id": 30125,
       "CoordinateId": 55,
+      "Term": "トップス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30125.webp"
+    },
+    {
+      "Id": 30126,
+      "CoordinateId": 55,
+      "Term": "ボトムス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30126.webp"
+    },
+    {
+      "Id": 30127,
+      "CoordinateId": 55,
+      "Term": "シューズ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30127.webp"
+    },
+    {
+      "Id": 30128,
+      "CoordinateId": 55,
       "Term": "アクセ",
       "Point": 80,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30128.webp"
@@ -1462,12 +1609,54 @@
     {
       "Id": 30129,
       "CoordinateId": 56,
+      "Term": "トップス",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30129.webp"
+    },
+    {
+      "Id": 30130,
+      "CoordinateId": 56,
+      "Term": "ボトムス",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30130.webp"
+    },
+    {
+      "Id": 30131,
+      "CoordinateId": 56,
+      "Term": "シューズ",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30131.webp"
+    },
+    {
+      "Id": 30132,
+      "CoordinateId": 56,
       "Term": "アクセ",
       "Point": 90,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30132.webp"
     },
     {
       "Id": 30133,
+      "CoordinateId": 57,
+      "Term": "トップス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30133.webp"
+    },
+    {
+      "Id": 30134,
+      "CoordinateId": 57,
+      "Term": "ボトムス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30134.webp"
+    },
+    {
+      "Id": 30135,
+      "CoordinateId": 57,
+      "Term": "シューズ",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30135.webp"
+    },
+    {
+      "Id": 30136,
       "CoordinateId": 57,
       "Term": "アクセ",
       "Point": 90,
@@ -1988,12 +2177,40 @@
     {
       "Id": 40024,
       "CoordinateId": 58,
+      "Term": "ワンピ",
+      "Point": 290,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40024.webp"
+    },
+    {
+      "Id": 40025,
+      "CoordinateId": 58,
+      "Term": "シューズ",
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40025.webp"
+    },
+    {
+      "Id": 40026,
+      "CoordinateId": 58,
       "Term": "アクセ",
       "Point": 140,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40026.webp"
     },
     {
       "Id": 40027,
+      "CoordinateId": 59,
+      "Term": "ワンピ",
+      "Point": 290,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40027.webp"
+    },
+    {
+      "Id": 40028,
+      "CoordinateId": 59,
+      "Term": "シューズ",
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40028.webp"
+    },
+    {
+      "Id": 40029,
       "CoordinateId": 59,
       "Term": "アクセ",
       "Point": 140,
@@ -2002,12 +2219,54 @@
     {
       "Id": 40036,
       "CoordinateId": 60,
+      "Term": "トップス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40036.webp"
+    },
+    {
+      "Id": 40037,
+      "CoordinateId": 60,
+      "Term": "ボトムス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40037.webp"
+    },
+    {
+      "Id": 40038,
+      "CoordinateId": 60,
+      "Term": "シューズ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40038.webp"
+    },
+    {
+      "Id": 40039,
+      "CoordinateId": 60,
       "Term": "アクセ",
       "Point": 110,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40039.webp"
     },
     {
       "Id": 40040,
+      "CoordinateId": 61,
+      "Term": "トップス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40040.webp"
+    },
+    {
+      "Id": 40041,
+      "CoordinateId": 61,
+      "Term": "ボトムス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40041.webp"
+    },
+    {
+      "Id": 40042,
+      "CoordinateId": 61,
+      "Term": "シューズ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40042.webp"
+    },
+    {
+      "Id": 40043,
       "CoordinateId": 61,
       "Term": "アクセ",
       "Point": 110,
@@ -2016,12 +2275,54 @@
     {
       "Id": 40044,
       "CoordinateId": 62,
+      "Term": "トップス",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40044.webp"
+    },
+    {
+      "Id": 40045,
+      "CoordinateId": 62,
+      "Term": "ボトムス",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40045.webp"
+    },
+    {
+      "Id": 40046,
+      "CoordinateId": 62,
+      "Term": "シューズ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40046.webp"
+    },
+    {
+      "Id": 40047,
+      "CoordinateId": 62,
       "Term": "アクセ",
       "Point": 100,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40047.webp"
     },
     {
       "Id": 40048,
+      "CoordinateId": 63,
+      "Term": "トップス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40048.webp"
+    },
+    {
+      "Id": 40049,
+      "CoordinateId": 63,
+      "Term": "ボトムス",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40049.webp"
+    },
+    {
+      "Id": 40050,
+      "CoordinateId": 63,
+      "Term": "シューズ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40050.webp"
+    },
+    {
+      "Id": 40051,
       "CoordinateId": 63,
       "Term": "アクセ",
       "Point": 100,
@@ -2030,12 +2331,54 @@
     {
       "Id": 40091,
       "CoordinateId": 64,
+      "Term": "トップス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40091.webp"
+    },
+    {
+      "Id": 40092,
+      "CoordinateId": 64,
+      "Term": "ボトムス",
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40092.webp"
+    },
+    {
+      "Id": 40093,
+      "CoordinateId": 64,
+      "Term": "シューズ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40093.webp"
+    },
+    {
+      "Id": 40094,
+      "CoordinateId": 64,
       "Term": "アクセ",
       "Point": 110,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40094.webp"
     },
     {
       "Id": 40099,
+      "CoordinateId": 65,
+      "Term": "トップス",
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40099.webp"
+    },
+    {
+      "Id": 40100,
+      "CoordinateId": 65,
+      "Term": "ボトムス",
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40100.webp"
+    },
+    {
+      "Id": 40101,
+      "CoordinateId": 65,
+      "Term": "シューズ",
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40101.webp"
+    },
+    {
+      "Id": 40102,
       "CoordinateId": 65,
       "Term": "アクセ",
       "Point": 150,
@@ -2079,12 +2422,47 @@
     {
       "Id": 40108,
       "CoordinateId": 71,
+      "Term": "ワンピ",
+      "Point": 310,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40108.webp"
+    },
+    {
+      "Id": 40109,
+      "CoordinateId": 71,
+      "Term": "シューズ",
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40109.webp"
+    },
+    {
+      "Id": 40110,
+      "CoordinateId": 71,
       "Term": "アクセ",
       "Point": 170,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40110.webp"
     },
     {
       "Id": 40111,
+      "CoordinateId": 72,
+      "Term": "トップス",
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40111.webp"
+    },
+    {
+      "Id": 40112,
+      "CoordinateId": 72,
+      "Term": "ボトムス",
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40112.webp"
+    },
+    {
+      "Id": 40113,
+      "CoordinateId": 72,
+      "Term": "シューズ",
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40113.webp"
+    },
+    {
+      "Id": 40114,
       "CoordinateId": 72,
       "Term": "アクセ",
       "Point": 150,
@@ -2093,12 +2471,47 @@
     {
       "Id": 40115,
       "CoordinateId": 73,
+      "Term": "ワンピ",
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40115.webp"
+    },
+    {
+      "Id": 40116,
+      "CoordinateId": 73,
+      "Term": "シューズ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40116.webp"
+    },
+    {
+      "Id": 40117,
+      "CoordinateId": 73,
       "Term": "アクセ",
       "Point": 110,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40117.webp"
     },
     {
       "Id": 40118,
+      "CoordinateId": 74,
+      "Term": "トップス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40118.webp"
+    },
+    {
+      "Id": 40119,
+      "CoordinateId": 74,
+      "Term": "ボトムス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40119.webp"
+    },
+    {
+      "Id": 40120,
+      "CoordinateId": 74,
+      "Term": "シューズ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40120.webp"
+    },
+    {
+      "Id": 40121,
       "CoordinateId": 74,
       "Term": "アクセ",
       "Point": 100,
@@ -2107,12 +2520,54 @@
     {
       "Id": 40122,
       "CoordinateId": 75,
+      "Term": "トップス",
+      "Point": 70,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40122.webp"
+    },
+    {
+      "Id": 40123,
+      "CoordinateId": 75,
+      "Term": "ボトムス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40123.webp"
+    },
+    {
+      "Id": 40124,
+      "CoordinateId": 75,
+      "Term": "シューズ",
+      "Point": 80,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40124.webp"
+    },
+    {
+      "Id": 40125,
+      "CoordinateId": 75,
       "Term": "アクセ",
       "Point": 90,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40125.webp"
     },
     {
       "Id": 40126,
+      "CoordinateId": 76,
+      "Term": "トップス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40126.webp"
+    },
+    {
+      "Id": 40127,
+      "CoordinateId": 76,
+      "Term": "ボトムス",
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40127.webp"
+    },
+    {
+      "Id": 40128,
+      "CoordinateId": 76,
+      "Term": "シューズ",
+      "Point": 70,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40128.webp"
+    },
+    {
+      "Id": 40129,
       "CoordinateId": 76,
       "Term": "アクセ",
       "Point": 80,
@@ -2281,6 +2736,27 @@
     {
       "Id": 40188,
       "CoordinateId": 48,
+      "Term": "トップス",
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40188.webp"
+    },
+    {
+      "Id": 40189,
+      "CoordinateId": 48,
+      "Term": "ボトムス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40189.webp"
+    },
+    {
+      "Id": 40190,
+      "CoordinateId": 48,
+      "Term": "シューズ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40190.webp"
+    },
+    {
+      "Id": 40191,
+      "CoordinateId": 48,
       "Term": "アクセ",
       "Point": 100,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40191.webp"
@@ -2288,12 +2764,47 @@
     {
       "Id": 40192,
       "CoordinateId": 21,
+      "Term": "ワンピ",
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40192.webp"
+    },
+    {
+      "Id": 40193,
+      "CoordinateId": 21,
+      "Term": "シューズ",
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40193.webp"
+    },
+    {
+      "Id": 40194,
+      "CoordinateId": 21,
       "Term": "アクセ",
       "Point": 120,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40194.webp"
     },
     {
       "Id": 40195,
+      "CoordinateId": 23,
+      "Term": "トップス",
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40195.webp"
+    },
+    {
+      "Id": 40196,
+      "CoordinateId": 23,
+      "Term": "ボトムス",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40196.webp"
+    },
+    {
+      "Id": 40197,
+      "CoordinateId": 23,
+      "Term": "シューズ",
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40197.webp"
+    },
+    {
+      "Id": 40198,
       "CoordinateId": 23,
       "Term": "アクセ",
       "Point": 100,

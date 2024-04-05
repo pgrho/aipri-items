@@ -152,12 +152,12 @@ public sealed class DownloadContext : IDisposable
         }
         req.Headers.IfModifiedSince = lastModified;
 
-        Console.WriteLine("Getting {0}.", url);
+        // Console.WriteLine("Getting {0}.", url);
         var res = await _Http.SendAsync(req).ConfigureAwait(false);
 
         if (res.StatusCode == System.Net.HttpStatusCode.NotModified)
         {
-            Console.WriteLine("Found cache for {0}.", url);
+            // Console.WriteLine("Found cache for {0}.", url);
             return File.OpenRead(Path.Combine(_CacheDirectory.FullName, c.Id.ToString()));
         }
 
@@ -340,7 +340,7 @@ public sealed class DownloadContext : IDisposable
         CoordinateItem? c;
         lock (_DataSet)
         {
-            c = _DataSet.CoordinateItems.FirstOrDefault(e => e.CoordinateId == coordinate.Id && e.SealId == sealId);
+            c = _DataSet.CoordinateItems.FirstOrDefault(e => e.CoordinateId == coordinate.Id && e.SealId == sealId && e.Term == term);
             if (c == null)
             {
                 c = new()

@@ -55,7 +55,7 @@ internal class Program
             {
                 var v = Path.GetFileNameWithoutExtension(cNode.Value);
                 d.AddChapter(v, v);
-                Console.WriteLine(" - Chapter[{0}]: {1}", v, v);
+                Console.WriteLine("   - Chapter[{0}]: {1}", v, v);
             }
         }
 
@@ -89,7 +89,10 @@ internal class Program
 
                 var coord = await d.AddCoordinateAsync(chapter, b, title, star, new Uri(url, imgUrl).ToString()).ConfigureAwait(false);
 
-                currentCoords.Add(coord);
+                if (currentCoords.Add(coord))
+                {
+                    Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
+                }
 
                 var thUrl = cNode.SelectSingleNode("./img/@src")?.Value;
                 if (thUrl != null)
@@ -116,7 +119,9 @@ internal class Program
                     var eid = iUrl != null && Regex.Match(iUrl, "\\/Item_ID(\\d+)\\.webp$") is var em && em.Success ? int.Parse(em.Groups[1].Value)
                         : (int?)null;
 
-                    await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
+                    var item = await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
+
+                    Console.WriteLine("     - Item[{0}]: {1}", item.Id, item.Term);
                 }
             }
             else if (modal == "special")
@@ -128,7 +133,10 @@ internal class Program
 
                 var coord = await d.AddCoordinateAsync(chapter, b, title, star, null).ConfigureAwait(false);
 
-                currentCoords.Add(coord);
+                if (currentCoords.Add(coord))
+                {
+                    Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
+                }
 
                 var term = cNode.SelectSingleNode("@data-term")?.Value?.Trim();
                 if (string.IsNullOrEmpty(term))
@@ -139,10 +147,13 @@ internal class Program
                 var iid = cNode.SelectSingleNode("@data-id")?.Value?.Trim();
                 var point = short.TryParse(cNode.SelectSingleNode("@data-point")?.Value?.Trim(), out var pv) ? pv : (short)0;
 
+                // todo SealId is not described
                 var eid = iUrl != null && Regex.Match(iUrl, "\\/Item_ID(\\d+)\\.webp$") is var em && em.Success ? int.Parse(em.Groups[1].Value)
                     : (int?)null;
 
-                await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
+                var item = await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
+
+                Console.WriteLine("     - Item[{0}]: {1}", item.Id, item.Term);
             }
         }
 
