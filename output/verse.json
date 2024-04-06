@@ -286,9 +286,10 @@
     },
     {
       "Id": 21,
-      "ChapterId": "special",
+      "ChapterId": "1",
       "BrandId": 1,
       "Name": "アイプリバースポッピンハート",
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-074F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-074F_thumb.webp",
       "Kind": "アイプリデビューキャンペーン"
     },
@@ -305,9 +306,10 @@
     },
     {
       "Id": 23,
-      "ChapterId": "special",
+      "ChapterId": "1",
       "BrandId": 2,
       "Name": "アイプリバースミラクルムーン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-080F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-080F_thumb.webp",
       "Kind": "アイプリデビューキャンペーン"
     },
@@ -1000,7 +1002,7 @@
       "SealId": "V1-074",
       "Term": "ワンピ",
       "Point": 220,
-      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30049.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40192.webp"
     },
     {
       "Id": 30050,
@@ -1008,7 +1010,7 @@
       "SealId": "V1-075",
       "Term": "シューズ",
       "Point": 100,
-      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30050.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40193.webp"
     },
     {
       "Id": 30051,
@@ -1016,7 +1018,7 @@
       "SealId": "V1-076",
       "Term": "アクセ",
       "Point": 120,
-      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30051.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40194.webp"
     },
     {
       "Id": 30052,
@@ -1048,7 +1050,7 @@
       "SealId": "V1-080",
       "Term": "トップス",
       "Point": 120,
-      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30055.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40195.webp"
     },
     {
       "Id": 30056,
@@ -1056,7 +1058,7 @@
       "SealId": "V1-081",
       "Term": "ボトムス",
       "Point": 110,
-      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30056.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40196.webp"
     },
     {
       "Id": 30057,
@@ -1064,7 +1066,7 @@
       "SealId": "V1-082",
       "Term": "シューズ",
       "Point": 110,
-      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30057.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40197.webp"
     },
     {
       "Id": 30058,
@@ -1072,7 +1074,7 @@
       "SealId": "V1-083",
       "Term": "アクセ",
       "Point": 100,
-      "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30058.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40198.webp"
     },
     {
       "Id": 30059,
@@ -2760,55 +2762,6 @@
       "Term": "アクセ",
       "Point": 100,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40191.webp"
-    },
-    {
-      "Id": 40192,
-      "CoordinateId": 21,
-      "Term": "ワンピ",
-      "Point": 220,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40192.webp"
-    },
-    {
-      "Id": 40193,
-      "CoordinateId": 21,
-      "Term": "シューズ",
-      "Point": 100,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40193.webp"
-    },
-    {
-      "Id": 40194,
-      "CoordinateId": 21,
-      "Term": "アクセ",
-      "Point": 120,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40194.webp"
-    },
-    {
-      "Id": 40195,
-      "CoordinateId": 23,
-      "Term": "トップス",
-      "Point": 120,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40195.webp"
-    },
-    {
-      "Id": 40196,
-      "CoordinateId": 23,
-      "Term": "ボトムス",
-      "Point": 110,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40196.webp"
-    },
-    {
-      "Id": 40197,
-      "CoordinateId": 23,
-      "Term": "シューズ",
-      "Point": 110,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40197.webp"
-    },
-    {
-      "Id": 40198,
-      "CoordinateId": 23,
-      "Term": "アクセ",
-      "Point": 100,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40198.webp"
     }
   ]
 }

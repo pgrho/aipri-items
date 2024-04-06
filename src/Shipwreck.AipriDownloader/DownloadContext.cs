@@ -1,7 +1,5 @@
 ﻿using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
-using System.Text.Json;
-using System.Xml.Linq;
 
 namespace Shipwreck.AipriDownloader;
 
@@ -320,9 +318,16 @@ public sealed class DownloadContext : IDisposable
             }
         }
 
-        c.ChapterId = chapter?.Id;
         c.BrandId = brand?.Id;
         c.Star = (byte?)star;
+
+        if (c.ChapterId != chapter?.Id
+            && string.IsNullOrEmpty(imageUrl))
+        {
+            return c;
+        }
+
+        c.ChapterId = chapter?.Id;
 
         if (c.ImageUrl == imageUrl && c.IsImageLoaded)
         {
@@ -340,7 +345,7 @@ public sealed class DownloadContext : IDisposable
         CoordinateItem? c;
         lock (_DataSet)
         {
-            c = _DataSet.CoordinateItems.FirstOrDefault(e => e.CoordinateId == coordinate.Id && e.SealId == sealId && e.Term == term);
+            c = _DataSet.CoordinateItems.FirstOrDefault(e => e.CoordinateId == coordinate.Id && e.Term == term);
             if (c == null)
             {
                 c = new()
@@ -354,9 +359,17 @@ public sealed class DownloadContext : IDisposable
         }
 
         c.CoordinateId = coordinate.Id;
-        c.SealId = sealId;
         c.Term = term;
         c.Point = point;
+
+        if (!string.IsNullOrEmpty(sealId))
+        {
+            c.SealId = sealId;
+            if (!string.IsNullOrEmpty(c.ImageUrl))
+            {
+                return c;
+            }
+        }
 
         if (c.ImageUrl == imageUrl && c.IsImageLoaded)
         {
