@@ -273,7 +273,14 @@ public sealed class DownloadContext : IDisposable
                     bip.Directory.Create();
                 }
 
-                using var ws = await GetAsync(imageUrl).ConfigureAwait(false);
+                using var ws = await (
+                    imageUrl.StartsWith("http") ? GetAsync(imageUrl)
+                    : Task.FromResult<Stream>(
+                        new FileStream(
+                            Path.Combine(Path.GetDirectoryName(_OutputDirectory.FullName)!, "custom", imageUrl),
+                            FileMode.Open,
+                            FileAccess.Read,
+                            FileShare.Read))).ConfigureAwait(false);
 
                 if (ws is FileStream fs)
                 {

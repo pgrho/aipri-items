@@ -226,22 +226,64 @@ internal class Program
             using var fs = cor.OpenRead();
             var cd = await JsonSerializer.DeserializeAsync<CorrectionData>(fs).ConfigureAwait(false);
 
+            foreach (var ci in cd?.Coordinates ?? [])
+            {
+                var dt = ci?.Data;
+                if (dt != null)
+                {
+                    var pred = ci!.Key switch
+                    {
+                        nameof(dt.Id)
+                        or "" or null => (Func<Coordinate, bool>)(e => e.Id == dt.Id),
+                        _ => throw new ArgumentException()
+                    };
+
+                    var t = d.DataSet.Coordinates.FirstOrDefault(pred);
+                    if (t == null && dt.Id > 0)
+                    {
+                        t = new() { Id = dt.Id };
+                        d.DataSet.Coordinates.Add(t);
+                    }
+                    if (t != null)
+                    {
+                        t.ChapterId = dt.ChapterId ?? t.ChapterId;
+                        t.Star = dt.Star ?? t.Star;
+                        t.Name = dt.Name ?? t.Name;
+                        t.Kind = dt.Kind ?? t.Kind;
+                    }
+                }
+            }
             foreach (var ci in cd?.CoordinateItems ?? [])
             {
-                if (ci?.Data != null)
+                var dt = ci?.Data;
+                if (dt != null)
                 {
-                    var pred = ci.Key switch
+                    var pred = ci!.Key switch
                     {
-                        nameof(ci.Data.Id) => (Func<CoordinateItem, bool>)(e => e.Id == ci.Data.Id),
+                        nameof(dt.Id)
+                        or "" or null => (Func<CoordinateItem, bool>)(e => e.Id == dt.Id),
                         _ => throw new ArgumentException()
                     };
 
                     var t = d.DataSet.CoordinateItems.FirstOrDefault(pred);
+                    if (t == null && dt.Id > 0 && d.DataSet.Coordinates.GetById(dt.CoordinateId) is Coordinate coord)
+                    {
+                        t = new()
+                        {
+                            Id = dt.Id,
+                            CoordinateId = coord.Id
+                        };
+                        d.DataSet.CoordinateItems.Add(t);
+                    }
                     if (t != null)
                     {
-                        t.SealId = ci.Data.SealId.TrimOrNull() ?? t.SealId;
-                        t.Term = ci.Data.Term.TrimOrNull() ?? t.Term;
-                        t.Point = ci.Data.Point.PositiveOrNull() ?? t.Point;
+                        t.SealId = dt.SealId ?? t.SealId;
+                        t.Term = dt.Term ?? t.Term;
+                        t.Point = dt.Point > 0 ? dt.Point : t.Point;
+                        if (!string.IsNullOrEmpty(dt.ImageUrl))
+                        {
+                            await d.GetOrCopyImageAsync(dt.ImageUrl, "coordinateItems", t.Id);
+                        }
                     }
                 }
             }

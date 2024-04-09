@@ -17,6 +17,9 @@ public sealed class CoordinateCollection : DataItemCollection<Coordinate>
     }
 
     // TODO index
+    public Coordinate? GetById(int id)
+        => this.FirstOrDefault(e => e.Id == id);
+
     public Coordinate? GetByName(string name)
         => this.FirstOrDefault(e => e.Name == name);
 }
