@@ -282,7 +282,7 @@ internal class Program
                         t.Point = dt.Point > 0 ? dt.Point : t.Point;
                         if (!string.IsNullOrEmpty(dt.ImageUrl))
                         {
-                            await d.GetOrCopyImageAsync(dt.ImageUrl, "coordinateItems", t.Id);
+                            t.ImageUrl = await d.GetOrCopyImageAsync(dt.ImageUrl, "coordinateItems", t.Id);
                         }
                     }
                 }
