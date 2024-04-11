@@ -12,6 +12,13 @@ internal class Program
     {
         using var d = new DownloadContext();
 
+        d.ClearSubdirectories();
+
+        foreach (var c in d.DataSet.Coordinates)
+        {
+            c.LinkedItemIds.Clear();
+        }
+
         await ParseItemAsync(d, string.Format(ITEM_FORMAT, "1"), true).ConfigureAwait(false);
 
         foreach (var ch in d.DataSet.Chapters.Where(e => e.Id != "1"))
@@ -60,7 +67,14 @@ internal class Program
         }
 
         nav = (HtmlAgilityPack.HtmlNodeNavigator)doc.CreateNavigator();
-        var currentCoords = new HashSet<Coordinate>();
+
+        var oldCoordinates = d.DataSet.Coordinates.Where(e => e.ChapterId == chapter?.Id).ToList();
+        var oldIds = oldCoordinates.Select(e => e.Id).ToList();
+        var oldCoordinateItems = d.DataSet.CoordinateItems.Where(e => oldIds.Contains(e.CoordinateId)).ToList();
+
+        var newCoordinates = new HashSet<Coordinate>();
+        var newCoordinateItems = new HashSet<CoordinateItem>();
+
         foreach (HtmlNodeNavigator cNode in nav.Select("//div[@class='grid__item']//a[@data-modal]"))
         {
             var modal = cNode.SelectSingleNode("@data-modal")?.Value;
@@ -78,6 +92,33 @@ internal class Program
                     ? icnM.Value.Last() - '0'
                     : (int?)null;
 
+            async Task addItemAsync(Coordinate coord, string? term, string? iUrl, string? iid, short point)
+            {
+                var eid = iUrl != null && Regex.Match(iUrl, "\\/Item_ID(\\d+)\\.webp$") is var em && em.Success ? int.Parse(em.Groups[1].Value)
+                    : (int?)null;
+
+                var first = (string.IsNullOrEmpty(iid)
+                    ? null
+                    : d.DataSet.CoordinateItems.FirstOrDefault(e => e.SealId == iid && e.IsCurrentRun))
+                    ?? (d.DataSet.CoordinateItems.FirstOrDefault(e => e.GetCoordinate()?.Name == coord.Name && e.Term == term && string.IsNullOrEmpty(e.SealId)));
+
+                if (first == null || first.CoordinateId == coord.Id)
+                {
+                    var item = await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
+
+                    item.IsCurrentRun = true;
+
+                    Console.WriteLine("     - Item[{0}]: {1}", item.Id, item.Term);
+
+                    newCoordinateItems.Add(item);
+                }
+                else
+                {
+                    coord.LinkedItemIds.Add(first.Id);
+                    Console.WriteLine("     - Item[{0}]: {1} (Linked to {2})", first.Id, first.Term, d.DataSet.Coordinates.GetById(first.CoordinateId)?.Name);
+                }
+            }
+
             if (modal == "item")
             {
                 var imgUrl = cNode.SelectSingleNode("@data-img")?.Value;
@@ -89,7 +130,7 @@ internal class Program
 
                 var coord = await d.AddCoordinateAsync(chapter, b, title, star, new Uri(url, imgUrl).ToString()).ConfigureAwait(false);
 
-                if (currentCoords.Add(coord))
+                if (newCoordinates.Add(coord))
                 {
                     Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
                 }
@@ -116,12 +157,7 @@ internal class Program
                     var iid = cNode.SelectSingleNode("@data-id" + n)?.Value?.Trim();
                     var point = short.TryParse(cNode.SelectSingleNode("@data-point" + n)?.Value?.Trim(), out var pv) ? pv : (short)0;
 
-                    var eid = iUrl != null && Regex.Match(iUrl, "\\/Item_ID(\\d+)\\.webp$") is var em && em.Success ? int.Parse(em.Groups[1].Value)
-                        : (int?)null;
-
-                    var item = await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
-
-                    Console.WriteLine("     - Item[{0}]: {1}", item.Id, item.Term);
+                    await addItemAsync(coord, term, iUrl, iid, point).ConfigureAwait(false);
                 }
             }
             else if (modal == "special")
@@ -133,7 +169,7 @@ internal class Program
 
                 var coord = await d.AddCoordinateAsync(chapter, b, title, star, null).ConfigureAwait(false);
 
-                if (currentCoords.Add(coord))
+                if (newCoordinates.Add(coord))
                 {
                     Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
                 }
@@ -147,13 +183,7 @@ internal class Program
                 var iid = cNode.SelectSingleNode("@data-id")?.Value?.Trim();
                 var point = short.TryParse(cNode.SelectSingleNode("@data-point")?.Value?.Trim(), out var pv) ? pv : (short)0;
 
-                // todo SealId is not described
-                var eid = iUrl != null && Regex.Match(iUrl, "\\/Item_ID(\\d+)\\.webp$") is var em && em.Success ? int.Parse(em.Groups[1].Value)
-                    : (int?)null;
-
-                var item = await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
-
-                Console.WriteLine("     - Item[{0}]: {1}", item.Id, item.Term);
+                await addItemAsync(coord, term, iUrl, iid, point).ConfigureAwait(false);
             }
         }
 
@@ -198,7 +228,7 @@ internal class Program
                 var item = iNode.SelectSingleNode(".//p[@class='item__txt']")?.Value?.Trim()
                         ?? iNode.SelectSingleNode(".//a[@data-modal]/@data-name")?.Value?.Trim();
 
-                var c = currentCoords.FirstOrDefault(e => e.Name == item);
+                var c = newCoordinates.FirstOrDefault(e => e.Name == item);
 
                 if (c != null)
                 {
@@ -209,12 +239,18 @@ internal class Program
             }
         }
 
-        // TODO 現在のチャプターで記載のないコーデを削除する
+        foreach (var oc in oldCoordinateItems)
+        {
+            if (!newCoordinateItems.Contains(oc))
+            {
+                d.DataSet.CoordinateItems.Remove(oc);
+            }
+        }
 
         if (chapter != null)
         {
-            chapter.Start = currentCoords.Min(e => e.Start);
-            chapter.End = currentCoords.Max(e => e.End);
+            chapter.Start = newCoordinates.Min(e => e.Start);
+            chapter.End = newCoordinates.Max(e => e.End);
         }
     }
 

@@ -23,6 +23,40 @@ public sealed class Coordinate : DataItem
     [JsonIgnore]
     internal bool IsThumbnailLoaded { get; set; }
 
+    #region LinkedItemIds
+
+    private List<int>? _LinkedItemIds;
+
+    public IList<int> LinkedItemIds
+    {
+        get => _LinkedItemIds ??= new();
+        set
+        {
+            if (value != _LinkedItemIds)
+            {
+                _LinkedItemIds?.Clear();
+                ((List<int>)LinkedItemIds).AddRange(value ?? []);
+            }
+        }
+    }
+
+    public IEnumerable<CoordinateItem> GetLinkedItems()
+    {
+        if (_LinkedItemIds != null && DataSet is var ds && ds != null)
+        {
+            foreach (var id in _LinkedItemIds)
+            {
+                var c = ds.CoordinateItems.GetById(id);
+                if (c != null)
+                {
+                    yield return c;
+                }
+            }
+        }
+    }
+
+    #endregion LinkedItemIds
+
     public Coordinate Clone()
         => new()
         {
@@ -36,5 +70,6 @@ public sealed class Coordinate : DataItem
             Kind = Kind,
             Start = Start,
             End = End,
+            _LinkedItemIds = _LinkedItemIds?.Count > 0 ? _LinkedItemIds?.ToList() : null,
         };
 }

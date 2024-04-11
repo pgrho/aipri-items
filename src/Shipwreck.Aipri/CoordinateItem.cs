@@ -9,6 +9,9 @@ public sealed class CoordinateItem : DataItem
 
     public int CoordinateId { get; set; }
 
+    public Coordinate? GetCoordinate() => DataSet?.Coordinates.GetById(CoordinateId);
+
+
     public string SealId { get; set; } = string.Empty;
     public string Term { get; set; } = string.Empty;
     public short Point { get; set; }
@@ -16,6 +19,9 @@ public sealed class CoordinateItem : DataItem
 
     [JsonIgnore]
     internal bool IsImageLoaded { get; set; }
+
+    [JsonIgnore]
+    internal bool IsCurrentRun { get; set; }
 
     public CoordinateItem Clone()
         => new()

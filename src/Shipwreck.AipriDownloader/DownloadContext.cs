@@ -425,4 +425,16 @@ public sealed class DownloadContext : IDisposable
         _JsonStream.Dispose();
         _Http.Dispose();
     }
+
+    public void ClearSubdirectories()
+    {
+        try
+        {
+            foreach (var d in _OutputDirectory.GetDirectories())
+            {
+                d.Delete(true);
+            }
+        }
+        catch { }
+    }
 }

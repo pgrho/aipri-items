@@ -15,4 +15,8 @@ public sealed class CoordinateItemCollection : DataItemCollection<CoordinateItem
         : base(dataSet)
     {
     }
+
+    // TODO index
+    public CoordinateItem? GetById(int id)
+        => this.FirstOrDefault(e => e.Id == id);
 }
