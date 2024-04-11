@@ -100,7 +100,7 @@ internal class Program
                 var first = (string.IsNullOrEmpty(iid)
                     ? null
                     : d.DataSet.CoordinateItems.FirstOrDefault(e => e.SealId == iid && e.IsCurrentRun))
-                    ?? (d.DataSet.CoordinateItems.FirstOrDefault(e => e.GetCoordinate()?.Name == coord.Name && e.Term == term && string.IsNullOrEmpty(e.SealId)));
+                    ?? (d.DataSet.CoordinateItems.FirstOrDefault(e => e.GetCoordinate()?.Name == coord.Name && e.Term == term));
 
                 if (first == null || first.CoordinateId == coord.Id)
                 {

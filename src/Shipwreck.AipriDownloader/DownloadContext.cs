@@ -313,12 +313,13 @@ public sealed class DownloadContext : IDisposable
         Coordinate? c;
         lock (_DataSet)
         {
-            c = _DataSet.Coordinates.GetByName(name);
+            c = _DataSet.Coordinates.FirstOrDefault(e => e.ChapterId == chapter?.Id && e.Name == name);
             if (c == null)
             {
                 c = new()
                 {
                     Name = name,
+                    ChapterId = chapter?.Id,
                     Id = (_DataSet.Coordinates.Max(e => e?.Id) ?? 0) + 1
                 };
                 _DataSet.Coordinates.Add(c);
@@ -328,13 +329,13 @@ public sealed class DownloadContext : IDisposable
         c.BrandId = brand?.Id;
         c.Star = (byte?)star;
 
-        if (c.ChapterId != chapter?.Id
-            && string.IsNullOrEmpty(imageUrl))
-        {
-            return c;
-        }
+        //if (c.ChapterId != chapter?.Id
+        //    && string.IsNullOrEmpty(imageUrl))
+        //{
+        //    return c;
+        //}
 
-        c.ChapterId = chapter?.Id;
+        //c.ChapterId = chapter?.Id;
 
         if (c.ImageUrl == imageUrl && c.IsImageLoaded)
         {

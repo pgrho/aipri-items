@@ -4,7 +4,7 @@
       "Key": "Id",
       "Data": {
         "ChapterId": "special",
-        "Id": 900001,
+        "Id": 9900001,
         "Star": 4,
         "Name": "スプリングブロッサム",
         "Kind": "ひみつのアイプリミルフィーカード vol.1"
@@ -14,7 +14,7 @@
       "Key": "Id",
       "Data": {
         "ChapterId": "special",
-        "Id": 900002,
+        "Id": 9900002,
         "Star": 4,
         "Name": "スプリングブルーバタフライ",
         "Kind": "ひみつのアイプリミルフィーカード vol.1"
@@ -24,7 +24,7 @@
       "Key": "Id",
       "Data": {
         "ChapterId": "special",
-        "Id": 900003,
+        "Id": 9900003,
         "Star": 4,
         "Name": "バタフライマジックブルー",
         "Kind": "ひみつのアイプリミルフィーカード vol.1"
@@ -34,7 +34,7 @@
       "Key": "Id",
       "Data": {
         "ChapterId": "special",
-        "Id": 900004,
+        "Id": 9900004,
         "Star": 3,
         "Name": "フラワーチュールスカーレット",
         "Kind": "ひみつのアイプリミルフィーカード vol.1"
@@ -44,7 +44,7 @@
       "Key": "Id",
       "Data": {
         "ChapterId": "special",
-        "Id": 900005,
+        "Id": 9900005,
         "Star": 3,
         "Name": "スターメロディマジカル",
         "Kind": "ひみつのアイプリミルフィーカード vol.1"
@@ -54,7 +54,7 @@
       "Key": "Id",
       "Data": {
         "ChapterId": "special",
-        "Id": 900006,
+        "Id": 9900006,
         "Star": 3,
         "Name": "ハニービービビッドピンク",
         "Kind": "ひみつのアイプリミルフィーカード vol.1"
@@ -64,7 +64,7 @@
       "Key": "Id",
       "Data": {
         "ChapterId": "special",
-        "Id": 900007,
+        "Id": 9900007,
         "Star": 2,
         "Name": "ラブリーアイドルホワイトブルー",
         "Kind": "ひみつのアイプリミルフィーカード vol.1"
@@ -74,7 +74,7 @@
       "Key": "Id",
       "Data": {
         "ChapterId": "special",
-        "Id": 900008,
+        "Id": 9900008,
         "Star": 2,
         "Name": "クールアイドルパープルブラック",
         "Kind": "ひみつのアイプリミルフィーカード vol.1"
@@ -86,7 +86,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910001,
-        "CoordinateId": 900001,
+        "CoordinateId": 9900001,
         "SealId": "M1-001-1",
         "Term": "トップス",
         "Point": 150,
@@ -97,7 +97,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910002,
-        "CoordinateId": 900001,
+        "CoordinateId": 9900001,
         "SealId": "M1-001-2",
         "Term": "ボトムス",
         "Point": 130,
@@ -108,7 +108,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910003,
-        "CoordinateId": 900001,
+        "CoordinateId": 9900001,
         "SealId": "M1-001-3",
         "Term": "シューズ",
         "Point": 150,
@@ -119,7 +119,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910004,
-        "CoordinateId": 900001,
+        "CoordinateId": 9900001,
         "SealId": "M1-001-4",
         "Term": "アクセ",
         "Point": 140,
@@ -130,7 +130,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910005,
-        "CoordinateId": 900002,
+        "CoordinateId": 9900002,
         "SealId": "M1-002-1",
         "Term": "トップス",
         "Point": 140,
@@ -141,7 +141,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910006,
-        "CoordinateId": 900002,
+        "CoordinateId": 9900002,
         "SealId": "M1-002-2",
         "Term": "ボトムス",
         "Point": 150,
@@ -152,7 +152,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910007,
-        "CoordinateId": 900002,
+        "CoordinateId": 9900002,
         "SealId": "M1-002-3",
         "Term": "シューズ",
         "Point": 140,
@@ -163,7 +163,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910008,
-        "CoordinateId": 900002,
+        "CoordinateId": 9900002,
         "SealId": "M1-002-4",
         "Term": "アクセ",
         "Point": 140,
@@ -174,7 +174,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910009,
-        "CoordinateId": 900003,
+        "CoordinateId": 9900003,
         "SealId": "M1-003-1",
         "Term": "トップス",
         "Point": 150,
@@ -185,7 +185,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910010,
-        "CoordinateId": 900003,
+        "CoordinateId": 9900003,
         "SealId": "M1-003-2",
         "Term": "ボトムス",
         "Point": 160,
@@ -196,7 +196,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910011,
-        "CoordinateId": 900003,
+        "CoordinateId": 9900003,
         "SealId": "M1-003-3",
         "Term": "シューズ",
         "Point": 120,
@@ -207,7 +207,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910012,
-        "CoordinateId": 900003,
+        "CoordinateId": 9900003,
         "SealId": "M1-003-4",
         "Term": "アクセ",
         "Point": 140,
@@ -218,7 +218,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910013,
-        "CoordinateId": 900004,
+        "CoordinateId": 9900004,
         "SealId": "M1-004-1",
         "Term": "トップス",
         "Point": 100,
@@ -229,7 +229,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910014,
-        "CoordinateId": 900004,
+        "CoordinateId": 9900004,
         "SealId": "M1-004-2",
         "Term": "ボトムス",
         "Point": 100,
@@ -240,7 +240,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910015,
-        "CoordinateId": 900004,
+        "CoordinateId": 9900004,
         "SealId": "M1-004-3",
         "Term": "シューズ",
         "Point": 110,
@@ -251,7 +251,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910016,
-        "CoordinateId": 900004,
+        "CoordinateId": 9900004,
         "SealId": "M1-004-4",
         "Term": "アクセ",
         "Point": 100,
@@ -262,7 +262,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910017,
-        "CoordinateId": 900005,
+        "CoordinateId": 9900005,
         "SealId": "M1-005-1",
         "Term": "トップス",
         "Point": 100,
@@ -273,10 +273,10 @@
       "Key": "Id",
       "Data": {
         "Id": 910018,
-        "CoordinateId": 900005,
+        "CoordinateId": 9900005,
         "SealId": "M1-005-2",
         "Term": "ボトムス",
-        "Point": 90,
+        "Point": 990,
         "ImageUrl": "m1-005-2.png"
       }
     },
@@ -284,7 +284,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910019,
-        "CoordinateId": 900005,
+        "CoordinateId": 9900005,
         "SealId": "M1-005-3",
         "Term": "シューズ",
         "Point": 120,
@@ -295,7 +295,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910020,
-        "CoordinateId": 900005,
+        "CoordinateId": 9900005,
         "SealId": "M1-005-4",
         "Term": "アクセ",
         "Point": 100,
@@ -306,7 +306,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910021,
-        "CoordinateId": 900006,
+        "CoordinateId": 9900006,
         "SealId": "M1-006-1",
         "Term": "トップス",
         "Point": 110,
@@ -317,7 +317,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910022,
-        "CoordinateId": 900006,
+        "CoordinateId": 9900006,
         "SealId": "M1-006-2",
         "Term": "ボトムス",
         "Point": 110,
@@ -328,7 +328,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910023,
-        "CoordinateId": 900006,
+        "CoordinateId": 9900006,
         "SealId": "M1-006-3",
         "Term": "シューズ",
         "Point": 100,
@@ -339,10 +339,10 @@
       "Key": "Id",
       "Data": {
         "Id": 910024,
-        "CoordinateId": 900006,
+        "CoordinateId": 9900006,
         "SealId": "M1-006-4",
         "Term": "アクセ",
-        "Point": 90,
+        "Point": 990,
         "ImageUrl": "m1-006-4.png"
       }
     },
@@ -350,7 +350,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910025,
-        "CoordinateId": 900007,
+        "CoordinateId": 9900007,
         "SealId": "M1-007-1",
         "Term": "トップス",
         "Point": 70,
@@ -361,10 +361,10 @@
       "Key": "Id",
       "Data": {
         "Id": 910026,
-        "CoordinateId": 900007,
+        "CoordinateId": 9900007,
         "SealId": "M1-007-2",
         "Term": "ボトムス",
-        "Point": 90,
+        "Point": 990,
         "ImageUrl": "m1-007-2.png"
       }
     },
@@ -372,7 +372,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910027,
-        "CoordinateId": 900007,
+        "CoordinateId": 9900007,
         "SealId": "M1-007-3",
         "Term": "シューズ",
         "Point": 80,
@@ -383,10 +383,10 @@
       "Key": "Id",
       "Data": {
         "Id": 910028,
-        "CoordinateId": 900007,
+        "CoordinateId": 9900007,
         "SealId": "M1-007-4",
         "Term": "アクセ",
-        "Point": 90,
+        "Point": 990,
         "ImageUrl": "m1-007-4.png"
       }
     },
@@ -394,10 +394,10 @@
       "Key": "Id",
       "Data": {
         "Id": 910029,
-        "CoordinateId": 900008,
+        "CoordinateId": 9900008,
         "SealId": "M1-008-1",
         "Term": "トップス",
-        "Point": 90,
+        "Point": 990,
         "ImageUrl": "m1-008-1.png"
       }
     },
@@ -405,10 +405,10 @@
       "Key": "Id",
       "Data": {
         "Id": 910030,
-        "CoordinateId": 900008,
+        "CoordinateId": 9900008,
         "SealId": "M1-008-2",
         "Term": "ボトムス",
-        "Point": 90,
+        "Point": 990,
         "ImageUrl": "m1-008-2.png"
       }
     },
@@ -416,7 +416,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910031,
-        "CoordinateId": 900008,
+        "CoordinateId": 9900008,
         "SealId": "M1-008-3",
         "Term": "シューズ",
         "Point": 80,
@@ -427,7 +427,7 @@
       "Key": "Id",
       "Data": {
         "Id": 910032,
-        "CoordinateId": 900008,
+        "CoordinateId": 9900008,
         "SealId": "M1-008-4",
         "Term": "アクセ",
         "Point": 70,
