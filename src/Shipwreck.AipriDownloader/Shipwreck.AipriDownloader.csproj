@@ -1,18 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="HtmlAgilityPack" Version="1.11.59" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\custom\**\*.webp" Link="custom\%(RecursiveDir)%(Filename).webp" />
+		<None Include="..\..\custom\**\*.png" Link="custom\%(RecursiveDir)%(Filename).png" />
+		<None Include="..\..\output\**\*.webp" Link="output\%(RecursiveDir)%(Filename).webp" />
+		<None Include="..\..\output\**\*.png" Link="output\%(RecursiveDir)%(Filename).png" />
+		<None Include="..\..\output\**\*.json" Link="output\%(RecursiveDir)%(Filename).json" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="HtmlAgilityPack" Version="1.11.59" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Shipwreck.Aipri\Shipwreck.Aipri.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Shipwreck.Aipri\Shipwreck.Aipri.csproj" />
+	</ItemGroup>
 
 </Project>

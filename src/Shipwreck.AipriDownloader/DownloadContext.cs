@@ -32,7 +32,7 @@ public sealed class DownloadContext : IDisposable
         {
             try
             {
-                var cf = new FileInfo(Path.Combine(_OutputDirectory.FullName, "verse.json"));
+                var cf = new FileInfo(Path.Combine(_OutputDirectory.FullName, "data.json"));
                 if (cf.Exists)
                 {
                     using var fs = cf.OpenRead();
@@ -392,8 +392,8 @@ public sealed class DownloadContext : IDisposable
 
     public void Dispose()
     {
-        var hpn = Path.Combine(_OutputDirectory.FullName, "verse.json.new");
-        var hp = Path.Combine(_OutputDirectory.FullName, "verse.json");
+        var hpn = Path.Combine(_OutputDirectory.FullName, "data.json.new");
+        var hp = Path.Combine(_OutputDirectory.FullName, "data.json");
         try
         {
             using (var fs = new FileStream(hpn, FileMode.Create))

@@ -80,7 +80,7 @@ public sealed class AipriVerseDataSetAccessor : IDisposable
 
                         Commands.Pull(repo, new Signature("p", "u", DateTimeOffset.Now), new PullOptions());
 
-                        return Path.Combine(_Directory.FullName, "output", "verse.json");
+                        return Path.Combine(_Directory.FullName, "output", "data.json");
                     }
                 }
             }
@@ -97,7 +97,7 @@ public sealed class AipriVerseDataSetAccessor : IDisposable
         Repository.Clone(URL, _Directory.FullName);
         _Directory.Refresh();
 
-        return Path.Combine(_Directory.FullName, "output", "verse.json");
+        return Path.Combine(_Directory.FullName, "output", "data.json");
     }
 
     void IDisposable.Dispose()
