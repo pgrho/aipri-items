@@ -420,6 +420,43 @@ internal class Program
                     }
                 }
             }
+            foreach (var ci in cd?.Cards ?? [])
+            {
+                var dt = ci?.Data;
+                if (dt != null)
+                {
+                    var pred = ci!.Key switch
+                    {
+                        nameof(dt.Id)
+                        or "" or null => (Func<Card, bool>)(e => e.Id == dt.Id),
+                        _ => throw new ArgumentException()
+                    };
+
+                    var t = d.DataSet.Cards.FirstOrDefault(pred);
+                    if (t == null && dt.Id > 0)
+                    {
+                        t = new() { Id = dt.Id };
+                        d.DataSet.Cards.Add(t);
+                    }
+                    if (t != null)
+                    {
+                        t.SealId = dt.SealId ?? t.SealId;
+                        t.ChapterId = dt.ChapterId ?? t.ChapterId;
+                        t.Coordinate = dt.Coordinate ?? t.Coordinate;
+                        t.Character = dt.Character ?? t.Character;
+                        t.Variant = dt.Variant ?? t.Variant;
+
+                        if (!string.IsNullOrEmpty(dt.Image1Url))
+                        {
+                            t.Image1Url = await d.GetOrCopyImageAsync(dt.Image1Url, "cards", t.Id, "-1");
+                        }
+                        if (!string.IsNullOrEmpty(dt.Image2Url))
+                        {
+                            t.Image2Url = await d.GetOrCopyImageAsync(dt.Image2Url, "cards", t.Id, "-2");
+                        }
+                    }
+                }
+            }
         }
     }
 }

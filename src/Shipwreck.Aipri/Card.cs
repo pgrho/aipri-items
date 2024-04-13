@@ -10,7 +10,8 @@ public sealed class Card : DataItem
 
     public string SealId { get; set; } = string.Empty;
     public string Coordinate { get; set; } = string.Empty;
-    public string? Character { get; set; } = string.Empty;
+    public string Character { get; set; } = string.Empty;
+    public string Variant { get; set; } = string.Empty;
     public string? Image1Url { get; set; }
     public string? Image2Url { get; set; }
 
@@ -28,6 +29,7 @@ public sealed class Card : DataItem
             SealId = SealId,
             Character = Character,
             Coordinate = Coordinate,
+            Variant = Variant,
             Image1Url = Image1Url,
             Image2Url = Image2Url,
         };

@@ -424,18 +424,19 @@ public sealed class DownloadContext : IDisposable
         return c;
     }
 
-    public async Task<Card> AddCardAsync(Chapter? chapter, string coordinate, string character, string sealId, string? image1Url, string? image2Url)
+    public async Task<Card> AddCardAsync(Chapter? chapter, string coordinate, string character, string sealId, string? image1Url, string? image2Url, string variant = "")
     {
         Card? c;
         lock (_DataSet)
         {
-            c = _DataSet.Cards.FirstOrDefault(e => e.ChapterId == chapter?.Id && e.Coordinate == coordinate && e.Character == character);
+            c = _DataSet.Cards.FirstOrDefault(e => e.ChapterId == chapter?.Id && e.Coordinate == coordinate && e.Character == character && e.Variant == variant);
             if (c == null)
             {
                 c = new()
                 {
                     Coordinate = coordinate,
                     Character = character,
+                    Variant = variant,
                     ChapterId = chapter?.Id,
                     Id = (_DataSet.Cards.Max(e => e?.Id) ?? 0) + 1
                 };

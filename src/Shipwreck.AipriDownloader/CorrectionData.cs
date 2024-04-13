@@ -4,4 +4,5 @@ public sealed class CorrectionData
 {
     public CorrectionEntry<Coordinate>[] Coordinates { get; set; } = [];
     public CorrectionEntry<CoordinateItem>[] CoordinateItems { get; set; } = [];
+    public CorrectionEntry<Card>[] Cards { get; set; } = [];
 }

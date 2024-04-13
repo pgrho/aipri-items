@@ -434,5 +434,55 @@
         "ImageUrl": "m1-008-4.png"
       }
     }
+  ],
+  "Cards": [
+    {
+      "Data": {
+        "Id": 9200001,
+        "ChapterId": "1",
+        "SealId": "AP1-001P",
+        "Coordinate": "ポッピンハートバズリウム",
+        "Character": "ひまり",
+        "Variant": "パラレル",
+        "Image1Url": "AP1-001P-1.jpg",
+        "Image2Url": "AP1-001P-2.jpg"
+      }
+    },
+    {
+      "Data": {
+        "Id": 9200002,
+        "ChapterId": "1",
+        "SealId": "AP1-002P",
+        "Coordinate": "ミラクルムーンバズリウム",
+        "Character": "みつき",
+        "Variant": "パラレル",
+        "Image1Url": "AP1-002P-1.jpg",
+        "Image2Url": "AP1-002P-2.jpg"
+      }
+    },
+    {
+      "Data": {
+        "Id": 9200003,
+        "ChapterId": "1",
+        "SealId": "AP1-003P",
+        "Coordinate": "スカーレットバタフライバズリウム",
+        "Character": "サクラ",
+        "Variant": "パラレル",
+        "Image1Url": "AP1-003P-1.jpg",
+        "Image2Url": "AP1-003P-2.jpg"
+      }
+    },
+    {
+      "Data": {
+        "Id": 9200004,
+        "ChapterId": "1",
+        "SealId": "AP1-001P",
+        "Coordinate": "キューティーラビット",
+        "Character": "ひまり",
+        "Variant": "パラレル",
+        "Image1Url": "AP1-004P-1.jpg",
+        "Image2Url": "AP1-004P-2.jpg"
+      }
+    }
   ]
 }
