@@ -2,17 +2,17 @@
 
 public class AipriVerseDataSet
 {
-    #region Chapters
+    #region VerseChapters
 
-    private ChapterCollection? _Chapters;
+    private ChapterCollection? _VerseChapters;
 
-    public ChapterCollection Chapters
+    public ChapterCollection VerseChapters
     {
-        get => _Chapters ??= new(this);
-        set => Chapters.Set(value);
+        get => _VerseChapters ??= new(this);
+        set => VerseChapters.Set(value);
     }
 
-    #endregion Chapters
+    #endregion VerseChapters
 
     #region Brands
 
@@ -49,4 +49,28 @@ public class AipriVerseDataSet
     }
 
     #endregion CoordinateItems
+
+    #region HimitsuChapters
+
+    private ChapterCollection? _HimitsuChapters;
+
+    public ChapterCollection HimitsuChapters
+    {
+        get => _HimitsuChapters ??= new(this);
+        set => HimitsuChapters.Set(value);
+    }
+
+    #endregion HimitsuChapters
+
+    #region Cards
+
+    private CardCollection? _Cards;
+
+    public CardCollection Cards
+    {
+        get => _Cards ??= new(this);
+        set => Cards.Set(value);
+    }
+
+    #endregion Cards
 }

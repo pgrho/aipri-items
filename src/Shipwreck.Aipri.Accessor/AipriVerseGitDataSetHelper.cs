@@ -42,13 +42,43 @@ public static class AipriVerseGitDataSetHelper
     public static Stream OpenImage(this CoordinateItem? e)
         => Open(Constants.COORDINATE_ITEM_PATH_FORMAT, (e?.DataSet as AipriVerseGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
 
+    #region Card
+
+    #region Image1
+
+    public static string? GetImage1Path(this Card? e)
+        => GetFilePath(Constants.CARD_PATH_FORMAT1, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.Image1Url);
+
+    public static Uri? GetImage1Uri(this Card? e)
+        => GetUri(Constants.CARD_PATH_FORMAT1, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.Image1Url);
+
+    public static Stream OpenImage1(this Card? e)
+        => Open(Constants.CARD_PATH_FORMAT1, (e?.DataSet as AipriVerseGitDataSet)?.FileName!, e?.Id ?? -1, e?.Image1Url!);
+
+    #endregion Image1
+
+    #region Image2
+
+    public static string? GetImage2Path(this Card? e)
+        => GetFilePath(Constants.CARD_PATH_FORMAT2, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.Image2Url);
+
+    public static Uri? GetImage2Uri(this Card? e)
+        => GetUri(Constants.CARD_PATH_FORMAT2, (e?.DataSet as AipriVerseGitDataSet)?.FileName, e?.Id, e?.Image2Url);
+
+    public static Stream OpenImage2(this Card? e)
+        => Open(Constants.CARD_PATH_FORMAT2, (e?.DataSet as AipriVerseGitDataSet)?.FileName!, e?.Id ?? -2, e?.Image2Url!);
+
+    #endregion Image2
+
+    #endregion Card
+
     private static string? GetFilePath(string pathFormat, string? jsonPath, int? imageId, string? imageUrl)
         => jsonPath != null && imageId != null && imageUrl != null
         ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl))).LocalPath : null;
 
     private static Uri? GetUri(string pathFormat, string? jsonPath, int? imageId, string? imageUrl)
         => imageUrl == null ? null
-        : jsonPath != null && imageId != null ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl))) 
+        : jsonPath != null && imageId != null ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl)))
         : new Uri(imageUrl);
 
     private static Stream Open(string pathFormat, string jsonPath, int imageId, string imageUrl)

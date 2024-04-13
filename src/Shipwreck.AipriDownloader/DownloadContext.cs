@@ -39,11 +39,11 @@ public sealed class DownloadContext : IDisposable
                     var hd = JsonSerializer.Deserialize<AipriVerseDataSet>(fs);
                     if (hd != null)
                     {
-                        foreach (var c in hd.Chapters ?? [])
+                        foreach (var c in hd.VerseChapters ?? [])
                         {
                             if (!string.IsNullOrEmpty(c.Id) && !string.IsNullOrEmpty(c.Name))
                             {
-                                _DataSet.Chapters.Add(c.Clone());
+                                _DataSet.VerseChapters.Add(c.Clone());
                             }
                         }
                         foreach (var c in hd.Brands ?? [])
@@ -69,6 +69,22 @@ public sealed class DownloadContext : IDisposable
                                 && !string.IsNullOrEmpty(c.Term))
                             {
                                 _DataSet.CoordinateItems.Add(c.Clone());
+                            }
+                        }
+                        foreach (var c in hd.HimitsuChapters ?? [])
+                        {
+                            if (!string.IsNullOrEmpty(c.Id) && !string.IsNullOrEmpty(c.Name))
+                            {
+                                _DataSet.HimitsuChapters.Add(c.Clone());
+                            }
+                        }
+                        foreach (var c in hd.Cards ?? [])
+                        {
+                            if (c?.Id > 0
+                                && !string.IsNullOrEmpty(c.Coordinate)
+                                && !string.IsNullOrEmpty(c.Character))
+                            {
+                                _DataSet.Cards.Add(c.Clone());
                             }
                         }
                     }
@@ -214,16 +230,34 @@ public sealed class DownloadContext : IDisposable
         }
     }
 
-    public Chapter AddChapter(string id, string name)
+    public Chapter AddVerseChapter(string id, string name)
     {
         lock (_DataSet)
         {
-            var c = _DataSet.Chapters.GetById(id);
+            var c = _DataSet.VerseChapters.GetById(id);
             if (c == null)
             {
                 c = new();
                 c.Id = id;
-                _DataSet.Chapters.Add(c);
+                _DataSet.VerseChapters.Add(c);
+            }
+
+            c.Name = name;
+
+            return c;
+        }
+    }
+
+    public Chapter AddHimitsuChapter(string id, string name)
+    {
+        lock (_DataSet)
+        {
+            var c = _DataSet.HimitsuChapters.GetById(id);
+            if (c == null)
+            {
+                c = new();
+                c.Id = id;
+                _DataSet.HimitsuChapters.Add(c);
             }
 
             c.Name = name;
@@ -260,9 +294,9 @@ public sealed class DownloadContext : IDisposable
         return b;
     }
 
-    public async Task<string?> GetOrCopyImageAsync(string? imageUrl, string directory, int id)
+    public async Task<string?> GetOrCopyImageAsync(string? imageUrl, string directory, int id, string? suffix = null)
     {
-        var bip = new FileInfo(Path.Combine(_OutputDirectory.FullName, directory, id.ToString("D6") + Path.GetExtension(imageUrl)));
+        var bip = new FileInfo(Path.Combine(_OutputDirectory.FullName, directory, id.ToString("D6") + suffix + Path.GetExtension(imageUrl)));
 
         if (!string.IsNullOrEmpty(imageUrl))
         {
@@ -390,6 +424,42 @@ public sealed class DownloadContext : IDisposable
         return c;
     }
 
+    public async Task<Card> AddCardAsync(Chapter? chapter, string coordinate, string character, string sealId, string? image1Url, string? image2Url)
+    {
+        Card? c;
+        lock (_DataSet)
+        {
+            c = _DataSet.Cards.FirstOrDefault(e => e.ChapterId == chapter?.Id && e.Coordinate == coordinate && e.Character == character);
+            if (c == null)
+            {
+                c = new()
+                {
+                    Coordinate = coordinate,
+                    Character = character,
+                    ChapterId = chapter?.Id,
+                    Id = (_DataSet.Cards.Max(e => e?.Id) ?? 0) + 1
+                };
+                _DataSet.Cards.Add(c);
+            }
+        }
+
+        c.SealId = sealId;
+
+        if (c.Image1Url != image1Url || !c.IsImage1Loaded)
+        {
+            c.Image1Url = await GetOrCopyImageAsync(image1Url, "cards", c.Id, "-1").ConfigureAwait(false);
+            c.IsImage1Loaded = true;
+        }
+
+        if (c.Image2Url != image2Url || !c.IsImage2Loaded)
+        {
+            c.Image2Url = await GetOrCopyImageAsync(image2Url, "cards", c.Id, "-2").ConfigureAwait(false);
+            c.IsImage2Loaded = true;
+        }
+
+        return c;
+    }
+
     public void Dispose()
     {
         var hpn = Path.Combine(_OutputDirectory.FullName, "data.json.new");
@@ -400,10 +470,13 @@ public sealed class DownloadContext : IDisposable
             {
                 JsonSerializer.Serialize(fs, new AipriVerseDataSet()
                 {
-                    Chapters = new(_DataSet.Chapters.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    VerseChapters = new(_DataSet.VerseChapters.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Brands = new(_DataSet.Brands.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Coordinates = new(_DataSet.Coordinates.OrderBy(e => e.Id).Select(e => e.Clone())),
                     CoordinateItems = new(_DataSet.CoordinateItems.OrderBy(e => e.Id).Select(e => e.Clone())),
+
+                    HimitsuChapters = new(_DataSet.HimitsuChapters.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Cards = new(_DataSet.Cards.OrderBy(e => e.Id).Select(e => e.Clone())),
                 }, new JsonSerializerOptions()
                 {
                     WriteIndented = true,

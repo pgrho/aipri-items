@@ -8,6 +8,9 @@ internal class Program
     private const string VERSE_HOME = "https://aipri.jp/verse/";
     private const string ITEM_FORMAT = VERSE_HOME + "item/{0}.html";
 
+    private const string HIMITSU_HOME = "https://aipri.jp/";
+    private const string CARD_FORMAT = HIMITSU_HOME + "card/{0}.html";
+
     static async Task Main(string[] args)
     {
         using var d = new DownloadContext();
@@ -21,9 +24,16 @@ internal class Program
 
         await ParseItemAsync(d, string.Format(ITEM_FORMAT, "1"), true).ConfigureAwait(false);
 
-        foreach (var ch in d.DataSet.Chapters.Where(e => e.Id != "1"))
+        foreach (var ch in d.DataSet.VerseChapters.Where(e => e.Id != "1"))
         {
             await ParseItemAsync(d, string.Format(ITEM_FORMAT, ch.Id), false).ConfigureAwait(false);
+        }
+
+        await ParseCardAsync(d, string.Format(CARD_FORMAT, "1"), true).ConfigureAwait(false);
+
+        foreach (var ch in d.DataSet.HimitsuChapters.Where(e => e.Id != "1"))
+        {
+            await ParseCardAsync(d, string.Format(CARD_FORMAT, ch.Id), false).ConfigureAwait(false);
         }
 
         // 既知の誤記載を訂正する
@@ -41,7 +51,7 @@ internal class Program
         var sn = doc.DocumentNode.SelectSingleNode("//title")?.InnerText;
 
         var chapterKey = Path.GetFileNameWithoutExtension(itemUrl);
-        Chapter? chapter = d.DataSet.Chapters.FirstOrDefault(e => e.Id == chapterKey);
+        Chapter? chapter = d.DataSet.VerseChapters.FirstOrDefault(e => e.Id == chapterKey);
 
         if (!string.IsNullOrEmpty(sn)
             && Regex.Match(sn, "^(【(?<coord>[^】]+)】|(?<coord>.+))コーデアイテム") is var m
@@ -50,8 +60,8 @@ internal class Program
             var ck = Path.GetFileNameWithoutExtension(itemUrl);
             var cn = m.Groups["coord"].Value;
 
-            chapter = d.AddChapter(ck, cn);
-            Console.WriteLine(" - Chapter[{0}]: {1}", ck, cn);
+            chapter = d.AddVerseChapter(ck, cn);
+            Console.WriteLine(" - VerseChapter[{0}]: {1}", ck, cn);
         }
 
         var nav = (HtmlAgilityPack.HtmlNodeNavigator)doc.CreateNavigator();
@@ -60,9 +70,10 @@ internal class Program
         {
             foreach (HtmlNodeNavigator cNode in nav.Select("//ul[@class='toggleList toggleList--pageSelect']/li/a/@href"))
             {
-                var v = Path.GetFileNameWithoutExtension(cNode.Value);
-                d.AddChapter(v, v);
-                Console.WriteLine("   - Chapter[{0}]: {1}", v, v);
+                var v = Path.GetFileNameWithoutExtension(cNode.GetAttribute("href", null));
+                var t = cNode.Value?.Trim();
+                d.AddVerseChapter(v, t ?? v);
+                Console.WriteLine("   - VerseChapter[{0}]: {1}", v, t ?? v);
             }
         }
 
@@ -141,7 +152,7 @@ internal class Program
                     thUrl = new Uri(url, thUrl).ToString();
                     if (coord.ThumbnailUrl != thUrl || !coord.IsThumbnailLoaded)
                     {
-                        coord.ThumbnailUrl = await d.GetOrCopyImageAsync(thUrl, "coordinate-thumbnails", coord.Id).ConfigureAwait(false);
+                        coord.ThumbnailUrl = await d.GetOrCopyImageAsync(thUrl, "coordinates", coord.Id, "-thumb").ConfigureAwait(false);
                         coord.IsThumbnailLoaded = true;
                     }
                 }
@@ -251,6 +262,92 @@ internal class Program
         {
             chapter.Start = newCoordinates.Min(e => e.Start);
             chapter.End = newCoordinates.Max(e => e.End);
+        }
+    }
+
+    static async Task ParseCardAsync(DownloadContext d, string itemUrl, bool parseChapters)
+    {
+        var url = new Uri(itemUrl);
+        using var html = await d.GetAsync(itemUrl).ConfigureAwait(false);
+
+        var doc = new HtmlDocument();
+        doc.Load(html);
+
+        var sn = doc.DocumentNode.SelectSingleNode("//title")?.InnerText;
+
+        var chapterKey = Path.GetFileNameWithoutExtension(itemUrl);
+        Chapter? chapter = d.DataSet.HimitsuChapters.FirstOrDefault(e => e.Id == chapterKey);
+
+        if (!string.IsNullOrEmpty(sn)
+            && Regex.Match(sn, "^(【(?<coord>[^】]+)】|(?<coord>.+))カードリスト") is var m
+            && m.Success)
+        {
+            var ck = Path.GetFileNameWithoutExtension(itemUrl);
+            var cn = m.Groups["coord"].Value;
+
+            chapter = d.AddHimitsuChapter(ck, cn);
+            Console.WriteLine(" - HimitsuChapter[{0}]: {1}", ck, cn);
+        }
+
+        var nav = (HtmlAgilityPack.HtmlNodeNavigator)doc.CreateNavigator();
+
+        if (parseChapters)
+        {
+            foreach (HtmlNodeNavigator cNode in nav.Select("//ul[@class='toggleList toggleList--pageSelect']/li/a"))
+            {
+                var v = Path.GetFileNameWithoutExtension(cNode.GetAttribute("href", null));
+                var t = cNode.Value?.Trim();
+                d.AddHimitsuChapter(v, t ?? v);
+                Console.WriteLine("   - HimitsuChapter[{0}]: {1}", v, t ?? v);
+            }
+        }
+
+        nav = (HtmlAgilityPack.HtmlNodeNavigator)doc.CreateNavigator();
+
+        var oldCards = d.DataSet.Cards.Where(e => e.ChapterId == chapter?.Id).ToList();
+
+        var newCards = new HashSet<Card>();
+
+        foreach (HtmlNodeNavigator cNode in nav.Select("//div[@class='grid__item']//a[@data-modal]"))
+        {
+            var term = cNode.GetAttribute("data-term", null);
+            var name = cNode.GetAttribute("data-name", null);
+            var img1 = cNode.GetAttribute("data-img1", null);
+            var img2 = cNode.GetAttribute("data-img2", null);
+
+            if (string.IsNullOrEmpty(term)
+                || string.IsNullOrEmpty(name)
+                || string.IsNullOrEmpty(img1))
+            {
+                continue;
+            }
+
+            var sealId = Path.GetFileNameWithoutExtension(img1);
+            if (Regex.IsMatch(sealId, @"\d\d\d_[OU]"))
+            {
+                sealId = sealId[..^2];
+            }
+
+            var card = await d.AddCardAsync(
+                chapter,
+                name,
+                term,
+                sealId,
+                string.IsNullOrEmpty(img1) ? null : new Uri(url, img1).ToString(),
+                string.IsNullOrEmpty(img2) ? null : new Uri(url, img2).ToString()).ConfigureAwait(false);
+
+            if (newCards.Add(card))
+            {
+                Console.WriteLine("   - Card[{0}]: {1}@{2}", card.Id, card.Coordinate, card.Character);
+            }
+        }
+
+        foreach (var oc in oldCards)
+        {
+            if (!newCards.Contains(oc))
+            {
+                d.DataSet.Cards.Remove(oc);
+            }
         }
     }
 
