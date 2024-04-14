@@ -424,8 +424,9 @@ public sealed class DownloadContext : IDisposable
         return c;
     }
 
-    public async Task<Card> AddCardAsync(Chapter? chapter, string coordinate, string character, string sealId, string? image1Url, string? image2Url, string variant = "")
+    public async Task<Card> AddCardAsync(Chapter? chapter, string coordinate, string character, string sealId, string? image1Url, string? image2Url, string? variant = null)
     {
+        variant = variant.TrimOrNull();
         Card? c;
         lock (_DataSet)
         {

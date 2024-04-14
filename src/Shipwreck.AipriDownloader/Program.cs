@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Text;
+using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 
 namespace Shipwreck.AipriDownloader;
@@ -13,6 +14,7 @@ internal class Program
 
     static async Task Main(string[] args)
     {
+        Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
         using var d = new DownloadContext();
 
         d.ClearSubdirectories();
@@ -38,6 +40,8 @@ internal class Program
 
         // 既知の誤記載を訂正する
         await CorrectKnownTypoAsync(d).ConfigureAwait(false);
+
+        await AddCardInfoAsync(d).ConfigureAwait(false);
     }
 
     static async Task ParseItemAsync(DownloadContext d, string itemUrl, bool parseChapters)
@@ -455,6 +459,54 @@ internal class Program
                             t.Image2Url = await d.GetOrCopyImageAsync(dt.Image2Url, "cards", t.Id, "-2");
                         }
                     }
+                }
+            }
+        }
+    }
+    private static async Task AddCardInfoAsync(DownloadContext d)
+    {
+
+        var cor = new FileInfo(Path.Combine(DownloadContext.GetDirectory(), "Cards.csv"));
+        if (cor.Exists)
+        {
+            using var fs = cor.OpenRead();
+            using var sr = new StreamReader(fs, Encoding.GetEncoding(932));
+
+            var header = await sr.ReadLineAsync().ConfigureAwait(false);
+
+            if (header != null)
+            {
+                var ha = header.Split(',');
+                var sealId = Array.IndexOf(ha, "SealId");
+                var song = Array.IndexOf(ha, "Song");
+                var point = Array.IndexOf(ha, "Point");
+                var isChance = Array.IndexOf(ha, "IsChance");
+
+                if (sealId < 0)
+                {
+                    return;
+                }
+
+                for (var l = await sr.ReadLineAsync().ConfigureAwait(false); l != null; l = await sr.ReadLineAsync().ConfigureAwait(false))
+                {
+                    var row = l.Split(',');
+
+                    var sid = row.ElementAtOrDefault(sealId);
+                    if (string.IsNullOrEmpty(sid))
+                    {
+                        continue;
+                    }
+
+                    var elem = d.DataSet.Cards.FirstOrDefault(e => e.SealId == sid);
+
+                    if (elem == null)
+                    {
+                        continue;
+                    }
+
+                    elem.Song = (song >= 0 ? row.ElementAtOrDefault(song).TrimOrNull() : null) ?? string.Empty;
+                    elem.Point = short.TryParse(point >= 0 ? row.ElementAtOrDefault(point) : null, out var s) ? s : default;
+                    elem.IsChance = bool.TryParse(isChance >= 0 ? row.ElementAtOrDefault(isChance) : null, out var b) && b;
                 }
             }
         }
