@@ -4077,6 +4077,116 @@
       "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-021_O.webp"
     },
     {
+      "Id": 84,
+      "ChapterId": "1",
+      "SealId": "AP1-010",
+      "Coordinate": "リッチベリータルト",
+      "Character": "サクラ",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-010_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-010_U.webp"
+    },
+    {
+      "Id": 85,
+      "ChapterId": "1",
+      "SealId": "AP1-022",
+      "Coordinate": "アイプリバーススカーレットバタフライ",
+      "Character": "サクラ",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-022_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-022_U.webp"
+    },
+    {
+      "Id": 86,
+      "ChapterId": "1",
+      "SealId": "AP1-028",
+      "Coordinate": "ゴージャスビジュー",
+      "Character": "サクラ",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-028_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-028_U.webp"
+    },
+    {
+      "Id": 87,
+      "ChapterId": "1",
+      "SealId": "AP1-041",
+      "Coordinate": "ラブリーアイドルピンク",
+      "Character": "ひまり",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-041_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-041_U.webp"
+    },
+    {
+      "Id": 88,
+      "ChapterId": "1",
+      "SealId": "AP1-043",
+      "Coordinate": "ラブリーアイドルブルー",
+      "Character": "みつき",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-043_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-043_U.webp"
+    },
+    {
+      "Id": 89,
+      "ChapterId": "1",
+      "SealId": "AP1-045",
+      "Coordinate": "クールアイドルピンク",
+      "Character": "ひまり",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-045_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-045_U.webp"
+    },
+    {
+      "Id": 90,
+      "ChapterId": "1",
+      "SealId": "AP1-047",
+      "Coordinate": "クールアイドルブルー",
+      "Character": "みつき",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-047_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-047_U.webp"
+    },
+    {
+      "Id": 91,
+      "ChapterId": "1",
+      "SealId": "AP1-050",
+      "Coordinate": "ハッピーチアピンク",
+      "Character": "ひまり",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-050_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-050_U.webp"
+    },
+    {
+      "Id": 92,
+      "ChapterId": "1",
+      "SealId": "AP1-052",
+      "Coordinate": "ハッピーチアブルー",
+      "Character": "みつき",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-052_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-052_U.webp"
+    },
+    {
+      "Id": 93,
+      "ChapterId": "1",
+      "SealId": "AP1-054",
+      "Coordinate": "セーラーカジュアルピンク",
+      "Character": "ひまり",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-054_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-054_U.webp"
+    },
+    {
+      "Id": 94,
+      "ChapterId": "1",
+      "SealId": "AP1-056",
+      "Coordinate": "セーラーカジュアルブルー",
+      "Character": "みつき",
+      "Variant": "",
+      "Image1Url": "https://aipri.jp/card/img/1/AP1-056_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/1/AP1-056_U.webp"
+    },
+    {
       "Id": 9200001,
       "ChapterId": "1",
       "SealId": "AP1-001P",

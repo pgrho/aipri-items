@@ -354,7 +354,7 @@ public sealed class DownloadContext : IDisposable
                 {
                     Name = name,
                     ChapterId = chapter?.Id,
-                    Id = (_DataSet.Coordinates.Max(e => e?.Id) ?? 0) + 1
+                    Id = (_DataSet.Coordinates.Where(e => e.Id < 9000000).Max(e => e?.Id) ?? 0) + 1
                 };
                 _DataSet.Coordinates.Add(c);
             }
@@ -429,7 +429,7 @@ public sealed class DownloadContext : IDisposable
         Card? c;
         lock (_DataSet)
         {
-            c = _DataSet.Cards.FirstOrDefault(e => e.ChapterId == chapter?.Id && e.Coordinate == coordinate && e.Character == character && e.Variant == variant);
+            c = _DataSet.Cards.FirstOrDefault(e => e.ChapterId == chapter?.Id && e.Image1Url == image1Url);
             if (c == null)
             {
                 c = new()
@@ -438,13 +438,16 @@ public sealed class DownloadContext : IDisposable
                     Character = character,
                     Variant = variant,
                     ChapterId = chapter?.Id,
-                    Id = (_DataSet.Cards.Max(e => e?.Id) ?? 0) + 1
+                    Id = (_DataSet.Cards.Where(e => e.Id < 9000000).Max(e => e?.Id) ?? 0) + 1
                 };
                 _DataSet.Cards.Add(c);
             }
         }
 
         c.SealId = sealId;
+        c.Coordinate = coordinate;
+        c.Character = character;
+        c.Variant = variant;
 
         if (c.Image1Url != image1Url || !c.IsImage1Loaded)
         {
