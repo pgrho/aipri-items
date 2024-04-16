@@ -480,6 +480,7 @@ internal class Program
                 var sealId = Array.IndexOf(ha, "SealId");
                 var song = Array.IndexOf(ha, "Song");
                 var point = Array.IndexOf(ha, "Point");
+                var star = Array.IndexOf(ha, "Star");
                 var isChance = Array.IndexOf(ha, "IsChance");
 
                 if (sealId < 0)
@@ -506,6 +507,7 @@ internal class Program
 
                     elem.Song = (song >= 0 ? row.ElementAtOrDefault(song).TrimOrNull() : null) ?? string.Empty;
                     elem.Point = short.TryParse(point >= 0 ? row.ElementAtOrDefault(point) : null, out var s) ? s : default;
+                    elem.Star = byte.TryParse(star >= 0 ? row.ElementAtOrDefault(star) : null, out var st) ? st : (byte)0;
                     elem.IsChance = bool.TryParse(isChance >= 0 ? row.ElementAtOrDefault(isChance) : null, out var b) && b;
                 }
             }

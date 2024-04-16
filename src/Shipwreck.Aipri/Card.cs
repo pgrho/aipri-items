@@ -20,6 +20,9 @@ public sealed class Card : DataItem
     [DefaultValue("")]
     public string Song { get; set; } = string.Empty;
 
+    [DefaultValue((byte)0)]
+    public byte Star { get; set; }
+
     [DefaultValue((short)0)]
     public short Point { get; set; }
 
@@ -45,6 +48,7 @@ public sealed class Card : DataItem
             Coordinate = Coordinate,
             Variant = Variant,
             Song = Song,
+            Star = Star,
             Point = Point,
             IsChance = IsChance,
             Image1Url = Image1Url,
