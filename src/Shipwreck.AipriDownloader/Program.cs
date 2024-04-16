@@ -484,11 +484,14 @@ internal class Program
                 var point = Array.IndexOf(ha, "Point");
                 var star = Array.IndexOf(ha, "Star");
                 var isChance = Array.IndexOf(ha, "IsChance");
+                var brand = Array.IndexOf(ha, "Brand");
 
                 if (sealId < 0)
                 {
                     return;
                 }
+
+                var brands = d.DataSet.Brands.ToDictionary(e => e.Name, e => e.Id);
 
                 for (var l = await sr.ReadLineAsync().ConfigureAwait(false); l != null; l = await sr.ReadLineAsync().ConfigureAwait(false))
                 {
@@ -509,10 +512,14 @@ internal class Program
 
                     Console.WriteLine("Set card info of " + sid);
 
-                    elem.Song = (song >= 0 ? row.ElementAtOrDefault(song).TrimOrNull() : null) ?? string.Empty;
-                    elem.Point = short.TryParse(point >= 0 ? row.ElementAtOrDefault(point) : null, out var s) ? s : default;
-                    elem.Star = byte.TryParse(star >= 0 ? row.ElementAtOrDefault(star) : null, out var st) ? st : (byte)0;
-                    elem.IsChance = bool.TryParse(isChance >= 0 ? row.ElementAtOrDefault(isChance) : null, out var b) && b;
+                    string? read(int id)
+                        => id >= 0 ? row.ElementAt(id).TrimOrNull() : null;
+
+                    elem.Song = read(song) ?? string.Empty;
+                    elem.Point = short.TryParse(read(point), out var s) ? s : default;
+                    elem.Star = byte.TryParse(read(star), out var st) ? st : (byte)0;
+                    elem.IsChance = bool.TryParse(read(isChance), out var b) && b;
+                    elem.BrandId = brands.TryGetValue(read(brand) ?? string.Empty, out var bid) ? bid : null;
                 }
             }
         }

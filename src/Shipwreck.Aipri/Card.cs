@@ -7,7 +7,11 @@ public sealed class Card : DataItem
 {
     public int Id { get; set; }
 
+    [DefaultValue(null)]
     public string? ChapterId { get; set; }
+
+    [DefaultValue(null)]
+    public int? BrandId { get; set; }
 
     public string SealId { get; set; } = string.Empty;
     public string Coordinate { get; set; } = string.Empty;
@@ -43,6 +47,7 @@ public sealed class Card : DataItem
         {
             Id = Id,
             ChapterId = ChapterId,
+            BrandId = BrandId,
             SealId = SealId,
             Character = Character,
             Coordinate = Coordinate,

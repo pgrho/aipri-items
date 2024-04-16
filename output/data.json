@@ -3262,6 +3262,7 @@
     {
       "Id": 1,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-001",
       "Coordinate": "ポッピンハートバズリウム",
       "Character": "ひまり",
@@ -3274,6 +3275,7 @@
     {
       "Id": 2,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-002",
       "Coordinate": "ミラクルムーンバズリウム",
       "Character": "みつき",
@@ -3286,6 +3288,7 @@
     {
       "Id": 3,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-003",
       "Coordinate": "スカーレットバタフライバズリウム",
       "Character": "サクラ",
@@ -3298,6 +3301,7 @@
     {
       "Id": 4,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-004",
       "Coordinate": "キューティーラビット",
       "Character": "ひまり",
@@ -3310,6 +3314,7 @@
     {
       "Id": 5,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-005",
       "Coordinate": "キューティーラビットブルー",
       "Character": "みつき",
@@ -3322,6 +3327,7 @@
     {
       "Id": 6,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-006",
       "Coordinate": "ドーナツパティシエール",
       "Character": "ひまり",
@@ -3334,6 +3340,7 @@
     {
       "Id": 7,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-007",
       "Coordinate": "ドーナツパティシエール",
       "Character": "みつき",
@@ -3346,6 +3353,7 @@
     {
       "Id": 8,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-008",
       "Coordinate": "ぷるるんゼリーソーダ",
       "Character": "みつき",
@@ -3358,6 +3366,7 @@
     {
       "Id": 9,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-009",
       "Coordinate": "ぷるるんゼリーソーダ",
       "Character": "ひまり",
@@ -3370,6 +3379,7 @@
     {
       "Id": 10,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-011",
       "Coordinate": "リッチベリータルト",
       "Character": "サクラ",
@@ -3382,6 +3392,7 @@
     {
       "Id": 11,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-012",
       "Coordinate": "ウェルカムチェリー",
       "Character": "ひまり",
@@ -3394,6 +3405,7 @@
     {
       "Id": 12,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-013",
       "Coordinate": "ウェルカムチェリーブルー",
       "Character": "みつき",
@@ -3406,6 +3418,7 @@
     {
       "Id": 13,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-014",
       "Coordinate": "きらきらくらげブルー",
       "Character": "みつき",
@@ -3418,6 +3431,7 @@
     {
       "Id": 14,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-015",
       "Coordinate": "きらきらくらげピンク",
       "Character": "ひまり",
@@ -3430,6 +3444,7 @@
     {
       "Id": 15,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-016",
       "Coordinate": "バタフライマジック",
       "Character": "サクラ",
@@ -3442,6 +3457,7 @@
     {
       "Id": 16,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-017",
       "Coordinate": "バタフライマジッククリムゾン",
       "Character": "サクラ",
@@ -3454,6 +3470,7 @@
     {
       "Id": 17,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-018",
       "Coordinate": "アイプリバースポッピンハート",
       "Character": "ひまり",
@@ -3467,6 +3484,7 @@
     {
       "Id": 18,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-019",
       "Coordinate": "アイプリバースポッピンハートグリーン",
       "Character": "ひまり",
@@ -3480,6 +3498,7 @@
     {
       "Id": 19,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-020",
       "Coordinate": "アイプリバースミラクルムーン",
       "Character": "みつき",
@@ -3493,6 +3512,7 @@
     {
       "Id": 20,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-021",
       "Coordinate": "アイプリバースミラクルムーンオレンジ",
       "Character": "みつき",
@@ -3506,6 +3526,7 @@
     {
       "Id": 21,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-023",
       "Coordinate": "アイプリバーススカーレットバタフライ",
       "Character": "サクラ",
@@ -3519,6 +3540,7 @@
     {
       "Id": 22,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-024",
       "Coordinate": "フラワーチュール",
       "Character": "ひまり",
@@ -3532,6 +3554,7 @@
     {
       "Id": 23,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-025",
       "Coordinate": "フラワーチュール",
       "Character": "みつき",
@@ -3545,6 +3568,7 @@
     {
       "Id": 24,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-026",
       "Coordinate": "フラワーチュールミント",
       "Character": "みつき",
@@ -3558,6 +3582,7 @@
     {
       "Id": 25,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-027",
       "Coordinate": "フラワーチュールミント",
       "Character": "ひまり",
@@ -3571,6 +3596,7 @@
     {
       "Id": 26,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-029",
       "Coordinate": "ゴージャスビジュー",
       "Character": "サクラ",
@@ -3584,6 +3610,7 @@
     {
       "Id": 27,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-030",
       "Coordinate": "ハニービー",
       "Character": "みつき",
@@ -3597,6 +3624,7 @@
     {
       "Id": 28,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-031",
       "Coordinate": "ハニービー",
       "Character": "ひまり",
@@ -3610,6 +3638,7 @@
     {
       "Id": 29,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-032",
       "Coordinate": "スターメロディ",
       "Character": "みつき",
@@ -3623,6 +3652,7 @@
     {
       "Id": 30,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-033",
       "Coordinate": "スターメロディ",
       "Character": "ひまり",
@@ -3636,6 +3666,7 @@
     {
       "Id": 31,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-034",
       "Coordinate": "ハートメロディ",
       "Character": "ひまり",
@@ -3649,6 +3680,7 @@
     {
       "Id": 32,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-035",
       "Coordinate": "ハートメロディ",
       "Character": "みつき",
@@ -3662,6 +3694,7 @@
     {
       "Id": 33,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-036",
       "Coordinate": "スターパーティー",
       "Character": "ひまり",
@@ -3675,6 +3708,7 @@
     {
       "Id": 34,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-037",
       "Coordinate": "スターパーティーいちごチョコ",
       "Character": "みつき",
@@ -3688,6 +3722,7 @@
     {
       "Id": 35,
       "ChapterId": "1",
+      "BrandId": 6,
       "SealId": "AP1-038",
       "Coordinate": "パラダイスがくえんせいふく１ねん",
       "Character": "ひまり",
@@ -3701,6 +3736,7 @@
     {
       "Id": 36,
       "ChapterId": "1",
+      "BrandId": 6,
       "SealId": "AP1-039",
       "Coordinate": "パラダイスがくえんせいふく１ねん",
       "Character": "みつき",
@@ -3714,6 +3750,7 @@
     {
       "Id": 37,
       "ChapterId": "1",
+      "BrandId": 6,
       "SealId": "AP1-040",
       "Coordinate": "パラダイスがくえんせいふく２ねん",
       "Character": "サクラ",
@@ -3727,6 +3764,7 @@
     {
       "Id": 38,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-042",
       "Coordinate": "ラブリーアイドルピンク",
       "Character": "ひまり",
@@ -3740,6 +3778,7 @@
     {
       "Id": 39,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-044",
       "Coordinate": "ラブリーアイドルブルー",
       "Character": "みつき",
@@ -3753,6 +3792,7 @@
     {
       "Id": 40,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-046",
       "Coordinate": "クールアイドルピンク",
       "Character": "ひまり",
@@ -3766,6 +3806,7 @@
     {
       "Id": 41,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-048",
       "Coordinate": "クールアイドルブルー",
       "Character": "みつき",
@@ -3779,6 +3820,7 @@
     {
       "Id": 42,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-049",
       "Coordinate": "クールアイドルレッド",
       "Character": "サクラ",
@@ -3792,6 +3834,7 @@
     {
       "Id": 43,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-051",
       "Coordinate": "ハッピーチアピンク",
       "Character": "ひまり",
@@ -3805,6 +3848,7 @@
     {
       "Id": 44,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-053",
       "Coordinate": "ハッピーチアブルー",
       "Character": "みつき",
@@ -3818,6 +3862,7 @@
     {
       "Id": 45,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-055",
       "Coordinate": "セーラーカジュアルピンク",
       "Character": "ひまり",
@@ -3831,6 +3876,7 @@
     {
       "Id": 46,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-057",
       "Coordinate": "セーラーカジュアルブルー",
       "Character": "みつき",
@@ -3844,6 +3890,7 @@
     {
       "Id": 47,
       "ChapterId": "special",
+      "BrandId": 1,
       "SealId": "P-006",
       "Coordinate": "キューティーラビットレッド",
       "Character": "ひまり",
@@ -3857,6 +3904,7 @@
     {
       "Id": 48,
       "ChapterId": "special",
+      "BrandId": 1,
       "SealId": "P-004",
       "Coordinate": "スターパーティーミントベリー",
       "Character": "ひまり",
@@ -3869,6 +3917,7 @@
     {
       "Id": 49,
       "ChapterId": "special",
+      "BrandId": 2,
       "SealId": "P-003",
       "Coordinate": "アイプリバースミラクルムーン",
       "Character": "みつき",
@@ -3881,6 +3930,7 @@
     {
       "Id": 50,
       "ChapterId": "special",
+      "BrandId": 1,
       "SealId": "P-002",
       "Coordinate": "アイプリバースポッピンハート",
       "Character": "ひまり",
@@ -3893,6 +3943,7 @@
     {
       "Id": 51,
       "ChapterId": "special",
+      "BrandId": 2,
       "SealId": "TOY-013",
       "Coordinate": "フラワーチュールジャスミン",
       "Character": "みつき",
@@ -3905,6 +3956,7 @@
     {
       "Id": 52,
       "ChapterId": "special",
+      "BrandId": 1,
       "SealId": "TOY-012",
       "Coordinate": "フラワーチュールローズ",
       "Character": "ひまり",
@@ -3917,6 +3969,7 @@
     {
       "Id": 53,
       "ChapterId": "special",
+      "BrandId": 2,
       "SealId": "TOY-011",
       "Coordinate": "クールコスメ",
       "Character": "みつき",
@@ -3929,6 +3982,7 @@
     {
       "Id": 54,
       "ChapterId": "special",
+      "BrandId": 1,
       "SealId": "TOY-010",
       "Coordinate": "ラブリーコスメ",
       "Character": "ひまり",
@@ -3941,6 +3995,7 @@
     {
       "Id": 55,
       "ChapterId": "special",
+      "BrandId": 2,
       "SealId": "TOY-007",
       "Coordinate": "ブルージュエル",
       "Character": "みつき",
@@ -3953,6 +4008,7 @@
     {
       "Id": 56,
       "ChapterId": "special",
+      "BrandId": 1,
       "SealId": "TOY-006",
       "Coordinate": "ピンクジュエル",
       "Character": "ひまり",
@@ -3965,6 +4021,7 @@
     {
       "Id": 57,
       "ChapterId": "special",
+      "BrandId": 2,
       "SealId": "TOY-005",
       "Coordinate": "ギンガムチェックグレープ",
       "Character": "みつき",
@@ -3975,6 +4032,7 @@
     {
       "Id": 58,
       "ChapterId": "special",
+      "BrandId": 2,
       "SealId": "TOY-004",
       "Coordinate": "パティシエチョコミント",
       "Character": "みつき",
@@ -3985,6 +4043,7 @@
     {
       "Id": 59,
       "ChapterId": "special",
+      "BrandId": 2,
       "SealId": "TOY-003",
       "Coordinate": "スターリースカイ",
       "Character": "みつき",
@@ -3995,6 +4054,7 @@
     {
       "Id": 60,
       "ChapterId": "special",
+      "BrandId": 1,
       "SealId": "TOY-002",
       "Coordinate": "ギンガムチェック\u3000チェリー",
       "Character": "ひまり",
@@ -4005,6 +4065,7 @@
     {
       "Id": 61,
       "ChapterId": "special",
+      "BrandId": 1,
       "SealId": "TOY-001",
       "Coordinate": "パティシエストロベリー",
       "Character": "ひまり",
@@ -4015,6 +4076,7 @@
     {
       "Id": 62,
       "ChapterId": "special",
+      "BrandId": 1,
       "SealId": "TOY-000",
       "Coordinate": "レインボースカイ",
       "Character": "ひまり",
@@ -4025,6 +4087,7 @@
     {
       "Id": 63,
       "ChapterId": "gumi",
+      "BrandId": 1,
       "SealId": "G1-001",
       "Coordinate": "ポッピンハートバズリウムミント",
       "Character": "ひまり",
@@ -4038,6 +4101,7 @@
     {
       "Id": 64,
       "ChapterId": "gumi",
+      "BrandId": 2,
       "SealId": "G1-002",
       "Coordinate": "ぷるるんゼリーメロン",
       "Character": "みつき",
@@ -4051,6 +4115,7 @@
     {
       "Id": 65,
       "ChapterId": "gumi",
+      "BrandId": 2,
       "SealId": "G1-003",
       "Coordinate": "ぷるるんゼリーメロン",
       "Character": "ひまり",
@@ -4064,6 +4129,7 @@
     {
       "Id": 66,
       "ChapterId": "gumi",
+      "BrandId": 2,
       "SealId": "G1-004",
       "Coordinate": "ぷるるんゼリーメロン",
       "Character": "サクラ",
@@ -4077,6 +4143,7 @@
     {
       "Id": 67,
       "ChapterId": "gumi",
+      "BrandId": 5,
       "SealId": "G1-005",
       "Coordinate": "ゴージャスビジューイエロー",
       "Character": "サクラ",
@@ -4090,6 +4157,7 @@
     {
       "Id": 68,
       "ChapterId": "gumi",
+      "BrandId": 5,
       "SealId": "G1-006",
       "Coordinate": "ゴージャスビジューイエロー",
       "Character": "ひまり",
@@ -4103,6 +4171,7 @@
     {
       "Id": 69,
       "ChapterId": "gumi",
+      "BrandId": 5,
       "SealId": "G1-007",
       "Coordinate": "ゴージャスビジューイエロー",
       "Character": "みつき",
@@ -4116,6 +4185,7 @@
     {
       "Id": 70,
       "ChapterId": "gumi",
+      "BrandId": 2,
       "SealId": "G1-008",
       "Coordinate": "アイプリバースミラクルムーングレー",
       "Character": "みつき",
@@ -4129,6 +4199,7 @@
     {
       "Id": 71,
       "ChapterId": "gumi",
+      "BrandId": 2,
       "SealId": "G1-009",
       "Coordinate": "アイプリバースミラクルムーングレー",
       "Character": "ひまり",
@@ -4142,6 +4213,7 @@
     {
       "Id": 72,
       "ChapterId": "gumi",
+      "BrandId": 2,
       "SealId": "G1-010",
       "Coordinate": "アイプリバースミラクルムーングレー",
       "Character": "サクラ",
@@ -4155,6 +4227,7 @@
     {
       "Id": 73,
       "ChapterId": "gumi",
+      "BrandId": 1,
       "SealId": "G1-011",
       "Coordinate": "ハッピーチアシックブルー",
       "Character": "ひまり",
@@ -4168,6 +4241,7 @@
     {
       "Id": 74,
       "ChapterId": "gumi",
+      "BrandId": 1,
       "SealId": "G1-012",
       "Coordinate": "ハッピーチアシックブルー",
       "Character": "みつき",
@@ -4181,6 +4255,7 @@
     {
       "Id": 75,
       "ChapterId": "gumi",
+      "BrandId": 5,
       "SealId": "G1-013",
       "Coordinate": "クールアイドルネイビーピンク",
       "Character": "サクラ",
@@ -4194,6 +4269,7 @@
     {
       "Id": 76,
       "ChapterId": "gumi",
+      "BrandId": 5,
       "SealId": "G1-014",
       "Coordinate": "クールアイドルネイビーピンク",
       "Character": "ひまり",
@@ -4207,6 +4283,7 @@
     {
       "Id": 77,
       "ChapterId": "millefeui",
+      "BrandId": 1,
       "SealId": "M1-001",
       "Coordinate": "スプリングブロッサム",
       "Character": "ひまり",
@@ -4218,6 +4295,7 @@
     {
       "Id": 78,
       "ChapterId": "millefeui",
+      "BrandId": 5,
       "SealId": "M1-003",
       "Coordinate": "バタフライマジックブルー",
       "Character": "みつき",
@@ -4229,6 +4307,7 @@
     {
       "Id": 79,
       "ChapterId": "millefeui",
+      "BrandId": 1,
       "SealId": "M1-004",
       "Coordinate": "フラワーチュールスカーレット",
       "Character": "サクラ",
@@ -4240,6 +4319,7 @@
     {
       "Id": 80,
       "ChapterId": "millefeui",
+      "BrandId": 2,
       "SealId": "M1-005",
       "Coordinate": "スターメロディマジカル",
       "Character": "ひまり",
@@ -4251,6 +4331,7 @@
     {
       "Id": 81,
       "ChapterId": "millefeui",
+      "BrandId": 2,
       "SealId": "M1-006",
       "Coordinate": "ハニービービビッドピンク",
       "Character": "ひまり",
@@ -4262,6 +4343,7 @@
     {
       "Id": 82,
       "ChapterId": "millefeui",
+      "BrandId": 1,
       "SealId": "M1-007",
       "Coordinate": "ラブリーアイドルホワイトブルー",
       "Character": "みつき",
@@ -4273,6 +4355,7 @@
     {
       "Id": 83,
       "ChapterId": "millefeui",
+      "BrandId": 5,
       "SealId": "M1-008",
       "Coordinate": "クールアイドルパープルブラック",
       "Character": "サクラ",
@@ -4284,6 +4367,7 @@
     {
       "Id": 84,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-010",
       "Coordinate": "リッチベリータルト",
       "Character": "サクラ",
@@ -4296,6 +4380,7 @@
     {
       "Id": 85,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-022",
       "Coordinate": "アイプリバーススカーレットバタフライ",
       "Character": "サクラ",
@@ -4309,6 +4394,7 @@
     {
       "Id": 86,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-028",
       "Coordinate": "ゴージャスビジュー",
       "Character": "サクラ",
@@ -4322,6 +4408,7 @@
     {
       "Id": 87,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-041",
       "Coordinate": "ラブリーアイドルピンク",
       "Character": "ひまり",
@@ -4335,6 +4422,7 @@
     {
       "Id": 88,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-043",
       "Coordinate": "ラブリーアイドルブルー",
       "Character": "みつき",
@@ -4348,6 +4436,7 @@
     {
       "Id": 89,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-045",
       "Coordinate": "クールアイドルピンク",
       "Character": "ひまり",
@@ -4361,6 +4450,7 @@
     {
       "Id": 90,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-047",
       "Coordinate": "クールアイドルブルー",
       "Character": "みつき",
@@ -4374,6 +4464,7 @@
     {
       "Id": 91,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-050",
       "Coordinate": "ハッピーチアピンク",
       "Character": "ひまり",
@@ -4387,6 +4478,7 @@
     {
       "Id": 92,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-052",
       "Coordinate": "ハッピーチアブルー",
       "Character": "みつき",
@@ -4400,6 +4492,7 @@
     {
       "Id": 93,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-054",
       "Coordinate": "セーラーカジュアルピンク",
       "Character": "ひまり",
@@ -4413,6 +4506,7 @@
     {
       "Id": 94,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-056",
       "Coordinate": "セーラーカジュアルブルー",
       "Character": "みつき",
@@ -4426,6 +4520,7 @@
     {
       "Id": 9200001,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-001P",
       "Coordinate": "ポッピンハートバズリウム",
       "Character": "ひまり",
@@ -4439,6 +4534,7 @@
     {
       "Id": 9200002,
       "ChapterId": "1",
+      "BrandId": 2,
       "SealId": "AP1-002P",
       "Coordinate": "ミラクルムーンバズリウム",
       "Character": "みつき",
@@ -4452,6 +4548,7 @@
     {
       "Id": 9200003,
       "ChapterId": "1",
+      "BrandId": 5,
       "SealId": "AP1-003P",
       "Coordinate": "スカーレットバタフライバズリウム",
       "Character": "サクラ",
@@ -4465,6 +4562,7 @@
     {
       "Id": 9200004,
       "ChapterId": "1",
+      "BrandId": 1,
       "SealId": "AP1-004P",
       "Coordinate": "キューティーラビット",
       "Character": "ひまり",
@@ -4478,6 +4576,7 @@
     {
       "Id": 9200005,
       "ChapterId": "millefeui",
+      "BrandId": 2,
       "SealId": "M1-002",
       "Coordinate": "スプリングブルーバタフライ",
       "Character": "",
