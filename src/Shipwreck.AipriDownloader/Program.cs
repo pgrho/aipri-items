@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.Cryptography;
+using System.Text;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 
@@ -444,11 +445,11 @@ internal class Program
                     }
                     if (t != null)
                     {
-                        t.SealId = dt.SealId ?? t.SealId;
-                        t.ChapterId = dt.ChapterId ?? t.ChapterId;
-                        t.Coordinate = dt.Coordinate ?? t.Coordinate;
-                        t.Character = dt.Character ?? t.Character;
-                        t.Variant = dt.Variant ?? t.Variant;
+                        t.SealId = dt.SealId.TrimOrNull() ?? t.SealId;
+                        t.ChapterId = dt.ChapterId.TrimOrNull() ?? t.ChapterId;
+                        t.Coordinate = dt.Coordinate.TrimOrNull() ?? t.Coordinate;
+                        t.Character = dt.Character.TrimOrNull() ?? t.Character;
+                        t.Variant = dt.Variant.TrimOrNull() ?? t.Variant;
 
                         if (!string.IsNullOrEmpty(dt.Image1Url))
                         {
@@ -458,6 +459,7 @@ internal class Program
                         {
                             t.Image2Url = await d.GetOrCopyImageAsync(dt.Image2Url, "cards", t.Id, "-2");
                         }
+                        Console.WriteLine($"Corrected card info of #{t.Id}({t.SealId})");
                     }
                 }
             }
@@ -504,6 +506,8 @@ internal class Program
                     {
                         continue;
                     }
+
+                    Console.WriteLine("Set card info of " + sid);
 
                     elem.Song = (song >= 0 ? row.ElementAtOrDefault(song).TrimOrNull() : null) ?? string.Empty;
                     elem.Point = short.TryParse(point >= 0 ? row.ElementAtOrDefault(point) : null, out var s) ? s : default;

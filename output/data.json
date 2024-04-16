@@ -4207,7 +4207,7 @@
     {
       "Id": 77,
       "ChapterId": "millefeui",
-      "SealId": "TOY-014",
+      "SealId": "M1-001",
       "Coordinate": "スプリングブロッサム",
       "Character": "ひまり",
       "Song": "P.O.P.P.Y.",
@@ -4218,7 +4218,7 @@
     {
       "Id": 78,
       "ChapterId": "millefeui",
-      "SealId": "TOY-016",
+      "SealId": "M1-003",
       "Coordinate": "バタフライマジックブルー",
       "Character": "みつき",
       "Song": "シークレット・ドリーム",
@@ -4229,7 +4229,7 @@
     {
       "Id": 79,
       "ChapterId": "millefeui",
-      "SealId": "TOY-017",
+      "SealId": "M1-004",
       "Coordinate": "フラワーチュールスカーレット",
       "Character": "サクラ",
       "Song": "レッツ！アイプリ（サクラ）",
@@ -4240,7 +4240,7 @@
     {
       "Id": 80,
       "ChapterId": "millefeui",
-      "SealId": "TOY-018",
+      "SealId": "M1-005",
       "Coordinate": "スターメロディマジカル",
       "Character": "ひまり",
       "Song": "P.O.P.P.Y.",
@@ -4251,7 +4251,7 @@
     {
       "Id": 81,
       "ChapterId": "millefeui",
-      "SealId": "TOY-019",
+      "SealId": "M1-006",
       "Coordinate": "ハニービービビッドピンク",
       "Character": "ひまり",
       "Song": "P.O.P.P.Y.",
@@ -4262,7 +4262,7 @@
     {
       "Id": 82,
       "ChapterId": "millefeui",
-      "SealId": "TOY-020",
+      "SealId": "M1-007",
       "Coordinate": "ラブリーアイドルホワイトブルー",
       "Character": "みつき",
       "Song": "シークレット・ドリーム",
@@ -4273,7 +4273,7 @@
     {
       "Id": 83,
       "ChapterId": "millefeui",
-      "SealId": "TOY-021",
+      "SealId": "M1-008",
       "Coordinate": "クールアイドルパープルブラック",
       "Character": "サクラ",
       "Song": "レッツ！アイプリ（サクラ）",
@@ -4474,6 +4474,17 @@
       "Point": 730,
       "Image1Url": "AP1-004P-1.jpg",
       "Image2Url": "AP1-004P-2.jpg"
+    },
+    {
+      "Id": 9200005,
+      "ChapterId": "millefeui",
+      "SealId": "M1-002",
+      "Coordinate": "スプリングブルーバタフライ",
+      "Character": "",
+      "Song": "シークレット・ドリーム",
+      "Star": 4,
+      "Point": 720,
+      "Image1Url": "M1-002.jpg"
     }
   ]
 }
