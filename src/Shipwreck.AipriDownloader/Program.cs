@@ -43,6 +43,12 @@ internal class Program
         await CorrectKnownTypoAsync(d).ConfigureAwait(false);
 
         await AddCardInfoAsync(d).ConfigureAwait(false);
+
+        var chanceCoords = d.DataSet.Cards.Where(e => e.IsChance).Select(e => e.Coordinate).ToHashSet();
+        foreach (var c in d.DataSet.Coordinates)
+        {
+            c.HasChance = chanceCoords.Contains(c.Name);
+        }
     }
 
     static async Task ParseItemAsync(DownloadContext d, string itemUrl, bool parseChapters)
@@ -465,9 +471,9 @@ internal class Program
             }
         }
     }
+
     private static async Task AddCardInfoAsync(DownloadContext d)
     {
-
         var cor = new FileInfo(Path.Combine(DownloadContext.GetDirectory(), "Cards.csv"));
         if (cor.Exists)
         {

@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel;
+using System.Text.Json.Serialization;
 
 namespace Shipwreck.Aipri;
 
@@ -16,6 +17,9 @@ public sealed class Coordinate : DataItem
     public string? Kind { get; set; }
     public DateOnly? Start { get; set; }
     public DateOnly? End { get; set; }
+
+    [DefaultValue(false)]
+    public bool HasChance { get; set; }
 
     [JsonIgnore]
     internal bool IsImageLoaded { get; set; }
@@ -65,6 +69,7 @@ public sealed class Coordinate : DataItem
             BrandId = BrandId,
             Star = Star,
             Name = Name,
+            HasChance = HasChance,
             ImageUrl = ImageUrl,
             ThumbnailUrl = ThumbnailUrl,
             Kind = Kind,

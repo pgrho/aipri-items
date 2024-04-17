@@ -314,6 +314,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-074F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -326,6 +327,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-077F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -338,6 +340,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-080F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -350,6 +353,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-084F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -362,6 +366,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-088F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -374,6 +379,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-091F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -386,6 +392,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-095F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -398,6 +405,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-099F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -422,6 +430,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-105F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -446,6 +455,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-113F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -458,6 +468,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-117F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -470,6 +481,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-121F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -482,6 +494,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-125F_thumb.webp",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -506,6 +519,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-133F_thumb.webp",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -644,6 +658,7 @@
       "Star": 2,
       "Name": "ラブリーアイドルピンク",
       "Kind": "ひみつのアイプリ 1だん",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -653,6 +668,7 @@
       "Star": 2,
       "Name": "ラブリーアイドルブルー",
       "Kind": "ひみつのアイプリ 1だん",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -662,6 +678,7 @@
       "Star": 2,
       "Name": "クールアイドルピンク",
       "Kind": "ひみつのアイプリ 1だん",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -671,6 +688,7 @@
       "Star": 2,
       "Name": "クールアイドルブルー",
       "Kind": "ひみつのアイプリ 1だん",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -680,6 +698,7 @@
       "Star": 2,
       "Name": "クールアイドルレッド",
       "Kind": "ひみつのアイプリ 1だん",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -689,6 +708,7 @@
       "Star": 2,
       "Name": "ハッピーチアピンク",
       "Kind": "ひみつのアイプリ 1だん",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -698,6 +718,7 @@
       "Star": 2,
       "Name": "ハッピーチアブルー",
       "Kind": "ひみつのアイプリ 1だん",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -707,6 +728,7 @@
       "Star": 2,
       "Name": "セーラーカジュアルピンク",
       "Kind": "ひみつのアイプリ 1だん",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -716,6 +738,7 @@
       "Star": 2,
       "Name": "セーラーカジュアルブルー",
       "Kind": "ひみつのアイプリ 1だん",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -724,6 +747,7 @@
       "BrandId": 1,
       "Name": "ピンクジュエル",
       "Kind": "ひみつのアイプリブレス ひまりモデル",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -732,6 +756,7 @@
       "BrandId": 2,
       "Name": "ブルージュエル",
       "Kind": "ひみつのアイプリブレス みつきモデル",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -740,6 +765,7 @@
       "BrandId": 1,
       "Name": "ラブリーコスメ",
       "Kind": "ひみつのアイプリリップ ひまりモデル",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -748,6 +774,7 @@
       "BrandId": 2,
       "Name": "クールコスメ",
       "Kind": "ひみつのアイプリリップ みつきモデル",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -756,6 +783,7 @@
       "BrandId": 1,
       "Name": "フラワーチュールローズ",
       "Kind": "ひみつのアイプリブレス リフィルリップ ローズの香り",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -764,6 +792,7 @@
       "BrandId": 2,
       "Name": "フラワーチュールジャスミン",
       "Kind": "ひみつのアイプリブレス リフィルパフューム ジャスミンの香り",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -772,6 +801,7 @@
       "BrandId": 1,
       "Name": "スターパーティーミントベリー",
       "Kind": "ちゃお5月号付録「ひまり（スターパーティーミントベリー）」",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -781,6 +811,7 @@
       "Star": 4,
       "Name": "キューティーラビットレッド",
       "Kind": "ひみつのアイプリファンブック 2024年5月号",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -830,6 +861,7 @@
       "Star": 4,
       "Name": "ポッピンハートバズリウムミント",
       "Kind": "アイプリカード♪コレクショングミ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -839,6 +871,7 @@
       "Star": 4,
       "Name": "ぷるるんゼリーメロン",
       "Kind": "アイプリカード♪コレクショングミ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -848,6 +881,7 @@
       "Star": 3,
       "Name": "ゴージャスビジューイエロー",
       "Kind": "アイプリカード♪コレクショングミ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -857,6 +891,7 @@
       "Star": 3,
       "Name": "アイプリバースミラクルムーングレー",
       "Kind": "アイプリカード♪コレクショングミ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -866,6 +901,7 @@
       "Star": 2,
       "Name": "ハッピーチアシックブルー",
       "Kind": "アイプリカード♪コレクショングミ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -875,6 +911,7 @@
       "Star": 2,
       "Name": "クールアイドルネイビーピンク",
       "Kind": "アイプリカード♪コレクショングミ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -947,6 +984,7 @@
       "BrandId": 1,
       "Name": "アイプリバースポッピンハート",
       "Kind": "アイプリデビューキャンペーン",
+      "HasChance": true,
       "LinkedItemIds": [
         30049,
         30050,
@@ -959,6 +997,7 @@
       "BrandId": 2,
       "Name": "アイプリバースミラクルムーン",
       "Kind": "アイプリデビューキャンペーン",
+      "HasChance": true,
       "LinkedItemIds": [
         30055,
         30056,
