@@ -532,6 +532,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-136F_thumb.webp",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "HasChance": true,
       "LinkedItemIds": [
         30098,
         30099

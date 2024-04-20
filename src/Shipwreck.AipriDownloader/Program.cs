@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Globalization;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
@@ -44,7 +45,11 @@ internal class Program
 
         await AddCardInfoAsync(d).ConfigureAwait(false);
 
-        var chanceCoords = d.DataSet.Cards.Where(e => e.IsChance).Select(e => e.Coordinate).ToHashSet();
+
+        var comparer = StringComparer.Create(
+            CultureInfo.InvariantCulture, CompareOptions.IgnoreCase | CompareOptions.IgnoreNonSpace | CompareOptions.IgnoreKanaType | CompareOptions.IgnoreWidth);
+
+        var chanceCoords = d.DataSet.Cards.Where(e => e.IsChance).Select(e => e.Coordinate).ToHashSet(comparer);
         foreach (var c in d.DataSet.Coordinates)
         {
             c.HasChance = chanceCoords.Contains(c.Name);
