@@ -102,7 +102,7 @@ internal class Program
         var newCoordinates = new HashSet<Coordinate>();
         var newCoordinateItems = new HashSet<CoordinateItem>();
 
-        foreach (HtmlNodeNavigator cNode in nav.Select("//div[@class='grid__item']//a[@data-modal]"))
+        foreach (HtmlNodeNavigator cNode in nav.Select("//div[@class='grid__item' or starts-with(@class, 'grid__item')]//a[@data-modal]"))
         {
             var modal = cNode.SelectSingleNode("@data-modal")?.Value;
 
