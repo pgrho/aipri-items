@@ -354,7 +354,7 @@ public sealed class DownloadContext : IDisposable
                 {
                     Name = name,
                     ChapterId = chapter?.Id,
-                    Id = (_DataSet.Coordinates.Where(e => e.Id < 9000000).Max(e => e?.Id) ?? 0) + 1
+                    Id = (_DataSet.Coordinates.Where(e => e.Id < 900000).Max(e => e?.Id) ?? 0) + 1
                 };
                 _DataSet.Coordinates.Add(c);
             }
@@ -439,7 +439,7 @@ public sealed class DownloadContext : IDisposable
                     Character = character,
                     Variant = variant,
                     ChapterId = chapter?.Id,
-                    Id = (_DataSet.Cards.Where(e => e.Id < 9000000).Max(e => e?.Id) ?? 0) + 1
+                    Id = (_DataSet.Cards.Where(e => e.Id < 900000).Max(e => e?.Id) ?? 0) + 1
                 };
                 _DataSet.Cards.Add(c);
             }

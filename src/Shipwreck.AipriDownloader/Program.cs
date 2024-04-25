@@ -250,7 +250,7 @@ internal class Program
                 }
             }
 
-            foreach (HtmlNodeNavigator iNode in cNode.Select(".//div[@class='grid__item']"))
+            foreach (HtmlNodeNavigator iNode in cNode.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item')]"))
             {
                 var item = iNode.SelectSingleNode(".//p[@class='item__txt']")?.Value?.Trim()
                         ?? iNode.SelectSingleNode(".//a[@data-modal]/@data-name")?.Value?.Trim();
