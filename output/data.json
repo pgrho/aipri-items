@@ -718,7 +718,7 @@
       "BrandId": 4,
       "Star": 3,
       "Name": "プリマジチェックヘブンズホワイト",
-      "Group": "ゲーム関連",
+      "Group": "「ワッチャプリマジ！」ひきつぎキャンペーン",
       "Kind": "「ワッチャプリマジ！」ひきつぎキャンペーン",
       "LinkedItemIds": []
     },
@@ -728,7 +728,7 @@
       "BrandId": 1,
       "Star": 2,
       "Name": "ラブリーアイドルピンク",
-      "Group": "ゲーム関連",
+      "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
       "HasChance": true,
       "LinkedItemIds": []
@@ -739,7 +739,7 @@
       "BrandId": 2,
       "Star": 2,
       "Name": "ラブリーアイドルブルー",
-      "Group": "ゲーム関連",
+      "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
       "HasChance": true,
       "LinkedItemIds": []
@@ -750,7 +750,7 @@
       "BrandId": 1,
       "Star": 2,
       "Name": "クールアイドルピンク",
-      "Group": "ゲーム関連",
+      "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
       "HasChance": true,
       "LinkedItemIds": []
@@ -761,7 +761,7 @@
       "BrandId": 2,
       "Star": 2,
       "Name": "クールアイドルブルー",
-      "Group": "ゲーム関連",
+      "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
       "HasChance": true,
       "LinkedItemIds": []
@@ -772,7 +772,7 @@
       "BrandId": 5,
       "Star": 2,
       "Name": "クールアイドルレッド",
-      "Group": "ゲーム関連",
+      "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
       "HasChance": true,
       "LinkedItemIds": []
@@ -783,7 +783,7 @@
       "BrandId": 1,
       "Star": 2,
       "Name": "ハッピーチアピンク",
-      "Group": "ゲーム関連",
+      "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
       "HasChance": true,
       "LinkedItemIds": []
@@ -794,7 +794,7 @@
       "BrandId": 2,
       "Star": 2,
       "Name": "ハッピーチアブルー",
-      "Group": "ゲーム関連",
+      "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
       "HasChance": true,
       "LinkedItemIds": []
@@ -805,7 +805,7 @@
       "BrandId": 1,
       "Star": 2,
       "Name": "セーラーカジュアルピンク",
-      "Group": "ゲーム関連",
+      "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
       "HasChance": true,
       "LinkedItemIds": []
@@ -816,7 +816,7 @@
       "BrandId": 2,
       "Star": 2,
       "Name": "セーラーカジュアルブルー",
-      "Group": "ゲーム関連",
+      "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
       "HasChance": true,
       "LinkedItemIds": []
@@ -826,7 +826,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "ピンクジュエル",
-      "Group": "グッズ関連",
+      "Group": "アイプリブレス",
       "Kind": "ひみつのアイプリブレス ひまりモデル",
       "HasChance": true,
       "LinkedItemIds": []
@@ -836,7 +836,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "ブルージュエル",
-      "Group": "グッズ関連",
+      "Group": "アイプリブレス",
       "Kind": "ひみつのアイプリブレス みつきモデル",
       "HasChance": true,
       "LinkedItemIds": []
@@ -846,7 +846,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "ラブリーコスメ",
-      "Group": "グッズ関連",
+      "Group": "ひみつのアイプリリップ ひまりモデル",
       "Kind": "ひみつのアイプリリップ ひまりモデル",
       "HasChance": true,
       "LinkedItemIds": []
@@ -856,7 +856,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "クールコスメ",
-      "Group": "グッズ関連",
+      "Group": "ひみつのアイプリリップ みつきモデル",
       "Kind": "ひみつのアイプリリップ みつきモデル",
       "HasChance": true,
       "LinkedItemIds": []
@@ -866,7 +866,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "フラワーチュールローズ",
-      "Group": "グッズ関連",
+      "Group": "アイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルリップ ローズの香り",
       "HasChance": true,
       "LinkedItemIds": []
@@ -876,7 +876,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "フラワーチュールジャスミン",
-      "Group": "グッズ関連",
+      "Group": "アイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルパフューム ジャスミンの香り",
       "HasChance": true,
       "LinkedItemIds": []
@@ -886,7 +886,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "スターパーティーミントベリー",
-      "Group": "グッズ関連",
+      "Group": "ちゃお",
       "Kind": "ちゃお5月号付録「ひまり（スターパーティーミントベリー）」",
       "HasChance": true,
       "LinkedItemIds": []
@@ -897,7 +897,7 @@
       "BrandId": 1,
       "Star": 4,
       "Name": "キューティーラビットレッド",
-      "Group": "グッズ関連",
+      "Group": "ファンブック",
       "Kind": "ひみつのアイプリファンブック 2024年5月号",
       "HasChance": true,
       "LinkedItemIds": []
@@ -907,7 +907,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "プリうさムギちゃんアクセ",
-      "Group": "グッズ関連",
+      "Group": "ぬいぐるみ",
       "Kind": "ひみつのアイプリ ぬいぐるみ プリうさムギちゃん",
       "LinkedItemIds": []
     },
@@ -916,7 +916,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "ひまりぬいぐるみアクセ",
-      "Group": "グッズ関連",
+      "Group": "ぬいぐるみ",
       "Kind": "ひみつのアイプリ ぬいぐるみ ひまり",
       "LinkedItemIds": []
     },
@@ -925,7 +925,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "みつきぬいぐるみアクセ",
-      "Group": "グッズ関連",
+      "Group": "ぬいぐるみ",
       "Kind": "ひみつのアイプリ ぬいぐるみ みつき",
       "LinkedItemIds": []
     },
@@ -934,7 +934,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "ひまりのアイムゥアクセ",
-      "Group": "グッズ関連",
+      "Group": "ぬいぐるみ",
       "Kind": "ひみつのアイプリ ボールチェーンマスコット ひまりのアイムゥ",
       "LinkedItemIds": []
     },
@@ -943,7 +943,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "みつきのアイムゥアクセ",
-      "Group": "グッズ関連",
+      "Group": "ぬいぐるみ",
       "Kind": "ひみつのアイプリ ボールチェーンマスコット みつきのアイムゥ",
       "LinkedItemIds": []
     },
@@ -953,7 +953,7 @@
       "BrandId": 1,
       "Star": 4,
       "Name": "ポッピンハートバズリウムミント",
-      "Group": "グッズ関連",
+      "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
       "HasChance": true,
       "LinkedItemIds": []
@@ -964,7 +964,7 @@
       "BrandId": 2,
       "Star": 4,
       "Name": "ぷるるんゼリーメロン",
-      "Group": "グッズ関連",
+      "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
       "HasChance": true,
       "LinkedItemIds": []
@@ -975,7 +975,7 @@
       "BrandId": 5,
       "Star": 3,
       "Name": "ゴージャスビジューイエロー",
-      "Group": "グッズ関連",
+      "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
       "HasChance": true,
       "LinkedItemIds": []
@@ -986,7 +986,7 @@
       "BrandId": 2,
       "Star": 3,
       "Name": "アイプリバースミラクルムーングレー",
-      "Group": "グッズ関連",
+      "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
       "HasChance": true,
       "LinkedItemIds": []
@@ -997,7 +997,7 @@
       "BrandId": 1,
       "Star": 2,
       "Name": "ハッピーチアシックブルー",
-      "Group": "グッズ関連",
+      "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
       "HasChance": true,
       "LinkedItemIds": []
@@ -1008,7 +1008,7 @@
       "BrandId": 5,
       "Star": 2,
       "Name": "クールアイドルネイビーピンク",
-      "Group": "グッズ関連",
+      "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
       "HasChance": true,
       "LinkedItemIds": []
@@ -1214,7 +1214,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "スターメロディパッション",
-      "Group": "グッズ関連",
+      "Group": "ちゃお",
       "Kind": "ちゃお2024年6月号付録",
       "LinkedItemIds": []
     },
@@ -1323,7 +1323,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "アイプリバースポッピンハート",
-      "Group": "グッズ関連",
+      "Group": "アイプリデビューキャンペーン",
       "Kind": "アイプリデビューキャンペーン",
       "HasChance": true,
       "LinkedItemIds": [
@@ -1337,7 +1337,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "アイプリバースミラクルムーン",
-      "Group": "グッズ関連",
+      "Group": "アイプリデビューキャンペーン",
       "Kind": "アイプリデビューキャンペーン",
       "HasChance": true,
       "LinkedItemIds": [

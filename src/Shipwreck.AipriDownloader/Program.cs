@@ -116,14 +116,19 @@ internal class Program
 
         foreach (HtmlNodeNavigator section in nav.Select("//section[starts-with(@class, 'section js-hidden-item')]"))
         {
-            var tag = section.GetAttribute("data-hidden", null)?.Trim();
-            tags.TryGetValue(tag ?? string.Empty, out var group);
-
+  
             var kind = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim()
                         ?? section.SelectSingleNode(".//h2")?.Value?.Trim();
             var period = section.SelectSingleNode(".//p[contains(@class, 'txt--period')]")?.Value?.Trim();
 
-            DateOnly? start = null, end = null;
+            var group = kind?.StartsWith("ひみつのアイプリファンブック") == true ? "ファンブック"
+                : kind?.StartsWith("ひみつのアイプリブレス") == true ? "アイプリブレス"
+                : kind?.StartsWith("ひみつのアイプリ ぬいぐるみ") == true ? "ぬいぐるみ"
+                : kind?.StartsWith("ひみつのアイプリ ボールチェーンマスコット") == true ? "ぬいぐるみ"
+                : kind?.StartsWith("ちゃお") == true ? "ちゃお"
+                : kind;
+
+            DateOnly ? start = null, end = null;
 
             if (period != null
                 && Regex.Match(period, @"^(\d+)年(\d+)月(\d+)日（[日月火水木金土]）～") is var ma

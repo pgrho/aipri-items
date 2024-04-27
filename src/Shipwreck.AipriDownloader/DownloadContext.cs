@@ -108,7 +108,7 @@ public sealed class DownloadContext : IDisposable
                     {
                         if (!string.IsNullOrEmpty(e?.Url))
                         {
-                            e.LastRequested = DateTime.Now.AddDays(-1);
+                            e.LastRequested ??= DateTime.Now.AddDays(-1);
                             _Cache[e.Url] = e;
                             _LastId = Math.Max(e.Id, _LastId);
                         }
