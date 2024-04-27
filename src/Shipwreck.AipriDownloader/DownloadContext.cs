@@ -23,6 +23,7 @@ public sealed class DownloadContext : IDisposable
         public string Url { get; set; } = string.Empty;
         public string? Etag { get; set; }
         public DateTime? LastModified { get; set; }
+        public DateTime? LastRequested { get; set; }
     }
 
     public DownloadContext()
@@ -107,6 +108,7 @@ public sealed class DownloadContext : IDisposable
                     {
                         if (!string.IsNullOrEmpty(e?.Url))
                         {
+                            e.LastRequested = DateTime.Now.AddDays(-1);
                             _Cache[e.Url] = e;
                             _LastId = Math.Max(e.Id, _LastId);
                         }
@@ -143,6 +145,11 @@ public sealed class DownloadContext : IDisposable
             {
                 etag = c.Etag;
                 lastModified = c.LastModified;
+
+                if (etag != null && c.LastRequested?.AddHours(1) > DateTime.Now)
+                {
+                    return File.OpenRead(Path.Combine(_CacheDirectory.FullName, c.Id.ToString()));
+                }
             }
             else
             {
@@ -216,7 +223,8 @@ public sealed class DownloadContext : IDisposable
                     Id = newId,
                     Url = url,
                     Etag = etag,
-                    LastModified = lastModified
+                    LastModified = lastModified,
+                    LastRequested = DateTime.Now,
                 };
             }
 
