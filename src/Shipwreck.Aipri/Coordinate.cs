@@ -14,6 +14,7 @@ public sealed class Coordinate : DataItem
     public string Name { get; set; } = string.Empty;
     public string? ImageUrl { get; set; }
     public string? ThumbnailUrl { get; set; }
+    public string? Group { get; set; }
     public string? Kind { get; set; }
     public DateOnly? Start { get; set; }
     public DateOnly? End { get; set; }
@@ -72,6 +73,7 @@ public sealed class Coordinate : DataItem
             HasChance = HasChance,
             ImageUrl = ImageUrl,
             ThumbnailUrl = ThumbnailUrl,
+            Group = Group,
             Kind = Kind,
             Start = Start,
             End = End,

@@ -101,123 +101,27 @@ internal class Program
         var newCoordinates = new HashSet<Coordinate>();
         var newCoordinateItems = new HashSet<CoordinateItem>();
 
-        foreach (HtmlNodeNavigator cNode in nav.Select("//div[@class='grid__item' or starts-with(@class, 'grid__item')]//a[@data-modal]"))
+        var tags = new Dictionary<string, string>();
+
+        foreach (HtmlNodeNavigator section in nav.Select("//li[starts-with(@class, 'tagList__item')]/a"))
         {
-            var modal = cNode.SelectSingleNode("@data-modal")?.Value;
+            var key = section.GetAttribute("data-show", null)?.Trim();
+            var value = section.Value?.Trim();
 
-            var bndImg = cNode.SelectSingleNode("@data-brand")?.Value;
-            var bndName = cNode.SelectSingleNode("@data-brandname")?.Value;
-
-            var b = string.IsNullOrEmpty(bndName) ? null
-                : await d.AddBrandAsync(bndName, new Uri(url, bndImg).ToString()).ConfigureAwait(false);
-
-            var title = cNode.SelectSingleNode("@data-name")?.Value;
-            var star = cNode.SelectSingleNode("@data-icn")?.Value is string icn
-                    && Regex.Match(Path.GetFileNameWithoutExtension(icn), "^icn_star\\d$") is var icnM
-                    && icnM.Success
-                    ? icnM.Value.Last() - '0'
-                    : (int?)null;
-
-            async Task addItemAsync(Coordinate coord, string? term, string? iUrl, string? iid, short point)
+            if (!string.IsNullOrEmpty(key) && !string.IsNullOrEmpty(value))
             {
-                var eid = iUrl != null && Regex.Match(iUrl, "\\/Item_ID(\\d+)\\.webp$") is var em && em.Success ? int.Parse(em.Groups[1].Value)
-                    : (int?)null;
-
-                var first = (string.IsNullOrEmpty(iid)
-                    ? null
-                    : d.DataSet.CoordinateItems.FirstOrDefault(e => e.SealId == iid && e.IsCurrentRun))
-                    ?? (d.DataSet.CoordinateItems.FirstOrDefault(e => e.GetCoordinate()?.Name == coord.Name && e.Term == term));
-
-                if (first == null || first.CoordinateId == coord.Id)
-                {
-                    var item = await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
-
-                    item.IsCurrentRun = true;
-
-                    Console.WriteLine("     - Item[{0}]: {1}", item.Id, item.Term);
-
-                    newCoordinateItems.Add(item);
-                }
-                else
-                {
-                    coord.LinkedItemIds.Add(first.Id);
-                    Console.WriteLine("     - Item[{0}]: {1} (Linked to {2})", first.Id, first.Term, d.DataSet.Coordinates.GetById(first.CoordinateId)?.Name);
-                }
-            }
-
-            if (modal == "item")
-            {
-                var imgUrl = cNode.SelectSingleNode("@data-img")?.Value;
-
-                if (string.IsNullOrEmpty(title))
-                {
-                    continue;
-                }
-
-                var coord = await d.AddCoordinateAsync(chapter, b, title, star, new Uri(url, imgUrl).ToString()).ConfigureAwait(false);
-
-                if (newCoordinates.Add(coord))
-                {
-                    Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
-                }
-
-                var thUrl = cNode.SelectSingleNode("./img/@src")?.Value;
-                if (thUrl != null)
-                {
-                    thUrl = new Uri(url, thUrl).ToString();
-                    if (coord.ThumbnailUrl != thUrl || !coord.IsThumbnailLoaded)
-                    {
-                        coord.ThumbnailUrl = await d.GetOrCopyImageAsync(thUrl, "coordinates", coord.Id, "-thumb").ConfigureAwait(false);
-                        coord.IsThumbnailLoaded = true;
-                    }
-                }
-
-                for (var n = 1; n <= 4; n++)
-                {
-                    var term = cNode.SelectSingleNode("@data-term" + n)?.Value?.Trim();
-                    if (string.IsNullOrEmpty(term))
-                    {
-                        break;
-                    }
-                    var iUrl = cNode.SelectSingleNode("@data-img" + n)?.Value?.Trim();
-                    var iid = cNode.SelectSingleNode("@data-id" + n)?.Value?.Trim();
-                    var point = short.TryParse(cNode.SelectSingleNode("@data-point" + n)?.Value?.Trim(), out var pv) ? pv : (short)0;
-
-                    await addItemAsync(coord, term, iUrl, iid, point).ConfigureAwait(false);
-                }
-            }
-            else if (modal == "special")
-            {
-                if (string.IsNullOrEmpty(title))
-                {
-                    continue;
-                }
-
-                var coord = await d.AddCoordinateAsync(chapter, b, title, star, null).ConfigureAwait(false);
-
-                if (newCoordinates.Add(coord))
-                {
-                    Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
-                }
-
-                var term = cNode.SelectSingleNode("@data-term")?.Value?.Trim();
-                if (string.IsNullOrEmpty(term))
-                {
-                    break;
-                }
-                var iUrl = cNode.SelectSingleNode("@data-img")?.Value?.Trim();
-                var iid = cNode.SelectSingleNode("@data-id")?.Value?.Trim();
-                var point = short.TryParse(cNode.SelectSingleNode("@data-point")?.Value?.Trim(), out var pv) ? pv : (short)0;
-
-                await addItemAsync(coord, term, iUrl, iid, point).ConfigureAwait(false);
+                tags[key] = value;
             }
         }
 
-        foreach (HtmlNodeNavigator cNode in nav.Select("//section[starts-with(@class, 'section js-hidden-item')]"))
+        foreach (HtmlNodeNavigator section in nav.Select("//section[starts-with(@class, 'section js-hidden-item')]"))
         {
-            var kind = cNode.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim()
-                        ?? cNode.SelectSingleNode(".//h2")?.Value?.Trim();
-            var period = cNode.SelectSingleNode(".//p[contains(@class, 'txt--period')]")?.Value?.Trim();
+            var tag = section.GetAttribute("data-hidden", null)?.Trim();
+            tags.TryGetValue(tag ?? string.Empty, out var group);
+
+            var kind = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim()
+                        ?? section.SelectSingleNode(".//h2")?.Value?.Trim();
+            var period = section.SelectSingleNode(".//p[contains(@class, 'txt--period')]")?.Value?.Trim();
 
             DateOnly? start = null, end = null;
 
@@ -249,18 +153,119 @@ internal class Program
                 }
             }
 
-            foreach (HtmlNodeNavigator iNode in cNode.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item')]"))
+            foreach (HtmlNodeNavigator cNode in section.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item')]//a[@data-modal]"))
             {
-                var item = iNode.SelectSingleNode(".//p[@class='item__txt']")?.Value?.Trim()
-                        ?? iNode.SelectSingleNode(".//a[@data-modal]/@data-name")?.Value?.Trim();
+                var modal = cNode.SelectSingleNode("@data-modal")?.Value;
 
-                var c = newCoordinates.FirstOrDefault(e => e.Name == item);
+                var bndImg = cNode.SelectSingleNode("@data-brand")?.Value;
+                var bndName = cNode.SelectSingleNode("@data-brandname")?.Value;
 
-                if (c != null)
+                var b = string.IsNullOrEmpty(bndName) ? null
+                    : await d.AddBrandAsync(bndName, new Uri(url, bndImg).ToString()).ConfigureAwait(false);
+
+                var title = cNode.SelectSingleNode("@data-name")?.Value;
+                var star = cNode.SelectSingleNode("@data-icn")?.Value is string icn
+                        && Regex.Match(Path.GetFileNameWithoutExtension(icn), "^icn_star\\d$") is var icnM
+                        && icnM.Success
+                        ? icnM.Value.Last() - '0'
+                        : (int?)null;
+
+                async Task addItemAsync(Coordinate coord, string? term, string? iUrl, string? iid, short point)
                 {
-                    c.Kind = kind;
-                    c.Start = start;
-                    c.End = end;
+                    coord.Group = (chapterKey == "special" ? group : null) ?? kind;
+                    coord.Kind = kind;
+                    coord.Start = start;
+                    coord.End = end;
+                    var eid = iUrl != null && Regex.Match(iUrl, "\\/Item_ID(\\d+)\\.webp$") is var em && em.Success ? int.Parse(em.Groups[1].Value)
+                        : (int?)null;
+
+                    var first = (string.IsNullOrEmpty(iid)
+                        ? null
+                        : d.DataSet.CoordinateItems.FirstOrDefault(e => e.SealId == iid && e.IsCurrentRun))
+                        ?? (d.DataSet.CoordinateItems.FirstOrDefault(e => e.GetCoordinate()?.Name == coord.Name && e.Term == term));
+
+                    if (first == null || first.CoordinateId == coord.Id)
+                    {
+                        var item = await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
+
+                        item.IsCurrentRun = true;
+
+                        Console.WriteLine("     - Item[{0}]: {1}", item.Id, item.Term);
+
+                        newCoordinateItems.Add(item);
+                    }
+                    else
+                    {
+                        coord.LinkedItemIds.Add(first.Id);
+                        Console.WriteLine("     - Item[{0}]: {1} (Linked to {2})", first.Id, first.Term, d.DataSet.Coordinates.GetById(first.CoordinateId)?.Name);
+                    }
+                }
+
+                if (modal == "item")
+                {
+                    var imgUrl = cNode.SelectSingleNode("@data-img")?.Value;
+
+                    if (string.IsNullOrEmpty(title))
+                    {
+                        continue;
+                    }
+
+                    var coord = await d.AddCoordinateAsync(chapter, b, kind, title, star, new Uri(url, imgUrl).ToString()).ConfigureAwait(false);
+
+                    if (newCoordinates.Add(coord))
+                    {
+                        Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
+                    }
+
+                    var thUrl = cNode.SelectSingleNode("./img/@src")?.Value;
+                    if (thUrl != null)
+                    {
+                        thUrl = new Uri(url, thUrl).ToString();
+                        if (coord.ThumbnailUrl != thUrl || !coord.IsThumbnailLoaded)
+                        {
+                            coord.ThumbnailUrl = await d.GetOrCopyImageAsync(thUrl, "coordinates", coord.Id, "-thumb").ConfigureAwait(false);
+                            coord.IsThumbnailLoaded = true;
+                        }
+                    }
+
+                    for (var n = 1; n <= 4; n++)
+                    {
+                        var term = cNode.SelectSingleNode("@data-term" + n)?.Value?.Trim();
+                        if (string.IsNullOrEmpty(term))
+                        {
+                            break;
+                        }
+                        var iUrl = cNode.SelectSingleNode("@data-img" + n)?.Value?.Trim();
+                        var iid = cNode.SelectSingleNode("@data-id" + n)?.Value?.Trim();
+                        var point = short.TryParse(cNode.SelectSingleNode("@data-point" + n)?.Value?.Trim(), out var pv) ? pv : (short)0;
+
+                        await addItemAsync(coord, term, iUrl, iid, point).ConfigureAwait(false);
+                    }
+                }
+                else if (modal == "special")
+                {
+                    if (string.IsNullOrEmpty(title))
+                    {
+                        continue;
+                    }
+
+                    var coord = await d.AddCoordinateAsync(chapter, b, kind, title, star, null).ConfigureAwait(false);
+
+                    if (newCoordinates.Add(coord))
+                    {
+                        Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
+                    }
+
+                    var term = cNode.SelectSingleNode("@data-term")?.Value?.Trim();
+                    if (string.IsNullOrEmpty(term))
+                    {
+                        break;
+                    }
+                    var iUrl = cNode.SelectSingleNode("@data-img")?.Value?.Trim();
+                    var iid = cNode.SelectSingleNode("@data-id")?.Value?.Trim();
+                    var point = short.TryParse(cNode.SelectSingleNode("@data-point")?.Value?.Trim(), out var pv) ? pv : (short)0;
+
+                    await addItemAsync(coord, term, iUrl, iid, point).ConfigureAwait(false);
                 }
             }
         }
@@ -390,8 +395,9 @@ internal class Program
                 {
                     t.ChapterId = dt.ChapterId ?? t.ChapterId;
                     t.Star = dt.Star ?? t.Star;
-                    t.Name = dt.Name ?? t.Name;
-                    t.Kind = dt.Kind ?? t.Kind;
+                    t.Name = dt.Name.TrimOrNull() ?? t.Name;
+                    t.Group = dt.Group.TrimOrNull() ?? t.Group;
+                    t.Kind = dt.Kind.TrimOrNull() ?? t.Kind;
                 }
             }
         }

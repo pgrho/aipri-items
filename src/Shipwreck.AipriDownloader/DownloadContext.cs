@@ -417,18 +417,19 @@ public sealed class DownloadContext : IDisposable
         return null;
     }
 
-    public async Task<Coordinate> AddCoordinateAsync(Chapter? chapter, Brand? brand, string name, int? star, string? imageUrl)
+    public async Task<Coordinate> AddCoordinateAsync(Chapter? chapter, Brand? brand, string? kind, string name, int? star, string? imageUrl)
     {
         Coordinate? c;
         lock (_DataSet)
         {
-            c = _DataSet.Coordinates.FirstOrDefault(e => e.ChapterId == chapter?.Id && e.Name == name);
+            c = _DataSet.Coordinates.FirstOrDefault(e => e.ChapterId == chapter?.Id && e.Kind == kind && e.Name == name);
             if (c == null)
             {
                 c = new()
                 {
                     Name = name,
                     ChapterId = chapter?.Id,
+                    Kind = kind,
                     Id = (_DataSet.Coordinates.Where(e => e.Id < 900000).Max(e => e?.Id) ?? 0) + 1
                 };
                 _DataSet.Coordinates.Add(c);
@@ -621,6 +622,7 @@ public sealed class DownloadContext : IDisposable
                 var id = Array.IndexOf(ha, nameof(Coordinate.Id));
                 var chapterId = Array.IndexOf(ha, nameof(Coordinate.ChapterId));
                 var name = Array.IndexOf(ha, nameof(Coordinate.Name));
+                var group = Array.IndexOf(ha, nameof(Coordinate.Group));
                 var kind = Array.IndexOf(ha, nameof(Coordinate.Kind));
                 var star = Array.IndexOf(ha, nameof(Coordinate.Star));
                 var brand = Array.IndexOf(ha, "Brand");
@@ -642,6 +644,7 @@ public sealed class DownloadContext : IDisposable
                                 Id = int.TryParse(read(id), out var i) ? i : 0,
                                 ChapterId = read(chapterId) ?? string.Empty,
                                 Name = read(name) ?? string.Empty,
+                                Group = read(group) ?? string.Empty,
                                 Kind = read(kind) ?? string.Empty,
                                 Star = byte.TryParse(read(star), out var st) ? st : null,
                                 BrandId = brands.TryGetValue(read(brand) ?? string.Empty, out var bid) ? bid : null
