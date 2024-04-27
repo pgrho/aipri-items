@@ -5,5 +5,5 @@ namespace Shipwreck.Aipri;
 public abstract class DataItem
 {
     [JsonIgnore]
-    public AipriVerseDataSet? DataSet { get; internal set; }
+    public AipriDataSet? DataSet { get; internal set; }
 }

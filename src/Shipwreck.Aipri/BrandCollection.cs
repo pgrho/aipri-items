@@ -11,7 +11,7 @@ public sealed class BrandCollection : DataItemCollection<Brand>
         Set(items);
     }
 
-    internal BrandCollection(AipriVerseDataSet? dataSet)
+    internal BrandCollection(AipriDataSet? dataSet)
         : base(dataSet)
     {
     }

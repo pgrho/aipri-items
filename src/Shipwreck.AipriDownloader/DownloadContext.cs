@@ -7,7 +7,7 @@ namespace Shipwreck.AipriDownloader;
 public sealed class DownloadContext : IDisposable
 {
     private readonly HttpClient _Http;
-    private readonly AipriVerseDataSet _DataSet;
+    private readonly AipriDataSet _DataSet;
 
     private readonly DirectoryInfo _OutputDirectory;
 
@@ -37,7 +37,7 @@ public sealed class DownloadContext : IDisposable
                 if (cf.Exists)
                 {
                     using var fs = cf.OpenRead();
-                    var hd = JsonSerializer.Deserialize<AipriVerseDataSet>(fs);
+                    var hd = JsonSerializer.Deserialize<AipriDataSet>(fs);
                     if (hd != null)
                     {
                         foreach (var c in hd.VerseChapters ?? [])
@@ -132,7 +132,7 @@ public sealed class DownloadContext : IDisposable
         _JsonStream ??= new FileStream(jp, FileMode.Create, FileAccess.Write, FileShare.None);
     }
 
-    internal AipriVerseDataSet DataSet => _DataSet;
+    internal AipriDataSet DataSet => _DataSet;
 
     internal static string GetDirectory([CallerFilePath] string filePath = "")
         => Path.GetDirectoryName(filePath)!;
@@ -479,7 +479,7 @@ public sealed class DownloadContext : IDisposable
         {
             using (var fs = new FileStream(hpn, FileMode.Create))
             {
-                JsonSerializer.Serialize(fs, new AipriVerseDataSet()
+                JsonSerializer.Serialize(fs, new AipriDataSet()
                 {
                     VerseChapters = new(_DataSet.VerseChapters.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Brands = new(_DataSet.Brands.OrderBy(e => e.Id).Select(e => e.Clone())),

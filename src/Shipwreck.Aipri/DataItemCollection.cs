@@ -5,9 +5,9 @@ namespace Shipwreck.Aipri;
 public abstract class DataItemCollection<T> : Collection<T>
     where T : DataItem
 {
-    private readonly AipriVerseDataSet? _DataSet;
+    private readonly AipriDataSet? _DataSet;
 
-    private protected DataItemCollection(AipriVerseDataSet? dataSet)
+    private protected DataItemCollection(AipriDataSet? dataSet)
     {
         _DataSet = dataSet;
     }

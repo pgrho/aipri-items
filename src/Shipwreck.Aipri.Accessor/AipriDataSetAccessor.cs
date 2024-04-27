@@ -8,22 +8,22 @@ using LibGit2Sharp;
 
 namespace Shipwreck.Aipri.Accessor;
 
-public sealed class AipriVerseDataSetAccessor : IDisposable
+public sealed class AipriDataSetAccessor : IDisposable
 {
     private const string URL = "https://github.com/pgrho/aipri-items.git";
     private readonly DirectoryInfo _Directory;
 
-    public AipriVerseDataSetAccessor(string directoryPath)
+    public AipriDataSetAccessor(string directoryPath)
     {
         _Directory = new DirectoryInfo(Path.Combine(directoryPath, "aipri-items"));
     }
 
     public TimeSpan RefreshInterval { get; set; } = TimeSpan.FromMinutes(1);
 
-    private Task<AipriVerseGitDataSet>? _Task;
+    private Task<AipriGitDataSet>? _Task;
     private DateTime _LastRefreshedAt;
 
-    public Task<AipriVerseGitDataSet> GetAsync(CancellationToken cancellationToken = default)
+    public Task<AipriGitDataSet> GetAsync(CancellationToken cancellationToken = default)
     {
         var t = _Task;
         if (t == null
@@ -37,13 +37,13 @@ public sealed class AipriVerseDataSetAccessor : IDisposable
         return t;
     }
 
-    private async Task<AipriVerseGitDataSet> GetAsyncCore(CancellationToken cancellationToken)
+    private async Task<AipriGitDataSet> GetAsyncCore(CancellationToken cancellationToken)
     {
         var fn = await Task.Run(GetFileName, cancellationToken).ConfigureAwait(false);
 
         using var fs = new FileStream(fn, FileMode.Open, FileAccess.Read, FileShare.Read);
 
-        var ds = await JsonSerializer.DeserializeAsync<AipriVerseGitDataSet>(fs, cancellationToken: cancellationToken).ConfigureAwait(false)
+        var ds = await JsonSerializer.DeserializeAsync<AipriGitDataSet>(fs, cancellationToken: cancellationToken).ConfigureAwait(false)
                 ?? throw new InvalidOperationException();
 
         ds.FileName = fn;

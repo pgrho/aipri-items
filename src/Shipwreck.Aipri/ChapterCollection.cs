@@ -11,7 +11,7 @@ public sealed class ChapterCollection : DataItemCollection<Chapter>
         Set(items);
     }
 
-    internal ChapterCollection(AipriVerseDataSet? dataSet)
+    internal ChapterCollection(AipriDataSet? dataSet)
         : base(dataSet)
     {
     }

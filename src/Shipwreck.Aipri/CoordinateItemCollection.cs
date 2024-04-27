@@ -11,7 +11,7 @@ public sealed class CoordinateItemCollection : DataItemCollection<CoordinateItem
         Set(items);
     }
 
-    internal CoordinateItemCollection(AipriVerseDataSet? dataSet)
+    internal CoordinateItemCollection(AipriDataSet? dataSet)
         : base(dataSet)
     {
     }

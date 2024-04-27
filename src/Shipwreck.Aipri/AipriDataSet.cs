@@ -1,6 +1,6 @@
 ﻿namespace Shipwreck.Aipri;
 
-public class AipriVerseDataSet
+public class AipriDataSet
 {
     #region VerseChapters
 
@@ -13,6 +13,18 @@ public class AipriVerseDataSet
     }
 
     #endregion VerseChapters
+
+    #region Categories
+
+    private CategoryCollection? _Categories;
+
+    public CategoryCollection Categories
+    {
+        get => _Categories ??= new(this);
+        set => Categories.Set(value);
+    }
+
+    #endregion Categories
 
     #region Brands
 
@@ -61,6 +73,30 @@ public class AipriVerseDataSet
     }
 
     #endregion HimitsuChapters
+
+    #region Characters
+
+    private CharacterCollection? _Characters;
+
+    public CharacterCollection Characters
+    {
+        get => _Characters ??= new(this);
+        set => Characters.Set(value);
+    }
+
+    #endregion Characters
+
+    #region Songs
+
+    private SongCollection? _Songs;
+
+    public SongCollection Songs
+    {
+        get => _Songs ??= new(this);
+        set => Songs.Set(value);
+    }
+
+    #endregion Songs
 
     #region Cards
 
