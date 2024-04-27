@@ -30,10 +30,6 @@ public sealed class DownloadContext : IDisposable
         _Http = new HttpClient();
         _OutputDirectory = new DirectoryInfo(Path.Combine(Path.GetDirectoryName(Path.GetDirectoryName(GetDirectory())!)!, "output"));
         _DataSet = new();
-        foreach (var category in new[] { "トップス", "ワンピ", "ボトムス", "シューズ", "アクセ" })
-        {
-            AddCategory(category);
-        }
         if (_OutputDirectory.Exists)
         {
             try
@@ -91,6 +87,10 @@ public sealed class DownloadContext : IDisposable
         else
         {
             _OutputDirectory.Create();
+            foreach (var category in new[] { "トップス", "ワンピ", "ボトムス", "シューズ", "アクセ" })
+            {
+                AddCategory(category);
+            }
         }
         _CacheDirectory = new DirectoryInfo(Path.Combine(GetDirectory(), "download"));
         _Cache = new();
