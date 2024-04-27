@@ -41,10 +41,9 @@ internal class Program
         }
 
         // 既知の誤記載を訂正する
-        await CorrectKnownTypoAsync(d).ConfigureAwait(false);
-
-        await AddCardInfoAsync(d).ConfigureAwait(false);
-
+        await FixCoordinateInfoAsync(d).ConfigureAwait(false);
+        await FixCoordinateItemInfoAsync(d).ConfigureAwait(false);
+        await FixCardInfoAsync(d).ConfigureAwait(false);
 
         var comparer = StringComparer.Create(
             CultureInfo.InvariantCulture, CompareOptions.IgnoreCase | CompareOptions.IgnoreNonSpace | CompareOptions.IgnoreKanaType | CompareOptions.IgnoreWidth);
@@ -367,170 +366,123 @@ internal class Program
         }
     }
 
-    private static async Task CorrectKnownTypoAsync(DownloadContext d)
+    private static async Task FixCoordinateInfoAsync(DownloadContext d)
     {
-        var cor = new FileInfo(Path.Combine(DownloadContext.GetDirectory(), "correction.json"));
-        if (cor.Exists)
+        foreach (var ci in await d.EnumerateCoordinateCorrection())
         {
-            using var fs = cor.OpenRead();
-            var cd = await JsonSerializer.DeserializeAsync<CorrectionData>(fs).ConfigureAwait(false);
-
-            foreach (var ci in cd?.Coordinates ?? [])
+            var dt = ci?.Data;
+            if (dt != null)
             {
-                var dt = ci?.Data;
-                if (dt != null)
+                var pred = ci!.Key switch
                 {
-                    var pred = ci!.Key switch
-                    {
-                        nameof(dt.Id)
-                        or "" or null => (Func<Coordinate, bool>)(e => e.Id == dt.Id),
-                        _ => throw new ArgumentException()
-                    };
+                    nameof(dt.Id)
+                    or "" or null => (Func<Coordinate, bool>)(e => e.Id == dt.Id),
+                    _ => throw new ArgumentException()
+                };
 
-                    var t = d.DataSet.Coordinates.FirstOrDefault(pred);
-                    if (t == null && dt.Id > 0)
-                    {
-                        t = new() { Id = dt.Id };
-                        d.DataSet.Coordinates.Add(t);
-                    }
-                    if (t != null)
-                    {
-                        t.ChapterId = dt.ChapterId ?? t.ChapterId;
-                        t.Star = dt.Star ?? t.Star;
-                        t.Name = dt.Name ?? t.Name;
-                        t.Kind = dt.Kind ?? t.Kind;
-                    }
+                var t = d.DataSet.Coordinates.FirstOrDefault(pred);
+                if (t == null && dt.Id > 0)
+                {
+                    t = new() { Id = dt.Id };
+                    d.DataSet.Coordinates.Add(t);
+                }
+                if (t != null)
+                {
+                    t.ChapterId = dt.ChapterId ?? t.ChapterId;
+                    t.Star = dt.Star ?? t.Star;
+                    t.Name = dt.Name ?? t.Name;
+                    t.Kind = dt.Kind ?? t.Kind;
                 }
             }
-            foreach (var ci in cd?.CoordinateItems ?? [])
-            {
-                var dt = ci?.Data;
-                if (dt != null)
-                {
-                    var pred = ci!.Key switch
-                    {
-                        nameof(dt.Id)
-                        or "" or null => (Func<CoordinateItem, bool>)(e => e.Id == dt.Id),
-                        _ => throw new ArgumentException()
-                    };
+        }
+    }
 
-                    var t = d.DataSet.CoordinateItems.FirstOrDefault(pred);
-                    if (t == null && dt.Id > 0 && d.DataSet.Coordinates.GetById(dt.CoordinateId) is Coordinate coord)
+    private static async Task FixCoordinateItemInfoAsync(DownloadContext d)
+    {
+        foreach (var ci in await d.EnumerateCoordinateItemCorrection())
+        {
+            var dt = ci?.Data;
+            if (dt != null)
+            {
+                var pred = ci!.Key switch
+                {
+                    nameof(dt.Id)
+                    or "" or null => (Func<CoordinateItem, bool>)(e => e.Id == dt.Id),
+                    _ => throw new ArgumentException()
+                };
+
+                var t = d.DataSet.CoordinateItems.FirstOrDefault(pred);
+                if (t == null && dt.Id > 0 && d.DataSet.Coordinates.GetById(dt.CoordinateId) is Coordinate coord)
+                {
+                    t = new()
                     {
-                        t = new()
-                        {
-                            Id = dt.Id,
-                            CoordinateId = coord.Id
-                        };
-                        d.DataSet.CoordinateItems.Add(t);
-                    }
-                    if (t != null)
-                    {
-                        t.SealId = dt.SealId ?? t.SealId;
-                        t.Term = dt.Term ?? t.Term;
-                        t.Point = dt.Point > 0 ? dt.Point : t.Point;
-                        if (!string.IsNullOrEmpty(dt.ImageUrl))
-                        {
-                            t.ImageUrl = await d.GetOrCopyImageAsync(dt.ImageUrl, "coordinateItems", t.Id);
-                        }
-                    }
+                        Id = dt.Id,
+                        CoordinateId = coord.Id
+                    };
+                    d.DataSet.CoordinateItems.Add(t);
                 }
-            }
-            foreach (var ci in cd?.Cards ?? [])
-            {
-                var dt = ci?.Data;
-                if (dt != null)
+                if (t != null)
                 {
-                    var pred = ci!.Key switch
+                    t.SealId = dt.SealId ?? t.SealId;
+                    t.Term = dt.Term ?? t.Term;
+                    t.Point = dt.Point > 0 ? dt.Point : t.Point;
+                    if (!string.IsNullOrEmpty(dt.ImageUrl))
                     {
-                        nameof(dt.Id)
-                        or "" or null => (Func<Card, bool>)(e => e.Id == dt.Id),
-                        _ => throw new ArgumentException()
-                    };
-
-                    var t = d.DataSet.Cards.FirstOrDefault(pred);
-                    if (t == null && dt.Id > 0)
-                    {
-                        t = new() { Id = dt.Id };
-                        d.DataSet.Cards.Add(t);
-                    }
-                    if (t != null)
-                    {
-                        t.SealId = dt.SealId.TrimOrNull() ?? t.SealId;
-                        t.ChapterId = dt.ChapterId.TrimOrNull() ?? t.ChapterId;
-                        t.Coordinate = dt.Coordinate.TrimOrNull() ?? t.Coordinate;
-                        t.Character = dt.Character.TrimOrNull() ?? t.Character;
-                        t.Variant = dt.Variant.TrimOrNull() ?? t.Variant;
-
-                        if (!string.IsNullOrEmpty(dt.Image1Url))
-                        {
-                            t.Image1Url = await d.GetOrCopyImageAsync(dt.Image1Url, "cards", t.Id, "-1");
-                        }
-                        if (!string.IsNullOrEmpty(dt.Image2Url))
-                        {
-                            t.Image2Url = await d.GetOrCopyImageAsync(dt.Image2Url, "cards", t.Id, "-2");
-                        }
-                        Console.WriteLine($"Corrected card info of #{t.Id}({t.SealId})");
+                        t.ImageUrl = await d.GetOrCopyImageAsync(dt.ImageUrl, "coordinateItems", t.Id);
                     }
                 }
             }
         }
     }
 
-    private static async Task AddCardInfoAsync(DownloadContext d)
+    private static async Task FixCardInfoAsync(DownloadContext d)
     {
-        var cor = new FileInfo(Path.Combine(DownloadContext.GetDirectory(), "Cards.csv"));
-        if (cor.Exists)
+        foreach (var ci in await d.EnumerateCardCorrection())
         {
-            using var fs = cor.OpenRead();
-            using var sr = new StreamReader(fs, Encoding.GetEncoding(932));
-
-            var header = await sr.ReadLineAsync().ConfigureAwait(false);
-
-            if (header != null)
+            var dt = ci?.Data;
+            if (dt != null)
             {
-                var ha = header.Split(',');
-                var sealId = Array.IndexOf(ha, "SealId");
-                var song = Array.IndexOf(ha, "Song");
-                var point = Array.IndexOf(ha, "Point");
-                var star = Array.IndexOf(ha, "Star");
-                var isChance = Array.IndexOf(ha, "IsChance");
-                var brand = Array.IndexOf(ha, "Brand");
-
-                if (sealId < 0)
+                var pred = ci!.Key switch
                 {
-                    return;
+                    nameof(dt.Id) or "" or null => (Func<Card, bool>)(e => e.Id == dt.Id),
+                    nameof(dt.SealId) or "" or null => (Func<Card, bool>)(e => e.SealId == dt.SealId),
+                    _ => throw new ArgumentException()
+                };
+
+                var t = d.DataSet.Cards.FirstOrDefault(pred);
+                if (t == null && dt.Id > 0)
+                {
+                    t = new() { Id = dt.Id };
+                    d.DataSet.Cards.Add(t);
                 }
-
-                var brands = d.DataSet.Brands.ToDictionary(e => e.Name, e => e.Id);
-
-                for (var l = await sr.ReadLineAsync().ConfigureAwait(false); l != null; l = await sr.ReadLineAsync().ConfigureAwait(false))
+                if (t != null)
                 {
-                    var row = l.Split(',');
-
-                    var sid = row.ElementAtOrDefault(sealId);
-                    if (string.IsNullOrEmpty(sid))
+                    t.SealId = dt.SealId.TrimOrNull() ?? t.SealId;
+                    t.ChapterId = dt.ChapterId.TrimOrNull() ?? t.ChapterId;
+                    t.Coordinate = dt.Coordinate.TrimOrNull() ?? t.Coordinate;
+                    t.Character = dt.Character.TrimOrNull() ?? t.Character;
+                    t.Variant = dt.Variant.TrimOrNull() ?? t.Variant;
+                    t.Song = dt.Song.TrimOrNull() ?? t.Song;
+                    if (dt.Star > 0)
                     {
-                        continue;
+                        t.Star = dt.Star;
                     }
-
-                    var elem = d.DataSet.Cards.FirstOrDefault(e => e.SealId == sid);
-
-                    if (elem == null)
+                    if (dt.Point > 0)
                     {
-                        continue;
+                        t.Point = dt.Point;
                     }
+                    t.IsChance = dt.IsChance;
+                    t.BrandId = dt.BrandId;
 
-                    Console.WriteLine("Set card info of " + sid);
-
-                    string? read(int id)
-                        => id >= 0 ? row.ElementAt(id).TrimOrNull() : null;
-
-                    elem.Song = read(song) ?? string.Empty;
-                    elem.Point = short.TryParse(read(point), out var s) ? s : default;
-                    elem.Star = byte.TryParse(read(star), out var st) ? st : (byte)0;
-                    elem.IsChance = bool.TryParse(read(isChance), out var b) && b;
-                    elem.BrandId = brands.TryGetValue(read(brand) ?? string.Empty, out var bid) ? bid : null;
+                    if (!string.IsNullOrEmpty(dt.Image1Url))
+                    {
+                        t.Image1Url = await d.GetOrCopyImageAsync(dt.Image1Url, "cards", t.Id, "-1");
+                    }
+                    if (!string.IsNullOrEmpty(dt.Image2Url))
+                    {
+                        t.Image2Url = await d.GetOrCopyImageAsync(dt.Image2Url, "cards", t.Id, "-2");
+                    }
+                    Console.WriteLine($"Corrected card info of #{t.Id}({t.SealId})");
                 }
             }
         }

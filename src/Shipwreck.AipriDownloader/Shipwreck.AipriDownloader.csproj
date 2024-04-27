@@ -8,6 +8,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<None Include="..\..\custom\**\*.tsv" Link="custom\%(RecursiveDir)%(Filename).tsv" />
 		<None Include="..\..\custom\**\*.webp" Link="custom\%(RecursiveDir)%(Filename).webp" />
 		<None Include="..\..\custom\**\*.png" Link="custom\%(RecursiveDir)%(Filename).png" />
 		<None Include="..\..\output\**\*.webp" Link="output\%(RecursiveDir)%(Filename).webp" />

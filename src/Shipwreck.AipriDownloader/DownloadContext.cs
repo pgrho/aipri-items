@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
+using System.Text;
 
 namespace Shipwreck.AipriDownloader;
 
@@ -311,7 +312,7 @@ public sealed class DownloadContext : IDisposable
                     imageUrl.StartsWith("http") ? GetAsync(imageUrl)
                     : Task.FromResult<Stream>(
                         new FileStream(
-                            Path.Combine(Path.GetDirectoryName(_OutputDirectory.FullName)!, "custom", imageUrl),
+                            Path.Combine(GetCustomDirectory(), imageUrl),
                             FileMode.Open,
                             FileAccess.Read,
                             FileShare.Read))).ConfigureAwait(false);
@@ -520,5 +521,176 @@ public sealed class DownloadContext : IDisposable
             }
         }
         catch { }
+    }
+
+    public string GetCustomDirectory() => Path.Combine(Path.GetDirectoryName(_OutputDirectory.FullName)!, "custom");
+
+    public async Task<List<CorrectionEntry<Coordinate>>> EnumerateCoordinateCorrection()
+    {
+        var list = new List<CorrectionEntry<Coordinate>>();
+        var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_Coordinates.tsv"));
+        if (cor.Exists)
+        {
+            using var fs = cor.OpenRead();
+            using var sr = new StreamReader(fs, Encoding.GetEncoding(932));
+
+            var header = await sr.ReadLineAsync().ConfigureAwait(false);
+
+            if (header != null)
+            {
+                var ha = header.Split('\t');
+                var key = Array.IndexOf(ha, "Key");
+                var id = Array.IndexOf(ha, nameof(Coordinate.Id));
+                var chapterId = Array.IndexOf(ha, nameof(Coordinate.ChapterId));
+                var name = Array.IndexOf(ha, nameof(Coordinate.Name));
+                var kind = Array.IndexOf(ha, nameof(Coordinate.Kind));
+                var star = Array.IndexOf(ha, nameof(Coordinate.Star));
+                var brand = Array.IndexOf(ha, "Brand");
+
+                if (key >= 0)
+                {
+                    var brands = DataSet.Brands.ToDictionary(e => e.Name, e => e.Id);
+                    for (var l = await sr.ReadLineAsync().ConfigureAwait(false); l != null; l = await sr.ReadLineAsync().ConfigureAwait(false))
+                    {
+                        var row = l.Split('\t');
+
+                        string? read(int id)
+                            => id >= 0 ? row.ElementAtOrDefault(id).TrimOrNull() : null;
+                        list.Add(new()
+                        {
+                            Key = row.ElementAt(key),
+                            Data = new()
+                            {
+                                Id = int.TryParse(read(id), out var i) ? i : 0,
+                                ChapterId = read(chapterId) ?? string.Empty,
+                                Name = read(name) ?? string.Empty,
+                                Kind = read(kind) ?? string.Empty,
+                                Star = byte.TryParse(read(star), out var st) ? st : null,
+                                BrandId = brands.TryGetValue(read(brand) ?? string.Empty, out var bid) ? bid : null
+                            }
+                        });
+                    }
+                }
+            }
+        }
+
+        return list;
+    }
+
+    public async Task<List<CorrectionEntry<CoordinateItem>>> EnumerateCoordinateItemCorrection()
+    {
+        var list = new List<CorrectionEntry<CoordinateItem>>();
+        var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_CoordinateItems.tsv"));
+        if (cor.Exists)
+        {
+            using var fs = cor.OpenRead();
+            using var sr = new StreamReader(fs, Encoding.GetEncoding(932));
+
+            var header = await sr.ReadLineAsync().ConfigureAwait(false);
+
+            if (header != null)
+            {
+                var ha = header.Split('\t');
+                var key = Array.IndexOf(ha, "Key");
+                var id = Array.IndexOf(ha, nameof(CoordinateItem.Id));
+                var coordinateId = Array.IndexOf(ha, nameof(CoordinateItem.CoordinateId));
+                var sealId = Array.IndexOf(ha, nameof(CoordinateItem.SealId));
+                var term = Array.IndexOf(ha, nameof(CoordinateItem.Term));
+                var point = Array.IndexOf(ha, nameof(CoordinateItem.Point));
+                var brand = Array.IndexOf(ha, "Brand");
+                var imageUrl = Array.IndexOf(ha, nameof(CoordinateItem.ImageUrl));
+
+                if (key >= 0)
+                {
+                    for (var l = await sr.ReadLineAsync().ConfigureAwait(false); l != null; l = await sr.ReadLineAsync().ConfigureAwait(false))
+                    {
+                        var row = l.Split('\t');
+
+                        string? read(int id)
+                            => id >= 0 ? row.ElementAtOrDefault(id).TrimOrNull() : null;
+                        list.Add(new()
+                        {
+                            Key = row.ElementAt(key),
+                            Data = new()
+                            {
+                                Id = int.TryParse(read(id), out var i) ? i : 0,
+                                CoordinateId = int.TryParse(read(coordinateId), out var cid) ? cid : default,
+                                SealId = read(sealId) ?? string.Empty,
+                                Term = read(term) ?? string.Empty,
+                                Point = short.TryParse(read(point), out var s) ? s : default,
+                                ImageUrl = read(imageUrl) ?? string.Empty,
+                            }
+                        });
+                    }
+                }
+            }
+        }
+
+        return list;
+    }
+    public async Task<List<CorrectionEntry<Card>>> EnumerateCardCorrection()
+    {
+        var list = new List<CorrectionEntry<Card>>();
+        var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_Cards.tsv"));
+        if (cor.Exists)
+        {
+            using var fs = cor.OpenRead();
+            using var sr = new StreamReader(fs, Encoding.GetEncoding(932));
+
+            var header = await sr.ReadLineAsync().ConfigureAwait(false);
+
+            if (header != null)
+            {
+                var ha = header.Split('\t');
+                var key = Array.IndexOf(ha, "Key");
+                var id = Array.IndexOf(ha, nameof(Card.Id));
+                var chapterId = Array.IndexOf(ha, nameof(Card.ChapterId));
+                var sealId = Array.IndexOf(ha, nameof(Card.SealId));
+                var coordinate = Array.IndexOf(ha, nameof(Card.Coordinate));
+                var character = Array.IndexOf(ha, nameof(Card.Character));
+                var variant = Array.IndexOf(ha, nameof(Card.Variant));
+                var song = Array.IndexOf(ha, nameof(Card.Song));
+                var point = Array.IndexOf(ha, nameof(Card.Point));
+                var star = Array.IndexOf(ha, nameof(Card.Star));
+                var isChance = Array.IndexOf(ha, nameof(Card.IsChance));
+                var brand = Array.IndexOf(ha, "Brand");
+                var image1Url = Array.IndexOf(ha, nameof(Card.Image1Url));
+                var image2Url = Array.IndexOf(ha, nameof(Card.Image2Url));
+
+                if (key >= 0)
+                {
+                    var brands = DataSet.Brands.ToDictionary(e => e.Name, e => e.Id);
+                    for (var l = await sr.ReadLineAsync().ConfigureAwait(false); l != null; l = await sr.ReadLineAsync().ConfigureAwait(false))
+                    {
+                        var row = l.Split('\t');
+
+                        string? read(int id)
+                            => id >= 0 ? row.ElementAtOrDefault(id).TrimOrNull() : null;
+                        list.Add(new()
+                        {
+                            Key = row.ElementAt(key),
+                            Data = new()
+                            {
+                                Id = int.TryParse(read(id), out var i) ? i : 0,
+                                ChapterId = read(chapterId) ?? string.Empty,
+                                SealId = read(sealId) ?? string.Empty,
+                                Coordinate = read(coordinate) ?? string.Empty,
+                                Character = read(character) ?? string.Empty,
+                                Variant = read(variant) ?? string.Empty,
+                                Song = read(song) ?? string.Empty,
+                                Point = short.TryParse(read(point), out var s) ? s : default,
+                                Star = byte.TryParse(read(star), out var st) ? st : (byte)0,
+                                IsChance = bool.TryParse(read(isChance), out var b) && b,
+                                BrandId = brands.TryGetValue(read(brand) ?? string.Empty, out var bid) ? bid : null,
+                                Image1Url = read(image1Url) ?? string.Empty,
+                                Image2Url = read(image2Url) ?? string.Empty,
+                            }
+                        });
+                    }
+                }
+            }
+        }
+
+        return list;
     }
 }
