@@ -409,6 +409,11 @@ public sealed class DownloadContext : IDisposable
             c.SealId = sealId;
             if (!string.IsNullOrEmpty(c.ImageUrl))
             {
+                if (!c.IsImageLoaded)
+                {
+                    c.ImageUrl = await GetOrCopyImageAsync(c.ImageUrl, "coordinateItems", c.Id).ConfigureAwait(false);
+                    c.IsImageLoaded = true;
+                }
                 return c;
             }
         }
