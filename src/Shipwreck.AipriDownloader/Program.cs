@@ -399,7 +399,7 @@ internal class Program
 
     private static async Task FixCoordinateItemInfoAsync(DownloadContext d)
     {
-        foreach (var ci in await d.EnumerateCoordinateItemCorrection())
+        foreach (var ci in await d.EnumerateCoordinateItemCorrection(d))
         {
             var dt = ci?.Data;
             if (dt != null)
@@ -424,7 +424,10 @@ internal class Program
                 if (t != null)
                 {
                     t.SealId = dt.SealId ?? t.SealId;
-                    t.Term = dt.Term ?? t.Term;
+                    if (dt.CategoryId > 0)
+                    {
+                        t.CategoryId = dt.CategoryId;
+                    }
                     t.Point = dt.Point > 0 ? dt.Point : t.Point;
                     if (!string.IsNullOrEmpty(dt.ImageUrl))
                     {
@@ -437,7 +440,7 @@ internal class Program
 
     private static async Task FixCardInfoAsync(DownloadContext d)
     {
-        foreach (var ci in await d.EnumerateCardCorrection())
+        foreach (var ci in await d.EnumerateCardCorrection(d))
         {
             var dt = ci?.Data;
             if (dt != null)
@@ -460,9 +463,15 @@ internal class Program
                     t.SealId = dt.SealId.TrimOrNull() ?? t.SealId;
                     t.ChapterId = dt.ChapterId.TrimOrNull() ?? t.ChapterId;
                     t.Coordinate = dt.Coordinate.TrimOrNull() ?? t.Coordinate;
-                    t.Character = dt.Character.TrimOrNull() ?? t.Character;
                     t.Variant = dt.Variant.TrimOrNull() ?? t.Variant;
-                    t.Song = dt.Song.TrimOrNull() ?? t.Song;
+                    if (dt.CharacterId > 0)
+                    {
+                        t.CharacterId = dt.CharacterId;
+                    }
+                    if (dt.SongId > 0)
+                    {
+                        t.SongId = dt.SongId;
+                    }
                     if (dt.Star > 0)
                     {
                         t.Star = dt.Star;

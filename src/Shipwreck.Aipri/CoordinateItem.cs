@@ -11,9 +11,57 @@ public sealed class CoordinateItem : DataItem
 
     public Coordinate? GetCoordinate() => DataSet?.Coordinates.GetById(CoordinateId);
 
-
     public string SealId { get; set; } = string.Empty;
-    public string Term { get; set; } = string.Empty;
+
+    #region Category
+
+    private string? _Term;
+    private int _CategoryId;
+
+    public string? Term
+    {
+        get
+        {
+            if (_Term == null && DataSet != null)
+            {
+                _Term = GetCategory()?.Name;
+            }
+            return _Term;
+        }
+        set
+        {
+            if (value != _Term)
+            {
+                _Term = value;
+                _CategoryId = 0;
+            }
+        }
+    }
+
+    public int CategoryId
+    {
+        get
+        {
+            if (_CategoryId == 0 && DataSet != null)
+            {
+                _CategoryId = DataSet.Categories.GetByName(_Term)?.Id ?? 0;
+            }
+            return _CategoryId;
+        }
+        set
+        {
+            if (value != _CategoryId)
+            {
+                _CategoryId = value;
+                _Term = null;
+            }
+        }
+    }
+
+    public Category? GetCategory() => DataSet?.Categories.GetById(CategoryId);
+
+    #endregion Category
+
     public short Point { get; set; }
     public string? ImageUrl { get; set; }
 
@@ -29,7 +77,8 @@ public sealed class CoordinateItem : DataItem
             Id = Id,
             CoordinateId = CoordinateId,
             SealId = SealId,
-            Term = Term,
+            _Term = _Term,
+            _CategoryId = _CategoryId,
             Point = Point,
             ImageUrl = ImageUrl
         };

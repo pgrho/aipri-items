@@ -20,6 +20,6 @@ public sealed class CategoryCollection : DataItemCollection<Category>
     public Category? GetById(int id)
         => this.FirstOrDefault(e => e.Id == id);
 
-    public Category? GetByName(string name)
-        => this.FirstOrDefault(e => e.Name == name);
+    public Category? GetByName(string? name)
+        => name != null ? this.FirstOrDefault(e => e.Name == name) : null;
 }

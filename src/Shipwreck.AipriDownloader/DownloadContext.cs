@@ -1,6 +1,7 @@
 ﻿using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 using System.Text;
+using Shipwreck.Aipri;
 
 namespace Shipwreck.AipriDownloader;
 
@@ -29,6 +30,10 @@ public sealed class DownloadContext : IDisposable
         _Http = new HttpClient();
         _OutputDirectory = new DirectoryInfo(Path.Combine(Path.GetDirectoryName(Path.GetDirectoryName(GetDirectory())!)!, "output"));
         _DataSet = new();
+        foreach (var category in new[] { "トップス", "ワンピ", "ボトムス", "シューズ", "アクセ" })
+        {
+            AddCategory(category);
+        }
         if (_OutputDirectory.Exists)
         {
             try
@@ -40,53 +45,41 @@ public sealed class DownloadContext : IDisposable
                     var hd = JsonSerializer.Deserialize<AipriDataSet>(fs);
                     if (hd != null)
                     {
-                        foreach (var c in hd.VerseChapters ?? [])
+                        foreach (var c in hd.VerseChapters)
                         {
-                            if (!string.IsNullOrEmpty(c.Id) && !string.IsNullOrEmpty(c.Name))
-                            {
-                                _DataSet.VerseChapters.Add(c.Clone());
-                            }
+                            _DataSet.VerseChapters.Add(c.Clone());
                         }
-                        foreach (var c in hd.Brands ?? [])
+                        foreach (var c in hd.Categories)
                         {
-                            if (c?.Id > 0
-                                && !string.IsNullOrEmpty(c.Name))
-                            {
-                                _DataSet.Brands.Add(c.Clone());
-                            }
+                            _DataSet.Categories.Add(c.Clone());
                         }
-                        foreach (var c in hd.Coordinates ?? [])
+                        foreach (var c in hd.Brands)
                         {
-                            if (c?.Id > 0
-                                && !string.IsNullOrEmpty(c.Name))
-                            {
-                                _DataSet.Coordinates.Add(c.Clone());
-                            }
+                            _DataSet.Brands.Add(c.Clone());
                         }
-                        foreach (var c in hd.CoordinateItems ?? [])
+                        foreach (var c in hd.Coordinates)
                         {
-                            if (c?.Id > 0
-                                && !string.IsNullOrEmpty(c.SealId)
-                                && !string.IsNullOrEmpty(c.Term))
-                            {
-                                _DataSet.CoordinateItems.Add(c.Clone());
-                            }
+                            _DataSet.Coordinates.Add(c.Clone());
                         }
-                        foreach (var c in hd.HimitsuChapters ?? [])
+                        foreach (var c in hd.CoordinateItems)
                         {
-                            if (!string.IsNullOrEmpty(c.Id) && !string.IsNullOrEmpty(c.Name))
-                            {
-                                _DataSet.HimitsuChapters.Add(c.Clone());
-                            }
+                            _DataSet.CoordinateItems.Add(c.Clone());
                         }
-                        foreach (var c in hd.Cards ?? [])
+                        foreach (var c in hd.HimitsuChapters)
                         {
-                            if (c?.Id > 0
-                                && !string.IsNullOrEmpty(c.Coordinate)
-                                && !string.IsNullOrEmpty(c.Character))
-                            {
-                                _DataSet.Cards.Add(c.Clone());
-                            }
+                            _DataSet.HimitsuChapters.Add(c.Clone());
+                        }
+                        foreach (var c in hd.Songs)
+                        {
+                            _DataSet.Songs.Add(c.Clone());
+                        }
+                        foreach (var c in hd.Characters)
+                        {
+                            _DataSet.Characters.Add(c.Clone());
+                        }
+                        foreach (var c in hd.Cards)
+                        {
+                            _DataSet.Cards.Add(c.Clone());
                         }
                     }
                 }
@@ -295,6 +288,79 @@ public sealed class DownloadContext : IDisposable
         return b;
     }
 
+    public Category? AddCategory(string? name)
+    {
+        if (string.IsNullOrEmpty(name))
+        {
+            return null;
+        }
+
+        Category? c;
+        lock (_DataSet)
+        {
+            c = _DataSet.Categories.GetByName(name);
+            if (c == null)
+            {
+                c = new()
+                {
+                    Name = name,
+                    Id = (_DataSet.Categories.Max(e => e?.Id) ?? 0) + 1
+                };
+                _DataSet.Categories.Add(c);
+            }
+        }
+
+        return c;
+    }
+    public Song? AddSong(string? name)
+    {
+        if (string.IsNullOrEmpty(name))
+        {
+            return null;
+        }
+
+        Song? c;
+        lock (_DataSet)
+        {
+            c = _DataSet.Songs.GetByName(name);
+            if (c == null)
+            {
+                c = new()
+                {
+                    Name = name,
+                    Id = (_DataSet.Songs.Max(e => e?.Id) ?? 0) + 1
+                };
+                _DataSet.Songs.Add(c);
+            }
+        }
+
+        return c;
+    }
+    public Character? AddCharacter(string? name)
+    {
+        if (string.IsNullOrEmpty(name))
+        {
+            return null;
+        }
+
+        Character? c;
+        lock (_DataSet)
+        {
+            c = _DataSet.Characters.GetByName(name);
+            if (c == null)
+            {
+                c = new()
+                {
+                    Name = name,
+                    Id = (_DataSet.Characters.Max(e => e?.Id) ?? 0) + 1
+                };
+                _DataSet.Characters.Add(c);
+            }
+        }
+
+        return c;
+    }
+
     public async Task<string?> GetOrCopyImageAsync(string? imageUrl, string directory, int id, string? suffix = null)
     {
         var bip = new FileInfo(Path.Combine(_OutputDirectory.FullName, directory, id.ToString("D6") + suffix + Path.GetExtension(imageUrl)));
@@ -385,10 +451,12 @@ public sealed class DownloadContext : IDisposable
 
     public async Task<CoordinateItem> AddItemAsync(Coordinate coordinate, string sealId, string term, short point, string? imageUrl, int? estimatedId)
     {
+        var category = AddCategory(term)?.Id ?? 0;
+
         CoordinateItem? c;
         lock (_DataSet)
         {
-            c = _DataSet.CoordinateItems.FirstOrDefault(e => e.CoordinateId == coordinate.Id && e.Term == term);
+            c = _DataSet.CoordinateItems.FirstOrDefault(e => e.CoordinateId == coordinate.Id && e.CategoryId == category);
             if (c == null)
             {
                 c = new()
@@ -402,7 +470,7 @@ public sealed class DownloadContext : IDisposable
         }
 
         c.CoordinateId = coordinate.Id;
-        c.Term = term;
+        c.CategoryId = category;
         c.Point = point;
 
         if (!string.IsNullOrEmpty(sealId))
@@ -442,7 +510,6 @@ public sealed class DownloadContext : IDisposable
                 c = new()
                 {
                     Coordinate = coordinate,
-                    Character = character,
                     Variant = variant,
                     ChapterId = chapter?.Id,
                     Id = (_DataSet.Cards.Where(e => e.Id < 900000).Max(e => e?.Id) ?? 0) + 1
@@ -453,7 +520,7 @@ public sealed class DownloadContext : IDisposable
 
         c.SealId = sealId;
         c.Coordinate = coordinate;
-        c.Character = character;
+        c.CharacterId = AddCharacter(character)?.Id ?? 0;
         c.Variant = variant;
 
         if (c.Image1Url != image1Url || !c.IsImage1Loaded)
@@ -482,11 +549,14 @@ public sealed class DownloadContext : IDisposable
                 JsonSerializer.Serialize(fs, new AipriDataSet()
                 {
                     VerseChapters = new(_DataSet.VerseChapters.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Categories = new(_DataSet.Categories.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Brands = new(_DataSet.Brands.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Coordinates = new(_DataSet.Coordinates.OrderBy(e => e.Id).Select(e => e.Clone())),
                     CoordinateItems = new(_DataSet.CoordinateItems.OrderBy(e => e.Id).Select(e => e.Clone())),
 
                     HimitsuChapters = new(_DataSet.HimitsuChapters.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Characters = new(_DataSet.Characters.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Songs = new(_DataSet.Songs.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Cards = new(_DataSet.Cards.OrderBy(e => e.Id).Select(e => e.Clone())),
                 }, new JsonSerializerOptions()
                 {
@@ -577,7 +647,7 @@ public sealed class DownloadContext : IDisposable
         return list;
     }
 
-    public async Task<List<CorrectionEntry<CoordinateItem>>> EnumerateCoordinateItemCorrection()
+    public async Task<List<CorrectionEntry<CoordinateItem>>> EnumerateCoordinateItemCorrection(DownloadContext d)
     {
         var list = new List<CorrectionEntry<CoordinateItem>>();
         var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_CoordinateItems.tsv"));
@@ -616,7 +686,7 @@ public sealed class DownloadContext : IDisposable
                                 Id = int.TryParse(read(id), out var i) ? i : 0,
                                 CoordinateId = int.TryParse(read(coordinateId), out var cid) ? cid : default,
                                 SealId = read(sealId) ?? string.Empty,
-                                Term = read(term) ?? string.Empty,
+                                CategoryId = d.AddCategory(read(term))?.Id ?? 0,
                                 Point = short.TryParse(read(point), out var s) ? s : default,
                                 ImageUrl = read(imageUrl) ?? string.Empty,
                             }
@@ -628,7 +698,8 @@ public sealed class DownloadContext : IDisposable
 
         return list;
     }
-    public async Task<List<CorrectionEntry<Card>>> EnumerateCardCorrection()
+
+    public async Task<List<CorrectionEntry<Card>>> EnumerateCardCorrection(DownloadContext d)
     {
         var list = new List<CorrectionEntry<Card>>();
         var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_Cards.tsv"));
@@ -675,9 +746,9 @@ public sealed class DownloadContext : IDisposable
                                 ChapterId = read(chapterId) ?? string.Empty,
                                 SealId = read(sealId) ?? string.Empty,
                                 Coordinate = read(coordinate) ?? string.Empty,
-                                Character = read(character) ?? string.Empty,
+                                CharacterId = d.AddCharacter(read(character))?.Id ?? 0,
                                 Variant = read(variant) ?? string.Empty,
-                                Song = read(song) ?? string.Empty,
+                                SongId = d.AddSong(read(song))?.Id ?? 0,
                                 Point = short.TryParse(read(point), out var s) ? s : default,
                                 Star = byte.TryParse(read(star), out var st) ? st : (byte)0,
                                 IsChance = bool.TryParse(read(isChance), out var b) && b,
