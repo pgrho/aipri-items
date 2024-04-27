@@ -120,7 +120,7 @@ internal class Program
                         ?? section.SelectSingleNode(".//h2")?.Value?.Trim();
             var period = section.SelectSingleNode(".//p[contains(@class, 'txt--period')]")?.Value?.Trim();
 
-            var group = kind?.StartsWith("ひみつのアイプリファンブック") == true ? "ひみつのファンブック"
+            var group = kind?.StartsWith("ひみつのアイプリファンブック") == true ? "ひみつのアイプリファンブック"
                 : kind?.StartsWith("ひみつのアイプリブレス") == true ? "ひみつのアイプリブレス"
                 : kind?.StartsWith("ひみつのアイプリリップ") == true ? "ひみつのアイプリリップ"
                 : kind?.StartsWith("ひみつのアイプリ ぬいぐるみ") == true ? "ぬいぐるみ・マスコット"
