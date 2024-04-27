@@ -116,19 +116,19 @@ internal class Program
 
         foreach (HtmlNodeNavigator section in nav.Select("//section[starts-with(@class, 'section js-hidden-item')]"))
         {
-  
             var kind = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim()
                         ?? section.SelectSingleNode(".//h2")?.Value?.Trim();
             var period = section.SelectSingleNode(".//p[contains(@class, 'txt--period')]")?.Value?.Trim();
 
-            var group = kind?.StartsWith("ひみつのアイプリファンブック") == true ? "ファンブック"
-                : kind?.StartsWith("ひみつのアイプリブレス") == true ? "アイプリブレス"
-                : kind?.StartsWith("ひみつのアイプリ ぬいぐるみ") == true ? "ぬいぐるみ"
-                : kind?.StartsWith("ひみつのアイプリ ボールチェーンマスコット") == true ? "ぬいぐるみ"
-                : kind?.StartsWith("ちゃお") == true ? "ちゃお"
+            var group = kind?.StartsWith("ひみつのアイプリファンブック") == true ? "ひみつのファンブック"
+                : kind?.StartsWith("ひみつのアイプリブレス") == true ? "ひみつのアイプリブレス"
+                : kind?.StartsWith("ひみつのアイプリリップ") == true ? "ひみつのアイプリリップ"
+                : kind?.StartsWith("ひみつのアイプリ ぬいぐるみ") == true ? "ぬいぐるみ・マスコット"
+                : kind?.StartsWith("ひみつのアイプリ ボールチェーンマスコット") == true ? "ぬいぐるみ・マスコット"
+                : kind?.StartsWith("ちゃお") == true ? "ちゃお付録"
                 : kind;
 
-            DateOnly ? start = null, end = null;
+            DateOnly? start = null, end = null;
 
             if (period != null
                 && Regex.Match(period, @"^(\d+)年(\d+)月(\d+)日（[日月火水木金土]）～") is var ma

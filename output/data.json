@@ -826,7 +826,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "ピンクジュエル",
-      "Group": "アイプリブレス",
+      "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス ひまりモデル",
       "HasChance": true,
       "LinkedItemIds": []
@@ -836,7 +836,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "ブルージュエル",
-      "Group": "アイプリブレス",
+      "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス みつきモデル",
       "HasChance": true,
       "LinkedItemIds": []
@@ -846,7 +846,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "ラブリーコスメ",
-      "Group": "ひみつのアイプリリップ ひまりモデル",
+      "Group": "ひみつのアイプリリップ",
       "Kind": "ひみつのアイプリリップ ひまりモデル",
       "HasChance": true,
       "LinkedItemIds": []
@@ -856,7 +856,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "クールコスメ",
-      "Group": "ひみつのアイプリリップ みつきモデル",
+      "Group": "ひみつのアイプリリップ",
       "Kind": "ひみつのアイプリリップ みつきモデル",
       "HasChance": true,
       "LinkedItemIds": []
@@ -866,7 +866,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "フラワーチュールローズ",
-      "Group": "アイプリブレス",
+      "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルリップ ローズの香り",
       "HasChance": true,
       "LinkedItemIds": []
@@ -876,7 +876,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "フラワーチュールジャスミン",
-      "Group": "アイプリブレス",
+      "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルパフューム ジャスミンの香り",
       "HasChance": true,
       "LinkedItemIds": []
@@ -886,7 +886,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "スターパーティーミントベリー",
-      "Group": "ちゃお",
+      "Group": "ちゃお付録",
       "Kind": "ちゃお5月号付録「ひまり（スターパーティーミントベリー）」",
       "HasChance": true,
       "LinkedItemIds": []
@@ -897,7 +897,7 @@
       "BrandId": 1,
       "Star": 4,
       "Name": "キューティーラビットレッド",
-      "Group": "ファンブック",
+      "Group": "ひみつのファンブック",
       "Kind": "ひみつのアイプリファンブック 2024年5月号",
       "HasChance": true,
       "LinkedItemIds": []
@@ -907,7 +907,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "プリうさムギちゃんアクセ",
-      "Group": "ぬいぐるみ",
+      "Group": "ぬいぐるみ・マスコット",
       "Kind": "ひみつのアイプリ ぬいぐるみ プリうさムギちゃん",
       "LinkedItemIds": []
     },
@@ -916,7 +916,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "ひまりぬいぐるみアクセ",
-      "Group": "ぬいぐるみ",
+      "Group": "ぬいぐるみ・マスコット",
       "Kind": "ひみつのアイプリ ぬいぐるみ ひまり",
       "LinkedItemIds": []
     },
@@ -925,7 +925,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "みつきぬいぐるみアクセ",
-      "Group": "ぬいぐるみ",
+      "Group": "ぬいぐるみ・マスコット",
       "Kind": "ひみつのアイプリ ぬいぐるみ みつき",
       "LinkedItemIds": []
     },
@@ -934,7 +934,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "ひまりのアイムゥアクセ",
-      "Group": "ぬいぐるみ",
+      "Group": "ぬいぐるみ・マスコット",
       "Kind": "ひみつのアイプリ ボールチェーンマスコット ひまりのアイムゥ",
       "LinkedItemIds": []
     },
@@ -943,7 +943,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "みつきのアイムゥアクセ",
-      "Group": "ぬいぐるみ",
+      "Group": "ぬいぐるみ・マスコット",
       "Kind": "ひみつのアイプリ ボールチェーンマスコット みつきのアイムゥ",
       "LinkedItemIds": []
     },
@@ -1214,7 +1214,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "スターメロディパッション",
-      "Group": "ちゃお",
+      "Group": "ちゃお付録",
       "Kind": "ちゃお2024年6月号付録",
       "LinkedItemIds": []
     },
@@ -1499,6 +1499,7 @@
       "ChapterId": "special",
       "Star": 4,
       "Name": "スプリングブロッサム",
+      "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
       "LinkedItemIds": []
     },
@@ -1507,6 +1508,7 @@
       "ChapterId": "special",
       "Star": 4,
       "Name": "スプリングブルーバタフライ",
+      "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
       "LinkedItemIds": []
     },
@@ -1515,6 +1517,7 @@
       "ChapterId": "special",
       "Star": 4,
       "Name": "バタフライマジックブルー",
+      "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
       "LinkedItemIds": []
     },
@@ -1523,6 +1526,7 @@
       "ChapterId": "special",
       "Star": 3,
       "Name": "フラワーチュールスカーレット",
+      "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
       "LinkedItemIds": []
     },
@@ -1531,6 +1535,7 @@
       "ChapterId": "special",
       "Star": 3,
       "Name": "スターメロディマジカル",
+      "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
       "LinkedItemIds": []
     },
@@ -1539,6 +1544,7 @@
       "ChapterId": "special",
       "Star": 3,
       "Name": "ハニービービビッドピンク",
+      "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
       "LinkedItemIds": []
     },
@@ -1547,6 +1553,7 @@
       "ChapterId": "special",
       "Star": 2,
       "Name": "ラブリーアイドルホワイトブルー",
+      "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
       "LinkedItemIds": []
     },
@@ -1555,6 +1562,7 @@
       "ChapterId": "special",
       "Star": 2,
       "Name": "クールアイドルパープルブラック",
+      "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
       "LinkedItemIds": []
     },
@@ -1562,6 +1570,7 @@
       "Id": 9900009,
       "ChapterId": "special",
       "Name": "スターリースカイ",
+      "Group": "ひみつのアイプリDXデビューセット",
       "Kind": "ひみつのアイプリDXデビューセット みつきモデル",
       "LinkedItemIds": []
     },
@@ -1569,6 +1578,7 @@
       "Id": 9900010,
       "ChapterId": "special",
       "Name": "パティシエチョコミント",
+      "Group": "ひみつのアイプリDXデビューセット",
       "Kind": "ひみつのアイプリDXデビューセット みつきモデル",
       "LinkedItemIds": []
     },
@@ -1576,6 +1586,7 @@
       "Id": 9900011,
       "ChapterId": "special",
       "Name": "ギンガムチェックグレープ",
+      "Group": "ひみつのアイプリDXデビューセット",
       "Kind": "ひみつのアイプリDXデビューセット みつきモデル",
       "LinkedItemIds": []
     }
