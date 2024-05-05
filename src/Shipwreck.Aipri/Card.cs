@@ -18,6 +18,9 @@ public sealed class Card : DataItem
     [DefaultValue("")]
     public string Coordinate { get; set; } = string.Empty;
 
+    [DefaultValue((double)int.MaxValue)]
+    public double Order { get; set; } = int.MaxValue;
+
     #region Character
 
     private string? _Character;
@@ -148,6 +151,7 @@ public sealed class Card : DataItem
             ChapterId = ChapterId,
             BrandId = BrandId,
             SealId = SealId,
+            Order = Order,
             Coordinate = Coordinate,
             _Character = _Character,
             _CharacterId = _CharacterId,

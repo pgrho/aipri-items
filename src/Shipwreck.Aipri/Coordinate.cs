@@ -19,6 +19,9 @@ public sealed class Coordinate : DataItem
     public DateOnly? Start { get; set; }
     public DateOnly? End { get; set; }
 
+    [DefaultValue((double)int.MaxValue)]
+    public double Order { get; set; } = int.MaxValue;
+
     [DefaultValue(false)]
     public bool HasChance { get; set; }
 
@@ -71,6 +74,7 @@ public sealed class Coordinate : DataItem
             Star = Star,
             Name = Name,
             HasChance = HasChance,
+            Order = Order,
             ImageUrl = ImageUrl,
             ThumbnailUrl = ThumbnailUrl,
             Group = Group,

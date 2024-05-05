@@ -78,6 +78,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 17,
       "LinkedItemIds": []
     },
     {
@@ -92,6 +93,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 18,
       "LinkedItemIds": []
     },
     {
@@ -106,6 +108,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 19,
       "LinkedItemIds": []
     },
     {
@@ -120,6 +123,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 20,
       "LinkedItemIds": []
     },
     {
@@ -134,6 +138,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 21,
       "LinkedItemIds": []
     },
     {
@@ -148,6 +153,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 22,
       "LinkedItemIds": []
     },
     {
@@ -162,6 +168,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 23,
       "LinkedItemIds": []
     },
     {
@@ -176,6 +183,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 24,
       "LinkedItemIds": []
     },
     {
@@ -190,6 +198,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 25,
       "LinkedItemIds": []
     },
     {
@@ -204,6 +213,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 26,
       "LinkedItemIds": []
     },
     {
@@ -218,6 +228,7 @@
       "Kind": "1だん前半★★★★ピックアップ",
       "Start": "2024-04-04",
       "End": "2024-05-01",
+      "Order": 27,
       "LinkedItemIds": []
     },
     {
@@ -232,6 +243,7 @@
       "Kind": "プリティーリズム・オーロラドリーム",
       "Start": "2024-04-04",
       "End": "2024-06-05",
+      "Order": 28,
       "LinkedItemIds": []
     },
     {
@@ -246,6 +258,7 @@
       "Kind": "プリティーリズム・オーロラドリーム",
       "Start": "2024-04-04",
       "End": "2024-06-05",
+      "Order": 29,
       "LinkedItemIds": []
     },
     {
@@ -260,6 +273,7 @@
       "Kind": "プリティーリズム・オーロラドリーム",
       "Start": "2024-04-04",
       "End": "2024-06-05",
+      "Order": 30,
       "LinkedItemIds": []
     },
     {
@@ -274,6 +288,7 @@
       "Kind": "プリティーリズム・オーロラドリーム",
       "Start": "2024-04-04",
       "End": "2024-06-05",
+      "Order": 31,
       "LinkedItemIds": []
     },
     {
@@ -288,6 +303,7 @@
       "Kind": "プリティーリズム・オーロラドリーム",
       "Start": "2024-04-04",
       "End": "2024-06-05",
+      "Order": 32,
       "LinkedItemIds": []
     },
     {
@@ -302,6 +318,7 @@
       "Kind": "プリティーリズム・オーロラドリーム",
       "Start": "2024-04-04",
       "End": "2024-06-05",
+      "Order": 33,
       "LinkedItemIds": []
     },
     {
@@ -316,6 +333,7 @@
       "Kind": "プリティーリズム・オーロラドリーム",
       "Start": "2024-04-04",
       "End": "2024-06-05",
+      "Order": 34,
       "LinkedItemIds": []
     },
     {
@@ -330,6 +348,7 @@
       "Kind": "プリティーリズム・オーロラドリーム",
       "Start": "2024-04-04",
       "End": "2024-06-05",
+      "Order": 35,
       "LinkedItemIds": []
     },
     {
@@ -344,6 +363,7 @@
       "Kind": "プリティーリズム・オーロラドリーム",
       "Start": "2024-04-04",
       "End": "2024-06-05",
+      "Order": 36,
       "LinkedItemIds": []
     },
     {
@@ -357,6 +377,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 37,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -371,6 +392,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 38,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -385,6 +407,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 39,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -399,6 +422,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 40,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -413,6 +437,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 41,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -427,6 +452,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 42,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -441,6 +467,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 43,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -455,6 +482,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 44,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -469,6 +497,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 45,
       "LinkedItemIds": []
     },
     {
@@ -482,6 +511,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 46,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -496,6 +526,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 47,
       "LinkedItemIds": []
     },
     {
@@ -509,6 +540,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 48,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -523,6 +555,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 49,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -537,6 +570,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 50,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -551,6 +585,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 51,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -565,6 +600,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "Order": 52,
       "LinkedItemIds": []
     },
     {
@@ -578,6 +614,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "Order": 53,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -592,6 +629,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "Order": 54,
       "HasChance": true,
       "LinkedItemIds": [
         30098,
@@ -609,6 +647,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "Order": 55,
       "LinkedItemIds": []
     },
     {
@@ -622,6 +661,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "Order": 56,
       "LinkedItemIds": []
     },
     {
@@ -635,6 +675,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "Order": 57,
       "LinkedItemIds": []
     },
     {
@@ -648,6 +689,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "Order": 58,
       "LinkedItemIds": []
     },
     {
@@ -661,6 +703,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "Order": 59,
       "LinkedItemIds": []
     },
     {
@@ -674,6 +717,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "Order": 60,
       "LinkedItemIds": []
     },
     {
@@ -686,6 +730,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-241F_thumb.webp",
       "Group": "1だんマイキャラツアー",
       "Kind": "1だんマイキャラツアー",
+      "Order": 61,
       "LinkedItemIds": []
     },
     {
@@ -698,6 +743,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-243F_thumb.webp",
       "Group": "1だんマイキャラツアー",
       "Kind": "1だんマイキャラツアー",
+      "Order": 62,
       "LinkedItemIds": []
     },
     {
@@ -710,6 +756,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-245F_thumb.webp",
       "Group": "1だんマイキャラツアー",
       "Kind": "1だんマイキャラツアー",
+      "Order": 63,
       "LinkedItemIds": []
     },
     {
@@ -720,6 +767,7 @@
       "Name": "プリマジチェックヘブンズホワイト",
       "Group": "「ワッチャプリマジ！」ひきつぎキャンペーン",
       "Kind": "「ワッチャプリマジ！」ひきつぎキャンペーン",
+      "Order": 1004,
       "LinkedItemIds": []
     },
     {
@@ -730,6 +778,7 @@
       "Name": "ラブリーアイドルピンク",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
+      "Order": 1008,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -741,6 +790,7 @@
       "Name": "ラブリーアイドルブルー",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
+      "Order": 1012,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -752,6 +802,7 @@
       "Name": "クールアイドルピンク",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
+      "Order": 1016,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -763,6 +814,7 @@
       "Name": "クールアイドルブルー",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
+      "Order": 1020,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -774,6 +826,7 @@
       "Name": "クールアイドルレッド",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
+      "Order": 1024,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -785,6 +838,7 @@
       "Name": "ハッピーチアピンク",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
+      "Order": 1028,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -796,6 +850,7 @@
       "Name": "ハッピーチアブルー",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
+      "Order": 1032,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -807,6 +862,7 @@
       "Name": "セーラーカジュアルピンク",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
+      "Order": 1036,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -818,6 +874,7 @@
       "Name": "セーラーカジュアルブルー",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
+      "Order": 1040,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -828,6 +885,7 @@
       "Name": "ピンクジュエル",
       "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス ひまりモデル",
+      "Order": 1047,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -838,6 +896,7 @@
       "Name": "ブルージュエル",
       "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス みつきモデル",
+      "Order": 1050,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -848,6 +907,7 @@
       "Name": "ラブリーコスメ",
       "Group": "ひみつのアイプリリップ",
       "Kind": "ひみつのアイプリリップ ひまりモデル",
+      "Order": 1054,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -858,6 +918,7 @@
       "Name": "クールコスメ",
       "Group": "ひみつのアイプリリップ",
       "Kind": "ひみつのアイプリリップ みつきモデル",
+      "Order": 1058,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -868,6 +929,7 @@
       "Name": "フラワーチュールローズ",
       "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルリップ ローズの香り",
+      "Order": 1062,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -878,6 +940,7 @@
       "Name": "フラワーチュールジャスミン",
       "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルパフューム ジャスミンの香り",
+      "Order": 1066,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -888,6 +951,7 @@
       "Name": "スターパーティーミントベリー",
       "Group": "ちゃお付録",
       "Kind": "ちゃお5月号付録「ひまり（スターパーティーミントベリー）」",
+      "Order": 1077,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -899,6 +963,7 @@
       "Name": "キューティーラビットレッド",
       "Group": "ひみつのアイプリファンブック",
       "Kind": "ひみつのアイプリファンブック 2024年5月号",
+      "Order": 1081,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -909,6 +974,7 @@
       "Name": "プリうさムギちゃんアクセ",
       "Group": "ぬいぐるみ・マスコット",
       "Kind": "ひみつのアイプリ ぬいぐるみ プリうさムギちゃん",
+      "Order": 1082,
       "LinkedItemIds": []
     },
     {
@@ -918,6 +984,7 @@
       "Name": "ひまりぬいぐるみアクセ",
       "Group": "ぬいぐるみ・マスコット",
       "Kind": "ひみつのアイプリ ぬいぐるみ ひまり",
+      "Order": 1083,
       "LinkedItemIds": []
     },
     {
@@ -927,6 +994,7 @@
       "Name": "みつきぬいぐるみアクセ",
       "Group": "ぬいぐるみ・マスコット",
       "Kind": "ひみつのアイプリ ぬいぐるみ みつき",
+      "Order": 1084,
       "LinkedItemIds": []
     },
     {
@@ -936,6 +1004,7 @@
       "Name": "ひまりのアイムゥアクセ",
       "Group": "ぬいぐるみ・マスコット",
       "Kind": "ひみつのアイプリ ボールチェーンマスコット ひまりのアイムゥ",
+      "Order": 1085,
       "LinkedItemIds": []
     },
     {
@@ -945,6 +1014,7 @@
       "Name": "みつきのアイムゥアクセ",
       "Group": "ぬいぐるみ・マスコット",
       "Kind": "ひみつのアイプリ ボールチェーンマスコット みつきのアイムゥ",
+      "Order": 1086,
       "LinkedItemIds": []
     },
     {
@@ -955,6 +1025,7 @@
       "Name": "ポッピンハートバズリウムミント",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
+      "Order": 1089,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -966,6 +1037,7 @@
       "Name": "ぷるるんゼリーメロン",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
+      "Order": 1093,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -977,6 +1049,7 @@
       "Name": "ゴージャスビジューイエロー",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
+      "Order": 1096,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -988,6 +1061,7 @@
       "Name": "アイプリバースミラクルムーングレー",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
+      "Order": 1100,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -999,6 +1073,7 @@
       "Name": "ハッピーチアシックブルー",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
+      "Order": 1104,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -1010,6 +1085,7 @@
       "Name": "クールアイドルネイビーピンク",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
+      "Order": 1108,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -1025,6 +1101,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 3,
       "LinkedItemIds": []
     },
     {
@@ -1039,6 +1116,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 4,
       "LinkedItemIds": []
     },
     {
@@ -1053,6 +1131,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 5,
       "LinkedItemIds": []
     },
     {
@@ -1067,6 +1146,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 6,
       "LinkedItemIds": []
     },
     {
@@ -1081,6 +1161,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 7,
       "LinkedItemIds": []
     },
     {
@@ -1095,6 +1176,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 8,
       "LinkedItemIds": []
     },
     {
@@ -1109,6 +1191,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 9,
       "LinkedItemIds": []
     },
     {
@@ -1123,6 +1206,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 10,
       "LinkedItemIds": []
     },
     {
@@ -1137,6 +1221,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 11,
       "LinkedItemIds": []
     },
     {
@@ -1151,6 +1236,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 12,
       "LinkedItemIds": []
     },
     {
@@ -1165,6 +1251,7 @@
       "Kind": "ワッチャプリマジ！",
       "Start": "2024-05-02",
       "End": "2024-07-03",
+      "Order": 13,
       "LinkedItemIds": []
     },
     {
@@ -1179,6 +1266,7 @@
       "Kind": "ワッチャプリマジ！",
       "Start": "2024-05-02",
       "End": "2024-07-03",
+      "Order": 14,
       "LinkedItemIds": []
     },
     {
@@ -1193,6 +1281,7 @@
       "Kind": "ワッチャプリマジ！",
       "Start": "2024-05-02",
       "End": "2024-07-03",
+      "Order": 15,
       "LinkedItemIds": []
     },
     {
@@ -1207,6 +1296,7 @@
       "Kind": "ワッチャプリマジ！",
       "Start": "2024-05-02",
       "End": "2024-07-03",
+      "Order": 16,
       "LinkedItemIds": []
     },
     {
@@ -1216,6 +1306,7 @@
       "Name": "スターメロディパッション",
       "Group": "ちゃお付録",
       "Kind": "ちゃお2024年6月号付録",
+      "Order": 1044,
       "LinkedItemIds": []
     },
     {
@@ -1230,6 +1321,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 1,
       "LinkedItemIds": [
         30001,
         30002,
@@ -1248,6 +1340,7 @@
       "Kind": "1だん後半★★★★ピックアップ",
       "Start": "2024-05-02",
       "End": "2024-06-05",
+      "Order": 2,
       "LinkedItemIds": [
         30004,
         30005,
@@ -1260,6 +1353,7 @@
       "Star": 4,
       "Name": "スプリングブロッサム",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1268,6 +1362,7 @@
       "Star": 4,
       "Name": "スプリングブルーバタフライ",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1276,6 +1371,7 @@
       "Star": 4,
       "Name": "バタフライマジックブルー",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1284,6 +1380,7 @@
       "Star": 3,
       "Name": "フラワーチュールスカーレット",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1292,6 +1389,7 @@
       "Star": 3,
       "Name": "スターメロディマジカル",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1300,6 +1398,7 @@
       "Star": 3,
       "Name": "ハニービービビッドピンク",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1308,6 +1407,7 @@
       "Star": 2,
       "Name": "ラブリーアイドルホワイトブルー",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1316,6 +1416,7 @@
       "Star": 2,
       "Name": "クールアイドルパープルブラック",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1325,6 +1426,7 @@
       "Name": "アイプリバースポッピンハート",
       "Group": "アイプリデビューキャンペーン",
       "Kind": "アイプリデビューキャンペーン",
+      "Order": 1069,
       "HasChance": true,
       "LinkedItemIds": [
         30049,
@@ -1339,6 +1441,7 @@
       "Name": "アイプリバースミラクルムーン",
       "Group": "アイプリデビューキャンペーン",
       "Kind": "アイプリデビューキャンペーン",
+      "Order": 1073,
       "HasChance": true,
       "LinkedItemIds": [
         30055,
@@ -1355,6 +1458,7 @@
       "Name": "スカーレットバタフライバズリウム",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-007F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-007F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1365,6 +1469,7 @@
       "Name": "おうしざエメラルド",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-040F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-040F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1375,6 +1480,7 @@
       "Name": "おとぎばなしシンデレラ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-044F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-044F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1385,6 +1491,7 @@
       "Name": "おとぎばなしシンデレライエロー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-048F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-048F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1395,6 +1502,7 @@
       "Name": "キューティーラビット",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-052F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-052F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1405,6 +1513,7 @@
       "Name": "キューティーラビットブルー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-056F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-056F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1415,6 +1524,7 @@
       "Name": "リッチベリータルト",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-060F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-060F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1425,6 +1535,7 @@
       "Name": "リッチベリータルトピンク",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-063F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-063F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1435,6 +1546,7 @@
       "Name": "バタフライマジック",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-066F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-066F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1445,6 +1557,7 @@
       "Name": "バタフライマジッククリムゾン",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-070F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-070F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1455,6 +1568,7 @@
       "Name": "ハートフェザー",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-227F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-227F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1465,6 +1579,7 @@
       "Name": "マナマナみゃむ",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-230F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-230F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1475,6 +1590,7 @@
       "Name": "おとめマーガレット",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-233F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-233F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1485,6 +1601,7 @@
       "Name": "プリマジチェックピンク",
       "ImageUrl": "https://aipri.jp/verse/item/img/1/V1-237F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-237F_thumb.webp",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1492,6 +1609,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "スターメロディパッション",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1501,6 +1619,7 @@
       "Name": "スプリングブロッサム",
       "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1510,6 +1629,7 @@
       "Name": "スプリングブルーバタフライ",
       "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1519,6 +1639,7 @@
       "Name": "バタフライマジックブルー",
       "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1528,6 +1649,7 @@
       "Name": "フラワーチュールスカーレット",
       "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1537,6 +1659,7 @@
       "Name": "スターメロディマジカル",
       "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1546,6 +1669,7 @@
       "Name": "ハニービービビッドピンク",
       "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1555,6 +1679,7 @@
       "Name": "ラブリーアイドルホワイトブルー",
       "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1564,6 +1689,7 @@
       "Name": "クールアイドルパープルブラック",
       "Group": "ひみつのアイプリミルフィーカード vol.1",
       "Kind": "ひみつのアイプリミルフィーカード vol.1",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1572,6 +1698,7 @@
       "Name": "スターリースカイ",
       "Group": "ひみつのアイプリDXデビューセット",
       "Kind": "ひみつのアイプリDXデビューセット みつきモデル",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1580,6 +1707,7 @@
       "Name": "パティシエチョコミント",
       "Group": "ひみつのアイプリDXデビューセット",
       "Kind": "ひみつのアイプリDXデビューセット みつきモデル",
+      "Order": 2147483647,
       "LinkedItemIds": []
     },
     {
@@ -1588,6 +1716,7 @@
       "Name": "ギンガムチェックグレープ",
       "Group": "ひみつのアイプリDXデビューセット",
       "Kind": "ひみつのアイプリDXデビューセット みつきモデル",
+      "Order": 2147483647,
       "LinkedItemIds": []
     }
   ],
@@ -4849,6 +4978,7 @@
       "BrandId": 1,
       "SealId": "AP1-001",
       "Coordinate": "ポッピンハートバズリウム",
+      "Order": 1,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -4864,6 +4994,7 @@
       "BrandId": 2,
       "SealId": "AP1-002",
       "Coordinate": "ミラクルムーンバズリウム",
+      "Order": 2,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -4879,6 +5010,7 @@
       "BrandId": 5,
       "SealId": "AP1-003",
       "Coordinate": "スカーレットバタフライバズリウム",
+      "Order": 3,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "レッツ！アイプリ（サクラ）",
@@ -4894,6 +5026,7 @@
       "BrandId": 1,
       "SealId": "AP1-004",
       "Coordinate": "キューティーラビット",
+      "Order": 4,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -4909,6 +5042,7 @@
       "BrandId": 1,
       "SealId": "AP1-005",
       "Coordinate": "キューティーラビットブルー",
+      "Order": 5,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -4924,6 +5058,7 @@
       "BrandId": 1,
       "SealId": "AP1-006",
       "Coordinate": "ドーナツパティシエール",
+      "Order": 6,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -4939,6 +5074,7 @@
       "BrandId": 1,
       "SealId": "AP1-007",
       "Coordinate": "ドーナツパティシエール",
+      "Order": 7,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "みつきのひみつマイソング♪",
@@ -4954,6 +5090,7 @@
       "BrandId": 2,
       "SealId": "AP1-008",
       "Coordinate": "ぷるるんゼリーソーダ",
+      "Order": 8,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -4969,6 +5106,7 @@
       "BrandId": 2,
       "SealId": "AP1-009",
       "Coordinate": "ぷるるんゼリーソーダ",
+      "Order": 9,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "レッツ！アイプリ（ひまり）",
@@ -4984,6 +5122,7 @@
       "BrandId": 5,
       "SealId": "AP1-011",
       "Coordinate": "リッチベリータルト",
+      "Order": 11,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "レッツ！アイプリ（サクラ）",
@@ -4999,6 +5138,7 @@
       "BrandId": 1,
       "SealId": "AP1-012",
       "Coordinate": "ウェルカムチェリー",
+      "Order": 12,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5014,6 +5154,7 @@
       "BrandId": 1,
       "SealId": "AP1-013",
       "Coordinate": "ウェルカムチェリーブルー",
+      "Order": 13,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "レッツ！アイプリ（みつき）",
@@ -5029,6 +5170,7 @@
       "BrandId": 2,
       "SealId": "AP1-014",
       "Coordinate": "きらきらくらげブルー",
+      "Order": 14,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5044,6 +5186,7 @@
       "BrandId": 2,
       "SealId": "AP1-015",
       "Coordinate": "きらきらくらげピンク",
+      "Order": 15,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ひまりのひみつマイソング♪",
@@ -5059,6 +5202,7 @@
       "BrandId": 5,
       "SealId": "AP1-016",
       "Coordinate": "バタフライマジック",
+      "Order": 16,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "レッツ！アイプリ（サクラ）",
@@ -5074,6 +5218,7 @@
       "BrandId": 5,
       "SealId": "AP1-017",
       "Coordinate": "バタフライマジッククリムゾン",
+      "Order": 17,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5089,6 +5234,7 @@
       "BrandId": 1,
       "SealId": "AP1-018",
       "Coordinate": "アイプリバースポッピンハート",
+      "Order": 18,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5105,6 +5251,7 @@
       "BrandId": 1,
       "SealId": "AP1-019",
       "Coordinate": "アイプリバースポッピンハートグリーン",
+      "Order": 19,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5121,6 +5268,7 @@
       "BrandId": 2,
       "SealId": "AP1-020",
       "Coordinate": "アイプリバースミラクルムーン",
+      "Order": 20,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5137,6 +5285,7 @@
       "BrandId": 2,
       "SealId": "AP1-021",
       "Coordinate": "アイプリバースミラクルムーンオレンジ",
+      "Order": 21,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5153,6 +5302,7 @@
       "BrandId": 5,
       "SealId": "AP1-023",
       "Coordinate": "アイプリバーススカーレットバタフライ",
+      "Order": 23,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "レッツ！アイプリ（サクラ）",
@@ -5169,6 +5319,7 @@
       "BrandId": 1,
       "SealId": "AP1-024",
       "Coordinate": "フラワーチュール",
+      "Order": 24,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5185,6 +5336,7 @@
       "BrandId": 1,
       "SealId": "AP1-025",
       "Coordinate": "フラワーチュール",
+      "Order": 25,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "みつきのひみつマイソング♪",
@@ -5201,6 +5353,7 @@
       "BrandId": 1,
       "SealId": "AP1-026",
       "Coordinate": "フラワーチュールミント",
+      "Order": 26,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5217,6 +5370,7 @@
       "BrandId": 1,
       "SealId": "AP1-027",
       "Coordinate": "フラワーチュールミント",
+      "Order": 27,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "レッツ！アイプリ（ひまり）",
@@ -5233,6 +5387,7 @@
       "BrandId": 5,
       "SealId": "AP1-029",
       "Coordinate": "ゴージャスビジュー",
+      "Order": 29,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "レッツ！アイプリ（サクラ）",
@@ -5249,6 +5404,7 @@
       "BrandId": 2,
       "SealId": "AP1-030",
       "Coordinate": "ハニービー",
+      "Order": 30,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5265,6 +5421,7 @@
       "BrandId": 2,
       "SealId": "AP1-031",
       "Coordinate": "ハニービー",
+      "Order": 31,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ひまりのひみつマイソング♪",
@@ -5281,6 +5438,7 @@
       "BrandId": 2,
       "SealId": "AP1-032",
       "Coordinate": "スターメロディ",
+      "Order": 32,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5297,6 +5455,7 @@
       "BrandId": 2,
       "SealId": "AP1-033",
       "Coordinate": "スターメロディ",
+      "Order": 33,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ひまりのひみつマイソング♪",
@@ -5313,6 +5472,7 @@
       "BrandId": 1,
       "SealId": "AP1-034",
       "Coordinate": "ハートメロディ",
+      "Order": 34,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5329,6 +5489,7 @@
       "BrandId": 1,
       "SealId": "AP1-035",
       "Coordinate": "ハートメロディ",
+      "Order": 35,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "レッツ！アイプリ（みつき）",
@@ -5345,6 +5506,7 @@
       "BrandId": 1,
       "SealId": "AP1-036",
       "Coordinate": "スターパーティー",
+      "Order": 36,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "レッツ！アイプリ（ひまり）",
@@ -5361,6 +5523,7 @@
       "BrandId": 1,
       "SealId": "AP1-037",
       "Coordinate": "スターパーティーいちごチョコ",
+      "Order": 37,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5377,6 +5540,7 @@
       "BrandId": 6,
       "SealId": "AP1-038",
       "Coordinate": "パラダイスがくえんせいふく１ねん",
+      "Order": 38,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5393,6 +5557,7 @@
       "BrandId": 6,
       "SealId": "AP1-039",
       "Coordinate": "パラダイスがくえんせいふく１ねん",
+      "Order": 39,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5409,6 +5574,7 @@
       "BrandId": 6,
       "SealId": "AP1-040",
       "Coordinate": "パラダイスがくえんせいふく２ねん",
+      "Order": 40,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5425,6 +5591,7 @@
       "BrandId": 1,
       "SealId": "AP1-042",
       "Coordinate": "ラブリーアイドルピンク",
+      "Order": 42,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ひまりのひみつマイソング♪",
@@ -5441,6 +5608,7 @@
       "BrandId": 2,
       "SealId": "AP1-044",
       "Coordinate": "ラブリーアイドルブルー",
+      "Order": 44,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "レッツ！アイプリ（みつき）",
@@ -5457,6 +5625,7 @@
       "BrandId": 1,
       "SealId": "AP1-046",
       "Coordinate": "クールアイドルピンク",
+      "Order": 46,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "レッツ！アイプリ（ひまり）",
@@ -5473,6 +5642,7 @@
       "BrandId": 2,
       "SealId": "AP1-048",
       "Coordinate": "クールアイドルブルー",
+      "Order": 48,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "ひまりのひみつマイソング♪",
@@ -5489,6 +5659,7 @@
       "BrandId": 5,
       "SealId": "AP1-049",
       "Coordinate": "クールアイドルレッド",
+      "Order": 49,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "レッツ！アイプリ（サクラ）",
@@ -5505,6 +5676,7 @@
       "BrandId": 1,
       "SealId": "AP1-051",
       "Coordinate": "ハッピーチアピンク",
+      "Order": 51,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ひまりのひみつマイソング♪",
@@ -5521,6 +5693,7 @@
       "BrandId": 2,
       "SealId": "AP1-053",
       "Coordinate": "ハッピーチアブルー",
+      "Order": 53,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "レッツ！アイプリ（みつき）",
@@ -5537,6 +5710,7 @@
       "BrandId": 1,
       "SealId": "AP1-055",
       "Coordinate": "セーラーカジュアルピンク",
+      "Order": 55,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "レッツ！アイプリ（ひまり）",
@@ -5553,6 +5727,7 @@
       "BrandId": 2,
       "SealId": "AP1-057",
       "Coordinate": "セーラーカジュアルブルー",
+      "Order": 57,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "みつきのひみつマイソング♪",
@@ -5569,6 +5744,7 @@
       "BrandId": 1,
       "SealId": "P-006",
       "Coordinate": "キューティーラビットレッド",
+      "Order": 3001,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5585,6 +5761,7 @@
       "BrandId": 1,
       "SealId": "P-004",
       "Coordinate": "スターパーティーミントベリー",
+      "Order": 3002,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5600,6 +5777,7 @@
       "BrandId": 2,
       "SealId": "P-003",
       "Coordinate": "アイプリバースミラクルムーン",
+      "Order": 3003,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "みつきのひみつマイソング♪",
@@ -5615,6 +5793,7 @@
       "BrandId": 1,
       "SealId": "P-002",
       "Coordinate": "アイプリバースポッピンハート",
+      "Order": 3004,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5630,6 +5809,7 @@
       "BrandId": 2,
       "SealId": "TOY-013",
       "Coordinate": "フラワーチュールジャスミン",
+      "Order": 3005,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5645,6 +5825,7 @@
       "BrandId": 1,
       "SealId": "TOY-012",
       "Coordinate": "フラワーチュールローズ",
+      "Order": 3006,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5660,6 +5841,7 @@
       "BrandId": 2,
       "SealId": "TOY-011",
       "Coordinate": "クールコスメ",
+      "Order": 3007,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5675,6 +5857,7 @@
       "BrandId": 1,
       "SealId": "TOY-010",
       "Coordinate": "ラブリーコスメ",
+      "Order": 3008,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5690,6 +5873,7 @@
       "BrandId": 2,
       "SealId": "TOY-007",
       "Coordinate": "ブルージュエル",
+      "Order": 3009,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5705,6 +5889,7 @@
       "BrandId": 1,
       "SealId": "TOY-006",
       "Coordinate": "ピンクジュエル",
+      "Order": 3010,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5720,6 +5905,7 @@
       "BrandId": 2,
       "SealId": "TOY-005",
       "Coordinate": "ギンガムチェックグレープ",
+      "Order": 3011,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5733,6 +5919,7 @@
       "BrandId": 2,
       "SealId": "TOY-004",
       "Coordinate": "パティシエチョコミント",
+      "Order": 3012,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5746,6 +5933,7 @@
       "BrandId": 2,
       "SealId": "TOY-003",
       "Coordinate": "スターリースカイ",
+      "Order": 3013,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5759,6 +5947,7 @@
       "BrandId": 1,
       "SealId": "TOY-002",
       "Coordinate": "ギンガムチェック\u3000チェリー",
+      "Order": 3014,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5772,6 +5961,7 @@
       "BrandId": 1,
       "SealId": "TOY-001",
       "Coordinate": "パティシエストロベリー",
+      "Order": 3015,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "シークレット・ドリーム",
@@ -5785,6 +5975,7 @@
       "BrandId": 1,
       "SealId": "TOY-000",
       "Coordinate": "レインボースカイ",
+      "Order": 3016,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5798,6 +5989,7 @@
       "BrandId": 1,
       "SealId": "G1-001",
       "Coordinate": "ポッピンハートバズリウムミント",
+      "Order": 1001,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5814,6 +6006,7 @@
       "BrandId": 2,
       "SealId": "G1-002",
       "Coordinate": "ぷるるんゼリーメロン",
+      "Order": 1002,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -5830,6 +6023,7 @@
       "BrandId": 2,
       "SealId": "G1-003",
       "Coordinate": "ぷるるんゼリーメロン",
+      "Order": 1003,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -5846,6 +6040,7 @@
       "BrandId": 2,
       "SealId": "G1-004",
       "Coordinate": "ぷるるんゼリーメロン",
+      "Order": 1004,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5862,6 +6057,7 @@
       "BrandId": 5,
       "SealId": "G1-005",
       "Coordinate": "ゴージャスビジューイエロー",
+      "Order": 1005,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "レッツ！アイプリ（サクラ）",
@@ -5878,6 +6074,7 @@
       "BrandId": 5,
       "SealId": "G1-006",
       "Coordinate": "ゴージャスビジューイエロー",
+      "Order": 1006,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5894,6 +6091,7 @@
       "BrandId": 5,
       "SealId": "G1-007",
       "Coordinate": "ゴージャスビジューイエロー",
+      "Order": 1007,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "みつきのひみつマイソング♪",
@@ -5910,6 +6108,7 @@
       "BrandId": 2,
       "SealId": "G1-008",
       "Coordinate": "アイプリバースミラクルムーングレー",
+      "Order": 1008,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "レッツ！アイプリ（みつき）",
@@ -5926,6 +6125,7 @@
       "BrandId": 2,
       "SealId": "G1-009",
       "Coordinate": "アイプリバースミラクルムーングレー",
+      "Order": 1009,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ひまりのひみつマイソング♪",
@@ -5942,6 +6142,7 @@
       "BrandId": 2,
       "SealId": "G1-010",
       "Coordinate": "アイプリバースミラクルムーングレー",
+      "Order": 1010,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "レッツ！アイプリ（サクラ）",
@@ -5958,6 +6159,7 @@
       "BrandId": 1,
       "SealId": "G1-011",
       "Coordinate": "ハッピーチアシックブルー",
+      "Order": 1011,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "レッツ！アイプリ（ひまり）",
@@ -5974,6 +6176,7 @@
       "BrandId": 1,
       "SealId": "G1-012",
       "Coordinate": "ハッピーチアシックブルー",
+      "Order": 1012,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -5990,6 +6193,7 @@
       "BrandId": 5,
       "SealId": "G1-013",
       "Coordinate": "クールアイドルネイビーピンク",
+      "Order": 1013,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -6006,6 +6210,7 @@
       "BrandId": 5,
       "SealId": "G1-014",
       "Coordinate": "クールアイドルネイビーピンク",
+      "Order": 1014,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -6022,6 +6227,7 @@
       "BrandId": 1,
       "SealId": "M1-001",
       "Coordinate": "スプリングブロッサム",
+      "Order": 2001,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -6036,6 +6242,7 @@
       "BrandId": 5,
       "SealId": "M1-003",
       "Coordinate": "バタフライマジックブルー",
+      "Order": 2002,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -6050,6 +6257,7 @@
       "BrandId": 1,
       "SealId": "M1-004",
       "Coordinate": "フラワーチュールスカーレット",
+      "Order": 2003,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "レッツ！アイプリ（サクラ）",
@@ -6064,6 +6272,7 @@
       "BrandId": 2,
       "SealId": "M1-005",
       "Coordinate": "スターメロディマジカル",
+      "Order": 2004,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -6078,6 +6287,7 @@
       "BrandId": 2,
       "SealId": "M1-006",
       "Coordinate": "ハニービービビッドピンク",
+      "Order": 2005,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -6092,6 +6302,7 @@
       "BrandId": 1,
       "SealId": "M1-007",
       "Coordinate": "ラブリーアイドルホワイトブルー",
+      "Order": 2006,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -6106,6 +6317,7 @@
       "BrandId": 5,
       "SealId": "M1-008",
       "Coordinate": "クールアイドルパープルブラック",
+      "Order": 2007,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "レッツ！アイプリ（サクラ）",
@@ -6120,6 +6332,7 @@
       "BrandId": 5,
       "SealId": "AP1-010",
       "Coordinate": "リッチベリータルト",
+      "Order": 10,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -6135,6 +6348,7 @@
       "BrandId": 5,
       "SealId": "AP1-022",
       "Coordinate": "アイプリバーススカーレットバタフライ",
+      "Order": 22,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -6151,6 +6365,7 @@
       "BrandId": 5,
       "SealId": "AP1-028",
       "Coordinate": "ゴージャスビジュー",
+      "Order": 28,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -6167,6 +6382,7 @@
       "BrandId": 1,
       "SealId": "AP1-041",
       "Coordinate": "ラブリーアイドルピンク",
+      "Order": 41,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -6183,6 +6399,7 @@
       "BrandId": 2,
       "SealId": "AP1-043",
       "Coordinate": "ラブリーアイドルブルー",
+      "Order": 43,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -6199,6 +6416,7 @@
       "BrandId": 1,
       "SealId": "AP1-045",
       "Coordinate": "クールアイドルピンク",
+      "Order": 45,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -6215,6 +6433,7 @@
       "BrandId": 2,
       "SealId": "AP1-047",
       "Coordinate": "クールアイドルブルー",
+      "Order": 47,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -6231,6 +6450,7 @@
       "BrandId": 1,
       "SealId": "AP1-050",
       "Coordinate": "ハッピーチアピンク",
+      "Order": 50,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -6247,6 +6467,7 @@
       "BrandId": 2,
       "SealId": "AP1-052",
       "Coordinate": "ハッピーチアブルー",
+      "Order": 52,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -6263,6 +6484,7 @@
       "BrandId": 1,
       "SealId": "AP1-054",
       "Coordinate": "セーラーカジュアルピンク",
+      "Order": 54,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -6279,6 +6501,7 @@
       "BrandId": 2,
       "SealId": "AP1-056",
       "Coordinate": "セーラーカジュアルブルー",
+      "Order": 56,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -6295,6 +6518,7 @@
       "BrandId": 1,
       "SealId": "AP1-001P",
       "Coordinate": "ポッピンハートバズリウム",
+      "Order": 0.1,
       "Character": "ひまり",
       "CharacterId": 1,
       "Variant": "パラレル",
@@ -6311,6 +6535,7 @@
       "BrandId": 2,
       "SealId": "AP1-002P",
       "Coordinate": "ミラクルムーンバズリウム",
+      "Order": 0.2,
       "Character": "みつき",
       "CharacterId": 2,
       "Variant": "パラレル",
@@ -6327,6 +6552,7 @@
       "BrandId": 5,
       "SealId": "AP1-003P",
       "Coordinate": "スカーレットバタフライバズリウム",
+      "Order": 0.3,
       "Character": "サクラ",
       "CharacterId": 3,
       "Variant": "パラレル",
@@ -6343,6 +6569,7 @@
       "BrandId": 1,
       "SealId": "AP1-004P",
       "Coordinate": "キューティーラビット",
+      "Order": 0.4,
       "Character": "ひまり",
       "CharacterId": 1,
       "Variant": "パラレル",
@@ -6359,6 +6586,7 @@
       "BrandId": 2,
       "SealId": "M1-002",
       "Coordinate": "スプリングブルーバタフライ",
+      "Order": 1.5,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",

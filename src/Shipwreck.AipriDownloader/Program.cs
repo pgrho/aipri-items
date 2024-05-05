@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
@@ -26,18 +25,22 @@ internal class Program
             c.LinkedItemIds.Clear();
         }
 
-        await ParseItemAsync(d, string.Format(ITEM_FORMAT, "1"), true).ConfigureAwait(false);
+        var order = 1;
+        await ParseItemAsync(d, string.Format(ITEM_FORMAT, "1"), true, order).ConfigureAwait(false);
 
         foreach (var ch in d.DataSet.VerseChapters.Where(e => e.Id != "1"))
         {
-            await ParseItemAsync(d, string.Format(ITEM_FORMAT, ch.Id), false).ConfigureAwait(false);
+            order += 1000;
+            await ParseItemAsync(d, string.Format(ITEM_FORMAT, ch.Id), false, order).ConfigureAwait(false);
         }
 
-        await ParseCardAsync(d, string.Format(CARD_FORMAT, "1"), true).ConfigureAwait(false);
+        order = 1;
+        await ParseCardAsync(d, string.Format(CARD_FORMAT, "1"), true, order).ConfigureAwait(false);
 
         foreach (var ch in d.DataSet.HimitsuChapters.Where(e => e.Id != "1"))
         {
-            await ParseCardAsync(d, string.Format(CARD_FORMAT, ch.Id), false).ConfigureAwait(false);
+            order += 1000;
+            await ParseCardAsync(d, string.Format(CARD_FORMAT, ch.Id), false, order).ConfigureAwait(false);
         }
 
         // 既知の誤記載を訂正する
@@ -55,7 +58,7 @@ internal class Program
         }
     }
 
-    static async Task ParseItemAsync(DownloadContext d, string itemUrl, bool parseChapters)
+    static async Task ParseItemAsync(DownloadContext d, string itemUrl, bool parseChapters, int startOrder)
     {
         var url = new Uri(itemUrl);
         using var html = await d.GetAsync(itemUrl).ConfigureAwait(false);
@@ -221,6 +224,7 @@ internal class Program
                     {
                         Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
                     }
+                    coord.Order = startOrder++;
 
                     var thUrl = cNode.SelectSingleNode("./img/@src")?.Value;
                     if (thUrl != null)
@@ -260,6 +264,7 @@ internal class Program
                     {
                         Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
                     }
+                    coord.Order = startOrder++;
 
                     var term = cNode.SelectSingleNode("@data-term")?.Value?.Trim();
                     if (string.IsNullOrEmpty(term))
@@ -290,7 +295,7 @@ internal class Program
         }
     }
 
-    static async Task ParseCardAsync(DownloadContext d, string itemUrl, bool parseChapters)
+    static async Task ParseCardAsync(DownloadContext d, string itemUrl, bool parseChapters, int startOrder)
     {
         var url = new Uri(itemUrl);
         using var html = await d.GetAsync(itemUrl).ConfigureAwait(false);
@@ -365,6 +370,7 @@ internal class Program
             {
                 Console.WriteLine("   - Card[{0}]: {1}@{2}", card.Id, card.Coordinate, card.Character);
             }
+            card.Order = startOrder++;
         }
 
         foreach (var oc in oldCards)
@@ -453,56 +459,60 @@ internal class Program
     {
         foreach (var ci in await d.EnumerateCardCorrection(d))
         {
-            var dt = ci?.Data;
-            if (dt != null)
+            var src = ci?.Data;
+            if (src != null)
             {
                 var pred = ci!.Key switch
                 {
-                    nameof(dt.Id) or "" or null => (Func<Card, bool>)(e => e.Id == dt.Id),
-                    nameof(dt.SealId) or "" or null => (Func<Card, bool>)(e => e.SealId == dt.SealId),
+                    nameof(src.Id) or "" or null => (Func<Card, bool>)(e => e.Id == src.Id),
+                    nameof(src.SealId) or "" or null => (Func<Card, bool>)(e => e.SealId == src.SealId),
                     _ => throw new ArgumentException()
                 };
 
-                var t = d.DataSet.Cards.FirstOrDefault(pred);
-                if (t == null && dt.Id > 0)
+                var dest = d.DataSet.Cards.FirstOrDefault(pred);
+                if (dest == null && src.Id > 0)
                 {
-                    t = new() { Id = dt.Id };
-                    d.DataSet.Cards.Add(t);
+                    dest = new() { Id = src.Id };
+                    d.DataSet.Cards.Add(dest);
                 }
-                if (t != null)
+                if (dest != null)
                 {
-                    t.SealId = dt.SealId.TrimOrNull() ?? t.SealId;
-                    t.ChapterId = dt.ChapterId.TrimOrNull() ?? t.ChapterId;
-                    t.Coordinate = dt.Coordinate.TrimOrNull() ?? t.Coordinate;
-                    t.Variant = dt.Variant.TrimOrNull() ?? t.Variant;
-                    if (dt.CharacterId > 0)
+                    dest.SealId = src.SealId.TrimOrNull() ?? dest.SealId;
+                    dest.ChapterId = src.ChapterId.TrimOrNull() ?? dest.ChapterId;
+                    if (!double.IsNaN(src.Order))
                     {
-                        t.CharacterId = dt.CharacterId;
+                        dest.Order = src.Order;
                     }
-                    if (dt.SongId > 0)
+                    dest.Coordinate = src.Coordinate.TrimOrNull() ?? dest.Coordinate;
+                    dest.Variant = src.Variant.TrimOrNull() ?? dest.Variant;
+                    if (src.CharacterId > 0)
                     {
-                        t.SongId = dt.SongId;
+                        dest.CharacterId = src.CharacterId;
                     }
-                    if (dt.Star > 0)
+                    if (src.SongId > 0)
                     {
-                        t.Star = dt.Star;
+                        dest.SongId = src.SongId;
                     }
-                    if (dt.Point > 0)
+                    if (src.Star > 0)
                     {
-                        t.Point = dt.Point;
+                        dest.Star = src.Star;
                     }
-                    t.IsChance = dt.IsChance;
-                    t.BrandId = dt.BrandId;
+                    if (src.Point > 0)
+                    {
+                        dest.Point = src.Point;
+                    }
+                    dest.IsChance = src.IsChance;
+                    dest.BrandId = src.BrandId;
 
-                    if (!string.IsNullOrEmpty(dt.Image1Url))
+                    if (!string.IsNullOrEmpty(src.Image1Url))
                     {
-                        t.Image1Url = await d.GetOrCopyImageAsync(dt.Image1Url, "cards", t.Id, "-1");
+                        dest.Image1Url = await d.GetOrCopyImageAsync(src.Image1Url, "cards", dest.Id, "-1");
                     }
-                    if (!string.IsNullOrEmpty(dt.Image2Url))
+                    if (!string.IsNullOrEmpty(src.Image2Url))
                     {
-                        t.Image2Url = await d.GetOrCopyImageAsync(dt.Image2Url, "cards", t.Id, "-2");
+                        dest.Image2Url = await d.GetOrCopyImageAsync(src.Image2Url, "cards", dest.Id, "-2");
                     }
-                    Console.WriteLine($"Corrected card info of #{t.Id}({t.SealId})");
+                    Console.WriteLine($"Corrected card info of #{dest.Id}({dest.SealId})");
                 }
             }
         }

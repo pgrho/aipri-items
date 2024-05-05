@@ -727,6 +727,7 @@ public sealed class DownloadContext : IDisposable
                 var key = Array.IndexOf(ha, "Key");
                 var id = Array.IndexOf(ha, nameof(Card.Id));
                 var chapterId = Array.IndexOf(ha, nameof(Card.ChapterId));
+                var order = Array.IndexOf(ha, nameof(Card.Order));
                 var sealId = Array.IndexOf(ha, nameof(Card.SealId));
                 var coordinate = Array.IndexOf(ha, nameof(Card.Coordinate));
                 var character = Array.IndexOf(ha, nameof(Card.Character));
@@ -755,6 +756,7 @@ public sealed class DownloadContext : IDisposable
                             {
                                 Id = int.TryParse(read(id), out var i) ? i : 0,
                                 ChapterId = read(chapterId) ?? string.Empty,
+                                Order = double.TryParse(read(order), out var ov) ? ov : double.NaN,
                                 SealId = read(sealId) ?? string.Empty,
                                 Coordinate = read(coordinate) ?? string.Empty,
                                 CharacterId = d.AddCharacter(read(character))?.Id ?? 0,
