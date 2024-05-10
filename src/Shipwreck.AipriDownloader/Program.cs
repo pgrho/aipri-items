@@ -2,6 +2,7 @@
 using System.Text;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
+using static System.Collections.Specialized.BitVector32;
 
 namespace Shipwreck.AipriDownloader;
 
@@ -161,7 +162,7 @@ internal class Program
                 }
             }
 
-            foreach (HtmlNodeNavigator cNode in section.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item')]//a[@data-modal]"))
+            foreach (HtmlNodeNavigator cNode in section.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item ')]//a[@data-modal]"))
             {
                 var modal = cNode.SelectSingleNode("@data-modal")?.Value;
 
@@ -338,7 +339,7 @@ internal class Program
 
         var newCards = new HashSet<Card>();
 
-        foreach (HtmlNodeNavigator cNode in nav.Select("//div[@class='grid__item']//a[@data-modal]"))
+        foreach (HtmlNodeNavigator cNode in nav.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item ')]//a[@data-modal]"))
         {
             var term = cNode.GetAttribute("data-term", null);
             var name = cNode.GetAttribute("data-name", null);
