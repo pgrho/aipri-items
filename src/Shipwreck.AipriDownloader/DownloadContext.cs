@@ -1,6 +1,7 @@
 ﻿using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Text.RegularExpressions;
 using Shipwreck.Aipri;
 
 namespace Shipwreck.AipriDownloader;
@@ -320,6 +321,7 @@ public sealed class DownloadContext : IDisposable
 
         return c;
     }
+
     public Song? AddSong(string? name)
     {
         if (string.IsNullOrEmpty(name))
@@ -344,6 +346,7 @@ public sealed class DownloadContext : IDisposable
 
         return c;
     }
+
     public Character? AddCharacter(string? name)
     {
         if (string.IsNullOrEmpty(name))
@@ -549,6 +552,8 @@ public sealed class DownloadContext : IDisposable
 
     public void Dispose()
     {
+        var digitPattern = new Regex("^[0-9]$");
+
         var hpn = Path.Combine(_OutputDirectory.FullName, "data.json.new");
         var hp = Path.Combine(_OutputDirectory.FullName, "data.json");
         try
@@ -557,15 +562,25 @@ public sealed class DownloadContext : IDisposable
             {
                 JsonSerializer.Serialize(fs, new AipriDataSet()
                 {
-                    VerseChapters = new(_DataSet.VerseChapters.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    VerseChapters = new(_DataSet.VerseChapters
+                                                    .OrderBy(e => digitPattern.IsMatch(e.Id) ? e.Id[0] - '0' : int.MaxValue)
+                                                    .ThenBy(e => e.Id)
+                                                    .Select(e => e.Clone())),
                     Categories = new(_DataSet.Categories.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Brands = new(_DataSet.Brands.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Coordinates = new(_DataSet.Coordinates.OrderBy(e => e.Id).Select(e => e.Clone())),
                     CoordinateItems = new(_DataSet.CoordinateItems.OrderBy(e => e.Id).Select(e => e.Clone())),
 
-                    HimitsuChapters = new(_DataSet.HimitsuChapters.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    HimitsuChapters = new(_DataSet.HimitsuChapters
+                                                    .OrderBy(e => digitPattern.IsMatch(e.Id) ? e.Id[0] - '0' : int.MaxValue)
+                                                    .ThenBy(e => e.Id)
+                                                    .Select(e => e.Clone())),
                     Characters = new(_DataSet.Characters.OrderBy(e => e.Id).Select(e => e.Clone())),
-                    Songs = new(_DataSet.Songs.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Songs = new(_DataSet.Songs
+                                            .OrderBy(e => e.Name.EndsWith("のひみつマイソング♪") ? 1 : 0)
+                                            .ThenBy(e => e.Name.StartsWith("レッツ！アイプリ") ? 1 : 0)
+                                            .ThenBy(e => e.Id)
+                                            .Select(e => e.Clone())),
                     Cards = new(_DataSet.Cards.OrderBy(e => e.Id).Select(e => e.Clone())),
                 }, new JsonSerializerOptions()
                 {
