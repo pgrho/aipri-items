@@ -13,6 +13,9 @@ internal static class Constants
 
     public const string COORDINATE_THUMBNAIL_PATH_FORMAT = COORDINATES + "/{0:D6}-thumb{1}";
 
+    public const string PARTS = "parts";
+    public const string PART_PATH_FORMAT = PARTS + "/{0:D6}{1}";
+
     public const string CARDS = "cards";
     public const string CARD_PATH_FORMAT1 = CARDS + "/{0:D6}-1{1}";
     public const string CARD_PATH_FORMAT2 = CARDS + "/{0:D6}-2{1}";

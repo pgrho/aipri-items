@@ -6,6 +6,8 @@ namespace Shipwreck.Aipri.Accessor;
 
 public static class AipriGitDataSetHelper
 {
+    #region Brand
+
     public static string? GetImagePath(this Brand? e)
         => GetFilePath(Constants.BRAND_PATH_FORMAT, (e?.DataSet as AipriGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
 
@@ -14,6 +16,8 @@ public static class AipriGitDataSetHelper
 
     public static Stream OpenImage(this Brand? e)
         => Open(Constants.BRAND_PATH_FORMAT, (e?.DataSet as AipriGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
+
+    #endregion Brand
 
     public static string? GetImagePath(this Coordinate? e)
         => GetFilePath(Constants.COORDINATE_PATH_FORMAT, (e?.DataSet as AipriGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
@@ -41,6 +45,19 @@ public static class AipriGitDataSetHelper
 
     public static Stream OpenImage(this CoordinateItem? e)
         => Open(Constants.COORDINATE_ITEM_PATH_FORMAT, (e?.DataSet as AipriGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
+
+    #region Part
+
+    public static string? GetImagePath(this Part? e)
+        => GetFilePath(Constants.PART_PATH_FORMAT, (e?.DataSet as AipriGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
+
+    public static Uri? GetImageUri(this Part? e)
+        => GetUri(Constants.PART_PATH_FORMAT, (e?.DataSet as AipriGitDataSet)?.FileName, e?.Id, e?.ImageUrl);
+
+    public static Stream OpenImage(this Part? e)
+        => Open(Constants.PART_PATH_FORMAT, (e?.DataSet as AipriGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
+
+    #endregion Part
 
     #region Card
 
