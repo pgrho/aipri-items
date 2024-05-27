@@ -4907,6 +4907,540 @@
       "ImageUrl": "gingham_check_grape-4.png"
     }
   ],
+  "Parts": [
+    {
+      "Id": 1,
+      "Category": "フェイス",
+      "Name": "おとめ",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Face_0001.webp"
+    },
+    {
+      "Id": 2,
+      "Category": "フェイス",
+      "Name": "げんき",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Face_0002.webp"
+    },
+    {
+      "Id": 3,
+      "Category": "フェイス",
+      "Name": "ほんわか",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Face_0003.webp"
+    },
+    {
+      "Id": 4,
+      "Category": "フェイス",
+      "Name": "ひたむき",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Face_0004.webp"
+    },
+    {
+      "Id": 5,
+      "Category": "フェイス",
+      "Name": "ハツラツ",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Face_0005.webp"
+    },
+    {
+      "Id": 6,
+      "Category": "フェイス",
+      "Name": "ビューティー",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Face_0006.webp"
+    },
+    {
+      "Id": 7,
+      "Category": "フェイス",
+      "Name": "ロマンチック",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Face_0007.webp"
+    },
+    {
+      "Id": 8,
+      "Category": "フェイス",
+      "Name": "ミステリアス",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Face_0008.webp"
+    },
+    {
+      "Id": 9,
+      "Category": "ボイス",
+      "Name": "いきいき",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Voice_0101.webp"
+    },
+    {
+      "Id": 10,
+      "Category": "ボイス",
+      "Name": "ふんわり",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Voice_0102.webp"
+    },
+    {
+      "Id": 11,
+      "Category": "ボイス",
+      "Name": "まっすぐ",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Voice_0103.webp"
+    },
+    {
+      "Id": 12,
+      "Category": "ボイス",
+      "Name": "クール",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Voice_0104.webp"
+    },
+    {
+      "Id": 13,
+      "Category": "ボイス",
+      "Name": "ゆうが",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Voice_0105.webp"
+    },
+    {
+      "Id": 14,
+      "Category": "ボイス",
+      "Name": "かわいい",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Voice_0106.webp"
+    },
+    {
+      "Id": 15,
+      "Category": "はだ",
+      "Name": "A",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Skin_0001.webp"
+    },
+    {
+      "Id": 16,
+      "Category": "はだ",
+      "Name": "B",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Skin_0002.webp"
+    },
+    {
+      "Id": 17,
+      "Category": "はだ",
+      "Name": "C",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Skin_0003.webp"
+    },
+    {
+      "Id": 18,
+      "Category": "はだ",
+      "Name": "D",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Skin_0004.webp"
+    },
+    {
+      "Id": 19,
+      "Category": "はだ",
+      "Name": "E",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Skin_0005.webp"
+    },
+    {
+      "Id": 20,
+      "Category": "はだ",
+      "Name": "F",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Skin_0006.webp"
+    },
+    {
+      "Id": 21,
+      "Category": "まえがみ",
+      "Name": "ドーリィ",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0001.webp"
+    },
+    {
+      "Id": 22,
+      "Category": "まえがみ",
+      "Name": "さわやかナナメ",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0002.webp"
+    },
+    {
+      "Id": 23,
+      "Category": "まえがみ",
+      "Name": "ハンサムセット",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0003.webp"
+    },
+    {
+      "Id": 24,
+      "Category": "まえがみ",
+      "Name": "ぱっつんシースルー",
+      "Description": "ドリーム「シンガー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0004.webp"
+    },
+    {
+      "Id": 25,
+      "Category": "まえがみ",
+      "Name": "ナナメバング",
+      "Description": "ひみつタイム",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0005.webp"
+    },
+    {
+      "Id": 26,
+      "Category": "うしろがみ",
+      "Name": "キューティーツイン",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0001.webp"
+    },
+    {
+      "Id": 27,
+      "Category": "うしろがみ",
+      "Name": "すっきりショート",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0002.webp"
+    },
+    {
+      "Id": 28,
+      "Category": "うしろがみ",
+      "Name": "ナチュラルボブ",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0003.webp"
+    },
+    {
+      "Id": 29,
+      "Category": "うしろがみ",
+      "Name": "あこがれロング",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0004.webp"
+    },
+    {
+      "Id": 30,
+      "Category": "うしろがみ",
+      "Name": "ピュアサイドポニー",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0005.webp"
+    },
+    {
+      "Id": 31,
+      "Category": "ヘアカラー",
+      "Name": "ビューティーブラック",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0001.webp"
+    },
+    {
+      "Id": 32,
+      "Category": "ヘアカラー",
+      "Name": "うぐいすアッシュ",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0002.webp"
+    },
+    {
+      "Id": 33,
+      "Category": "ヘアカラー",
+      "Name": "サンシャインイエロー",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0003.webp"
+    },
+    {
+      "Id": 34,
+      "Category": "ヘアカラー",
+      "Name": "ファンタジーピンク",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0004.webp"
+    },
+    {
+      "Id": 35,
+      "Category": "ヘアカラー",
+      "Name": "ラッキーブルースカイ",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0005.webp"
+    },
+    {
+      "Id": 36,
+      "Category": "ヘアカラー",
+      "Name": "ブルーベリーパープル",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0006.webp"
+    },
+    {
+      "Id": 37,
+      "Category": "ヘアカラー",
+      "Name": "マシュマロピンク",
+      "Description": "ドリーム「シンガー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0007.webp"
+    },
+    {
+      "Id": 38,
+      "Category": "ヘアカラー",
+      "Name": "ブルーバタフライ",
+      "Description": "ドリーム「モデル」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0009.webp"
+    },
+    {
+      "Id": 39,
+      "Category": "ヘアカラー",
+      "Name": "みゃむライトブルー",
+      "Description": "ドリーム「マナマナみゃむ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0012.webp"
+    },
+    {
+      "Id": 40,
+      "Category": "ヘアカラー",
+      "Name": "ひまりハートピンク",
+      "Description": "ひみつのアイプリネイル",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0014.webp"
+    },
+    {
+      "Id": 41,
+      "Category": "ヘアカラー",
+      "Name": "みつきムーンブルー",
+      "Description": "ひみつのアイプリネイル",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0015.webp"
+    },
+    {
+      "Id": 42,
+      "Category": "ヘアカラー",
+      "Name": "あさづみグリーン",
+      "Description": "スプリングツアー2024",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0013.webp"
+    },
+    {
+      "Id": 43,
+      "Category": "ヘアカラー",
+      "Name": "まつりピンク",
+      "Description": "ドリーム「プリマジスタ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0011.webp"
+    },
+    {
+      "Id": 44,
+      "Category": "アイカラー",
+      "Name": "やすらぎウッド",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0001.webp"
+    },
+    {
+      "Id": 45,
+      "Category": "アイカラー",
+      "Name": "ピュアマリン",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0002.webp"
+    },
+    {
+      "Id": 46,
+      "Category": "アイカラー",
+      "Name": "スイートチェリー",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0003.webp"
+    },
+    {
+      "Id": 47,
+      "Category": "アイカラー",
+      "Name": "トゥインクルミント",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0004.webp"
+    },
+    {
+      "Id": 48,
+      "Category": "アイカラー",
+      "Name": "キャンディレモン",
+      "Description": "ドリーム「ダンサー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0006.webp"
+    },
+    {
+      "Id": 49,
+      "Category": "アイカラー",
+      "Name": "クラウディナイト",
+      "Description": "ドリーム「モデル」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0007.webp"
+    },
+    {
+      "Id": 50,
+      "Category": "アイカラー",
+      "Name": "オーロラウエディングアイ",
+      "Description": "ドリーム「オーロラプリズムスタァ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0008.webp"
+    },
+    {
+      "Id": 51,
+      "Category": "アイカラー",
+      "Name": "みゃむアイ",
+      "Description": "ドリーム「マナマナみゃむ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0011.webp"
+    },
+    {
+      "Id": 52,
+      "Category": "アイカラー",
+      "Name": "スプリングミックス",
+      "Description": "スプリングツアー2024",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0012.webp"
+    },
+    {
+      "Id": 53,
+      "Category": "アイカラー",
+      "Name": "まつりアイ",
+      "Description": "ドリーム「プリマジスタ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0009.webp"
+    },
+    {
+      "Id": 54,
+      "Category": "アイカラー",
+      "Name": "コーデメイツアイ",
+      "Description": "ドリーム「プリマジスタ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0010.webp"
+    },
+    {
+      "Id": 55,
+      "Category": "メッシュタイプ",
+      "Name": "ほそメッシュ",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/MeshType_0001.webp"
+    },
+    {
+      "Id": 56,
+      "Category": "ヘアデコ",
+      "Name": "パールデコ",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0001.webp"
+    },
+    {
+      "Id": 57,
+      "Category": "ヘアデコ",
+      "Name": "スターデコ",
+      "Description": "ドリーム「ダンサー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0002.webp"
+    },
+    {
+      "Id": 58,
+      "Category": "ヘアデコ",
+      "Name": "プリズムストーンデコ",
+      "Description": "ドリーム「オーロラプリズムスタァ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0003.webp"
+    },
+    {
+      "Id": 59,
+      "Category": "ヘアデコ",
+      "Name": "ひまりハートデコ",
+      "Description": "ひみつタイム",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0004.webp"
+    },
+    {
+      "Id": 60,
+      "Category": "ヘアデコ",
+      "Name": "みつきムーンデコ",
+      "Description": "ひみつタイム",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0005.webp"
+    },
+    {
+      "Id": 61,
+      "Category": "ヘアデコ",
+      "Name": "サクラバタフライデコ",
+      "Description": "ひみつタイム",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0006.webp"
+    },
+    {
+      "Id": 62,
+      "Category": "ヘアデコ",
+      "Name": "さくらんぼデコ",
+      "Description": "スプリングツアー2024",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0007.webp"
+    },
+    {
+      "Id": 63,
+      "Category": "メイク",
+      "Name": "おしゃまガール",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0001.webp"
+    },
+    {
+      "Id": 64,
+      "Category": "メイク",
+      "Name": "あいらしペールピンク",
+      "Description": "ドリーム「シンガー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0002.webp"
+    },
+    {
+      "Id": 65,
+      "Category": "メイク",
+      "Name": "はじけるダンサー",
+      "Description": "ドリーム「ダンサー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0003.webp"
+    },
+    {
+      "Id": 66,
+      "Category": "メイク",
+      "Name": "ピュアウエディングメイク",
+      "Description": "ドリーム「オーロラプリズムスタァ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0004.webp"
+    },
+    {
+      "Id": 67,
+      "Category": "メイク",
+      "Name": "みゃむだいすきメイク",
+      "Description": "ドリーム「マナマナみゃむ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0005.webp"
+    },
+    {
+      "Id": 68,
+      "Category": "メイク",
+      "Name": "きらりアプリコットピーチ",
+      "Description": "ひみつタイム",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0006.webp"
+    },
+    {
+      "Id": 69,
+      "Category": "メイク",
+      "Name": "ひまりハートメイク",
+      "Description": "ひみつのアイプリリップ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0007.webp"
+    },
+    {
+      "Id": 70,
+      "Category": "メイク",
+      "Name": "みつきムーンメイク",
+      "Description": "ひみつのアイプリリップ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0008.webp"
+    },
+    {
+      "Id": 71,
+      "Category": "メイク",
+      "Name": "ひみつのわたしメイク",
+      "Description": "ひみつダイアリー",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0009.webp"
+    },
+    {
+      "Id": 72,
+      "Category": "ワンポイント",
+      "Name": "オーバルめがね",
+      "Description": "はじめからえらべる",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0001.webp"
+    },
+    {
+      "Id": 73,
+      "Category": "ワンポイント",
+      "Name": "なきぼくろ",
+      "Description": "ドリーム「モデル」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0002.webp"
+    },
+    {
+      "Id": 74,
+      "Category": "アイプリブレス",
+      "Name": "ひまりモデル",
+      "Description": "1だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0001.webp"
+    },
+    {
+      "Id": 75,
+      "Category": "アイプリブレス",
+      "Name": "みつきモデル",
+      "Description": "1だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0002.webp"
+    },
+    {
+      "Id": 76,
+      "Category": "アイプリブレス",
+      "Name": "サクラモデル",
+      "Description": "1だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0005.webp"
+    }
+  ],
   "HimitsuChapters": [
     {
       "Id": "1",

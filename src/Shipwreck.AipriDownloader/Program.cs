@@ -1,7 +1,10 @@
 ﻿using System.Globalization;
+using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Xml.Linq;
 using HtmlAgilityPack;
+using Shipwreck.Aipri;
 using static System.Collections.Specialized.BitVector32;
 
 namespace Shipwreck.AipriDownloader;
@@ -10,6 +13,7 @@ internal class Program
 {
     private const string VERSE_HOME = "https://aipri.jp/verse/";
     private const string ITEM_FORMAT = VERSE_HOME + "item/{0}.html";
+    private const string PARTS = VERSE_HOME + "parts/";
 
     private const string HIMITSU_HOME = "https://aipri.jp/";
     private const string CARD_FORMAT = HIMITSU_HOME + "card/{0}.html";
@@ -25,6 +29,8 @@ internal class Program
         {
             c.LinkedItemIds.Clear();
         }
+
+        await ParsePartsAsync(d).ConfigureAwait(false);
 
         var order = 1;
         await ParseItemAsync(d, string.Format(ITEM_FORMAT, "1"), true, order).ConfigureAwait(false);
@@ -293,6 +299,67 @@ internal class Program
         {
             chapter.Start = newCoordinates.Min(e => e.Start);
             chapter.End = newCoordinates.Max(e => e.End);
+        }
+    }
+
+    static async Task ParsePartsAsync(DownloadContext d)
+    {
+        var url = new Uri(PARTS);
+        using var html = await d.GetAsync(PARTS).ConfigureAwait(false);
+
+        var doc = new HtmlDocument();
+        doc.Load(html);
+
+        var nav = (HtmlAgilityPack.HtmlNodeNavigator)doc.CreateNavigator();
+
+        var old = d.DataSet.Parts.ToList();
+
+        var list = new HashSet<Part>();
+
+        foreach (HtmlNodeNavigator section in nav.Select("//section[starts-with(@class, 'section ')]"))
+        {
+            var category = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim();
+
+            if (string.IsNullOrEmpty(category))
+            {
+                continue;
+            }
+
+            foreach (HtmlNodeNavigator cNode in section.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item ')]"))
+            {
+                var name = cNode.SelectSingleNode(".//img/@alt")?.Value?.Trim();
+
+                if (string.IsNullOrEmpty(name))
+                {
+                    continue;
+                }
+
+                var desc = cNode.SelectSingleNode(".//p")?.Value?.Trim();
+
+                var p = d.AddPart(name)!;
+                p.Category = category;
+
+                p.Description = desc;
+
+                var img = cNode.SelectSingleNode(".//img/@src")?.Value?.Trim();
+                if (img != null)
+                {
+                    img = new Uri(url, img).ToString();
+                    if (p.ImageUrl != img || !p.IsImage1Loaded)
+                    {
+                        p.ImageUrl = await d.GetOrCopyImageAsync(img, "parts", p.Id).ConfigureAwait(false);
+                        p.IsImage1Loaded = true;
+                    }
+                }
+
+                list.Add(p);
+                old.Remove(p);
+            }
+        }
+
+        foreach (var oc in old)
+        {
+            d.DataSet.Parts.Remove(oc);
         }
     }
 

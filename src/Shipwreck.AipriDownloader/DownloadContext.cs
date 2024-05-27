@@ -63,6 +63,10 @@ public sealed class DownloadContext : IDisposable
                         {
                             _DataSet.CoordinateItems.Add(c.Clone());
                         }
+                        foreach (var c in hd.Parts)
+                        {
+                            _DataSet.Parts.Add(c.Clone());
+                        }
                         foreach (var c in hd.HimitsuChapters)
                         {
                             _DataSet.HimitsuChapters.Add(c.Clone());
@@ -510,6 +514,31 @@ public sealed class DownloadContext : IDisposable
         return c;
     }
 
+    public Part? AddPart(string? name)
+    {
+        if (string.IsNullOrEmpty(name))
+        {
+            return null;
+        }
+
+        Part? c;
+        lock (_DataSet)
+        {
+            c = _DataSet.Parts.GetByName(name);
+            if (c == null)
+            {
+                c = new()
+                {
+                    Name = name,
+                    Id = (_DataSet.Parts.Max(e => e?.Id) ?? 0) + 1
+                };
+                _DataSet.Parts.Add(c);
+            }
+        }
+
+        return c;
+    }
+
     public async Task<Card> AddCardAsync(Chapter? chapter, string coordinate, string character, string sealId, string? image1Url, string? image2Url, string? variant = null)
     {
         variant = variant.TrimOrNull();
@@ -570,6 +599,7 @@ public sealed class DownloadContext : IDisposable
                     Brands = new(_DataSet.Brands.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Coordinates = new(_DataSet.Coordinates.OrderBy(e => e.Id).Select(e => e.Clone())),
                     CoordinateItems = new(_DataSet.CoordinateItems.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Parts = new(_DataSet.Parts.OrderBy(e => e.Id).Select(e => e.Clone())),
 
                     HimitsuChapters = new(_DataSet.HimitsuChapters
                                                     .OrderBy(e => digitPattern.IsMatch(e.Id) ? e.Id[0] - '0' : int.MaxValue)
