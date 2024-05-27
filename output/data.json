@@ -7,6 +7,12 @@
       "End": "2024-07-03"
     },
     {
+      "Id": "2",
+      "Name": "2だん",
+      "Start": "2024-06-06",
+      "End": "2024-07-31"
+    },
+    {
       "Id": "special",
       "Name": "スペシャル"
     }
@@ -63,6 +69,16 @@
       "Id": 6,
       "Name": "プリズムストーン",
       "ImageUrl": "https://aipri.jp/verse/item/img/icn_prism-stone.webp"
+    },
+    {
+      "Id": 7,
+      "Name": "ロゼッション",
+      "ImageUrl": "https://aipri.jp/verse/item/img/icn_rosession.webp"
+    },
+    {
+      "Id": 8,
+      "Name": "フラワーマーチ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/icn_flower-march.webp"
     }
   ],
   "Coordinates": [
@@ -1347,6 +1363,653 @@
         30005,
         30006
       ]
+    },
+    {
+      "Id": 94,
+      "ChapterId": "2",
+      "BrandId": 7,
+      "Star": 4,
+      "Name": "ロゼッションバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-001F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-001F_thumb.webp",
+      "Group": "2だん前半★★★★ピックアップ",
+      "Kind": "2だん前半★★★★ピックアップ",
+      "Order": 2001,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 95,
+      "ChapterId": "2",
+      "BrandId": 5,
+      "Star": 4,
+      "Name": "スカーレットバタフライバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V1-007F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V1-007F_thumb.webp",
+      "Group": "2だん前半★★★★ピックアップ",
+      "Kind": "2だん前半★★★★ピックアップ",
+      "Order": 2002,
+      "LinkedItemIds": [
+        30007,
+        30008,
+        30009
+      ]
+    },
+    {
+      "Id": 96,
+      "ChapterId": "2",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "ふたござシトリン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-010F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-010F_thumb.webp",
+      "Group": "2だん前半★★★★ピックアップ",
+      "Kind": "2だん前半★★★★ピックアップ",
+      "Order": 2003,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 97,
+      "ChapterId": "2",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "フレッシュレモンピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-014F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-014F_thumb.webp",
+      "Group": "2だん前半★★★★ピックアップ",
+      "Kind": "2だん前半★★★★ピックアップ",
+      "Order": 2004,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 98,
+      "ChapterId": "2",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "フレッシュレモンブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-017F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-017F_thumb.webp",
+      "Group": "2だん前半★★★★ピックアップ",
+      "Kind": "2だん前半★★★★ピックアップ",
+      "Order": 2005,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 99,
+      "ChapterId": "2",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "マジシャンキャット",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-020F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-020F_thumb.webp",
+      "Group": "2だん前半★★★★ピックアップ",
+      "Kind": "2だん前半★★★★ピックアップ",
+      "Order": 2006,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 100,
+      "ChapterId": "2",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "マジシャンキャットピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-024F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-024F_thumb.webp",
+      "Group": "2だん前半★★★★ピックアップ",
+      "Kind": "2だん前半★★★★ピックアップ",
+      "Order": 2007,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 101,
+      "ChapterId": "2",
+      "BrandId": 5,
+      "Star": 4,
+      "Name": "チェックメイト",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-028F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-028F_thumb.webp",
+      "Group": "2だん前半★★★★ピックアップ",
+      "Kind": "2だん前半★★★★ピックアップ",
+      "Order": 2008,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 102,
+      "ChapterId": "2",
+      "BrandId": 7,
+      "Star": 4,
+      "Name": "ロマンスシャンデリア",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-032F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-032F_thumb.webp",
+      "Group": "2だん前半★★★★ピックアップ",
+      "Kind": "2だん前半★★★★ピックアップ",
+      "Order": 2009,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 103,
+      "ChapterId": "2",
+      "BrandId": 7,
+      "Star": 4,
+      "Name": "ロマンスシャンデリアピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-036F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-036F_thumb.webp",
+      "Group": "2だん前半★★★★ピックアップ",
+      "Kind": "2だん前半★★★★ピックアップ",
+      "Order": 2010,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 104,
+      "ChapterId": "2",
+      "BrandId": 5,
+      "Star": 4,
+      "Name": "ローズグランプリ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-007F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-007F_thumb.webp",
+      "Group": "第1回アイプリグランプリ",
+      "Kind": "第1回アイプリグランプリ",
+      "Order": 2011,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 105,
+      "ChapterId": "2",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのプリパラらぁら",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-186F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-186F_thumb.webp",
+      "Group": "プリパラ",
+      "Kind": "プリパラ",
+      "Start": "2024-06-06",
+      "End": "2024-07-31",
+      "Order": 2012,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 106,
+      "ChapterId": "2",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのプリパラみれぃ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-189F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-189F_thumb.webp",
+      "Group": "プリパラ",
+      "Kind": "プリパラ",
+      "Start": "2024-06-06",
+      "End": "2024-07-31",
+      "Order": 2013,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 107,
+      "ChapterId": "2",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのプリパラそふぃ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-192F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-192F_thumb.webp",
+      "Group": "プリパラ",
+      "Kind": "プリパラ",
+      "Start": "2024-06-06",
+      "End": "2024-07-31",
+      "Order": 2014,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 108,
+      "ChapterId": "2",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "パラダイス",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-195F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-195F_thumb.webp",
+      "Group": "プリパラ",
+      "Kind": "プリパラ",
+      "Start": "2024-06-06",
+      "End": "2024-07-31",
+      "Order": 2015,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 109,
+      "ChapterId": "2",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "トゥインクルリボンサイリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-198F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-198F_thumb.webp",
+      "Group": "プリパラ",
+      "Kind": "プリパラ",
+      "Start": "2024-06-06",
+      "End": "2024-07-31",
+      "Order": 2016,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 110,
+      "ChapterId": "2",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "キャンディアラモードサイリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-201F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-201F_thumb.webp",
+      "Group": "プリパラ",
+      "Kind": "プリパラ",
+      "Start": "2024-06-06",
+      "End": "2024-07-31",
+      "Order": 2017,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 111,
+      "ChapterId": "2",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "ホリックトリックサイリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-204F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-204F_thumb.webp",
+      "Group": "プリパラ",
+      "Kind": "プリパラ",
+      "Start": "2024-06-06",
+      "End": "2024-07-31",
+      "Order": 2018,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 112,
+      "ChapterId": "2",
+      "BrandId": 6,
+      "Star": 3,
+      "Name": "はつねミクコーデ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-230F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-230F_thumb.webp",
+      "Group": "初音ミクコラボ",
+      "Kind": "初音ミクコラボ",
+      "Order": 2019,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 113,
+      "ChapterId": "2",
+      "BrandId": 6,
+      "Star": 3,
+      "Name": "Ｐまるさま。コーデ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-233F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-233F_thumb.webp",
+      "Group": "P丸様。コラボ",
+      "Kind": "P丸様。コラボ",
+      "Order": 2020,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 114,
+      "ChapterId": "2",
+      "BrandId": 8,
+      "Star": 3,
+      "Name": "アイプリバースフラワーマーチ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-068F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-068F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2021,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 115,
+      "ChapterId": "2",
+      "BrandId": 8,
+      "Star": 3,
+      "Name": "アイプリバースフラワーマーチパープル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-071F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-071F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2022,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 116,
+      "ChapterId": "2",
+      "BrandId": 7,
+      "Star": 3,
+      "Name": "アイプリバースロゼッション",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-074F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-074F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2023,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 117,
+      "ChapterId": "2",
+      "BrandId": 7,
+      "Star": 3,
+      "Name": "アイプリバースロゼッショングリーン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-077F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-077F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2024,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 118,
+      "ChapterId": "2",
+      "BrandId": 1,
+      "Star": 3,
+      "Name": "ひまわりサマー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-080F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-080F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2025,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 119,
+      "ChapterId": "2",
+      "BrandId": 1,
+      "Star": 3,
+      "Name": "ひまわりサマーレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-084F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-084F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2026,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 120,
+      "ChapterId": "2",
+      "BrandId": 8,
+      "Star": 3,
+      "Name": "ぽんぽんすずらん",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-088F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-088F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2027,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 121,
+      "ChapterId": "2",
+      "BrandId": 8,
+      "Star": 3,
+      "Name": "ぽんぽんすずらんピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-092F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-092F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2028,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 122,
+      "ChapterId": "2",
+      "BrandId": 7,
+      "Star": 3,
+      "Name": "ローズプリンス",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-096F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-096F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2029,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 123,
+      "ChapterId": "2",
+      "BrandId": 7,
+      "Star": 3,
+      "Name": "ローズプリンスライトブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-100F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-100F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2030,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 124,
+      "ChapterId": "2",
+      "BrandId": 2,
+      "Star": 3,
+      "Name": "ミルキーウェイ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-104F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-104F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2031,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 125,
+      "ChapterId": "2",
+      "BrandId": 2,
+      "Star": 3,
+      "Name": "ミルキーウェイオレンジ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-108F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-108F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2032,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 126,
+      "ChapterId": "2",
+      "BrandId": 8,
+      "Star": 3,
+      "Name": "ことりメルヘン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-112F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-112F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2033,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 127,
+      "ChapterId": "2",
+      "BrandId": 8,
+      "Star": 3,
+      "Name": "ことりメルヘンナイト",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-116F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-116F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2034,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 128,
+      "ChapterId": "2",
+      "BrandId": 8,
+      "Star": 3,
+      "Name": "クローバーメロディ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-120F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-120F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2035,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 129,
+      "ChapterId": "2",
+      "BrandId": 7,
+      "Star": 3,
+      "Name": "ひらめきたんてい",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-124F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-124F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2036,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 130,
+      "ChapterId": "2",
+      "BrandId": 7,
+      "Star": 3,
+      "Name": "ひらめきたんていクラシック",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-128F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-128F_thumb.webp",
+      "Group": "★3",
+      "Kind": "★3",
+      "Start": "2024-06-06",
+      "Order": 2037,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 131,
+      "ChapterId": "2",
+      "BrandId": 6,
+      "Star": 2,
+      "Name": "パラダイスがくえんせいふく１ねん",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V1-133F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V1-133F_thumb.webp",
+      "Group": "★2",
+      "Kind": "★2",
+      "Start": "2024-06-06",
+      "Order": 2038,
+      "HasChance": true,
+      "LinkedItemIds": [
+        30097,
+        30098,
+        30099
+      ]
+    },
+    {
+      "Id": 132,
+      "ChapterId": "2",
+      "BrandId": 6,
+      "Star": 2,
+      "Name": "パラダイスがくえんせいふく2ねん",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V1-136F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V1-136F_thumb.webp",
+      "Group": "★2",
+      "Kind": "★2",
+      "Start": "2024-06-06",
+      "Order": 2039,
+      "HasChance": true,
+      "LinkedItemIds": [
+        30100,
+        30098,
+        30099
+      ]
+    },
+    {
+      "Id": 133,
+      "ChapterId": "2",
+      "BrandId": 5,
+      "Star": 2,
+      "Name": "ラブリーアイドルオレンジレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-132F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-132F_thumb.webp",
+      "Group": "★2",
+      "Kind": "★2",
+      "Start": "2024-06-06",
+      "Order": 2040,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 134,
+      "ChapterId": "2",
+      "BrandId": 7,
+      "Star": 2,
+      "Name": "クールアイドルナチュラル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-136F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-136F_thumb.webp",
+      "Group": "★2",
+      "Kind": "★2",
+      "Start": "2024-06-06",
+      "Order": 2041,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 135,
+      "ChapterId": "2",
+      "BrandId": 2,
+      "Star": 2,
+      "Name": "クールアイドルオレンジブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-140F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-140F_thumb.webp",
+      "Group": "★2",
+      "Kind": "★2",
+      "Start": "2024-06-06",
+      "Order": 2042,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 136,
+      "ChapterId": "2",
+      "BrandId": 1,
+      "Star": 2,
+      "Name": "ハッピーチアグレープソーダ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-144F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-144F_thumb.webp",
+      "Group": "★2",
+      "Kind": "★2",
+      "Start": "2024-06-06",
+      "Order": 2043,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 137,
+      "ChapterId": "2",
+      "BrandId": 2,
+      "Star": 2,
+      "Name": "セーラーカジュアルエメラルド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-148F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-148F_thumb.webp",
+      "Group": "★2",
+      "Kind": "★2",
+      "Start": "2024-06-06",
+      "Order": 2044,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 138,
+      "ChapterId": "2",
+      "BrandId": 8,
+      "Star": 2,
+      "Name": "チューリップビタミンイエロー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/V2-152F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-152F_thumb.webp",
+      "Group": "★2",
+      "Kind": "★2",
+      "Start": "2024-06-06",
+      "Order": 2045,
+      "LinkedItemIds": []
     },
     {
       "Id": 900001,
@@ -3650,6 +4313,1356 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID30214.webp"
     },
     {
+      "Id": 30215,
+      "CoordinateId": 94,
+      "SealId": "V2-001",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30215.webp"
+    },
+    {
+      "Id": 30216,
+      "CoordinateId": 94,
+      "SealId": "V2-002",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30216.webp"
+    },
+    {
+      "Id": 30217,
+      "CoordinateId": 94,
+      "SealId": "V2-003",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30217.webp"
+    },
+    {
+      "Id": 30218,
+      "CoordinateId": 104,
+      "SealId": "V2-007",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30218.webp"
+    },
+    {
+      "Id": 30219,
+      "CoordinateId": 104,
+      "SealId": "V2-008",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30219.webp"
+    },
+    {
+      "Id": 30220,
+      "CoordinateId": 104,
+      "SealId": "V2-009",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30220.webp"
+    },
+    {
+      "Id": 30221,
+      "CoordinateId": 96,
+      "SealId": "V2-010",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30221.webp"
+    },
+    {
+      "Id": 30222,
+      "CoordinateId": 96,
+      "SealId": "V2-011",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30222.webp"
+    },
+    {
+      "Id": 30223,
+      "CoordinateId": 96,
+      "SealId": "V2-012",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30223.webp"
+    },
+    {
+      "Id": 30224,
+      "CoordinateId": 96,
+      "SealId": "V2-013",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30224.webp"
+    },
+    {
+      "Id": 30225,
+      "CoordinateId": 97,
+      "SealId": "V2-014",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 310,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30225.webp"
+    },
+    {
+      "Id": 30226,
+      "CoordinateId": 97,
+      "SealId": "V2-015",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30226.webp"
+    },
+    {
+      "Id": 30227,
+      "CoordinateId": 97,
+      "SealId": "V2-016",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30227.webp"
+    },
+    {
+      "Id": 30228,
+      "CoordinateId": 98,
+      "SealId": "V2-017",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 310,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30228.webp"
+    },
+    {
+      "Id": 30229,
+      "CoordinateId": 98,
+      "SealId": "V2-018",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30229.webp"
+    },
+    {
+      "Id": 30230,
+      "CoordinateId": 98,
+      "SealId": "V2-019",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30230.webp"
+    },
+    {
+      "Id": 30231,
+      "CoordinateId": 99,
+      "SealId": "V2-020",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30231.webp"
+    },
+    {
+      "Id": 30232,
+      "CoordinateId": 99,
+      "SealId": "V2-021",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30232.webp"
+    },
+    {
+      "Id": 30233,
+      "CoordinateId": 99,
+      "SealId": "V2-022",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30233.webp"
+    },
+    {
+      "Id": 30234,
+      "CoordinateId": 99,
+      "SealId": "V2-023",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30234.webp"
+    },
+    {
+      "Id": 30235,
+      "CoordinateId": 100,
+      "SealId": "V2-024",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30235.webp"
+    },
+    {
+      "Id": 30236,
+      "CoordinateId": 100,
+      "SealId": "V2-025",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30236.webp"
+    },
+    {
+      "Id": 30237,
+      "CoordinateId": 100,
+      "SealId": "V2-026",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30237.webp"
+    },
+    {
+      "Id": 30238,
+      "CoordinateId": 100,
+      "SealId": "V2-027",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30238.webp"
+    },
+    {
+      "Id": 30239,
+      "CoordinateId": 101,
+      "SealId": "V2-028",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30239.webp"
+    },
+    {
+      "Id": 30240,
+      "CoordinateId": 101,
+      "SealId": "V2-029",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30240.webp"
+    },
+    {
+      "Id": 30241,
+      "CoordinateId": 101,
+      "SealId": "V2-030",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30241.webp"
+    },
+    {
+      "Id": 30242,
+      "CoordinateId": 101,
+      "SealId": "V2-031",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30242.webp"
+    },
+    {
+      "Id": 30243,
+      "CoordinateId": 102,
+      "SealId": "V2-032",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30243.webp"
+    },
+    {
+      "Id": 30244,
+      "CoordinateId": 102,
+      "SealId": "V2-033",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30244.webp"
+    },
+    {
+      "Id": 30245,
+      "CoordinateId": 102,
+      "SealId": "V2-034",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30245.webp"
+    },
+    {
+      "Id": 30246,
+      "CoordinateId": 102,
+      "SealId": "V2-035",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30246.webp"
+    },
+    {
+      "Id": 30247,
+      "CoordinateId": 103,
+      "SealId": "V2-036",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30247.webp"
+    },
+    {
+      "Id": 30248,
+      "CoordinateId": 103,
+      "SealId": "V2-037",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30248.webp"
+    },
+    {
+      "Id": 30249,
+      "CoordinateId": 103,
+      "SealId": "V2-038",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30249.webp"
+    },
+    {
+      "Id": 30250,
+      "CoordinateId": 103,
+      "SealId": "V2-039",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30250.webp"
+    },
+    {
+      "Id": 30282,
+      "CoordinateId": 114,
+      "SealId": "V2-068",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30282.webp"
+    },
+    {
+      "Id": 30283,
+      "CoordinateId": 114,
+      "SealId": "V2-069",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30283.webp"
+    },
+    {
+      "Id": 30284,
+      "CoordinateId": 114,
+      "SealId": "V2-070",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30284.webp"
+    },
+    {
+      "Id": 30285,
+      "CoordinateId": 115,
+      "SealId": "V2-071",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30285.webp"
+    },
+    {
+      "Id": 30286,
+      "CoordinateId": 115,
+      "SealId": "V2-072",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30286.webp"
+    },
+    {
+      "Id": 30287,
+      "CoordinateId": 115,
+      "SealId": "V2-073",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30287.webp"
+    },
+    {
+      "Id": 30288,
+      "CoordinateId": 116,
+      "SealId": "V2-074",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30288.webp"
+    },
+    {
+      "Id": 30289,
+      "CoordinateId": 116,
+      "SealId": "V2-075",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30289.webp"
+    },
+    {
+      "Id": 30290,
+      "CoordinateId": 116,
+      "SealId": "V2-076",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30290.webp"
+    },
+    {
+      "Id": 30291,
+      "CoordinateId": 117,
+      "SealId": "V2-077",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30291.webp"
+    },
+    {
+      "Id": 30292,
+      "CoordinateId": 117,
+      "SealId": "V2-078",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30292.webp"
+    },
+    {
+      "Id": 30293,
+      "CoordinateId": 117,
+      "SealId": "V2-079",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30293.webp"
+    },
+    {
+      "Id": 30294,
+      "CoordinateId": 118,
+      "SealId": "V2-080",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30294.webp"
+    },
+    {
+      "Id": 30295,
+      "CoordinateId": 118,
+      "SealId": "V2-081",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30295.webp"
+    },
+    {
+      "Id": 30296,
+      "CoordinateId": 118,
+      "SealId": "V2-082",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30296.webp"
+    },
+    {
+      "Id": 30297,
+      "CoordinateId": 118,
+      "SealId": "V2-083",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30297.webp"
+    },
+    {
+      "Id": 30298,
+      "CoordinateId": 119,
+      "SealId": "V2-084",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30298.webp"
+    },
+    {
+      "Id": 30299,
+      "CoordinateId": 119,
+      "SealId": "V2-085",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30299.webp"
+    },
+    {
+      "Id": 30300,
+      "CoordinateId": 119,
+      "SealId": "V2-086",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30300.webp"
+    },
+    {
+      "Id": 30301,
+      "CoordinateId": 119,
+      "SealId": "V2-087",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30301.webp"
+    },
+    {
+      "Id": 30302,
+      "CoordinateId": 120,
+      "SealId": "V2-088",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30302.webp"
+    },
+    {
+      "Id": 30303,
+      "CoordinateId": 120,
+      "SealId": "V2-089",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30303.webp"
+    },
+    {
+      "Id": 30304,
+      "CoordinateId": 120,
+      "SealId": "V2-090",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30304.webp"
+    },
+    {
+      "Id": 30305,
+      "CoordinateId": 120,
+      "SealId": "V2-091",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30305.webp"
+    },
+    {
+      "Id": 30306,
+      "CoordinateId": 121,
+      "SealId": "V2-092",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30306.webp"
+    },
+    {
+      "Id": 30307,
+      "CoordinateId": 121,
+      "SealId": "V2-093",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30307.webp"
+    },
+    {
+      "Id": 30308,
+      "CoordinateId": 121,
+      "SealId": "V2-094",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30308.webp"
+    },
+    {
+      "Id": 30309,
+      "CoordinateId": 121,
+      "SealId": "V2-095",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30309.webp"
+    },
+    {
+      "Id": 30310,
+      "CoordinateId": 122,
+      "SealId": "V2-096",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30310.webp"
+    },
+    {
+      "Id": 30311,
+      "CoordinateId": 122,
+      "SealId": "V2-097",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30311.webp"
+    },
+    {
+      "Id": 30312,
+      "CoordinateId": 122,
+      "SealId": "V2-098",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30312.webp"
+    },
+    {
+      "Id": 30313,
+      "CoordinateId": 122,
+      "SealId": "V2-099",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30313.webp"
+    },
+    {
+      "Id": 30314,
+      "CoordinateId": 123,
+      "SealId": "V2-100",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30314.webp"
+    },
+    {
+      "Id": 30315,
+      "CoordinateId": 123,
+      "SealId": "V2-101",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30315.webp"
+    },
+    {
+      "Id": 30316,
+      "CoordinateId": 123,
+      "SealId": "V2-102",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30316.webp"
+    },
+    {
+      "Id": 30317,
+      "CoordinateId": 123,
+      "SealId": "V2-103",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30317.webp"
+    },
+    {
+      "Id": 30318,
+      "CoordinateId": 124,
+      "SealId": "V2-104",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30318.webp"
+    },
+    {
+      "Id": 30319,
+      "CoordinateId": 124,
+      "SealId": "V2-105",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30319.webp"
+    },
+    {
+      "Id": 30320,
+      "CoordinateId": 124,
+      "SealId": "V2-106",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30320.webp"
+    },
+    {
+      "Id": 30321,
+      "CoordinateId": 124,
+      "SealId": "V2-107",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30321.webp"
+    },
+    {
+      "Id": 30322,
+      "CoordinateId": 125,
+      "SealId": "V2-108",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30322.webp"
+    },
+    {
+      "Id": 30323,
+      "CoordinateId": 125,
+      "SealId": "V2-109",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30323.webp"
+    },
+    {
+      "Id": 30324,
+      "CoordinateId": 125,
+      "SealId": "V2-110",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30324.webp"
+    },
+    {
+      "Id": 30325,
+      "CoordinateId": 125,
+      "SealId": "V2-111",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30325.webp"
+    },
+    {
+      "Id": 30326,
+      "CoordinateId": 126,
+      "SealId": "V2-112",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30326.webp"
+    },
+    {
+      "Id": 30327,
+      "CoordinateId": 126,
+      "SealId": "V2-113",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30327.webp"
+    },
+    {
+      "Id": 30328,
+      "CoordinateId": 126,
+      "SealId": "V2-114",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30328.webp"
+    },
+    {
+      "Id": 30329,
+      "CoordinateId": 126,
+      "SealId": "V2-115",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30329.webp"
+    },
+    {
+      "Id": 30330,
+      "CoordinateId": 127,
+      "SealId": "V2-116",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30330.webp"
+    },
+    {
+      "Id": 30331,
+      "CoordinateId": 127,
+      "SealId": "V2-117",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30331.webp"
+    },
+    {
+      "Id": 30332,
+      "CoordinateId": 127,
+      "SealId": "V2-118",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30332.webp"
+    },
+    {
+      "Id": 30333,
+      "CoordinateId": 127,
+      "SealId": "V2-119",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30333.webp"
+    },
+    {
+      "Id": 30334,
+      "CoordinateId": 128,
+      "SealId": "V2-120",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30334.webp"
+    },
+    {
+      "Id": 30335,
+      "CoordinateId": 128,
+      "SealId": "V2-121",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30335.webp"
+    },
+    {
+      "Id": 30336,
+      "CoordinateId": 128,
+      "SealId": "V2-122",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30336.webp"
+    },
+    {
+      "Id": 30337,
+      "CoordinateId": 128,
+      "SealId": "V2-123",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30337.webp"
+    },
+    {
+      "Id": 30338,
+      "CoordinateId": 129,
+      "SealId": "V2-124",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30338.webp"
+    },
+    {
+      "Id": 30339,
+      "CoordinateId": 129,
+      "SealId": "V2-125",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30339.webp"
+    },
+    {
+      "Id": 30340,
+      "CoordinateId": 129,
+      "SealId": "V2-126",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30340.webp"
+    },
+    {
+      "Id": 30341,
+      "CoordinateId": 129,
+      "SealId": "V2-127",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30341.webp"
+    },
+    {
+      "Id": 30342,
+      "CoordinateId": 130,
+      "SealId": "V2-128",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30342.webp"
+    },
+    {
+      "Id": 30343,
+      "CoordinateId": 130,
+      "SealId": "V2-129",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30343.webp"
+    },
+    {
+      "Id": 30344,
+      "CoordinateId": 130,
+      "SealId": "V2-130",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30344.webp"
+    },
+    {
+      "Id": 30345,
+      "CoordinateId": 130,
+      "SealId": "V2-131",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30345.webp"
+    },
+    {
+      "Id": 30346,
+      "CoordinateId": 133,
+      "SealId": "V2-132",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30346.webp"
+    },
+    {
+      "Id": 30347,
+      "CoordinateId": 133,
+      "SealId": "V2-133",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30347.webp"
+    },
+    {
+      "Id": 30348,
+      "CoordinateId": 133,
+      "SealId": "V2-134",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30348.webp"
+    },
+    {
+      "Id": 30349,
+      "CoordinateId": 133,
+      "SealId": "V2-135",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30349.webp"
+    },
+    {
+      "Id": 30350,
+      "CoordinateId": 134,
+      "SealId": "V2-136",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30350.webp"
+    },
+    {
+      "Id": 30351,
+      "CoordinateId": 134,
+      "SealId": "V2-137",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30351.webp"
+    },
+    {
+      "Id": 30352,
+      "CoordinateId": 134,
+      "SealId": "V2-138",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30352.webp"
+    },
+    {
+      "Id": 30353,
+      "CoordinateId": 134,
+      "SealId": "V2-139",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30353.webp"
+    },
+    {
+      "Id": 30354,
+      "CoordinateId": 135,
+      "SealId": "V2-140",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30354.webp"
+    },
+    {
+      "Id": 30355,
+      "CoordinateId": 135,
+      "SealId": "V2-141",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30355.webp"
+    },
+    {
+      "Id": 30356,
+      "CoordinateId": 135,
+      "SealId": "V2-142",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30356.webp"
+    },
+    {
+      "Id": 30357,
+      "CoordinateId": 135,
+      "SealId": "V2-143",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30357.webp"
+    },
+    {
+      "Id": 30358,
+      "CoordinateId": 136,
+      "SealId": "V2-144",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30358.webp"
+    },
+    {
+      "Id": 30359,
+      "CoordinateId": 136,
+      "SealId": "V2-145",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30359.webp"
+    },
+    {
+      "Id": 30360,
+      "CoordinateId": 136,
+      "SealId": "V2-146",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30360.webp"
+    },
+    {
+      "Id": 30361,
+      "CoordinateId": 136,
+      "SealId": "V2-147",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30361.webp"
+    },
+    {
+      "Id": 30362,
+      "CoordinateId": 137,
+      "SealId": "V2-148",
+      "Term": "トップス",
+      "CategoryId": 1,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30362.webp"
+    },
+    {
+      "Id": 30363,
+      "CoordinateId": 137,
+      "SealId": "V2-149",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30363.webp"
+    },
+    {
+      "Id": 30364,
+      "CoordinateId": 137,
+      "SealId": "V2-150",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30364.webp"
+    },
+    {
+      "Id": 30365,
+      "CoordinateId": 137,
+      "SealId": "V2-151",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30365.webp"
+    },
+    {
+      "Id": 30366,
+      "CoordinateId": 138,
+      "SealId": "V2-152",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30366.webp"
+    },
+    {
+      "Id": 30367,
+      "CoordinateId": 138,
+      "SealId": "V2-153",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30367.webp"
+    },
+    {
+      "Id": 30368,
+      "CoordinateId": 138,
+      "SealId": "V2-154",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30368.webp"
+    },
+    {
+      "Id": 30400,
+      "CoordinateId": 105,
+      "SealId": "V2-186",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30400.webp"
+    },
+    {
+      "Id": 30401,
+      "CoordinateId": 105,
+      "SealId": "V2-187",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30401.webp"
+    },
+    {
+      "Id": 30402,
+      "CoordinateId": 105,
+      "SealId": "V2-188",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30402.webp"
+    },
+    {
+      "Id": 30403,
+      "CoordinateId": 106,
+      "SealId": "V2-189",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 330,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30403.webp"
+    },
+    {
+      "Id": 30404,
+      "CoordinateId": 106,
+      "SealId": "V2-190",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30404.webp"
+    },
+    {
+      "Id": 30405,
+      "CoordinateId": 106,
+      "SealId": "V2-191",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30405.webp"
+    },
+    {
+      "Id": 30406,
+      "CoordinateId": 107,
+      "SealId": "V2-192",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 310,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30406.webp"
+    },
+    {
+      "Id": 30407,
+      "CoordinateId": 107,
+      "SealId": "V2-193",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30407.webp"
+    },
+    {
+      "Id": 30408,
+      "CoordinateId": 107,
+      "SealId": "V2-194",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30408.webp"
+    },
+    {
+      "Id": 30409,
+      "CoordinateId": 108,
+      "SealId": "V2-195",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30409.webp"
+    },
+    {
+      "Id": 30410,
+      "CoordinateId": 108,
+      "SealId": "V2-196",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30410.webp"
+    },
+    {
+      "Id": 30411,
+      "CoordinateId": 108,
+      "SealId": "V2-197",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30411.webp"
+    },
+    {
+      "Id": 30412,
+      "CoordinateId": 109,
+      "SealId": "V2-198",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30412.webp"
+    },
+    {
+      "Id": 30413,
+      "CoordinateId": 109,
+      "SealId": "V2-199",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30413.webp"
+    },
+    {
+      "Id": 30414,
+      "CoordinateId": 109,
+      "SealId": "V2-200",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30414.webp"
+    },
+    {
+      "Id": 30415,
+      "CoordinateId": 110,
+      "SealId": "V2-201",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30415.webp"
+    },
+    {
+      "Id": 30416,
+      "CoordinateId": 110,
+      "SealId": "V2-202",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30416.webp"
+    },
+    {
+      "Id": 30417,
+      "CoordinateId": 110,
+      "SealId": "V2-203",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30417.webp"
+    },
+    {
+      "Id": 30418,
+      "CoordinateId": 111,
+      "SealId": "V2-204",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30418.webp"
+    },
+    {
+      "Id": 30419,
+      "CoordinateId": 111,
+      "SealId": "V2-205",
+      "Term": "ボトムス",
+      "CategoryId": 3,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30419.webp"
+    },
+    {
+      "Id": 30420,
+      "CoordinateId": 111,
+      "SealId": "V2-206",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30420.webp"
+    },
+    {
+      "Id": 30444,
+      "CoordinateId": 112,
+      "SealId": "V2-230",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30444.webp"
+    },
+    {
+      "Id": 30445,
+      "CoordinateId": 112,
+      "SealId": "V2-231",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30445.webp"
+    },
+    {
+      "Id": 30446,
+      "CoordinateId": 112,
+      "SealId": "V2-232",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30446.webp"
+    },
+    {
+      "Id": 30447,
+      "CoordinateId": 113,
+      "SealId": "V2-233",
+      "Term": "ワンピ",
+      "CategoryId": 2,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30447.webp"
+    },
+    {
+      "Id": 30448,
+      "CoordinateId": 113,
+      "SealId": "V2-234",
+      "Term": "シューズ",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30448.webp"
+    },
+    {
+      "Id": 30449,
+      "CoordinateId": 113,
+      "SealId": "V2-235",
+      "Term": "アクセ",
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30449.webp"
+    },
+    {
       "Id": 40024,
       "CoordinateId": 58,
       "SealId": "",
@@ -5439,6 +7452,202 @@
       "Name": "サクラモデル",
       "Description": "1だん",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0005.webp"
+    },
+    {
+      "Id": 77,
+      "Category": "まえがみ",
+      "Name": "おひめさまカット",
+      "Description": "ひみつタイム",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0006.webp"
+    },
+    {
+      "Id": 78,
+      "Category": "まえがみ",
+      "Name": "はつねミクエムじバング",
+      "Description": "ドリーム「バーチャルシンガー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0008.webp"
+    },
+    {
+      "Id": 79,
+      "Category": "まえがみ",
+      "Name": "Pまるさま。まえがみ",
+      "Description": "２だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0009.webp"
+    },
+    {
+      "Id": 80,
+      "Category": "うしろがみ",
+      "Name": "たゆんみつあみ",
+      "Description": "ドリーム「アイドル」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0006.webp"
+    },
+    {
+      "Id": 81,
+      "Category": "うしろがみ",
+      "Name": "モダンクールポニー",
+      "Description": "ドリーム「インフルエンサー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0007.webp"
+    },
+    {
+      "Id": 82,
+      "Category": "うしろがみ",
+      "Name": "はつねミクツインテ",
+      "Description": "ドリーム「バーチャルシンガー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0008.webp"
+    },
+    {
+      "Id": 83,
+      "Category": "うしろがみ",
+      "Name": "Pまるさま。うしろがみ",
+      "Description": "２だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0009.webp"
+    },
+    {
+      "Id": 84,
+      "Category": "ヘアカラー",
+      "Name": "オレンジジャム",
+      "Description": "ドリーム「アーティスト」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0008.webp"
+    },
+    {
+      "Id": 85,
+      "Category": "ヘアカラー",
+      "Name": "アップルレッド",
+      "Description": "ドリーム「インフルエンサー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0010.webp"
+    },
+    {
+      "Id": 86,
+      "Category": "ヘアカラー",
+      "Name": "レモンチーズケーキ",
+      "Description": "ドリーム「アイドル」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0016.webp"
+    },
+    {
+      "Id": 87,
+      "Category": "ヘアカラー",
+      "Name": "ひみつのわたしカラー",
+      "Description": "ひみつダイアリー",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0017.webp"
+    },
+    {
+      "Id": 88,
+      "Category": "ヘアカラー",
+      "Name": "はつねミクグリーン",
+      "Description": "ドリーム「バーチャルシンガー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0020.webp"
+    },
+    {
+      "Id": 89,
+      "Category": "ヘアカラー",
+      "Name": "らぁらパープル",
+      "Description": "ドリーム「かしこまプリパラアイドル」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0022.webp"
+    },
+    {
+      "Id": 90,
+      "Category": "ヘアカラー",
+      "Name": "マロンブラウン",
+      "Description": "ひみつタイム",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0023.webp"
+    },
+    {
+      "Id": 91,
+      "Category": "アイカラー",
+      "Name": "ジューシーグレープ",
+      "Description": "ひみつタイム",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0005.webp"
+    },
+    {
+      "Id": 92,
+      "Category": "アイカラー",
+      "Name": "ビーナスステラ",
+      "Description": "ドリーム「アーティスト」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0013.webp"
+    },
+    {
+      "Id": 93,
+      "Category": "アイカラー",
+      "Name": "ラブきゅんスイート",
+      "Description": "ドリーム「アイドル」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0014.webp"
+    },
+    {
+      "Id": 94,
+      "Category": "アイカラー",
+      "Name": "らぁらアイ",
+      "Description": "ドリーム「かしこまプリパラアイドル」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0015.webp"
+    },
+    {
+      "Id": 95,
+      "Category": "アイカラー",
+      "Name": "はつねミクアイ",
+      "Description": "ドリーム「バーチャルシンガー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0018.webp"
+    },
+    {
+      "Id": 96,
+      "Category": "アイカラー",
+      "Name": "Pまるさま。アイ",
+      "Description": "２だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0019.webp"
+    },
+    {
+      "Id": 97,
+      "Category": "ヘアデコ",
+      "Name": "ミックストイデコ",
+      "Description": "ドリーム「インフルエンサー」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0008.webp"
+    },
+    {
+      "Id": 98,
+      "Category": "ヘアデコ",
+      "Name": "プリパラデコ",
+      "Description": "ドリーム「かしこまプリパラアイドル」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0009.webp"
+    },
+    {
+      "Id": 99,
+      "Category": "ヘアデコ",
+      "Name": "つむぎクローバーデコ",
+      "Description": "ひみつタイム",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0010.webp"
+    },
+    {
+      "Id": 100,
+      "Category": "ヘアデコ",
+      "Name": "タマキローズデコ",
+      "Description": "ひみつタイム",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0011.webp"
+    },
+    {
+      "Id": 101,
+      "Category": "メイク",
+      "Name": "ホットラズベリー",
+      "Description": "ドリーム「アーティスト」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0010.webp"
+    },
+    {
+      "Id": 102,
+      "Category": "メイク",
+      "Name": "つむぎクローバーメイク",
+      "Description": "ひみつのアイプリリップ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0011.webp"
+    },
+    {
+      "Id": 103,
+      "Category": "アイプリブレス",
+      "Name": "つむぎモデル",
+      "Description": "2だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0003.webp"
+    },
+    {
+      "Id": 104,
+      "Category": "アイプリブレス",
+      "Name": "タマキモデル",
+      "Description": "2だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0006.webp"
     }
   ],
   "HimitsuChapters": [
@@ -7155,6 +9364,7 @@
     {
       "Id": 99,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-001",
       "Coordinate": "フラワーマーチバズリウム",
       "Order": 1001,
@@ -7170,6 +9380,7 @@
     {
       "Id": 100,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-002",
       "Coordinate": "ロゼッションバズリウム",
       "Order": 1002,
@@ -7233,6 +9444,7 @@
     {
       "Id": 104,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-006",
       "Coordinate": "ローズグランプリ",
       "Order": 1006,
@@ -7312,6 +9524,7 @@
     {
       "Id": 109,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-011",
       "Coordinate": "フラワーメモリー",
       "Order": 1011,
@@ -7327,6 +9540,7 @@
     {
       "Id": 110,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-012",
       "Coordinate": "フラワーメモリーパープル",
       "Order": 1012,
@@ -7342,6 +9556,7 @@
     {
       "Id": 111,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-013",
       "Coordinate": "エレガントジュエルブルー",
       "Order": 1013,
@@ -7373,6 +9588,7 @@
     {
       "Id": 113,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-015",
       "Coordinate": "リトルフェアリー",
       "Order": 1015,
@@ -7388,6 +9604,7 @@
     {
       "Id": 114,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-016",
       "Coordinate": "リトルフェアリー",
       "Order": 1016,
@@ -7435,6 +9652,7 @@
     {
       "Id": 117,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-019",
       "Coordinate": "ロマンスシャンデリア",
       "Order": 1019,
@@ -7450,6 +9668,7 @@
     {
       "Id": 118,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-020",
       "Coordinate": "ロマンスシャンデリア",
       "Order": 1020,
@@ -7465,6 +9684,7 @@
     {
       "Id": 119,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-021",
       "Coordinate": "アイプリバースフラワーマーチ",
       "Order": 1021,
@@ -7481,6 +9701,7 @@
     {
       "Id": 120,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-022",
       "Coordinate": "アイプリバースロゼッション",
       "Order": 1022,
@@ -7582,6 +9803,7 @@
     {
       "Id": 126,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-028",
       "Coordinate": "ぽんぽんすずらん",
       "Order": 1028,
@@ -7598,6 +9820,7 @@
     {
       "Id": 127,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-029",
       "Coordinate": "ぽんぽんすずらん",
       "Order": 1029,
@@ -7614,6 +9837,7 @@
     {
       "Id": 128,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-030",
       "Coordinate": "ローズプリンス",
       "Order": 1030,
@@ -7630,6 +9854,7 @@
     {
       "Id": 129,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-031",
       "Coordinate": "ローズプリンス",
       "Order": 1031,
@@ -7680,6 +9905,7 @@
     {
       "Id": 132,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-034",
       "Coordinate": "ことりメルヘン",
       "Order": 1034,
@@ -7696,6 +9922,7 @@
     {
       "Id": 133,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-035",
       "Coordinate": "ことりメルヘン",
       "Order": 1035,
@@ -7712,6 +9939,7 @@
     {
       "Id": 134,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-036",
       "Coordinate": "クローバーメロディ",
       "Order": 1036,
@@ -7728,6 +9956,7 @@
     {
       "Id": 135,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-037",
       "Coordinate": "ひらめきたんてい",
       "Order": 1037,
@@ -7744,6 +9973,7 @@
     {
       "Id": 136,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-038",
       "Coordinate": "ひらめきたんてい",
       "Order": 1038,
@@ -7892,6 +10122,7 @@
     {
       "Id": 145,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-047",
       "Coordinate": "ラブリーアイドルイエロー",
       "Order": 1047,
@@ -7908,6 +10139,7 @@
     {
       "Id": 146,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-048",
       "Coordinate": "ラブリーアイドルネイビー",
       "Order": 1048,
@@ -7941,6 +10173,7 @@
     {
       "Id": 148,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-050",
       "Coordinate": "ハッピーチアイエロー",
       "Order": 1050,
@@ -7957,6 +10190,7 @@
     {
       "Id": 149,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-051",
       "Coordinate": "セーラーカジュアルネイビー",
       "Order": 1051,
@@ -8007,6 +10241,7 @@
     {
       "Id": 152,
       "ChapterId": "2",
+      "BrandId": 8,
       "SealId": "AP2-054",
       "Coordinate": "チューリップイエロー",
       "Order": 1054,
@@ -8040,6 +10275,7 @@
     {
       "Id": 154,
       "ChapterId": "2",
+      "BrandId": 7,
       "SealId": "AP2-056",
       "Coordinate": "チューリップネイビー",
       "Order": 1056,
