@@ -1,11 +1,7 @@
 ﻿using System.Globalization;
-using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Xml.Linq;
 using HtmlAgilityPack;
-using Shipwreck.Aipri;
-using static System.Collections.Specialized.BitVector32;
 
 namespace Shipwreck.AipriDownloader;
 
@@ -185,7 +181,7 @@ internal class Program
                         ? icnM.Value.Last() - '0'
                         : (int?)null;
 
-                async Task addItemAsync(Coordinate coord, string? term, string? iUrl, string? iid, short point)
+                async Task addItemAsync(Coordinate coord, string? category, string? iUrl, string? iid, short point)
                 {
                     coord.Group = (chapterKey == "special" ? group : null) ?? kind;
                     coord.Kind = kind;
@@ -197,22 +193,22 @@ internal class Program
                     var first = (string.IsNullOrEmpty(iid)
                         ? null
                         : d.DataSet.CoordinateItems.FirstOrDefault(e => e.SealId == iid && e.IsCurrentRun))
-                        ?? (d.DataSet.CoordinateItems.FirstOrDefault(e => e.GetCoordinate()?.Name == coord.Name && e.Term == term));
+                        ?? (d.DataSet.CoordinateItems.FirstOrDefault(e => e.GetCoordinate()?.Name == coord.Name && e.GetCategory()?.Name == category));
 
                     if (first == null || first.CoordinateId == coord.Id)
                     {
-                        var item = await d.AddItemAsync(coord, iid, term, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
+                        var item = await d.AddItemAsync(coord, iid, category, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
 
                         item.IsCurrentRun = true;
 
-                        Console.WriteLine("     - Item[{0}]: {1}", item.Id, item.Term);
+                        Console.WriteLine("     - Item[{0}]: {1}", item.Id, category);
 
                         newCoordinateItems.Add(item);
                     }
                     else
                     {
                         coord.LinkedItemIds.Add(first.Id);
-                        Console.WriteLine("     - Item[{0}]: {1} (Linked to {2})", first.Id, first.Term, d.DataSet.Coordinates.GetById(first.CoordinateId)?.Name);
+                        Console.WriteLine("     - Item[{0}]: {1} (Linked to {2})", first.Id, first.GetCategory()?.Name, d.DataSet.Coordinates.GetById(first.CoordinateId)?.Name);
                     }
                 }
 
@@ -246,8 +242,8 @@ internal class Program
 
                     for (var n = 1; n <= 4; n++)
                     {
-                        var term = cNode.SelectSingleNode("@data-term" + n)?.Value?.Trim();
-                        if (string.IsNullOrEmpty(term))
+                        var category = cNode.SelectSingleNode("@data-term" + n)?.Value?.Trim();
+                        if (string.IsNullOrEmpty(category))
                         {
                             break;
                         }
@@ -255,7 +251,7 @@ internal class Program
                         var iid = cNode.SelectSingleNode("@data-id" + n)?.Value?.Trim();
                         var point = short.TryParse(cNode.SelectSingleNode("@data-point" + n)?.Value?.Trim(), out var pv) ? pv : (short)0;
 
-                        await addItemAsync(coord, term, iUrl, iid, point).ConfigureAwait(false);
+                        await addItemAsync(coord, category, iUrl, iid, point).ConfigureAwait(false);
                     }
                 }
                 else if (modal == "special")
@@ -273,8 +269,8 @@ internal class Program
                     }
                     coord.Order = startOrder++;
 
-                    var term = cNode.SelectSingleNode("@data-term")?.Value?.Trim();
-                    if (string.IsNullOrEmpty(term))
+                    var category = cNode.SelectSingleNode("@data-term")?.Value?.Trim();
+                    if (string.IsNullOrEmpty(category))
                     {
                         break;
                     }
@@ -282,7 +278,7 @@ internal class Program
                     var iid = cNode.SelectSingleNode("@data-id")?.Value?.Trim();
                     var point = short.TryParse(cNode.SelectSingleNode("@data-point")?.Value?.Trim(), out var pv) ? pv : (short)0;
 
-                    await addItemAsync(coord, term, iUrl, iid, point).ConfigureAwait(false);
+                    await addItemAsync(coord, category, iUrl, iid, point).ConfigureAwait(false);
                 }
             }
         }
@@ -318,12 +314,14 @@ internal class Program
 
         foreach (HtmlNodeNavigator section in nav.Select("//section[starts-with(@class, 'section ')]"))
         {
-            var category = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim();
+            var categoryName = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim();
 
-            if (string.IsNullOrEmpty(category))
+            if (string.IsNullOrEmpty(categoryName))
             {
                 continue;
             }
+
+            var category = d.AddPartCategory(categoryName);
 
             foreach (HtmlNodeNavigator cNode in section.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item ')]"))
             {
@@ -337,7 +335,7 @@ internal class Program
                 var desc = cNode.SelectSingleNode(".//p")?.Value?.Trim();
 
                 var p = d.AddPart(name)!;
-                p.Category = category;
+                p.CategoryId = category!.Id;
 
                 p.Description = desc;
 

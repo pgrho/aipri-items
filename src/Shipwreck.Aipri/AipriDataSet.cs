@@ -62,6 +62,18 @@ public class AipriDataSet
 
     #endregion CoordinateItems
 
+    #region PartCategories
+
+    private CategoryCollection? _PartCategories;
+
+    public CategoryCollection PartCategories
+    {
+        get => _PartCategories ??= new(this);
+        set => PartCategories.Set(value);
+    }
+
+    #endregion PartCategories
+
     #region Parts
 
     private PartCollection? _Parts;

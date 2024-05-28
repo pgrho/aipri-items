@@ -1,4 +1,4 @@
-Key	Id	CoordinateId	SealId	Term	Point	ImageUrl
+Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910001	9900001	M1-001-1	トップス	150	m1-001-1.png
 	910002	9900001	M1-001-2	ボトムス	130	m1-001-2.png
 	910003	9900001	M1-001-3	シューズ	150	m1-001-3.png

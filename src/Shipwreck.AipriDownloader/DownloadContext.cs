@@ -63,6 +63,10 @@ public sealed class DownloadContext : IDisposable
                         {
                             _DataSet.CoordinateItems.Add(c.Clone());
                         }
+                        foreach (var c in hd.PartCategories)
+                        {
+                            _DataSet.PartCategories.Add(c.Clone());
+                        }
                         foreach (var c in hd.Parts)
                         {
                             _DataSet.Parts.Add(c.Clone());
@@ -320,6 +324,31 @@ public sealed class DownloadContext : IDisposable
                     Id = (_DataSet.Categories.Max(e => e?.Id) ?? 0) + 1
                 };
                 _DataSet.Categories.Add(c);
+            }
+        }
+
+        return c;
+    }
+
+    public Category? AddPartCategory(string? name)
+    {
+        if (string.IsNullOrEmpty(name))
+        {
+            return null;
+        }
+
+        Category? c;
+        lock (_DataSet)
+        {
+            c = _DataSet.PartCategories.GetByName(name);
+            if (c == null)
+            {
+                c = new()
+                {
+                    Name = name,
+                    Id = (_DataSet.PartCategories.Max(e => e?.Id) ?? 0) + 1
+                };
+                _DataSet.PartCategories.Add(c);
             }
         }
 
@@ -599,6 +628,7 @@ public sealed class DownloadContext : IDisposable
                     Brands = new(_DataSet.Brands.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Coordinates = new(_DataSet.Coordinates.OrderBy(e => e.Id).Select(e => e.Clone())),
                     CoordinateItems = new(_DataSet.CoordinateItems.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    PartCategories = new(_DataSet.PartCategories.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Parts = new(_DataSet.Parts.OrderBy(e => e.Id).Select(e => e.Clone())),
 
                     HimitsuChapters = new(_DataSet.HimitsuChapters
@@ -721,7 +751,7 @@ public sealed class DownloadContext : IDisposable
                 var id = Array.IndexOf(ha, nameof(CoordinateItem.Id));
                 var coordinateId = Array.IndexOf(ha, nameof(CoordinateItem.CoordinateId));
                 var sealId = Array.IndexOf(ha, nameof(CoordinateItem.SealId));
-                var term = Array.IndexOf(ha, nameof(CoordinateItem.Term));
+                var category = Array.IndexOf(ha, nameof(Category));
                 var point = Array.IndexOf(ha, nameof(CoordinateItem.Point));
                 var brand = Array.IndexOf(ha, "Brand");
                 var imageUrl = Array.IndexOf(ha, nameof(CoordinateItem.ImageUrl));
@@ -742,7 +772,7 @@ public sealed class DownloadContext : IDisposable
                                 Id = int.TryParse(read(id), out var i) ? i : 0,
                                 CoordinateId = int.TryParse(read(coordinateId), out var cid) ? cid : default,
                                 SealId = read(sealId) ?? string.Empty,
-                                CategoryId = d.AddCategory(read(term))?.Id ?? 0,
+                                CategoryId = d.AddCategory(read(category))?.Id ?? 0,
                                 Point = short.TryParse(read(point), out var s) ? s : default,
                                 ImageUrl = read(imageUrl) ?? string.Empty,
                             }
