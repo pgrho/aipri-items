@@ -4,7 +4,7 @@
       "Id": "1",
       "Name": "1だん",
       "Start": "2024-04-04",
-      "End": "2024-07-03"
+      "End": "2024-06-05"
     },
     {
       "Id": "2",
@@ -393,6 +393,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 37,
       "HasChance": true,
       "LinkedItemIds": []
@@ -408,6 +409,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 38,
       "HasChance": true,
       "LinkedItemIds": []
@@ -423,6 +425,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 39,
       "HasChance": true,
       "LinkedItemIds": []
@@ -438,6 +441,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 40,
       "HasChance": true,
       "LinkedItemIds": []
@@ -453,6 +457,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 41,
       "HasChance": true,
       "LinkedItemIds": []
@@ -468,6 +473,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 42,
       "HasChance": true,
       "LinkedItemIds": []
@@ -483,6 +489,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 43,
       "HasChance": true,
       "LinkedItemIds": []
@@ -498,6 +505,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 44,
       "HasChance": true,
       "LinkedItemIds": []
@@ -513,6 +521,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 45,
       "LinkedItemIds": []
     },
@@ -527,6 +536,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 46,
       "HasChance": true,
       "LinkedItemIds": []
@@ -542,6 +552,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 47,
       "LinkedItemIds": []
     },
@@ -556,6 +567,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 48,
       "HasChance": true,
       "LinkedItemIds": []
@@ -571,6 +583,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 49,
       "HasChance": true,
       "LinkedItemIds": []
@@ -586,6 +599,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 50,
       "HasChance": true,
       "LinkedItemIds": []
@@ -601,6 +615,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 51,
       "HasChance": true,
       "LinkedItemIds": []
@@ -616,6 +631,7 @@
       "Group": "★3",
       "Kind": "★3",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 52,
       "LinkedItemIds": []
     },
@@ -630,6 +646,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 53,
       "HasChance": true,
       "LinkedItemIds": []
@@ -645,6 +662,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 54,
       "HasChance": true,
       "LinkedItemIds": [
@@ -663,6 +681,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 55,
       "LinkedItemIds": []
     },
@@ -677,6 +696,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 56,
       "LinkedItemIds": []
     },
@@ -691,6 +711,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 57,
       "LinkedItemIds": []
     },
@@ -705,6 +726,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 58,
       "LinkedItemIds": []
     },
@@ -719,6 +741,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 59,
       "LinkedItemIds": []
     },
@@ -733,6 +756,7 @@
       "Group": "★2",
       "Kind": "★2",
       "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 60,
       "LinkedItemIds": []
     },
@@ -746,6 +770,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-241F_thumb.webp",
       "Group": "1だんマイキャラツアー",
       "Kind": "1だんマイキャラツアー",
+      "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 61,
       "LinkedItemIds": []
     },
@@ -759,6 +785,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-243F_thumb.webp",
       "Group": "1だんマイキャラツアー",
       "Kind": "1だんマイキャラツアー",
+      "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 62,
       "LinkedItemIds": []
     },
@@ -772,6 +800,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/1/V1-245F_thumb.webp",
       "Group": "1だんマイキャラツアー",
       "Kind": "1だんマイキャラツアー",
+      "Start": "2024-04-04",
+      "End": "2024-06-05",
       "Order": 63,
       "LinkedItemIds": []
     },
@@ -783,7 +813,7 @@
       "Name": "プリマジチェックヘブンズホワイト",
       "Group": "「ワッチャプリマジ！」ひきつぎキャンペーン",
       "Kind": "「ワッチャプリマジ！」ひきつぎキャンペーン",
-      "Order": 2004,
+      "Order": 2035,
       "LinkedItemIds": []
     },
     {
@@ -794,7 +824,7 @@
       "Name": "ラブリーアイドルピンク",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
-      "Order": 2008,
+      "Order": 2039,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -806,7 +836,7 @@
       "Name": "ラブリーアイドルブルー",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
-      "Order": 2012,
+      "Order": 2043,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -818,7 +848,7 @@
       "Name": "クールアイドルピンク",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
-      "Order": 2016,
+      "Order": 2047,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -830,7 +860,7 @@
       "Name": "クールアイドルブルー",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
-      "Order": 2020,
+      "Order": 2051,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -842,7 +872,7 @@
       "Name": "クールアイドルレッド",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
-      "Order": 2024,
+      "Order": 2055,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -854,7 +884,7 @@
       "Name": "ハッピーチアピンク",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
-      "Order": 2028,
+      "Order": 2059,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -866,7 +896,7 @@
       "Name": "ハッピーチアブルー",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
-      "Order": 2032,
+      "Order": 2063,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -878,7 +908,7 @@
       "Name": "セーラーカジュアルピンク",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
-      "Order": 2036,
+      "Order": 2067,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -890,7 +920,7 @@
       "Name": "セーラーカジュアルブルー",
       "Group": "ひみつのアイプリ 1だん",
       "Kind": "ひみつのアイプリ 1だん",
-      "Order": 2040,
+      "Order": 2071,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -901,7 +931,7 @@
       "Name": "ピンクジュエル",
       "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス ひまりモデル",
-      "Order": 2047,
+      "Order": 2091,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -912,7 +942,7 @@
       "Name": "ブルージュエル",
       "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス みつきモデル",
-      "Order": 2050,
+      "Order": 2094,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -923,7 +953,7 @@
       "Name": "ラブリーコスメ",
       "Group": "ひみつのアイプリリップ",
       "Kind": "ひみつのアイプリリップ ひまりモデル",
-      "Order": 2054,
+      "Order": 2101,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -934,7 +964,7 @@
       "Name": "クールコスメ",
       "Group": "ひみつのアイプリリップ",
       "Kind": "ひみつのアイプリリップ みつきモデル",
-      "Order": 2058,
+      "Order": 2105,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -945,7 +975,7 @@
       "Name": "フラワーチュールローズ",
       "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルリップ ローズの香り",
-      "Order": 2062,
+      "Order": 2113,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -956,7 +986,7 @@
       "Name": "フラワーチュールジャスミン",
       "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルパフューム ジャスミンの香り",
-      "Order": 2066,
+      "Order": 2117,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -967,7 +997,7 @@
       "Name": "スターパーティーミントベリー",
       "Group": "ちゃお付録",
       "Kind": "ちゃお5月号付録「ひまり（スターパーティーミントベリー）」",
-      "Order": 2077,
+      "Order": 2128,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -979,7 +1009,7 @@
       "Name": "キューティーラビットレッド",
       "Group": "ひみつのアイプリファンブック",
       "Kind": "ひみつのアイプリファンブック 2024年5月号",
-      "Order": 2081,
+      "Order": 2132,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -1041,7 +1071,7 @@
       "Name": "ポッピンハートバズリウムミント",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
-      "Order": 2089,
+      "Order": 2142,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -1053,7 +1083,7 @@
       "Name": "ぷるるんゼリーメロン",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
-      "Order": 2093,
+      "Order": 2146,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -1065,7 +1095,7 @@
       "Name": "ゴージャスビジューイエロー",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
-      "Order": 2096,
+      "Order": 2149,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -1077,7 +1107,7 @@
       "Name": "アイプリバースミラクルムーングレー",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
-      "Order": 2100,
+      "Order": 2153,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -1089,7 +1119,7 @@
       "Name": "ハッピーチアシックブルー",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
-      "Order": 2104,
+      "Order": 2157,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -1101,7 +1131,7 @@
       "Name": "クールアイドルネイビーピンク",
       "Group": "アイプリカード♪コレクショングミ",
       "Kind": "アイプリカード♪コレクショングミ",
-      "Order": 2108,
+      "Order": 2161,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -1322,7 +1352,7 @@
       "Name": "スターメロディパッション",
       "Group": "ちゃお付録",
       "Kind": "ちゃお2024年6月号付録",
-      "Order": 2044,
+      "Order": 2088,
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -2012,6 +2042,258 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 139,
+      "ChapterId": "special",
+      "BrandId": 8,
+      "Star": 2,
+      "Name": "ラブリーアイドルイエロー",
+      "Group": "ひみつのアイプリ 2だん",
+      "Kind": "ひみつのアイプリ 2だん",
+      "Order": 2004,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 140,
+      "ChapterId": "special",
+      "BrandId": 7,
+      "Star": 2,
+      "Name": "ラブリーアイドルネイビー",
+      "Group": "ひみつのアイプリ 2だん",
+      "Kind": "ひみつのアイプリ 2だん",
+      "Order": 2008,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 141,
+      "ChapterId": "special",
+      "BrandId": 8,
+      "Star": 2,
+      "Name": "ハッピーチアイエロー",
+      "Group": "ひみつのアイプリ 2だん",
+      "Kind": "ひみつのアイプリ 2だん",
+      "Order": 2012,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 142,
+      "ChapterId": "special",
+      "BrandId": 7,
+      "Star": 2,
+      "Name": "セーラーカジュアルネイビー",
+      "Group": "ひみつのアイプリ 2だん",
+      "Kind": "ひみつのアイプリ 2だん",
+      "Order": 2016,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 143,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Star": 2,
+      "Name": "チューリップピンク",
+      "Group": "ひみつのアイプリ 2だん",
+      "Kind": "ひみつのアイプリ 2だん",
+      "Order": 2019,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 144,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Star": 2,
+      "Name": "チューリップブルー",
+      "Group": "ひみつのアイプリ 2だん",
+      "Kind": "ひみつのアイプリ 2だん",
+      "Order": 2022,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 145,
+      "ChapterId": "special",
+      "BrandId": 8,
+      "Star": 2,
+      "Name": "チューリップイエロー",
+      "Group": "ひみつのアイプリ 2だん",
+      "Kind": "ひみつのアイプリ 2だん",
+      "Order": 2025,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 146,
+      "ChapterId": "special",
+      "BrandId": 5,
+      "Star": 2,
+      "Name": "チューリップレッド",
+      "Group": "ひみつのアイプリ 2だん",
+      "Kind": "ひみつのアイプリ 2だん",
+      "Order": 2028,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 147,
+      "ChapterId": "special",
+      "BrandId": 7,
+      "Star": 2,
+      "Name": "チューリップネイビー",
+      "Group": "ひみつのアイプリ 2だん",
+      "Kind": "ひみつのアイプリ 2だん",
+      "Order": 2031,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 148,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "フレッシュレモンミント",
+      "Group": "デュオライブ＆グランプリ\u3000デビューしちゃお！キャンペーン",
+      "Kind": "デュオライブ＆グランプリ\u3000デビューしちゃお！キャンペーン",
+      "Order": 2074,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 149,
+      "ChapterId": "special",
+      "BrandId": 5,
+      "Name": "アイスブラウニークレープ",
+      "Group": "ディッパーダンキャンペーン",
+      "Kind": "ディッパーダンキャンペーン",
+      "Order": 2077,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 150,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "フラワーチュールオレンジブーケ",
+      "Group": "お店でアイプリグランプリ\u3000抽選参加景品",
+      "Kind": "お店でアイプリグランプリ\u3000抽選参加景品",
+      "Order": 2081,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 151,
+      "ChapterId": "special",
+      "BrandId": 5,
+      "Star": 4,
+      "Name": "ローズグランプリノーブルブルー",
+      "Group": "お店でアイプリグランプリ\u3000参加景品",
+      "Kind": "お店でアイプリグランプリ\u3000参加景品",
+      "Order": 2084,
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 152,
+      "ChapterId": "special",
+      "BrandId": 8,
+      "Name": "イエローグリーンジュエル",
+      "Group": "ひみつのアイプリブレス",
+      "Kind": "ひみつのアイプリブレス つむぎモデル",
+      "Order": 2097,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 153,
+      "ChapterId": "special",
+      "BrandId": 8,
+      "Name": "パッションコスメ",
+      "Group": "ひみつのアイプリリップ",
+      "Kind": "ひみつのアイプリリップ つむぎモデル",
+      "Order": 2109,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 154,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "プリうさムギちゃんアクセ",
+      "Group": "ぬいぐるみ・マスコット",
+      "Kind": "ひみつのアイプリ\u3000ぬいぐるみ プリうさムギちゃん",
+      "Order": 2133,
+      "LinkedItemIds": [
+        40103
+      ]
+    },
+    {
+      "Id": 155,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "ひまりぬいぐるみアクセ",
+      "Group": "ぬいぐるみ・マスコット",
+      "Kind": "ひみつのアイプリ\u3000ぬいぐるみ ひまり",
+      "Order": 2134,
+      "LinkedItemIds": [
+        40104
+      ]
+    },
+    {
+      "Id": 156,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Name": "みつきぬいぐるみアクセ",
+      "Group": "ぬいぐるみ・マスコット",
+      "Kind": "ひみつのアイプリ\u3000ぬいぐるみ みつき",
+      "Order": 2135,
+      "LinkedItemIds": [
+        40105
+      ]
+    },
+    {
+      "Id": 157,
+      "ChapterId": "special",
+      "BrandId": 8,
+      "Name": "ぬいぐるみつむぎアクセ",
+      "Group": "ぬいぐるみ・マスコット",
+      "Kind": "ひみつのアイプリ\u3000ぬいぐるみ つむぎ",
+      "Order": 2136,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 158,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "ひまりのアイムゥアクセ",
+      "Group": "ぬいぐるみ・マスコット",
+      "Kind": "ひみつのアイプリ\u3000ボールチェーンマスコット ひまりのアイムゥ",
+      "Order": 2137,
+      "LinkedItemIds": [
+        40106
+      ]
+    },
+    {
+      "Id": 159,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Name": "みつきのアイムゥアクセ",
+      "Group": "ぬいぐるみ・マスコット",
+      "Kind": "ひみつのアイプリ\u3000ボールチェーンマスコット みつきのアイムゥ",
+      "Order": 2138,
+      "LinkedItemIds": [
+        40107
+      ]
+    },
+    {
+      "Id": 160,
+      "ChapterId": "special",
+      "BrandId": 8,
+      "Name": "つむぎのアイムゥアクセ",
+      "Group": "ぬいぐるみ・マスコット",
+      "Kind": "ひみつのアイプリ\u3000ボールチェーンマスコット つむぎのアイムゥ",
+      "Order": 2139,
+      "LinkedItemIds": []
+    },
+    {
       "Id": 900001,
       "ChapterId": "special",
       "Star": 4,
@@ -2090,7 +2372,7 @@
       "Name": "アイプリバースポッピンハート",
       "Group": "アイプリデビューキャンペーン",
       "Kind": "アイプリデビューキャンペーン",
-      "Order": 2069,
+      "Order": 2120,
       "HasChance": true,
       "LinkedItemIds": [
         30049,
@@ -2105,7 +2387,7 @@
       "Name": "アイプリバースミラクルムーン",
       "Group": "アイプリデビューキャンペーン",
       "Kind": "アイプリデビューキャンペーン",
-      "Order": 2073,
+      "Order": 2124,
       "HasChance": true,
       "LinkedItemIds": [
         30055,
@@ -5083,6 +5365,223 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30368.webp"
     },
     {
+      "Id": 30369,
+      "CoordinateId": 139,
+      "CategoryId": 1,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30369.webp"
+    },
+    {
+      "Id": 30370,
+      "CoordinateId": 139,
+      "CategoryId": 3,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30370.webp"
+    },
+    {
+      "Id": 30371,
+      "CoordinateId": 139,
+      "CategoryId": 4,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30371.webp"
+    },
+    {
+      "Id": 30372,
+      "CoordinateId": 139,
+      "CategoryId": 5,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30372.webp"
+    },
+    {
+      "Id": 30373,
+      "CoordinateId": 140,
+      "CategoryId": 1,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30373.webp"
+    },
+    {
+      "Id": 30374,
+      "CoordinateId": 140,
+      "CategoryId": 3,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30374.webp"
+    },
+    {
+      "Id": 30375,
+      "CoordinateId": 140,
+      "CategoryId": 4,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30375.webp"
+    },
+    {
+      "Id": 30376,
+      "CoordinateId": 140,
+      "CategoryId": 5,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30376.webp"
+    },
+    {
+      "Id": 30377,
+      "CoordinateId": 141,
+      "CategoryId": 1,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30377.webp"
+    },
+    {
+      "Id": 30378,
+      "CoordinateId": 141,
+      "CategoryId": 3,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30378.webp"
+    },
+    {
+      "Id": 30379,
+      "CoordinateId": 141,
+      "CategoryId": 4,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30379.webp"
+    },
+    {
+      "Id": 30380,
+      "CoordinateId": 141,
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30380.webp"
+    },
+    {
+      "Id": 30381,
+      "CoordinateId": 142,
+      "CategoryId": 1,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30381.webp"
+    },
+    {
+      "Id": 30382,
+      "CoordinateId": 142,
+      "CategoryId": 3,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30382.webp"
+    },
+    {
+      "Id": 30383,
+      "CoordinateId": 142,
+      "CategoryId": 4,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30383.webp"
+    },
+    {
+      "Id": 30384,
+      "CoordinateId": 142,
+      "CategoryId": 5,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30384.webp"
+    },
+    {
+      "Id": 30385,
+      "CoordinateId": 143,
+      "CategoryId": 2,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30385.webp"
+    },
+    {
+      "Id": 30386,
+      "CoordinateId": 143,
+      "CategoryId": 4,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30386.webp"
+    },
+    {
+      "Id": 30387,
+      "CoordinateId": 143,
+      "CategoryId": 5,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30387.webp"
+    },
+    {
+      "Id": 30388,
+      "CoordinateId": 144,
+      "CategoryId": 2,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30388.webp"
+    },
+    {
+      "Id": 30389,
+      "CoordinateId": 144,
+      "CategoryId": 4,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30389.webp"
+    },
+    {
+      "Id": 30390,
+      "CoordinateId": 144,
+      "CategoryId": 5,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30390.webp"
+    },
+    {
+      "Id": 30391,
+      "CoordinateId": 145,
+      "CategoryId": 2,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30391.webp"
+    },
+    {
+      "Id": 30392,
+      "CoordinateId": 145,
+      "CategoryId": 4,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30392.webp"
+    },
+    {
+      "Id": 30393,
+      "CoordinateId": 145,
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30393.webp"
+    },
+    {
+      "Id": 30394,
+      "CoordinateId": 146,
+      "CategoryId": 2,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30394.webp"
+    },
+    {
+      "Id": 30395,
+      "CoordinateId": 146,
+      "CategoryId": 4,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30395.webp"
+    },
+    {
+      "Id": 30396,
+      "CoordinateId": 146,
+      "CategoryId": 5,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30396.webp"
+    },
+    {
+      "Id": 30397,
+      "CoordinateId": 147,
+      "CategoryId": 2,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30397.webp"
+    },
+    {
+      "Id": 30398,
+      "CoordinateId": 147,
+      "CategoryId": 4,
+      "Point": 90,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30398.webp"
+    },
+    {
+      "Id": 30399,
+      "CoordinateId": 147,
+      "CategoryId": 5,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30399.webp"
+    },
+    {
       "Id": 30400,
       "CoordinateId": 105,
       "SealId": "V2-186",
@@ -5475,6 +5974,34 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40051.webp"
     },
     {
+      "Id": 40084,
+      "CoordinateId": 150,
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40084.webp"
+    },
+    {
+      "Id": 40085,
+      "CoordinateId": 150,
+      "CategoryId": 3,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40085.webp"
+    },
+    {
+      "Id": 40086,
+      "CoordinateId": 150,
+      "CategoryId": 4,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40086.webp"
+    },
+    {
+      "Id": 40087,
+      "CoordinateId": 150,
+      "CategoryId": 5,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40087.webp"
+    },
+    {
       "Id": 40091,
       "CoordinateId": 64,
       "SealId": "",
@@ -5569,46 +6096,6 @@
       "CategoryId": 5,
       "Point": 150,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40102.webp"
-    },
-    {
-      "Id": 40103,
-      "CoordinateId": 66,
-      "SealId": "",
-      "CategoryId": 5,
-      "Point": 150,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40103.webp"
-    },
-    {
-      "Id": 40104,
-      "CoordinateId": 67,
-      "SealId": "",
-      "CategoryId": 5,
-      "Point": 150,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40104.webp"
-    },
-    {
-      "Id": 40105,
-      "CoordinateId": 68,
-      "SealId": "",
-      "CategoryId": 5,
-      "Point": 150,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40105.webp"
-    },
-    {
-      "Id": 40106,
-      "CoordinateId": 69,
-      "SealId": "",
-      "CategoryId": 5,
-      "Point": 150,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40106.webp"
-    },
-    {
-      "Id": 40107,
-      "CoordinateId": 70,
-      "SealId": "",
-      "CategoryId": 5,
-      "Point": 150,
-      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40107.webp"
     },
     {
       "Id": 40108,
@@ -6043,6 +6530,55 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/1/Item_ID40161.webp"
     },
     {
+      "Id": 40174,
+      "CoordinateId": 152,
+      "CategoryId": 2,
+      "Point": 290,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40174.webp"
+    },
+    {
+      "Id": 40175,
+      "CoordinateId": 152,
+      "CategoryId": 4,
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40175.webp"
+    },
+    {
+      "Id": 40176,
+      "CoordinateId": 152,
+      "CategoryId": 5,
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40176.webp"
+    },
+    {
+      "Id": 40180,
+      "CoordinateId": 153,
+      "CategoryId": 1,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40180.webp"
+    },
+    {
+      "Id": 40181,
+      "CoordinateId": 153,
+      "CategoryId": 3,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40181.webp"
+    },
+    {
+      "Id": 40182,
+      "CoordinateId": 153,
+      "CategoryId": 4,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40182.webp"
+    },
+    {
+      "Id": 40183,
+      "CoordinateId": 153,
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40183.webp"
+    },
+    {
       "Id": 40188,
       "CoordinateId": 48,
       "SealId": "",
@@ -6073,6 +6609,83 @@
       "CategoryId": 5,
       "Point": 100,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40191.webp"
+    },
+    {
+      "Id": 40238,
+      "CoordinateId": 157,
+      "CategoryId": 5,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40238.webp"
+    },
+    {
+      "Id": 40239,
+      "CoordinateId": 160,
+      "CategoryId": 5,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40239.webp"
+    },
+    {
+      "Id": 40240,
+      "CoordinateId": 151,
+      "CategoryId": 2,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40240.webp"
+    },
+    {
+      "Id": 40241,
+      "CoordinateId": 151,
+      "CategoryId": 4,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40241.webp"
+    },
+    {
+      "Id": 40242,
+      "CoordinateId": 151,
+      "CategoryId": 5,
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40242.webp"
+    },
+    {
+      "Id": 40243,
+      "CoordinateId": 149,
+      "CategoryId": 2,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40243.webp"
+    },
+    {
+      "Id": 40244,
+      "CoordinateId": 149,
+      "CategoryId": 4,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40244.webp"
+    },
+    {
+      "Id": 40245,
+      "CoordinateId": 149,
+      "CategoryId": 5,
+      "Point": 100,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40245.webp"
+    },
+    {
+      "Id": 40246,
+      "CoordinateId": 148,
+      "CategoryId": 2,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40246.webp"
+    },
+    {
+      "Id": 40247,
+      "CoordinateId": 148,
+      "CategoryId": 4,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40247.webp"
+    },
+    {
+      "Id": 40248,
+      "CoordinateId": 148,
+      "CategoryId": 5,
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID40248.webp"
     },
     {
       "Id": 910001,
@@ -8074,7 +8687,7 @@
       "BrandId": 1,
       "SealId": "P-006",
       "Coordinate": "キューティーラビットレッド",
-      "Order": 4005,
+      "Order": 4011,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -8091,7 +8704,7 @@
       "BrandId": 1,
       "SealId": "P-004",
       "Coordinate": "スターパーティーミントベリー",
-      "Order": 4006,
+      "Order": 4012,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -8107,7 +8720,7 @@
       "BrandId": 2,
       "SealId": "P-003",
       "Coordinate": "アイプリバースミラクルムーン",
-      "Order": 4007,
+      "Order": 4013,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "みつきのひみつマイソング♪",
@@ -8123,7 +8736,7 @@
       "BrandId": 1,
       "SealId": "P-002",
       "Coordinate": "アイプリバースポッピンハート",
-      "Order": 4008,
+      "Order": 4014,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ぜんりょくじょしりょくかくめい！",
@@ -8139,7 +8752,7 @@
       "BrandId": 2,
       "SealId": "TOY-013",
       "Coordinate": "フラワーチュールジャスミン",
-      "Order": 4009,
+      "Order": 4015,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -8155,7 +8768,7 @@
       "BrandId": 1,
       "SealId": "TOY-012",
       "Coordinate": "フラワーチュールローズ",
-      "Order": 4010,
+      "Order": 4016,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -8171,7 +8784,7 @@
       "BrandId": 2,
       "SealId": "TOY-011",
       "Coordinate": "クールコスメ",
-      "Order": 4011,
+      "Order": 4017,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -8187,7 +8800,7 @@
       "BrandId": 1,
       "SealId": "TOY-010",
       "Coordinate": "ラブリーコスメ",
-      "Order": 4012,
+      "Order": 4018,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -8203,7 +8816,7 @@
       "BrandId": 2,
       "SealId": "TOY-007",
       "Coordinate": "ブルージュエル",
-      "Order": 4013,
+      "Order": 4019,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -8219,7 +8832,7 @@
       "BrandId": 1,
       "SealId": "TOY-006",
       "Coordinate": "ピンクジュエル",
-      "Order": 4014,
+      "Order": 4020,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -8235,7 +8848,7 @@
       "BrandId": 2,
       "SealId": "TOY-005",
       "Coordinate": "ギンガムチェックグレープ",
-      "Order": 4015,
+      "Order": 4021,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -8249,7 +8862,7 @@
       "BrandId": 2,
       "SealId": "TOY-004",
       "Coordinate": "パティシエチョコミント",
-      "Order": 4016,
+      "Order": 4022,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -8263,7 +8876,7 @@
       "BrandId": 2,
       "SealId": "TOY-003",
       "Coordinate": "スターリースカイ",
-      "Order": 4017,
+      "Order": 4023,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -8277,7 +8890,7 @@
       "BrandId": 1,
       "SealId": "TOY-002",
       "Coordinate": "ギンガムチェックチェリー",
-      "Order": 4018,
+      "Order": 4024,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -8291,7 +8904,7 @@
       "BrandId": 1,
       "SealId": "TOY-001",
       "Coordinate": "パティシエストロベリー",
-      "Order": 4019,
+      "Order": 4025,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "シークレット・ドリーム",
@@ -8305,7 +8918,7 @@
       "BrandId": 1,
       "SealId": "TOY-000",
       "Coordinate": "レインボースカイ",
-      "Order": 4020,
+      "Order": 4026,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "P.O.P.P.Y",
@@ -8848,7 +9461,7 @@
       "BrandId": 2,
       "SealId": "P-005",
       "Coordinate": "スターメロディパッション",
-      "Order": 4004,
+      "Order": 4010,
       "Character": "みつき",
       "CharacterId": 2,
       "Song": "シークレット・ドリーム",
@@ -8864,7 +9477,7 @@
       "BrandId": 5,
       "SealId": "P-022",
       "Coordinate": "ローズグランプリノーブルブルー",
-      "Order": 4001,
+      "Order": 4007,
       "Character": "サクラ",
       "CharacterId": 3,
       "Song": "Stand Get Up",
@@ -8880,7 +9493,7 @@
       "BrandId": 1,
       "SealId": "P-021",
       "Coordinate": "フラワーチュールオレンジブーケ",
-      "Order": 4002,
+      "Order": 4008,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ムテキDUOエナジー",
@@ -8896,7 +9509,7 @@
       "BrandId": 1,
       "SealId": "P-024",
       "Coordinate": "フレッシュレモンミント",
-      "Order": 4003,
+      "Order": 4009,
       "Character": "ひまり",
       "CharacterId": 1,
       "Song": "ムテキDUOエナジー",
@@ -9867,6 +10480,69 @@
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/2/AP2-058_O.webp",
       "Image2Url": "https://aipri.jp/card/img/2/AP2-058_U.webp"
+    },
+    {
+      "Id": 157,
+      "ChapterId": "special",
+      "SealId": "TOY-027",
+      "Coordinate": "パッションコスメ",
+      "Order": 4001,
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-027_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-027_U.webp"
+    },
+    {
+      "Id": 158,
+      "ChapterId": "special",
+      "SealId": "TOY-025",
+      "Coordinate": "イエローグリーンジュエル",
+      "Order": 4002,
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-025_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-025_U.webp"
+    },
+    {
+      "Id": 159,
+      "ChapterId": "special",
+      "SealId": "TOY-024",
+      "Coordinate": "ギンガムチェックレモン",
+      "Order": 4003,
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-024_O.webp"
+    },
+    {
+      "Id": 160,
+      "ChapterId": "special",
+      "SealId": "TOY-023",
+      "Coordinate": "パティシエはちみつパンケーキ",
+      "Order": 4004,
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-023_O.webp"
+    },
+    {
+      "Id": 161,
+      "ChapterId": "special",
+      "SealId": "TOY-022",
+      "Coordinate": "サニースカイ",
+      "Order": 4005,
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-022_O.webp"
+    },
+    {
+      "Id": 162,
+      "ChapterId": "special",
+      "SealId": "P-023",
+      "Coordinate": "アイスブラウニークレープ",
+      "Order": 4006,
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/P-023_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-023_U.webp"
     },
     {
       "Id": 9200001,

@@ -293,8 +293,22 @@ internal class Program
 
         if (chapter != null)
         {
-            chapter.Start = newCoordinates.Min(e => e.Start);
-            chapter.End = newCoordinates.Max(e => e.End);
+            var pickups = newCoordinates.Where(e => e.Kind?.Contains("ピックアップ") == true).Select(e => new { e.Start, e.End }).Distinct().ToList();
+
+            var ps = pickups.Min(e => e.Start);
+            var pe = pickups.Max(e => e.End);
+
+            if (ps != null && pe != null)
+            {
+                chapter.Start = ps;
+                chapter.End = pe;
+
+                foreach (var c in newCoordinates)
+                {
+                    c.Start ??= ps;
+                    c.End ??= pe;
+                }
+            }
         }
     }
 
