@@ -9,6 +9,7 @@ public sealed class Card : DataItem
 
     [DefaultValue(null)]
     public string? ChapterId { get; set; }
+    public Chapter? GetChapter() => DataSet?.HimitsuChapters.GetById(ChapterId ?? string.Empty);
 
     [DefaultValue(null)]
     public int? BrandId { get; set; }
