@@ -10854,7 +10854,8 @@
       "SongId": 11,
       "Star": 4,
       "Point": 780,
-      "Image1Url": "AP2-001P-1.jpg"
+      "Image1Url": "AP2-001P-1.jpg",
+      "Image2Url": "AP2-001P-2.jpg"
     },
     {
       "Id": 9200007,
@@ -10870,7 +10871,8 @@
       "SongId": 9,
       "Star": 4,
       "Point": 790,
-      "Image1Url": "AP2-002P-1.webp"
+      "Image1Url": "AP2-002P-1.jpg",
+      "Image2Url": "AP2-002P-2.jpg"
     },
     {
       "Id": 9200008,
