@@ -2714,6 +2714,15 @@
       "Kind": "ひみつのアイプリDXデビューセット みつきモデル",
       "Order": 2147483647,
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900012,
+      "ChapterId": "special",
+      "Name": "ひみつのはつねミクコーデ",
+      "Group": "初音ミクコラボ",
+      "Kind": "初音ミクコラボ",
+      "Order": 2147483647,
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -7216,6 +7225,27 @@
       "SealId": "TEMP003-4",
       "CategoryId": 5,
       "ImageUrl": "gingham_check_grape-4.png"
+    },
+    {
+      "Id": 910045,
+      "CoordinateId": 9900012,
+      "SealId": "TEMP004-1",
+      "CategoryId": 2,
+      "ImageUrl": "himitsu_no_hatsune_miku-1.png"
+    },
+    {
+      "Id": 910046,
+      "CoordinateId": 9900012,
+      "SealId": "TEMP004-2",
+      "CategoryId": 4,
+      "ImageUrl": "himitsu_no_hatsune_miku-2.png"
+    },
+    {
+      "Id": 910047,
+      "CoordinateId": 9900012,
+      "SealId": "TEMP004-3",
+      "CategoryId": 5,
+      "ImageUrl": "himitsu_no_hatsune_miku-3.png"
     }
   ],
   "PartCategories": [
