@@ -9,7 +9,7 @@
     {
       "Id": "2",
       "Name": "2だん",
-      "Start": "2024-07-04",
+      "Start": "2024-06-06",
       "End": "2024-07-31"
     },
     {
@@ -1413,8 +1413,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-001F_thumb.webp",
       "Group": "2だん前半★★★★ピックアップ",
       "Kind": "2だん前半★★★★ピックアップ",
-      "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "Start": "2024-06-06",
+      "End": "2024-07-03",
       "Order": 1019,
       "LinkedItemIds": []
     },
@@ -1428,8 +1428,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V1-007F_thumb.webp",
       "Group": "2だん前半★★★★ピックアップ",
       "Kind": "2だん前半★★★★ピックアップ",
-      "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "Start": "2024-06-06",
+      "End": "2024-07-03",
       "Order": 1020,
       "LinkedItemIds": [
         30007,
@@ -1447,8 +1447,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-010F_thumb.webp",
       "Group": "2だん前半★★★★ピックアップ",
       "Kind": "2だん前半★★★★ピックアップ",
-      "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "Start": "2024-06-06",
+      "End": "2024-07-03",
       "Order": 1021,
       "LinkedItemIds": []
     },
@@ -1462,8 +1462,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-014F_thumb.webp",
       "Group": "2だん前半★★★★ピックアップ",
       "Kind": "2だん前半★★★★ピックアップ",
-      "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "Start": "2024-06-06",
+      "End": "2024-07-03",
       "Order": 1022,
       "LinkedItemIds": []
     },
@@ -1477,8 +1477,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-017F_thumb.webp",
       "Group": "2だん前半★★★★ピックアップ",
       "Kind": "2だん前半★★★★ピックアップ",
-      "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "Start": "2024-06-06",
+      "End": "2024-07-03",
       "Order": 1023,
       "LinkedItemIds": []
     },
@@ -1492,8 +1492,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-020F_thumb.webp",
       "Group": "2だん前半★★★★ピックアップ",
       "Kind": "2だん前半★★★★ピックアップ",
-      "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "Start": "2024-06-06",
+      "End": "2024-07-03",
       "Order": 1024,
       "LinkedItemIds": []
     },
@@ -1507,8 +1507,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-024F_thumb.webp",
       "Group": "2だん前半★★★★ピックアップ",
       "Kind": "2だん前半★★★★ピックアップ",
-      "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "Start": "2024-06-06",
+      "End": "2024-07-03",
       "Order": 1025,
       "LinkedItemIds": []
     },
@@ -1522,8 +1522,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-028F_thumb.webp",
       "Group": "2だん前半★★★★ピックアップ",
       "Kind": "2だん前半★★★★ピックアップ",
-      "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "Start": "2024-06-06",
+      "End": "2024-07-03",
       "Order": 1026,
       "LinkedItemIds": []
     },
@@ -1537,8 +1537,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-032F_thumb.webp",
       "Group": "2だん前半★★★★ピックアップ",
       "Kind": "2だん前半★★★★ピックアップ",
-      "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "Start": "2024-06-06",
+      "End": "2024-07-03",
       "Order": 1027,
       "LinkedItemIds": []
     },
@@ -1552,8 +1552,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-036F_thumb.webp",
       "Group": "2だん前半★★★★ピックアップ",
       "Kind": "2だん前半★★★★ピックアップ",
-      "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "Start": "2024-06-06",
+      "End": "2024-07-03",
       "Order": 1028,
       "LinkedItemIds": []
     },
@@ -1567,7 +1567,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-007F_thumb.webp",
       "Group": "第1回アイプリグランプリ",
       "Kind": "第1回アイプリグランプリ",
-      "Start": "2024-07-04",
+      "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1029,
       "LinkedItemIds": []
@@ -1687,7 +1687,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-230F_thumb.webp",
       "Group": "初音ミクコラボ",
       "Kind": "初音ミクコラボ",
-      "Start": "2024-07-04",
+      "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1037,
       "LinkedItemIds": []
@@ -1702,7 +1702,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-233F_thumb.webp",
       "Group": "P丸様。コラボ",
       "Kind": "P丸様。コラボ",
-      "Start": "2024-07-04",
+      "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1038,
       "LinkedItemIds": []
@@ -2362,7 +2362,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-236_thumb.webp",
       "Group": "2だん マイキャラツアー",
       "Kind": "2だん マイキャラツアー",
-      "Start": "2024-07-04",
+      "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1064,
       "LinkedItemIds": []
@@ -2377,7 +2377,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-238_thumb.webp",
       "Group": "2だん マイキャラツアー",
       "Kind": "2だん マイキャラツアー",
-      "Start": "2024-07-04",
+      "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1065,
       "LinkedItemIds": []
@@ -2392,7 +2392,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/2/V2-240_thumb.webp",
       "Group": "2だん マイキャラツアー",
       "Kind": "2だん マイキャラツアー",
-      "Start": "2024-07-04",
+      "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1066,
       "LinkedItemIds": []
@@ -2596,7 +2596,7 @@
       "Group": "プリパラ②",
       "Kind": "プリパラ②",
       "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "End": "2024-09-04",
       "Order": 1013,
       "LinkedItemIds": []
     },
@@ -2611,7 +2611,7 @@
       "Group": "プリパラ②",
       "Kind": "プリパラ②",
       "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "End": "2024-09-04",
       "Order": 1014,
       "LinkedItemIds": []
     },
@@ -2626,7 +2626,7 @@
       "Group": "プリパラ②",
       "Kind": "プリパラ②",
       "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "End": "2024-09-04",
       "Order": 1015,
       "LinkedItemIds": []
     },
@@ -2641,7 +2641,7 @@
       "Group": "プリパラ②",
       "Kind": "プリパラ②",
       "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "End": "2024-09-04",
       "Order": 1016,
       "LinkedItemIds": []
     },
@@ -2656,7 +2656,7 @@
       "Group": "プリパラ②",
       "Kind": "プリパラ②",
       "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "End": "2024-09-04",
       "Order": 1017,
       "LinkedItemIds": []
     },
@@ -2671,7 +2671,7 @@
       "Group": "プリパラ②",
       "Kind": "プリパラ②",
       "Start": "2024-07-04",
-      "End": "2024-07-31",
+      "End": "2024-09-04",
       "Order": 1018,
       "LinkedItemIds": []
     },
@@ -2688,11 +2688,7 @@
       "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1030,
-      "LinkedItemIds": [
-        30400,
-        30401,
-        30402
-      ]
+      "LinkedItemIds": []
     },
     {
       "Id": 183,
@@ -2707,11 +2703,7 @@
       "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1031,
-      "LinkedItemIds": [
-        30403,
-        30404,
-        30405
-      ]
+      "LinkedItemIds": []
     },
     {
       "Id": 184,
@@ -2726,11 +2718,7 @@
       "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1032,
-      "LinkedItemIds": [
-        30406,
-        30407,
-        30408
-      ]
+      "LinkedItemIds": []
     },
     {
       "Id": 185,
@@ -2745,11 +2733,7 @@
       "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1033,
-      "LinkedItemIds": [
-        30409,
-        30410,
-        30411
-      ]
+      "LinkedItemIds": []
     },
     {
       "Id": 186,
@@ -2764,11 +2748,7 @@
       "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1034,
-      "LinkedItemIds": [
-        30412,
-        30413,
-        30414
-      ]
+      "LinkedItemIds": []
     },
     {
       "Id": 187,
@@ -2783,11 +2763,7 @@
       "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1035,
-      "LinkedItemIds": [
-        30415,
-        30416,
-        30417
-      ]
+      "LinkedItemIds": []
     },
     {
       "Id": 188,
@@ -2802,11 +2778,7 @@
       "Start": "2024-06-06",
       "End": "2024-07-31",
       "Order": 1036,
-      "LinkedItemIds": [
-        30418,
-        30419,
-        30420
-      ]
+      "LinkedItemIds": []
     },
     {
       "Id": 900001,
@@ -6385,6 +6357,174 @@
       "CategoryId": 5,
       "Point": 100,
       "ImageUrl": "https://aipri.jp/verse/item/img/special/Item_ID30399.webp"
+    },
+    {
+      "Id": 30400,
+      "CoordinateId": 182,
+      "SealId": "V2-186",
+      "CategoryId": 2,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30400.webp"
+    },
+    {
+      "Id": 30401,
+      "CoordinateId": 182,
+      "SealId": "V2-187",
+      "CategoryId": 4,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30401.webp"
+    },
+    {
+      "Id": 30402,
+      "CoordinateId": 182,
+      "SealId": "V2-188",
+      "CategoryId": 5,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30402.webp"
+    },
+    {
+      "Id": 30403,
+      "CoordinateId": 183,
+      "SealId": "V2-189",
+      "CategoryId": 2,
+      "Point": 330,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30403.webp"
+    },
+    {
+      "Id": 30404,
+      "CoordinateId": 183,
+      "SealId": "V2-190",
+      "CategoryId": 4,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30404.webp"
+    },
+    {
+      "Id": 30405,
+      "CoordinateId": 183,
+      "SealId": "V2-191",
+      "CategoryId": 5,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30405.webp"
+    },
+    {
+      "Id": 30406,
+      "CoordinateId": 184,
+      "SealId": "V2-192",
+      "CategoryId": 2,
+      "Point": 310,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30406.webp"
+    },
+    {
+      "Id": 30407,
+      "CoordinateId": 184,
+      "SealId": "V2-193",
+      "CategoryId": 3,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30407.webp"
+    },
+    {
+      "Id": 30408,
+      "CoordinateId": 184,
+      "SealId": "V2-194",
+      "CategoryId": 5,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30408.webp"
+    },
+    {
+      "Id": 30409,
+      "CoordinateId": 185,
+      "SealId": "V2-195",
+      "CategoryId": 2,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30409.webp"
+    },
+    {
+      "Id": 30410,
+      "CoordinateId": 185,
+      "SealId": "V2-196",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30410.webp"
+    },
+    {
+      "Id": 30411,
+      "CoordinateId": 185,
+      "SealId": "V2-197",
+      "CategoryId": 5,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30411.webp"
+    },
+    {
+      "Id": 30412,
+      "CoordinateId": 186,
+      "SealId": "V2-198",
+      "CategoryId": 2,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30412.webp"
+    },
+    {
+      "Id": 30413,
+      "CoordinateId": 186,
+      "SealId": "V2-199",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30413.webp"
+    },
+    {
+      "Id": 30414,
+      "CoordinateId": 186,
+      "SealId": "V2-200",
+      "CategoryId": 5,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30414.webp"
+    },
+    {
+      "Id": 30415,
+      "CoordinateId": 187,
+      "SealId": "V2-201",
+      "CategoryId": 2,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30415.webp"
+    },
+    {
+      "Id": 30416,
+      "CoordinateId": 187,
+      "SealId": "V2-202",
+      "CategoryId": 4,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30416.webp"
+    },
+    {
+      "Id": 30417,
+      "CoordinateId": 187,
+      "SealId": "V2-203",
+      "CategoryId": 5,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30417.webp"
+    },
+    {
+      "Id": 30418,
+      "CoordinateId": 188,
+      "SealId": "V2-204",
+      "CategoryId": 2,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30418.webp"
+    },
+    {
+      "Id": 30419,
+      "CoordinateId": 188,
+      "SealId": "V2-205",
+      "CategoryId": 3,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30419.webp"
+    },
+    {
+      "Id": 30420,
+      "CoordinateId": 188,
+      "SealId": "V2-206",
+      "CategoryId": 5,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30420.webp"
     },
     {
       "Id": 30421,
