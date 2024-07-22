@@ -294,7 +294,7 @@ public sealed class DownloadContext : IDisposable
             }
         }
 
-        if (b.ImageUrl == imageUrl && b.IsImageLoaded)
+        if ((b.ImageUrl == imageUrl || imageUrl == null) && b.IsImageLoaded)
         {
             return b;
         }

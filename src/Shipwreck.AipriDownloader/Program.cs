@@ -179,7 +179,7 @@ internal class Program
                 var bndName = cNode.SelectSingleNode("@data-brandname")?.Value;
 
                 var b = string.IsNullOrEmpty(bndName) ? null
-                    : await d.AddBrandAsync(bndName, new Uri(url, bndImg).ToString()).ConfigureAwait(false);
+                    : await d.AddBrandAsync(bndName, string.IsNullOrEmpty(bndImg) ? null : new Uri(url, bndImg).ToString()).ConfigureAwait(false);
 
                 var title = cNode.SelectSingleNode("@data-name")?.Value;
                 var star = cNode.SelectSingleNode("@data-icn")?.Value is string icn
