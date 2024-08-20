@@ -19,7 +19,7 @@ public sealed class Coordinate : DataItem
     public DateOnly? Start { get; set; }
     public DateOnly? End { get; set; }
 
-    [DefaultValue((double)int.MaxValue)]
+    [JsonIgnore]
     public double Order { get; set; } = int.MaxValue;
 
     [DefaultValue(false)]

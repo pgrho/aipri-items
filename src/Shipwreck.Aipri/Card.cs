@@ -19,7 +19,7 @@ public sealed class Card : DataItem
     [DefaultValue("")]
     public string Coordinate { get; set; } = string.Empty;
 
-    [DefaultValue((double)int.MaxValue)]
+    [JsonIgnore]
     public double Order { get; set; } = int.MaxValue;
 
     #region Character

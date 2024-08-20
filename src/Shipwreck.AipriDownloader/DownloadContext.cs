@@ -2,7 +2,6 @@
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.RegularExpressions;
-using Shipwreck.Aipri;
 
 namespace Shipwreck.AipriDownloader;
 
@@ -626,8 +625,8 @@ public sealed class DownloadContext : IDisposable
                                                     .Select(e => e.Clone())),
                     Categories = new(_DataSet.Categories.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Brands = new(_DataSet.Brands.OrderBy(e => e.Id).Select(e => e.Clone())),
-                    Coordinates = new(_DataSet.Coordinates.OrderBy(e => e.Id).Select(e => e.Clone())),
-                    CoordinateItems = new(_DataSet.CoordinateItems.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Coordinates = new(_DataSet.Coordinates.OrderBy(e => e.Order).ThenBy(e => e.Id).Select(e => e.Clone())),
+                    CoordinateItems = new(_DataSet.CoordinateItems.OrderBy(e => e.GetCoordinate()?.Order).ThenBy(e => e.GetCoordinate()?.Id).ThenBy(e => e.Id).Select(e => e.Clone())),
                     PartCategories = new(_DataSet.PartCategories.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Parts = new(_DataSet.Parts.OrderBy(e => e.Id).Select(e => e.Clone())),
 
@@ -641,7 +640,7 @@ public sealed class DownloadContext : IDisposable
                                             .ThenBy(e => e.Name.StartsWith("レッツ！アイプリ") ? 1 : 0)
                                             .ThenBy(e => e.Id)
                                             .Select(e => e.Clone())),
-                    Cards = new(_DataSet.Cards.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Cards = new(_DataSet.Cards.OrderBy(e => e.Order).ThenBy(e => e.Id).Select(e => e.Clone())),
                 }, new JsonSerializerOptions()
                 {
                     WriteIndented = true,
