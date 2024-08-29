@@ -97,6 +97,10 @@
     {
       "Id": 11,
       "Name": "ベアベアべア"
+    },
+    {
+      "Id": 12,
+      "Name": "ラブマイミュージック"
     }
   ],
   "Coordinates": [
@@ -1964,6 +1968,230 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 246,
+      "ChapterId": "3",
+      "BrandId": 9,
+      "Star": 4,
+      "Name": "レインボーキャンディバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-010F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-010F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 247,
+      "ChapterId": "3",
+      "BrandId": 10,
+      "Star": 4,
+      "Name": "ベアベアベアバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-013F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-013F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 248,
+      "ChapterId": "3",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとめざカーネリアン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-047F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-047F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 249,
+      "ChapterId": "3",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとぎばなしあかずきん",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-051F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-051F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 250,
+      "ChapterId": "3",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとぎばなしあかずきんイエロー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-055F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-055F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 251,
+      "ChapterId": "3",
+      "BrandId": 9,
+      "Star": 4,
+      "Name": "カワイイあめちゃん",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-059F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-059F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 252,
+      "ChapterId": "3",
+      "BrandId": 10,
+      "Star": 4,
+      "Name": "カワイイくまさん",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-062F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-062F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 253,
+      "ChapterId": "3",
+      "BrandId": 10,
+      "Star": 4,
+      "Name": "おやすみメリー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-065F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-065F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 254,
+      "ChapterId": "3",
+      "BrandId": 10,
+      "Star": 4,
+      "Name": "おやすみメリーモーニング",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-068F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-068F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 255,
+      "ChapterId": "3",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "ハッピーバースデー！みつき",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-071F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-071F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 256,
+      "ChapterId": "3",
+      "BrandId": 10,
+      "Star": 4,
+      "Name": "ハッピーバースデー！リンリン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-075F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-075F_thumb.webp",
+      "Group": "3だん後半\u3000★★★★ピックアップ",
+      "Kind": "3だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-09-05",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 257,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ファンタジータイムドリーム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-162F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-162F_thumb.webp",
+      "Group": "アイドルタイムプリパラ➁",
+      "Kind": "アイドルタイムプリパラ➁",
+      "Start": "2024-09-05",
+      "End": "0001-01-06",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 258,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ときのコーデ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-165F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-165F_thumb.webp",
+      "Group": "アイドルタイムプリパラ➁",
+      "Kind": "アイドルタイムプリパラ➁",
+      "Start": "2024-09-05",
+      "End": "0001-01-06",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 259,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "マイ☆ドリームミルキーブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-169F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-169F_thumb.webp",
+      "Group": "アイドルタイムプリパラ➁",
+      "Kind": "アイドルタイムプリパラ➁",
+      "Start": "2024-09-05",
+      "End": "0001-01-06",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 260,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "マイ☆ドリームミルキーオレンジ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-173F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-173F_thumb.webp",
+      "Group": "アイドルタイムプリパラ➁",
+      "Kind": "アイドルタイムプリパラ➁",
+      "Start": "2024-09-05",
+      "End": "0001-01-06",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 261,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "マイ☆ドリームミルキーパープル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-177F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-177F_thumb.webp",
+      "Group": "アイドルタイムプリパラ➁",
+      "Kind": "アイドルタイムプリパラ➁",
+      "Start": "2024-09-05",
+      "End": "0001-01-06",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 189,
       "ChapterId": "3",
       "BrandId": 1,
@@ -2132,85 +2360,85 @@
       "LinkedItemIds": []
     },
     {
-      "Id": 198,
+      "Id": 262,
       "ChapterId": "3",
       "BrandId": 4,
       "Star": 4,
       "Name": "ひみつのアイドルタイムゆい",
       "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-144F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-144F_thumb.webp",
-      "Group": "アイドルタイムプリパラ",
-      "Kind": "アイドルタイムプリパラ",
+      "Group": "アイドルタイムプリパラ①",
+      "Kind": "アイドルタイムプリパラ①",
       "Start": "2024-08-01",
       "End": "2024-09-04",
       "LinkedItemIds": []
     },
     {
-      "Id": 199,
+      "Id": 263,
       "ChapterId": "3",
       "BrandId": 4,
       "Star": 4,
       "Name": "ひみつのアイドルタイムにの",
       "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-147F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-147F_thumb.webp",
-      "Group": "アイドルタイムプリパラ",
-      "Kind": "アイドルタイムプリパラ",
+      "Group": "アイドルタイムプリパラ①",
+      "Kind": "アイドルタイムプリパラ①",
       "Start": "2024-08-01",
       "End": "2024-09-04",
       "LinkedItemIds": []
     },
     {
-      "Id": 200,
+      "Id": 264,
       "ChapterId": "3",
       "BrandId": 4,
       "Star": 4,
       "Name": "ひみつのアイドルタイムみちる",
       "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-150F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-150F_thumb.webp",
-      "Group": "アイドルタイムプリパラ",
-      "Kind": "アイドルタイムプリパラ",
+      "Group": "アイドルタイムプリパラ①",
+      "Kind": "アイドルタイムプリパラ①",
       "Start": "2024-08-01",
       "End": "2024-09-04",
       "LinkedItemIds": []
     },
     {
-      "Id": 201,
+      "Id": 265,
       "ChapterId": "3",
       "BrandId": 4,
       "Star": 3,
       "Name": "ファンタジータイムサイリウム",
       "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-153F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-153F_thumb.webp",
-      "Group": "アイドルタイムプリパラ",
-      "Kind": "アイドルタイムプリパラ",
+      "Group": "アイドルタイムプリパラ①",
+      "Kind": "アイドルタイムプリパラ①",
       "Start": "2024-08-01",
       "End": "2024-09-04",
       "LinkedItemIds": []
     },
     {
-      "Id": 202,
+      "Id": 266,
       "ChapterId": "3",
       "BrandId": 4,
       "Star": 3,
       "Name": "ネオンドロップサイリウム",
       "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-156F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-156F_thumb.webp",
-      "Group": "アイドルタイムプリパラ",
-      "Kind": "アイドルタイムプリパラ",
+      "Group": "アイドルタイムプリパラ①",
+      "Kind": "アイドルタイムプリパラ①",
       "Start": "2024-08-01",
       "End": "2024-09-04",
       "LinkedItemIds": []
     },
     {
-      "Id": 203,
+      "Id": 267,
       "ChapterId": "3",
       "BrandId": 4,
       "Star": 3,
       "Name": "メルティリリィサイリウム",
       "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-159F.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-159F_thumb.webp",
-      "Group": "アイドルタイムプリパラ",
-      "Kind": "アイドルタイムプリパラ",
+      "Group": "アイドルタイムプリパラ①",
+      "Kind": "アイドルタイムプリパラ①",
       "Start": "2024-08-01",
       "End": "2024-09-04",
       "LinkedItemIds": []
@@ -2310,6 +2538,34 @@
       "Group": "サンリオキャラクターズコラボ",
       "Kind": "サンリオキャラクターズコラボ",
       "Start": "2024-08-01",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 268,
+      "ChapterId": "3",
+      "BrandId": 12,
+      "Star": 3,
+      "Name": "クロミ パーティー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-209F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-209F_thumb.webp",
+      "Group": "サンリオキャラクターズコラボ",
+      "Kind": "サンリオキャラクターズコラボ",
+      "Start": "2024-08-01",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 269,
+      "ChapterId": "3",
+      "BrandId": 6,
+      "Star": 3,
+      "Name": "フレッシュレモンゆめかわ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-213F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-213F_thumb.webp",
+      "Group": "TGC 2024 A/W",
+      "Kind": "TGC 2024 A/W",
+      "Start": "2024-09-05",
       "End": "2024-09-04",
       "LinkedItemIds": []
     },
@@ -3402,6 +3658,90 @@
       "Kind": "プリパラ",
       "Start": "2024-06-06",
       "End": "2024-07-31",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 198,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのアイドルタイムゆい",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-144F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-144F_thumb.webp",
+      "Group": "アイドルタイムプリパラ",
+      "Kind": "アイドルタイムプリパラ",
+      "Start": "2024-08-01",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 199,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのアイドルタイムにの",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-147F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-147F_thumb.webp",
+      "Group": "アイドルタイムプリパラ",
+      "Kind": "アイドルタイムプリパラ",
+      "Start": "2024-08-01",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 200,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのアイドルタイムみちる",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-150F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-150F_thumb.webp",
+      "Group": "アイドルタイムプリパラ",
+      "Kind": "アイドルタイムプリパラ",
+      "Start": "2024-08-01",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 201,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "ファンタジータイムサイリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-153F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-153F_thumb.webp",
+      "Group": "アイドルタイムプリパラ",
+      "Kind": "アイドルタイムプリパラ",
+      "Start": "2024-08-01",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 202,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "ネオンドロップサイリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-156F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-156F_thumb.webp",
+      "Group": "アイドルタイムプリパラ",
+      "Kind": "アイドルタイムプリパラ",
+      "Start": "2024-08-01",
+      "End": "2024-09-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 203,
+      "ChapterId": "3",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "メルティリリィサイリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/V3-159F.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-159F_thumb.webp",
+      "Group": "アイドルタイムプリパラ",
+      "Kind": "アイドルタイムプリパラ",
+      "Start": "2024-08-01",
+      "End": "2024-09-04",
       "LinkedItemIds": []
     },
     {
@@ -7220,6 +7560,462 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/2/Item_ID30455.webp"
     },
     {
+      "Id": 30499,
+      "CoordinateId": 246,
+      "SealId": "V3-010",
+      "CategoryId": 2,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30499.webp"
+    },
+    {
+      "Id": 30500,
+      "CoordinateId": 246,
+      "SealId": "V3-011",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30500.webp"
+    },
+    {
+      "Id": 30501,
+      "CoordinateId": 246,
+      "SealId": "V3-012",
+      "CategoryId": 5,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30501.webp"
+    },
+    {
+      "Id": 30502,
+      "CoordinateId": 247,
+      "SealId": "V3-013",
+      "CategoryId": 2,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30502.webp"
+    },
+    {
+      "Id": 30503,
+      "CoordinateId": 247,
+      "SealId": "V3-014",
+      "CategoryId": 4,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30503.webp"
+    },
+    {
+      "Id": 30504,
+      "CoordinateId": 247,
+      "SealId": "V3-015",
+      "CategoryId": 5,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30504.webp"
+    },
+    {
+      "Id": 30505,
+      "CoordinateId": 248,
+      "SealId": "V3-047",
+      "CategoryId": 1,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30505.webp"
+    },
+    {
+      "Id": 30506,
+      "CoordinateId": 248,
+      "SealId": "V3-048",
+      "CategoryId": 3,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30506.webp"
+    },
+    {
+      "Id": 30507,
+      "CoordinateId": 248,
+      "SealId": "V3-049",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30507.webp"
+    },
+    {
+      "Id": 30508,
+      "CoordinateId": 248,
+      "SealId": "V3-050",
+      "CategoryId": 5,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30508.webp"
+    },
+    {
+      "Id": 30509,
+      "CoordinateId": 249,
+      "SealId": "V3-051",
+      "CategoryId": 1,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30509.webp"
+    },
+    {
+      "Id": 30510,
+      "CoordinateId": 249,
+      "SealId": "V3-052",
+      "CategoryId": 3,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30510.webp"
+    },
+    {
+      "Id": 30511,
+      "CoordinateId": 249,
+      "SealId": "V3-053",
+      "CategoryId": 4,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30511.webp"
+    },
+    {
+      "Id": 30512,
+      "CoordinateId": 249,
+      "SealId": "V3-054",
+      "CategoryId": 5,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30512.webp"
+    },
+    {
+      "Id": 30513,
+      "CoordinateId": 250,
+      "SealId": "V3-055",
+      "CategoryId": 1,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30513.webp"
+    },
+    {
+      "Id": 30514,
+      "CoordinateId": 250,
+      "SealId": "V3-056",
+      "CategoryId": 3,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30514.webp"
+    },
+    {
+      "Id": 30515,
+      "CoordinateId": 250,
+      "SealId": "V3-057",
+      "CategoryId": 4,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30515.webp"
+    },
+    {
+      "Id": 30516,
+      "CoordinateId": 250,
+      "SealId": "V3-058",
+      "CategoryId": 5,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30516.webp"
+    },
+    {
+      "Id": 30517,
+      "CoordinateId": 251,
+      "SealId": "V3-059",
+      "CategoryId": 2,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30517.webp"
+    },
+    {
+      "Id": 30518,
+      "CoordinateId": 251,
+      "SealId": "V3-060",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30518.webp"
+    },
+    {
+      "Id": 30519,
+      "CoordinateId": 251,
+      "SealId": "V3-061",
+      "CategoryId": 5,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30519.webp"
+    },
+    {
+      "Id": 30520,
+      "CoordinateId": 252,
+      "SealId": "V3-062",
+      "CategoryId": 2,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30520.webp"
+    },
+    {
+      "Id": 30521,
+      "CoordinateId": 252,
+      "SealId": "V3-063",
+      "CategoryId": 4,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30521.webp"
+    },
+    {
+      "Id": 30522,
+      "CoordinateId": 252,
+      "SealId": "V3-064",
+      "CategoryId": 5,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30522.webp"
+    },
+    {
+      "Id": 30523,
+      "CoordinateId": 253,
+      "SealId": "V3-065",
+      "CategoryId": 2,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30523.webp"
+    },
+    {
+      "Id": 30524,
+      "CoordinateId": 253,
+      "SealId": "V3-066",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30524.webp"
+    },
+    {
+      "Id": 30525,
+      "CoordinateId": 253,
+      "SealId": "V3-067",
+      "CategoryId": 5,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30525.webp"
+    },
+    {
+      "Id": 30526,
+      "CoordinateId": 254,
+      "SealId": "V3-068",
+      "CategoryId": 2,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30526.webp"
+    },
+    {
+      "Id": 30527,
+      "CoordinateId": 254,
+      "SealId": "V3-069",
+      "CategoryId": 4,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30527.webp"
+    },
+    {
+      "Id": 30528,
+      "CoordinateId": 254,
+      "SealId": "V3-070",
+      "CategoryId": 5,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30528.webp"
+    },
+    {
+      "Id": 30529,
+      "CoordinateId": 255,
+      "SealId": "V3-071",
+      "CategoryId": 1,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30529.webp"
+    },
+    {
+      "Id": 30530,
+      "CoordinateId": 255,
+      "SealId": "V3-072",
+      "CategoryId": 3,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30530.webp"
+    },
+    {
+      "Id": 30531,
+      "CoordinateId": 255,
+      "SealId": "V3-073",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30531.webp"
+    },
+    {
+      "Id": 30532,
+      "CoordinateId": 255,
+      "SealId": "V3-074",
+      "CategoryId": 5,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30532.webp"
+    },
+    {
+      "Id": 30533,
+      "CoordinateId": 256,
+      "SealId": "V3-075",
+      "CategoryId": 1,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30533.webp"
+    },
+    {
+      "Id": 30534,
+      "CoordinateId": 256,
+      "SealId": "V3-076",
+      "CategoryId": 3,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30534.webp"
+    },
+    {
+      "Id": 30535,
+      "CoordinateId": 256,
+      "SealId": "V3-077",
+      "CategoryId": 4,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30535.webp"
+    },
+    {
+      "Id": 30536,
+      "CoordinateId": 256,
+      "SealId": "V3-078",
+      "CategoryId": 5,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30536.webp"
+    },
+    {
+      "Id": 30621,
+      "CoordinateId": 257,
+      "SealId": "V3-162",
+      "CategoryId": 2,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30621.webp"
+    },
+    {
+      "Id": 30622,
+      "CoordinateId": 257,
+      "SealId": "V3-163",
+      "CategoryId": 4,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30622.webp"
+    },
+    {
+      "Id": 30623,
+      "CoordinateId": 257,
+      "SealId": "V3-164",
+      "CategoryId": 5,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30623.webp"
+    },
+    {
+      "Id": 30624,
+      "CoordinateId": 258,
+      "SealId": "V3-165",
+      "CategoryId": 1,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30624.webp"
+    },
+    {
+      "Id": 30625,
+      "CoordinateId": 258,
+      "SealId": "V3-166",
+      "CategoryId": 3,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30625.webp"
+    },
+    {
+      "Id": 30626,
+      "CoordinateId": 258,
+      "SealId": "V3-167",
+      "CategoryId": 4,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30626.webp"
+    },
+    {
+      "Id": 30627,
+      "CoordinateId": 258,
+      "SealId": "V3-168",
+      "CategoryId": 5,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30627.webp"
+    },
+    {
+      "Id": 30628,
+      "CoordinateId": 259,
+      "SealId": "V3-169",
+      "CategoryId": 1,
+      "Point": 110,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30628.webp"
+    },
+    {
+      "Id": 30629,
+      "CoordinateId": 259,
+      "SealId": "V3-170",
+      "CategoryId": 3,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30629.webp"
+    },
+    {
+      "Id": 30630,
+      "CoordinateId": 259,
+      "SealId": "V3-171",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30630.webp"
+    },
+    {
+      "Id": 30631,
+      "CoordinateId": 259,
+      "SealId": "V3-172",
+      "CategoryId": 5,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30631.webp"
+    },
+    {
+      "Id": 30632,
+      "CoordinateId": 260,
+      "SealId": "V3-173",
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30632.webp"
+    },
+    {
+      "Id": 30633,
+      "CoordinateId": 260,
+      "SealId": "V3-174",
+      "CategoryId": 3,
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30633.webp"
+    },
+    {
+      "Id": 30634,
+      "CoordinateId": 260,
+      "SealId": "V3-175",
+      "CategoryId": 4,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30634.webp"
+    },
+    {
+      "Id": 30635,
+      "CoordinateId": 260,
+      "SealId": "V3-176",
+      "CategoryId": 5,
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30635.webp"
+    },
+    {
+      "Id": 30636,
+      "CoordinateId": 261,
+      "SealId": "V3-177",
+      "CategoryId": 1,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30636.webp"
+    },
+    {
+      "Id": 30637,
+      "CoordinateId": 261,
+      "SealId": "V3-178",
+      "CategoryId": 3,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30637.webp"
+    },
+    {
+      "Id": 30638,
+      "CoordinateId": 261,
+      "SealId": "V3-179",
+      "CategoryId": 4,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30638.webp"
+    },
+    {
+      "Id": 30639,
+      "CoordinateId": 261,
+      "SealId": "V3-180",
+      "CategoryId": 5,
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30639.webp"
+    },
+    {
       "Id": 30468,
       "CoordinateId": 189,
       "SealId": "V3-001",
@@ -7541,7 +8337,7 @@
     },
     {
       "Id": 30603,
-      "CoordinateId": 198,
+      "CoordinateId": 262,
       "SealId": "V3-144",
       "CategoryId": 2,
       "Point": 330,
@@ -7549,7 +8345,7 @@
     },
     {
       "Id": 30604,
-      "CoordinateId": 198,
+      "CoordinateId": 262,
       "SealId": "V3-145",
       "CategoryId": 4,
       "Point": 190,
@@ -7557,7 +8353,7 @@
     },
     {
       "Id": 30605,
-      "CoordinateId": 198,
+      "CoordinateId": 262,
       "SealId": "V3-146",
       "CategoryId": 5,
       "Point": 160,
@@ -7565,7 +8361,7 @@
     },
     {
       "Id": 30606,
-      "CoordinateId": 199,
+      "CoordinateId": 263,
       "SealId": "V3-147",
       "CategoryId": 2,
       "Point": 350,
@@ -7573,7 +8369,7 @@
     },
     {
       "Id": 30607,
-      "CoordinateId": 199,
+      "CoordinateId": 263,
       "SealId": "V3-148",
       "CategoryId": 4,
       "Point": 170,
@@ -7581,7 +8377,7 @@
     },
     {
       "Id": 30608,
-      "CoordinateId": 199,
+      "CoordinateId": 263,
       "SealId": "V3-149",
       "CategoryId": 5,
       "Point": 160,
@@ -7589,7 +8385,7 @@
     },
     {
       "Id": 30609,
-      "CoordinateId": 200,
+      "CoordinateId": 264,
       "SealId": "V3-150",
       "CategoryId": 2,
       "Point": 360,
@@ -7597,7 +8393,7 @@
     },
     {
       "Id": 30610,
-      "CoordinateId": 200,
+      "CoordinateId": 264,
       "SealId": "V3-151",
       "CategoryId": 4,
       "Point": 160,
@@ -7605,7 +8401,7 @@
     },
     {
       "Id": 30611,
-      "CoordinateId": 200,
+      "CoordinateId": 264,
       "SealId": "V3-152",
       "CategoryId": 5,
       "Point": 160,
@@ -7613,7 +8409,7 @@
     },
     {
       "Id": 30612,
-      "CoordinateId": 201,
+      "CoordinateId": 265,
       "SealId": "V3-153",
       "CategoryId": 2,
       "Point": 280,
@@ -7621,7 +8417,7 @@
     },
     {
       "Id": 30613,
-      "CoordinateId": 201,
+      "CoordinateId": 265,
       "SealId": "V3-154",
       "CategoryId": 4,
       "Point": 130,
@@ -7629,7 +8425,7 @@
     },
     {
       "Id": 30614,
-      "CoordinateId": 201,
+      "CoordinateId": 265,
       "SealId": "V3-155",
       "CategoryId": 5,
       "Point": 110,
@@ -7637,7 +8433,7 @@
     },
     {
       "Id": 30615,
-      "CoordinateId": 202,
+      "CoordinateId": 266,
       "SealId": "V3-156",
       "CategoryId": 2,
       "Point": 260,
@@ -7645,7 +8441,7 @@
     },
     {
       "Id": 30616,
-      "CoordinateId": 202,
+      "CoordinateId": 266,
       "SealId": "V3-157",
       "CategoryId": 4,
       "Point": 120,
@@ -7653,7 +8449,7 @@
     },
     {
       "Id": 30617,
-      "CoordinateId": 202,
+      "CoordinateId": 266,
       "SealId": "V3-158",
       "CategoryId": 5,
       "Point": 140,
@@ -7661,7 +8457,7 @@
     },
     {
       "Id": 30618,
-      "CoordinateId": 203,
+      "CoordinateId": 267,
       "SealId": "V3-159",
       "CategoryId": 2,
       "Point": 260,
@@ -7669,7 +8465,7 @@
     },
     {
       "Id": 30619,
-      "CoordinateId": 203,
+      "CoordinateId": 267,
       "SealId": "V3-160",
       "CategoryId": 4,
       "Point": 130,
@@ -7677,7 +8473,7 @@
     },
     {
       "Id": 30620,
-      "CoordinateId": 203,
+      "CoordinateId": 267,
       "SealId": "V3-161",
       "CategoryId": 5,
       "Point": 130,
@@ -7906,6 +8702,46 @@
       "CategoryId": 5,
       "Point": 120,
       "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30667.webp"
+    },
+    {
+      "Id": 30668,
+      "CoordinateId": 268,
+      "SealId": "V3-209",
+      "CategoryId": 1,
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30668.webp"
+    },
+    {
+      "Id": 30669,
+      "CoordinateId": 268,
+      "SealId": "V3-210",
+      "CategoryId": 3,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30669.webp"
+    },
+    {
+      "Id": 30670,
+      "CoordinateId": 268,
+      "SealId": "V3-211",
+      "CategoryId": 4,
+      "Point": 120,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30670.webp"
+    },
+    {
+      "Id": 30671,
+      "CoordinateId": 268,
+      "SealId": "V3-212",
+      "CategoryId": 5,
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30671.webp"
+    },
+    {
+      "Id": 30672,
+      "CoordinateId": 269,
+      "SealId": "V3-213",
+      "CategoryId": 2,
+      "Point": 260,
+      "ImageUrl": "https://aipri.jp/verse/item/img/3/Item_ID30672.webp"
     },
     {
       "Id": 30537,
@@ -11385,7 +12221,7 @@
       "Id": 79,
       "CategoryId": 4,
       "Name": "Pまるさま。まえがみ",
-      "Description": "２だん",
+      "Description": "2だん",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0009.webp"
     },
     {
@@ -11413,7 +12249,7 @@
       "Id": 83,
       "CategoryId": 5,
       "Name": "Pまるさま。うしろがみ",
-      "Description": "２だん",
+      "Description": "2だん",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0009.webp"
     },
     {
@@ -11504,7 +12340,7 @@
       "Id": 96,
       "CategoryId": 7,
       "Name": "Pまるさま。アイ",
-      "Description": "２だん",
+      "Description": "2だん",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0019.webp"
     },
     {
@@ -11777,7 +12613,7 @@
       "Id": 135,
       "CategoryId": 4,
       "Name": "ぱっつんエムじ",
-      "Description": "",
+      "Description": "3だんマイキャラフェス➁",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0011.webp"
     },
     {
@@ -11786,6 +12622,41 @@
       "Name": "マーメイドデコ",
       "Description": "",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0013.webp"
+    },
+    {
+      "Id": 137,
+      "CategoryId": 5,
+      "Name": "ひまりツインテ",
+      "Description": "まいつきもらおうマイキャラパーツ！",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0012.webp"
+    },
+    {
+      "Id": 138,
+      "CategoryId": 6,
+      "Name": "ファララグリーン",
+      "Description": "ドリーム「ときのせいれいファララ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0026.webp"
+    },
+    {
+      "Id": 139,
+      "CategoryId": 6,
+      "Name": "ひまりピンク",
+      "Description": "まいつきもらおうマイキャラパーツ！",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0028.webp"
+    },
+    {
+      "Id": 140,
+      "CategoryId": 7,
+      "Name": "ファララクロック",
+      "Description": "ドリーム「ときのせいれいファララ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0022.webp"
+    },
+    {
+      "Id": 141,
+      "CategoryId": 11,
+      "Name": "ファララティアラ",
+      "Description": "ドリーム「ときのせいれいファララ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0006.webp"
     }
   ],
   "HimitsuChapters": [
@@ -15314,6 +16185,56 @@
       "Star": 2,
       "Point": 450,
       "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-021_O.webp"
+    },
+    {
+      "Id": 245,
+      "ChapterId": "special",
+      "SealId": "P-038",
+      "Coordinate": "フレッシュレモンゆめかわ",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/P-038_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-038_U.webp"
+    },
+    {
+      "Id": 246,
+      "ChapterId": "special",
+      "SealId": "P-028",
+      "Coordinate": "ミルキーウェイピンク",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/P-028_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-028_U.webp"
+    },
+    {
+      "Id": 247,
+      "ChapterId": "special",
+      "SealId": "P-027",
+      "Coordinate": "マーメイドグランプリパープル",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-027_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-027_U.webp"
+    },
+    {
+      "Id": 248,
+      "ChapterId": "special",
+      "SealId": "P-037P_O",
+      "Coordinate": "ミラクルムーンバズリウム",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/P-037P_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-037P_U.webp"
+    },
+    {
+      "Id": 249,
+      "ChapterId": "special",
+      "SealId": "P-037_O",
+      "Coordinate": "ミラクルムーンバズリウム",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/P-037_O_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-037_O_U.webp"
     },
     {
       "Id": 243,
