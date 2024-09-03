@@ -155,7 +155,7 @@ internal class Program
             {
                 start = new DateOnly(sy, sm, sd);
 
-                var ma2 = Regex.Match(period, "～(\\d{0,4})年?(\\d+)月(\\d+)日[(（][日月火水木金土][）)]$");
+                var ma2 = Regex.Match(period, "～(\\d{0,4}?)年?(\\d+)月(\\d+)日[(（][日月火水木金土][）)]$");
                 if (ma2.Success
                     && int.TryParse(ma2.Groups[2].Value, out var em)
                     && 1 <= em && em <= 12
