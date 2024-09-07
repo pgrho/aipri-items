@@ -3177,7 +3177,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "フラワーチュールオレンジブーケ",
-      "Group": "お店でアイプリグランプリ\u3000抽選参加景品",
+      "Group": "店頭大会",
       "Kind": "お店でアイプリグランプリ\u3000抽選参加景品",
       "HasChance": true,
       "LinkedItemIds": []
@@ -3188,7 +3188,7 @@
       "BrandId": 5,
       "Star": 4,
       "Name": "ローズグランプリノーブルブルー",
-      "Group": "お店でアイプリグランプリ\u3000参加景品",
+      "Group": "店頭大会",
       "Kind": "お店でアイプリグランプリ\u3000参加景品",
       "HasChance": true,
       "LinkedItemIds": []
@@ -4195,6 +4195,22 @@
       "Name": "フレッシュレモンパープル",
       "Group": "CD・Blu-ray",
       "Kind": "キャラクターソングミニアルバム",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900029,
+      "ChapterId": "special",
+      "Name": "マーメイドグランプリパープル",
+      "Group": "店頭大会",
+      "Kind": "お店でアイプリグランプリ\u3000参加景品",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900030,
+      "ChapterId": "special",
+      "Name": "ミルキーウェイピンク",
+      "Group": "店頭大会",
+      "Kind": "お店でアイプリグランプリ\u3000抽選参加景品",
       "LinkedItemIds": []
     }
   ],
@@ -11616,6 +11632,55 @@
       "Id": 910108,
       "CoordinateId": 9900028,
       "SealId": "TEMP012-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910109,
+      "CoordinateId": 9900029,
+      "SealId": "TEMP013-1",
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910110,
+      "CoordinateId": 9900029,
+      "SealId": "TEMP013-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910111,
+      "CoordinateId": 9900029,
+      "SealId": "TEMP013-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910112,
+      "CoordinateId": 9900030,
+      "SealId": "TEMP014-1",
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910113,
+      "CoordinateId": 9900030,
+      "SealId": "TEMP014-2",
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910114,
+      "CoordinateId": 9900030,
+      "SealId": "TEMP014-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910115,
+      "CoordinateId": 9900030,
+      "SealId": "TEMP014-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }

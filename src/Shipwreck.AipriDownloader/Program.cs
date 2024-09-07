@@ -139,6 +139,7 @@ internal class Program
                 : kind?.StartsWith("ひみつのアイプリ ぬいぐるみ") == true ? "ぬいぐるみ・マスコット"
                 : kind?.StartsWith("ひみつのアイプリ ボールチェーンマスコット") == true ? "ぬいぐるみ・マスコット"
                 : kind?.StartsWith("ちゃお") == true ? "ちゃお付録"
+                : kind?.StartsWith("お店でアイプリグランプリ") == true ? "店頭大会"
                 : kind;
 
             DateOnly? start = null, end = null;
