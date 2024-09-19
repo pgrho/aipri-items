@@ -12741,6 +12741,10 @@
       "Start": "2024-08-01"
     },
     {
+      "Id": "4",
+      "Name": "4だん"
+    },
+    {
       "Id": "gumi",
       "Name": "アイプリカード♪コレクショングミ"
     },
@@ -12781,6 +12785,10 @@
     {
       "Id": 7,
       "Name": "リンリン"
+    },
+    {
+      "Id": 8,
+      "Name": "チィ"
     }
   ],
   "Songs": [
@@ -15867,6 +15875,646 @@
       "Image2Url": "https://aipri.jp/card/img/3/AP3-062_U.webp"
     },
     {
+      "Id": 250,
+      "ChapterId": "4",
+      "SealId": "AP4-001",
+      "Coordinate": "カルテットスターバズリウムハート",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-001_U.webp"
+    },
+    {
+      "Id": 251,
+      "ChapterId": "4",
+      "SealId": "AP4-002",
+      "Coordinate": "カルテットスターバズリウムスペード",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-002_U.webp"
+    },
+    {
+      "Id": 252,
+      "ChapterId": "4",
+      "SealId": "AP4-003",
+      "Coordinate": "カルテットスターバズリウムダイヤ",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-003_U.webp"
+    },
+    {
+      "Id": 253,
+      "ChapterId": "4",
+      "SealId": "AP4-004",
+      "Coordinate": "カルテットスターバズリウムクラブ",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-004_O.webp"
+    },
+    {
+      "Id": 254,
+      "ChapterId": "4",
+      "SealId": "AP4-005",
+      "Coordinate": "ラブマイミュージックバズリウム",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-005_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-005_U.webp"
+    },
+    {
+      "Id": 255,
+      "ChapterId": "4",
+      "SealId": "AP4-006",
+      "Coordinate": "フェザーグランプリクールレッド",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-006_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-006_U.webp"
+    },
+    {
+      "Id": 256,
+      "ChapterId": "4",
+      "SealId": "AP4-007",
+      "Coordinate": "フェザーグランプリクールブルー",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-007_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-007_U.webp"
+    },
+    {
+      "Id": 257,
+      "ChapterId": "4",
+      "SealId": "AP4-008",
+      "Coordinate": "フェザーグランプリラブリーグリーン",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-008_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-008_U.webp"
+    },
+    {
+      "Id": 258,
+      "ChapterId": "4",
+      "SealId": "AP4-009",
+      "Coordinate": "フェザーグランプリラブリーオレンジ",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-009_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-009_U.webp"
+    },
+    {
+      "Id": 259,
+      "ChapterId": "4",
+      "SealId": "AP4-010",
+      "Coordinate": "ミラクルハロウィンピンク",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-010_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-010_U.webp"
+    },
+    {
+      "Id": 260,
+      "ChapterId": "4",
+      "SealId": "AP4-011",
+      "Coordinate": "ミラクルハロウィンブルー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-011_U.webp"
+    },
+    {
+      "Id": 261,
+      "ChapterId": "4",
+      "SealId": "AP4-012",
+      "Coordinate": "ミラクルハロウィンイエロー",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-012_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-012_U.webp"
+    },
+    {
+      "Id": 262,
+      "ChapterId": "4",
+      "SealId": "AP4-013",
+      "Coordinate": "ゴーストハロウィン",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-013_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-013_U.webp"
+    },
+    {
+      "Id": 263,
+      "ChapterId": "4",
+      "SealId": "AP4-014",
+      "Coordinate": "ゴーストハロウィン",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-014_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-014_U.webp"
+    },
+    {
+      "Id": 264,
+      "ChapterId": "4",
+      "SealId": "AP4-015",
+      "Coordinate": "こあくまロック",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-015_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-015_U.webp"
+    },
+    {
+      "Id": 265,
+      "ChapterId": "4",
+      "SealId": "AP4-016",
+      "Coordinate": "おとぎばなしシンデレラ",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-016_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-016_U.webp"
+    },
+    {
+      "Id": 266,
+      "ChapterId": "4",
+      "SealId": "AP4-017",
+      "Coordinate": "おとぎばなししらゆきひめ",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-017_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-017_U.webp"
+    },
+    {
+      "Id": 267,
+      "ChapterId": "4",
+      "SealId": "AP4-018",
+      "Coordinate": "おとぎばなしあかずきん",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-018_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-018_U.webp"
+    },
+    {
+      "Id": 268,
+      "ChapterId": "4",
+      "SealId": "AP4-019",
+      "Coordinate": "ハッピーバースデー！アイリ",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-019_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-019_U.webp"
+    },
+    {
+      "Id": 269,
+      "ChapterId": "4",
+      "SealId": "AP4-020",
+      "Coordinate": "ハッピーバースデー！チィ",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-020_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-020_U.webp"
+    },
+    {
+      "Id": 270,
+      "ChapterId": "4",
+      "SealId": "AP4-021",
+      "Coordinate": "アイプリバースラブマイミュージック",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-021_O.webp"
+    },
+    {
+      "Id": 271,
+      "ChapterId": "4",
+      "SealId": "AP4-022",
+      "Coordinate": "アイプリバースポッピンハート",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-022_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-022_U.webp"
+    },
+    {
+      "Id": 272,
+      "ChapterId": "4",
+      "SealId": "AP4-023",
+      "Coordinate": "アイプリバースミラクルムーン",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-023_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-023_U.webp"
+    },
+    {
+      "Id": 273,
+      "ChapterId": "4",
+      "SealId": "AP4-024",
+      "Coordinate": "アイプリバースフラワーマーチ",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-024_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-024_U.webp"
+    },
+    {
+      "Id": 274,
+      "ChapterId": "4",
+      "SealId": "AP4-025",
+      "Coordinate": "アイプリバーススカーレットバタフライ",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-025_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-025_U.webp"
+    },
+    {
+      "Id": 275,
+      "ChapterId": "4",
+      "SealId": "AP4-026",
+      "Coordinate": "アイプリバースロゼッション",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-026_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-026_U.webp"
+    },
+    {
+      "Id": 276,
+      "ChapterId": "4",
+      "SealId": "AP4-027",
+      "Coordinate": "ふわもこかいじゅう",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-027_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-027_U.webp"
+    },
+    {
+      "Id": 277,
+      "ChapterId": "4",
+      "SealId": "AP4-028",
+      "Coordinate": "ふわもこかいじゅう",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-028_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-028_U.webp"
+    },
+    {
+      "Id": 278,
+      "ChapterId": "4",
+      "SealId": "AP4-029",
+      "Coordinate": "いたずらモンスター",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-029_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-029_U.webp"
+    },
+    {
+      "Id": 279,
+      "ChapterId": "4",
+      "SealId": "AP4-030",
+      "Coordinate": "いたずらモンスター",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-030_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-030_U.webp"
+    },
+    {
+      "Id": 280,
+      "ChapterId": "4",
+      "SealId": "AP4-031",
+      "Coordinate": "パンキッシュペンギン",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-031_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-031_U.webp"
+    },
+    {
+      "Id": 281,
+      "ChapterId": "4",
+      "SealId": "AP4-032",
+      "Coordinate": "パンキッシュペンギン",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-032_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-032_U.webp"
+    },
+    {
+      "Id": 282,
+      "ChapterId": "4",
+      "SealId": "AP4-033",
+      "Coordinate": "おえかきパレット",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-033_O.webp"
+    },
+    {
+      "Id": 283,
+      "ChapterId": "4",
+      "SealId": "AP4-034",
+      "Coordinate": "おえかきパレット",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-034_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-034_U.webp"
+    },
+    {
+      "Id": 284,
+      "ChapterId": "4",
+      "SealId": "AP4-035",
+      "Coordinate": "おえかきパレット",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-035_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-035_U.webp"
+    },
+    {
+      "Id": 285,
+      "ChapterId": "4",
+      "SealId": "AP4-036",
+      "Coordinate": "スターカウガール",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-036_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-036_U.webp"
+    },
+    {
+      "Id": 286,
+      "ChapterId": "4",
+      "SealId": "AP4-037",
+      "Coordinate": "スターカウガール",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-037_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-037_U.webp"
+    },
+    {
+      "Id": 287,
+      "ChapterId": "4",
+      "SealId": "AP4-038",
+      "Coordinate": "ハーバリウム",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-038_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-038_U.webp"
+    },
+    {
+      "Id": 288,
+      "ChapterId": "4",
+      "SealId": "AP4-039",
+      "Coordinate": "クラシックライブラリー",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-039_O.webp"
+    },
+    {
+      "Id": 289,
+      "ChapterId": "4",
+      "SealId": "AP4-040",
+      "Coordinate": "クラシックライブラリー",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-040_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-040_U.webp"
+    },
+    {
+      "Id": 290,
+      "ChapterId": "4",
+      "SealId": "AP4-041",
+      "Coordinate": "クラシックライブラリー",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-041_O.webp"
+    },
+    {
+      "Id": 291,
+      "ChapterId": "4",
+      "SealId": "AP4-042",
+      "Coordinate": "クラシックライブラリー",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-042_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-042_U.webp"
+    },
+    {
+      "Id": 292,
+      "ChapterId": "4",
+      "SealId": "AP4-043",
+      "Coordinate": "ピタTガール",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-043_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-043_U.webp"
+    },
+    {
+      "Id": 293,
+      "ChapterId": "4",
+      "SealId": "AP4-044",
+      "Coordinate": "ピチッとクロT",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-044_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-044_U.webp"
+    },
+    {
+      "Id": 294,
+      "ChapterId": "4",
+      "SealId": "AP4-045",
+      "Coordinate": "キャンディテーラード",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-045_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-045_U.webp"
+    },
+    {
+      "Id": 295,
+      "ChapterId": "4",
+      "SealId": "AP4-046",
+      "Coordinate": "クラシックバイオレット",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-046_O.webp"
+    },
+    {
+      "Id": 296,
+      "ChapterId": "4",
+      "SealId": "AP4-047",
+      "Coordinate": "パラダイスがくえんせいふく１ねん",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-047_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-047_U.webp"
+    },
+    {
+      "Id": 297,
+      "ChapterId": "4",
+      "SealId": "AP4-048",
+      "Coordinate": "パラダイスがくえんせいふく１ねん",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-048_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-048_U.webp"
+    },
+    {
+      "Id": 298,
+      "ChapterId": "4",
+      "SealId": "AP4-049",
+      "Coordinate": "パラダイスがくえんせいふく１ねん",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-049_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-049_U.webp"
+    },
+    {
+      "Id": 299,
+      "ChapterId": "4",
+      "SealId": "AP4-050",
+      "Coordinate": "パラダイスがくえんせいふく２ねん",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-050_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-050_U.webp"
+    },
+    {
+      "Id": 300,
+      "ChapterId": "4",
+      "SealId": "AP4-051",
+      "Coordinate": "パラダイスがくえんせいふく２ねん",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-051_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-051_U.webp"
+    },
+    {
+      "Id": 301,
+      "ChapterId": "4",
+      "SealId": "AP4-052",
+      "Coordinate": "ラブリーアイドルグリーン",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-052_U.webp"
+    },
+    {
+      "Id": 302,
+      "ChapterId": "4",
+      "SealId": "AP4-053",
+      "Coordinate": "ラブリーアイドルピンク",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-053_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-053_U.webp"
+    },
+    {
+      "Id": 303,
+      "ChapterId": "4",
+      "SealId": "AP4-054",
+      "Coordinate": "ラブリーアイドルイエローミント",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-054_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-054_U.webp"
+    },
+    {
+      "Id": 304,
+      "ChapterId": "4",
+      "SealId": "AP4-055",
+      "Coordinate": "ラブリーアイドルイエロー",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-055_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-055_U.webp"
+    },
+    {
+      "Id": 305,
+      "ChapterId": "4",
+      "SealId": "AP4-056",
+      "Coordinate": "ラブリーアイドルネイビー",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-056_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-056_U.webp"
+    },
+    {
+      "Id": 306,
+      "ChapterId": "4",
+      "SealId": "AP4-057",
+      "Coordinate": "クールアイドルオレンジ",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-057_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-057_U.webp"
+    },
+    {
+      "Id": 307,
+      "ChapterId": "4",
+      "SealId": "AP4-058",
+      "Coordinate": "クールアイドルパープル",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-058_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-058_U.webp"
+    },
+    {
+      "Id": 308,
+      "ChapterId": "4",
+      "SealId": "AP4-059",
+      "Coordinate": "クールアイドルグリーンピンク",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-059_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-059_U.webp"
+    },
+    {
+      "Id": 309,
+      "ChapterId": "4",
+      "SealId": "AP4-060",
+      "Coordinate": "クールアイドルレッド",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-060_O.webp"
+    },
+    {
+      "Id": 310,
+      "ChapterId": "4",
+      "SealId": "AP4-061",
+      "Coordinate": "クールアイドルレッド",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-061_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-061_U.webp"
+    },
+    {
+      "Id": 311,
+      "ChapterId": "4",
+      "SealId": "AP4-062",
+      "Coordinate": "ハッピーチアパープル",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-062_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-062_U.webp"
+    },
+    {
+      "Id": 312,
+      "ChapterId": "4",
+      "SealId": "AP4-063",
+      "Coordinate": "ハッピーチアパープル",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-063_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-063_U.webp"
+    },
+    {
+      "Id": 313,
+      "ChapterId": "4",
+      "SealId": "AP4-064",
+      "Coordinate": "セーラーカジュアルパープル",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-064_U.webp"
+    },
+    {
+      "Id": 314,
+      "ChapterId": "4",
+      "SealId": "AP4-065",
+      "Coordinate": "セーラーカジュアルパープル",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/4/AP4-065_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/4/AP4-065_U.webp"
+    },
+    {
       "Id": 63,
       "ChapterId": "gumi",
       "BrandId": 1,
@@ -16252,6 +16900,36 @@
       "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-021_O.webp"
     },
     {
+      "Id": 315,
+      "ChapterId": "special",
+      "SealId": "P-045",
+      "Coordinate": "スカーレットバタフライバズリウム",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Image1Url": "https://aipri.jp/card/img/special/P-045_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-045_U.webp"
+    },
+    {
+      "Id": 316,
+      "ChapterId": "special",
+      "SealId": "P-044",
+      "Coordinate": "フラワーマーチバズリウム",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/special/P-044_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-044_U.webp"
+    },
+    {
+      "Id": 317,
+      "ChapterId": "special",
+      "SealId": "P-041",
+      "Coordinate": "ピタTガール",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-041_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-041_U.webp"
+    },
+    {
       "Id": 245,
       "ChapterId": "special",
       "SealId": "P-038",
@@ -16290,16 +16968,6 @@
       "CharacterId": 2,
       "Image1Url": "https://aipri.jp/card/img/special/P-037P_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-037P_U.webp"
-    },
-    {
-      "Id": 249,
-      "ChapterId": "special",
-      "SealId": "P-037_O",
-      "Coordinate": "ミラクルムーンバズリウム",
-      "Character": "みつき",
-      "CharacterId": 2,
-      "Image1Url": "https://aipri.jp/card/img/special/P-037_O_O.webp",
-      "Image2Url": "https://aipri.jp/card/img/special/P-037_O_U.webp"
     },
     {
       "Id": 243,
