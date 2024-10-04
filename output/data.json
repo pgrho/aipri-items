@@ -4638,7 +4638,7 @@
     },
     {
       "Id": 9900012,
-      "ChapterId": "special",
+      "ChapterId": "2",
       "Name": "ひみつのはつねミクコーデ",
       "Group": "初音ミクコラボ",
       "Kind": "初音ミクコラボ",
@@ -4774,7 +4774,7 @@
     },
     {
       "Id": 9900029,
-      "ChapterId": "special",
+      "ChapterId": "3",
       "Name": "マーメイドグランプリパープル",
       "Group": "店頭大会",
       "Kind": "お店でアイプリグランプリ\u3000参加景品",
@@ -4782,10 +4782,26 @@
     },
     {
       "Id": 9900030,
-      "ChapterId": "special",
+      "ChapterId": "3",
       "Name": "ミルキーウェイピンク",
       "Group": "店頭大会",
       "Kind": "お店でアイプリグランプリ\u3000抽選参加景品",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900031,
+      "ChapterId": "3",
+      "Name": "セーラーカジュアルゆめかわ",
+      "Group": "TGC 2024 A/W",
+      "Kind": "TGC 2024 A/W",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900032,
+      "ChapterId": "special",
+      "Name": "シークレットフレンズ∞バズリウムパープル",
+      "Group": "ひみつのアイプリ ハートPod&アイプリマイク",
+      "Kind": "ひみつのアイプリ ハートPod&アイプリマイク",
       "LinkedItemIds": []
     }
   ],
@@ -13266,6 +13282,34 @@
       "SealId": "TEMP014-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910116,
+      "CoordinateId": 9900031,
+      "SealId": "TEMP015-1",
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910117,
+      "CoordinateId": 9900032,
+      "SealId": "TEMP016-1",
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910118,
+      "CoordinateId": 9900032,
+      "SealId": "TEMP016-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910119,
+      "CoordinateId": 9900032,
+      "SealId": "TEMP016-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -14719,6 +14763,21 @@
       "Image2Url": "AP3-001P_U.jpg"
     },
     {
+      "Id": 9200015,
+      "ChapterId": "4",
+      "BrandId": 5,
+      "SealId": "AP4-001P",
+      "Coordinate": "カルテットスターバズリウムハート",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Variant": "パラレル",
+      "Song": "Perfect STARs",
+      "SongId": 25,
+      "Star": 4,
+      "Point": 890,
+      "Image1Url": "AP4-001P_O.jpg"
+    },
+    {
       "Id": 9200002,
       "ChapterId": "1",
       "BrandId": 2,
@@ -14765,6 +14824,21 @@
       "Point": 840,
       "Image1Url": "AP3-002P_O.jpg",
       "Image2Url": "AP3-002P_U.jpg"
+    },
+    {
+      "Id": 9200016,
+      "ChapterId": "4",
+      "BrandId": 7,
+      "SealId": "AP4-002P",
+      "Coordinate": "カルテットスターバズリウムスペード",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Variant": "パラレル",
+      "Song": "Perfect STARs",
+      "SongId": 25,
+      "Star": 4,
+      "Point": 890,
+      "Image1Url": "AP4-002P_O.jpg"
     },
     {
       "Id": 9200003,
@@ -14815,6 +14889,21 @@
       "Image2Url": "AP3-003P_U.jpg"
     },
     {
+      "Id": 9200017,
+      "ChapterId": "4",
+      "BrandId": 9,
+      "SealId": "AP4-003P",
+      "Coordinate": "カルテットスターバズリウムダイヤ",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Variant": "パラレル",
+      "Song": "Perfect STARs",
+      "SongId": 25,
+      "Star": 4,
+      "Point": 890,
+      "Image1Url": "AP4-003P_O.jpg"
+    },
+    {
       "Id": 9200004,
       "ChapterId": "1",
       "BrandId": 1,
@@ -14861,6 +14950,36 @@
       "Point": 777,
       "Image1Url": "AP3-018P_O.jpg",
       "Image2Url": "AP3-018P_U.jpg"
+    },
+    {
+      "Id": 9200018,
+      "ChapterId": "4",
+      "BrandId": 10,
+      "SealId": "AP4-004P",
+      "Coordinate": "カルテットスターバズリウムクラブ",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Variant": "パラレル",
+      "Song": "Perfect STARs",
+      "SongId": 25,
+      "Star": 4,
+      "Point": 890,
+      "Image1Url": "AP4-004P_O.jpg"
+    },
+    {
+      "Id": 9200019,
+      "ChapterId": "4",
+      "BrandId": 12,
+      "SealId": "AP4-005P",
+      "Coordinate": "ラブマイミュージックバズリウム",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Variant": "パラレル",
+      "Song": "GIRA GIRA STAR",
+      "SongId": 26,
+      "Star": 4,
+      "Point": 880,
+      "Image1Url": "AP4-005P_O.jpg"
     },
     {
       "Id": 1,
