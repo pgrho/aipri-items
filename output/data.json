@@ -15041,7 +15041,8 @@
       "SongId": 25,
       "Star": 4,
       "Point": 890,
-      "Image1Url": "AP4-001P_O.jpg"
+      "Image1Url": "AP4-001P_O.jpg",
+      "Image2Url": "AP4-001P_U.jpg"
     },
     {
       "Id": 9200002,
@@ -15245,7 +15246,8 @@
       "SongId": 26,
       "Star": 4,
       "Point": 880,
-      "Image1Url": "AP4-005P_O.jpg"
+      "Image1Url": "AP4-005P_O.jpg",
+      "Image2Url": "AP4-005P_U.jpg"
     },
     {
       "Id": 1,
