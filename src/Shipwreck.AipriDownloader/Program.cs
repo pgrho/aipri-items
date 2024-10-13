@@ -46,10 +46,40 @@ internal class Program
             await ParseCardAsync(d, string.Format(CARD_FORMAT, ch.Id), false, order).ConfigureAwait(false);
         }
 
+        var dupBrands = d.DataSet.Brands.GroupBy(e => e.Name).SelectMany(g =>
+        {
+            var l = g.OrderBy(e => e.Id).ToList();
+            return l.Skip(1).Select(e => (first: l[0], item: e));
+        }).ToDictionary(e => e.item.Id, e => e.first);
+
+        foreach (var c in d.DataSet.Cards)
+        {
+            if (c.BrandId is int did
+                && dupBrands.TryGetValue(did, out var b))
+            {
+                c.BrandId = b.Id;
+            }
+        }
+        foreach (var c in d.DataSet.Coordinates)
+        {
+            if (c.BrandId is int did
+                && dupBrands.TryGetValue(did, out var b))
+            {
+                c.BrandId = b.Id;
+            }
+        }
+
         // 既知の誤記載を訂正する
         await FixCoordinateInfoAsync(d).ConfigureAwait(false);
         await FixCoordinateItemInfoAsync(d).ConfigureAwait(false);
         await FixCardInfoAsync(d).ConfigureAwait(false);
+
+        var used = d.DataSet.Cards.Select(e => e.BrandId ?? 0).Concat(d.DataSet.Coordinates.Select(e => e.BrandId ?? 0)).Where(e => e > 0).Distinct().ToList();
+
+        foreach (var b in d.DataSet.Brands.Where(e => !used.Contains(e.Id)).ToList())
+        {
+            d.DataSet.Brands.Remove(b);
+        }
 
         var comparer = StringComparer.Create(
             CultureInfo.InvariantCulture, CompareOptions.IgnoreCase | CompareOptions.IgnoreNonSpace | CompareOptions.IgnoreKanaType | CompareOptions.IgnoreWidth);
@@ -481,6 +511,7 @@ internal class Program
                 {
                     nameof(dt.Id)
                     or "" or null => (Func<Coordinate, bool>)(e => e.Id == dt.Id),
+                    nameof(dt.Name) => (Func<Coordinate, bool>)(e => e.Name == dt.Name),
                     _ => throw new ArgumentException()
                 };
 
@@ -492,11 +523,16 @@ internal class Program
                 }
                 if (t != null)
                 {
-                    t.ChapterId = dt.ChapterId ?? t.ChapterId;
+                    t.ChapterId = dt.ChapterId.TrimOrNull() ?? t.ChapterId;
+                    var ch = d.DataSet.VerseChapters.GetById(t.ChapterId!);
+                    t.BrandId = dt.BrandId ?? t.BrandId;
+
                     t.Star = dt.Star ?? t.Star;
                     t.Name = dt.Name.TrimOrNull() ?? t.Name;
                     t.Group = dt.Group.TrimOrNull() ?? t.Group;
                     t.Kind = dt.Kind.TrimOrNull() ?? t.Kind;
+                    t.Start = dt.Start ?? t.Start ?? ch?.Start;
+                    t.End = dt.End ?? t.End ?? ch?.End;
                 }
             }
         }

@@ -700,6 +700,8 @@ public sealed class DownloadContext : IDisposable
                 var kind = Array.IndexOf(ha, nameof(Coordinate.Kind));
                 var star = Array.IndexOf(ha, nameof(Coordinate.Star));
                 var brand = Array.IndexOf(ha, "Brand");
+                var start = Array.IndexOf(ha, "Start");
+                var end = Array.IndexOf(ha, "End");
 
                 if (key >= 0)
                 {
@@ -721,7 +723,9 @@ public sealed class DownloadContext : IDisposable
                                 Group = read(group) ?? string.Empty,
                                 Kind = read(kind) ?? string.Empty,
                                 Star = byte.TryParse(read(star), out var st) ? st : null,
-                                BrandId = brands.TryGetValue(read(brand) ?? string.Empty, out var bid) ? bid : null
+                                BrandId = brands.TryGetValue(read(brand) ?? string.Empty, out var bid) ? bid : null,
+                                Start = DateOnly.TryParse(read(start), out var d1) ? d1 : null,
+                                End = DateOnly.TryParse(read(end), out var d2) ? d2 : null,
                             }
                         });
                     }
