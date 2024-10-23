@@ -4901,6 +4901,7 @@
     {
       "Id": 9900032,
       "ChapterId": "special",
+      "BrandId": 1,
       "Name": "シークレットフレンズ∞バズリウムパープル",
       "Group": "ひみつのアイプリ ハートPod&アイプリマイク",
       "Kind": "ひみつのアイプリ ハートPod&アイプリマイク",
@@ -4909,9 +4910,10 @@
     {
       "Id": 9900033,
       "ChapterId": "4",
+      "BrandId": 2,
       "Name": "マジシャンキャットイエロー",
       "Group": "Blu-ray特典",
-      "Kind": "ひみつのアイプリ BD BOX secret1",
+      "Kind": "ひみつのアイプリ Blu-ray BOX SECRET.1",
       "Start": "2024-10-03",
       "End": "2024-11-06",
       "LinkedItemIds": []
@@ -13596,28 +13598,28 @@
       "CoordinateId": 9900033,
       "SealId": "TEMP017-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "magician_cat_yellow-1.png"
     },
     {
       "Id": 910121,
       "CoordinateId": 9900033,
       "SealId": "TEMP017-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "magician_cat_yellow-2.png"
     },
     {
       "Id": 910122,
       "CoordinateId": 9900033,
       "SealId": "TEMP017-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "magician_cat_yellow-3.png"
     },
     {
       "Id": 910123,
       "CoordinateId": 9900033,
       "SealId": "TEMP017-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "magician_cat_yellow-4.png"
     }
   ],
   "PartCategories": [
