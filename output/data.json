@@ -4905,6 +4905,16 @@
       "Group": "ひみつのアイプリ ハートPod&アイプリマイク",
       "Kind": "ひみつのアイプリ ハートPod&アイプリマイク",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900033,
+      "ChapterId": "4",
+      "Name": "マジシャンキャットイエロー",
+      "Group": "Blu-ray特典",
+      "Kind": "ひみつのアイプリ BD BOX secret1",
+      "Start": "2024-10-03",
+      "End": "2024-11-06",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -13580,6 +13590,34 @@
       "SealId": "TEMP016-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910120,
+      "CoordinateId": 9900033,
+      "SealId": "TEMP017-1",
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910121,
+      "CoordinateId": 9900033,
+      "SealId": "TEMP017-2",
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910122,
+      "CoordinateId": 9900033,
+      "SealId": "TEMP017-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910123,
+      "CoordinateId": 9900033,
+      "SealId": "TEMP017-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -14787,6 +14825,20 @@
       "Name": "ハロウィンデコ",
       "Description": "オータムツアー2024",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0022.webp"
+    },
+    {
+      "Id": 166,
+      "CategoryId": 5,
+      "Name": "プリンスウルフ",
+      "Description": "4だんマイキャラフェス➁",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0013.webp"
+    },
+    {
+      "Id": 167,
+      "CategoryId": 9,
+      "Name": "カルスタトランプデコ",
+      "Description": "4だんマイキャラフェス①",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0023.webp"
     }
   ],
   "HimitsuChapters": [
