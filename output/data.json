@@ -14841,6 +14841,20 @@
       "Name": "カルスタトランプデコ",
       "Description": "4だんマイキャラフェス①",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0023.webp"
+    },
+    {
+      "Id": 168,
+      "CategoryId": 5,
+      "Name": "みつきロング",
+      "Description": "まいつきもらおうマイキャラパーツ！",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_1023.webp"
+    },
+    {
+      "Id": 169,
+      "CategoryId": 6,
+      "Name": "みつきイエロー",
+      "Description": "まいつきもらおうマイキャラパーツ！",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0034.webp"
     }
   ],
   "HimitsuChapters": [
@@ -19499,6 +19513,26 @@
       "Star": 2,
       "Point": 450,
       "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-021_O.webp"
+    },
+    {
+      "Id": 322,
+      "ChapterId": "special",
+      "SealId": "P-047",
+      "Coordinate": "カワイイあめちゃんげんきオレンジ",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image1Url": "https://aipri.jp/card/img/special/P-047_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-047_U.webp"
+    },
+    {
+      "Id": 323,
+      "ChapterId": "special",
+      "SealId": "P-046",
+      "Coordinate": "フェザーグランプリクールピンク",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Image1Url": "https://aipri.jp/card/img/special/P-046_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-046_U.webp"
     },
     {
       "Id": 318,
