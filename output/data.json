@@ -19515,6 +19515,26 @@
       "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-021_O.webp"
     },
     {
+      "Id": 324,
+      "ChapterId": "special",
+      "SealId": "P-043",
+      "Coordinate": "ミラクルムーンバズリウムピンク",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-043_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-043_U.webp"
+    },
+    {
+      "Id": 325,
+      "ChapterId": "special",
+      "SealId": "P-042",
+      "Coordinate": "ポッピンハートバズリウムブルー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/P-042_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-042_U.webp"
+    },
+    {
       "Id": 322,
       "ChapterId": "special",
       "SealId": "P-047",
