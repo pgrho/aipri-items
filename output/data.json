@@ -5256,6 +5256,26 @@
       "Start": "2024-10-03",
       "End": "2024-11-06",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900034,
+      "ChapterId": "4",
+      "Name": "ミラクルムーンバズリウムピンク",
+      "Group": "店舗限定",
+      "Kind": "モーリーファンタジー・PALO限定チャンス",
+      "Start": "2024-10-03",
+      "End": "2024-12-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900035,
+      "ChapterId": "4",
+      "Name": "ポッピンハートバズリウムブルー",
+      "Group": "店舗限定",
+      "Kind": "namco限定チャンス",
+      "Start": "2024-10-03",
+      "End": "2024-12-04",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -14343,6 +14363,48 @@
       "SealId": "TEMP017-4",
       "CategoryId": 5,
       "ImageUrl": "magician_cat_yellow-4.png"
+    },
+    {
+      "Id": 910124,
+      "CoordinateId": 9900034,
+      "SealId": "TEMP018-1",
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910125,
+      "CoordinateId": 9900034,
+      "SealId": "TEMP018-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910126,
+      "CoordinateId": 9900034,
+      "SealId": "TEMP018-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910127,
+      "CoordinateId": 9900035,
+      "SealId": "TEMP019-1",
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910128,
+      "CoordinateId": 9900035,
+      "SealId": "TEMP019-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910129,
+      "CoordinateId": 9900035,
+      "SealId": "TEMP019-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
