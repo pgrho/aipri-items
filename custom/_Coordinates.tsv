@@ -1,4 +1,4 @@
-Key	ChapterId	Id	Star	Name	Group	Kind	Brand	Start	End
+Key	ChapterId	Id	Star	Name	Group	Kind	Brand	Start	End	Image
 	special	9900001	4	スプリングブロッサム	ひみつのアイプリミルフィーカード vol.1	ひみつのアイプリミルフィーカード vol.1			
 	special	9900002	4	スプリングブルーバタフライ	ひみつのアイプリミルフィーカード vol.1	ひみつのアイプリミルフィーカード vol.1			
 	special	9900003	4	バタフライマジックブルー	ひみつのアイプリミルフィーカード vol.1	ひみつのアイプリミルフィーカード vol.1			
@@ -32,6 +32,6 @@ Key	ChapterId	Id	Star	Name	Group	Kind	Brand	Start	End
 	3	9900031		セーラーカジュアルゆめかわ	TGC 2024 A/W	TGC 2024 A/W			
 	special	9900032		シークレットフレンズ∞バズリウムパープル 	ひみつのアイプリ ハートPod&アイプリマイク	ひみつのアイプリ ハートPod&アイプリマイク	ポッピンハート		
 Name				カワイイくまさんゆめかわ			ベアベアベア		
-	4	9900033		マジシャンキャットイエロー	Blu-ray特典	ひみつのアイプリ Blu-ray BOX SECRET.1	ミラクルムーン		
+	4	9900033		マジシャンキャットイエロー	Blu-ray特典	ひみつのアイプリ Blu-ray BOX SECRET.1	ミラクルムーン			magician_cat_yellow.png
 	4	9900034		ミラクルムーンバズリウムピンク	店舗限定	モーリーファンタジー・PALO限定チャンス			
 	4	9900035		ポッピンハートバズリウムブルー	店舗限定	namco限定チャンス			
