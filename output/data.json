@@ -2940,11 +2940,11 @@
       ]
     },
     {
-      "Id": 319,
+      "Id": 339,
       "ChapterId": "4",
       "BrandId": 8,
       "Star": 4,
-      "Name": "シークレットフレンズ∞バズリウム<br>イエロー",
+      "Name": "シークレットフレンズ∞バズリウムイエロー",
       "ImageUrl": "https://aipri.jp/verse/item/img/4/V3-007.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/4/V3-007_thumb.webp",
       "Group": "4だん後半\u3000★★★★ピックアップ",
@@ -4758,6 +4758,20 @@
       "Group": "キラッとプリ☆チャン",
       "Kind": "キラッとプリ☆チャン",
       "Start": "2024-10-03",
+      "End": "2024-12-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 319,
+      "ChapterId": "4",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "シークレットフレンズ∞バズリウム<br>イエロー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/4/V3-007.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/4/V3-007_thumb.webp",
+      "Group": "4だん後半\u3000★★★★ピックアップ",
+      "Kind": "4だん後半\u3000★★★★ピックアップ",
+      "Start": "2024-11-07",
       "End": "2024-12-04",
       "LinkedItemIds": []
     },

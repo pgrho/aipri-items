@@ -212,7 +212,8 @@ internal class Program
                 var b = string.IsNullOrEmpty(bndName) ? null
                     : await d.AddBrandAsync(bndName, string.IsNullOrEmpty(bndImg) ? null : new Uri(url, bndImg).ToString()).ConfigureAwait(false);
 
-                var title = cNode.SelectSingleNode("@data-name")?.Value;
+                var title = cNode.SelectSingleNode("@data-name")?.Value?.Replace("<br>", "");
+
                 var star = cNode.SelectSingleNode("@data-icn")?.Value is string icn
                         && Regex.Match(Path.GetFileNameWithoutExtension(icn), "^icn_star\\d$") is var icnM
                         && icnM.Success
@@ -459,7 +460,7 @@ internal class Program
         foreach (HtmlNodeNavigator cNode in nav.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item ')]//a[@data-modal]"))
         {
             var term = cNode.GetAttribute("data-term", null);
-            var name = cNode.GetAttribute("data-name", null);
+            var name = cNode.GetAttribute("data-name", null)?.Replace("<br>", "");
             var img1 = cNode.GetAttribute("data-img1", null);
             var img2 = cNode.GetAttribute("data-img2", null);
 
