@@ -193,7 +193,10 @@ internal class Program
                     && int.TryParse(ma2.Groups[3].Value, out var ed)
                     && 1 <= ed)
                 {
-                    var ey = ma2.Groups[1] is var g1 && g1.Length == 0 ? sy : int.Parse(g1.Value);
+                    var ey = ma2.Groups[1] is var g1
+                            && g1.Length > 0 ? int.Parse(g1.Value)
+                            : em < sm ? sy + 1
+                            : sy;
 
                     if (1 <= ey && ey <= 9999 && ed <= DateTime.DaysInMonth(ey, em))
                     {

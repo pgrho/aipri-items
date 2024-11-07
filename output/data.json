@@ -3085,7 +3085,7 @@
       "Group": "キラッとプリ☆チャン➁",
       "Kind": "キラッとプリ☆チャン➁",
       "Start": "2024-11-07",
-      "End": "2024-01-01",
+      "End": "2025-01-01",
       "LinkedItemIds": []
     },
     {
@@ -3099,7 +3099,7 @@
       "Group": "キラッとプリ☆チャン➁",
       "Kind": "キラッとプリ☆チャン➁",
       "Start": "2024-11-07",
-      "End": "2024-01-01",
+      "End": "2025-01-01",
       "LinkedItemIds": []
     },
     {
@@ -3113,7 +3113,7 @@
       "Group": "キラッとプリ☆チャン➁",
       "Kind": "キラッとプリ☆チャン➁",
       "Start": "2024-11-07",
-      "End": "2024-01-01",
+      "End": "2025-01-01",
       "LinkedItemIds": []
     },
     {
@@ -3127,7 +3127,7 @@
       "Group": "キラッとプリ☆チャン➁",
       "Kind": "キラッとプリ☆チャン➁",
       "Start": "2024-11-07",
-      "End": "2024-01-01",
+      "End": "2025-01-01",
       "LinkedItemIds": []
     },
     {
@@ -3141,7 +3141,7 @@
       "Group": "キラッとプリ☆チャン➁",
       "Kind": "キラッとプリ☆チャン➁",
       "Start": "2024-11-07",
-      "End": "2024-01-01",
+      "End": "2025-01-01",
       "LinkedItemIds": []
     },
     {
@@ -15675,6 +15675,20 @@
       "Name": "キラッCHUメイク",
       "Description": "ドリーム「やってみたプリ☆チャンアイドル」",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0015.webp"
+    },
+    {
+      "Id": 173,
+      "CategoryId": 6,
+      "Name": "アイスブルー",
+      "Description": "ウィンタースノーコスメセット",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0036.webp"
+    },
+    {
+      "Id": 174,
+      "CategoryId": 10,
+      "Name": "ウィンタースノーメイク",
+      "Description": "ウィンタースノーコスメセット",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0017.webp"
     }
   ],
   "HimitsuChapters": [
@@ -20333,6 +20347,46 @@
       "Star": 2,
       "Point": 450,
       "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-021_O.webp"
+    },
+    {
+      "Id": 326,
+      "ChapterId": "special",
+      "SealId": "TOY-053",
+      "Coordinate": "ウィンターパープルバタフライ",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-053_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-053_U.webp"
+    },
+    {
+      "Id": 327,
+      "ChapterId": "special",
+      "SealId": "TOY-052",
+      "Coordinate": "バタフライマジックキュート",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-052_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-052_U.webp"
+    },
+    {
+      "Id": 328,
+      "ChapterId": "special",
+      "SealId": "TOY-051",
+      "Coordinate": "アイプリバースフラワーマーチプリンセス",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-051_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-051_U.webp"
+    },
+    {
+      "Id": 329,
+      "ChapterId": "special",
+      "SealId": "TOY-050",
+      "Coordinate": "ウィンタースノー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-050_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-050_U.webp"
     },
     {
       "Id": 324,
