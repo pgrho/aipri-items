@@ -166,6 +166,7 @@ internal class Program
             var group = kind?.StartsWith("ひみつのアイプリファンブック") == true ? "ひみつのアイプリファンブック"
                 : kind?.StartsWith("ひみつのアイプリブレス") == true ? "ひみつのアイプリブレス"
                 : kind?.StartsWith("ひみつのアイプリリップ") == true ? "ひみつのアイプリリップ"
+                : kind?.StartsWith("ひみつのアイプリ") == true && kind?.EndsWith("コスメセット") == true ? "ひみつのアイプリコスメセット"
                 : kind?.StartsWith("ひみつのアイプリ ぬいぐるみ") == true ? "ぬいぐるみ・マスコット"
                 : kind?.StartsWith("ひみつのアイプリ ボールチェーンマスコット") == true ? "ぬいぐるみ・マスコット"
                 : kind?.StartsWith("ちゃお") == true ? "ちゃお付録"

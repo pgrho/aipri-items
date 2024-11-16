@@ -4073,7 +4073,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "オーシャンコスメパープル",
-      "Group": "ひみつのアイプリサマーオーシャンコスメセット",
+      "Group": "ひみつのアイプリコスメセット",
       "Kind": "ひみつのアイプリサマーオーシャンコスメセット",
       "LinkedItemIds": []
     },
@@ -5315,7 +5315,7 @@
       "Id": 9900038,
       "ChapterId": "special",
       "Name": "アイプリバースフラワーマーチプリンセス",
-      "Group": "アイプリブレス",
+      "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレスDXセット",
       "LinkedItemIds": []
     },
@@ -5323,7 +5323,7 @@
       "Id": 9900039,
       "ChapterId": "special",
       "Name": "ウィンタースノー",
-      "Group": "コスメセット",
+      "Group": "ひみつのアイプリコスメセット",
       "Kind": "ひみつのアイプリ ウィンタースノーコスメセット",
       "LinkedItemIds": []
     },
@@ -5331,7 +5331,7 @@
       "Id": 9900040,
       "ChapterId": "special",
       "Name": "バタフライマジックキュート",
-      "Group": "アイプリブレス",
+      "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルチーク コーラルピンク",
       "LinkedItemIds": []
     },
@@ -5339,7 +5339,7 @@
       "Id": 9900041,
       "ChapterId": "special",
       "Name": "ウィンターパープルバタフライ",
-      "Group": "アイプリブレス",
+      "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルパフューム ホワイトラベンダーの香り",
       "LinkedItemIds": []
     }
@@ -14519,21 +14519,21 @@
       "CoordinateId": 9900038,
       "SealId": "TEMP022-1",
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "aipri_verse_flower_march_princess-1.png"
     },
     {
       "Id": 910137,
       "CoordinateId": 9900038,
       "SealId": "TEMP022-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "aipri_verse_flower_march_princess-3.png"
     },
     {
       "Id": 910138,
       "CoordinateId": 9900038,
       "SealId": "TEMP022-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "aipri_verse_flower_march_princess-4.png"
     },
     {
       "Id": 910139,
