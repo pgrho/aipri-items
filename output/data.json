@@ -3085,7 +3085,7 @@
       "Group": "キラッとプリ☆チャン➁",
       "Kind": "キラッとプリ☆チャン➁",
       "Start": "2024-11-07",
-      "End": "2025-01-01",
+      "End": "2025-01-08",
       "LinkedItemIds": []
     },
     {
@@ -3099,7 +3099,7 @@
       "Group": "キラッとプリ☆チャン➁",
       "Kind": "キラッとプリ☆チャン➁",
       "Start": "2024-11-07",
-      "End": "2025-01-01",
+      "End": "2025-01-08",
       "LinkedItemIds": []
     },
     {
@@ -3113,7 +3113,7 @@
       "Group": "キラッとプリ☆チャン➁",
       "Kind": "キラッとプリ☆チャン➁",
       "Start": "2024-11-07",
-      "End": "2025-01-01",
+      "End": "2025-01-08",
       "LinkedItemIds": []
     },
     {
@@ -3127,7 +3127,7 @@
       "Group": "キラッとプリ☆チャン➁",
       "Kind": "キラッとプリ☆チャン➁",
       "Start": "2024-11-07",
-      "End": "2025-01-01",
+      "End": "2025-01-08",
       "LinkedItemIds": []
     },
     {
@@ -3141,7 +3141,7 @@
       "Group": "キラッとプリ☆チャン➁",
       "Kind": "キラッとプリ☆チャン➁",
       "Start": "2024-11-07",
-      "End": "2025-01-01",
+      "End": "2025-01-08",
       "LinkedItemIds": []
     },
     {
@@ -5289,6 +5289,58 @@
       "Kind": "namco限定チャンス",
       "Start": "2024-10-03",
       "End": "2024-12-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900036,
+      "ChapterId": "4",
+      "Name": "カワイイあめちゃんげんきオレンジ",
+      "Group": "店頭大会",
+      "Kind": "お店でアイプリグランプリ\u3000参加景品",
+      "Start": "2024-10-03",
+      "End": "2024-12-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900037,
+      "ChapterId": "4",
+      "Name": "フェザーグランプリクールピンク",
+      "Group": "店頭大会",
+      "Kind": "お店でアイプリグランプリ\u3000抽選参加景品",
+      "Start": "2024-10-03",
+      "End": "2024-12-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900038,
+      "ChapterId": "special",
+      "Name": "アイプリバースフラワーマーチプリンセス",
+      "Group": "アイプリブレス",
+      "Kind": "ひみつのアイプリブレスDXセット",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900039,
+      "ChapterId": "special",
+      "Name": "ウィンタースノー",
+      "Group": "コスメセット",
+      "Kind": "ひみつのアイプリ ウィンタースノーコスメセット",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900040,
+      "ChapterId": "special",
+      "Name": "バタフライマジックキュート",
+      "Group": "アイプリブレス",
+      "Kind": "ひみつのアイプリブレス リフィルチーク コーラルピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900041,
+      "ChapterId": "special",
+      "Name": "ウィンターパープルバタフライ",
+      "Group": "アイプリブレス",
+      "Kind": "ひみつのアイプリブレス リフィルパフューム ホワイトラベンダーの香り",
       "LinkedItemIds": []
     }
   ],
@@ -14417,6 +14469,153 @@
       "Id": 910129,
       "CoordinateId": 9900035,
       "SealId": "TEMP019-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910130,
+      "CoordinateId": 9900036,
+      "SealId": "TEMP020-1",
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910131,
+      "CoordinateId": 9900036,
+      "SealId": "TEMP020-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910132,
+      "CoordinateId": 9900036,
+      "SealId": "TEMP020-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910133,
+      "CoordinateId": 9900037,
+      "SealId": "TEMP021-1",
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910134,
+      "CoordinateId": 9900037,
+      "SealId": "TEMP021-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910135,
+      "CoordinateId": 9900037,
+      "SealId": "TEMP021-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910136,
+      "CoordinateId": 9900038,
+      "SealId": "TEMP022-1",
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910137,
+      "CoordinateId": 9900038,
+      "SealId": "TEMP022-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910138,
+      "CoordinateId": 9900038,
+      "SealId": "TEMP022-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910139,
+      "CoordinateId": 9900039,
+      "SealId": "TEMP023-1",
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910140,
+      "CoordinateId": 9900039,
+      "SealId": "TEMP023-2",
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910141,
+      "CoordinateId": 9900039,
+      "SealId": "TEMP023-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910142,
+      "CoordinateId": 9900039,
+      "SealId": "TEMP023-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910143,
+      "CoordinateId": 9900040,
+      "SealId": "TEMP024-1",
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910144,
+      "CoordinateId": 9900040,
+      "SealId": "TEMP024-2",
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910145,
+      "CoordinateId": 9900040,
+      "SealId": "TEMP024-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910146,
+      "CoordinateId": 9900040,
+      "SealId": "TEMP024-4",
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910147,
+      "CoordinateId": 9900041,
+      "SealId": "TEMP025-1",
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910148,
+      "CoordinateId": 9900041,
+      "SealId": "TEMP025-2",
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910149,
+      "CoordinateId": 9900041,
+      "SealId": "TEMP025-3",
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910150,
+      "CoordinateId": 9900041,
+      "SealId": "TEMP025-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
