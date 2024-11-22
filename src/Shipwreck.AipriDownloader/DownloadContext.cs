@@ -28,7 +28,7 @@ public sealed class DownloadContext : IDisposable
 
     public DownloadContext()
     {
-        _Http = new HttpClient();
+        _Http = new() { Timeout=TimeSpan.FromMinutes(5) };
         _OutputDirectory = new DirectoryInfo(Path.Combine(Path.GetDirectoryName(Path.GetDirectoryName(GetDirectory())!)!, "output"));
         _DataSet = new();
         if (_OutputDirectory.Exists)
@@ -168,15 +168,34 @@ public sealed class DownloadContext : IDisposable
             }
         }
 
-        var req = new HttpRequestMessage(HttpMethod.Get, url);
-        if (etag != null)
+        HttpResponseMessage res = null!;
+        for (var n = 1; n <= 10; n++)
         {
-            req.Headers.IfNoneMatch.Add(new EntityTagHeaderValue(etag));
-        }
-        req.Headers.IfModifiedSince = lastModified;
+            try
+            {
+                var req = new HttpRequestMessage(HttpMethod.Get, url);
+                if (etag != null)
+                {
+                    req.Headers.IfNoneMatch.Add(new EntityTagHeaderValue(etag));
+                }
+                req.Headers.IfModifiedSince = lastModified;
+                res = await _Http.SendAsync(req).ConfigureAwait(false);
 
-        // Console.WriteLine("Getting {0}.", url);
-        var res = await _Http.SendAsync(req).ConfigureAwait(false);
+                break;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(
+                    "An exception caught while sending GET {0}. {1}", url, ex);
+
+                if (n >= 10)
+                {
+                    throw;
+                }
+
+                await Task.Delay(1000);
+            }
+        }
 
         if (res.StatusCode == System.Net.HttpStatusCode.NotModified)
         {
