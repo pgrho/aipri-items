@@ -144,7 +144,7 @@ internal class Program
             foreach (HtmlNodeNavigator cNode in nav.Select("//ul[@class='toggleList toggleList--pageSelect']/li/a/@href"))
             {
                 var v = Path.GetFileNameWithoutExtension(cNode.GetAttribute("href", null));
-                var t = cNode.Value?.Trim();
+                var t = cNode.Value?.Trim2();
                 d.AddVerseChapter(v, t ?? v);
                 Console.WriteLine("   - VerseChapter[{0}]: {1}", v, t ?? v);
             }
@@ -163,8 +163,8 @@ internal class Program
 
         foreach (HtmlNodeNavigator section in nav.Select("//li[starts-with(@class, 'tagList__item')]/a"))
         {
-            var key = section.GetAttribute("data-show", null)?.Trim();
-            var value = section.Value?.Trim();
+            var key = section.GetAttribute("data-show", null)?.Trim2();
+            var value = section.Value?.Trim2();
 
             if (!string.IsNullOrEmpty(key) && !string.IsNullOrEmpty(value))
             {
@@ -174,9 +174,9 @@ internal class Program
 
         foreach (HtmlNodeNavigator section in nav.Select("//section[starts-with(@class, 'section js-hidden-item')]"))
         {
-            var kind = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim()
-                        ?? section.SelectSingleNode(".//h2")?.Value?.Trim();
-            var period = section.SelectSingleNode(".//p[contains(@class, 'txt--period')]")?.Value?.Trim();
+            var kind = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim2()
+                        ?? section.SelectSingleNode(".//h2")?.Value?.Trim2();
+            var period = section.SelectSingleNode(".//p[contains(@class, 'txt--period')]")?.Value?.Trim2();
 
             var group = kind?.StartsWith("ひみつのアイプリファンブック") == true ? "ひみつのアイプリファンブック"
                 : kind?.StartsWith("ひみつのアイプリブレス") == true ? "ひみつのアイプリブレス"
@@ -296,14 +296,14 @@ internal class Program
 
                     for (var n = 1; n <= 4; n++)
                     {
-                        var category = cNode.SelectSingleNode("@data-term" + n)?.Value?.Trim();
+                        var category = cNode.SelectSingleNode("@data-term" + n)?.Value?.Trim2();
                         if (string.IsNullOrEmpty(category))
                         {
                             break;
                         }
-                        var iUrl = cNode.SelectSingleNode("@data-img" + n)?.Value?.Trim();
-                        var iid = cNode.SelectSingleNode("@data-id" + n)?.Value?.Trim();
-                        var point = short.TryParse(cNode.SelectSingleNode("@data-point" + n)?.Value?.Trim(), out var pv) ? pv : (short)0;
+                        var iUrl = cNode.SelectSingleNode("@data-img" + n)?.Value?.Trim2();
+                        var iid = cNode.SelectSingleNode("@data-id" + n)?.Value?.Trim2();
+                        var point = short.TryParse(cNode.SelectSingleNode("@data-point" + n)?.Value?.Trim2(), out var pv) ? pv : (short)0;
 
                         await addItemAsync(coord, category, iUrl, iid, point).ConfigureAwait(false);
                     }
@@ -323,14 +323,14 @@ internal class Program
                     }
                     coord.Order = startOrder++;
 
-                    var category = cNode.SelectSingleNode("@data-term")?.Value?.Trim();
+                    var category = cNode.SelectSingleNode("@data-term")?.Value?.Trim2();
                     if (string.IsNullOrEmpty(category))
                     {
                         break;
                     }
-                    var iUrl = cNode.SelectSingleNode("@data-img")?.Value?.Trim();
-                    var iid = cNode.SelectSingleNode("@data-id")?.Value?.Trim();
-                    var point = short.TryParse(cNode.SelectSingleNode("@data-point")?.Value?.Trim(), out var pv) ? pv : (short)0;
+                    var iUrl = cNode.SelectSingleNode("@data-img")?.Value?.Trim2();
+                    var iid = cNode.SelectSingleNode("@data-id")?.Value?.Trim2();
+                    var point = short.TryParse(cNode.SelectSingleNode("@data-point")?.Value?.Trim2(), out var pv) ? pv : (short)0;
 
                     await addItemAsync(coord, category, iUrl, iid, point).ConfigureAwait(false);
                 }
@@ -382,7 +382,7 @@ internal class Program
 
         foreach (HtmlNodeNavigator section in nav.Select("//section[starts-with(@class, 'section ')]"))
         {
-            var categoryName = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim();
+            var categoryName = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim2();
 
             if (string.IsNullOrEmpty(categoryName))
             {
@@ -393,21 +393,21 @@ internal class Program
 
             foreach (HtmlNodeNavigator cNode in section.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item ')]"))
             {
-                var name = cNode.SelectSingleNode(".//img/@alt")?.Value?.Trim();
+                var name = cNode.SelectSingleNode(".//img/@alt")?.Value?.Trim2();
 
                 if (string.IsNullOrEmpty(name))
                 {
                     continue;
                 }
 
-                var desc = cNode.SelectSingleNode(".//p")?.Value?.Trim();
+                var desc = cNode.SelectSingleNode(".//p")?.Value?.Trim2();
 
                 var p = d.AddPart(name)!;
                 p.CategoryId = category!.Id;
 
                 p.Description = desc;
 
-                var img = cNode.SelectSingleNode(".//img/@src")?.Value?.Trim();
+                var img = cNode.SelectSingleNode(".//img/@src")?.Value?.Trim2();
                 if (img != null)
                 {
                     img = new Uri(url, img).ToString();
@@ -460,7 +460,7 @@ internal class Program
             foreach (HtmlNodeNavigator cNode in nav.Select("//ul[@class='toggleList toggleList--pageSelect']/li/a"))
             {
                 var v = Path.GetFileNameWithoutExtension(cNode.GetAttribute("href", null));
-                var t = cNode.Value?.Trim();
+                var t = cNode.Value?.Trim2();
                 d.AddHimitsuChapter(v, t ?? v);
                 Console.WriteLine("   - HimitsuChapter[{0}]: {1}", v, t ?? v);
             }
@@ -643,7 +643,6 @@ internal class Program
                     }
                     dest.IsChance = src.IsChance;
                     dest.BrandId = src.BrandId;
-
 
                     if (!string.IsNullOrEmpty(src.Image1Url))
                     {
