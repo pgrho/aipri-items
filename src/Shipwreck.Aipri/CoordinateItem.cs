@@ -1,4 +1,5 @@
 ﻿using System.Text.Json.Serialization;
+using System.Threading.Tasks;
 using System.Xml.Linq;
 
 namespace Shipwreck.Aipri;
@@ -21,7 +22,10 @@ public sealed class CoordinateItem : DataItem
     public string? ImageUrl { get; set; }
 
     [JsonIgnore]
-    internal bool IsImageLoaded { get; set; }
+    internal string? LoadingImageUrl { get; set; }
+
+    [JsonIgnore]
+    internal Task<string?>? ImageTask { get; set; }
 
     [JsonIgnore]
     internal bool IsCurrentRun { get; set; }

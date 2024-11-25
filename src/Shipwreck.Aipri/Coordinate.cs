@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Text.Json.Serialization;
+using System.Threading.Tasks;
 
 namespace Shipwreck.Aipri;
 
@@ -26,7 +27,16 @@ public sealed class Coordinate : DataItem
     public bool HasChance { get; set; }
 
     [JsonIgnore]
-    internal bool IsImageLoaded { get; set; }
+    internal string? LoadingImageUrl { get; set; }
+
+    [JsonIgnore]
+    internal Task<string?>? ImageTask { get; set; }
+
+    [JsonIgnore]
+    internal string? LoadingThumbnailUrl { get; set; }
+
+    [JsonIgnore]
+    internal Task<string?>? ThumbnailTask { get; set; }
 
     [JsonIgnore]
     internal bool IsThumbnailLoaded { get; set; }
@@ -82,5 +92,5 @@ public sealed class Coordinate : DataItem
             Start = Start,
             End = End,
             _LinkedItemIds = _LinkedItemIds?.Count > 0 ? _LinkedItemIds?.ToList() : null,
-        };
+        }; 
 }

@@ -1,4 +1,5 @@
-﻿using System.Net.Http.Headers;
+﻿using System.Globalization;
+using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -28,7 +29,7 @@ public sealed class DownloadContext : IDisposable
 
     public DownloadContext()
     {
-        _Http = new() { Timeout=TimeSpan.FromMinutes(5) };
+        _Http = new() { Timeout = TimeSpan.FromMinutes(5) };
         _OutputDirectory = new DirectoryInfo(Path.Combine(Path.GetDirectoryName(Path.GetDirectoryName(GetDirectory())!)!, "output"));
         _DataSet = new();
         if (_OutputDirectory.Exists)
@@ -423,6 +424,9 @@ public sealed class DownloadContext : IDisposable
         return c;
     }
 
+    private readonly object _DownloadLock = new();
+    private int _DownloadingImageCount;
+
     public async Task<string?> GetOrCopyImageAsync(string? imageUrl, string directory, int id, string? suffix = null)
     {
         var bip = new FileInfo(Path.Combine(_OutputDirectory.FullName, directory, id.ToString("D6") + suffix + Path.GetExtension(imageUrl)));
@@ -431,6 +435,20 @@ public sealed class DownloadContext : IDisposable
         {
             try
             {
+                for (; ; )
+                {
+                    lock (_DownloadLock)
+                    {
+                        if (_DownloadingImageCount < 31)
+                        {
+                            _DownloadingImageCount++;
+                            break;
+                        }
+                    }
+
+                    await Task.Delay(100);
+                }
+
                 if (!bip.Directory!.Exists)
                 {
                     bip.Directory.Create();
@@ -461,6 +479,13 @@ public sealed class DownloadContext : IDisposable
                 return imageUrl;
             }
             catch { }
+            finally
+            {
+                lock (_DownloadLock)
+                {
+                    _DownloadingImageCount--;
+                }
+            }
         }
 
         if (bip.Exists)
@@ -471,7 +496,7 @@ public sealed class DownloadContext : IDisposable
         return null;
     }
 
-    public async Task<Coordinate> AddCoordinateAsync(Chapter? chapter, Brand? brand, string? kind, string name, int? star, string? imageUrl)
+    public Coordinate AddCoordinate(Chapter? chapter, Brand? brand, string? kind, string name, int? star, string? imageUrl)
     {
         Coordinate? c;
         lock (_DataSet)
@@ -493,21 +518,7 @@ public sealed class DownloadContext : IDisposable
         c.BrandId = brand?.Id;
         c.Star = (byte?)star;
 
-        //if (c.ChapterId != chapter?.Id
-        //    && string.IsNullOrEmpty(imageUrl))
-        //{
-        //    return c;
-        //}
-
-        //c.ChapterId = chapter?.Id;
-
-        if (c.ImageUrl == imageUrl && c.IsImageLoaded)
-        {
-            return c;
-        }
-
-        c.ImageUrl = await GetOrCopyImageAsync(imageUrl, "coordinates", c.Id).ConfigureAwait(false);
-        c.IsImageLoaded = true;
+        c.BeginSetImageUrl(imageUrl, this);
 
         return c;
     }
@@ -539,24 +550,15 @@ public sealed class DownloadContext : IDisposable
         if (!string.IsNullOrEmpty(sealId))
         {
             c.SealId = sealId;
+
             if (!string.IsNullOrEmpty(c.ImageUrl))
             {
-                if (!c.IsImageLoaded)
-                {
-                    c.ImageUrl = await GetOrCopyImageAsync(c.ImageUrl, "coordinateItems", c.Id).ConfigureAwait(false);
-                    c.IsImageLoaded = true;
-                }
+                c.BeginSetImageUrl(c.ImageUrl, this);
                 return c;
             }
         }
 
-        if (c.ImageUrl == imageUrl && c.IsImageLoaded)
-        {
-            return c;
-        }
-
-        c.ImageUrl = await GetOrCopyImageAsync(imageUrl, "coordinateItems", c.Id).ConfigureAwait(false);
-        c.IsImageLoaded = true;
+        c.BeginSetImageUrl(imageUrl, this);
 
         return c;
     }
@@ -611,17 +613,8 @@ public sealed class DownloadContext : IDisposable
         c.CharacterId = AddCharacter(character)?.Id ?? 0;
         c.Variant = variant;
 
-        if (c.Image1Url != image1Url || !c.IsImage1Loaded)
-        {
-            c.Image1Url = await GetOrCopyImageAsync(image1Url, "cards", c.Id, "-1").ConfigureAwait(false);
-            c.IsImage1Loaded = true;
-        }
-
-        if (c.Image2Url != image2Url || !c.IsImage2Loaded)
-        {
-            c.Image2Url = await GetOrCopyImageAsync(image2Url, "cards", c.Id, "-2").ConfigureAwait(false);
-            c.IsImage2Loaded = true;
-        }
+        c.BeginSetImage1Url(image1Url, this);
+        c.BeginSetImage2Url(image2Url, this);
 
         return c;
     }
@@ -636,21 +629,34 @@ public sealed class DownloadContext : IDisposable
         {
             using (var fs = new FileStream(hpn, FileMode.Create))
             {
+                long getChapterOrder(string? chapterId)
+                    => string.IsNullOrEmpty(chapterId) ? long.MaxValue
+                    : int.TryParse(chapterId, out var c1) ? c1
+                    : long.MaxValue;
+
                 JsonSerializer.Serialize(fs, new AipriDataSet()
                 {
                     VerseChapters = new(_DataSet.VerseChapters
-                                                    .OrderBy(e => digitPattern.IsMatch(e.Id) ? e.Id[0] - '0' : int.MaxValue)
+                                                    .OrderBy(e => getChapterOrder(e.Id))
                                                     .ThenBy(e => e.Id)
                                                     .Select(e => e.Clone())),
                     Categories = new(_DataSet.Categories.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Brands = new(_DataSet.Brands.OrderBy(e => e.Id).Select(e => e.Clone())),
-                    Coordinates = new(_DataSet.Coordinates.OrderBy(e => e.Order).ThenBy(e => e.Id).Select(e => e.Clone())),
-                    CoordinateItems = new(_DataSet.CoordinateItems.OrderBy(e => e.GetCoordinate()?.Order).ThenBy(e => e.GetCoordinate()?.Id).ThenBy(e => e.Id).Select(e => e.Clone())),
+                    Coordinates = new(_DataSet.Coordinates.OrderBy(e => getChapterOrder(e.ChapterId))
+                                                            .ThenBy(e => e.ChapterId)
+                                                            .ThenBy(e => e.Order)
+                                                            .ThenBy(e => e.Id).Select(e => e.Clone())),
+                    CoordinateItems = new(_DataSet.CoordinateItems
+                                            .OrderBy(e => getChapterOrder(e.GetCoordinate()?.ChapterId))
+                                            .ThenBy(e => e.GetCoordinate()?.ChapterId)
+                                            .ThenBy(e => e.GetCoordinate()?.Order)
+                                            .ThenBy(e => e.GetCoordinate()?.Id)
+                                            .ThenBy(e => e.Id).Select(e => e.Clone())),
                     PartCategories = new(_DataSet.PartCategories.OrderBy(e => e.Id).Select(e => e.Clone())),
                     Parts = new(_DataSet.Parts.OrderBy(e => e.Id).Select(e => e.Clone())),
 
                     HimitsuChapters = new(_DataSet.HimitsuChapters
-                                                    .OrderBy(e => digitPattern.IsMatch(e.Id) ? e.Id[0] - '0' : int.MaxValue)
+                                                    .OrderBy(e => getChapterOrder(e.Id))
                                                     .ThenBy(e => e.Id)
                                                     .Select(e => e.Clone())),
                     Characters = new(_DataSet.Characters.OrderBy(e => e.Id).Select(e => e.Clone())),
@@ -659,7 +665,11 @@ public sealed class DownloadContext : IDisposable
                                             .ThenBy(e => e.Name.StartsWith("レッツ！アイプリ") ? 1 : 0)
                                             .ThenBy(e => e.Id)
                                             .Select(e => e.Clone())),
-                    Cards = new(_DataSet.Cards.OrderBy(e => e.Order).ThenBy(e => e.Id).Select(e => e.Clone())),
+                    Cards = new(_DataSet.Cards.OrderBy(e => getChapterOrder(e.ChapterId))
+                                            .ThenBy(e => e.ChapterId)
+                                            .ThenBy(e => e.Order)
+                                            .ThenBy(e => e.Id)
+                                            .Select(e => e.Clone())),
                 }, new JsonSerializerOptions()
                 {
                     WriteIndented = true,

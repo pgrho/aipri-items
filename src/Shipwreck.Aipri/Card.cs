@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Text.Json.Serialization;
+using System.Threading.Tasks;
 
 namespace Shipwreck.Aipri;
 
@@ -140,10 +141,17 @@ public sealed class Card : DataItem
     public string? Image2Url { get; set; }
 
     [JsonIgnore]
-    internal bool IsImage1Loaded { get; set; }
+    internal string? LoadingImage1Url { get; set; }
 
     [JsonIgnore]
-    internal bool IsImage2Loaded { get; set; }
+    internal Task<string?>? Image1Task { get; set; }
+
+
+    [JsonIgnore]
+    internal string? LoadingImage2Url { get; set; }
+
+    [JsonIgnore]
+    internal Task<string?>? Image2Task { get; set; }
 
     public Card Clone()
         => new()

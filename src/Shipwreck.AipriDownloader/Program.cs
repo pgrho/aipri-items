@@ -37,6 +37,14 @@ internal class Program
             await ParseItemAsync(d, string.Format(ITEM_FORMAT, ch.Id), false, order).ConfigureAwait(false);
         }
 
+        await Task.WhenAll(
+                    d.DataSet.Coordinates.SelectMany(p => new[]
+                    {
+                        p.ImageTask,
+                        p.ThumbnailTask,
+                    }).Concat(d.DataSet.CoordinateItems.Select(e => e.ImageTask)).OfType<Task>())
+                .ConfigureAwait(false);
+
         order = 1;
         await ParseCardAsync(d, string.Format(CARD_FORMAT, "1"), true, order).ConfigureAwait(false);
 
@@ -45,6 +53,13 @@ internal class Program
             order += 1000;
             await ParseCardAsync(d, string.Format(CARD_FORMAT, ch.Id), false, order).ConfigureAwait(false);
         }
+
+        await Task.WhenAll(
+            d.DataSet.Cards.SelectMany(e => new[]
+            {
+                e.Image1Task,
+                e.Image2Task
+            }).OfType<Task>()).ConfigureAwait(false);
 
         var dupBrands = d.DataSet.Brands.GroupBy(e => e.Name).SelectMany(g =>
         {
@@ -264,7 +279,7 @@ internal class Program
                         continue;
                     }
 
-                    var coord = await d.AddCoordinateAsync(chapter, b, kind, title, star, new Uri(url, imgUrl).ToString()).ConfigureAwait(false);
+                    var coord = d.AddCoordinate(chapter, b, kind, title, star, new Uri(url, imgUrl).ToString());
 
                     if (newCoordinates.Add(coord))
                     {
@@ -276,11 +291,7 @@ internal class Program
                     if (thUrl != null)
                     {
                         thUrl = new Uri(url, thUrl).ToString();
-                        if (coord.ThumbnailUrl != thUrl || !coord.IsThumbnailLoaded)
-                        {
-                            coord.ThumbnailUrl = await d.GetOrCopyImageAsync(thUrl, "coordinates", coord.Id, "-thumb").ConfigureAwait(false);
-                            coord.IsThumbnailLoaded = true;
-                        }
+                        coord.BeginSetThumbnailUrl(thUrl, d);
                     }
 
                     for (var n = 1; n <= 4; n++)
@@ -304,7 +315,7 @@ internal class Program
                         continue;
                     }
 
-                    var coord = await d.AddCoordinateAsync(chapter, b, kind, title, star, null).ConfigureAwait(false);
+                    var coord = d.AddCoordinate(chapter, b, kind, title, star, null);
 
                     if (newCoordinates.Add(coord))
                     {
@@ -575,13 +586,13 @@ internal class Program
                         t.CategoryId = dt.CategoryId;
                     }
                     t.Point = dt.Point > 0 ? dt.Point : t.Point;
-                    if (!string.IsNullOrEmpty(dt.ImageUrl))
-                    {
-                        t.ImageUrl = await d.GetOrCopyImageAsync(dt.ImageUrl, "coordinateItems", t.Id);
-                    }
+                    t.BeginSetImageUrl(dt.ImageUrl, d);
                 }
             }
         }
+
+        await Task.WhenAll(d.DataSet.CoordinateItems.Select(e => e.ImageTask).OfType<Task>())
+                .ConfigureAwait(false);
     }
 
     private static async Task FixCardInfoAsync(DownloadContext d)
@@ -633,17 +644,25 @@ internal class Program
                     dest.IsChance = src.IsChance;
                     dest.BrandId = src.BrandId;
 
+
                     if (!string.IsNullOrEmpty(src.Image1Url))
                     {
-                        dest.Image1Url = await d.GetOrCopyImageAsync(src.Image1Url, "cards", dest.Id, "-1");
+                        dest.BeginSetImage1Url(src.Image1Url, d);
                     }
                     if (!string.IsNullOrEmpty(src.Image2Url))
                     {
-                        dest.Image2Url = await d.GetOrCopyImageAsync(src.Image2Url, "cards", dest.Id, "-2");
+                        dest.BeginSetImage2Url(src.Image2Url, d);
                     }
                     Console.WriteLine($"Corrected card info of #{dest.Id}({dest.SealId})");
                 }
             }
         }
+
+        await Task.WhenAll(
+            d.DataSet.Cards.SelectMany(e => new[]
+            {
+                e.Image1Task,
+                e.Image2Task
+            }).OfType<Task>()).ConfigureAwait(false);
     }
 }
