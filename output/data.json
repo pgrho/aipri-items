@@ -4276,17 +4276,6 @@
       "LinkedItemIds": []
     },
     {
-      "Id": 9900033,
-      "ChapterId": "4",
-      "BrandId": 2,
-      "Name": "マジシャンキャットイエロー",
-      "Group": "Blu-ray特典",
-      "Kind": "ひみつのアイプリ Blu-ray BOX SECRET.1",
-      "Start": "2024-10-03",
-      "End": "2024-11-06",
-      "LinkedItemIds": []
-    },
-    {
       "Id": 9900034,
       "ChapterId": "4",
       "Name": "ミラクルムーンバズリウムピンク",
@@ -5874,6 +5863,17 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 9900033,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Name": "マジシャンキャットイエロー",
+      "Group": "Blu-ray特典",
+      "Kind": "ひみつのアイプリ Blu-ray BOX SECRET.1",
+      "Start": "2024-10-03",
+      "End": "2024-11-06",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 9900038,
       "ChapterId": "special",
       "Name": "アイプリバースフラワーマーチプリンセス",
@@ -5903,6 +5903,14 @@
       "Name": "ウィンターパープルバタフライ",
       "Group": "ひみつのアイプリブレス",
       "Kind": "ひみつのアイプリブレス リフィルパフューム ホワイトラベンダーの香り",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900042,
+      "ChapterId": "special",
+      "Name": "エレガントジュエルピンク",
+      "Group": "Blu-ray特典",
+      "Kind": "ひみつのアイプリ Blu-ray BOX SECRET.2",
       "LinkedItemIds": []
     }
   ],
@@ -12673,34 +12681,6 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/4/Item_ID30887.webp"
     },
     {
-      "Id": 910120,
-      "CoordinateId": 9900033,
-      "SealId": "TEMP017-1",
-      "CategoryId": 1,
-      "ImageUrl": "magician_cat_yellow-1.png"
-    },
-    {
-      "Id": 910121,
-      "CoordinateId": 9900033,
-      "SealId": "TEMP017-2",
-      "CategoryId": 3,
-      "ImageUrl": "magician_cat_yellow-2.png"
-    },
-    {
-      "Id": 910122,
-      "CoordinateId": 9900033,
-      "SealId": "TEMP017-3",
-      "CategoryId": 4,
-      "ImageUrl": "magician_cat_yellow-3.png"
-    },
-    {
-      "Id": 910123,
-      "CoordinateId": 9900033,
-      "SealId": "TEMP017-4",
-      "CategoryId": 5,
-      "ImageUrl": "magician_cat_yellow-4.png"
-    },
-    {
       "Id": 910124,
       "CoordinateId": 9900034,
       "SealId": "TEMP018-1",
@@ -16141,6 +16121,34 @@
       "ImageUrl": "_generic-4.png"
     },
     {
+      "Id": 910120,
+      "CoordinateId": 9900033,
+      "SealId": "TEMP017-1",
+      "CategoryId": 1,
+      "ImageUrl": "magician_cat_yellow-1.png"
+    },
+    {
+      "Id": 910121,
+      "CoordinateId": 9900033,
+      "SealId": "TEMP017-2",
+      "CategoryId": 3,
+      "ImageUrl": "magician_cat_yellow-2.png"
+    },
+    {
+      "Id": 910122,
+      "CoordinateId": 9900033,
+      "SealId": "TEMP017-3",
+      "CategoryId": 4,
+      "ImageUrl": "magician_cat_yellow-3.png"
+    },
+    {
+      "Id": 910123,
+      "CoordinateId": 9900033,
+      "SealId": "TEMP017-4",
+      "CategoryId": 5,
+      "ImageUrl": "magician_cat_yellow-4.png"
+    },
+    {
       "Id": 910136,
       "CoordinateId": 9900038,
       "SealId": "TEMP022-1",
@@ -16244,6 +16252,27 @@
       "SealId": "TEMP025-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 40425,
+      "CoordinateId": 9900042,
+      "SealId": "",
+      "CategoryId": 2,
+      "ImageUrl": "elegant_jewel_pink-1.png"
+    },
+    {
+      "Id": 40426,
+      "CoordinateId": 9900042,
+      "SealId": "",
+      "CategoryId": 4,
+      "ImageUrl": "elegant_jewel_pink-3.png"
+    },
+    {
+      "Id": 40427,
+      "CoordinateId": 9900042,
+      "SealId": "",
+      "CategoryId": 5,
+      "ImageUrl": "elegant_jewel_pink-4.png"
     }
   ],
   "PartCategories": [
