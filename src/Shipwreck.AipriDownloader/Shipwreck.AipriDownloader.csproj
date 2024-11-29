@@ -16,7 +16,7 @@
 		<None Include="..\..\output\**\*.json" Link="output\%(RecursiveDir)%(Filename).json" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="HtmlAgilityPack" Version="1.11.59" />
+		<PackageReference Include="HtmlAgilityPack" Version="1.11.71" />
 	</ItemGroup>
 
 	<ItemGroup>
