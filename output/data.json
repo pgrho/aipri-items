@@ -22497,6 +22497,136 @@
       "Image2Url": "https://aipri.jp/card/img/5/AP5-060_U.webp"
     },
     {
+      "Id": 394,
+      "ChapterId": "gumi",
+      "SealId": "G2-001",
+      "Coordinate": "ゴシックベアパープル",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-001_U.webp"
+    },
+    {
+      "Id": 395,
+      "ChapterId": "gumi",
+      "SealId": "G2-002",
+      "Coordinate": "ゴシックベアパープル",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-002_U.webp"
+    },
+    {
+      "Id": 396,
+      "ChapterId": "gumi",
+      "SealId": "G2-003",
+      "Coordinate": "ゴシックベアパープル",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-003_U.webp"
+    },
+    {
+      "Id": 397,
+      "ChapterId": "gumi",
+      "SealId": "G2-004",
+      "Coordinate": "ゴシックベアパープル",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-004_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-004_U.webp"
+    },
+    {
+      "Id": 398,
+      "ChapterId": "gumi",
+      "SealId": "G2-006",
+      "Coordinate": "スターカウガールブラウン",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-006_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-006_U.webp"
+    },
+    {
+      "Id": 399,
+      "ChapterId": "gumi",
+      "SealId": "G2-007",
+      "Coordinate": "スターカウガールブラウン",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-007_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-007_U.webp"
+    },
+    {
+      "Id": 400,
+      "ChapterId": "gumi",
+      "SealId": "G2-008",
+      "Coordinate": "スターカウガールブラウン",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-008_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-008_U.webp"
+    },
+    {
+      "Id": 401,
+      "ChapterId": "gumi",
+      "SealId": "G2-009",
+      "Coordinate": "ハーバリウムピンク",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-009_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-009_U.webp"
+    },
+    {
+      "Id": 402,
+      "ChapterId": "gumi",
+      "SealId": "G2-010",
+      "Coordinate": "ハーバリウムピンク",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-010_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-010_U.webp"
+    },
+    {
+      "Id": 403,
+      "ChapterId": "gumi",
+      "SealId": "G2-011",
+      "Coordinate": "ハーバリウムピンク",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-011_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-011_U.webp"
+    },
+    {
+      "Id": 404,
+      "ChapterId": "gumi",
+      "SealId": "G2-012",
+      "Coordinate": "ラブリーアイドルピンク",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-012_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-012_U.webp"
+    },
+    {
+      "Id": 405,
+      "ChapterId": "gumi",
+      "SealId": "G2-013",
+      "Coordinate": "クールアイドルパープル",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-013_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-013_U.webp"
+    },
+    {
+      "Id": 406,
+      "ChapterId": "gumi",
+      "SealId": "G2-014",
+      "Coordinate": "チューリップイエロー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G2-014_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G2-014_U.webp"
+    },
+    {
       "Id": 63,
       "ChapterId": "gumi",
       "BrandId": 1,
