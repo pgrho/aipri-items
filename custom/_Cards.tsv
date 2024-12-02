@@ -301,17 +301,17 @@ SealId				AP4-062	ƒnƒbƒs[ƒ`ƒAƒp[ƒvƒ‹	ƒ`ƒB		GIRA GIRA STAR	2	540	TRUE	ƒ‰ƒuƒ}ƒCƒ
 SealId				AP4-063	ƒnƒbƒs[ƒ`ƒAƒp[ƒvƒ‹	‚Ð‚Ü‚è		We're The World	2	520	TRUE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
 SealId				AP4-064	ƒZ[ƒ‰[ƒJƒWƒ…ƒAƒ‹ƒp[ƒvƒ‹	ƒ`ƒB		ƒ`ƒB‚Ì‚Ð‚Ý‚Âƒ}ƒCƒ\ƒ“ƒOô	2	530	TRUE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
 SealId				AP4-065	ƒZ[ƒ‰[ƒJƒWƒ…ƒAƒ‹ƒp[ƒvƒ‹	‚Ý‚Â‚«		We're The World	2	520	TRUE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
-SealId				AP5-001	ƒtƒ‰ƒ[ƒ}[ƒ`ƒvƒŠƒ“ƒZƒXƒoƒYƒŠƒEƒ€	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j			4					
-SealId				AP5-002	ƒtƒ‰ƒ[ƒ}[ƒ`ƒvƒŠƒ“ƒZƒXƒoƒYƒŠƒEƒ€	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j			4					
-SealId				AP5-003	ƒtƒ‰ƒ[ƒ}[ƒ`ƒoƒYƒŠƒEƒ€ƒsƒ…ƒAƒzƒƒCƒg	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j			4					
-SealId				AP5-004	ƒI[ƒƒ‰ƒXƒm[ƒOƒ‰ƒ“ƒvƒŠ	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j			4					
-SealId				AP5-005	‚©‚Ý‚È‚è‚®‚à	ƒ`ƒB			4					
-SealId				AP5-006	‚©‚Ý‚È‚è‚®‚àƒuƒ‰ƒbƒN	ƒ`ƒB			4					
-SealId				AP5-007	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒŒƒbƒh	ƒTƒNƒ‰			4					
-SealId				AP5-008	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒŒƒbƒh	ƒTƒNƒ‰			4					
-SealId				AP5-009	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒuƒ‹[	ƒ^ƒ}ƒL			4					
-SealId				AP5-010	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒOƒŠ[ƒ“	ƒAƒCƒŠ			4					
-SealId				AP5-011	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒIƒŒƒ“ƒW	ƒŠƒ“ƒŠƒ“			4					
+SealId				AP5-001	ƒtƒ‰ƒ[ƒ}[ƒ`ƒvƒŠƒ“ƒZƒXƒoƒYƒŠƒEƒ€	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j		‚«‚ç‚ß‚«‚Ì‚¤‚½	4	999		ƒtƒ‰ƒ[ƒ}[ƒ`		
+SealId				AP5-002	ƒtƒ‰ƒ[ƒ}[ƒ`ƒvƒŠƒ“ƒZƒXƒoƒYƒŠƒEƒ€	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j		‚¢‚Á‚¿‚å‚­‚¹‚ñ‚¾‚¢‚³‚­‚¹‚ñI	4	999		ƒtƒ‰ƒ[ƒ}[ƒ`		
+SealId				AP5-003	ƒtƒ‰ƒ[ƒ}[ƒ`ƒoƒYƒŠƒEƒ€ƒsƒ…ƒAƒzƒƒCƒg	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j		ƒqƒJƒŠƒmƒRƒgƒo	4	940		ƒtƒ‰ƒ[ƒ}[ƒ`		
+SealId				AP5-004	ƒI[ƒƒ‰ƒXƒm[ƒOƒ‰ƒ“ƒvƒŠ	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j		ƒqƒJƒŠƒmƒRƒgƒo	4	950		ƒtƒ‰ƒ[ƒ}[ƒ`		
+SealId				AP5-005	‚©‚Ý‚È‚è‚®‚à	ƒ`ƒB		GIRA GIRA STAR	4	920		ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
+SealId				AP5-006	‚©‚Ý‚È‚è‚®‚àƒuƒ‰ƒbƒN	ƒ`ƒB		ƒŒƒbƒcIƒAƒCƒvƒŠiƒ`ƒBj	4	920		ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
+SealId				AP5-007	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒŒƒbƒh	ƒTƒNƒ‰		ƒNƒŠƒXƒ}ƒXEƒJƒ‹ƒeƒbƒg	4	930		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
+SealId				AP5-008	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒŒƒbƒh	ƒTƒNƒ‰		Perfect STARs	4	910		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
+SealId				AP5-009	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒuƒ‹[	ƒ^ƒ}ƒL		ƒNƒŠƒXƒ}ƒXEƒJƒ‹ƒeƒbƒg	4	910		ƒƒ[ƒbƒVƒ‡ƒ“		
+SealId				AP5-010	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒOƒŠ[ƒ“	ƒAƒCƒŠ		ƒNƒŠƒXƒ}ƒXEƒJƒ‹ƒeƒbƒg	4	910		ƒŒƒCƒ“ƒ{[ƒLƒƒƒ“ƒfƒB		
+SealId				AP5-011	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒIƒŒƒ“ƒW	ƒŠƒ“ƒŠƒ“		ƒNƒŠƒXƒ}ƒXEƒJƒ‹ƒeƒbƒg	4	910		ƒxƒAƒxƒAƒxƒA		
 SealId				AP5-012	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒzƒƒCƒg	‚Ý‚Â‚«			4					
 SealId				AP5-013	‚Ò‚å‚ñ‚Ò‚å‚ñ‚¤‚³‚¬	‚Ð‚Ü‚è			4					
 SealId				AP5-014	‚¨‚Æ‚¬‚Î‚È‚µƒƒ“ƒ_[ƒ‰ƒ“ƒh	‚Ý‚Â‚«			4					
