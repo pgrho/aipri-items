@@ -47,13 +47,13 @@ public static class AipriGitDataSetHelper
         => Open(Constants.COORDINATE_ITEM_PATH_FORMAT, (e?.DataSet as AipriGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
 
     public static string? GetImagePath(this Song? e)
-        => GetFilePath("../custom/songs/{3}.jpg", (e?.DataSet as AipriGitDataSet)?.FileName, e?.Id, e?.Name);
+        => GetFilePath("../custom/songs/{2}.jpg", (e?.DataSet as AipriGitDataSet)?.FileName, e?.Id, e?.Name);
 
     public static Uri? GetImageUri(this Song? e)
-        => GetUri("../custom/songs/{3}.jpg", (e?.DataSet as AipriGitDataSet)?.FileName, e?.Id, e?.Name);
+        => GetUri("../custom/songs/{2}.jpg", (e?.DataSet as AipriGitDataSet)?.FileName, e?.Id, e?.Name);
 
     public static Stream OpenImage(this Song? e)
-        => Open("../custom/songs/{3}.jpg", (e?.DataSet as AipriGitDataSet)?.FileName!, e?.Id ?? -1, e?.Name!);
+        => Open("../custom/songs/{2}.jpg", (e?.DataSet as AipriGitDataSet)?.FileName!, e?.Id ?? -1, e?.Name!);
 
     #region Part
 
