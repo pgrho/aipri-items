@@ -46,6 +46,15 @@ public static class AipriGitDataSetHelper
     public static Stream OpenImage(this CoordinateItem? e)
         => Open(Constants.COORDINATE_ITEM_PATH_FORMAT, (e?.DataSet as AipriGitDataSet)?.FileName!, e?.Id ?? -1, e?.ImageUrl!);
 
+    public static string? GetImagePath(this Song? e)
+        => GetFilePath("../custom/songs/{3}.jpg", (e?.DataSet as AipriGitDataSet)?.FileName, e?.Id, e?.Name);
+
+    public static Uri? GetImageUri(this Song? e)
+        => GetUri("../custom/songs/{3}.jpg", (e?.DataSet as AipriGitDataSet)?.FileName, e?.Id, e?.Name);
+
+    public static Stream OpenImage(this Song? e)
+        => Open("../custom/songs/{3}.jpg", (e?.DataSet as AipriGitDataSet)?.FileName!, e?.Id ?? -1, e?.Name!);
+
     #region Part
 
     public static string? GetImagePath(this Part? e)
@@ -91,11 +100,11 @@ public static class AipriGitDataSetHelper
 
     private static string? GetFilePath(string pathFormat, string? jsonPath, int? imageId, string? imageUrl)
         => jsonPath != null && imageId != null && imageUrl != null
-        ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl))).LocalPath : null;
+        ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl), imageUrl)).LocalPath : null;
 
     private static Uri? GetUri(string pathFormat, string? jsonPath, int? imageId, string? imageUrl)
         => imageUrl == null ? null
-        : jsonPath != null && imageId != null ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl)))
+        : jsonPath != null && imageId != null ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl), imageUrl))
         : new Uri(imageUrl);
 
     private static Stream Open(string pathFormat, string jsonPath, int imageId, string imageUrl)
