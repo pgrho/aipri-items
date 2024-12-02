@@ -89,6 +89,17 @@ internal class Program
         await FixCoordinateItemInfoAsync(d).ConfigureAwait(false);
         await FixCardInfoAsync(d).ConfigureAwait(false);
 
+        foreach (var chCor in await d.EnumerateCharacterCorrection().ConfigureAwait(false))
+        {
+            var ch = d.DataSet.Characters.FirstOrDefault(e => e.Name == chCor.Name);
+            if (ch != null
+                && !string.IsNullOrEmpty(chCor.ShortName)
+                && chCor.ShortName != chCor.Name)
+            {
+                ch.ShortName = chCor.ShortName;
+            }
+        }
+
         var used = d.DataSet.Cards.Select(e => e.BrandId ?? 0).Concat(d.DataSet.Coordinates.Select(e => e.BrandId ?? 0)).Where(e => e > 0).Distinct().ToList();
 
         foreach (var b in d.DataSet.Brands.Where(e => !used.Contains(e.Id)).ToList())
@@ -556,7 +567,7 @@ internal class Program
 
     private static async Task FixCoordinateItemInfoAsync(DownloadContext d)
     {
-        foreach (var ci in await d.EnumerateCoordinateItemCorrection(d))
+        foreach (var ci in await d.EnumerateCoordinateItemCorrection())
         {
             var dt = ci?.Data;
             if (dt != null)
@@ -597,7 +608,7 @@ internal class Program
 
     private static async Task FixCardInfoAsync(DownloadContext d)
     {
-        foreach (var ci in await d.EnumerateCardCorrection(d))
+        foreach (var ci in await d.EnumerateCardCorrection())
         {
             var src = ci?.Data;
             if (src != null)

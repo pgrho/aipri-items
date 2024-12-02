@@ -3,6 +3,7 @@ using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.RegularExpressions;
+using Shipwreck.Aipri;
 
 namespace Shipwreck.AipriDownloader;
 
@@ -765,7 +766,7 @@ public sealed class DownloadContext : IDisposable
         return list;
     }
 
-    public async Task<List<CorrectionEntry<CoordinateItem>>> EnumerateCoordinateItemCorrection(DownloadContext d)
+    public async Task<List<CorrectionEntry<CoordinateItem>>> EnumerateCoordinateItemCorrection()
     {
         var list = new List<CorrectionEntry<CoordinateItem>>();
         var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_CoordinateItems.tsv"));
@@ -804,7 +805,7 @@ public sealed class DownloadContext : IDisposable
                                 Id = int.TryParse(read(id), out var i) ? i : 0,
                                 CoordinateId = int.TryParse(read(coordinateId), out var cid) ? cid : default,
                                 SealId = read(sealId) ?? string.Empty,
-                                CategoryId = d.AddCategory(read(category))?.Id ?? 0,
+                                CategoryId = AddCategory(read(category))?.Id ?? 0,
                                 Point = short.TryParse(read(point), out var s) ? s : default,
                                 ImageUrl = read(imageUrl) ?? string.Empty,
                             }
@@ -817,7 +818,7 @@ public sealed class DownloadContext : IDisposable
         return list;
     }
 
-    public async Task<List<CorrectionEntry<Card>>> EnumerateCardCorrection(DownloadContext d)
+    public async Task<List<CorrectionEntry<Card>>> EnumerateCardCorrection()
     {
         var list = new List<CorrectionEntry<Card>>();
         var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_Cards.tsv"));
@@ -866,9 +867,9 @@ public sealed class DownloadContext : IDisposable
                                 Order = double.TryParse(read(order), out var ov) ? ov : double.NaN,
                                 SealId = read(sealId) ?? string.Empty,
                                 Coordinate = read(coordinate) ?? string.Empty,
-                                CharacterId = d.AddCharacter(read(character))?.Id ?? 0,
+                                CharacterId = AddCharacter(read(character))?.Id ?? 0,
                                 Variant = read(variant) ?? string.Empty,
-                                SongId = d.AddSong(read(song))?.Id ?? 0,
+                                SongId = AddSong(read(song))?.Id ?? 0,
                                 Point = short.TryParse(read(point), out var s) ? s : default,
                                 Star = byte.TryParse(read(star), out var st) ? st : (byte)0,
                                 IsChance = bool.TryParse(read(isChance), out var b) && b,
@@ -878,6 +879,41 @@ public sealed class DownloadContext : IDisposable
                             }
                         });
                     }
+                }
+            }
+        }
+
+        return list;
+    }
+
+    public async Task<List<Character>> EnumerateCharacterCorrection()
+    {
+        var list = new List<Character>();
+        var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_Characters.tsv"));
+        if (cor.Exists)
+        {
+            using var fs = cor.OpenRead();
+            using var sr = new StreamReader(fs, Encoding.GetEncoding(932));
+
+            var header = await sr.ReadLineAsync().ConfigureAwait(false);
+
+            if (header != null)
+            {
+                var ha = header.Split('\t');
+                var id = Array.IndexOf(ha, nameof(Character.Name));
+                var chapterId = Array.IndexOf(ha, nameof(Character.ShortName));
+
+                for (var l = await sr.ReadLineAsync().ConfigureAwait(false); l != null; l = await sr.ReadLineAsync().ConfigureAwait(false))
+                {
+                    var row = l.Split('\t');
+
+                    string? read(int id)
+                        => id >= 0 ? row.ElementAtOrDefault(id).TrimOrNull() : null;
+                    list.Add(new()
+                    {
+                        Name = read(id) ?? string.Empty,
+                        ShortName = read(chapterId),
+                    });
                 }
             }
         }
