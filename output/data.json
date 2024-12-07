@@ -6060,6 +6060,33 @@
       "ChapterId": "special",
       "Name": "おとぎばなしワンダーランドピンク",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900055,
+      "ChapterId": "special",
+      "Name": "ゴシックベアパープル",
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900056,
+      "ChapterId": "special",
+      "Name": "ゴシックベアブルー",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900057,
+      "ChapterId": "special",
+      "Name": "スターカウガールブラウン",
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900058,
+      "ChapterId": "special",
+      "Name": "ハーバリウムピンク",
+      "HasChance": true,
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -16682,6 +16709,84 @@
       "CoordinateId": 9900054,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910194,
+      "CoordinateId": 9900055,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910195,
+      "CoordinateId": 9900055,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910196,
+      "CoordinateId": 9900055,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910197,
+      "CoordinateId": 9900056,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910198,
+      "CoordinateId": 9900056,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910199,
+      "CoordinateId": 9900056,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910200,
+      "CoordinateId": 9900057,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910201,
+      "CoordinateId": 9900057,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910202,
+      "CoordinateId": 9900057,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910203,
+      "CoordinateId": 9900057,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910204,
+      "CoordinateId": 9900058,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910205,
+      "CoordinateId": 9900058,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910206,
+      "CoordinateId": 9900058,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -23810,7 +23915,9 @@
       "Id": 9200020,
       "ChapterId": "gumi",
       "SealId": "G2-005",
-      "Coordinate": "グミ2弾シークレット"
+      "Coordinate": "ゴシックベアブルー",
+      "Character": "チィ",
+      "CharacterId": 8
     },
     {
       "Id": 9200005,
