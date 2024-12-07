@@ -12,7 +12,7 @@ public sealed class CoordinateItem : DataItem
 
     public Coordinate? GetCoordinate() => DataSet?.Coordinates.GetById(CoordinateId);
 
-    public string SealId { get; set; } = string.Empty;
+    public string? SealId { get; set; }
 
     public int CategoryId { get; set; }
 

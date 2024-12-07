@@ -4,7 +4,7 @@ using Shipwreck.AipriDownloader;
 
 namespace Shipwreck.Aipri.Accessor;
 
-public static class AipriGitDataSetHelper
+public static partial class AipriGitDataSetHelper
 {
     #region Brand
 
@@ -99,13 +99,54 @@ public static class AipriGitDataSetHelper
     #endregion Card
 
     private static string? GetFilePath(string pathFormat, string? jsonPath, int? imageId, string? imageUrl)
-        => jsonPath != null && imageId != null && imageUrl != null
-        ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl), imageUrl)).LocalPath : null;
+    {
+        if (imageUrl == null)
+        {
+            return null;
+        }
+
+        if (jsonPath != null)
+        {
+            var ju = new Uri(jsonPath);
+            if (!imageUrl.StartsWith("http")
+                && !pathFormat.Contains("{2}"))
+            {
+                return new Uri(new Uri(ju, "../custom/1"), imageUrl).LocalPath;
+            }
+
+            if (imageId > 0)
+            {
+                return new Uri(ju, string.Format(pathFormat, imageId, Path.GetExtension(imageUrl), imageUrl)).LocalPath;
+            }
+        }
+
+        return null;
+    }
 
     private static Uri? GetUri(string pathFormat, string? jsonPath, int? imageId, string? imageUrl)
-        => imageUrl == null ? null
-        : jsonPath != null && imageId != null ? new Uri(new Uri(jsonPath), string.Format(pathFormat, imageId, Path.GetExtension(imageUrl), imageUrl))
-        : new Uri(imageUrl);
+    {
+        if (imageUrl == null)
+        {
+            return null;
+        }
+
+        if (jsonPath != null)
+        {
+            var ju = new Uri(jsonPath);
+            if (!imageUrl.StartsWith("http")
+                && !pathFormat.Contains("{2}"))
+            {
+                return new Uri(new Uri(ju, "../custom/1"), imageUrl);
+            }
+
+            if (imageId > 0)
+            {
+                return new Uri(ju, string.Format(pathFormat, imageId, Path.GetExtension(imageUrl), imageUrl));
+            }
+        }
+
+        return new Uri(imageUrl);
+    }
 
     private static Stream Open(string pathFormat, string jsonPath, int imageId, string imageUrl)
         => new FileStream(

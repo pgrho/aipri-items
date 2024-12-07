@@ -591,7 +591,7 @@ internal class Program
                 }
                 if (t != null)
                 {
-                    t.SealId = dt.SealId ?? t.SealId;
+                    t.SealId = (dt.SealId ?? t.SealId).TrimOrNull();
                     if (dt.CategoryId > 0)
                     {
                         t.CategoryId = dt.CategoryId;

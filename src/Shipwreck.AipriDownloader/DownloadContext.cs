@@ -537,7 +537,7 @@ public sealed class DownloadContext : IDisposable
                 c = new()
                 {
                     CoordinateId = coordinate.Id,
-                    SealId = sealId,
+                    SealId = sealId.TrimOrNull(),
                     Id = estimatedId > 0 && _DataSet.CoordinateItems.All(e => e.Id != estimatedId) ? estimatedId.Value : ((_DataSet.CoordinateItems.Max(e => e?.Id) ?? 0) + 1)
                 };
                 _DataSet.CoordinateItems.Add(c);
@@ -550,7 +550,7 @@ public sealed class DownloadContext : IDisposable
 
         if (!string.IsNullOrEmpty(sealId))
         {
-            c.SealId = sealId;
+            c.SealId = sealId.TrimOrNull();
 
             if (!string.IsNullOrEmpty(c.ImageUrl))
             {
@@ -804,7 +804,7 @@ public sealed class DownloadContext : IDisposable
                             {
                                 Id = int.TryParse(read(id), out var i) ? i : 0,
                                 CoordinateId = int.TryParse(read(coordinateId), out var cid) ? cid : default,
-                                SealId = read(sealId) ?? string.Empty,
+                                SealId = read(sealId),
                                 CategoryId = AddCategory(read(category))?.Id ?? 0,
                                 Point = short.TryParse(read(point), out var s) ? s : default,
                                 ImageUrl = read(imageUrl) ?? string.Empty,

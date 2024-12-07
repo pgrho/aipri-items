@@ -9426,21 +9426,18 @@
     {
       "Id": 910045,
       "CoordinateId": 9900012,
-      "SealId": "TEMP004-1",
       "CategoryId": 2,
       "ImageUrl": "himitsu_no_hatsune_miku-1.png"
     },
     {
       "Id": 910046,
       "CoordinateId": 9900012,
-      "SealId": "TEMP004-2",
       "CategoryId": 4,
       "ImageUrl": "himitsu_no_hatsune_miku-2.png"
     },
     {
       "Id": 910047,
       "CoordinateId": 9900012,
-      "SealId": "TEMP004-3",
       "CategoryId": 5,
       "ImageUrl": "himitsu_no_hatsune_miku-3.png"
     },
@@ -11215,56 +11212,48 @@
     {
       "Id": 910109,
       "CoordinateId": 9900029,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910110,
       "CoordinateId": 9900029,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910111,
       "CoordinateId": 9900029,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910112,
       "CoordinateId": 9900030,
-      "SealId": "",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910113,
       "CoordinateId": 9900030,
-      "SealId": "",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910114,
       "CoordinateId": 9900030,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910115,
       "CoordinateId": 9900030,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910116,
       "CoordinateId": 9900031,
-      "SealId": "",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
@@ -12831,84 +12820,72 @@
     {
       "Id": 910124,
       "CoordinateId": 9900034,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910125,
       "CoordinateId": 9900034,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910126,
       "CoordinateId": 9900034,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910127,
       "CoordinateId": 9900035,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910128,
       "CoordinateId": 9900035,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910129,
       "CoordinateId": 9900035,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910130,
       "CoordinateId": 9900036,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910131,
       "CoordinateId": 9900036,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910132,
       "CoordinateId": 9900036,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910133,
       "CoordinateId": 9900037,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910134,
       "CoordinateId": 9900037,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910135,
       "CoordinateId": 9900037,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
@@ -15803,252 +15780,216 @@
     {
       "Id": 910033,
       "CoordinateId": 9900009,
-      "SealId": "TEMP001-1",
       "CategoryId": 1,
       "ImageUrl": "starry_sky-1.png"
     },
     {
       "Id": 910034,
       "CoordinateId": 9900009,
-      "SealId": "TEMP001-2",
       "CategoryId": 3,
       "ImageUrl": "starry_sky-2.png"
     },
     {
       "Id": 910035,
       "CoordinateId": 9900009,
-      "SealId": "TEMP001-3",
       "CategoryId": 4,
       "ImageUrl": "starry_sky-3.png"
     },
     {
       "Id": 910036,
       "CoordinateId": 9900009,
-      "SealId": "TEMP001-4",
       "CategoryId": 5,
       "ImageUrl": "starry_sky-4.png"
     },
     {
       "Id": 910037,
       "CoordinateId": 9900010,
-      "SealId": "TEMP002-1",
       "CategoryId": 1,
       "ImageUrl": "patissier_choco_mint-1.png"
     },
     {
       "Id": 910038,
       "CoordinateId": 9900010,
-      "SealId": "TEMP002-2",
       "CategoryId": 3,
       "ImageUrl": "patissier_choco_mint-2.png"
     },
     {
       "Id": 910039,
       "CoordinateId": 9900010,
-      "SealId": "TEMP002-3",
       "CategoryId": 4,
       "ImageUrl": "patissier_choco_mint-3.png"
     },
     {
       "Id": 910040,
       "CoordinateId": 9900010,
-      "SealId": "TEMP002-4",
       "CategoryId": 5,
       "ImageUrl": "patissier_choco_mint-4.png"
     },
     {
       "Id": 910041,
       "CoordinateId": 9900011,
-      "SealId": "TEMP003-1",
       "CategoryId": 1,
       "ImageUrl": "gingham_check_grape-1.png"
     },
     {
       "Id": 910042,
       "CoordinateId": 9900011,
-      "SealId": "TEMP003-2",
       "CategoryId": 3,
       "ImageUrl": "gingham_check_grape-2.png"
     },
     {
       "Id": 910043,
       "CoordinateId": 9900011,
-      "SealId": "TEMP003-3",
       "CategoryId": 4,
       "ImageUrl": "gingham_check_grape-3.png"
     },
     {
       "Id": 910044,
       "CoordinateId": 9900011,
-      "SealId": "TEMP003-4",
       "CategoryId": 5,
       "ImageUrl": "gingham_check_grape-4.png"
     },
     {
       "Id": 910048,
       "CoordinateId": 9900013,
-      "SealId": "TEMP005-1",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910049,
       "CoordinateId": 9900013,
-      "SealId": "TEMP005-2",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910050,
       "CoordinateId": 9900013,
-      "SealId": "TEMP005-3",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910051,
       "CoordinateId": 9900013,
-      "SealId": "TEMP005-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910052,
       "CoordinateId": 9900014,
-      "SealId": "TEMP006-1",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910053,
       "CoordinateId": 9900014,
-      "SealId": "TEMP006-2",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910054,
       "CoordinateId": 9900014,
-      "SealId": "TEMP006-3",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910055,
       "CoordinateId": 9900014,
-      "SealId": "TEMP006-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910056,
       "CoordinateId": 9900015,
-      "SealId": "TEMP007-1",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910057,
       "CoordinateId": 9900015,
-      "SealId": "TEMP007-2",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910058,
       "CoordinateId": 9900015,
-      "SealId": "TEMP007-3",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910059,
       "CoordinateId": 9900015,
-      "SealId": "TEMP007-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910060,
       "CoordinateId": 9900016,
-      "SealId": "TEMP008-1",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910061,
       "CoordinateId": 9900016,
-      "SealId": "TEMP008-2",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910062,
       "CoordinateId": 9900016,
-      "SealId": "TEMP008-3",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910063,
       "CoordinateId": 9900016,
-      "SealId": "TEMP008-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910064,
       "CoordinateId": 9900017,
-      "SealId": "TEMP009-1",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910065,
       "CoordinateId": 9900017,
-      "SealId": "TEMP009-2",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910066,
       "CoordinateId": 9900017,
-      "SealId": "TEMP009-3",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910067,
       "CoordinateId": 9900017,
-      "SealId": "TEMP009-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910068,
       "CoordinateId": 9900018,
-      "SealId": "TEMP010-1",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910069,
       "CoordinateId": 9900018,
-      "SealId": "TEMP010-2",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910070,
       "CoordinateId": 9900018,
-      "SealId": "TEMP010-3",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910071,
       "CoordinateId": 9900018,
-      "SealId": "TEMP010-4",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
@@ -16272,217 +16213,186 @@
     {
       "Id": 910103,
       "CoordinateId": 9900027,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910104,
       "CoordinateId": 9900027,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910105,
       "CoordinateId": 9900027,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910106,
       "CoordinateId": 9900028,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910107,
       "CoordinateId": 9900028,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910108,
       "CoordinateId": 9900028,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910117,
       "CoordinateId": 9900032,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910118,
       "CoordinateId": 9900032,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910119,
       "CoordinateId": 9900032,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910120,
       "CoordinateId": 9900033,
-      "SealId": "",
       "CategoryId": 1,
       "ImageUrl": "magician_cat_yellow-1.png"
     },
     {
       "Id": 910121,
       "CoordinateId": 9900033,
-      "SealId": "",
       "CategoryId": 3,
       "ImageUrl": "magician_cat_yellow-2.png"
     },
     {
       "Id": 910122,
       "CoordinateId": 9900033,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "magician_cat_yellow-3.png"
     },
     {
       "Id": 910123,
       "CoordinateId": 9900033,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "magician_cat_yellow-4.png"
     },
     {
       "Id": 910136,
       "CoordinateId": 9900038,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "aipri_verse_flower_march_princess-1.png"
     },
     {
       "Id": 910137,
       "CoordinateId": 9900038,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "aipri_verse_flower_march_princess-3.png"
     },
     {
       "Id": 910138,
       "CoordinateId": 9900038,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "aipri_verse_flower_march_princess-4.png"
     },
     {
       "Id": 910139,
       "CoordinateId": 9900039,
-      "SealId": "",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910140,
       "CoordinateId": 9900039,
-      "SealId": "",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910141,
       "CoordinateId": 9900039,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910142,
       "CoordinateId": 9900039,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910143,
       "CoordinateId": 9900040,
-      "SealId": "",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910144,
       "CoordinateId": 9900040,
-      "SealId": "",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910145,
       "CoordinateId": 9900040,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910146,
       "CoordinateId": 9900040,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910147,
       "CoordinateId": 9900041,
-      "SealId": "",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910148,
       "CoordinateId": 9900041,
-      "SealId": "",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910149,
       "CoordinateId": 9900041,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910150,
       "CoordinateId": 9900041,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 40425,
       "CoordinateId": 9900042,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "elegant_jewel_pink-1.png"
     },
     {
       "Id": 40426,
       "CoordinateId": 9900042,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "elegant_jewel_pink-3.png"
     },
     {
       "Id": 40427,
       "CoordinateId": 9900042,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "elegant_jewel_pink-4.png"
     },
@@ -16692,98 +16602,84 @@
     {
       "Id": 910180,
       "CoordinateId": 9900051,
-      "SealId": "",
       "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910181,
       "CoordinateId": 9900051,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910182,
       "CoordinateId": 9900051,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910183,
       "CoordinateId": 9900052,
-      "SealId": "",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910184,
       "CoordinateId": 9900052,
-      "SealId": "",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910185,
       "CoordinateId": 9900052,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910186,
       "CoordinateId": 9900052,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 910187,
       "CoordinateId": 9900053,
-      "SealId": "",
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "otogibanashi_shirayukihime_white-1.png"
     },
     {
       "Id": 910188,
       "CoordinateId": 9900053,
-      "SealId": "",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "otogibanashi_shirayukihime_white-3.png"
     },
     {
       "Id": 910189,
       "CoordinateId": 9900053,
-      "SealId": "",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "otogibanashi_shirayukihime_white-4.png"
     },
     {
       "Id": 910190,
       "CoordinateId": 9900054,
-      "SealId": "",
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910191,
       "CoordinateId": 9900054,
-      "SealId": "",
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 910192,
       "CoordinateId": 9900054,
-      "SealId": "",
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910193,
       "CoordinateId": 9900054,
-      "SealId": "",
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
