@@ -107,6 +107,8 @@ internal class Program
             d.DataSet.Brands.Remove(b);
         }
 
+
+
         var comparer = StringComparer.Create(
             CultureInfo.InvariantCulture, CompareOptions.IgnoreCase | CompareOptions.IgnoreNonSpace | CompareOptions.IgnoreKanaType | CompareOptions.IgnoreWidth);
 
@@ -121,6 +123,13 @@ internal class Program
         {
             c.HasChance = chanceCoords.TryGetValue(c.Name, out var cardStart);
             c.Start ??= cardStart;
+        }
+        foreach (var sg in d.DataSet.Cards.GroupBy(e => e.GetSong()))
+        {
+            if (sg.Key != null)
+            {
+                sg.Key.SingerIds = sg.Select(e => e.CharacterId).Where(e => e > 0).Distinct().Order().ToList();
+            }
         }
     }
 
