@@ -23686,6 +23686,21 @@
       "Image2Url": "https://aipri.jp/card/img/gumi/G2-004_U.webp"
     },
     {
+      "Id": 9200020,
+      "ChapterId": "gumi",
+      "BrandId": 7,
+      "SealId": "G2-005",
+      "Coordinate": "ゴシックベアブルー",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Song": "GIRA GIRA STAR",
+      "SongId": 26,
+      "Star": 4,
+      "Point": 840,
+      "IsChance": true,
+      "Image1Url": "G2-005_O.jpg"
+    },
+    {
       "Id": 398,
       "ChapterId": "gumi",
       "BrandId": 2,
@@ -24052,21 +24067,6 @@
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G1-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G1-014_U.webp"
-    },
-    {
-      "Id": 9200020,
-      "ChapterId": "gumi",
-      "BrandId": 7,
-      "SealId": "G2-005",
-      "Coordinate": "ゴシックベアブルー",
-      "Character": "チィ",
-      "CharacterId": 8,
-      "Song": "GIRA GIRA STAR",
-      "SongId": 26,
-      "Star": 4,
-      "Point": 840,
-      "IsChance": true,
-      "Image1Url": "G2-005_O.jpg"
     },
     {
       "Id": 9200005,
