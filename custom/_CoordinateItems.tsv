@@ -181,13 +181,13 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910177	9900050	M3-008-1	ワンピ		_generic-1.png
 	910178	9900050	M3-008-3	シューズ		_generic-3.png
 	910179	9900050	M3-008-4	アクセ		_generic-4.png
-	910180	9900051		ワンピ		_generic-1.png
-	910181	9900051		シューズ		_generic-3.png
-	910182	9900051		アクセ		_generic-4.png
-	910183	9900052		トップス		_generic-1.png
-	910184	9900052		ボトムス		_generic-2.png
-	910185	9900052		シューズ		_generic-3.png
-	910186	9900052		アクセ		_generic-4.png
+	910180	9900051		ワンピ		flower_march_bazrium_blue-1.png
+	910181	9900051		シューズ		flower_march_bazrium_blue-3.png
+	910182	9900051		アクセ		flower_march_bazrium_blue-4.png
+	910183	9900052		トップス		oshogatsu_mint-1.png
+	910184	9900052		ボトムス		oshogatsu_mint-2.png
+	910185	9900052		シューズ		oshogatsu_mint-3.png
+	910186	9900052		アクセ		oshogatsu_mint-4.png
 	910187	9900053		ワンピ		otogibanashi_shirayukihime_white-1.png
 	910188	9900053		シューズ		otogibanashi_shirayukihime_white-3.png
 	910189	9900053		アクセ		otogibanashi_shirayukihime_white-4.png
@@ -195,16 +195,16 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910191	9900054		ボトムス		_generic-2.png
 	910192	9900054		シューズ		_generic-3.png
 	910193	9900054		アクセ		_generic-4.png
-	910194	9900055		ワンピ		_generic-1.png
-	910195	9900055		シューズ		_generic-3.png
-	910196	9900055		アクセ		_generic-4.png
-	910197	9900056		ワンピ		_generic-1.png
-	910198	9900056		シューズ		_generic-3.png
-	910199	9900056		アクセ		_generic-4.png
-	910200	9900057		トップス		_generic-1.png
-	910201	9900057		ボトムス		_generic-2.png
-	910202	9900057		シューズ		_generic-3.png
-	910203	9900057		アクセ		_generic-4.png
-	910204	9900058		ワンピ		_generic-1.png
-	910205	9900058		シューズ		_generic-3.png
-	910206	9900058		アクセ		_generic-4.png
+	910194	9900055		ワンピ		gothic_bear_purple-1.png
+	910195	9900055		シューズ		gothic_bear_purple-3.png
+	910196	9900055		アクセ		gothic_bear_purple-4.png
+	910197	9900056		ワンピ		gothic_bear_blue-1.png
+	910198	9900056		シューズ		gothic_bear_blue-3.png
+	910199	9900056		アクセ		gothic_bear_blue-4.png
+	910200	9900057		トップス		star_cow_girl_brown-1.png
+	910201	9900057		ボトムス		star_cow_girl_brown-2.png
+	910202	9900057		シューズ		star_cow_girl_brown-3.png
+	910203	9900057		アクセ		star_cow_girl_brown-4.png
+	910204	9900058		ワンピ		herbarium_pink-1.png
+	910205	9900058		シューズ		herbarium_pink-3.png
+	910206	9900058		アクセ		herbarium_pink-4.png

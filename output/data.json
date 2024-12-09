@@ -6072,6 +6072,7 @@
       "Id": 9900056,
       "ChapterId": "special",
       "Name": "ゴシックベアブルー",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -16630,43 +16631,43 @@
       "Id": 910180,
       "CoordinateId": 9900051,
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "flower_march_bazrium_blue-1.png"
     },
     {
       "Id": 910181,
       "CoordinateId": 9900051,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "flower_march_bazrium_blue-3.png"
     },
     {
       "Id": 910182,
       "CoordinateId": 9900051,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "flower_march_bazrium_blue-4.png"
     },
     {
       "Id": 910183,
       "CoordinateId": 9900052,
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "oshogatsu_mint-1.png"
     },
     {
       "Id": 910184,
       "CoordinateId": 9900052,
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "oshogatsu_mint-2.png"
     },
     {
       "Id": 910185,
       "CoordinateId": 9900052,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "oshogatsu_mint-3.png"
     },
     {
       "Id": 910186,
       "CoordinateId": 9900052,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "oshogatsu_mint-4.png"
     },
     {
       "Id": 910187,
@@ -16714,79 +16715,79 @@
       "Id": 910194,
       "CoordinateId": 9900055,
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "gothic_bear_purple-1.png"
     },
     {
       "Id": 910195,
       "CoordinateId": 9900055,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "gothic_bear_purple-3.png"
     },
     {
       "Id": 910196,
       "CoordinateId": 9900055,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "gothic_bear_purple-4.png"
     },
     {
       "Id": 910197,
       "CoordinateId": 9900056,
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "gothic_bear_blue-1.png"
     },
     {
       "Id": 910198,
       "CoordinateId": 9900056,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "gothic_bear_blue-3.png"
     },
     {
       "Id": 910199,
       "CoordinateId": 9900056,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "gothic_bear_blue-4.png"
     },
     {
       "Id": 910200,
       "CoordinateId": 9900057,
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "star_cow_girl_brown-1.png"
     },
     {
       "Id": 910201,
       "CoordinateId": 9900057,
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "star_cow_girl_brown-2.png"
     },
     {
       "Id": 910202,
       "CoordinateId": 9900057,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "star_cow_girl_brown-3.png"
     },
     {
       "Id": 910203,
       "CoordinateId": 9900057,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "star_cow_girl_brown-4.png"
     },
     {
       "Id": 910204,
       "CoordinateId": 9900058,
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "herbarium_pink-1.png"
     },
     {
       "Id": 910205,
       "CoordinateId": 9900058,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "herbarium_pink-3.png"
     },
     {
       "Id": 910206,
       "CoordinateId": 9900058,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "herbarium_pink-4.png"
     }
   ],
   "PartCategories": [
@@ -24055,10 +24056,17 @@
     {
       "Id": 9200020,
       "ChapterId": "gumi",
+      "BrandId": 7,
       "SealId": "G2-005",
       "Coordinate": "ゴシックベアブルー",
       "Character": "チィ",
-      "CharacterId": 8
+      "CharacterId": 8,
+      "Song": "GIRA GIRA STAR",
+      "SongId": 26,
+      "Star": 4,
+      "Point": 840,
+      "IsChance": true,
+      "Image1Url": "G2-005_O.jpg"
     },
     {
       "Id": 9200005,
