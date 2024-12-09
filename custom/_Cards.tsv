@@ -365,7 +365,7 @@ SealId				G2-001	ƒSƒVƒbƒNƒxƒAƒp[ƒvƒ‹	ƒTƒNƒ‰		Stand Get Up	4	840	TRUE	ƒƒ[ƒbƒVƒ‡
 SealId				G2-002	ƒSƒVƒbƒNƒxƒAƒp[ƒvƒ‹	ƒ^ƒ}ƒL		Perfect™STARs	4	850	TRUE	ƒƒ[ƒbƒVƒ‡ƒ“		
 SealId				G2-003	ƒSƒVƒbƒNƒxƒAƒp[ƒvƒ‹	ƒŠƒ“ƒŠƒ“		ƒlƒoƒMƒoƒ‰ƒo[	4	840	TRUE	ƒƒ[ƒbƒVƒ‡ƒ“		
 SealId				G2-004	ƒSƒVƒbƒNƒxƒAƒp[ƒvƒ‹	ƒAƒCƒŠ		Perfect™STARs	4	840	TRUE	ƒƒ[ƒbƒVƒ‡ƒ“		
-	9200020	gumi		G2-005	ƒSƒVƒbƒNƒxƒAƒuƒ‹[	ƒ`ƒB								
+	9200020	gumi		G2-005	ƒSƒVƒbƒNƒxƒAƒuƒ‹[	ƒ`ƒB		GIRA GIRA STAR	4	840	TRUE	ƒƒ[ƒbƒVƒ‡ƒ“	G2-005_O.jpg	
 SealId				G2-006	ƒXƒ^[ƒJƒEƒK[ƒ‹ƒuƒ‰ƒEƒ“	‚Ý‚Â‚«		ƒ€ƒeƒLDUOƒGƒiƒW[	3	730	TRUE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
 SealId				G2-007	ƒXƒ^[ƒJƒEƒK[ƒ‹ƒuƒ‰ƒEƒ“	ƒAƒCƒŠ		ƒlƒoƒMƒoƒ‰ƒo[	3	710	TRUE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
 SealId				G2-008	ƒXƒ^[ƒJƒEƒK[ƒ‹ƒuƒ‰ƒEƒ“	ƒTƒNƒ‰		Stand Get Up	3	710	TRUE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
@@ -375,11 +375,11 @@ SealId				G2-011	ƒn[ƒoƒŠƒEƒ€ƒsƒ“ƒN	‚Â‚Þ‚¬		We're The World	3	700	TRUE	ƒtƒ‰ƒ[ƒ
 SealId				G2-012	ƒ‰ƒuƒŠ[ƒAƒCƒhƒ‹ƒsƒ“ƒN	‚Â‚Þ‚¬		ƒqƒJƒŠƒmƒRƒgƒo	2	580	TRUE	ƒ|ƒbƒsƒ“ƒn[ƒg		
 SealId				G2-013	ƒN[ƒ‹ƒAƒCƒhƒ‹ƒp[ƒvƒ‹	‚Ð‚Ü‚è		P.O.P.P.Y	2	600	TRUE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
 SealId				G2-014	ƒ`ƒ…[ƒŠƒbƒvƒCƒGƒ[	‚Ý‚Â‚«		ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	2	590	TRUE	ƒtƒ‰ƒ[ƒ}[ƒ`		
-	9200021	5	0.1	AP5-001P	ƒtƒ‰ƒ[ƒ}[ƒ`ƒvƒŠƒ“ƒZƒXƒoƒYƒŠƒEƒ€	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j	ƒpƒ‰ƒŒƒ‹	‚«‚ç‚ß‚«‚Ì‚¤‚½	4	999		ƒtƒ‰ƒ[ƒ}[ƒ`	AP5-001P_O.webp
-	9200022	5	0.2	AP5-004P	ƒI[ƒƒ‰ƒXƒm[ƒOƒ‰ƒ“ƒvƒŠ	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j	ƒpƒ‰ƒŒƒ‹	ƒqƒJƒŠƒmƒRƒgƒo	4	950		ƒtƒ‰ƒ[ƒ}[ƒ`	AP5-004P_O.webp
-	9200023	5	0.3	AP5-013P	‚Ò‚å‚ñ‚Ò‚å‚ñ‚¤‚³‚¬	‚Ð‚Ü‚è	ƒpƒ‰ƒŒƒ‹	ƒpƒXƒeƒ‹ƒXƒeƒbƒvƒfƒCƒY	4	900		ƒ|ƒbƒsƒ“ƒn[ƒg	AP5-013P_O.webp
-	9200024	5	0.4	AP5-012P	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒzƒƒCƒg	‚Ý‚Â‚«	ƒpƒ‰ƒŒƒ‹	ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	4	910		ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“	AP5-012P_O.webp
-	9200025	5	0.5	AP5-020P	ƒnƒbƒs[ƒo[ƒXƒf[I‚Â‚Þ‚¬	‚Â‚Þ‚¬	ƒpƒ‰ƒŒƒ‹	ƒnƒsƒnƒsƒnƒbƒs[™ƒ}ƒCƒo[ƒXƒf[i‚Â‚Þ‚¬j	4	888		ƒtƒ‰ƒ[ƒ}[ƒ`	AP5-020P_O.webp
+	9200021	5	0.1	AP5-001P	ƒtƒ‰ƒ[ƒ}[ƒ`ƒvƒŠƒ“ƒZƒXƒoƒYƒŠƒEƒ€	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j	ƒpƒ‰ƒŒƒ‹	‚«‚ç‚ß‚«‚Ì‚¤‚½	4	999		ƒtƒ‰ƒ[ƒ}[ƒ`	AP5-001P_O.webp	
+	9200022	5	0.2	AP5-004P	ƒI[ƒƒ‰ƒXƒm[ƒOƒ‰ƒ“ƒvƒŠ	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j	ƒpƒ‰ƒŒƒ‹	ƒqƒJƒŠƒmƒRƒgƒo	4	950		ƒtƒ‰ƒ[ƒ}[ƒ`	AP5-004P_O.webp	
+	9200023	5	0.3	AP5-013P	‚Ò‚å‚ñ‚Ò‚å‚ñ‚¤‚³‚¬	‚Ð‚Ü‚è	ƒpƒ‰ƒŒƒ‹	ƒpƒXƒeƒ‹ƒXƒeƒbƒvƒfƒCƒY	4	900		ƒ|ƒbƒsƒ“ƒn[ƒg	AP5-013P_O.webp	
+	9200024	5	0.4	AP5-012P	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒzƒƒCƒg	‚Ý‚Â‚«	ƒpƒ‰ƒŒƒ‹	ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	4	910		ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“	AP5-012P_O.webp	
+	9200025	5	0.5	AP5-020P	ƒnƒbƒs[ƒo[ƒXƒf[I‚Â‚Þ‚¬	‚Â‚Þ‚¬	ƒpƒ‰ƒŒƒ‹	ƒnƒsƒnƒsƒnƒbƒs[™ƒ}ƒCƒo[ƒXƒf[i‚Â‚Þ‚¬j	4	888		ƒtƒ‰ƒ[ƒ}[ƒ`	AP5-020P_O.webp	
 	9200026	millefeui		M3-001	‚¨‚Æ‚¬‚Î‚È‚µ‚©‚®‚â‚Ð‚ß	‚Â‚Þ‚¬		We're The World	4	860		ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX		
 	9200027	millefeui		M3-002	‚¨‚Æ‚¬‚Î‚È‚µƒVƒ“ƒfƒŒƒ‰ƒsƒ“ƒN	‚Ð‚Ü‚è		We're The World	4	860		ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX		
 	9200028	millefeui		M3-003	‚¨‚Æ‚¬‚Î‚È‚µ‚ ‚©‚¸‚«‚ñƒuƒ‹[	‚Ý‚Â‚«		We're The World	4	860		ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX		
