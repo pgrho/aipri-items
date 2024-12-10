@@ -16026,28 +16026,28 @@
       "CoordinateId": 9900019,
       "SealId": "M2-001-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m2-001-1.png"
     },
     {
       "Id": 910073,
       "CoordinateId": 9900019,
       "SealId": "M2-001-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m2-001-2.png"
     },
     {
       "Id": 910074,
       "CoordinateId": 9900019,
       "SealId": "M2-001-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m2-001-3.png"
     },
     {
       "Id": 910075,
       "CoordinateId": 9900019,
       "SealId": "M2-001-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m2-001-4.png"
     },
     {
       "Id": 910076,
@@ -16429,77 +16429,77 @@
       "CoordinateId": 9900043,
       "SealId": "M3-001-1",
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m3-001-1.png"
     },
     {
       "Id": 910152,
       "CoordinateId": 9900043,
       "SealId": "M3-001-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m3-001-2.png"
     },
     {
       "Id": 910153,
       "CoordinateId": 9900043,
       "SealId": "M3-001-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m3-001-3.png"
     },
     {
       "Id": 910154,
       "CoordinateId": 9900044,
       "SealId": "M3-002-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m3-002-1.png"
     },
     {
       "Id": 910155,
       "CoordinateId": 9900044,
       "SealId": "M3-002-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m3-002-2.png"
     },
     {
       "Id": 910156,
       "CoordinateId": 9900044,
       "SealId": "M3-002-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m3-002-3.png"
     },
     {
       "Id": 910157,
       "CoordinateId": 9900044,
       "SealId": "M3-002-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m3-002-4.png"
     },
     {
       "Id": 910158,
       "CoordinateId": 9900045,
       "SealId": "M3-003-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m3-003-1.png"
     },
     {
       "Id": 910159,
       "CoordinateId": 9900045,
       "SealId": "M3-003-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m3-003-2.png"
     },
     {
       "Id": 910160,
       "CoordinateId": 9900045,
       "SealId": "M3-003-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m3-003-3.png"
     },
     {
       "Id": 910161,
       "CoordinateId": 9900045,
       "SealId": "M3-003-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m3-003-4.png"
     },
     {
       "Id": 910162,
