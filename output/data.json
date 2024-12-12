@@ -4464,6 +4464,48 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 382,
+      "ChapterId": "5",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "オーロラスノーグランプリ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-010.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-010_thumb.webp",
+      "Group": "第4回アイプリグランプリ",
+      "Kind": "第4回アイプリグランプリ",
+      "Start": "2024-12-05",
+      "End": "2025-01-08",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 383,
+      "ChapterId": "5",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "ぷるるんゼリーミルク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-013.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-013_thumb.webp",
+      "Group": "第4回アイプリグランプリ",
+      "Kind": "第4回アイプリグランプリ",
+      "Start": "2024-12-05",
+      "End": "2025-01-08",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 384,
+      "ChapterId": "5",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "オーロラスノーグランプリライラック",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-017.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-017_thumb.webp",
+      "Group": "第4回アイプリグランプリ",
+      "Kind": "第4回アイプリグランプリ",
+      "Start": "2024-12-05",
+      "End": "2025-01-08",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 350,
       "ChapterId": "5",
       "BrandId": 4,
@@ -13166,6 +13208,86 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30927.webp"
     },
     {
+      "Id": 31058,
+      "CoordinateId": 382,
+      "SealId": "V5-010",
+      "CategoryId": 2,
+      "Point": 420,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31058.webp"
+    },
+    {
+      "Id": 31059,
+      "CoordinateId": 382,
+      "SealId": "V5-011",
+      "CategoryId": 4,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31059.webp"
+    },
+    {
+      "Id": 31060,
+      "CoordinateId": 382,
+      "SealId": "V5-012",
+      "CategoryId": 5,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31060.webp"
+    },
+    {
+      "Id": 31061,
+      "CoordinateId": 383,
+      "SealId": "V5-013",
+      "CategoryId": 1,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31061.webp"
+    },
+    {
+      "Id": 31062,
+      "CoordinateId": 383,
+      "SealId": "V5-014",
+      "CategoryId": 3,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31062.webp"
+    },
+    {
+      "Id": 31063,
+      "CoordinateId": 383,
+      "SealId": "V5-015",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31063.webp"
+    },
+    {
+      "Id": 31064,
+      "CoordinateId": 383,
+      "SealId": "V5-016",
+      "CategoryId": 5,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31064.webp"
+    },
+    {
+      "Id": 31065,
+      "CoordinateId": 384,
+      "SealId": "V5-017",
+      "CategoryId": 2,
+      "Point": 410,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31065.webp"
+    },
+    {
+      "Id": 31066,
+      "CoordinateId": 384,
+      "SealId": "V5-018",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31066.webp"
+    },
+    {
+      "Id": 31067,
+      "CoordinateId": 384,
+      "SealId": "V5-019",
+      "CategoryId": 5,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31067.webp"
+    },
+    {
       "Id": 31023,
       "CoordinateId": 350,
       "SealId": "V5-137",
@@ -16054,189 +16176,189 @@
       "CoordinateId": 9900020,
       "SealId": "M2-003-1",
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m2-003-1.png"
     },
     {
       "Id": 910077,
       "CoordinateId": 9900020,
       "SealId": "M2-003-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m2-003-2.png"
     },
     {
       "Id": 910078,
       "CoordinateId": 9900020,
       "SealId": "M2-003-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m2-003-3.png"
     },
     {
       "Id": 910079,
       "CoordinateId": 9900021,
       "SealId": "M2-004-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m2-004-1.png"
     },
     {
       "Id": 910080,
       "CoordinateId": 9900021,
       "SealId": "M2-004-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m2-004-2.png"
     },
     {
       "Id": 910081,
       "CoordinateId": 9900021,
       "SealId": "M2-004-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m2-004-3.png"
     },
     {
       "Id": 910082,
       "CoordinateId": 9900021,
       "SealId": "M2-004-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m2-004-4.png"
     },
     {
       "Id": 910083,
       "CoordinateId": 9900022,
       "SealId": "M2-005-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m2-005-1.png"
     },
     {
       "Id": 910084,
       "CoordinateId": 9900022,
       "SealId": "M2-005-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m2-005-2.png"
     },
     {
       "Id": 910085,
       "CoordinateId": 9900022,
       "SealId": "M2-005-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m2-005-3.png"
     },
     {
       "Id": 910086,
       "CoordinateId": 9900022,
       "SealId": "M2-005-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m2-005-4.png"
     },
     {
       "Id": 910087,
       "CoordinateId": 9900023,
       "SealId": "M2-006-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m2-006-1.png"
     },
     {
       "Id": 910088,
       "CoordinateId": 9900023,
       "SealId": "M2-006-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m2-006-2.png"
     },
     {
       "Id": 910089,
       "CoordinateId": 9900023,
       "SealId": "M2-006-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m2-006-3.png"
     },
     {
       "Id": 910090,
       "CoordinateId": 9900023,
       "SealId": "M2-006-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m2-006-4.png"
     },
     {
       "Id": 910091,
       "CoordinateId": 9900024,
       "SealId": "M2-007-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m2-007-1.png"
     },
     {
       "Id": 910092,
       "CoordinateId": 9900024,
       "SealId": "M2-007-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m2-007-2.png"
     },
     {
       "Id": 910093,
       "CoordinateId": 9900024,
       "SealId": "M2-007-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m2-007-3.png"
     },
     {
       "Id": 910094,
       "CoordinateId": 9900024,
       "SealId": "M2-007-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m2-007-4.png"
     },
     {
       "Id": 910095,
       "CoordinateId": 9900025,
       "SealId": "M2-008-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m2-008-1.png"
     },
     {
       "Id": 910096,
       "CoordinateId": 9900025,
       "SealId": "M2-008-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m2-008-2.png"
     },
     {
       "Id": 910097,
       "CoordinateId": 9900025,
       "SealId": "M2-008-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m2-008-3.png"
     },
     {
       "Id": 910098,
       "CoordinateId": 9900025,
       "SealId": "M2-008-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m2-008-4.png"
     },
     {
       "Id": 910099,
       "CoordinateId": 9900026,
       "SealId": "M2-002-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m2-002-1.png"
     },
     {
       "Id": 910100,
       "CoordinateId": 9900026,
       "SealId": "M2-002-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m2-002-2.png"
     },
     {
       "Id": 910101,
       "CoordinateId": 9900026,
       "SealId": "M2-002-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m2-002-3.png"
     },
     {
       "Id": 910102,
       "CoordinateId": 9900026,
       "SealId": "M2-002-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m2-002-4.png"
     },
     {
       "Id": 910103,
@@ -16506,126 +16628,126 @@
       "CoordinateId": 9900046,
       "SealId": "M3-004-1",
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m3-004-1.png"
     },
     {
       "Id": 910163,
       "CoordinateId": 9900046,
       "SealId": "M3-004-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m3-004-2.png"
     },
     {
       "Id": 910164,
       "CoordinateId": 9900046,
       "SealId": "M3-004-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m3-004-3.png"
     },
     {
       "Id": 910165,
       "CoordinateId": 9900047,
       "SealId": "M3-005-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m3-005-1.png"
     },
     {
       "Id": 910166,
       "CoordinateId": 9900047,
       "SealId": "M3-005-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m3-005-2.png"
     },
     {
       "Id": 910167,
       "CoordinateId": 9900047,
       "SealId": "M3-005-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m3-005-3.png"
     },
     {
       "Id": 910168,
       "CoordinateId": 9900047,
       "SealId": "M3-005-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m3-005-4.png"
     },
     {
       "Id": 910169,
       "CoordinateId": 9900048,
       "SealId": "M3-006-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m3-006-1.png"
     },
     {
       "Id": 910170,
       "CoordinateId": 9900048,
       "SealId": "M3-006-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m3-006-2.png"
     },
     {
       "Id": 910171,
       "CoordinateId": 9900048,
       "SealId": "M3-006-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m3-006-3.png"
     },
     {
       "Id": 910172,
       "CoordinateId": 9900048,
       "SealId": "M3-006-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m3-006-4.png"
     },
     {
       "Id": 910173,
       "CoordinateId": 9900049,
       "SealId": "M3-007-1",
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m3-007-1.png"
     },
     {
       "Id": 910174,
       "CoordinateId": 9900049,
       "SealId": "M3-007-2",
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "m3-007-2.png"
     },
     {
       "Id": 910175,
       "CoordinateId": 9900049,
       "SealId": "M3-007-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m3-007-3.png"
     },
     {
       "Id": 910176,
       "CoordinateId": 9900049,
       "SealId": "M3-007-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m3-007-4.png"
     },
     {
       "Id": 910177,
       "CoordinateId": 9900050,
       "SealId": "M3-008-1",
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "m3-008-1.png"
     },
     {
       "Id": 910178,
       "CoordinateId": 9900050,
       "SealId": "M3-008-3",
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "m3-008-2.png"
     },
     {
       "Id": 910179,
       "CoordinateId": 9900050,
       "SealId": "M3-008-4",
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "m3-008-3.png"
     },
     {
       "Id": 910180,
