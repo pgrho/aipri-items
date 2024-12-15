@@ -22759,22 +22759,8 @@
       "SongId": 11,
       "Star": 4,
       "Point": 950,
-      "Image1Url": "AP5-004P_O.webp"
-    },
-    {
-      "Id": 9200023,
-      "ChapterId": "5",
-      "BrandId": 1,
-      "SealId": "AP5-013P",
-      "Coordinate": "ぴょんぴょんうさぎ",
-      "Character": "ひまり",
-      "CharacterId": 1,
-      "Variant": "パラレル",
-      "Song": "パステルステップデイズ",
-      "SongId": 35,
-      "Star": 4,
-      "Point": 900,
-      "Image1Url": "AP5-013P_O.webp"
+      "Image1Url": "AP5-004P_O.jpg",
+      "Image2Url": "AP5-004P_U.jpg"
     },
     {
       "Id": 9200024,
@@ -22789,7 +22775,24 @@
       "SongId": 2,
       "Star": 4,
       "Point": 910,
-      "Image1Url": "AP5-012P_O.webp"
+      "Image1Url": "AP5-012P_O.jpg",
+      "Image2Url": "AP5-012P_U.jpg"
+    },
+    {
+      "Id": 9200023,
+      "ChapterId": "5",
+      "BrandId": 1,
+      "SealId": "AP5-013P",
+      "Coordinate": "ぴょんぴょんうさぎ",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Variant": "パラレル",
+      "Song": "パステルステップデイズ",
+      "SongId": 35,
+      "Star": 4,
+      "Point": 900,
+      "Image1Url": "AP5-013P_O.jpg",
+      "Image2Url": "AP5-013P_U.jpg"
     },
     {
       "Id": 9200025,
@@ -22804,7 +22807,8 @@
       "SongId": 36,
       "Star": 4,
       "Point": 888,
-      "Image1Url": "AP5-020P_O.webp"
+      "Image1Url": "AP5-020P_O.jpg",
+      "Image2Url": "AP5-020P_U.jpg"
     },
     {
       "Id": 334,
