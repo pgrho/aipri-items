@@ -4464,6 +4464,150 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 385,
+      "ChapterId": "5",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "ポッピンハートバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V1-001.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V1-001_thumb.webp",
+      "Group": "バズリウムひろば",
+      "Kind": "バズリウムひろば",
+      "Start": "2024-12-19",
+      "End": "2025-01-08",
+      "LinkedItemIds": [
+        30001,
+        30002,
+        30003
+      ]
+    },
+    {
+      "Id": 386,
+      "ChapterId": "5",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "ミラクルムーンバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V1-004.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V1-004_thumb.webp",
+      "Group": "バズリウムひろば",
+      "Kind": "バズリウムひろば",
+      "Start": "2024-12-19",
+      "End": "2025-01-08",
+      "LinkedItemIds": [
+        30004,
+        30005,
+        30006
+      ]
+    },
+    {
+      "Id": 387,
+      "ChapterId": "5",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "フラワーマーチバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V2-004.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V2-004_thumb.webp",
+      "Group": "バズリウムひろば",
+      "Kind": "バズリウムひろば",
+      "Start": "2024-12-19",
+      "End": "2025-01-08",
+      "LinkedItemIds": [
+        30251,
+        30252,
+        30253
+      ]
+    },
+    {
+      "Id": 388,
+      "ChapterId": "5",
+      "BrandId": 5,
+      "Star": 4,
+      "Name": "スカーレットバタフライバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V1-007.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V1-007_thumb.webp",
+      "Group": "バズリウムひろば",
+      "Kind": "バズリウムひろば",
+      "Start": "2024-12-19",
+      "End": "2025-01-08",
+      "LinkedItemIds": [
+        30007,
+        30008,
+        30009
+      ]
+    },
+    {
+      "Id": 389,
+      "ChapterId": "5",
+      "BrandId": 7,
+      "Star": 4,
+      "Name": "ロゼッションバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V2-001.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V2-001_thumb.webp",
+      "Group": "バズリウムひろば",
+      "Kind": "バズリウムひろば",
+      "Start": "2024-12-19",
+      "End": "2025-01-08",
+      "LinkedItemIds": [
+        30215,
+        30216,
+        30217
+      ]
+    },
+    {
+      "Id": 390,
+      "ChapterId": "5",
+      "BrandId": 9,
+      "Star": 4,
+      "Name": "レインボーキャンディバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V3-010.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V3-010_thumb.webp",
+      "Group": "バズリウムひろば",
+      "Kind": "バズリウムひろば",
+      "Start": "2024-12-19",
+      "End": "2025-01-08",
+      "LinkedItemIds": [
+        30499,
+        30500,
+        30501
+      ]
+    },
+    {
+      "Id": 391,
+      "ChapterId": "5",
+      "BrandId": 10,
+      "Star": 4,
+      "Name": "ベアベアベアバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V3-013.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V3-013_thumb.webp",
+      "Group": "バズリウムひろば",
+      "Kind": "バズリウムひろば",
+      "Start": "2024-12-19",
+      "End": "2025-01-08",
+      "LinkedItemIds": [
+        30502,
+        30503,
+        30504
+      ]
+    },
+    {
+      "Id": 392,
+      "ChapterId": "5",
+      "BrandId": 12,
+      "Star": 4,
+      "Name": "ラブマイミュージックバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V4-013.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V4-013_thumb.webp",
+      "Group": "バズリウムひろば",
+      "Kind": "バズリウムひろば",
+      "Start": "2024-12-19",
+      "End": "2025-01-08",
+      "LinkedItemIds": [
+        30726,
+        30727,
+        30728
+      ]
+    },
+    {
       "Id": 382,
       "ChapterId": "5",
       "BrandId": 8,
@@ -4968,6 +5112,20 @@
       "Group": "ショップワッチャプリマジ！",
       "Kind": "ショップワッチャプリマジ！",
       "Start": "2024-12-05",
+      "End": "2025-01-08",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 393,
+      "ChapterId": "5",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "スペシャルクリスマスホワイト",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/20241129_150103.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/20241129_150103_thumb.webp",
+      "Group": "ショップふゆやすみキャンペーン",
+      "Kind": "ショップふゆやすみキャンペーン",
+      "Start": "2024-12-19",
       "End": "2025-01-08",
       "LinkedItemIds": []
     },
@@ -14168,6 +14326,27 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31114.webp"
     },
     {
+      "Id": 40431,
+      "CoordinateId": 393,
+      "CategoryId": 2,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID40431.webp"
+    },
+    {
+      "Id": 40432,
+      "CoordinateId": 393,
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID40432.webp"
+    },
+    {
+      "Id": 40433,
+      "CoordinateId": 393,
+      "CategoryId": 5,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID40433.webp"
+    },
+    {
       "Id": 30681,
       "CoordinateId": 232,
       "SealId": "",
@@ -18306,6 +18485,13 @@
       "Name": "さむぞらウィンター",
       "Description": "ウィンターツアー2024→2025",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0020.webp"
+    },
+    {
+      "Id": 193,
+      "CategoryId": 6,
+      "Name": "ウィンターフロスト",
+      "Description": "",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0043.webp"
     }
   ],
   "HimitsuChapters": [
@@ -24394,7 +24580,8 @@
       "Song": "We're The World",
       "SongId": 16,
       "Star": 4,
-      "Point": 860
+      "Point": 860,
+      "Image1Url": "M3-001.jpg"
     },
     {
       "Id": 9200027,
@@ -24407,7 +24594,8 @@
       "Song": "We're The World",
       "SongId": 16,
       "Star": 4,
-      "Point": 860
+      "Point": 860,
+      "Image1Url": "M3-002.jpg"
     },
     {
       "Id": 9200028,
@@ -24420,7 +24608,8 @@
       "Song": "We're The World",
       "SongId": 16,
       "Star": 4,
-      "Point": 860
+      "Point": 860,
+      "Image1Url": "M3-003.jpg"
     },
     {
       "Id": 9200029,
@@ -24433,7 +24622,8 @@
       "Song": "Perfect☆STARs",
       "SongId": 25,
       "Star": 3,
-      "Point": 770
+      "Point": 770,
+      "Image1Url": "_generic_card.png"
     },
     {
       "Id": 9200030,
@@ -24446,7 +24636,8 @@
       "Song": "GIRA GIRA STAR",
       "SongId": 26,
       "Star": 3,
-      "Point": 720
+      "Point": 720,
+      "Image1Url": "_generic_card.png"
     },
     {
       "Id": 9200031,
@@ -24459,7 +24650,8 @@
       "Song": "ネバギバラバー",
       "SongId": 17,
       "Star": 2,
-      "Point": 680
+      "Point": 680,
+      "Image1Url": "_generic_card.png"
     },
     {
       "Id": 9200032,
@@ -24472,7 +24664,8 @@
       "Song": "Stand Get Up",
       "SongId": 9,
       "Star": 2,
-      "Point": 650
+      "Point": 650,
+      "Image1Url": "_generic_card.png"
     },
     {
       "Id": 9200033,
@@ -24485,7 +24678,8 @@
       "Song": "Perfect☆STARs",
       "SongId": 25,
       "Star": 2,
-      "Point": 640
+      "Point": 640,
+      "Image1Url": "_generic_card.png"
     },
     {
       "Id": 407,
