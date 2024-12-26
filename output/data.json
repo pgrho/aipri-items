@@ -28,7 +28,7 @@
       "Id": "5",
       "Name": "5だん",
       "Start": "2024-12-05",
-      "End": "2025-01-08"
+      "End": "2025-02-05"
     },
     {
       "Id": "special",
@@ -4318,6 +4318,188 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 394,
+      "ChapterId": "5",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "フラワーマーチプリンセスバズリウムブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-004.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-004_thumb.webp",
+      "Group": "5だん後半 ★★★★ピックアップ",
+      "Kind": "5だん後半 ★★★★ピックアップ",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 395,
+      "ChapterId": "5",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "フラワーマーチバズリウムピュアホワイト",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-007.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-007_thumb.webp",
+      "Group": "5だん後半 ★★★★ピックアップ",
+      "Kind": "5だん後半 ★★★★ピックアップ",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 396,
+      "ChapterId": "5",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "やぎざオニキス",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-048.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-048_thumb.webp",
+      "Group": "5だん後半 ★★★★ピックアップ",
+      "Kind": "5だん後半 ★★★★ピックアップ",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 397,
+      "ChapterId": "5",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとぎばなしワンダーランド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-052.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-052_thumb.webp",
+      "Group": "5だん後半 ★★★★ピックアップ",
+      "Kind": "5だん後半 ★★★★ピックアップ",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 398,
+      "ChapterId": "5",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "ぴょんぴょんうさぎ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-056.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-056_thumb.webp",
+      "Group": "5だん後半 ★★★★ピックアップ",
+      "Kind": "5だん後半 ★★★★ピックアップ",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 399,
+      "ChapterId": "5",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "おしょうがつピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-060.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-060_thumb.webp",
+      "Group": "5だん後半 ★★★★ピックアップ",
+      "Kind": "5だん後半 ★★★★ピックアップ",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 400,
+      "ChapterId": "5",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "おしょうがつブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-064.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-064_thumb.webp",
+      "Group": "5だん後半 ★★★★ピックアップ",
+      "Kind": "5だん後半 ★★★★ピックアップ",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 401,
+      "ChapterId": "5",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "おしょうがつイエロー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-068.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-068_thumb.webp",
+      "Group": "5だん後半 ★★★★ピックアップ",
+      "Kind": "5だん後半 ★★★★ピックアップ",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 402,
+      "ChapterId": "5",
+      "BrandId": 7,
+      "Star": 4,
+      "Name": "ハッピーバースデー！タマキ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-072.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-072_thumb.webp",
+      "Group": "5だん後半 ★★★★ピックアップ",
+      "Kind": "5だん後半 ★★★★ピックアップ",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 403,
+      "ChapterId": "5",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "スパークスター",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-155.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-155_thumb.webp",
+      "Group": "ワッチャプリマジ！②",
+      "Kind": "ワッチャプリマジ！②",
+      "Start": "2025-01-09",
+      "End": "2025-03-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 404,
+      "ChapterId": "5",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "エレガントジュエル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-158.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-158_thumb.webp",
+      "Group": "ワッチャプリマジ！②",
+      "Kind": "ワッチャプリマジ！②",
+      "Start": "2025-01-09",
+      "End": "2025-03-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 405,
+      "ChapterId": "5",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "テクノマジカルピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-161.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-161_thumb.webp",
+      "Group": "ワッチャプリマジ！②",
+      "Kind": "ワッチャプリマジ！②",
+      "Start": "2025-01-09",
+      "End": "2025-03-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 406,
+      "ChapterId": "5",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "テクノマジカルブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-165.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-165_thumb.webp",
+      "Group": "ワッチャプリマジ！②",
+      "Kind": "ワッチャプリマジ！②",
+      "Start": "2025-01-09",
+      "End": "2025-03-05",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 340,
       "ChapterId": "5",
       "BrandId": 8,
@@ -4618,7 +4800,7 @@
       "Group": "第4回アイプリグランプリ",
       "Kind": "第4回アイプリグランプリ",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -4632,7 +4814,7 @@
       "Group": "第4回アイプリグランプリ",
       "Kind": "第4回アイプリグランプリ",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -4646,75 +4828,75 @@
       "Group": "第4回アイプリグランプリ",
       "Kind": "第4回アイプリグランプリ",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
-      "Id": 350,
+      "Id": 407,
       "ChapterId": "5",
       "BrandId": 4,
       "Star": 4,
       "Name": "ひみつのプリマジまつり",
       "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-137.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-137_thumb.webp",
-      "Group": "ワッチャプリマジ！",
-      "Kind": "ワッチャプリマジ！",
+      "Group": "ワッチャプリマジ！①",
+      "Kind": "ワッチャプリマジ！①",
       "Start": "2024-12-05",
       "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
-      "Id": 351,
+      "Id": 408,
       "ChapterId": "5",
       "BrandId": 4,
       "Star": 4,
       "Name": "ひみつのプリマジひな",
       "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-140.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-140_thumb.webp",
-      "Group": "ワッチャプリマジ！",
-      "Kind": "ワッチャプリマジ！",
+      "Group": "ワッチャプリマジ！①",
+      "Kind": "ワッチャプリマジ！①",
       "Start": "2024-12-05",
       "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
-      "Id": 352,
+      "Id": 409,
       "ChapterId": "5",
       "BrandId": 4,
       "Star": 4,
       "Name": "ひみつのプリマジあまね",
       "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-143.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-143_thumb.webp",
-      "Group": "ワッチャプリマジ！",
-      "Kind": "ワッチャプリマジ！",
+      "Group": "ワッチャプリマジ！①",
+      "Kind": "ワッチャプリマジ！①",
       "Start": "2024-12-05",
       "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
-      "Id": 353,
+      "Id": 410,
       "ChapterId": "5",
       "BrandId": 4,
       "Star": 4,
       "Name": "ひみつのプリマジあうる",
       "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-146.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-146_thumb.webp",
-      "Group": "ワッチャプリマジ！",
-      "Kind": "ワッチャプリマジ！",
+      "Group": "ワッチャプリマジ！①",
+      "Kind": "ワッチャプリマジ！①",
       "Start": "2024-12-05",
       "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
-      "Id": 354,
+      "Id": 411,
       "ChapterId": "5",
       "BrandId": 4,
       "Star": 4,
       "Name": "ハートフェザー",
       "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-149.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-149_thumb.webp",
-      "Group": "ワッチャプリマジ！",
-      "Kind": "ワッチャプリマジ！",
+      "Group": "ワッチャプリマジ！①",
+      "Kind": "ワッチャプリマジ！①",
       "Start": "2024-12-05",
       "End": "2025-02-05",
       "LinkedItemIds": [
@@ -4724,15 +4906,15 @@
       ]
     },
     {
-      "Id": 355,
+      "Id": 412,
       "ChapterId": "5",
       "BrandId": 4,
       "Star": 4,
       "Name": "メカニックビート",
       "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-152.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-152_thumb.webp",
-      "Group": "ワッチャプリマジ！",
-      "Kind": "ワッチャプリマジ！",
+      "Group": "ワッチャプリマジ！①",
+      "Kind": "ワッチャプリマジ！①",
       "Start": "2024-12-05",
       "End": "2025-02-05",
       "LinkedItemIds": []
@@ -4762,7 +4944,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4777,7 +4959,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4792,7 +4974,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4807,7 +4989,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4822,7 +5004,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -4836,7 +5018,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4851,7 +5033,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4866,7 +5048,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -4880,7 +5062,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4895,7 +5077,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4910,7 +5092,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4925,7 +5107,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4940,7 +5122,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4955,7 +5137,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4970,7 +5152,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -4985,7 +5167,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -5000,7 +5182,7 @@
       "Group": "2024→2025ウィンターツアー",
       "Kind": "2024→2025ウィンターツアー",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -5014,7 +5196,7 @@
       "Group": "2024→2025ウィンターツアー",
       "Kind": "2024→2025ウィンターツアー",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -5028,7 +5210,7 @@
       "Group": "2024→2025ウィンターツアー",
       "Kind": "2024→2025ウィンターツアー",
       "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -5127,6 +5309,90 @@
       "Kind": "ショップふゆやすみキャンペーン",
       "Start": "2024-12-19",
       "End": "2025-01-08",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 350,
+      "ChapterId": "5",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのプリマジまつり",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-137.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-137_thumb.webp",
+      "Group": "ワッチャプリマジ！",
+      "Kind": "ワッチャプリマジ！",
+      "Start": "2024-12-05",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 351,
+      "ChapterId": "5",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのプリマジひな",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-140.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-140_thumb.webp",
+      "Group": "ワッチャプリマジ！",
+      "Kind": "ワッチャプリマジ！",
+      "Start": "2024-12-05",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 352,
+      "ChapterId": "5",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのプリマジあまね",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-143.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-143_thumb.webp",
+      "Group": "ワッチャプリマジ！",
+      "Kind": "ワッチャプリマジ！",
+      "Start": "2024-12-05",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 353,
+      "ChapterId": "5",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのプリマジあうる",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-146.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-146_thumb.webp",
+      "Group": "ワッチャプリマジ！",
+      "Kind": "ワッチャプリマジ！",
+      "Start": "2024-12-05",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 354,
+      "ChapterId": "5",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ハートフェザー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-149.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-149_thumb.webp",
+      "Group": "ワッチャプリマジ！",
+      "Kind": "ワッチャプリマジ！",
+      "Start": "2024-12-05",
+      "End": "2025-02-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 355,
+      "ChapterId": "5",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "メカニックビート",
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/V5-152.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-152_thumb.webp",
+      "Group": "ワッチャプリマジ！",
+      "Kind": "ワッチャプリマジ！",
+      "Start": "2024-12-05",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -13118,6 +13384,390 @@
       "ImageUrl": "_generic-4.png"
     },
     {
+      "Id": 30928,
+      "CoordinateId": 394,
+      "SealId": "V5-004",
+      "CategoryId": 2,
+      "Point": 420,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30928.webp"
+    },
+    {
+      "Id": 30929,
+      "CoordinateId": 394,
+      "SealId": "V5-005",
+      "CategoryId": 4,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30929.webp"
+    },
+    {
+      "Id": 30930,
+      "CoordinateId": 394,
+      "SealId": "V5-006",
+      "CategoryId": 5,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30930.webp"
+    },
+    {
+      "Id": 30931,
+      "CoordinateId": 395,
+      "SealId": "V5-007",
+      "CategoryId": 2,
+      "Point": 410,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30931.webp"
+    },
+    {
+      "Id": 30932,
+      "CoordinateId": 395,
+      "SealId": "V5-008",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30932.webp"
+    },
+    {
+      "Id": 30933,
+      "CoordinateId": 395,
+      "SealId": "V5-009",
+      "CategoryId": 5,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30933.webp"
+    },
+    {
+      "Id": 30934,
+      "CoordinateId": 396,
+      "SealId": "V5-048",
+      "CategoryId": 1,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30934.webp"
+    },
+    {
+      "Id": 30935,
+      "CoordinateId": 396,
+      "SealId": "V5-049",
+      "CategoryId": 3,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30935.webp"
+    },
+    {
+      "Id": 30936,
+      "CoordinateId": 396,
+      "SealId": "V5-050",
+      "CategoryId": 4,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30936.webp"
+    },
+    {
+      "Id": 30937,
+      "CoordinateId": 396,
+      "SealId": "V5-051",
+      "CategoryId": 5,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30937.webp"
+    },
+    {
+      "Id": 30938,
+      "CoordinateId": 397,
+      "SealId": "V5-052",
+      "CategoryId": 1,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30938.webp"
+    },
+    {
+      "Id": 30939,
+      "CoordinateId": 397,
+      "SealId": "V5-053",
+      "CategoryId": 3,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30939.webp"
+    },
+    {
+      "Id": 30940,
+      "CoordinateId": 397,
+      "SealId": "V5-054",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30940.webp"
+    },
+    {
+      "Id": 30941,
+      "CoordinateId": 397,
+      "SealId": "V5-055",
+      "CategoryId": 5,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30941.webp"
+    },
+    {
+      "Id": 30942,
+      "CoordinateId": 398,
+      "SealId": "V5-056",
+      "CategoryId": 1,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30942.webp"
+    },
+    {
+      "Id": 30943,
+      "CoordinateId": 398,
+      "SealId": "V5-057",
+      "CategoryId": 3,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30943.webp"
+    },
+    {
+      "Id": 30944,
+      "CoordinateId": 398,
+      "SealId": "V5-058",
+      "CategoryId": 4,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30944.webp"
+    },
+    {
+      "Id": 30945,
+      "CoordinateId": 398,
+      "SealId": "V5-059",
+      "CategoryId": 5,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30945.webp"
+    },
+    {
+      "Id": 30946,
+      "CoordinateId": 399,
+      "SealId": "V5-060",
+      "CategoryId": 1,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30946.webp"
+    },
+    {
+      "Id": 30947,
+      "CoordinateId": 399,
+      "SealId": "V5-061",
+      "CategoryId": 3,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30947.webp"
+    },
+    {
+      "Id": 30948,
+      "CoordinateId": 399,
+      "SealId": "V5-062",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30948.webp"
+    },
+    {
+      "Id": 30949,
+      "CoordinateId": 399,
+      "SealId": "V5-063",
+      "CategoryId": 5,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30949.webp"
+    },
+    {
+      "Id": 30950,
+      "CoordinateId": 400,
+      "SealId": "V5-064",
+      "CategoryId": 1,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30950.webp"
+    },
+    {
+      "Id": 30951,
+      "CoordinateId": 400,
+      "SealId": "V5-065",
+      "CategoryId": 3,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30951.webp"
+    },
+    {
+      "Id": 30952,
+      "CoordinateId": 400,
+      "SealId": "V5-066",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30952.webp"
+    },
+    {
+      "Id": 30953,
+      "CoordinateId": 400,
+      "SealId": "V5-067",
+      "CategoryId": 5,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30953.webp"
+    },
+    {
+      "Id": 30954,
+      "CoordinateId": 401,
+      "SealId": "V5-068",
+      "CategoryId": 1,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30954.webp"
+    },
+    {
+      "Id": 30955,
+      "CoordinateId": 401,
+      "SealId": "V5-069",
+      "CategoryId": 3,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30955.webp"
+    },
+    {
+      "Id": 30956,
+      "CoordinateId": 401,
+      "SealId": "V5-070",
+      "CategoryId": 4,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30956.webp"
+    },
+    {
+      "Id": 30957,
+      "CoordinateId": 401,
+      "SealId": "V5-071",
+      "CategoryId": 5,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30957.webp"
+    },
+    {
+      "Id": 30958,
+      "CoordinateId": 402,
+      "SealId": "V5-072",
+      "CategoryId": 1,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30958.webp"
+    },
+    {
+      "Id": 30959,
+      "CoordinateId": 402,
+      "SealId": "V5-073",
+      "CategoryId": 3,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30959.webp"
+    },
+    {
+      "Id": 30960,
+      "CoordinateId": 402,
+      "SealId": "V5-074",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30960.webp"
+    },
+    {
+      "Id": 30961,
+      "CoordinateId": 402,
+      "SealId": "V5-075",
+      "CategoryId": 5,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID30961.webp"
+    },
+    {
+      "Id": 31041,
+      "CoordinateId": 403,
+      "SealId": "V5-155",
+      "CategoryId": 2,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31041.webp"
+    },
+    {
+      "Id": 31042,
+      "CoordinateId": 403,
+      "SealId": "V5-156",
+      "CategoryId": 4,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31042.webp"
+    },
+    {
+      "Id": 31043,
+      "CoordinateId": 403,
+      "SealId": "V5-157",
+      "CategoryId": 5,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31043.webp"
+    },
+    {
+      "Id": 31044,
+      "CoordinateId": 404,
+      "SealId": "V5-158",
+      "CategoryId": 2,
+      "Point": 380,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31044.webp"
+    },
+    {
+      "Id": 31045,
+      "CoordinateId": 404,
+      "SealId": "V5-159",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31045.webp"
+    },
+    {
+      "Id": 31046,
+      "CoordinateId": 404,
+      "SealId": "V5-160",
+      "CategoryId": 5,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31046.webp"
+    },
+    {
+      "Id": 31047,
+      "CoordinateId": 405,
+      "SealId": "V5-161",
+      "CategoryId": 1,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31047.webp"
+    },
+    {
+      "Id": 31048,
+      "CoordinateId": 405,
+      "SealId": "V5-162",
+      "CategoryId": 3,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31048.webp"
+    },
+    {
+      "Id": 31049,
+      "CoordinateId": 405,
+      "SealId": "V5-163",
+      "CategoryId": 4,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31049.webp"
+    },
+    {
+      "Id": 31050,
+      "CoordinateId": 405,
+      "SealId": "V5-164",
+      "CategoryId": 5,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31050.webp"
+    },
+    {
+      "Id": 31051,
+      "CoordinateId": 406,
+      "SealId": "V5-165",
+      "CategoryId": 1,
+      "Point": 130,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31051.webp"
+    },
+    {
+      "Id": 31052,
+      "CoordinateId": 406,
+      "SealId": "V5-166",
+      "CategoryId": 3,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31052.webp"
+    },
+    {
+      "Id": 31053,
+      "CoordinateId": 406,
+      "SealId": "V5-167",
+      "CategoryId": 4,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31053.webp"
+    },
+    {
+      "Id": 31054,
+      "CoordinateId": 406,
+      "SealId": "V5-168",
+      "CategoryId": 5,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/5/Item_ID31054.webp"
+    },
+    {
       "Id": 30894,
       "CoordinateId": 340,
       "SealId": "V5-001",
@@ -13447,7 +14097,7 @@
     },
     {
       "Id": 31023,
-      "CoordinateId": 350,
+      "CoordinateId": 407,
       "SealId": "V5-137",
       "CategoryId": 2,
       "Point": 360,
@@ -13455,7 +14105,7 @@
     },
     {
       "Id": 31024,
-      "CoordinateId": 350,
+      "CoordinateId": 407,
       "SealId": "V5-138",
       "CategoryId": 4,
       "Point": 210,
@@ -13463,7 +14113,7 @@
     },
     {
       "Id": 31025,
-      "CoordinateId": 350,
+      "CoordinateId": 407,
       "SealId": "V5-139",
       "CategoryId": 5,
       "Point": 190,
@@ -13471,7 +14121,7 @@
     },
     {
       "Id": 31026,
-      "CoordinateId": 351,
+      "CoordinateId": 408,
       "SealId": "V5-140",
       "CategoryId": 2,
       "Point": 380,
@@ -13479,7 +14129,7 @@
     },
     {
       "Id": 31027,
-      "CoordinateId": 351,
+      "CoordinateId": 408,
       "SealId": "V5-141",
       "CategoryId": 4,
       "Point": 180,
@@ -13487,7 +14137,7 @@
     },
     {
       "Id": 31028,
-      "CoordinateId": 351,
+      "CoordinateId": 408,
       "SealId": "V5-142",
       "CategoryId": 5,
       "Point": 200,
@@ -13495,7 +14145,7 @@
     },
     {
       "Id": 31029,
-      "CoordinateId": 352,
+      "CoordinateId": 409,
       "SealId": "V5-143",
       "CategoryId": 2,
       "Point": 400,
@@ -13503,7 +14153,7 @@
     },
     {
       "Id": 31030,
-      "CoordinateId": 352,
+      "CoordinateId": 409,
       "SealId": "V5-144",
       "CategoryId": 4,
       "Point": 180,
@@ -13511,7 +14161,7 @@
     },
     {
       "Id": 31031,
-      "CoordinateId": 352,
+      "CoordinateId": 409,
       "SealId": "V5-145",
       "CategoryId": 5,
       "Point": 180,
@@ -13519,7 +14169,7 @@
     },
     {
       "Id": 31032,
-      "CoordinateId": 353,
+      "CoordinateId": 410,
       "SealId": "V5-146",
       "CategoryId": 2,
       "Point": 400,
@@ -13527,7 +14177,7 @@
     },
     {
       "Id": 31033,
-      "CoordinateId": 353,
+      "CoordinateId": 410,
       "SealId": "V5-147",
       "CategoryId": 4,
       "Point": 170,
@@ -13535,7 +14185,7 @@
     },
     {
       "Id": 31034,
-      "CoordinateId": 353,
+      "CoordinateId": 410,
       "SealId": "V5-148",
       "CategoryId": 5,
       "Point": 190,
@@ -13543,7 +14193,7 @@
     },
     {
       "Id": 31038,
-      "CoordinateId": 355,
+      "CoordinateId": 412,
       "SealId": "V5-152",
       "CategoryId": 2,
       "Point": 360,
@@ -13551,7 +14201,7 @@
     },
     {
       "Id": 31039,
-      "CoordinateId": 355,
+      "CoordinateId": 412,
       "SealId": "V5-153",
       "CategoryId": 4,
       "Point": 200,
@@ -13559,7 +14209,7 @@
     },
     {
       "Id": 31040,
-      "CoordinateId": 355,
+      "CoordinateId": 412,
       "SealId": "V5-154",
       "CategoryId": 5,
       "Point": 200,
@@ -18492,6 +19142,55 @@
       "Name": "ウィンターフロスト",
       "Description": "",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0043.webp"
+    },
+    {
+      "Id": 194,
+      "CategoryId": 5,
+      "Name": "ときめきツインテール",
+      "Description": "5だんマイキャラフェス②",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0014.webp"
+    },
+    {
+      "Id": 195,
+      "CategoryId": 5,
+      "Name": "つむぎロング",
+      "Description": "まいつきもらおうマイキャラパーツ！",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_1024.webp"
+    },
+    {
+      "Id": 196,
+      "CategoryId": 6,
+      "Name": "あまねレッド",
+      "Description": "ドリーム「てんちょうのプリマジスタ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0038.webp"
+    },
+    {
+      "Id": 197,
+      "CategoryId": 6,
+      "Name": "つむぎブラック",
+      "Description": "まいつきもらおうマイキャラパーツ！",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0039.webp"
+    },
+    {
+      "Id": 198,
+      "CategoryId": 6,
+      "Name": "ほがらかまっちゃ",
+      "Description": "5だんマイキャラフェス①",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0040.webp"
+    },
+    {
+      "Id": 199,
+      "CategoryId": 7,
+      "Name": "パッションローズアイ",
+      "Description": "ドリーム「てんちょうのプリマジスタ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0035.webp"
+    },
+    {
+      "Id": 200,
+      "CategoryId": 10,
+      "Name": "ひなメイク",
+      "Description": "ドリーム「てんちょうのプリマジスタ」",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0019.webp"
     }
   ],
   "HimitsuChapters": [
@@ -24680,6 +25379,46 @@
       "Star": 2,
       "Point": 640,
       "Image1Url": "_generic_card.png"
+    },
+    {
+      "Id": 408,
+      "ChapterId": "special",
+      "SealId": "P-067",
+      "Coordinate": "パンキッシュペンギンホワイト",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/special/P-067_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-067_U.webp"
+    },
+    {
+      "Id": 409,
+      "ChapterId": "special",
+      "SealId": "P-066",
+      "Coordinate": "オーロラスノーグランプリプレミアム",
+      "Character": "つむぎ（プリンセスver.）",
+      "CharacterId": 9,
+      "Image1Url": "https://aipri.jp/card/img/special/P-066_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-066_U.webp"
+    },
+    {
+      "Id": 410,
+      "ChapterId": "special",
+      "SealId": "P-065",
+      "Coordinate": "フラワーマーチバズリウム",
+      "Character": "つむぎ（プリンセスver.）",
+      "CharacterId": 9,
+      "Image1Url": "https://aipri.jp/card/img/special/P-065_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-065_U.webp"
+    },
+    {
+      "Id": 411,
+      "ChapterId": "special",
+      "SealId": "P-064",
+      "Coordinate": "アイプリバースポッピンハート",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-064_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-064_U.webp"
     },
     {
       "Id": 407,
