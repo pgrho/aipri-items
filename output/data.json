@@ -6554,6 +6554,12 @@
       "Name": "ハーバリウムピンク",
       "HasChance": true,
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900059,
+      "ChapterId": "special",
+      "Name": "カワイイあめちゃんポップ",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -17739,6 +17745,24 @@
       "CoordinateId": 9900058,
       "CategoryId": 5,
       "ImageUrl": "herbarium_pink-4.png"
+    },
+    {
+      "Id": 910207,
+      "CoordinateId": 9900059,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910208,
+      "CoordinateId": 9900059,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910209,
+      "CoordinateId": 9900059,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
