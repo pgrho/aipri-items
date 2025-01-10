@@ -625,15 +625,26 @@ internal class Program
                 var pred = ci!.Key switch
                 {
                     nameof(src.Id) or "" or null => (Func<Card, bool>)(e => e.Id == src.Id),
-                    nameof(src.SealId) or "" or null => (Func<Card, bool>)(e => e.SealId == src.SealId),
+                    nameof(src.SealId) => (Func<Card, bool>)(e => e.SealId == src.SealId),
                     _ => throw new ArgumentException()
                 };
 
                 var dest = d.DataSet.Cards.FirstOrDefault(pred);
-                if (dest == null && src.Id > 0)
+                if (src.Id > 0)
                 {
-                    dest = new() { Id = src.Id };
-                    d.DataSet.Cards.Add(dest);
+                    if (dest == null)
+                    {
+                        dest = new() { Id = src.Id };
+                        d.DataSet.Cards.Add(dest);
+                    }
+                    else if ((ci.Key != nameof(src.Id) && !string.IsNullOrEmpty(ci.Key))
+                        && src.Id > 0
+                        && src.Id > dest.Id)
+                    {
+                        dest.Id = src.Id;
+                        dest.Image1Task = null;
+                        dest.Image2Task = null;
+                    }
                 }
                 if (dest != null)
                 {
@@ -668,10 +679,20 @@ internal class Program
                     {
                         dest.BeginSetImage1Url(src.Image1Url, d);
                     }
+                    else if (dest.Image1Task == null &&  dest.Image1Url != null)
+                    {
+                        dest.BeginSetImage1Url(dest.Image1Url, d);
+                    }
+
                     if (!string.IsNullOrEmpty(src.Image2Url))
                     {
                         dest.BeginSetImage2Url(src.Image2Url, d);
                     }
+                    else if (dest.Image2Task == null && dest.Image2Url != null)
+                    {
+                        dest.BeginSetImage2Url(dest.Image2Url, d);
+                    }
+
                     Console.WriteLine($"Corrected card info of #{dest.Id}({dest.SealId})");
                 }
             }
