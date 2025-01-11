@@ -17840,43 +17840,43 @@
       "Id": 910210,
       "CoordinateId": 9900060,
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "quartette_start_bazrium_heart_pink-1.png"
     },
     {
       "Id": 910211,
       "CoordinateId": 9900060,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "quartette_start_bazrium_heart_pink-2.png"
     },
     {
       "Id": 910212,
       "CoordinateId": 9900060,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "quartette_start_bazrium_heart_pink-3.png"
     },
     {
       "Id": 910213,
       "CoordinateId": 9900061,
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "otogibanashi_wonderland_pink-1.png"
     },
     {
       "Id": 910214,
       "CoordinateId": 9900061,
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "otogibanashi_wonderland_pink-2.png"
     },
     {
       "Id": 910215,
       "CoordinateId": 9900061,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "otogibanashi_wonderland_pink-3.png"
     },
     {
       "Id": 910216,
       "CoordinateId": 9900061,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "otogibanashi_wonderland_pink-4.png"
     }
   ],
   "PartCategories": [
