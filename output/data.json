@@ -6594,6 +6594,12 @@
       "ChapterId": "special",
       "Name": "カルテットスターバズリウムハートピンク",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900061,
+      "ChapterId": "special",
+      "Name": "おとぎばなしワンダーランドピンク",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -17869,6 +17875,30 @@
     {
       "Id": 910212,
       "CoordinateId": 9900060,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910213,
+      "CoordinateId": 9900061,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910214,
+      "CoordinateId": 9900061,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910215,
+      "CoordinateId": 9900061,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910216,
+      "CoordinateId": 9900061,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
