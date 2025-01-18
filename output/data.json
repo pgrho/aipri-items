@@ -4302,7 +4302,7 @@
       "ChapterId": "4",
       "Name": "カワイイあめちゃんげんきオレンジ",
       "Group": "店頭大会",
-      "Kind": "お店でアイプリグランプリ 参加景品",
+      "Kind": "お店でアイプリグランプリ 抽選参加景品",
       "Start": "2024-10-03",
       "End": "2024-12-04",
       "LinkedItemIds": []
@@ -4312,7 +4312,7 @@
       "ChapterId": "4",
       "Name": "フェザーグランプリクールピンク",
       "Group": "店頭大会",
-      "Kind": "お店でアイプリグランプリ 抽選参加景品",
+      "Kind": "お店でアイプリグランプリ 参加景品",
       "Start": "2024-10-03",
       "End": "2024-12-04",
       "LinkedItemIds": []
@@ -6599,6 +6599,22 @@
       "Id": 9900061,
       "ChapterId": "special",
       "Name": "おとぎばなしワンダーランドピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900062,
+      "ChapterId": "special",
+      "Name": "オーロラスノーグランプリプレミアム",
+      "Group": "店頭大会",
+      "Kind": "お店でアイプリグランプリ 参加景品",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900063,
+      "ChapterId": "special",
+      "Name": "パンキッシュペンギンホワイト",
+      "Group": "店頭大会",
+      "Kind": "お店でアイプリグランプリ 抽選参加景品",
       "LinkedItemIds": []
     }
   ],
@@ -17877,6 +17893,48 @@
       "CoordinateId": 9900061,
       "CategoryId": 5,
       "ImageUrl": "otogibanashi_wonderland_pink-4.png"
+    },
+    {
+      "Id": 910217,
+      "CoordinateId": 9900062,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910218,
+      "CoordinateId": 9900062,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910219,
+      "CoordinateId": 9900062,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910220,
+      "CoordinateId": 9900063,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910221,
+      "CoordinateId": 9900063,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910222,
+      "CoordinateId": 9900063,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910223,
+      "CoordinateId": 9900063,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
