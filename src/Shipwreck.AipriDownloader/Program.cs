@@ -316,7 +316,7 @@ internal class Program
 
                     for (var n = 1; n <= 4; n++)
                     {
-                        var category = cNode.SelectSingleNode("@data-term" + n)?.Value?.Trim2();
+                        var category = cNode.SelectSingleNode("@data-term" + n)?.Value?.Trim2()?.Replace("ヘアアクセ", "アクセ");
                         if (string.IsNullOrEmpty(category))
                         {
                             break;
@@ -682,7 +682,7 @@ internal class Program
                     {
                         dest.BeginSetImage1Url(src.Image1Url, d);
                     }
-                    else if (dest.Image1Task == null &&  dest.Image1Url != null)
+                    else if (dest.Image1Task == null && dest.Image1Url != null)
                     {
                         dest.BeginSetImage1Url(dest.Image1Url, d);
                     }
