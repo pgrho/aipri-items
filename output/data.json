@@ -7164,6 +7164,12 @@
       "Group": "店頭大会",
       "Kind": "お店でアイプリグランプリ 抽選参加景品",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900064,
+      "ChapterId": "special",
+      "Name": "バレンタインレターパープル",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -19515,6 +19521,30 @@
       "CoordinateId": 9900063,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910224,
+      "CoordinateId": 9900064,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910225,
+      "CoordinateId": 9900064,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910226,
+      "CoordinateId": 9900064,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910227,
+      "CoordinateId": 9900064,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -26616,7 +26646,7 @@
       "ChapterId": "6",
       "SealId": "AP6-009",
       "Coordinate": "シークレットフレンズ∞バズリウムピュアホワイト",
-      "Character": "つむぎ（プリンセスver.)",
+      "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-009_U.webp"
@@ -26816,7 +26846,7 @@
       "ChapterId": "6",
       "SealId": "AP6-029",
       "Coordinate": "アイプリバースフラワーマーチプリンセス",
-      "Character": "つむぎ（プリンセスver.)",
+      "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-029_U.webp"

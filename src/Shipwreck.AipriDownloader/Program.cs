@@ -494,11 +494,11 @@ internal class Program
 
         foreach (HtmlNodeNavigator cNode in nav.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item ')]//a[@data-modal]"))
         {
-            var term = cNode.GetAttribute("data-term", null);
-            var name = cNode.GetAttribute("data-name", null)
-                                ?.Replace("<br>", "")
+            var term = cNode.GetAttribute("data-term", null)
                                 ?.Replace("(", "（")
                                 ?.Replace(")", "）");
+            var name = cNode.GetAttribute("data-name", null)
+                                ?.Replace("<br>", "");
             var img1 = cNode.GetAttribute("data-img1", null);
             var img2 = cNode.GetAttribute("data-img2", null);
 
