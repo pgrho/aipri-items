@@ -26562,6 +26562,38 @@
       "Image2Url": "https://aipri.jp/card/img/5/AP5-060_U.webp"
     },
     {
+      "Id": 9200034,
+      "ChapterId": "6",
+      "SealId": "AP6-001P",
+      "Coordinate": "ダークカルテットスターバズリウムレッド",
+      "Character": "ダークサクラ",
+      "CharacterId": 10
+    },
+    {
+      "Id": 9200035,
+      "ChapterId": "6",
+      "SealId": "AP6-003P",
+      "Coordinate": "ダークカルテットスターバズリウムグリーン",
+      "Character": "ダークアイリ",
+      "CharacterId": 12
+    },
+    {
+      "Id": 9200036,
+      "ChapterId": "6",
+      "SealId": "AP6-014P",
+      "Coordinate": "バレンタインレターイエロー",
+      "Character": "つむぎ",
+      "CharacterId": 4
+    },
+    {
+      "Id": 9200037,
+      "ChapterId": "6",
+      "SealId": "AP6-021P",
+      "Coordinate": "ハッピーバースデー！サクラ",
+      "Character": "サクラ",
+      "CharacterId": 3
+    },
+    {
       "Id": 421,
       "ChapterId": "6",
       "SealId": "AP6-001",
