@@ -106,6 +106,10 @@ public sealed class AipriDataSetAccessor : IDisposable
 
     internal static void DeleteDirectoryRecursive(string directoryPath)
     {
+        if (!Directory.Exists(directoryPath))
+        {
+            return;
+        }
         var files = Directory.GetFiles(directoryPath, "*", SearchOption.AllDirectories);
 
         foreach (string file in files)
