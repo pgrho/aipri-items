@@ -2038,6 +2038,7 @@
       "Kind": "★2",
       "Start": "2024-06-06",
       "End": "2024-07-31",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -2052,6 +2053,7 @@
       "Kind": "★2",
       "Start": "2024-06-06",
       "End": "2024-07-31",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -2066,6 +2068,7 @@
       "Kind": "★2",
       "Start": "2024-06-06",
       "End": "2024-07-31",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -4082,6 +4085,7 @@
       "Kind": "★★",
       "Start": "2024-10-03",
       "End": "2024-12-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5745,6 +5749,7 @@
       "Kind": "★★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5759,6 +5764,7 @@
       "Kind": "★★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5773,6 +5779,7 @@
       "Kind": "★★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5787,6 +5794,7 @@
       "Kind": "★★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5801,6 +5809,7 @@
       "Kind": "★★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5815,6 +5824,7 @@
       "Kind": "★★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5843,6 +5853,7 @@
       "Kind": "★★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5857,6 +5868,7 @@
       "Kind": "★★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5885,6 +5897,7 @@
       "Kind": "★★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5899,6 +5912,7 @@
       "Kind": "★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5913,6 +5927,7 @@
       "Kind": "★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5927,6 +5942,7 @@
       "Kind": "★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -5941,6 +5957,7 @@
       "Kind": "★★",
       "Start": "2025-02-06",
       "End": "2025-03-05",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -26931,6 +26948,7 @@
       "Coordinate": "ダークカルテットスターバズリウムブルー",
       "Character": "ダークタマキ",
       "CharacterId": 11,
+      "Star": 4,
       "Image1Url": "AP6-002P_O.jpg",
       "Image2Url": "AP6-002P_U.jpg"
     },
@@ -26941,6 +26959,7 @@
       "Coordinate": "ダークカルテットスターバズリウムグリーン",
       "Character": "ダークアイリ",
       "CharacterId": 12,
+      "Star": 4,
       "Image1Url": "AP6-003P_O.jpg",
       "Image2Url": "AP6-003P_U.jpg"
     },
@@ -26951,6 +26970,7 @@
       "Coordinate": "バレンタインレターイエロー",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Star": 4,
       "Image1Url": "AP6-014P_O.jpg",
       "Image2Url": "AP6-014P_U.jpg"
     },
@@ -26961,6 +26981,7 @@
       "Coordinate": "ハッピーバースデー！サクラ",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Star": 4,
       "Image1Url": "AP6-021P_O.jpg",
       "Image2Url": "AP6-021P_U.jpg"
     },
@@ -26971,6 +26992,7 @@
       "Coordinate": "ダークカルテットスターバズリウムレッド",
       "Character": "ダークサクラ",
       "CharacterId": 10,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-001_U.webp"
     },
@@ -26981,6 +27003,7 @@
       "Coordinate": "ダークカルテットスターバズリウムブルー",
       "Character": "ダークタマキ",
       "CharacterId": 11,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-002_U.webp"
     },
@@ -26991,6 +27014,7 @@
       "Coordinate": "ダークカルテットスターバズリウムグリーン",
       "Character": "ダークアイリ",
       "CharacterId": 12,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-003_U.webp"
     },
@@ -27001,6 +27025,7 @@
       "Coordinate": "ダークカルテットスターバズリウムオレンジ",
       "Character": "ダークリンリン",
       "CharacterId": 13,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-004_U.webp"
     },
@@ -27011,6 +27036,7 @@
       "Coordinate": "ダークウィッシュメロディ",
       "Character": "ダークチィ",
       "CharacterId": 14,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-005_U.webp"
     },
@@ -27021,6 +27047,7 @@
       "Coordinate": "ダークウィッシュメロディ",
       "Character": "ダークチィ",
       "CharacterId": 14,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-006_U.webp"
     },
@@ -27031,6 +27058,7 @@
       "Coordinate": "シークレットフレンズ∞バズリウムピュアホワイト",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-007_U.webp"
     },
@@ -27041,6 +27069,7 @@
       "Coordinate": "シークレットフレンズ∞バズリウムピュアホワイト",
       "Character": "みつき",
       "CharacterId": 2,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-008_U.webp"
     },
@@ -27051,6 +27080,7 @@
       "Coordinate": "シークレットフレンズ∞バズリウムピュアホワイト",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-009_U.webp"
     },
@@ -27061,6 +27091,7 @@
       "Coordinate": "ガーリーピアノ",
       "Character": "みつき",
       "CharacterId": 2,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-010_U.webp"
     },
@@ -27071,6 +27102,7 @@
       "Coordinate": "ガーリーピアノ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-011_U.webp"
     },
@@ -27081,6 +27113,7 @@
       "Coordinate": "バレンタインレターピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-012_U.webp"
     },
@@ -27091,6 +27124,7 @@
       "Coordinate": "バレンタインレターブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-013_U.webp"
     },
@@ -27101,6 +27135,7 @@
       "Coordinate": "バレンタインレターイエロー",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-014_U.webp"
     },
@@ -27111,6 +27146,7 @@
       "Coordinate": "ロマンスルージュ",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-015_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-015_U.webp"
     },
@@ -27121,6 +27157,7 @@
       "Coordinate": "ロマンスルージュ",
       "Character": "チィ",
       "CharacterId": 8,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-016_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-016_U.webp"
     },
@@ -27131,6 +27168,7 @@
       "Coordinate": "チェックメイトシルバー",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-017_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-017_U.webp"
     },
@@ -27141,6 +27179,7 @@
       "Coordinate": "チェックメイトシルバー",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-018_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-018_U.webp"
     },
@@ -27151,6 +27190,7 @@
       "Coordinate": "カラフルキャンディハッピー",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-019_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-019_U.webp"
     },
@@ -27161,6 +27201,7 @@
       "Coordinate": "おやすみメリーナイト",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-020_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-020_U.webp"
     },
@@ -27171,6 +27212,7 @@
       "Coordinate": "ハッピーバースデー！サクラ",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-021_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-021_U.webp"
     },
@@ -27181,6 +27223,8 @@
       "Coordinate": "アイプリバーススカーレットバタフライダーク",
       "Character": "ダークサクラ",
       "CharacterId": 10,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-022_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-022_U.webp"
     },
@@ -27191,6 +27235,8 @@
       "Coordinate": "アイプリバースロゼッションダーク",
       "Character": "ダークタマキ",
       "CharacterId": 11,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-023_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-023_U.webp"
     },
@@ -27201,6 +27247,8 @@
       "Coordinate": "アイプリバースレインボーキャンディダーク",
       "Character": "ダークアイリ",
       "CharacterId": 12,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-024_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-024_U.webp"
     },
@@ -27211,6 +27259,8 @@
       "Coordinate": "アイプリバースベアベアベアダーク",
       "Character": "ダークリンリン",
       "CharacterId": 13,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-025_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-025_U.webp"
     },
@@ -27221,6 +27271,8 @@
       "Coordinate": "アイプリバースラブマイミュージックダーク",
       "Character": "ダークチィ",
       "CharacterId": 14,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-026_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-026_U.webp"
     },
@@ -27231,6 +27283,8 @@
       "Coordinate": "アイプリバースポッピンハート",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-027_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-027_U.webp"
     },
@@ -27241,6 +27295,8 @@
       "Coordinate": "アイプリバースミラクルムーン",
       "Character": "みつき",
       "CharacterId": 2,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-028_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-028_U.webp"
     },
@@ -27251,6 +27307,8 @@
       "Coordinate": "アイプリバースフラワーマーチプリンセス",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-029_U.webp"
     },
@@ -27261,6 +27319,8 @@
       "Coordinate": "メロディコーラス",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-030_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-030_U.webp"
     },
@@ -27271,6 +27331,8 @@
       "Coordinate": "メロディコーラス",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-031_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-031_U.webp"
     },
@@ -27281,6 +27343,8 @@
       "Coordinate": "ポッピンマーチ",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-032_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-032_U.webp"
     },
@@ -27291,6 +27355,8 @@
       "Coordinate": "ポッピンマーチ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-033_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-033_U.webp"
     },
@@ -27301,6 +27367,8 @@
       "Coordinate": "クラシックヴァイオリン",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-034_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-034_U.webp"
     },
@@ -27311,6 +27379,8 @@
       "Coordinate": "クラシックヴァイオリン",
       "Character": "みつき",
       "CharacterId": 2,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-035_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-035_U.webp"
     },
@@ -27321,6 +27391,8 @@
       "Coordinate": "スターメロディパープル",
       "Character": "チィ",
       "CharacterId": 8,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-036_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-036_U.webp"
     },
@@ -27331,6 +27403,7 @@
       "Coordinate": "ゆきミクコーデ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-037_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-037_U.webp"
     },
@@ -27341,6 +27414,7 @@
       "Coordinate": "ゆきミクコーデ",
       "Character": "みつき",
       "CharacterId": 2,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-038_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-038_U.webp"
     },
@@ -27351,6 +27425,7 @@
       "Coordinate": "はつねミクコーデ",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-039_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-039_U.webp"
     },
@@ -27361,6 +27436,7 @@
       "Coordinate": "はつねミクコーデ",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-040_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-040_U.webp"
     },
@@ -27371,6 +27447,8 @@
       "Coordinate": "パラダイスがくえんせいふく1ねん",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-041_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-041_U.webp"
     },
@@ -27381,6 +27459,8 @@
       "Coordinate": "パラダイスがくえんせいふく1ねん",
       "Character": "みつき",
       "CharacterId": 2,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-042_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-042_U.webp"
     },
@@ -27391,6 +27471,8 @@
       "Coordinate": "パラダイスがくえんせいふく1ねん",
       "Character": "チィ",
       "CharacterId": 8,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-043_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-043_U.webp"
     },
@@ -27401,6 +27483,8 @@
       "Coordinate": "ラブリーアイドルフレッシュいちご",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-044_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-044_U.webp"
     },
@@ -27411,6 +27495,8 @@
       "Coordinate": "ラブリーアイドルフレッシュいちご",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-045_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-045_U.webp"
     },
@@ -27421,6 +27507,8 @@
       "Coordinate": "クールアイドルオレンジブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-046_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-046_U.webp"
     },
@@ -27431,6 +27519,8 @@
       "Coordinate": "クールアイドルオレンジブルー",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-047_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-047_U.webp"
     },
@@ -27441,6 +27531,8 @@
       "Coordinate": "ハッピーチアグレープソーダ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-048_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-048_U.webp"
     },
@@ -27451,6 +27543,8 @@
       "Coordinate": "ハッピーチアグレープソーダ",
       "Character": "チィ",
       "CharacterId": 8,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-049_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-049_U.webp"
     },
@@ -27461,6 +27555,8 @@
       "Coordinate": "セーラーカジュアルエメラルド",
       "Character": "みつき",
       "CharacterId": 2,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-050_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-050_U.webp"
     },
@@ -27471,6 +27567,8 @@
       "Coordinate": "セーラーカジュアルエメラルド",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-051_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-051_U.webp"
     },
@@ -27481,6 +27579,8 @@
       "Coordinate": "サクラのアイムゥ",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-052_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-052_U.webp"
     },
@@ -27491,6 +27591,8 @@
       "Coordinate": "タマキのアイムゥ",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-053_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-053_U.webp"
     },
@@ -27501,6 +27603,8 @@
       "Coordinate": "アイリのアイムゥ",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-054_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-054_U.webp"
     },
@@ -27511,6 +27615,8 @@
       "Coordinate": "リンリンのアイムゥ",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Star": 2,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-055_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-055_U.webp"
     },

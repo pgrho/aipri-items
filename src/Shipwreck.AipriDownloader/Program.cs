@@ -118,7 +118,7 @@ internal class Program
             c.Start ??= vc?.Start;
         }
 
-        var chanceCoords = d.DataSet.Cards.Where(e => e.IsChance).GroupBy(e => e.Coordinate).ToDictionary(e => e.Key, g => g.Min(e => e.GetChapter()?.Start), comparer);
+        var chanceCoords = d.DataSet.Cards.Where(e => e.IsChance).GroupBy(e => e.Coordinate, comparer).ToDictionary(e => e.Key, g => g.Min(e => e.GetChapter()?.Start), comparer);
         foreach (var c in d.DataSet.Coordinates)
         {
             c.HasChance = chanceCoords.TryGetValue(c.Name, out var cardStart);
