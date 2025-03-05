@@ -22794,6 +22794,15 @@
       ]
     },
     {
+      "Id": 43,
+      "Name": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SingerIds": [
+        1,
+        2,
+        9
+      ]
+    },
+    {
       "Id": 3,
       "Name": "レッツ！アイプリ（サクラ）",
       "SingerIds": [
@@ -28364,30 +28373,45 @@
     {
       "Id": 491,
       "ChapterId": "6",
+      "BrandId": 13,
       "SealId": "AP6-056",
       "Coordinate": "プリンセスアイプリバズリウム",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
+      "Star": 4,
+      "Point": 1000,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-056_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-056_U.webp"
     },
     {
       "Id": 492,
       "ChapterId": "6",
+      "BrandId": 13,
       "SealId": "AP6-057",
       "Coordinate": "プリンセスアイプリバズリウム",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
+      "Star": 4,
+      "Point": 1000,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-057_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-057_U.webp"
     },
     {
       "Id": 493,
       "ChapterId": "6",
+      "BrandId": 13,
       "SealId": "AP6-058",
       "Coordinate": "プリンセスアイプリバズリウム",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
+      "Star": 4,
+      "Point": 1000,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-058_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-058_U.webp"
     },
@@ -28694,20 +28718,30 @@
     {
       "Id": 494,
       "ChapterId": "6",
+      "BrandId": 6,
       "SealId": "AP6-059",
       "Coordinate": "さくらミクコーデ",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Song": "Stand Get Up",
+      "SongId": 9,
+      "Star": 3,
+      "Point": 839,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-059_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-059_U.webp"
     },
     {
       "Id": 495,
       "ChapterId": "6",
+      "BrandId": 6,
       "SealId": "AP6-060",
       "Coordinate": "さくらミクコーデ",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Song": "Stand Get Up",
+      "SongId": 9,
+      "Star": 3,
+      "Point": 839,
       "Image1Url": "https://aipri.jp/card/img/6/AP6-060_O.webp",
       "Image2Url": "https://aipri.jp/card/img/6/AP6-060_U.webp"
     },
