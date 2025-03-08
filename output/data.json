@@ -28056,6 +28056,34 @@
       "Image2Url": "AP6-021P_U.jpg"
     },
     {
+      "Id": 9200038,
+      "ChapterId": "6",
+      "BrandId": 13,
+      "SealId": "AP6-056P",
+      "Coordinate": "プリンセスアイプリバズリウム",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Variant": "パラレル",
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
+      "Star": 4,
+      "Point": 1000
+    },
+    {
+      "Id": 9200039,
+      "ChapterId": "6",
+      "BrandId": 13,
+      "SealId": "AP6-057P",
+      "Coordinate": "プリンセスアイプリバズリウム",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Variant": "パラレル",
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
+      "Star": 4,
+      "Point": 1000
+    },
+    {
       "Id": 421,
       "ChapterId": "6",
       "BrandId": 5,
