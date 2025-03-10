@@ -5846,57 +5846,57 @@
       "LinkedItemIds": []
     },
     {
-      "Id": 481,
+      "Id": 425,
       "ChapterId": "6",
       "BrandId": 4,
       "Star": 4,
       "Name": "ひみつのディアマイフューチャーみあ",
       "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-152.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-152_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー①",
-      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Group": "プリティーリズム・ディアマイフューチャー",
+      "Kind": "プリティーリズム・ディアマイフューチャー",
       "Start": "2025-02-06",
       "End": "2025-04-02",
       "LinkedItemIds": []
     },
     {
-      "Id": 482,
+      "Id": 426,
       "ChapterId": "6",
       "BrandId": 4,
       "Star": 4,
       "Name": "ひみつのディアマイフューチャーれいな",
       "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-156.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-156_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー①",
-      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Group": "プリティーリズム・ディアマイフューチャー",
+      "Kind": "プリティーリズム・ディアマイフューチャー",
       "Start": "2025-02-06",
       "End": "2025-04-02",
       "LinkedItemIds": []
     },
     {
-      "Id": 483,
+      "Id": 427,
       "ChapterId": "6",
       "BrandId": 4,
       "Star": 3,
       "Name": "プリズミー☆サンシャイン",
       "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-160.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-160_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー①",
-      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Group": "プリティーリズム・ディアマイフューチャー",
+      "Kind": "プリティーリズム・ディアマイフューチャー",
       "Start": "2025-02-06",
       "End": "2025-04-02",
       "LinkedItemIds": []
     },
     {
-      "Id": 484,
+      "Id": 428,
       "ChapterId": "6",
       "BrandId": 4,
       "Star": 3,
       "Name": "プリズミー☆ナイトスター",
       "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-162.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-162_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー①",
-      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Group": "プリティーリズム・ディアマイフューチャー",
+      "Kind": "プリティーリズム・ディアマイフューチャー",
       "Start": "2025-02-06",
       "End": "2025-04-02",
       "LinkedItemIds": [
@@ -5904,15 +5904,15 @@
       ]
     },
     {
-      "Id": 485,
+      "Id": 429,
       "ChapterId": "6",
       "BrandId": 4,
       "Star": 3,
       "Name": "プリズミー☆シャイニースター",
       "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-164.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-164_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー①",
-      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Group": "プリティーリズム・ディアマイフューチャー",
+      "Kind": "プリティーリズム・ディアマイフューチャー",
       "Start": "2025-02-06",
       "End": "2025-04-02",
       "LinkedItemIds": [
@@ -5920,15 +5920,15 @@
       ]
     },
     {
-      "Id": 486,
+      "Id": 430,
       "ChapterId": "6",
       "BrandId": 4,
       "Star": 3,
       "Name": "プリズミー☆シャイニーリボン",
       "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-166.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-166_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー①",
-      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Group": "プリティーリズム・ディアマイフューチャー",
+      "Kind": "プリティーリズム・ディアマイフューチャー",
       "Start": "2025-02-06",
       "End": "2025-04-02",
       "LinkedItemIds": [
@@ -6359,88 +6359,23 @@
       "LinkedItemIds": []
     },
     {
-      "Id": 425,
+      "Id": 491,
       "ChapterId": "6",
-      "BrandId": 4,
-      "Star": 4,
-      "Name": "ひみつのディアマイフューチャーみあ",
-      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-152.webp",
-      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-152_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー",
-      "Kind": "プリティーリズム・ディアマイフューチャー",
-      "Start": "2025-02-06",
-      "End": "2025-04-02",
-      "LinkedItemIds": []
-    },
-    {
-      "Id": 426,
-      "ChapterId": "6",
-      "BrandId": 4,
-      "Star": 4,
-      "Name": "ひみつのディアマイフューチャーれいな",
-      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-156.webp",
-      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-156_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー",
-      "Kind": "プリティーリズム・ディアマイフューチャー",
-      "Start": "2025-02-06",
-      "End": "2025-04-02",
-      "LinkedItemIds": []
-    },
-    {
-      "Id": 427,
-      "ChapterId": "6",
-      "BrandId": 4,
+      "BrandId": 8,
       "Star": 3,
-      "Name": "プリズミー☆サンシャイン",
-      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-160.webp",
-      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-160_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー",
-      "Kind": "プリティーリズム・ディアマイフューチャー",
-      "Start": "2025-02-06",
+      "Name": "ハーバリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/6/V4-109.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V4-109_thumb.webp",
+      "Group": "ショップはるやすみキャンペーン",
+      "Kind": "ショップはるやすみキャンペーン",
+      "Start": "2025-03-13",
       "End": "2025-04-02",
-      "LinkedItemIds": []
-    },
-    {
-      "Id": 428,
-      "ChapterId": "6",
-      "BrandId": 4,
-      "Star": 3,
-      "Name": "プリズミー☆ナイトスター",
-      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-162.webp",
-      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-162_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー",
-      "Kind": "プリティーリズム・ディアマイフューチャー",
-      "Start": "2025-02-06",
-      "End": "2025-04-02",
-      "LinkedItemIds": []
-    },
-    {
-      "Id": 429,
-      "ChapterId": "6",
-      "BrandId": 4,
-      "Star": 3,
-      "Name": "プリズミー☆シャイニースター",
-      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-164.webp",
-      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-164_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー",
-      "Kind": "プリティーリズム・ディアマイフューチャー",
-      "Start": "2025-02-06",
-      "End": "2025-04-02",
-      "LinkedItemIds": []
-    },
-    {
-      "Id": 430,
-      "ChapterId": "6",
-      "BrandId": 4,
-      "Star": 3,
-      "Name": "プリズミー☆シャイニーリボン",
-      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-166.webp",
-      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-166_thumb.webp",
-      "Group": "プリティーリズム・ディアマイフューチャー",
-      "Kind": "プリティーリズム・ディアマイフューチャー",
-      "Start": "2025-02-06",
-      "End": "2025-04-02",
-      "LinkedItemIds": []
+      "HasChance": true,
+      "LinkedItemIds": [
+        30785,
+        30786,
+        30787
+      ]
     },
     {
       "Id": 453,
@@ -6522,6 +6457,90 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-166_thumb.webp",
       "Group": "ディアマイフューチャー",
       "Kind": "ディアマイフューチャー",
+      "Start": "2025-02-06",
+      "End": "2025-04-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 481,
+      "ChapterId": "6",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのディアマイフューチャーみあ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-152.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-152_thumb.webp",
+      "Group": "プリティーリズム・ディアマイフューチャー①",
+      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Start": "2025-02-06",
+      "End": "2025-04-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 482,
+      "ChapterId": "6",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "ひみつのディアマイフューチャーれいな",
+      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-156.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-156_thumb.webp",
+      "Group": "プリティーリズム・ディアマイフューチャー①",
+      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Start": "2025-02-06",
+      "End": "2025-04-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 483,
+      "ChapterId": "6",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "プリズミー☆サンシャイン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-160.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-160_thumb.webp",
+      "Group": "プリティーリズム・ディアマイフューチャー①",
+      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Start": "2025-02-06",
+      "End": "2025-04-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 484,
+      "ChapterId": "6",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "プリズミー☆ナイトスター",
+      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-162.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-162_thumb.webp",
+      "Group": "プリティーリズム・ディアマイフューチャー①",
+      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Start": "2025-02-06",
+      "End": "2025-04-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 485,
+      "ChapterId": "6",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "プリズミー☆シャイニースター",
+      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-164.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-164_thumb.webp",
+      "Group": "プリティーリズム・ディアマイフューチャー①",
+      "Kind": "プリティーリズム・ディアマイフューチャー①",
+      "Start": "2025-02-06",
+      "End": "2025-04-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 486,
+      "ChapterId": "6",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "プリズミー☆シャイニーリボン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/6/V6-166.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-166_thumb.webp",
+      "Group": "プリティーリズム・ディアマイフューチャー①",
+      "Kind": "プリティーリズム・ディアマイフューチャー①",
       "Start": "2025-02-06",
       "End": "2025-04-02",
       "LinkedItemIds": []
@@ -17041,7 +17060,7 @@
     },
     {
       "Id": 31256,
-      "CoordinateId": 481,
+      "CoordinateId": 425,
       "SealId": "V6-152",
       "CategoryId": 1,
       "Point": 210,
@@ -17049,7 +17068,7 @@
     },
     {
       "Id": 31257,
-      "CoordinateId": 481,
+      "CoordinateId": 425,
       "SealId": "V6-153",
       "CategoryId": 3,
       "Point": 210,
@@ -17057,7 +17076,7 @@
     },
     {
       "Id": 31258,
-      "CoordinateId": 481,
+      "CoordinateId": 425,
       "SealId": "V6-154",
       "CategoryId": 4,
       "Point": 180,
@@ -17065,7 +17084,7 @@
     },
     {
       "Id": 31259,
-      "CoordinateId": 481,
+      "CoordinateId": 425,
       "SealId": "V6-155",
       "CategoryId": 5,
       "Point": 200,
@@ -17073,7 +17092,7 @@
     },
     {
       "Id": 31260,
-      "CoordinateId": 482,
+      "CoordinateId": 426,
       "SealId": "V6-156",
       "CategoryId": 1,
       "Point": 200,
@@ -17081,7 +17100,7 @@
     },
     {
       "Id": 31261,
-      "CoordinateId": 482,
+      "CoordinateId": 426,
       "SealId": "V6-157",
       "CategoryId": 3,
       "Point": 200,
@@ -17089,7 +17108,7 @@
     },
     {
       "Id": 31262,
-      "CoordinateId": 482,
+      "CoordinateId": 426,
       "SealId": "V6-158",
       "CategoryId": 4,
       "Point": 200,
@@ -17097,7 +17116,7 @@
     },
     {
       "Id": 31263,
-      "CoordinateId": 482,
+      "CoordinateId": 426,
       "SealId": "V6-159",
       "CategoryId": 5,
       "Point": 200,
@@ -17105,7 +17124,7 @@
     },
     {
       "Id": 31264,
-      "CoordinateId": 483,
+      "CoordinateId": 427,
       "SealId": "V6-160",
       "CategoryId": 1,
       "Point": 180,
@@ -17113,7 +17132,7 @@
     },
     {
       "Id": 31265,
-      "CoordinateId": 483,
+      "CoordinateId": 427,
       "SealId": "V6-161",
       "CategoryId": 3,
       "Point": 160,
@@ -17121,7 +17140,7 @@
     },
     {
       "Id": 31272,
-      "CoordinateId": 483,
+      "CoordinateId": 427,
       "SealId": "V6-168",
       "CategoryId": 4,
       "Point": 170,
@@ -17129,7 +17148,7 @@
     },
     {
       "Id": 31266,
-      "CoordinateId": 484,
+      "CoordinateId": 428,
       "SealId": "V6-162",
       "CategoryId": 1,
       "Point": 160,
@@ -17137,7 +17156,7 @@
     },
     {
       "Id": 31267,
-      "CoordinateId": 484,
+      "CoordinateId": 428,
       "SealId": "V6-163",
       "CategoryId": 3,
       "Point": 150,
@@ -17145,7 +17164,7 @@
     },
     {
       "Id": 31268,
-      "CoordinateId": 485,
+      "CoordinateId": 429,
       "SealId": "V6-164",
       "CategoryId": 1,
       "Point": 160,
@@ -17153,7 +17172,7 @@
     },
     {
       "Id": 31269,
-      "CoordinateId": 485,
+      "CoordinateId": 429,
       "SealId": "V6-165",
       "CategoryId": 3,
       "Point": 160,
@@ -17161,7 +17180,7 @@
     },
     {
       "Id": 31270,
-      "CoordinateId": 486,
+      "CoordinateId": 430,
       "SealId": "V6-166",
       "CategoryId": 1,
       "Point": 160,
@@ -17169,7 +17188,7 @@
     },
     {
       "Id": 31271,
-      "CoordinateId": 486,
+      "CoordinateId": 430,
       "SealId": "V6-167",
       "CategoryId": 3,
       "Point": 170,
@@ -21746,7 +21765,7 @@
       "Id": 124,
       "CategoryId": 9,
       "Name": "プルメリアデコ",
-      "Description": "",
+      "Description": "なつやすみキャンペーン",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0014.webp"
     },
     {
@@ -22229,7 +22248,7 @@
       "Id": 193,
       "CategoryId": 6,
       "Name": "ウィンターフロスト",
-      "Description": "",
+      "Description": "ふゆやすみキャンペーン",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0043.webp"
     },
     {
@@ -22483,6 +22502,13 @@
       "Name": "ほほえみのシンフォニアメイク",
       "Description": "ドリーム「いっちば〜ん！プリズムスター」",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0022.webp"
+    },
+    {
+      "Id": 233,
+      "CategoryId": 7,
+      "Name": "ぽかぽかタンポポ",
+      "Description": "はるやすみキャンペーン",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0045.webp"
     }
   ],
   "HimitsuChapters": [
@@ -28067,7 +28093,8 @@
       "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
       "SongId": 43,
       "Star": 4,
-      "Point": 1000
+      "Point": 1000,
+      "Image1Url": "AP6-056P_O.jpg"
     },
     {
       "Id": 9200039,
@@ -28081,7 +28108,8 @@
       "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
       "SongId": 43,
       "Star": 4,
-      "Point": 1000
+      "Point": 1000,
+      "Image1Url": "AP6-057P_O.jpg"
     },
     {
       "Id": 421,
