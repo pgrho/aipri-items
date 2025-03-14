@@ -7744,6 +7744,28 @@
       "ChapterId": "special",
       "Name": "バレンタインレターパープル",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900065,
+      "ChapterId": "special",
+      "Name": "セーラーカジュアルパープル",
+      "Start": "2024-10-03",
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900066,
+      "ChapterId": "special",
+      "Name": "ハッピーチアパープル",
+      "Start": "2024-10-03",
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900067,
+      "ChapterId": "special",
+      "Name": "ポッピンハートバズリウムシークレットフレンズ",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -20845,6 +20867,72 @@
     {
       "Id": 910227,
       "CoordinateId": 9900064,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910228,
+      "CoordinateId": 9900065,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910229,
+      "CoordinateId": 9900065,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910230,
+      "CoordinateId": 9900065,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910231,
+      "CoordinateId": 9900065,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910232,
+      "CoordinateId": 9900066,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910233,
+      "CoordinateId": 9900066,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910234,
+      "CoordinateId": 9900066,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910235,
+      "CoordinateId": 9900066,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910236,
+      "CoordinateId": 9900067,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910237,
+      "CoordinateId": 9900067,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910238,
+      "CoordinateId": 9900067,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
