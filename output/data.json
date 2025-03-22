@@ -7766,6 +7766,30 @@
       "ChapterId": "special",
       "Name": "ポッピンハートバズリウムシークレットフレンズ",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900068,
+      "ChapterId": "special",
+      "Name": "ギフトリボン",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900069,
+      "ChapterId": "special",
+      "Name": "ギフトリボンゴールド",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900070,
+      "ChapterId": "special",
+      "Name": "あめぽつぽつゆうやけオレンジ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900071,
+      "ChapterId": "special",
+      "Name": "パンキッシュペンギンレッド",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -20933,6 +20957,84 @@
     {
       "Id": 910238,
       "CoordinateId": 9900067,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910239,
+      "CoordinateId": 9900068,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910240,
+      "CoordinateId": 9900068,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910241,
+      "CoordinateId": 9900069,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910242,
+      "CoordinateId": 9900069,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910243,
+      "CoordinateId": 9900069,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910244,
+      "CoordinateId": 9900070,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910245,
+      "CoordinateId": 9900070,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910246,
+      "CoordinateId": 9900070,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910247,
+      "CoordinateId": 9900070,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910248,
+      "CoordinateId": 9900071,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910249,
+      "CoordinateId": 9900071,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910250,
+      "CoordinateId": 9900071,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910251,
+      "CoordinateId": 9900071,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
@@ -29717,6 +29819,14 @@
       "CharacterId": 8,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-014_U.webp"
+    },
+    {
+      "Id": 9200040,
+      "ChapterId": "gumi",
+      "SealId": "G3-005",
+      "Coordinate": "ギフトリボンゴールド",
+      "Character": "つむぎ（プリンセスver.）",
+      "CharacterId": 9
     },
     {
       "Id": 9200005,
