@@ -196,7 +196,6 @@ internal class Program
         {
             var kind = section.SelectSingleNode(".//h2[@class='ttl']//img/@alt")?.Value?.Trim2()
                         ?? section.SelectSingleNode(".//h2")?.Value?.Trim2();
-            var period = section.SelectSingleNode(".//p[contains(@class, 'txt--period')]")?.Value?.Trim2();
 
             var group = kind?.StartsWith("ひみつのアイプリファンブック") == true ? "ひみつのアイプリファンブック"
                 : kind?.StartsWith("ひみつのアイプリブレス") == true ? "ひみつのアイプリブレス"
@@ -208,41 +207,44 @@ internal class Program
                 : kind?.StartsWith("お店でアイプリグランプリ") == true ? "店頭大会"
                 : kind;
 
-            DateOnly? start = null, end = null;
-
-            if (period != null
-                && Regex.Match(period, @"^(\d+)年(\d+)月(\d+)日[（(][日月火水木金土][）)]～") is var ma
-                && ma.Success
-                && int.TryParse(ma.Groups[1].Value, out var sy)
-                && 1 <= sy && sy <= 9999
-                && int.TryParse(ma.Groups[2].Value, out var sm)
-                && 1 <= sm && sm <= 12
-                && int.TryParse(ma.Groups[3].Value, out var sd)
-                && 1 <= sd && sd <= DateTime.DaysInMonth(sy, sm))
-            {
-                start = new DateOnly(sy, sm, sd);
-
-                var ma2 = Regex.Match(period, "～(\\d{0,4}?)年?(\\d+)月(\\d+)日[(（][日月火水木金土][）)]$");
-                if (ma2.Success
-                    && int.TryParse(ma2.Groups[2].Value, out var em)
-                    && 1 <= em && em <= 12
-                    && int.TryParse(ma2.Groups[3].Value, out var ed)
-                    && 1 <= ed)
-                {
-                    var ey = ma2.Groups[1] is var g1
-                            && g1.Length > 0 ? int.Parse(g1.Value)
-                            : em < sm ? sy + 1
-                            : sy;
-
-                    if (1 <= ey && ey <= 9999 && ed <= DateTime.DaysInMonth(ey, em))
-                    {
-                        end = new DateOnly(ey, em, ed);
-                    }
-                }
-            }
-
             foreach (HtmlNodeNavigator cNode in section.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item ')]//a[@data-modal]"))
             {
+                var period = (cNode.Select("../../preceding-sibling::p[contains(@class, 'txt--period')]").OfType<HtmlNodeNavigator>().LastOrDefault()
+                            ?? section.SelectSingleNode(".//p[contains(@class, 'txt--period')]"))?.Value?.Trim2();
+
+                DateOnly? start = null, end = null;
+
+                if (period != null
+                    && Regex.Match(period, @"^(\d+)年(\d+)月(\d+)日[（(][日月火水木金土][）)]～") is var ma
+                    && ma.Success
+                    && int.TryParse(ma.Groups[1].Value, out var sy)
+                    && 1 <= sy && sy <= 9999
+                    && int.TryParse(ma.Groups[2].Value, out var sm)
+                    && 1 <= sm && sm <= 12
+                    && int.TryParse(ma.Groups[3].Value, out var sd)
+                    && 1 <= sd && sd <= DateTime.DaysInMonth(sy, sm))
+                {
+                    start = new DateOnly(sy, sm, sd);
+
+                    var ma2 = Regex.Match(period, "～(\\d{0,4}?)年?(\\d+)月(\\d+)日[(（][日月火水木金土][）)]$");
+                    if (ma2.Success
+                        && int.TryParse(ma2.Groups[2].Value, out var em)
+                        && 1 <= em && em <= 12
+                        && int.TryParse(ma2.Groups[3].Value, out var ed)
+                        && 1 <= ed)
+                    {
+                        var ey = ma2.Groups[1] is var g1
+                                && g1.Length > 0 ? int.Parse(g1.Value)
+                                : em < sm ? sy + 1
+                                : sy;
+
+                        if (1 <= ey && ey <= 9999 && ed <= DateTime.DaysInMonth(ey, em))
+                        {
+                            end = new DateOnly(ey, em, ed);
+                        }
+                    }
+                }
+
                 var modal = cNode.SelectSingleNode("@data-modal")?.Value;
 
                 var bndImg = cNode.SelectSingleNode("@data-brand")?.Value;
@@ -367,6 +369,25 @@ internal class Program
 
         if (chapter != null)
         {
+            var re = new Regex("^リング[1-9１-９]だん(前|後)半$");
+            foreach (var kg in newCoordinates.GroupBy(e => e.Kind))
+            {
+                if (kg.Key != null && re.IsMatch(kg.Key))
+                {
+                    var suf = kg.Key[^2];
+
+                    if (!newCoordinates.Any(e => e.Kind?.Contains(suf) == true
+                                            && e.Kind?.EndsWith("ピックアップ") == true))
+                    {
+                        var nt = kg.Key + "★★★★ピックアップ";
+
+                        foreach (var e in kg)
+                        {
+                            e.Kind = nt;
+                        }
+                    }
+                }
+            }
             var pickups = newCoordinates.Where(e => e.Kind?.Contains("ピックアップ") == true).Select(e => new { e.Start, e.End }).Distinct().ToList();
 
             var ps = pickups.Min(e => e.Start);

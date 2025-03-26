@@ -38,7 +38,9 @@
     },
     {
       "Id": "ring1",
-      "Name": "リング1だん"
+      "Name": "リング1だん",
+      "Start": "2025-04-03",
+      "End": "2025-05-07"
     },
     {
       "Id": "special",
@@ -2831,7 +2833,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/3/V3-209F_thumb.webp",
       "Group": "サンリオキャラクターズコラボ",
       "Kind": "サンリオキャラクターズコラボ",
-      "Start": "2024-08-01",
+      "Start": "2024-09-05",
       "End": "2024-10-02",
       "LinkedItemIds": []
     },
@@ -5287,8 +5289,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-191_thumb.webp",
       "Group": "ショップワッチャプリマジ！",
       "Kind": "ショップワッチャプリマジ！",
-      "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -5301,8 +5303,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-195_thumb.webp",
       "Group": "ショップワッチャプリマジ！",
       "Kind": "ショップワッチャプリマジ！",
-      "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -5315,8 +5317,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/5/V5-199_thumb.webp",
       "Group": "ショップワッチャプリマジ！",
       "Kind": "ショップワッチャプリマジ！",
-      "Start": "2024-12-05",
-      "End": "2025-01-08",
+      "Start": "2025-01-09",
+      "End": "2025-02-05",
       "LinkedItemIds": []
     },
     {
@@ -5985,7 +5987,7 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-185_thumb.webp",
       "Group": "はつねミクコラボ",
       "Kind": "はつねミクコラボ",
-      "Start": "2025-02-06",
+      "Start": "2025-03-06",
       "End": "2025-04-02",
       "LinkedItemIds": []
     },
@@ -6334,8 +6336,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-209_thumb.webp",
       "Group": "ショップワッチャプリマジ！",
       "Kind": "ショップワッチャプリマジ！",
-      "Start": "2025-02-06",
-      "End": "2025-03-05",
+      "Start": "2025-03-06",
+      "End": "2025-04-02",
       "LinkedItemIds": []
     },
     {
@@ -6348,8 +6350,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-213_thumb.webp",
       "Group": "ショップワッチャプリマジ！",
       "Kind": "ショップワッチャプリマジ！",
-      "Start": "2025-02-06",
-      "End": "2025-03-05",
+      "Start": "2025-03-06",
+      "End": "2025-04-02",
       "LinkedItemIds": []
     },
     {
@@ -6362,8 +6364,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/6/V6-217_thumb.webp",
       "Group": "ショップワッチャプリマジ！",
       "Kind": "ショップワッチャプリマジ！",
-      "Start": "2025-02-06",
-      "End": "2025-03-05",
+      "Start": "2025-03-06",
+      "End": "2025-04-02",
       "LinkedItemIds": []
     },
     {
@@ -6564,6 +6566,7 @@
       "Group": "バズリウムドリーム",
       "Kind": "バズリウムドリーム",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -6577,6 +6580,7 @@
       "Group": "バズリウムドリーム",
       "Kind": "バズリウムドリーム",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -6588,7 +6592,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-007.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-007_thumb.webp",
       "Group": "リング1だん前半",
-      "Kind": "リング1だん前半",
+      "Kind": "リング1だん前半★★★★ピックアップ",
       "Start": "2025-04-03",
       "End": "2025-05-07",
       "LinkedItemIds": []
@@ -6602,7 +6606,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-010.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-010_thumb.webp",
       "Group": "リング1だん前半",
-      "Kind": "リング1だん前半",
+      "Kind": "リング1だん前半★★★★ピックアップ",
       "Start": "2025-04-03",
       "End": "2025-05-07",
       "LinkedItemIds": []
@@ -6616,7 +6620,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-025.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-025_thumb.webp",
       "Group": "リング1だん前半",
-      "Kind": "リング1だん前半",
+      "Kind": "リング1だん前半★★★★ピックアップ",
       "Start": "2025-04-03",
       "End": "2025-05-07",
       "LinkedItemIds": []
@@ -6630,7 +6634,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-028.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-028_thumb.webp",
       "Group": "リング1だん前半",
-      "Kind": "リング1だん前半",
+      "Kind": "リング1だん前半★★★★ピックアップ",
       "Start": "2025-04-03",
       "End": "2025-05-07",
       "LinkedItemIds": []
@@ -6644,7 +6648,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-034.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-034_thumb.webp",
       "Group": "リング1だん前半",
-      "Kind": "リング1だん前半",
+      "Kind": "リング1だん前半★★★★ピックアップ",
       "Start": "2025-04-03",
       "End": "2025-05-07",
       "LinkedItemIds": []
@@ -6658,7 +6662,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-038.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-038_thumb.webp",
       "Group": "リング1だん前半",
-      "Kind": "リング1だん前半",
+      "Kind": "リング1だん前半★★★★ピックアップ",
       "Start": "2025-04-03",
       "End": "2025-05-07",
       "LinkedItemIds": []
@@ -6672,7 +6676,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-042.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-042_thumb.webp",
       "Group": "リング1だん前半",
-      "Kind": "リング1だん前半",
+      "Kind": "リング1だん前半★★★★ピックアップ",
       "Start": "2025-04-03",
       "End": "2025-05-07",
       "LinkedItemIds": []
@@ -6686,7 +6690,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-046.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-046_thumb.webp",
       "Group": "リング1だん前半",
-      "Kind": "リング1だん前半",
+      "Kind": "リング1だん前半★★★★ピックアップ",
       "Start": "2025-04-03",
       "End": "2025-05-07",
       "LinkedItemIds": [
@@ -6704,7 +6708,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-049.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-049_thumb.webp",
       "Group": "リング1だん前半",
-      "Kind": "リング1だん前半",
+      "Kind": "リング1だん前半★★★★ピックアップ",
       "Start": "2025-04-03",
       "End": "2025-05-07",
       "LinkedItemIds": [
@@ -6722,7 +6726,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-052.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-052_thumb.webp",
       "Group": "リング1だん前半",
-      "Kind": "リング1だん前半",
+      "Kind": "リング1だん前半★★★★ピックアップ",
       "Start": "2025-04-03",
       "End": "2025-05-07",
       "LinkedItemIds": []
@@ -6864,6 +6868,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -6877,6 +6882,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -6890,6 +6896,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -6903,6 +6910,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -6916,6 +6924,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "HasChance": true,
       "LinkedItemIds": [
         30049,
@@ -6934,6 +6943,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "HasChance": true,
       "LinkedItemIds": [
         30055,
@@ -6953,6 +6963,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -6966,6 +6977,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -6979,6 +6991,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -6992,6 +7005,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -7005,6 +7019,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -7018,6 +7033,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -7030,7 +7046,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-129_thumb.webp",
       "Group": "★★",
       "Kind": "★★",
-      "Start": "2024-04-04",
+      "Start": "2025-04-03",
+      "End": "2025-05-07",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -7044,7 +7061,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-130_thumb.webp",
       "Group": "★★",
       "Kind": "★★",
-      "Start": "2024-04-04",
+      "Start": "2025-04-03",
+      "End": "2025-05-07",
       "HasChance": true,
       "LinkedItemIds": [
         30097,
@@ -7062,6 +7080,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-133_thumb.webp",
       "Group": "★★",
       "Kind": "★★",
+      "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -7074,6 +7094,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-137_thumb.webp",
       "Group": "★★",
       "Kind": "★★",
+      "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -7086,6 +7108,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-141_thumb.webp",
       "Group": "★★",
       "Kind": "★★",
+      "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -7098,6 +7122,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-145_thumb.webp",
       "Group": "★★",
       "Kind": "★★",
+      "Start": "2025-04-03",
+      "End": "2025-05-07",
       "LinkedItemIds": []
     },
     {
@@ -7110,7 +7136,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-149_thumb.webp",
       "Group": "★★",
       "Kind": "★★",
-      "Start": "2024-04-04",
+      "Start": "2025-04-03",
+      "End": "2025-05-07",
       "HasChance": true,
       "LinkedItemIds": [
         30121,
@@ -7129,7 +7156,8 @@
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-153_thumb.webp",
       "Group": "★★",
       "Kind": "★★",
-      "Start": "2024-04-04",
+      "Start": "2025-04-03",
+      "End": "2025-05-07",
       "HasChance": true,
       "LinkedItemIds": [
         30133,
@@ -24581,7 +24609,8 @@
     },
     {
       "Id": "ring1",
-      "Name": "リング1だん"
+      "Name": "リング1だん",
+      "Start": "2025-04-03"
     },
     {
       "Id": "special",
