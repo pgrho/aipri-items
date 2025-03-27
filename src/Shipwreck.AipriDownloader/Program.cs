@@ -369,26 +369,26 @@ internal class Program
 
         if (chapter != null)
         {
-            var re = new Regex("^リング[1-9１-９]だん(前|後)半$");
-            foreach (var kg in newCoordinates.GroupBy(e => e.Kind))
-            {
-                if (kg.Key != null && re.IsMatch(kg.Key))
-                {
-                    var suf = kg.Key[^2];
+            //var re = new Regex("^リング[1-9１-９]だん(前|後)半$");
+            //foreach (var kg in newCoordinates.GroupBy(e => e.Kind))
+            //{
+            //    if (kg.Key != null && re.IsMatch(kg.Key))
+            //    {
+            //        var suf = kg.Key[^2];
 
-                    if (!newCoordinates.Any(e => e.Kind?.Contains(suf) == true
-                                            && e.Kind?.EndsWith("ピックアップ") == true))
-                    {
-                        var nt = kg.Key + "★★★★ピックアップ";
+            //        if (!newCoordinates.Any(e => e.Kind?.Contains(suf) == true
+            //                                && e.Kind?.EndsWith("ピックアップ") == true))
+            //        {
+            //            var nt = kg.Key + "★★★★ピックアップ";
 
-                        foreach (var e in kg)
-                        {
-                            e.Kind = nt;
-                        }
-                    }
-                }
-            }
-            var pickups = newCoordinates.Where(e => e.Kind?.Contains("ピックアップ") == true).Select(e => new { e.Start, e.End }).Distinct().ToList();
+            //            foreach (var e in kg)
+            //            {
+            //                e.Kind = nt;
+            //            }
+            //        }
+            //    }
+            //}
+            var pickups = newCoordinates.Where(e => e.Kind?.Contains("だん") == true).Select(e => new { e.Start, e.End }).Distinct().ToList();
 
             var ps = pickups.Min(e => e.Start);
             var pe = pickups.Max(e => e.End);
