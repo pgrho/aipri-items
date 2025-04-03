@@ -8764,6 +8764,7 @@
       "Id": 9900055,
       "ChapterId": "special",
       "Name": "ゴシックベアパープル",
+      "Group": "アイプリカード コレクショングミvol.2",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -8771,6 +8772,7 @@
       "Id": 9900056,
       "ChapterId": "special",
       "Name": "ゴシックベアブルー",
+      "Group": "アイプリカード コレクショングミvol.2",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -8778,6 +8780,7 @@
       "Id": 9900057,
       "ChapterId": "special",
       "Name": "スターカウガールブラウン",
+      "Group": "アイプリカード コレクショングミvol.2",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -8785,6 +8788,7 @@
       "Id": 9900058,
       "ChapterId": "special",
       "Name": "ハーバリウムピンク",
+      "Group": "アイプリカード コレクショングミvol.2",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -8792,6 +8796,8 @@
       "Id": 9900059,
       "ChapterId": "special",
       "Name": "カワイイあめちゃんポップ",
+      "Group": "CD・Blu-ray",
+      "Kind": "キャラクターソングミニアルバム",
       "LinkedItemIds": []
     },
     {
@@ -8854,30 +8860,206 @@
       "Id": 9900068,
       "ChapterId": "special",
       "Name": "ギフトリボン",
+      "Group": "アイプリカード コレクショングミvol.3",
       "LinkedItemIds": []
     },
     {
       "Id": 9900069,
       "ChapterId": "special",
       "Name": "ギフトリボンゴールド",
+      "Group": "アイプリカード コレクショングミvol.3",
       "LinkedItemIds": []
     },
     {
       "Id": 9900070,
       "ChapterId": "special",
       "Name": "あめぽつぽつゆうやけオレンジ",
+      "Group": "アイプリカード コレクショングミvol.3",
       "LinkedItemIds": []
     },
     {
       "Id": 9900071,
       "ChapterId": "special",
       "Name": "パンキッシュペンギンレッド",
+      "Group": "アイプリカード コレクショングミvol.3",
       "LinkedItemIds": []
     },
     {
       "Id": 9900072,
       "ChapterId": "special",
       "Name": "リトルフェアリーパープル",
+      "Group": "CD・Blu-ray",
+      "Kind": "キャラクターソングミニアルバム",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900073,
+      "ChapterId": "special",
+      "Name": "ロマンスルージュピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900074,
+      "ChapterId": "special",
+      "Name": "ベリキューデニムラブパープル",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900075,
+      "ChapterId": "special",
+      "Name": "ファンタジーハート",
+      "Group": "ひみつのアイプリブレス",
+      "Kind": "ひみつのアイプリブレスR",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900076,
+      "ChapterId": "special",
+      "Name": "ファンタジームーン",
+      "Group": "ひみつのアイプリブレス",
+      "Kind": "ひみつのアイプリブレスR",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900077,
+      "ChapterId": "special",
+      "Name": "フォーチュンコスメタロット",
+      "Group": "ネイルコロン",
+      "Kind": "ひみつのアイプリネイルコロンR",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900078,
+      "ChapterId": "special",
+      "Name": "ロマンチックローズブルーボトムス",
+      "Group": "ひみつのアイプリミルフィーカードR vol.1",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900079,
+      "ChapterId": "special",
+      "Name": "ロマンチックローズブルーボトムスリボンボトムス",
+      "Group": "ひみつのアイプリミルフィーカードR vol.1",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900080,
+      "ChapterId": "special",
+      "Name": "ベリキューデニムピンクボトムス",
+      "Group": "ひみつのアイプリミルフィーカードR vol.1",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900081,
+      "ChapterId": "special",
+      "Name": "アイプリバースミラクルムーンデニムボトムス",
+      "Group": "ひみつのアイプリミルフィーカードR vol.1",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900082,
+      "ChapterId": "special",
+      "Name": "ふわもこかいじゅうミルキーボトムス",
+      "Group": "ひみつのアイプリミルフィーカードR vol.1",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900083,
+      "ChapterId": "special",
+      "Name": "ティーパーティーはるかぜイエローボトムス",
+      "Group": "ひみつのアイプリミルフィーカードR vol.1",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900084,
+      "ChapterId": "special",
+      "Name": "スターカウガールブルーボトムス",
+      "Group": "ひみつのアイプリミルフィーカードR vol.1",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900085,
+      "ChapterId": "special",
+      "Name": "パンキッシュペンギンパープルボトムス",
+      "Group": "ひみつのアイプリミルフィーカードR vol.1",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900086,
+      "ChapterId": "special",
+      "Name": "フレンチチェックブルー",
+      "Group": "ひみつのアイプリ デビューカードセットR",
+      "Kind": "ひみつのアイプリ デビューカードセットR",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900087,
+      "ChapterId": "special",
+      "Name": "シャイニービジュー",
+      "Group": "ひみつのアイプリ デビューカードセットR",
+      "Kind": "ひみつのアイプリ デビューカードセットR",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900088,
+      "ChapterId": "special",
+      "Name": "フレンドスターグランプリパステル",
+      "Group": "ひみつのアイプリファイルバッグセットR",
+      "Kind": "ひみつのアイプリファイルバッグセットR",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900089,
+      "ChapterId": "special",
+      "Name": "フラワーペイント",
+      "Group": "ひみつのアイプリファイルバッグセットR",
+      "Kind": "ひみつのアイプリファイルバッグセットR",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900090,
+      "ChapterId": "special",
+      "Name": "プリうさアクセ?",
+      "Group": "ひみつのアイプリ てのひらぬいぐるみR",
+      "Kind": "ひみつのアイプリ てのひらぬいぐるみR",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900091,
+      "ChapterId": "special",
+      "Name": "プリねこアクセ?",
+      "Group": "ひみつのアイプリ てのひらぬいぐるみR",
+      "Kind": "ひみつのアイプリ てのひらぬいぐるみR",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900092,
+      "ChapterId": "special",
+      "Name": "ゆめみるリカちゃんピンクドレス",
+      "Group": "リカちゃん",
+      "Kind": "ひみつのアイプリ ひまり×リカちゃん",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900093,
+      "ChapterId": "special",
+      "Name": "ゆめみるリカちゃんブルードレス",
+      "Group": "リカちゃん",
+      "Kind": "ひみつのアイプリ みつき×つばさちゃん",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900094,
+      "ChapterId": "special",
+      "Name": "ドーナツパティシエールパープル",
       "LinkedItemIds": []
     }
   ],
@@ -23198,6 +23380,462 @@
       "CoordinateId": 9900072,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910256,
+      "CoordinateId": 9900073,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910257,
+      "CoordinateId": 9900073,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910258,
+      "CoordinateId": 9900073,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910259,
+      "CoordinateId": 9900073,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910260,
+      "CoordinateId": 9900074,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910261,
+      "CoordinateId": 9900074,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910262,
+      "CoordinateId": 9900074,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910263,
+      "CoordinateId": 9900074,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910264,
+      "CoordinateId": 9900075,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910265,
+      "CoordinateId": 9900075,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910266,
+      "CoordinateId": 9900075,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910267,
+      "CoordinateId": 9900075,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910268,
+      "CoordinateId": 9900076,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910269,
+      "CoordinateId": 9900076,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910270,
+      "CoordinateId": 9900076,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910271,
+      "CoordinateId": 9900076,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910272,
+      "CoordinateId": 9900077,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910273,
+      "CoordinateId": 9900077,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910274,
+      "CoordinateId": 9900077,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910275,
+      "CoordinateId": 9900077,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910276,
+      "CoordinateId": 9900078,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910277,
+      "CoordinateId": 9900078,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910278,
+      "CoordinateId": 9900078,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910279,
+      "CoordinateId": 9900078,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910280,
+      "CoordinateId": 9900079,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910281,
+      "CoordinateId": 9900079,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910282,
+      "CoordinateId": 9900079,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910283,
+      "CoordinateId": 9900079,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910284,
+      "CoordinateId": 9900080,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910285,
+      "CoordinateId": 9900080,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910286,
+      "CoordinateId": 9900080,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910287,
+      "CoordinateId": 9900080,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910288,
+      "CoordinateId": 9900081,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910289,
+      "CoordinateId": 9900081,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910290,
+      "CoordinateId": 9900081,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910291,
+      "CoordinateId": 9900081,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910292,
+      "CoordinateId": 9900082,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910293,
+      "CoordinateId": 9900082,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910294,
+      "CoordinateId": 9900082,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910295,
+      "CoordinateId": 9900082,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910296,
+      "CoordinateId": 9900083,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910297,
+      "CoordinateId": 9900083,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910298,
+      "CoordinateId": 9900083,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910299,
+      "CoordinateId": 9900083,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910300,
+      "CoordinateId": 9900084,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910301,
+      "CoordinateId": 9900084,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910302,
+      "CoordinateId": 9900084,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910303,
+      "CoordinateId": 9900084,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910304,
+      "CoordinateId": 9900085,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910305,
+      "CoordinateId": 9900085,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910306,
+      "CoordinateId": 9900085,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910307,
+      "CoordinateId": 9900085,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910308,
+      "CoordinateId": 9900086,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910309,
+      "CoordinateId": 9900086,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910310,
+      "CoordinateId": 9900086,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910311,
+      "CoordinateId": 9900087,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910312,
+      "CoordinateId": 9900087,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910313,
+      "CoordinateId": 9900087,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910314,
+      "CoordinateId": 9900088,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910315,
+      "CoordinateId": 9900088,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910316,
+      "CoordinateId": 9900088,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910317,
+      "CoordinateId": 9900089,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910318,
+      "CoordinateId": 9900089,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910319,
+      "CoordinateId": 9900089,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910320,
+      "CoordinateId": 9900089,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910321,
+      "CoordinateId": 9900090,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910322,
+      "CoordinateId": 9900091,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910323,
+      "CoordinateId": 9900092,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910324,
+      "CoordinateId": 9900092,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910325,
+      "CoordinateId": 9900092,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910326,
+      "CoordinateId": 9900093,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910327,
+      "CoordinateId": 9900093,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910328,
+      "CoordinateId": 9900093,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910329,
+      "CoordinateId": 9900094,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910330,
+      "CoordinateId": 9900094,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910331,
+      "CoordinateId": 9900094,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -32981,7 +33619,7 @@
       "Id": 555,
       "ChapterId": "special",
       "SealId": "P-102",
-      "Coordinate": "ベリキューデニムパープル",
+      "Coordinate": "ベリキューデニムラブパープル",
       "Character": "える",
       "CharacterId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-102_O.webp",
