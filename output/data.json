@@ -9059,7 +9059,25 @@
     {
       "Id": 9900094,
       "ChapterId": "special",
+      "Name": "きらきらくらげレッド",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900095,
+      "ChapterId": "special",
+      "Name": "フラワーマーチプリンセスバズリウムピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900096,
+      "ChapterId": "special",
       "Name": "ドーナツパティシエールパープル",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900097,
+      "ChapterId": "special",
+      "Name": "ぴょんぴょんうさぎファンシー",
       "LinkedItemIds": []
     }
   ],
@@ -23836,6 +23854,66 @@
       "CoordinateId": 9900094,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910332,
+      "CoordinateId": 9900095,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910333,
+      "CoordinateId": 9900095,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910334,
+      "CoordinateId": 9900095,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910335,
+      "CoordinateId": 9900096,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910336,
+      "CoordinateId": 9900096,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910337,
+      "CoordinateId": 9900096,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910338,
+      "CoordinateId": 9900097,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910339,
+      "CoordinateId": 9900097,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910340,
+      "CoordinateId": 9900097,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910341,
+      "CoordinateId": 9900097,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -25740,6 +25818,10 @@
     {
       "Id": 16,
       "Name": "える"
+    },
+    {
+      "Id": 17,
+      "Name": "かほちー"
     }
   ],
   "Songs": [
@@ -32783,6 +32865,78 @@
       "Image1Url": "TOY-032_O.webp"
     },
     {
+      "Id": 557,
+      "ChapterId": "millefeui",
+      "SealId": "TOY-068",
+      "Coordinate": "ロマンチックローズブルーム",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-068_O.webp"
+    },
+    {
+      "Id": 558,
+      "ChapterId": "millefeui",
+      "SealId": "TOY-069",
+      "Coordinate": "ロマンチックリボンリボン",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-069_O.webp"
+    },
+    {
+      "Id": 559,
+      "ChapterId": "millefeui",
+      "SealId": "TOY-070",
+      "Coordinate": "ベリキューデニムピンク",
+      "Character": "じゅりあ",
+      "CharacterId": 15,
+      "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-070_O.webp"
+    },
+    {
+      "Id": 560,
+      "ChapterId": "millefeui",
+      "SealId": "TOY-071",
+      "Coordinate": "アイプリバースミラクルムーンデニム",
+      "Character": "える",
+      "CharacterId": 16,
+      "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-071_O.webp"
+    },
+    {
+      "Id": 561,
+      "ChapterId": "millefeui",
+      "SealId": "TOY-072",
+      "Coordinate": "ふわもこかいじゅうミルキー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-072_O.webp"
+    },
+    {
+      "Id": 562,
+      "ChapterId": "millefeui",
+      "SealId": "TOY-073",
+      "Coordinate": "ティーパーティーはるかぜイエロー",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-073_O.webp"
+    },
+    {
+      "Id": 563,
+      "ChapterId": "millefeui",
+      "SealId": "TOY-074",
+      "Coordinate": "スターカウガールブルー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-074_O.webp"
+    },
+    {
+      "Id": 564,
+      "ChapterId": "millefeui",
+      "SealId": "TOY-075",
+      "Coordinate": "パンキッシュペンギンパープル",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/millefeui/TOY-075_O.webp"
+    },
+    {
       "Id": 9200026,
       "ChapterId": "millefeui",
       "BrandId": 3,
@@ -33604,6 +33758,276 @@
       "CharacterId": 4,
       "Image1Url": "https://aipri.jp/card/img/ring1/APR1-055_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring1/APR1-055_U.webp"
+    },
+    {
+      "Id": 565,
+      "ChapterId": "special",
+      "SealId": "P-121",
+      "Coordinate": "ぴょんぴょんうさぎファンシー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-121_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-121_U.webp"
+    },
+    {
+      "Id": 566,
+      "ChapterId": "special",
+      "SealId": "P-120",
+      "Coordinate": "ぴょんぴょんうさぎファンシー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-120_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-120_U.webp"
+    },
+    {
+      "Id": 567,
+      "ChapterId": "special",
+      "SealId": "P-107",
+      "Coordinate": "ぴょんぴょんうさぎファンシー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-107_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-107_U.webp"
+    },
+    {
+      "Id": 568,
+      "ChapterId": "special",
+      "SealId": "P-118",
+      "Coordinate": "ときせん ひよりん コーデ",
+      "Character": "える",
+      "CharacterId": 16,
+      "Image1Url": "https://aipri.jp/card/img/special/P-118_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-118_U.webp"
+    },
+    {
+      "Id": 569,
+      "ChapterId": "special",
+      "SealId": "P-115",
+      "Coordinate": "ときせん あきちゃん コーデ",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/special/P-115_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-115_U.webp"
+    },
+    {
+      "Id": 570,
+      "ChapterId": "special",
+      "SealId": "P-116",
+      "Coordinate": "ときせん おはる コーデ",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/special/P-116_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-116_U.webp"
+    },
+    {
+      "Id": 571,
+      "ChapterId": "special",
+      "SealId": "P-104",
+      "Coordinate": "ときせん ひとちゃん コーデ",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-104_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-104_U.webp"
+    },
+    {
+      "Id": 572,
+      "ChapterId": "special",
+      "SealId": "P-117",
+      "Coordinate": "ときせん ジュリ コーデ",
+      "Character": "じゅりあ",
+      "CharacterId": 15,
+      "Image1Url": "https://aipri.jp/card/img/special/P-117_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-117_U.webp"
+    },
+    {
+      "Id": 573,
+      "ChapterId": "special",
+      "SealId": "P-105",
+      "Coordinate": "ときせん かなみん コーデ",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/P-105_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-105_U.webp"
+    },
+    {
+      "Id": 574,
+      "ChapterId": "special",
+      "SealId": "P-112",
+      "Coordinate": "ハートメロディ",
+      "Character": "かほちー",
+      "CharacterId": 17,
+      "Image1Url": "https://aipri.jp/card/img/special/P-112_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-112_U.webp"
+    },
+    {
+      "Id": 575,
+      "ChapterId": "special",
+      "SealId": "P-099",
+      "Coordinate": "ドーナツパティシエールパープル",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/special/P-099_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-099_U.webp"
+    },
+    {
+      "Id": 576,
+      "ChapterId": "special",
+      "SealId": "P-096",
+      "Coordinate": "フラワーマーチプリンセスバズリウムピンク",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-096_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-096_U.webp"
+    },
+    {
+      "Id": 577,
+      "ChapterId": "special",
+      "SealId": "P-001",
+      "Coordinate": "きらきらくらげレッド",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/P-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-001_U.webp"
+    },
+    {
+      "Id": 578,
+      "ChapterId": "special",
+      "SealId": "TOY-067",
+      "Coordinate": "フォーチュンコスメタロット",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-067_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-067_U.webp"
+    },
+    {
+      "Id": 579,
+      "ChapterId": "special",
+      "SealId": "TOY-066",
+      "Coordinate": "フォーチュンコスメタロット",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-066_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-066_U.webp"
+    },
+    {
+      "Id": 580,
+      "ChapterId": "special",
+      "SealId": "TOY-065",
+      "Coordinate": "ゆめみるリカちゃんブルードレス",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-065_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-065_U.webp"
+    },
+    {
+      "Id": 581,
+      "ChapterId": "special",
+      "SealId": "TOY-064",
+      "Coordinate": "ゆめみるリカちゃんピンクドレス",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-064_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-064_U.webp"
+    },
+    {
+      "Id": 582,
+      "ChapterId": "special",
+      "SealId": "TOY-063",
+      "Coordinate": "フレンチチェックブルー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-063_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-063_U.webp"
+    },
+    {
+      "Id": 583,
+      "ChapterId": "special",
+      "SealId": "TOY-062",
+      "Coordinate": "フレンチチェックブルー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-062_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-062_U.webp"
+    },
+    {
+      "Id": 584,
+      "ChapterId": "special",
+      "SealId": "TOY-061",
+      "Coordinate": "シャイニービジュー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-061_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-061_U.webp"
+    },
+    {
+      "Id": 585,
+      "ChapterId": "special",
+      "SealId": "TOY-060",
+      "Coordinate": "シャイニービジュー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-060_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-060_U.webp"
+    },
+    {
+      "Id": 586,
+      "ChapterId": "special",
+      "SealId": "TOY-059",
+      "Coordinate": "ファンタジームーン",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-059_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-059_U.webp"
+    },
+    {
+      "Id": 587,
+      "ChapterId": "special",
+      "SealId": "TOY-058",
+      "Coordinate": "ファンタジーハート",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-058_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-058_U.webp"
+    },
+    {
+      "Id": 588,
+      "ChapterId": "special",
+      "SealId": "TOY-057",
+      "Coordinate": "フラワーペイント",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-057_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-057_U.webp"
+    },
+    {
+      "Id": 589,
+      "ChapterId": "special",
+      "SealId": "TOY-056",
+      "Coordinate": "フラワーペイント",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-056_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-056_U.webp"
+    },
+    {
+      "Id": 590,
+      "ChapterId": "special",
+      "SealId": "TOY-055",
+      "Coordinate": "フレンドスターグランプリパステル",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-055_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-055_U.webp"
+    },
+    {
+      "Id": 591,
+      "ChapterId": "special",
+      "SealId": "TOY-054",
+      "Coordinate": "フレンドスターグランプリパステル",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/TOY-054_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/TOY-054_U.webp"
     },
     {
       "Id": 554,
