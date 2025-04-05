@@ -23714,17 +23714,23 @@
     {
       "Id": 910308,
       "CoordinateId": 9900086,
-      "CategoryId": 2,
+      "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
       "Id": 910309,
       "CoordinateId": 9900086,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910310,
+      "CoordinateId": 9900086,
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
-      "Id": 910310,
+      "Id": 910338,
       "CoordinateId": 9900086,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
@@ -23892,25 +23898,25 @@
       "ImageUrl": "_generic-4.png"
     },
     {
-      "Id": 910338,
+      "Id": 910339,
       "CoordinateId": 9900097,
       "CategoryId": 1,
       "ImageUrl": "_generic-1.png"
     },
     {
-      "Id": 910339,
+      "Id": 910340,
       "CoordinateId": 9900097,
       "CategoryId": 3,
       "ImageUrl": "_generic-2.png"
     },
     {
-      "Id": 910340,
+      "Id": 910341,
       "CoordinateId": 9900097,
       "CategoryId": 4,
       "ImageUrl": "_generic-3.png"
     },
     {
-      "Id": 910341,
+      "Id": 910342,
       "CoordinateId": 9900097,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
@@ -33758,6 +33764,36 @@
       "CharacterId": 4,
       "Image1Url": "https://aipri.jp/card/img/ring1/APR1-055_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring1/APR1-055_U.webp"
+    },
+    {
+      "Id": 592,
+      "ChapterId": "special",
+      "SealId": "P-111",
+      "Coordinate": "リカちゃんフラワードレス",
+      "Character": "つむぎ（プリンセスver.）",
+      "CharacterId": 9,
+      "Image1Url": "https://aipri.jp/card/img/special/P-111_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-111_U.webp"
+    },
+    {
+      "Id": 593,
+      "ChapterId": "special",
+      "SealId": "P-110",
+      "Coordinate": "リカちゃんシャイニングブルードレス",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/special/P-110_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-110_U.webp"
+    },
+    {
+      "Id": 594,
+      "ChapterId": "special",
+      "SealId": "P-109",
+      "Coordinate": "ゆめみるリカちゃんホワイトドレス",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-109_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-109_U.webp"
     },
     {
       "Id": 565,
