@@ -9239,6 +9239,30 @@
       "ChapterId": "special",
       "Name": "フラワーマーチピンク",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900099,
+      "ChapterId": "special",
+      "BrandId": 1,
+      "Name": "ゆめみるリカちゃんホワイトドレス",
+      "Start": "2025-04-26",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900100,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Name": "リカちゃんシャイニングブルードレス",
+      "Start": "2025-04-26",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900101,
+      "ChapterId": "special",
+      "BrandId": 8,
+      "Name": "リカちゃんフラワードレス",
+      "Start": "2025-04-26",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -24210,6 +24234,66 @@
       "CoordinateId": 9900098,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910346,
+      "CoordinateId": 9900099,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910347,
+      "CoordinateId": 9900099,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910348,
+      "CoordinateId": 9900099,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910349,
+      "CoordinateId": 9900100,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910350,
+      "CoordinateId": 9900100,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910351,
+      "CoordinateId": 9900100,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910352,
+      "CoordinateId": 9900100,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910353,
+      "CoordinateId": 9900101,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910354,
+      "CoordinateId": 9900101,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910355,
+      "CoordinateId": 9900101,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -26005,6 +26089,20 @@
       "Name": "しあわせオレンジ",
       "Description": "つむぎ＆チィイチオシひろば",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0025.webp"
+    },
+    {
+      "Id": 253,
+      "CategoryId": 5,
+      "Name": "ふんわりツインテール",
+      "Description": "リング1だんマイキャラフェス②",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0018.webp"
+    },
+    {
+      "Id": 254,
+      "CategoryId": 6,
+      "Name": "リーフグリーン",
+      "Description": "リング1だんマイキャラフェス①",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0053.webp"
     }
   ],
   "HimitsuChapters": [
