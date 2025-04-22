@@ -9263,6 +9263,14 @@
       "Name": "リカちゃんフラワードレス",
       "Start": "2025-04-26",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900102,
+      "ChapterId": "special",
+      "BrandId": 8,
+      "Name": "フラワーマーチピンク",
+      "Start": "2025-04-23",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -24294,6 +24302,24 @@
       "CoordinateId": 9900101,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 40563,
+      "CoordinateId": 9900102,
+      "CategoryId": 2,
+      "ImageUrl": "40563.png"
+    },
+    {
+      "Id": 40564,
+      "CoordinateId": 9900102,
+      "CategoryId": 4,
+      "ImageUrl": "40564.png"
+    },
+    {
+      "Id": 40565,
+      "CoordinateId": 9900102,
+      "CategoryId": 5,
+      "ImageUrl": "40565.png"
     }
   ],
   "PartCategories": [
