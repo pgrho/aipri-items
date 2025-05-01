@@ -253,7 +253,7 @@ internal class Program
                 var b = string.IsNullOrEmpty(bndName) ? null
                     : await d.AddBrandAsync(bndName, string.IsNullOrEmpty(bndImg) ? null : new Uri(url, bndImg).ToString()).ConfigureAwait(false);
 
-                var title = cNode.SelectSingleNode("@data-name")?.Value?.Replace("<br>", "");
+                var title = cNode.SelectSingleNode("@data-name")?.Value?.Replace("<br>", "")?.Replace("\u3000", " ");
 
                 var star = cNode.SelectSingleNode("@data-icn")?.Value is string icn
                         && Regex.Match(Path.GetFileNameWithoutExtension(icn), "^icn_star\\d$") is var icnM

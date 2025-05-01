@@ -40,7 +40,7 @@
       "Id": "ring1",
       "Name": "リング1だん",
       "Start": "2025-04-03",
-      "End": "2025-05-07"
+      "End": "2025-06-04"
     },
     {
       "Id": "special",
@@ -6566,7 +6566,7 @@
       "Group": "バズリウムドリーム",
       "Kind": "バズリウムドリーム",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -6580,7 +6580,161 @@
       "Group": "バズリウムドリーム",
       "Kind": "バズリウムドリーム",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 575,
+      "ChapterId": "ring1",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "ジュエルバズリウムルビーブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-013.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-013_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 576,
+      "ChapterId": "ring1",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "ジュエルバズリウムサファイアピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-016.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-016_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 577,
+      "ChapterId": "ring1",
+      "BrandId": 5,
+      "Star": 4,
+      "Name": "カルテットスターバズリウムハートローズ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-019.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-019_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 578,
+      "ChapterId": "ring1",
+      "BrandId": 9,
+      "Star": 4,
+      "Name": "カルテットスターバズリウムダイヤベア",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-022.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-022_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 579,
+      "ChapterId": "ring1",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "こいのクリスタルレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-056.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-056_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 580,
+      "ChapterId": "ring1",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "もりのフラワーショップ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-060.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-060_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 581,
+      "ChapterId": "ring1",
+      "BrandId": 15,
+      "Star": 4,
+      "Name": "フィーバーデビル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-064.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-064_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 582,
+      "ChapterId": "ring1",
+      "BrandId": 15,
+      "Star": 4,
+      "Name": "フィーバーエンジェル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-068.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-068_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 583,
+      "ChapterId": "ring1",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "プリうさおでかけ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-072.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-072_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 584,
+      "ChapterId": "ring1",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "きらきらくらげピュアホワイト",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-076.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-076_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 585,
+      "ChapterId": "ring1",
+      "BrandId": 15,
+      "Star": 4,
+      "Name": "ハッピーバースデー！える",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-079.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-079_thumb.webp",
+      "Group": "リング１だん後半",
+      "Kind": "リング１だん後半",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -7006,6 +7160,37 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 586,
+      "ChapterId": "ring1",
+      "BrandId": 15,
+      "Star": 4,
+      "Name": "エターナルジュエルラブジュリエル じゅりあ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-031-1.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-031-1_thumb.webp",
+      "Group": "第1回アイプリコンテスト",
+      "Kind": "第1回アイプリコンテスト",
+      "Start": "2025-04-03",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 587,
+      "ChapterId": "ring1",
+      "BrandId": 15,
+      "Star": 4,
+      "Name": "エターナルジュエルラブジュリエル える",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-031-2.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-031-2_thumb.webp",
+      "Group": "第1回アイプリコンテスト",
+      "Kind": "第1回アイプリコンテスト",
+      "Start": "2025-04-03",
+      "End": "2025-06-04",
+      "LinkedItemIds": [
+        31525,
+        31526
+      ]
+    },
+    {
       "Id": 513,
       "ChapterId": "ring1",
       "BrandId": 15,
@@ -7016,7 +7201,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -7031,7 +7216,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -7046,7 +7231,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -7060,7 +7245,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -7074,7 +7259,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": [
         30049,
@@ -7093,7 +7278,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": [
         30055,
@@ -7113,7 +7298,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -7128,7 +7313,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -7142,7 +7327,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -7157,7 +7342,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -7171,7 +7356,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -7185,7 +7370,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -7199,7 +7384,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -7214,7 +7399,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": [
         30097,
@@ -7233,7 +7418,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -7248,7 +7433,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": []
     },
@@ -7263,7 +7448,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -7277,7 +7462,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -7291,7 +7476,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": [
         30121,
@@ -7311,7 +7496,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2025-04-03",
-      "End": "2025-05-07",
+      "End": "2025-06-04",
       "HasChance": true,
       "LinkedItemIds": [
         30133,
@@ -7360,6 +7545,48 @@
       "Kind": "ショップワッチャプリマジ！",
       "Start": "2025-04-03",
       "End": "2025-05-07",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 588,
+      "ChapterId": "ring1",
+      "BrandId": 4,
+      "Star": 4,
+      "Name": "エンジェルバブル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-239.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-239_thumb.webp",
+      "Group": "ショップワッチャプリマジ！",
+      "Kind": "ショップワッチャプリマジ！",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 589,
+      "ChapterId": "ring1",
+      "BrandId": 4,
+      "Star": 3,
+      "Name": "パンキッシュハートレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-243.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-243_thumb.webp",
+      "Group": "ショップワッチャプリマジ！",
+      "Kind": "ショップワッチャプリマジ！",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 590,
+      "ChapterId": "ring1",
+      "BrandId": 4,
+      "Star": 2,
+      "Name": "ペイントルック",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-247.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-247_thumb.webp",
+      "Group": "ショップワッチャプリマジ！",
+      "Kind": "ショップワッチャプリマジ！",
+      "Start": "2025-05-08",
+      "End": "2025-06-04",
       "LinkedItemIds": []
     },
     {
@@ -19578,6 +19805,318 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31523.webp"
     },
     {
+      "Id": 31375,
+      "CoordinateId": 575,
+      "SealId": "APR1-013",
+      "CategoryId": 2,
+      "Point": 470,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31375.webp"
+    },
+    {
+      "Id": 31376,
+      "CoordinateId": 575,
+      "SealId": "APR1-014",
+      "CategoryId": 4,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31376.webp"
+    },
+    {
+      "Id": 31377,
+      "CoordinateId": 575,
+      "SealId": "APR1-015",
+      "CategoryId": 5,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31377.webp"
+    },
+    {
+      "Id": 31378,
+      "CoordinateId": 576,
+      "SealId": "APR1-016",
+      "CategoryId": 2,
+      "Point": 450,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31378.webp"
+    },
+    {
+      "Id": 31379,
+      "CoordinateId": 576,
+      "SealId": "APR1-017",
+      "CategoryId": 4,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31379.webp"
+    },
+    {
+      "Id": 31380,
+      "CoordinateId": 576,
+      "SealId": "APR1-018",
+      "CategoryId": 5,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31380.webp"
+    },
+    {
+      "Id": 31381,
+      "CoordinateId": 577,
+      "SealId": "APR1-019",
+      "CategoryId": 2,
+      "Point": 460,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31381.webp"
+    },
+    {
+      "Id": 31382,
+      "CoordinateId": 577,
+      "SealId": "APR1-020",
+      "CategoryId": 4,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31382.webp"
+    },
+    {
+      "Id": 31383,
+      "CoordinateId": 577,
+      "SealId": "APR1-021",
+      "CategoryId": 5,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31383.webp"
+    },
+    {
+      "Id": 31384,
+      "CoordinateId": 578,
+      "SealId": "APR1-022",
+      "CategoryId": 2,
+      "Point": 460,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31384.webp"
+    },
+    {
+      "Id": 31385,
+      "CoordinateId": 578,
+      "SealId": "APR1-023",
+      "CategoryId": 4,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31385.webp"
+    },
+    {
+      "Id": 31386,
+      "CoordinateId": 578,
+      "SealId": "APR1-024",
+      "CategoryId": 5,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31386.webp"
+    },
+    {
+      "Id": 31387,
+      "CoordinateId": 579,
+      "SealId": "APR1-056",
+      "CategoryId": 1,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31387.webp"
+    },
+    {
+      "Id": 31388,
+      "CoordinateId": 579,
+      "SealId": "APR1-057",
+      "CategoryId": 3,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31388.webp"
+    },
+    {
+      "Id": 31389,
+      "CoordinateId": 579,
+      "SealId": "APR1-058",
+      "CategoryId": 4,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31389.webp"
+    },
+    {
+      "Id": 31390,
+      "CoordinateId": 579,
+      "SealId": "APR1-059",
+      "CategoryId": 5,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31390.webp"
+    },
+    {
+      "Id": 31391,
+      "CoordinateId": 580,
+      "SealId": "APR1-060",
+      "CategoryId": 1,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31391.webp"
+    },
+    {
+      "Id": 31392,
+      "CoordinateId": 580,
+      "SealId": "APR1-061",
+      "CategoryId": 3,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31392.webp"
+    },
+    {
+      "Id": 31393,
+      "CoordinateId": 580,
+      "SealId": "APR1-062",
+      "CategoryId": 4,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31393.webp"
+    },
+    {
+      "Id": 31394,
+      "CoordinateId": 580,
+      "SealId": "APR1-063",
+      "CategoryId": 5,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31394.webp"
+    },
+    {
+      "Id": 31395,
+      "CoordinateId": 581,
+      "SealId": "APR1-064",
+      "CategoryId": 1,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31395.webp"
+    },
+    {
+      "Id": 31396,
+      "CoordinateId": 581,
+      "SealId": "APR1-065",
+      "CategoryId": 3,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31396.webp"
+    },
+    {
+      "Id": 31397,
+      "CoordinateId": 581,
+      "SealId": "APR1-066",
+      "CategoryId": 4,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31397.webp"
+    },
+    {
+      "Id": 31398,
+      "CoordinateId": 581,
+      "SealId": "APR1-067",
+      "CategoryId": 5,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31398.webp"
+    },
+    {
+      "Id": 31399,
+      "CoordinateId": 582,
+      "SealId": "APR1-068",
+      "CategoryId": 1,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31399.webp"
+    },
+    {
+      "Id": 31400,
+      "CoordinateId": 582,
+      "SealId": "APR1-069",
+      "CategoryId": 3,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31400.webp"
+    },
+    {
+      "Id": 31401,
+      "CoordinateId": 582,
+      "SealId": "APR1-070",
+      "CategoryId": 4,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31401.webp"
+    },
+    {
+      "Id": 31402,
+      "CoordinateId": 582,
+      "SealId": "APR1-071",
+      "CategoryId": 5,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31402.webp"
+    },
+    {
+      "Id": 31403,
+      "CoordinateId": 583,
+      "SealId": "APR1-072",
+      "CategoryId": 1,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31403.webp"
+    },
+    {
+      "Id": 31404,
+      "CoordinateId": 583,
+      "SealId": "APR1-073",
+      "CategoryId": 3,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31404.webp"
+    },
+    {
+      "Id": 31405,
+      "CoordinateId": 583,
+      "SealId": "APR1-074",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31405.webp"
+    },
+    {
+      "Id": 31406,
+      "CoordinateId": 583,
+      "SealId": "APR1-075",
+      "CategoryId": 5,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31406.webp"
+    },
+    {
+      "Id": 31407,
+      "CoordinateId": 584,
+      "SealId": "APR1-076",
+      "CategoryId": 2,
+      "Point": 400,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31407.webp"
+    },
+    {
+      "Id": 31408,
+      "CoordinateId": 584,
+      "SealId": "APR1-077",
+      "CategoryId": 4,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31408.webp"
+    },
+    {
+      "Id": 31409,
+      "CoordinateId": 584,
+      "SealId": "APR1-078",
+      "CategoryId": 5,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31409.webp"
+    },
+    {
+      "Id": 31410,
+      "CoordinateId": 585,
+      "SealId": "APR1-079",
+      "CategoryId": 1,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31410.webp"
+    },
+    {
+      "Id": 31411,
+      "CoordinateId": 585,
+      "SealId": "APR1-080",
+      "CategoryId": 3,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31411.webp"
+    },
+    {
+      "Id": 31412,
+      "CoordinateId": 585,
+      "SealId": "APR1-081",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31412.webp"
+    },
+    {
+      "Id": 31413,
+      "CoordinateId": 585,
+      "SealId": "APR1-082",
+      "CategoryId": 5,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31413.webp"
+    },
+    {
       "Id": 31341,
       "CoordinateId": 556,
       "SealId": "APR1-007",
@@ -20128,6 +20667,38 @@
       "CategoryId": 5,
       "Point": 190,
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31517.webp"
+    },
+    {
+      "Id": 31524,
+      "CoordinateId": 586,
+      "SealId": "APR1-031",
+      "CategoryId": 2,
+      "Point": 480,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31524.webp"
+    },
+    {
+      "Id": 31525,
+      "CoordinateId": 586,
+      "SealId": "APR1-032",
+      "CategoryId": 4,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31525.webp"
+    },
+    {
+      "Id": 31526,
+      "CoordinateId": 586,
+      "SealId": "APR1-033",
+      "CategoryId": 5,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31526.webp"
+    },
+    {
+      "Id": 910356,
+      "CoordinateId": 587,
+      "SealId": "APR1-277",
+      "CategoryId": 2,
+      "Point": 480,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31524.webp"
     },
     {
       "Id": 31414,
@@ -20688,6 +21259,102 @@
       "CategoryId": 5,
       "Point": 160,
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31581.webp"
+    },
+    {
+      "Id": 31582,
+      "CoordinateId": 588,
+      "SealId": "APR1-239",
+      "CategoryId": 1,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31582.webp"
+    },
+    {
+      "Id": 31583,
+      "CoordinateId": 588,
+      "SealId": "APR1-240",
+      "CategoryId": 3,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31583.webp"
+    },
+    {
+      "Id": 31584,
+      "CoordinateId": 588,
+      "SealId": "APR1-241",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31584.webp"
+    },
+    {
+      "Id": 31585,
+      "CoordinateId": 588,
+      "SealId": "APR1-242",
+      "CategoryId": 5,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31585.webp"
+    },
+    {
+      "Id": 31586,
+      "CoordinateId": 589,
+      "SealId": "APR1-243",
+      "CategoryId": 1,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31586.webp"
+    },
+    {
+      "Id": 31587,
+      "CoordinateId": 589,
+      "SealId": "APR1-244",
+      "CategoryId": 3,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31587.webp"
+    },
+    {
+      "Id": 31588,
+      "CoordinateId": 589,
+      "SealId": "APR1-245",
+      "CategoryId": 4,
+      "Point": 170,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31588.webp"
+    },
+    {
+      "Id": 31589,
+      "CoordinateId": 589,
+      "SealId": "APR1-246",
+      "CategoryId": 5,
+      "Point": 180,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31589.webp"
+    },
+    {
+      "Id": 31590,
+      "CoordinateId": 590,
+      "SealId": "APR1-247",
+      "CategoryId": 1,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31590.webp"
+    },
+    {
+      "Id": 31591,
+      "CoordinateId": 590,
+      "SealId": "APR1-248",
+      "CategoryId": 3,
+      "Point": 140,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31591.webp"
+    },
+    {
+      "Id": 31592,
+      "CoordinateId": 590,
+      "SealId": "APR1-249",
+      "CategoryId": 4,
+      "Point": 160,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31592.webp"
+    },
+    {
+      "Id": 31593,
+      "CoordinateId": 590,
+      "SealId": "APR1-250",
+      "CategoryId": 5,
+      "Point": 150,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31593.webp"
     },
     {
       "Id": 30681,
@@ -26111,6 +26778,20 @@
       "Name": "リーフグリーン",
       "Description": "リング1だんマイキャラフェス①",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0053.webp"
+    },
+    {
+      "Id": 255,
+      "CategoryId": 5,
+      "Name": "タマキみつあみ",
+      "Description": "まいつきもらおうマイキャラパーツ！",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_1037.webp"
+    },
+    {
+      "Id": 256,
+      "CategoryId": 6,
+      "Name": "タマキブラウン",
+      "Description": "まいつきもらおうマイキャラパーツ！",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0052.webp"
     }
   ],
   "HimitsuChapters": [
@@ -34600,6 +35281,16 @@
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/ring1/APR1-055_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring1/APR1-055_U.webp"
+    },
+    {
+      "Id": 595,
+      "ChapterId": "special",
+      "SealId": "P-101",
+      "Coordinate": "ガーリーピアノピンク",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-101_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-101_U.webp"
     },
     {
       "Id": 592,
