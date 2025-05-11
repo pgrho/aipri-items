@@ -32452,7 +32452,8 @@
       "SongId": 43,
       "Star": 4,
       "Point": 1000,
-      "Image1Url": "AP6-056P_O.jpg"
+      "Image1Url": "AP6-056P_O.png",
+      "Image2Url": "AP6-056P_U.png"
     },
     {
       "Id": 9200039,
@@ -32467,7 +32468,8 @@
       "SongId": 43,
       "Star": 4,
       "Point": 1000,
-      "Image1Url": "AP6-057P_O.jpg"
+      "Image1Url": "AP6-057P_O.png",
+      "Image2Url": "AP6-057P_U.png"
     },
     {
       "Id": 421,
@@ -34369,7 +34371,9 @@
       "Song": "キズナ×リンク",
       "SongId": 44,
       "Star": 4,
-      "Point": 1050
+      "Point": 1050,
+      "Image1Url": "APR1-001P_O.jpg",
+      "Image2Url": "APR1-001P_U.jpg"
     },
     {
       "Id": 9200042,
@@ -34383,7 +34387,9 @@
       "Song": "キズナ×リンク",
       "SongId": 44,
       "Star": 4,
-      "Point": 1050
+      "Point": 1050,
+      "Image1Url": "APR1-002P_O.jpg",
+      "Image2Url": "APR1-002P_U.jpg"
     },
     {
       "Id": 9200043,
@@ -34397,7 +34403,9 @@
       "Song": "ときめきグラビティ",
       "SongId": 45,
       "Star": 4,
-      "Point": 1050
+      "Point": 1050,
+      "Image1Url": "APR1-003P_O.jpg",
+      "Image2Url": "APR1-003P_U.jpg"
     },
     {
       "Id": 9200044,
@@ -34411,7 +34419,9 @@
       "Song": "わたしの大切にしてたこと",
       "SongId": 49,
       "Star": 4,
-      "Point": 1050
+      "Point": 1050,
+      "Image1Url": "APR1-004P_O.jpg",
+      "Image2Url": "APR1-004P_U.jpg"
     },
     {
       "Id": 9200045,
@@ -34425,7 +34435,9 @@
       "Song": "キズナ×リンク",
       "SongId": 44,
       "Star": 4,
-      "Point": 1030
+      "Point": 1030,
+      "Image1Url": "APR1-006P_O.jpg",
+      "Image2Url": "APR1-006P_U.jpg"
     },
     {
       "Id": 499,
