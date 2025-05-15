@@ -6738,6 +6738,134 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 591,
+      "ChapterId": "ring1",
+      "BrandId": 7,
+      "Star": 4,
+      "Name": "エレガントジュエルグリーン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-265.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-265_thumb.webp",
+      "Group": "カルテットスターイチオシひろば",
+      "Kind": "カルテットスターイチオシひろば",
+      "Start": "2025-05-22",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 592,
+      "ChapterId": "ring1",
+      "BrandId": 5,
+      "Star": 4,
+      "Name": "エレガントジュエルオレンジ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-268.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-268_thumb.webp",
+      "Group": "カルテットスターイチオシひろば",
+      "Kind": "カルテットスターイチオシひろば",
+      "Start": "2025-05-22",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 593,
+      "ChapterId": "ring1",
+      "BrandId": 9,
+      "Star": 4,
+      "Name": "カワイイあめちゃんレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-271.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-271_thumb.webp",
+      "Group": "カルテットスターイチオシひろば",
+      "Kind": "カルテットスターイチオシひろば",
+      "Start": "2025-05-22",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 594,
+      "ChapterId": "ring1",
+      "BrandId": 10,
+      "Star": 4,
+      "Name": "カワイイくまさんブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/APR1-274.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/APR1-274_thumb.webp",
+      "Group": "カルテットスターイチオシひろば",
+      "Kind": "カルテットスターイチオシひろば",
+      "Start": "2025-05-22",
+      "End": "2025-06-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 595,
+      "ChapterId": "ring1",
+      "BrandId": 5,
+      "Star": 4,
+      "Name": "スカーレットバタフライバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/V1-007.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/V1-007_thumb.webp",
+      "Group": "カルテットスターイチオシひろば",
+      "Kind": "カルテットスターイチオシひろば",
+      "Start": "2025-05-22",
+      "End": "2025-06-04",
+      "LinkedItemIds": [
+        30007,
+        30008,
+        30009
+      ]
+    },
+    {
+      "Id": 596,
+      "ChapterId": "ring1",
+      "BrandId": 7,
+      "Star": 4,
+      "Name": "ロゼッションバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/V2-001.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/V2-001_thumb.webp",
+      "Group": "カルテットスターイチオシひろば",
+      "Kind": "カルテットスターイチオシひろば",
+      "Start": "2025-05-22",
+      "End": "2025-06-04",
+      "LinkedItemIds": [
+        30215,
+        30216,
+        30217
+      ]
+    },
+    {
+      "Id": 597,
+      "ChapterId": "ring1",
+      "BrandId": 9,
+      "Star": 4,
+      "Name": "レインボーキャンディバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/V3-010.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/V3-010_thumb.webp",
+      "Group": "カルテットスターイチオシひろば",
+      "Kind": "カルテットスターイチオシひろば",
+      "Start": "2025-05-22",
+      "End": "2025-06-04",
+      "LinkedItemIds": [
+        30499,
+        30500,
+        30501
+      ]
+    },
+    {
+      "Id": 598,
+      "ChapterId": "ring1",
+      "BrandId": 10,
+      "Star": 4,
+      "Name": "ベアベアベアバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/V3-013.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring1/V3-013_thumb.webp",
+      "Group": "カルテットスターイチオシひろば",
+      "Kind": "カルテットスターイチオシひろば",
+      "Start": "2025-05-22",
+      "End": "2025-06-04",
+      "LinkedItemIds": [
+        30502,
+        30503,
+        30504
+      ]
+    },
+    {
       "Id": 556,
       "ChapterId": "ring1",
       "BrandId": 15,
@@ -20117,6 +20245,102 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31413.webp"
     },
     {
+      "Id": 31608,
+      "CoordinateId": 591,
+      "SealId": "APR1-265",
+      "CategoryId": 2,
+      "Point": 440,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31608.webp"
+    },
+    {
+      "Id": 31609,
+      "CoordinateId": 591,
+      "SealId": "APR1-266",
+      "CategoryId": 3,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31609.webp"
+    },
+    {
+      "Id": 31610,
+      "CoordinateId": 591,
+      "SealId": "APR1-267",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31610.webp"
+    },
+    {
+      "Id": 31611,
+      "CoordinateId": 592,
+      "SealId": "APR1-268",
+      "CategoryId": 2,
+      "Point": 460,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31611.webp"
+    },
+    {
+      "Id": 31612,
+      "CoordinateId": 592,
+      "SealId": "APR1-269",
+      "CategoryId": 3,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31612.webp"
+    },
+    {
+      "Id": 31613,
+      "CoordinateId": 592,
+      "SealId": "APR1-270",
+      "CategoryId": 4,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31613.webp"
+    },
+    {
+      "Id": 31614,
+      "CoordinateId": 593,
+      "SealId": "APR1-271",
+      "CategoryId": 2,
+      "Point": 450,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31614.webp"
+    },
+    {
+      "Id": 31615,
+      "CoordinateId": 593,
+      "SealId": "APR1-272",
+      "CategoryId": 4,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31615.webp"
+    },
+    {
+      "Id": 31616,
+      "CoordinateId": 593,
+      "SealId": "APR1-273",
+      "CategoryId": 5,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31616.webp"
+    },
+    {
+      "Id": 31617,
+      "CoordinateId": 594,
+      "SealId": "APR1-274",
+      "CategoryId": 2,
+      "Point": 450,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31617.webp"
+    },
+    {
+      "Id": 31618,
+      "CoordinateId": 594,
+      "SealId": "APR1-275",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31618.webp"
+    },
+    {
+      "Id": 31619,
+      "CoordinateId": 594,
+      "SealId": "APR1-276",
+      "CategoryId": 5,
+      "Point": 190,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring1/Item_ID31619.webp"
+    },
+    {
       "Id": 31341,
       "CoordinateId": 556,
       "SealId": "APR1-007",
@@ -26792,6 +27016,13 @@
       "Name": "タマキブラウン",
       "Description": "まいつきもらおうマイキャラパーツ！",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0052.webp"
+    },
+    {
+      "Id": 257,
+      "CategoryId": 11,
+      "Name": "くちもとほくろ",
+      "Description": "カルテットスターイチオシひろば",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0011.webp"
     }
   ],
   "HimitsuChapters": [
