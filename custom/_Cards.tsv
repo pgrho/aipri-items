@@ -515,3 +515,61 @@ SealId		ring1		APR1-052	つむぎのアイムゥ	つむぎ		We're The World	2	800	TRUE	フラ
 SealId		ring1		APR1-053	チューリップピンク	ひまり		キズナ×リンク	2	780	TRUE	ポッピンハート		
 SealId		ring1		APR1-054	チューリップブルー	みつき		ムテキDUOエナジー	2	780	TRUE	ミラクルムーン		
 SealId		ring1		APR1-055	チューリップイエロー	つむぎ		We're The World	2	780	TRUE	フラワーマーチ		
+SealId		ring2		APR2-001	スペースバズリウムスターズピンク	ひまり		キズナ×リンク	4	1100		ポッピンハート		
+SealId		ring2		APR2-002	スペースバズリウムスターズブルー	みつき		ぴかぴかマイストーリー	4	1100		ミラクルムーン		
+SealId		ring2		APR2-003	スペースバズリウムギャラクシー	すばる		Piece Of Dream	4	1100		フューチャースクール		
+SealId		ring2		APR2-004	スペースバズリウムプラネット	おとめ		ココロ・アストロノーツ	4	1100		フューチャースクール		
+SealId		ring2		APR2-005	エターナルジュエルポッピンドリーミン	ひまり		ムテキDUOエナジー	4	1100		ポッピンハート		
+SealId		ring2		APR2-006	エターナルジュエルポッピンドリーミン	みつき		キズナ×リンク	4	1100		ミラクルムーン		
+SealId		ring2		APR2-007	エターナルジュエルラブジュリエル	じゅりあ		超Easy Drive☆	4	1100		キューティーカラット		
+SealId		ring2		APR2-008	エターナルジュエルラブジュリエル	える		ときめきグラビティ	4	1100		キューティーカラット		
+SealId		ring2		APR2-009	もりのフラワーショップ	ひまり		パステルステップデイズ	4	1080		クリスタルバース		
+SealId		ring2		APR2-010	もりのフラワーショップ	つむぎ（プリンセスver.）		Ring Ring Ring feat. ひまり	4	1070		クリスタルバース		
+SealId		ring2		APR2-011	スクールメイツクール	すばる		Piece Of Dream	4	1040		フューチャースクール		
+SealId		ring2		APR2-012	スクールメイツラブリー	おとめ		ココロ・アストロノーツ	4	1040		フューチャースクール		
+SealId		ring2		APR2-013	プリうさおでかけ	ひまり		キズナ×リンク	4	1050		ポッピンハート		
+SealId		ring2		APR2-014	プリうさおでかけ	みつき		レッツ！アイプリ（ひまり・みつき）	4	1040		ポッピンハート		
+SealId		ring2		APR2-015	プリうさおでかけ	チィ		GIRA GIRA STAR	4	1060		ポッピンハート		
+SealId		ring2		APR2-016	スポーティバレエコア	じゅりあ		ときめきグラビティ	4	1030		キューティーカラット		
+SealId		ring2		APR2-017	スポーティバレエコア	える		わたしの大切にしてたこと	4	1030		キューティーカラット		
+SealId		ring2		APR2-018	アイドルチェッククール	すばる		Piece Of Dream	4	1020		フューチャースクール		
+SealId		ring2		APR2-019	アイドルチェックラブリー	おとめ		ココロ・アストロノーツ	4	1020		フューチャースクール		
+SealId		ring2		APR2-020	ハッピーバースデー！すばる	すばる		ココロ・アストロノーツ	4	999		フューチャースクール		
+SealId		ring2		APR2-021	ハッピーバースデー！おとめ	おとめ		ココロ・アストロノーツ	4	999		フューチャースクール		
+SealId		ring2		APR2-022	アイプリバースフューチャースクールクール	すばる		Piece Of Dream	3	900	TRUE	フューチャースクール		
+SealId		ring2		APR2-023	アイプリバースフューチャースクールラブリー	おとめ		ココロ・アストロノーツ	3	900	TRUE	フューチャースクール		
+SealId		ring2		APR2-024	アイプリバースポッピンハート	ひまり		ひみつのふふふ	3	900	TRUE	ポッピンハート		
+SealId		ring2		APR2-025	アイプリバースミラクルムーン	みつき		ぴかぴかマイストーリー	3	900	TRUE	ミラクルムーン		
+SealId		ring2		APR2-026	アイプリバースフラワーマーチ	つむぎ		Ring Ring Ring feat. ひまり	3	900	TRUE	フラワーマーチ		
+SealId		ring2		APR2-027	こんぺいとう	みつき		ぴかぴかマイストーリー	3	950	TRUE	ミラクルムーン		
+SealId		ring2		APR2-028	こんぺいとう	ひまり		パステルステップデイズ	3	920	TRUE	ミラクルムーン		
+SealId		ring2		APR2-029	こんぺいとう	つむぎ		We're The World	3	920	TRUE	ミラクルムーン		
+SealId		ring2		APR2-030	マイメロディ なかよし	ひまり		キズナ×リンク	3	940		ポッピンハート		
+SealId		ring2		APR2-031	クロミ なかよし	みつき		キズナ×リンク	3	940		ミラクルムーン		
+SealId		ring2		APR2-032	こぎみゅん なかよし	つむぎ		ひみつのふふふ	3	940		フラワーマーチ		
+SealId		ring2		APR2-033	ハンギョドン なかよし	チィ		Ring Ring Ring feat. ひまり	3	940		ラブマイミュージック		
+SealId		ring2		APR2-034	ハローキティ なかよし	じゅりあ		ときめきグラビティ	3	940		キューティーカラット		
+SealId		ring2		APR2-035	シナモロール なかよし	える		ときめきグラビティ	3	940		キューティーカラット		
+SealId		ring2		APR2-036	ポチャッコ なかよし	すばる		ココロ・アストロノーツ	3	940		フューチャースクール		
+SealId		ring2		APR2-037	ポムポムプリン なかよし	おとめ		ココロ・アストロノーツ	3	940		フューチャースクール		
+SealId		ring2		APR2-038	ときせん おはる コーデ	ひまり		ひみつのふふふ	3	900		プリズムストーン		
+SealId		ring2		APR2-039	ときせん ひとちゃん コーデ	みつき		ひみつのふふふ	3	900		プリズムストーン		
+SealId		ring2		APR2-040	ときせん おはる コーデ	つむぎ		ひみつのふふふ	3	900		プリズムストーン		
+SealId		ring2		APR2-041	ときせん ひとちゃん コーデ	チィ		ひみつのふふふ	3	900		プリズムストーン		
+SealId		ring2		APR2-042	パラダイスがくえんなつふく２ねん	ひまり		レッツ！アイプリ（ひまり・みつき）	2	800	TRUE	プリズムストーン		
+SealId		ring2		APR2-043	パラダイスがくえんなつふく２ねん	みつき		キズナ×リンク	2	800	TRUE	プリズムストーン		
+SealId		ring2		APR2-044	パラダイスがくえんなつふく２ねん	チィ		GIRA GIRA STAR	2	800	TRUE	プリズムストーン		
+SealId		ring2		APR2-045	パラダイスがくえんなつふく１ねん	じゅりあ		超Easy Drive☆	2	790	TRUE	プリズムストーン		
+SealId		ring2		APR2-046	パラダイスがくえんなつふく１ねん	える		ひみつのふふふ	2	790	TRUE	プリズムストーン		
+SealId		ring2		APR2-047	パラダイスがくえんなつふく２ねん	おとめ		Ring Ring Ring feat. ひまり	2	800	TRUE	プリズムストーン		
+SealId		ring2		APR2-048	ミルキーウェイわかくさ	みつき		ぴかぴかマイストーリー	2	800	TRUE	ミラクルムーン		
+SealId		ring2		APR2-049	ミルキーウェイわかくさ	ひまり		キズナ×リンク	2	790	TRUE	ミラクルムーン		
+SealId		ring2		APR2-050	ミルキーウェイわかくさ	おとめ		ひみつのふふふ	2	790	TRUE	ミラクルムーン		
+SealId		ring2		APR2-051	ハッピーチアゴールド	じゅりあ		ときめきグラビティ	2	820	TRUE	キューティーカラット		
+SealId		ring2		APR2-052	セーラーカジュアルシルバー	える		Ring Ring Ring feat. ひまり	2	820	TRUE	キューティーカラット		
+SealId		ring2		APR2-053	ラブリーアイドルおとめピンク	おとめ		ココロ・アストロノーツ	2	860	TRUE	フューチャースクール		
+SealId		ring2		APR2-054	ハッピーチアグリーン	ひまり		パステルステップデイズ	2	770	TRUE	レインボーキャンディ		
+SealId		ring2		APR2-055	クールアイドルグリーン	みつき		レッツ！アイプリ（ひまり・みつき）	2	750	TRUE	レインボーキャンディ		
+SealId		ring2		APR2-056	チューリップパープル	つむぎ		Ring Ring Ring feat. ひまり	2	770	TRUE	ラブマイミュージック		
+SealId		ring2		APR2-057	ラブリーアイドルシルバー	じゅりあ		ひみつのふふふ	2	760	TRUE	キューティーカラット		
+SealId		ring2		APR2-058	クールアイドルゴールド	える		ときめきグラビティ	2	760	TRUE	キューティーカラット		
