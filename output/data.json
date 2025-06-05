@@ -10357,6 +10357,12 @@
       "Name": "フラワーメモリーピンク",
       "Start": "2025-04-23",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900103,
+      "ChapterId": "special",
+      "Name": "アイドルチェッククールモカベージュ",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -27212,6 +27218,30 @@
       "CoordinateId": 9900102,
       "CategoryId": 5,
       "ImageUrl": "40565.png"
+    },
+    {
+      "Id": 910357,
+      "CoordinateId": 9900103,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910358,
+      "CoordinateId": 9900103,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910359,
+      "CoordinateId": 9900103,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910360,
+      "CoordinateId": 9900103,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
