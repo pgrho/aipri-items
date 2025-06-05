@@ -29121,6 +29121,41 @@
       "Name": "すばるRモデル",
       "Description": "リング2だん",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0018.webp"
+    },
+    {
+      "Id": 265,
+      "CategoryId": 7,
+      "Name": "アイプリスマホアイ",
+      "Description": "ひみつのアイプリスマホR",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0057.webp"
+    },
+    {
+      "Id": 266,
+      "CategoryId": 7,
+      "Name": "スターコスメアイ",
+      "Description": "ひみつのアイプリスターコスメセットR",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0058.webp"
+    },
+    {
+      "Id": 267,
+      "CategoryId": 9,
+      "Name": "プリうさデコ",
+      "Description": "ふわふわマスコットフィギュアR",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0036.webp"
+    },
+    {
+      "Id": 268,
+      "CategoryId": 9,
+      "Name": "プリねこデコ",
+      "Description": "ふわふわマスコットフィギュアR",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0037.webp"
+    },
+    {
+      "Id": 269,
+      "CategoryId": 10,
+      "Name": "スターコスメメイク",
+      "Description": "ひみつのアイプリスターコスメセットR",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0030.webp"
     }
   ],
   "HimitsuChapters": [
@@ -38567,6 +38602,86 @@
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/ring2/APR2-058_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring2/APR2-058_U.webp"
+    },
+    {
+      "Id": 9200046,
+      "ChapterId": "ring2",
+      "BrandId": 17,
+      "SealId": "APR2-003P",
+      "Coordinate": "スペースバズリウムギャラクシー",
+      "Character": "すばる",
+      "CharacterId": 18,
+      "Variant": "パラレル",
+      "Song": "Piece Of Dream",
+      "SongId": 51,
+      "Star": 4,
+      "Point": 1100
+    },
+    {
+      "Id": 9200047,
+      "ChapterId": "ring2",
+      "BrandId": 17,
+      "SealId": "APR2-004P",
+      "Coordinate": "スペースバズリウムプラネット",
+      "Character": "おとめ",
+      "CharacterId": 19,
+      "Variant": "パラレル",
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
+      "Star": 4,
+      "Point": 1100
+    },
+    {
+      "Id": 9200048,
+      "ChapterId": "ring2",
+      "BrandId": 2,
+      "SealId": "APR2-006P",
+      "Coordinate": "エターナルジュエルポッピンドリーミン",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Variant": "パラレル",
+      "Song": "キズナ×リンク",
+      "SongId": 44,
+      "Star": 4,
+      "Point": 1100
+    },
+    {
+      "Id": 9200049,
+      "ChapterId": "ring2",
+      "BrandId": 15,
+      "SealId": "APR2-008P",
+      "Coordinate": "エターナルジュエルラブジュリエル",
+      "Character": "える",
+      "CharacterId": 16,
+      "Variant": "パラレル",
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
+      "Star": 4,
+      "Point": 1100
+    },
+    {
+      "Id": 9200050,
+      "ChapterId": "ring2",
+      "BrandId": 1,
+      "SealId": "APR2-013P",
+      "Coordinate": "プリうさおでかけ",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Variant": "パラレル",
+      "Song": "キズナ×リンク",
+      "SongId": 44,
+      "Star": 4,
+      "Point": 1050
+    },
+    {
+      "Id": 656,
+      "ChapterId": "special",
+      "SealId": "P-139",
+      "Coordinate": "アイドルチェッククールモカベージュ",
+      "Character": "すばる",
+      "CharacterId": 18,
+      "Image1Url": "https://aipri.jp/card/img/special/P-139_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-139_U.webp"
     },
     {
       "Id": 596,
