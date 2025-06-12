@@ -8378,6 +8378,136 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 648,
+      "ChapterId": "ring2",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "ポッピンハートバズリウムプリうさ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/APR2-215.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring2/APR2-215_thumb.webp",
+      "Group": "ひまり＆みつきイチオシひろば",
+      "Kind": "ひまり＆みつきイチオシひろば",
+      "Start": "2025-06-19",
+      "End": "2025-07-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 649,
+      "ChapterId": "ring2",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "ミラクルムーンバズリウムプリねこ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/APR2-218.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring2/APR2-218_thumb.webp",
+      "Group": "ひまり＆みつきイチオシひろば",
+      "Kind": "ひまり＆みつきイチオシひろば",
+      "Start": "2025-06-19",
+      "End": "2025-07-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 650,
+      "ChapterId": "ring2",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "フレンドスターグランプリホワイトピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/APR2-221.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring2/APR2-221_thumb.webp",
+      "Group": "ひまり＆みつきイチオシひろば",
+      "Kind": "ひまり＆みつきイチオシひろば",
+      "Start": "2025-06-19",
+      "End": "2025-07-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 651,
+      "ChapterId": "ring2",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "フレンドスターグランプリホワイトブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/APR2-224.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring2/APR2-224_thumb.webp",
+      "Group": "ひまり＆みつきイチオシひろば",
+      "Kind": "ひまり＆みつきイチオシひろば",
+      "Start": "2025-06-19",
+      "End": "2025-07-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 652,
+      "ChapterId": "ring2",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "ウェルカムチェリー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/V1-028.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring2/V1-028_thumb.webp",
+      "Group": "ひまり＆みつきイチオシひろば",
+      "Kind": "ひまり＆みつきイチオシひろば",
+      "Start": "2025-06-19",
+      "End": "2025-07-02",
+      "LinkedItemIds": [
+        30029,
+        30030,
+        30031
+      ]
+    },
+    {
+      "Id": 653,
+      "ChapterId": "ring2",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "きらきらくらげブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/V1-034.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring2/V1-034_thumb.webp",
+      "Group": "ひまり＆みつきイチオシひろば",
+      "Kind": "ひまり＆みつきイチオシひろば",
+      "Start": "2025-06-19",
+      "End": "2025-07-02",
+      "LinkedItemIds": [
+        30035,
+        30036,
+        30037
+      ]
+    },
+    {
+      "Id": 654,
+      "ChapterId": "ring2",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "ぴょんぴょんうさぎ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/V5-056.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring2/V5-056_thumb.webp",
+      "Group": "ひまり＆みつきイチオシひろば",
+      "Kind": "ひまり＆みつきイチオシひろば",
+      "Start": "2025-06-19",
+      "End": "2025-07-02",
+      "LinkedItemIds": [
+        30942,
+        30943,
+        30944,
+        30945
+      ]
+    },
+    {
+      "Id": 655,
+      "ChapterId": "ring2",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとぎばなしワンダーランド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/V5-052.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring2/V5-052_thumb.webp",
+      "Group": "ひまり＆みつきイチオシひろば",
+      "Kind": "ひまり＆みつきイチオシひろば",
+      "Start": "2025-06-19",
+      "End": "2025-07-02",
+      "LinkedItemIds": [
+        30938,
+        30939,
+        30940,
+        30941
+      ]
+    },
+    {
       "Id": 615,
       "ChapterId": "ring2",
       "BrandId": 1,
@@ -22742,6 +22872,102 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31660.webp"
     },
     {
+      "Id": 31879,
+      "CoordinateId": 648,
+      "SealId": "APR2-215",
+      "CategoryId": 2,
+      "Point": 440,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31879.webp"
+    },
+    {
+      "Id": 31880,
+      "CoordinateId": 648,
+      "SealId": "APR2-216",
+      "CategoryId": 4,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31880.webp"
+    },
+    {
+      "Id": 31881,
+      "CoordinateId": 648,
+      "SealId": "APR2-217",
+      "CategoryId": 5,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31881.webp"
+    },
+    {
+      "Id": 31882,
+      "CoordinateId": 649,
+      "SealId": "APR2-218",
+      "CategoryId": 2,
+      "Point": 440,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31882.webp"
+    },
+    {
+      "Id": 31883,
+      "CoordinateId": 649,
+      "SealId": "APR2-219",
+      "CategoryId": 4,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31883.webp"
+    },
+    {
+      "Id": 31884,
+      "CoordinateId": 649,
+      "SealId": "APR2-220",
+      "CategoryId": 5,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31884.webp"
+    },
+    {
+      "Id": 31885,
+      "CoordinateId": 650,
+      "SealId": "APR2-221",
+      "CategoryId": 2,
+      "Point": 400,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31885.webp"
+    },
+    {
+      "Id": 31886,
+      "CoordinateId": 650,
+      "SealId": "APR2-222",
+      "CategoryId": 4,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31886.webp"
+    },
+    {
+      "Id": 31887,
+      "CoordinateId": 650,
+      "SealId": "APR2-223",
+      "CategoryId": 5,
+      "Point": 210,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31887.webp"
+    },
+    {
+      "Id": 31888,
+      "CoordinateId": 651,
+      "SealId": "APR2-224",
+      "CategoryId": 2,
+      "Point": 440,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31888.webp"
+    },
+    {
+      "Id": 31889,
+      "CoordinateId": 651,
+      "SealId": "APR2-225",
+      "CategoryId": 4,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31889.webp"
+    },
+    {
+      "Id": 31890,
+      "CoordinateId": 651,
+      "SealId": "APR2-226",
+      "CategoryId": 5,
+      "Point": 200,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring2/Item_ID31890.webp"
+    },
+    {
       "Id": 31778,
       "CoordinateId": 615,
       "SealId": "APR2-171",
@@ -29156,6 +29382,27 @@
       "Name": "スターコスメメイク",
       "Description": "ひみつのアイプリスターコスメセットR",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0030.webp"
+    },
+    {
+      "Id": 270,
+      "CategoryId": 5,
+      "Name": "くるりんハーフアップ",
+      "Description": "ひまり＆みつきイチオシひろば",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0019.webp"
+    },
+    {
+      "Id": 271,
+      "CategoryId": 6,
+      "Name": "フルーティーマーマレード",
+      "Description": "リング2だんマイキャラフェス①",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0055.webp"
+    },
+    {
+      "Id": 272,
+      "CategoryId": 11,
+      "Name": "ほっぺリボン",
+      "Description": "リング2だんマイキャラフェス②",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0012.webp"
     }
   ],
   "HimitsuChapters": [
@@ -36261,6 +36508,136 @@
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G1-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G1-014_U.webp"
+    },
+    {
+      "Id": 657,
+      "ChapterId": "gumi",
+      "SealId": "G4-001",
+      "Coordinate": "インフルブルームあじさいブルー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-001_U.webp"
+    },
+    {
+      "Id": 658,
+      "ChapterId": "gumi",
+      "SealId": "G4-002",
+      "Coordinate": "インフルブルームあじさいブルー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-002_U.webp"
+    },
+    {
+      "Id": 659,
+      "ChapterId": "gumi",
+      "SealId": "G4-003",
+      "Coordinate": "インフルブルームあじさいブルー",
+      "Character": "じゅりあ",
+      "CharacterId": 15,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-003_U.webp"
+    },
+    {
+      "Id": 660,
+      "ChapterId": "gumi",
+      "SealId": "G4-005",
+      "Coordinate": "ジュエルバズリウムルビーイエロー",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-005_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-005_U.webp"
+    },
+    {
+      "Id": 661,
+      "ChapterId": "gumi",
+      "SealId": "G4-006",
+      "Coordinate": "うらないしピンク",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-006_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-006_U.webp"
+    },
+    {
+      "Id": 662,
+      "ChapterId": "gumi",
+      "SealId": "G4-007",
+      "Coordinate": "うらないしピンク",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-007_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-007_U.webp"
+    },
+    {
+      "Id": 663,
+      "ChapterId": "gumi",
+      "SealId": "G4-008",
+      "Coordinate": "アイプリバースラブマイミュージックイエロー",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-008_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-008_U.webp"
+    },
+    {
+      "Id": 664,
+      "ChapterId": "gumi",
+      "SealId": "G4-009",
+      "Coordinate": "アイプリバースラブマイミュージックイエロー",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-009_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-009_U.webp"
+    },
+    {
+      "Id": 665,
+      "ChapterId": "gumi",
+      "SealId": "G4-010",
+      "Coordinate": "アイスクリームオレンジ",
+      "Character": "じゅりあ",
+      "CharacterId": 15,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-010_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-010_U.webp"
+    },
+    {
+      "Id": 666,
+      "ChapterId": "gumi",
+      "SealId": "G4-011",
+      "Coordinate": "アイスクリームオレンジ",
+      "Character": "える",
+      "CharacterId": 16,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-011_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-011_U.webp"
+    },
+    {
+      "Id": 667,
+      "ChapterId": "gumi",
+      "SealId": "G4-012",
+      "Coordinate": "ハッピーチアブルー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-012_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-012_U.webp"
+    },
+    {
+      "Id": 668,
+      "ChapterId": "gumi",
+      "SealId": "G4-013",
+      "Coordinate": "サクラのアイムゥ",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-013_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-013_U.webp"
+    },
+    {
+      "Id": 669,
+      "ChapterId": "gumi",
+      "SealId": "G4-014",
+      "Coordinate": "アイリのアイムゥ",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G4-014_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G4-014_U.webp"
     },
     {
       "Id": 478,
