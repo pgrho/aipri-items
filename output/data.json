@@ -38086,6 +38086,20 @@
       "Image2Url": "https://aipri.jp/card/img/ring1/APR1-055_U.webp"
     },
     {
+      "Id": 9200048,
+      "ChapterId": "ring2",
+      "BrandId": 2,
+      "SealId": "APR2-002P",
+      "Coordinate": "スペースバズリウムスターズブルー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Variant": "パラレル",
+      "Song": "ぴかぴかマイストーリー",
+      "SongId": 50,
+      "Star": 4,
+      "Point": 1100
+    },
+    {
       "Id": 9200046,
       "ChapterId": "ring2",
       "BrandId": 17,
@@ -38110,20 +38124,6 @@
       "Variant": "パラレル",
       "Song": "ココロ・アストロノーツ",
       "SongId": 52,
-      "Star": 4,
-      "Point": 1100
-    },
-    {
-      "Id": 9200048,
-      "ChapterId": "ring2",
-      "BrandId": 2,
-      "SealId": "APR2-006P",
-      "Coordinate": "エターナルジュエルポッピンドリーミン",
-      "Character": "みつき",
-      "CharacterId": 2,
-      "Variant": "パラレル",
-      "Song": "キズナ×リンク",
-      "SongId": 44,
       "Star": 4,
       "Point": 1100
     },
