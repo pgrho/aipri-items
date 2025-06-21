@@ -38097,7 +38097,9 @@
       "Song": "ぴかぴかマイストーリー",
       "SongId": 50,
       "Star": 4,
-      "Point": 1100
+      "Point": 1100,
+      "Image1Url": "APR2-002P_O.jpg",
+      "Image2Url": "APR2-002P_U.jpg"
     },
     {
       "Id": 9200046,
@@ -38111,7 +38113,9 @@
       "Song": "Piece Of Dream",
       "SongId": 51,
       "Star": 4,
-      "Point": 1100
+      "Point": 1100,
+      "Image1Url": "APR2-003P_O.jpg",
+      "Image2Url": "APR2-003P_U.jpg"
     },
     {
       "Id": 9200047,
@@ -38125,7 +38129,9 @@
       "Song": "ココロ・アストロノーツ",
       "SongId": 52,
       "Star": 4,
-      "Point": 1100
+      "Point": 1100,
+      "Image1Url": "APR2-004P_O.jpg",
+      "Image2Url": "APR2-004P_U.jpg"
     },
     {
       "Id": 9200049,
@@ -38139,7 +38145,9 @@
       "Song": "ときめきグラビティ",
       "SongId": 45,
       "Star": 4,
-      "Point": 1100
+      "Point": 1100,
+      "Image1Url": "APR2-008P_O.jpg",
+      "Image2Url": "APR2-008P_U.jpg"
     },
     {
       "Id": 9200050,
@@ -38153,7 +38161,9 @@
       "Song": "キズナ×リンク",
       "SongId": 44,
       "Star": 4,
-      "Point": 1050
+      "Point": 1050,
+      "Image1Url": "APR2-013P_O.jpg",
+      "Image2Url": "APR2-013P_U.jpg"
     },
     {
       "Id": 598,
