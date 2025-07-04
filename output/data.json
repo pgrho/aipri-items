@@ -10709,7 +10709,7 @@
     {
       "Id": 9900090,
       "ChapterId": "special",
-      "Name": "プリうさアクセ?",
+      "Name": "プリうさカチューシャ",
       "Group": "ひみつのアイプリ てのひらぬいぐるみR",
       "Kind": "ひみつのアイプリ てのひらぬいぐるみR",
       "LinkedItemIds": []
@@ -10717,7 +10717,7 @@
     {
       "Id": 9900091,
       "ChapterId": "special",
-      "Name": "プリねこアクセ?",
+      "Name": "プリねこカチューシャ",
       "Group": "ひみつのアイプリ てのひらぬいぐるみR",
       "Kind": "ひみつのアイプリ てのひらぬいぐるみR",
       "LinkedItemIds": []
@@ -10804,6 +10804,24 @@
       "Id": 9900103,
       "ChapterId": "special",
       "Name": "アイドルチェッククールモカベージュ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900104,
+      "ChapterId": "special",
+      "Name": "スペースダイナーミント",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900105,
+      "ChapterId": "special",
+      "Name": "スクールメイツネイビー",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900106,
+      "ChapterId": "special",
+      "Name": "プリうさおでかけブルー",
       "LinkedItemIds": []
     }
   ],
@@ -28359,6 +28377,78 @@
     {
       "Id": 910360,
       "CoordinateId": 9900103,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910361,
+      "CoordinateId": 9900104,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910362,
+      "CoordinateId": 9900104,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910363,
+      "CoordinateId": 9900104,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910364,
+      "CoordinateId": 9900104,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910365,
+      "CoordinateId": 9900105,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910366,
+      "CoordinateId": 9900105,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910367,
+      "CoordinateId": 9900105,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910368,
+      "CoordinateId": 9900105,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910369,
+      "CoordinateId": 9900106,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910370,
+      "CoordinateId": 9900106,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910371,
+      "CoordinateId": 9900106,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910372,
+      "CoordinateId": 9900106,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
