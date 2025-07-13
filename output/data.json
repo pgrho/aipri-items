@@ -10839,7 +10839,13 @@
     {
       "Id": 9900109,
       "ChapterId": "special",
-      "Name": "エターナルジュエルブルーピンク",
+      "Name": "エターナルジュエルブルーピンク える",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900110,
+      "ChapterId": "special",
+      "Name": "エターナルジュエルブルーピンク じゅりあ",
       "LinkedItemIds": []
     }
   ],
@@ -28523,6 +28529,12 @@
       "CoordinateId": 9900109,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910382,
+      "CoordinateId": 9900110,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
     }
   ],
   "PartCategories": [
