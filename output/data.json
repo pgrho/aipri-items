@@ -11042,6 +11042,41 @@
       "ChapterId": "special",
       "Name": "エターナルジュエルブルーピンク じゅりあ",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900111,
+      "ChapterId": "special",
+      "Name": "インフルブルームあじさいブルー",
+      "Group": "アイプリカード コレクショングミvol.4",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900112,
+      "ChapterId": "special",
+      "Name": "インフルブルームあじさいホワイト",
+      "Group": "アイプリカード コレクショングミvol.4",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900113,
+      "ChapterId": "special",
+      "Name": "ジュエルバズリウムルビーイエロー",
+      "Group": "アイプリカード コレクショングミvol.4",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900114,
+      "ChapterId": "special",
+      "Name": "うらないしピンク",
+      "Group": "アイプリカード コレクショングミvol.4",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900115,
+      "ChapterId": "special",
+      "Name": "アイプリバースラブマイミュージックイエロー",
+      "Group": "アイプリカード コレクショングミvol.4",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -28751,6 +28786,120 @@
       "CoordinateId": 9900110,
       "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910383,
+      "CoordinateId": 9900111,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910384,
+      "CoordinateId": 9900111,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910385,
+      "CoordinateId": 9900111,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910386,
+      "CoordinateId": 9900111,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910387,
+      "CoordinateId": 9900112,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910388,
+      "CoordinateId": 9900112,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910389,
+      "CoordinateId": 9900112,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910390,
+      "CoordinateId": 9900112,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910391,
+      "CoordinateId": 9900113,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910392,
+      "CoordinateId": 9900113,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910393,
+      "CoordinateId": 9900113,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910394,
+      "CoordinateId": 9900114,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910395,
+      "CoordinateId": 9900114,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910396,
+      "CoordinateId": 9900114,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910397,
+      "CoordinateId": 9900114,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910398,
+      "CoordinateId": 9900115,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910399,
+      "CoordinateId": 9900115,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910400,
+      "CoordinateId": 9900115,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910401,
+      "CoordinateId": 9900115,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
