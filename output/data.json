@@ -11077,6 +11077,12 @@
       "Name": "アイプリバースラブマイミュージックイエロー",
       "Group": "アイプリカード コレクショングミvol.4",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900116,
+      "ChapterId": "special",
+      "Name": "ミラクルムーンバズリウムシークレットフレンズ∞",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -28898,6 +28904,24 @@
     {
       "Id": 910401,
       "CoordinateId": 9900115,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910402,
+      "CoordinateId": 9900116,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910403,
+      "CoordinateId": 9900116,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910404,
+      "CoordinateId": 9900116,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
