@@ -11856,6 +11856,68 @@
       "ChapterId": "special",
       "Name": "こあくまロックグリーンパープル",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900118,
+      "ChapterId": "special",
+      "Name": "アニマルロックピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900119,
+      "ChapterId": "special",
+      "Name": "フルーツソーダブルーベリー",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900120,
+      "ChapterId": "special",
+      "Name": "フルーツソーダストロベリー",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900121,
+      "ChapterId": "special",
+      "Name": "カラフルキャンディブルー",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900122,
+      "ChapterId": "special",
+      "Name": "ひまわりサマークール",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900123,
+      "ChapterId": "special",
+      "Name": "ミルキーウェイブラックピンク",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900124,
+      "ChapterId": "special",
+      "Name": "さわやかマリンパステル",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900125,
+      "ChapterId": "special",
+      "Name": "たいようさんさんイエロー",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900126,
+      "ChapterId": "special",
+      "Name": "たんけんかレッド",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.2",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -30726,6 +30788,222 @@
     {
       "Id": 910408,
       "CoordinateId": 9900117,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910409,
+      "CoordinateId": 9900118,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910410,
+      "CoordinateId": 9900118,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910411,
+      "CoordinateId": 9900118,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910412,
+      "CoordinateId": 9900118,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910413,
+      "CoordinateId": 9900119,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910414,
+      "CoordinateId": 9900119,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910415,
+      "CoordinateId": 9900119,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910416,
+      "CoordinateId": 9900119,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910417,
+      "CoordinateId": 9900120,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910418,
+      "CoordinateId": 9900120,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910419,
+      "CoordinateId": 9900120,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910420,
+      "CoordinateId": 9900120,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910421,
+      "CoordinateId": 9900121,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910422,
+      "CoordinateId": 9900121,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910423,
+      "CoordinateId": 9900121,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910424,
+      "CoordinateId": 9900121,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910425,
+      "CoordinateId": 9900122,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910426,
+      "CoordinateId": 9900122,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910427,
+      "CoordinateId": 9900122,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910428,
+      "CoordinateId": 9900122,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910429,
+      "CoordinateId": 9900123,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910430,
+      "CoordinateId": 9900123,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910431,
+      "CoordinateId": 9900123,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910432,
+      "CoordinateId": 9900123,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910433,
+      "CoordinateId": 9900124,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910434,
+      "CoordinateId": 9900124,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910435,
+      "CoordinateId": 9900124,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910436,
+      "CoordinateId": 9900124,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910437,
+      "CoordinateId": 9900125,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910438,
+      "CoordinateId": 9900125,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910439,
+      "CoordinateId": 9900125,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910440,
+      "CoordinateId": 9900125,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910441,
+      "CoordinateId": 9900126,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910442,
+      "CoordinateId": 9900126,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910443,
+      "CoordinateId": 9900126,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910444,
+      "CoordinateId": 9900126,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
