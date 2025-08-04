@@ -11918,6 +11918,12 @@
       "Name": "たんけんかレッド",
       "Kind": "ひみつのアイプリミルフィーカードR vol.2",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900127,
+      "ChapterId": "special",
+      "Name": "スポーティバレエコアブルー",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -31004,6 +31010,30 @@
     {
       "Id": 910444,
       "CoordinateId": 9900126,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910445,
+      "CoordinateId": 9900127,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910446,
+      "CoordinateId": 9900127,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910447,
+      "CoordinateId": 9900127,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910448,
+      "CoordinateId": 9900127,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
