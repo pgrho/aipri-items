@@ -1,51 +1,51 @@
 Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
-	910001	9900001	M1-001-1	トップス	150	m1-001-1.png
-	910002	9900001	M1-001-2	ボトムス	130	m1-001-2.png
-	910003	9900001	M1-001-3	シューズ	150	m1-001-3.png
-	910004	9900001	M1-001-4	アクセ	140	m1-001-4.png
-	910005	9900002	M1-002-1	トップス	140	m1-002-1.png
-	910006	9900002	M1-002-2	ボトムス	150	m1-002-2.png
-	910007	9900002	M1-002-3	シューズ	140	m1-002-3.png
-	910008	9900002	M1-002-4	アクセ	140	m1-002-4.png
-	910009	9900003	M1-003-1	トップス	150	m1-003-1.png
-	910010	9900003	M1-003-2	ボトムス	160	m1-003-2.png
-	910011	9900003	M1-003-3	シューズ	120	m1-003-3.png
-	910012	9900003	M1-003-4	アクセ	140	m1-003-4.png
-	910013	9900004	M1-004-1	トップス	100	m1-004-1.png
-	910014	9900004	M1-004-2	ボトムス	100	m1-004-2.png
-	910015	9900004	M1-004-3	シューズ	110	m1-004-3.png
-	910016	9900004	M1-004-4	アクセ	100	m1-004-4.png
-	910017	9900005	M1-005-1	トップス	100	m1-005-1.png
-	910018	9900005	M1-005-2	ボトムス	990	m1-005-2.png
-	910019	9900005	M1-005-3	シューズ	120	m1-005-3.png
-	910020	9900005	M1-005-4	アクセ	100	m1-005-4.png
-	910021	9900006	M1-006-1	トップス	110	m1-006-1.png
-	910022	9900006	M1-006-2	ボトムス	110	m1-006-2.png
-	910023	9900006	M1-006-3	シューズ	100	m1-006-3.png
-	910024	9900006	M1-006-4	アクセ	990	m1-006-4.png
-	910025	9900007	M1-007-1	トップス	70	m1-007-1.png
-	910026	9900007	M1-007-2	ボトムス	990	m1-007-2.png
-	910027	9900007	M1-007-3	シューズ	80	m1-007-3.png
-	910028	9900007	M1-007-4	アクセ	990	m1-007-4.png
-	910029	9900008	M1-008-1	トップス	990	m1-008-1.png
-	910030	9900008	M1-008-2	ボトムス	990	m1-008-2.png
-	910031	9900008	M1-008-3	シューズ	80	m1-008-3.png
-	910032	9900008	M1-008-4	アクセ	70	m1-008-4.png
-	910033	9900009		トップス		starry_sky-1.png
-	910034	9900009		ボトムス		starry_sky-2.png
-	910035	9900009		シューズ		starry_sky-3.png
-	910036	9900009		アクセ		starry_sky-4.png
-	910037	9900010		トップス		patissier_choco_mint-1.png
-	910038	9900010		ボトムス		patissier_choco_mint-2.png
-	910039	9900010		シューズ		patissier_choco_mint-3.png
-	910040	9900010		アクセ		patissier_choco_mint-4.png
-	910041	9900011		トップス		gingham_check_grape-1.png
-	910042	9900011		ボトムス		gingham_check_grape-2.png
-	910043	9900011		シューズ		gingham_check_grape-3.png
-	910044	9900011		アクセ		gingham_check_grape-4.png
-	910045	9900012		ワンピ		himitsu_no_hatsune_miku-1.png
-	910046	9900012		シューズ		himitsu_no_hatsune_miku-2.png
-	910047	9900012		アクセ		himitsu_no_hatsune_miku-3.png
+	910001	9900001	M1-001-1	トップス	150	Items/m1-001-1.png
+	910002	9900001	M1-001-2	ボトムス	130	Items/m1-001-2.png
+	910003	9900001	M1-001-3	シューズ	150	Items/m1-001-3.png
+	910004	9900001	M1-001-4	アクセ	140	Items/m1-001-4.png
+	910005	9900002	M1-002-1	トップス	140	Items/m1-002-1.png
+	910006	9900002	M1-002-2	ボトムス	150	Items/m1-002-2.png
+	910007	9900002	M1-002-3	シューズ	140	Items/m1-002-3.png
+	910008	9900002	M1-002-4	アクセ	140	Items/m1-002-4.png
+	910009	9900003	M1-003-1	トップス	150	Items/m1-003-1.png
+	910010	9900003	M1-003-2	ボトムス	160	Items/m1-003-2.png
+	910011	9900003	M1-003-3	シューズ	120	Items/m1-003-3.png
+	910012	9900003	M1-003-4	アクセ	140	Items/m1-003-4.png
+	910013	9900004	M1-004-1	トップス	100	Items/m1-004-1.png
+	910014	9900004	M1-004-2	ボトムス	100	Items/m1-004-2.png
+	910015	9900004	M1-004-3	シューズ	110	Items/m1-004-3.png
+	910016	9900004	M1-004-4	アクセ	100	Items/m1-004-4.png
+	910017	9900005	M1-005-1	トップス	100	Items/m1-005-1.png
+	910018	9900005	M1-005-2	ボトムス	990	Items/m1-005-2.png
+	910019	9900005	M1-005-3	シューズ	120	Items/m1-005-3.png
+	910020	9900005	M1-005-4	アクセ	100	Items/m1-005-4.png
+	910021	9900006	M1-006-1	トップス	110	Items/m1-006-1.png
+	910022	9900006	M1-006-2	ボトムス	110	Items/m1-006-2.png
+	910023	9900006	M1-006-3	シューズ	100	Items/m1-006-3.png
+	910024	9900006	M1-006-4	アクセ	990	Items/m1-006-4.png
+	910025	9900007	M1-007-1	トップス	70	Items/m1-007-1.png
+	910026	9900007	M1-007-2	ボトムス	990	Items/m1-007-2.png
+	910027	9900007	M1-007-3	シューズ	80	Items/m1-007-3.png
+	910028	9900007	M1-007-4	アクセ	990	Items/m1-007-4.png
+	910029	9900008	M1-008-1	トップス	990	Items/m1-008-1.png
+	910030	9900008	M1-008-2	ボトムス	990	Items/m1-008-2.png
+	910031	9900008	M1-008-3	シューズ	80	Items/m1-008-3.png
+	910032	9900008	M1-008-4	アクセ	70	Items/m1-008-4.png
+	910033	9900009		トップス		Items/starry_sky-1.png
+	910034	9900009		ボトムス		Items/starry_sky-2.png
+	910035	9900009		シューズ		Items/starry_sky-3.png
+	910036	9900009		アクセ		Items/starry_sky-4.png
+	910037	9900010		トップス		Items/patissier_choco_mint-1.png
+	910038	9900010		ボトムス		Items/patissier_choco_mint-2.png
+	910039	9900010		シューズ		Items/patissier_choco_mint-3.png
+	910040	9900010		アクセ		Items/patissier_choco_mint-4.png
+	910041	9900011		トップス		Items/gingham_check_grape-1.png
+	910042	9900011		ボトムス		Items/gingham_check_grape-2.png
+	910043	9900011		シューズ		Items/gingham_check_grape-3.png
+	910044	9900011		アクセ		Items/gingham_check_grape-4.png
+	910045	9900012		ワンピ		Items/himitsu_no_hatsune_miku-1.png
+	910046	9900012		シューズ		Items/himitsu_no_hatsune_miku-2.png
+	910047	9900012		アクセ		Items/himitsu_no_hatsune_miku-3.png
 	910048	9900013		トップス		_generic-1.png
 	910049	9900013		ボトムス		_generic-2.png
 	910050	9900013		シューズ		_generic-3.png
@@ -70,37 +70,37 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910069	9900018		ボトムス		_generic-2.png
 	910070	9900018		シューズ		_generic-3.png
 	910071	9900018		アクセ		_generic-4.png
-	910072	9900019	M2-001-1	トップス		m2-001-1.png
-	910073	9900019	M2-001-2	ボトムス		m2-001-2.png
-	910074	9900019	M2-001-3	シューズ		m2-001-3.png
-	910075	9900019	M2-001-4	アクセ		m2-001-4.png
-	910099	9900026	M2-002-1	トップス		m2-002-1.png
-	910100	9900026	M2-002-2	ボトムス		m2-002-2.png
-	910101	9900026	M2-002-3	シューズ		m2-002-3.png
-	910102	9900026	M2-002-4	アクセ		m2-002-4.png
-	910076	9900020	M2-003-1	ワンピ		m2-003-1.png
-	910077	9900020	M2-003-3	シューズ		m2-003-2.png
-	910078	9900020	M2-003-4	アクセ		m2-003-3.png
-	910079	9900021	M2-004-1	トップス		m2-004-1.png
-	910080	9900021	M2-004-2	ボトムス		m2-004-2.png
-	910081	9900021	M2-004-3	シューズ		m2-004-3.png
-	910082	9900021	M2-004-4	アクセ		m2-004-4.png
-	910083	9900022	M2-005-1	トップス		m2-005-1.png
-	910084	9900022	M2-005-2	ボトムス		m2-005-2.png
-	910085	9900022	M2-005-3	シューズ		m2-005-3.png
-	910086	9900022	M2-005-4	アクセ		m2-005-4.png
-	910087	9900023	M2-006-1	トップス		m2-006-1.png
-	910088	9900023	M2-006-2	ボトムス		m2-006-2.png
-	910089	9900023	M2-006-3	シューズ		m2-006-3.png
-	910090	9900023	M2-006-4	アクセ		m2-006-4.png
-	910091	9900024	M2-007-1	トップス		m2-007-1.png
-	910092	9900024	M2-007-2	ボトムス		m2-007-2.png
-	910093	9900024	M2-007-3	シューズ		m2-007-3.png
-	910094	9900024	M2-007-4	アクセ		m2-007-4.png
-	910095	9900025	M2-008-1	トップス		m2-008-1.png
-	910096	9900025	M2-008-2	ボトムス		m2-008-2.png
-	910097	9900025	M2-008-3	シューズ		m2-008-3.png
-	910098	9900025	M2-008-4	アクセ		m2-008-4.png
+	910072	9900019	M2-001-1	トップス		Items/m2-001-1.png
+	910073	9900019	M2-001-2	ボトムス		Items/m2-001-2.png
+	910074	9900019	M2-001-3	シューズ		Items/m2-001-3.png
+	910075	9900019	M2-001-4	アクセ		Items/m2-001-4.png
+	910099	9900026	M2-002-1	トップス		Items/m2-002-1.png
+	910100	9900026	M2-002-2	ボトムス		Items/m2-002-2.png
+	910101	9900026	M2-002-3	シューズ		Items/m2-002-3.png
+	910102	9900026	M2-002-4	アクセ		Items/m2-002-4.png
+	910076	9900020	M2-003-1	ワンピ		Items/m2-003-1.png
+	910077	9900020	M2-003-3	シューズ		Items/m2-003-2.png
+	910078	9900020	M2-003-4	アクセ		Items/m2-003-3.png
+	910079	9900021	M2-004-1	トップス		Items/m2-004-1.png
+	910080	9900021	M2-004-2	ボトムス		Items/m2-004-2.png
+	910081	9900021	M2-004-3	シューズ		Items/m2-004-3.png
+	910082	9900021	M2-004-4	アクセ		Items/m2-004-4.png
+	910083	9900022	M2-005-1	トップス		Items/m2-005-1.png
+	910084	9900022	M2-005-2	ボトムス		Items/m2-005-2.png
+	910085	9900022	M2-005-3	シューズ		Items/m2-005-3.png
+	910086	9900022	M2-005-4	アクセ		Items/m2-005-4.png
+	910087	9900023	M2-006-1	トップス		Items/m2-006-1.png
+	910088	9900023	M2-006-2	ボトムス		Items/m2-006-2.png
+	910089	9900023	M2-006-3	シューズ		Items/m2-006-3.png
+	910090	9900023	M2-006-4	アクセ		Items/m2-006-4.png
+	910091	9900024	M2-007-1	トップス		Items/m2-007-1.png
+	910092	9900024	M2-007-2	ボトムス		Items/m2-007-2.png
+	910093	9900024	M2-007-3	シューズ		Items/m2-007-3.png
+	910094	9900024	M2-007-4	アクセ		Items/m2-007-4.png
+	910095	9900025	M2-008-1	トップス		Items/m2-008-1.png
+	910096	9900025	M2-008-2	ボトムス		Items/m2-008-2.png
+	910097	9900025	M2-008-3	シューズ		Items/m2-008-3.png
+	910098	9900025	M2-008-4	アクセ		Items/m2-008-4.png
 	910103	9900027		ワンピ		_generic-1.png
 	910104	9900027		シューズ		_generic-3.png
 	910105	9900027		アクセ		_generic-4.png
@@ -118,10 +118,10 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910117	9900032		ワンピ		_generic-1.png
 	910118	9900032		シューズ		_generic-3.png
 	910119	9900032		アクセ		_generic-4.png
-	910120	9900033		トップス		magician_cat_yellow-1.png
-	910121	9900033		ボトムス		magician_cat_yellow-2.png
-	910122	9900033		シューズ		magician_cat_yellow-3.png
-	910123	9900033		アクセ		magician_cat_yellow-4.png
+	910120	9900033		トップス		Items/magician_cat_yellow-1.png
+	910121	9900033		ボトムス		Items/magician_cat_yellow-2.png
+	910122	9900033		シューズ		Items/magician_cat_yellow-3.png
+	910123	9900033		アクセ		Items/magician_cat_yellow-4.png
 	910124	9900034		ワンピ		_generic-1.png
 	910125	9900034		シューズ		_generic-3.png
 	910126	9900034		アクセ		_generic-4.png
@@ -134,9 +134,9 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910133	9900037		ワンピ		_generic-1.png
 	910134	9900037		シューズ		_generic-3.png
 	910135	9900037		アクセ		_generic-4.png
-	910136	9900038		ワンピ		aipri_verse_flower_march_princess-1.png
-	910137	9900038		シューズ		aipri_verse_flower_march_princess-3.png
-	910138	9900038		アクセ		aipri_verse_flower_march_princess-4.png
+	910136	9900038		ワンピ		Items/aipri_verse_flower_march_princess-1.png
+	910137	9900038		シューズ		Items/aipri_verse_flower_march_princess-3.png
+	910138	9900038		アクセ		Items/aipri_verse_flower_march_princess-4.png
 	910139	9900039		トップス		_generic-1.png
 	910140	9900039		ボトムス		_generic-2.png
 	910141	9900039		シューズ		_generic-3.png
@@ -149,71 +149,71 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910148	9900041		ボトムス		_generic-2.png
 	910149	9900041		シューズ		_generic-3.png
 	910150	9900041		アクセ		_generic-4.png
-	40425	9900042		ワンピ		elegant_jewel_pink-1.png
-	40426	9900042		シューズ		elegant_jewel_pink-3.png
-	40427	9900042		アクセ		elegant_jewel_pink-4.png
-	910151	9900043	M3-001-1	ワンピ		m3-001-1.png
-	910152	9900043	M3-001-3	シューズ		m3-001-2.png
-	910153	9900043	M3-001-4	アクセ		m3-001-3.png
-	910154	9900044	M3-002-1	トップス		m3-002-1.png
-	910155	9900044	M3-002-2	ボトムス		m3-002-2.png
-	910156	9900044	M3-002-3	シューズ		m3-002-3.png
-	910157	9900044	M3-002-4	アクセ		m3-002-4.png
-	910158	9900045	M3-003-1	トップス		m3-003-1.png
-	910159	9900045	M3-003-2	ボトムス		m3-003-2.png
-	910160	9900045	M3-003-3	シューズ		m3-003-3.png
-	910161	9900045	M3-003-4	アクセ		m3-003-4.png
-	910162	9900046	M3-004-1	ワンピ		m3-004-1.png
-	910163	9900046	M3-004-3	シューズ		m3-004-2.png
-	910164	9900046	M3-004-4	アクセ		m3-004-3.png
-	910165	9900047	M3-005-1	トップス		m3-005-1.png
-	910166	9900047	M3-005-2	ボトムス		m3-005-2.png
-	910167	9900047	M3-005-3	シューズ		m3-005-3.png
-	910168	9900047	M3-005-4	アクセ		m3-005-4.png
-	910169	9900048	M3-006-1	トップス		m3-006-1.png
-	910170	9900048	M3-006-2	ボトムス		m3-006-2.png
-	910171	9900048	M3-006-3	シューズ		m3-006-3.png
-	910172	9900048	M3-006-4	アクセ		m3-006-4.png
-	910173	9900049	M3-007-1	トップス		m3-007-1.png
-	910174	9900049	M3-007-2	ボトムス		m3-007-2.png
-	910175	9900049	M3-007-3	シューズ		m3-007-3.png
-	910176	9900049	M3-007-4	アクセ		m3-007-4.png
-	910177	9900050	M3-008-1	ワンピ		m3-008-1.png
-	910178	9900050	M3-008-3	シューズ		m3-008-2.png
-	910179	9900050	M3-008-4	アクセ		m3-008-3.png
-	910180	9900051		ワンピ		flower_march_bazrium_blue-1.png
-	910181	9900051		シューズ		flower_march_bazrium_blue-3.png
-	910182	9900051		アクセ		flower_march_bazrium_blue-4.png
-	910183	9900052		トップス		oshogatsu_mint-1.png
-	910184	9900052		ボトムス		oshogatsu_mint-2.png
-	910185	9900052		シューズ		oshogatsu_mint-3.png
-	910186	9900052		アクセ		oshogatsu_mint-4.png
-	910187	9900053		ワンピ		otogibanashi_shirayukihime_white-1.png
-	910188	9900053		シューズ		otogibanashi_shirayukihime_white-3.png
-	910189	9900053		アクセ		otogibanashi_shirayukihime_white-4.png
-	910194	9900055		ワンピ		gothic_bear_purple-1.png
-	910195	9900055		シューズ		gothic_bear_purple-3.png
-	910196	9900055		アクセ		gothic_bear_purple-4.png
-	910197	9900056		ワンピ		gothic_bear_blue-1.png
-	910198	9900056		シューズ		gothic_bear_blue-3.png
-	910199	9900056		アクセ		gothic_bear_blue-4.png
-	910200	9900057		トップス		star_cow_girl_brown-1.png
-	910201	9900057		ボトムス		star_cow_girl_brown-2.png
-	910202	9900057		シューズ		star_cow_girl_brown-3.png
-	910203	9900057		アクセ		star_cow_girl_brown-4.png
-	910204	9900058		ワンピ		herbarium_pink-1.png
-	910205	9900058		シューズ		herbarium_pink-3.png
-	910206	9900058		アクセ		herbarium_pink-4.png
+	40425	9900042		ワンピ		Items/elegant_jewel_pink-1.png
+	40426	9900042		シューズ		Items/elegant_jewel_pink-3.png
+	40427	9900042		アクセ		Items/elegant_jewel_pink-4.png
+	910151	9900043	M3-001-1	ワンピ		Items/m3-001-1.png
+	910152	9900043	M3-001-3	シューズ		Items/m3-001-2.png
+	910153	9900043	M3-001-4	アクセ		Items/m3-001-3.png
+	910154	9900044	M3-002-1	トップス		Items/m3-002-1.png
+	910155	9900044	M3-002-2	ボトムス		Items/m3-002-2.png
+	910156	9900044	M3-002-3	シューズ		Items/m3-002-3.png
+	910157	9900044	M3-002-4	アクセ		Items/m3-002-4.png
+	910158	9900045	M3-003-1	トップス		Items/m3-003-1.png
+	910159	9900045	M3-003-2	ボトムス		Items/m3-003-2.png
+	910160	9900045	M3-003-3	シューズ		Items/m3-003-3.png
+	910161	9900045	M3-003-4	アクセ		Items/m3-003-4.png
+	910162	9900046	M3-004-1	ワンピ		Items/m3-004-1.png
+	910163	9900046	M3-004-3	シューズ		Items/m3-004-2.png
+	910164	9900046	M3-004-4	アクセ		Items/m3-004-3.png
+	910165	9900047	M3-005-1	トップス		Items/m3-005-1.png
+	910166	9900047	M3-005-2	ボトムス		Items/m3-005-2.png
+	910167	9900047	M3-005-3	シューズ		Items/m3-005-3.png
+	910168	9900047	M3-005-4	アクセ		Items/m3-005-4.png
+	910169	9900048	M3-006-1	トップス		Items/m3-006-1.png
+	910170	9900048	M3-006-2	ボトムス		Items/m3-006-2.png
+	910171	9900048	M3-006-3	シューズ		Items/m3-006-3.png
+	910172	9900048	M3-006-4	アクセ		Items/m3-006-4.png
+	910173	9900049	M3-007-1	トップス		Items/m3-007-1.png
+	910174	9900049	M3-007-2	ボトムス		Items/m3-007-2.png
+	910175	9900049	M3-007-3	シューズ		Items/m3-007-3.png
+	910176	9900049	M3-007-4	アクセ		Items/m3-007-4.png
+	910177	9900050	M3-008-1	ワンピ		Items/m3-008-1.png
+	910178	9900050	M3-008-3	シューズ		Items/m3-008-2.png
+	910179	9900050	M3-008-4	アクセ		Items/m3-008-3.png
+	910180	9900051		ワンピ		Items/flower_march_bazrium_blue-1.png
+	910181	9900051		シューズ		Items/flower_march_bazrium_blue-3.png
+	910182	9900051		アクセ		Items/flower_march_bazrium_blue-4.png
+	910183	9900052		トップス		Items/oshogatsu_mint-1.png
+	910184	9900052		ボトムス		Items/oshogatsu_mint-2.png
+	910185	9900052		シューズ		Items/oshogatsu_mint-3.png
+	910186	9900052		アクセ		Items/oshogatsu_mint-4.png
+	910187	9900053		ワンピ		Items/otogibanashi_shirayukihime_white-1.png
+	910188	9900053		シューズ		Items/otogibanashi_shirayukihime_white-3.png
+	910189	9900053		アクセ		Items/otogibanashi_shirayukihime_white-4.png
+	910194	9900055		ワンピ		Items/gothic_bear_purple-1.png
+	910195	9900055		シューズ		Items/gothic_bear_purple-3.png
+	910196	9900055		アクセ		Items/gothic_bear_purple-4.png
+	910197	9900056		ワンピ		Items/gothic_bear_blue-1.png
+	910198	9900056		シューズ		Items/gothic_bear_blue-3.png
+	910199	9900056		アクセ		Items/gothic_bear_blue-4.png
+	910200	9900057		トップス		Items/star_cow_girl_brown-1.png
+	910201	9900057		ボトムス		Items/star_cow_girl_brown-2.png
+	910202	9900057		シューズ		Items/star_cow_girl_brown-3.png
+	910203	9900057		アクセ		Items/star_cow_girl_brown-4.png
+	910204	9900058		ワンピ		Items/herbarium_pink-1.png
+	910205	9900058		シューズ		Items/herbarium_pink-3.png
+	910206	9900058		アクセ		Items/herbarium_pink-4.png
 	910207	9900059		ワンピ		_generic-1.png
 	910208	9900059		シューズ		_generic-3.png
 	910209	9900059		アクセ		_generic-4.png
-	910210	9900060		ワンピ		quartette_start_bazrium_heart_pink-1.png
-	910211	9900060		シューズ		quartette_start_bazrium_heart_pink-2.png
-	910212	9900060		アクセ		quartette_start_bazrium_heart_pink-3.png
-	910213	9900061		トップス		otogibanashi_wonderland_pink-1.png
-	910214	9900061		ボトムス		otogibanashi_wonderland_pink-2.png
-	910215	9900061		シューズ		otogibanashi_wonderland_pink-3.png
-	910216	9900061		アクセ		otogibanashi_wonderland_pink-4.png
+	910210	9900060		ワンピ		Items/quartette_start_bazrium_heart_pink-1.png
+	910211	9900060		シューズ		Items/quartette_start_bazrium_heart_pink-2.png
+	910212	9900060		アクセ		Items/quartette_start_bazrium_heart_pink-3.png
+	910213	9900061		トップス		Items/otogibanashi_wonderland_pink-1.png
+	910214	9900061		ボトムス		Items/otogibanashi_wonderland_pink-2.png
+	910215	9900061		シューズ		Items/otogibanashi_wonderland_pink-3.png
+	910216	9900061		アクセ		Items/otogibanashi_wonderland_pink-4.png
 	910217	9900062		ワンピ		_generic-1.png
 	910218	9900062		シューズ		_generic-3.png
 	910219	9900062		アクセ		_generic-4.png
@@ -350,9 +350,9 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910353	9900101		ワンピ		_generic-1.png
 	910354	9900101		シューズ		_generic-3.png
 	910355	9900101		アクセ		_generic-4.png
-	40563	9900102		ワンピ		40563.png
-	40564	9900102		シューズ		40564.png
-	40565	9900102		アクセ		40565.png
+	40563	9900102		ワンピ		Items/40563.png
+	40564	9900102		シューズ		Items/40564.png
+	40565	9900102		アクセ		Items/40565.png
 	910357	9900103		トップス		_generic-1.png
 	910358	9900103		ボトムス		_generic-2.png
 	910359	9900103		シューズ		_generic-3.png
@@ -444,3 +444,9 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910446	9900127		ボトムス		_generic-2.png
 	910447	9900127		シューズ		_generic-3.png
 	910448	9900127		アクセ		_generic-4.png
+	910449	9900128		ワンピ		Items/flower_march_princess_bazrium_himitsu-1.jpg
+	910450	9900128		シューズ		Items/flower_march_princess_bazrium_himitsu-2.jpg
+	910451	9900128		アクセ		Items/flower_march_princess_bazrium_himitsu-3.jpg
+	910452	9900129		ワンピ		_generic-1.png
+	910453	9900129		シューズ		_generic-3.png
+	910454	9900129		アクセ		_generic-4.png

@@ -32,7 +32,7 @@ Key	ChapterId	Id	Star	Name	Group	Kind	Brand	Start	End	Image
 	3	9900031		セーラーカジュアルゆめかわ	TGC 2024 A/W	TGC 2024 A/W				
 	special	9900032		シークレットフレンズ∞バズリウムパープル 	ひみつのアイプリ ハートPod&アイプリマイク	ひみつのアイプリ ハートPod&アイプリマイク	ポッピンハート			
 Name				カワイイくまさんゆめかわ			ベアベアベア			
-	special	9900033		マジシャンキャットイエロー	Blu-ray特典	ひみつのアイプリ Blu-ray BOX SECRET.1	ミラクルムーン			magician_cat_yellow.png
+	special	9900033		マジシャンキャットイエロー	Blu-ray特典	ひみつのアイプリ Blu-ray BOX SECRET.1	ミラクルムーン			Items/magician_cat_yellow.png
 	4	9900034		ミラクルムーンバズリウムピンク	店舗限定	モーリーファンタジー・PALO限定チャンス				
 	4	9900035		ポッピンハートバズリウムブルー	店舗限定	namco限定チャンス				
 	4	9900036		カワイイあめちゃんげんきオレンジ	店頭大会	お店でアイプリグランプリ　抽選参加景品				
@@ -125,3 +125,5 @@ Name				カワイイくまさんゆめかわ			ベアベアベア
 	special	9900125		たいようさんさんイエロー		ひみつのアイプリミルフィーカードR vol.2				
 	special	9900126		たんけんかレッド		ひみつのアイプリミルフィーカードR vol.2				
 	special	9900127		スポーティバレエコアブルー						
+	special	9900128		フラワーマーチプリンセスバズリウムひみつ						
+	special	9900129		フラワーマーチバズリウムシークレットフレンズ∞						
