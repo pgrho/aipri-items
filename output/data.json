@@ -12289,6 +12289,18 @@
       "ChapterId": "special",
       "Name": "エターナルスペースジャンピンロケットラブリーパープル",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900132,
+      "ChapterId": "special",
+      "Name": "スペースこてつくんオレンジ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900133,
+      "ChapterId": "special",
+      "Name": "スペースこてつくんブルー",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -31979,6 +31991,54 @@
     {
       "Id": 910505,
       "CoordinateId": 9900131,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910506,
+      "CoordinateId": 9900132,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910507,
+      "CoordinateId": 9900132,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910508,
+      "CoordinateId": 9900132,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910509,
+      "CoordinateId": 9900132,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910510,
+      "CoordinateId": 9900133,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910511,
+      "CoordinateId": 9900133,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910512,
+      "CoordinateId": 9900133,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910513,
+      "CoordinateId": 9900133,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
