@@ -12254,7 +12254,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "マジシャンキャットイエロー",
-      "Group": "Blu-ray特典",
+      "Group": "CD・Blu-ray",
       "Kind": "ひみつのアイプリ Blu-ray BOX SECRET.1",
       "Start": "2024-10-03",
       "End": "2024-11-06",
@@ -12298,7 +12298,7 @@
       "Id": 9900042,
       "ChapterId": "special",
       "Name": "エレガントジュエルピンク",
-      "Group": "Blu-ray特典",
+      "Group": "CD・Blu-ray",
       "Kind": "ひみつのアイプリ Blu-ray BOX SECRET.2",
       "LinkedItemIds": []
     },
@@ -12532,6 +12532,7 @@
       "Id": 9900074,
       "ChapterId": "special",
       "Name": "ベリキューデニムラブパープル",
+      "Group": "ひみつのアイプリファンブック",
       "LinkedItemIds": []
     },
     {
@@ -12708,6 +12709,7 @@
       "Id": 9900097,
       "ChapterId": "special",
       "Name": "ぴょんぴょんうさぎファンシー",
+      "Kind": "推し旅",
       "LinkedItemIds": []
     },
     {
@@ -12721,6 +12723,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "ゆめみるリカちゃんホワイトドレス",
+      "Kind": "ハッピーセット",
       "Start": "2025-04-26",
       "LinkedItemIds": []
     },
@@ -12729,6 +12732,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "リカちゃんシャイニングブルードレス",
+      "Kind": "ハッピーセット",
       "Start": "2025-04-26",
       "LinkedItemIds": []
     },
@@ -12737,6 +12741,7 @@
       "ChapterId": "special",
       "BrandId": 8,
       "Name": "リカちゃんフラワードレス",
+      "Kind": "ハッピーセット",
       "Start": "2025-04-26",
       "LinkedItemIds": []
     },
@@ -12745,6 +12750,7 @@
       "ChapterId": "special",
       "BrandId": 8,
       "Name": "フラワーメモリーピンク",
+      "Group": "CD・Blu-ray",
       "Start": "2025-04-23",
       "LinkedItemIds": []
     },
@@ -12752,18 +12758,21 @@
       "Id": 9900103,
       "ChapterId": "special",
       "Name": "アイドルチェッククールモカベージュ",
+      "Group": "ひみつのアイプリファンブック",
       "LinkedItemIds": []
     },
     {
       "Id": 9900104,
       "ChapterId": "special",
       "Name": "スペースダイナーミント",
+      "Group": "ちゃお",
       "LinkedItemIds": []
     },
     {
       "Id": 9900105,
       "ChapterId": "special",
       "Name": "スクールチェックネイビー",
+      "Kind": "アイプリスマホ",
       "LinkedItemIds": []
     },
     {
@@ -12776,6 +12785,7 @@
       "Id": 9900107,
       "ChapterId": "special",
       "Name": "ジュエルバズリウムルビーパープル",
+      "Kind": "アイプリスマホ",
       "LinkedItemIds": []
     },
     {
@@ -12788,12 +12798,14 @@
       "Id": 9900109,
       "ChapterId": "special",
       "Name": "エターナルジュエルブルーピンク える",
+      "Group": "店頭大会",
       "LinkedItemIds": []
     },
     {
       "Id": 9900110,
       "ChapterId": "special",
       "Name": "エターナルジュエルブルーピンク じゅりあ",
+      "Group": "店頭大会",
       "LinkedItemIds": []
     },
     {
@@ -12842,12 +12854,14 @@
       "Id": 9900117,
       "ChapterId": "special",
       "Name": "こあくまロックグリーンパープル",
+      "Group": "CD・Blu-ray",
       "LinkedItemIds": []
     },
     {
       "Id": 9900118,
       "ChapterId": "special",
       "Name": "アニマルロックピンク",
+      "Group": "ひみつのアイプリファンブック",
       "LinkedItemIds": []
     },
     {
@@ -12910,6 +12924,7 @@
       "Id": 9900127,
       "ChapterId": "special",
       "Name": "スポーティバレエコアブルー",
+      "Group": "ちゃお",
       "LinkedItemIds": []
     },
     {
@@ -12928,12 +12943,14 @@
       "Id": 9900130,
       "ChapterId": "special",
       "Name": "エターナルスペースジャンピンロケットクールレッド",
+      "Group": "店頭大会",
       "LinkedItemIds": []
     },
     {
       "Id": 9900131,
       "ChapterId": "special",
       "Name": "エターナルスペースジャンピンロケットラブリーパープル",
+      "Group": "店頭大会",
       "LinkedItemIds": []
     },
     {
@@ -12946,6 +12963,104 @@
       "Id": 9900133,
       "ChapterId": "special",
       "Name": "スペースこてつくんブルー",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900134,
+      "ChapterId": "special",
+      "Name": "フィーバーエンジェルパープル",
+      "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900135,
+      "ChapterId": "special",
+      "Name": "わんわんアリ・リオコーデ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900136,
+      "ChapterId": "special",
+      "Name": "スターパラダイスらぁら",
+      "Kind": "アイカツ！×プリパラTHE MOVIE-出会いのキセキ！-",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900137,
+      "ChapterId": "special",
+      "Name": "スターパラダイスみれぃ",
+      "Kind": "アイカツ！×プリパラTHE MOVIE-出会いのキセキ！-",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900138,
+      "ChapterId": "special",
+      "Name": "スターパラダイスそふぃ",
+      "Kind": "アイカツ！×プリパラTHE MOVIE-出会いのキセキ！-",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900139,
+      "ChapterId": "special",
+      "Name": "プリこーんカチューシャ",
+      "Group": "ひみつのアイプリ てのひらぬいぐるみR",
+      "Kind": "ひみつのアイプリ てのひらぬいぐるみR",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900140,
+      "ChapterId": "special",
+      "Name": "クラシカルピュアドール",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900141,
+      "ChapterId": "special",
+      "Name": "クラシカルピュアドールクローバー",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900142,
+      "ChapterId": "special",
+      "Name": "ゴーストハロウィンほわいと",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900143,
+      "ChapterId": "special",
+      "Name": "あめぽつぽつあさやけピンク",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900144,
+      "ChapterId": "special",
+      "Name": "ウィンタースノーアイスブルー",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900145,
+      "ChapterId": "special",
+      "Name": "ポッピンマーチサーカス",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900146,
+      "ChapterId": "special",
+      "Name": "クラシックヴァイオリンドリーム",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900147,
+      "ChapterId": "special",
+      "Name": "いたずらモンスタービビッド",
+      "Kind": "ひみつのアイプリミルフィーカードR vol.3",
       "LinkedItemIds": []
     }
   ],
@@ -33757,6 +33872,306 @@
     {
       "Id": 910513,
       "CoordinateId": 9900133,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910514,
+      "CoordinateId": 9900134,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910515,
+      "CoordinateId": 9900134,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910516,
+      "CoordinateId": 9900134,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910517,
+      "CoordinateId": 9900134,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910518,
+      "CoordinateId": 9900135,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910519,
+      "CoordinateId": 9900135,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910520,
+      "CoordinateId": 9900135,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910521,
+      "CoordinateId": 9900135,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910522,
+      "CoordinateId": 9900136,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910523,
+      "CoordinateId": 9900136,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910524,
+      "CoordinateId": 9900136,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910525,
+      "CoordinateId": 9900137,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910526,
+      "CoordinateId": 9900137,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910527,
+      "CoordinateId": 9900137,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910528,
+      "CoordinateId": 9900138,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910529,
+      "CoordinateId": 9900138,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910530,
+      "CoordinateId": 9900138,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910531,
+      "CoordinateId": 9900139,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910532,
+      "CoordinateId": 9900140,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910533,
+      "CoordinateId": 9900140,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910534,
+      "CoordinateId": 9900140,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910535,
+      "CoordinateId": 9900140,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910536,
+      "CoordinateId": 9900141,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910537,
+      "CoordinateId": 9900141,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910538,
+      "CoordinateId": 9900141,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910539,
+      "CoordinateId": 9900141,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910540,
+      "CoordinateId": 9900142,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910541,
+      "CoordinateId": 9900142,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910542,
+      "CoordinateId": 9900142,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910543,
+      "CoordinateId": 9900142,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910544,
+      "CoordinateId": 9900143,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910545,
+      "CoordinateId": 9900143,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910546,
+      "CoordinateId": 9900143,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910547,
+      "CoordinateId": 9900143,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910548,
+      "CoordinateId": 9900144,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910549,
+      "CoordinateId": 9900144,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910550,
+      "CoordinateId": 9900144,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910551,
+      "CoordinateId": 9900144,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910552,
+      "CoordinateId": 9900145,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910553,
+      "CoordinateId": 9900145,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910554,
+      "CoordinateId": 9900145,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910555,
+      "CoordinateId": 9900145,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910556,
+      "CoordinateId": 9900146,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910557,
+      "CoordinateId": 9900146,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910558,
+      "CoordinateId": 9900146,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910559,
+      "CoordinateId": 9900146,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910560,
+      "CoordinateId": 9900147,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910561,
+      "CoordinateId": 9900147,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910562,
+      "CoordinateId": 9900147,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910563,
+      "CoordinateId": 9900147,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
