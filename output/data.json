@@ -12709,6 +12709,7 @@
       "Id": 9900097,
       "ChapterId": "special",
       "Name": "ぴょんぴょんうさぎファンシー",
+      "Group": "推し旅",
       "Kind": "推し旅",
       "LinkedItemIds": []
     },
@@ -12723,6 +12724,7 @@
       "ChapterId": "special",
       "BrandId": 1,
       "Name": "ゆめみるリカちゃんホワイトドレス",
+      "Group": "ハッピーセット",
       "Kind": "ハッピーセット",
       "Start": "2025-04-26",
       "LinkedItemIds": []
@@ -12732,6 +12734,7 @@
       "ChapterId": "special",
       "BrandId": 2,
       "Name": "リカちゃんシャイニングブルードレス",
+      "Group": "ハッピーセット",
       "Kind": "ハッピーセット",
       "Start": "2025-04-26",
       "LinkedItemIds": []
@@ -12741,6 +12744,7 @@
       "ChapterId": "special",
       "BrandId": 8,
       "Name": "リカちゃんフラワードレス",
+      "Group": "ハッピーセット",
       "Kind": "ハッピーセット",
       "Start": "2025-04-26",
       "LinkedItemIds": []
@@ -12772,6 +12776,7 @@
       "Id": 9900105,
       "ChapterId": "special",
       "Name": "スクールチェックネイビー",
+      "Group": "アイプリスマホ",
       "Kind": "アイプリスマホ",
       "LinkedItemIds": []
     },
@@ -12785,6 +12790,7 @@
       "Id": 9900107,
       "ChapterId": "special",
       "Name": "ジュエルバズリウムルビーパープル",
+      "Group": "アイプリスマホ",
       "Kind": "アイプリスマホ",
       "LinkedItemIds": []
     },
@@ -12868,6 +12874,7 @@
       "Id": 9900119,
       "ChapterId": "special",
       "Name": "フルーツソーダブルーベリー",
+      "Group": "ひみつのアイプリミルフィーカードR vol.2",
       "Kind": "ひみつのアイプリミルフィーカードR vol.2",
       "LinkedItemIds": []
     },
@@ -12875,6 +12882,7 @@
       "Id": 9900120,
       "ChapterId": "special",
       "Name": "フルーツソーダストロベリー",
+      "Group": "ひみつのアイプリミルフィーカードR vol.2",
       "Kind": "ひみつのアイプリミルフィーカードR vol.2",
       "LinkedItemIds": []
     },
@@ -12882,6 +12890,7 @@
       "Id": 9900121,
       "ChapterId": "special",
       "Name": "カラフルキャンディブルー",
+      "Group": "ひみつのアイプリミルフィーカードR vol.2",
       "Kind": "ひみつのアイプリミルフィーカードR vol.2",
       "LinkedItemIds": []
     },
@@ -12889,6 +12898,7 @@
       "Id": 9900122,
       "ChapterId": "special",
       "Name": "ひまわりサマークール",
+      "Group": "ひみつのアイプリミルフィーカードR vol.2",
       "Kind": "ひみつのアイプリミルフィーカードR vol.2",
       "LinkedItemIds": []
     },
@@ -12896,6 +12906,7 @@
       "Id": 9900123,
       "ChapterId": "special",
       "Name": "ミルキーウェイブラックピンク",
+      "Group": "ひみつのアイプリミルフィーカードR vol.2",
       "Kind": "ひみつのアイプリミルフィーカードR vol.2",
       "LinkedItemIds": []
     },
@@ -12903,6 +12914,7 @@
       "Id": 9900124,
       "ChapterId": "special",
       "Name": "さわやかマリンパステル",
+      "Group": "ひみつのアイプリミルフィーカードR vol.2",
       "Kind": "ひみつのアイプリミルフィーカードR vol.2",
       "LinkedItemIds": []
     },
@@ -12910,6 +12922,7 @@
       "Id": 9900125,
       "ChapterId": "special",
       "Name": "たいようさんさんイエロー",
+      "Group": "ひみつのアイプリミルフィーカードR vol.2",
       "Kind": "ひみつのアイプリミルフィーカードR vol.2",
       "LinkedItemIds": []
     },
@@ -12917,6 +12930,7 @@
       "Id": 9900126,
       "ChapterId": "special",
       "Name": "たんけんかレッド",
+      "Group": "ひみつのアイプリミルフィーカードR vol.2",
       "Kind": "ひみつのアイプリミルフィーカードR vol.2",
       "LinkedItemIds": []
     },
@@ -13011,6 +13025,7 @@
       "Id": 9900140,
       "ChapterId": "special",
       "Name": "クラシカルピュアドール",
+      "Group": "ひみつのアイプリミルフィーカードR vol.3",
       "Kind": "ひみつのアイプリミルフィーカードR vol.3",
       "LinkedItemIds": []
     },
@@ -13018,6 +13033,7 @@
       "Id": 9900141,
       "ChapterId": "special",
       "Name": "クラシカルピュアドールクローバー",
+      "Group": "ひみつのアイプリミルフィーカードR vol.3",
       "Kind": "ひみつのアイプリミルフィーカードR vol.3",
       "LinkedItemIds": []
     },
@@ -13025,6 +13041,7 @@
       "Id": 9900142,
       "ChapterId": "special",
       "Name": "ゴーストハロウィンほわいと",
+      "Group": "ひみつのアイプリミルフィーカードR vol.3",
       "Kind": "ひみつのアイプリミルフィーカードR vol.3",
       "LinkedItemIds": []
     },
@@ -13032,6 +13049,7 @@
       "Id": 9900143,
       "ChapterId": "special",
       "Name": "あめぽつぽつあさやけピンク",
+      "Group": "ひみつのアイプリミルフィーカードR vol.3",
       "Kind": "ひみつのアイプリミルフィーカードR vol.3",
       "LinkedItemIds": []
     },
@@ -13039,6 +13057,7 @@
       "Id": 9900144,
       "ChapterId": "special",
       "Name": "ウィンタースノーアイスブルー",
+      "Group": "ひみつのアイプリミルフィーカードR vol.3",
       "Kind": "ひみつのアイプリミルフィーカードR vol.3",
       "LinkedItemIds": []
     },
@@ -13046,6 +13065,7 @@
       "Id": 9900145,
       "ChapterId": "special",
       "Name": "ポッピンマーチサーカス",
+      "Group": "ひみつのアイプリミルフィーカードR vol.3",
       "Kind": "ひみつのアイプリミルフィーカードR vol.3",
       "LinkedItemIds": []
     },
@@ -13053,6 +13073,7 @@
       "Id": 9900146,
       "ChapterId": "special",
       "Name": "クラシックヴァイオリンドリーム",
+      "Group": "ひみつのアイプリミルフィーカードR vol.3",
       "Kind": "ひみつのアイプリミルフィーカードR vol.3",
       "LinkedItemIds": []
     },
@@ -13060,7 +13081,14 @@
       "Id": 9900147,
       "ChapterId": "special",
       "Name": "いたずらモンスタービビッド",
+      "Group": "ひみつのアイプリミルフィーカードR vol.3",
       "Kind": "ひみつのアイプリミルフィーカードR vol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900148,
+      "ChapterId": "special",
+      "Name": "おとぎばなしシンデレラグリーン",
       "LinkedItemIds": []
     }
   ],
@@ -34174,6 +34202,30 @@
       "CoordinateId": 9900147,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910564,
+      "CoordinateId": 9900148,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910565,
+      "CoordinateId": 9900148,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910566,
+      "CoordinateId": 9900148,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910567,
+      "CoordinateId": 9900148,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -36438,6 +36490,13 @@
       "Name": "つむぎRモデル",
       "Description": "リング4だん",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0103.webp"
+    },
+    {
+      "Id": 320,
+      "CategoryId": 9,
+      "Name": "プリこーんデコ",
+      "Description": "ふわふわマスコットフィギュアR",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0045.webp"
     }
   ],
   "HimitsuChapters": [
