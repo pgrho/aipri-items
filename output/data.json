@@ -11403,6 +11403,20 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 816,
+      "ChapterId": "ring4",
+      "BrandId": 13,
+      "Star": 4,
+      "Name": "カラフルシャインブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring4/20250909_221523.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring4/20250909_221523_thumb.webp",
+      "Group": "ショップ ナムコでゲット♪「カラフルシャインブルー」キャンペーン",
+      "Kind": "ショップ ナムコでゲット♪「カラフルシャインブルー」キャンペーン",
+      "Start": "2025-10-30",
+      "End": "2025-12-03",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 232,
       "ChapterId": "special",
       "BrandId": 5,
@@ -13239,6 +13253,19 @@
       "Id": 9900149,
       "ChapterId": "special",
       "Name": "ファンタジーリング",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900150,
+      "ChapterId": "special",
+      "Name": "スペースバズリウムスターズメモリー",
+      "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900151,
+      "ChapterId": "special",
+      "Name": "フラワーバズリウムカンパニュラピンク",
       "LinkedItemIds": []
     }
   ],
@@ -29886,6 +29913,34 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring4/Item_ID32341.webp"
     },
     {
+      "Id": 40950,
+      "CoordinateId": 816,
+      "CategoryId": 1,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring4/Item_ID40950.webp"
+    },
+    {
+      "Id": 40951,
+      "CoordinateId": 816,
+      "CategoryId": 3,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring4/Item_ID40951.webp"
+    },
+    {
+      "Id": 40952,
+      "CoordinateId": 816,
+      "CategoryId": 4,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring4/Item_ID40952.webp"
+    },
+    {
+      "Id": 40953,
+      "CoordinateId": 816,
+      "CategoryId": 5,
+      "Point": 220,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring4/Item_ID40953.webp"
+    },
+    {
       "Id": 30681,
       "CoordinateId": 232,
       "SealId": "",
@@ -34510,6 +34565,42 @@
     {
       "Id": 910571,
       "CoordinateId": 9900149,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910572,
+      "CoordinateId": 9900150,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910573,
+      "CoordinateId": 9900150,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910574,
+      "CoordinateId": 9900150,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910575,
+      "CoordinateId": 9900151,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910576,
+      "CoordinateId": 9900151,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910577,
+      "CoordinateId": 9900151,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
