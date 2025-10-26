@@ -13267,6 +13267,36 @@
       "ChapterId": "special",
       "Name": "フラワーバズリウムカンパニュラピンク",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900152,
+      "ChapterId": "special",
+      "Name": "ほしぞらのまほうつかいブルー",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900153,
+      "ChapterId": "special",
+      "Name": "ほしぞらのまほうつかいブラック",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900154,
+      "ChapterId": "special",
+      "Name": "アニマルバズリウムパンサービビッド",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900155,
+      "ChapterId": "special",
+      "Name": "アイプリバースロゼッションレッド",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900156,
+      "ChapterId": "special",
+      "Name": "ハートメロディゴールドシルバー",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -34603,6 +34633,114 @@
       "CoordinateId": 9900151,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910578,
+      "CoordinateId": 9900152,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910579,
+      "CoordinateId": 9900152,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910580,
+      "CoordinateId": 9900152,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910581,
+      "CoordinateId": 9900152,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910582,
+      "CoordinateId": 9900153,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910583,
+      "CoordinateId": 9900153,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910584,
+      "CoordinateId": 9900153,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910585,
+      "CoordinateId": 9900153,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910586,
+      "CoordinateId": 9900154,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910587,
+      "CoordinateId": 9900154,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910588,
+      "CoordinateId": 9900154,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910589,
+      "CoordinateId": 9900155,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910590,
+      "CoordinateId": 9900155,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910591,
+      "CoordinateId": 9900155,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910592,
+      "CoordinateId": 9900156,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910593,
+      "CoordinateId": 9900156,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910594,
+      "CoordinateId": 9900156,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910595,
+      "CoordinateId": 9900156,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -44537,6 +44675,12 @@
       "CharacterId": 16,
       "Star": 4,
       "IsChance": true
+    },
+    {
+      "Id": 9200064,
+      "ChapterId": "gumi",
+      "SealId": "G5-004",
+      "Coordinate": "ほしぞらのまほうつかいブラック"
     },
     {
       "Id": 678,
