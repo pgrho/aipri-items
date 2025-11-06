@@ -49021,7 +49021,9 @@
       "Song": "ミラクル☆ツインスマイル",
       "SongId": 59,
       "Star": 4,
-      "Point": 1200
+      "Point": 1200,
+      "Image1Url": "Cards/APR4-001P_O.jpg",
+      "Image2Url": "Cards/APR4-001P_U.jpg"
     },
     {
       "Id": 9200059,
@@ -49035,7 +49037,9 @@
       "Song": "ミライのプリンセス（つむぎ・リング）",
       "SongId": 60,
       "Star": 4,
-      "Point": 1200
+      "Point": 1200,
+      "Image1Url": "Cards/APR4-003P_O.jpg",
+      "Image2Url": "Cards/APR4-003P_U.jpg"
     },
     {
       "Id": 9200060,
@@ -49049,7 +49053,9 @@
       "Song": "ミライのプリンセス（リング）",
       "SongId": 61,
       "Star": 4,
-      "Point": 1200
+      "Point": 1200,
+      "Image1Url": "Cards/APR4-004P_O.jpg",
+      "Image2Url": "Cards/APR4-004P_U.jpg"
     },
     {
       "Id": 9200061,
@@ -49063,7 +49069,9 @@
       "Song": "わいるど☆すたー（ビビ・チィ）",
       "SongId": 54,
       "Star": 4,
-      "Point": 1200
+      "Point": 1200,
+      "Image1Url": "Cards/APR4-006P_O.jpg",
+      "Image2Url": "Cards/APR4-006P_U.jpg"
     },
     {
       "Id": 9200062,
@@ -49077,7 +49085,9 @@
       "Song": "ミライのプリンセス（つむぎ・リング）",
       "SongId": 60,
       "Star": 4,
-      "Point": 1160
+      "Point": 1160,
+      "Image1Url": "Cards/APR4-012P_O.jpg",
+      "Image2Url": "Cards/APR4-012P_U.jpg"
     },
     {
       "Id": 9200063,
@@ -49091,7 +49101,9 @@
       "Song": "We're The World",
       "SongId": 16,
       "Star": 4,
-      "Point": 1140
+      "Point": 1140,
+      "Image1Url": "Cards/APR4-017P_O.jpg",
+      "Image2Url": "Cards/APR4-017P_U.jpg"
     },
     {
       "Id": 786,

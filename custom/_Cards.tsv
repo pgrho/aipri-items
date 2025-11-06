@@ -644,28 +644,28 @@ SealId		ring3		APR3-056	ƒ`ƒ…[ƒŠƒbƒvƒpƒXƒeƒ‹ƒp[ƒvƒ‹	ƒrƒr		ƒAƒCƒvƒŠƒo[ƒXƒƒhƒŒ
 SealId		ring3		APR3-057	ƒ`ƒ…[ƒŠƒbƒvƒrƒ^ƒ~ƒ“ƒCƒGƒ[	‚¨‚Æ‚ß		ƒAƒCƒvƒŠƒo[ƒXƒƒhƒŒ[‚Q	2	860	TRUE	ƒtƒ‰ƒ[ƒ}[ƒ`		
 SealId		ring3		APR3-058	ƒZ[ƒ‰[ƒJƒWƒ…ƒAƒ‹ƒ}ƒŠƒ“	‚Ý‚Â‚«		ƒLƒYƒi~ƒŠƒ“ƒN	2	820	TRUE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
 SealId		ring4		APR4-001	ƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€ƒRƒXƒ‚ƒXƒsƒ“ƒN	‚Ð‚Ü‚è		ƒ~ƒ‰ƒNƒ‹™ƒcƒCƒ“ƒXƒ}ƒCƒ‹	4	1200	FALSE	ƒ|ƒbƒsƒ“ƒn[ƒg		
-	9200058	ring4	0.1	APR4-001P	ƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€ƒRƒXƒ‚ƒXƒsƒ“ƒN	‚Ð‚Ü‚è	ƒpƒ‰ƒŒƒ‹	ƒ~ƒ‰ƒNƒ‹™ƒcƒCƒ“ƒXƒ}ƒCƒ‹	4	1200	FALSE	ƒ|ƒbƒsƒ“ƒn[ƒg		
+	9200058	ring4	0.1	APR4-001P	ƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€ƒRƒXƒ‚ƒXƒsƒ“ƒN	‚Ð‚Ü‚è	ƒpƒ‰ƒŒƒ‹	ƒ~ƒ‰ƒNƒ‹™ƒcƒCƒ“ƒXƒ}ƒCƒ‹	4	1200	FALSE	ƒ|ƒbƒsƒ“ƒn[ƒg	Cards/APR4-001P_O.jpg	Cards/APR4-001P_U.jpg
 SealId		ring4		APR4-002	ƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€ƒRƒXƒ‚ƒXƒuƒ‹[	‚Ý‚Â‚«		‚Ò‚©‚Ò‚©ƒ}ƒCƒXƒg[ƒŠ[	4	1200	FALSE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
 SealId		ring4		APR4-003	ƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€ƒNƒ[ƒo[	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j		ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXi‚Â‚Þ‚¬EƒŠƒ“ƒOj	4	1200	FALSE	ƒtƒ‰ƒ[ƒ}[ƒ`		
-	9200059	ring4	0.2	APR4-003P	ƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€ƒNƒ[ƒo[	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j	ƒpƒ‰ƒŒƒ‹	ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXi‚Â‚Þ‚¬EƒŠƒ“ƒOj	4	1200	FALSE	ƒtƒ‰ƒ[ƒ}[ƒ`		
+	9200059	ring4	0.2	APR4-003P	ƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€ƒNƒ[ƒo[	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j	ƒpƒ‰ƒŒƒ‹	ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXi‚Â‚Þ‚¬EƒŠƒ“ƒOj	4	1200	FALSE	ƒtƒ‰ƒ[ƒ}[ƒ`	Cards/APR4-003P_O.jpg	Cards/APR4-003P_U.jpg
 SealId		ring4		APR4-004	ƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€ƒJƒ“ƒpƒjƒ…ƒ‰	ƒŠƒ“ƒO		ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXiƒŠƒ“ƒOj	4	1200	FALSE	ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
-	9200060	ring4	0.3	APR4-004P	ƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€ƒJƒ“ƒpƒjƒ…ƒ‰	ƒŠƒ“ƒO	ƒpƒ‰ƒŒƒ‹	ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXiƒŠƒ“ƒOj	4	1200	FALSE	ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
+	9200060	ring4	0.3	APR4-004P	ƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€ƒJƒ“ƒpƒjƒ…ƒ‰	ƒŠƒ“ƒO	ƒpƒ‰ƒŒƒ‹	ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXiƒŠƒ“ƒOj	4	1200	FALSE	ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO	Cards/APR4-004P_O.jpg	Cards/APR4-004P_U.jpg
 SealId		ring4		APR4-005	ƒGƒ^[ƒiƒ‹ƒAƒjƒ}ƒ‹ƒrƒrƒAƒ“ƒ`ƒB	ƒ`ƒB		GIRA GIRA STAR	4	1200	FALSE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
 SealId		ring4		APR4-006	ƒGƒ^[ƒiƒ‹ƒAƒjƒ}ƒ‹ƒrƒrƒAƒ“ƒ`ƒB	ƒrƒr		‚í‚¢‚é‚Ç™‚·‚½[iƒrƒrEƒ`ƒBj	4	1200	FALSE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
-	9200061	ring4	0.4	APR4-006P	ƒGƒ^[ƒiƒ‹ƒAƒjƒ}ƒ‹ƒrƒrƒAƒ“ƒ`ƒB	ƒrƒr	ƒpƒ‰ƒŒƒ‹	‚í‚¢‚é‚Ç™‚·‚½[iƒrƒrEƒ`ƒBj	4	1200	FALSE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
+	9200061	ring4	0.4	APR4-006P	ƒGƒ^[ƒiƒ‹ƒAƒjƒ}ƒ‹ƒrƒrƒAƒ“ƒ`ƒB	ƒrƒr	ƒpƒ‰ƒŒƒ‹	‚í‚¢‚é‚Ç™‚·‚½[iƒrƒrEƒ`ƒBj	4	1200	FALSE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN	Cards/APR4-006P_O.jpg	Cards/APR4-006P_U.jpg
 SealId		ring4		APR4-007	‚Æ‚«‚ß‚«ƒnƒƒEƒBƒ“ƒIƒŒƒ“ƒW	‚¶‚ã‚è‚ 		‚Æ‚«‚ß‚«ƒOƒ‰ƒrƒeƒB	4	1170	FALSE	ƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒg		
 SealId		ring4		APR4-008	‚Æ‚«‚ß‚«ƒnƒƒEƒBƒ“ƒuƒ‹[	‚¦‚é		ƒVƒ“ƒfƒŒƒ‰‚Ìƒ‰ƒ‰ƒ‰	4	1170	FALSE	ƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒg		
 SealId		ring4		APR4-009	‚Æ‚«‚ß‚«ƒnƒƒEƒBƒ“ƒIƒŒƒ“ƒW	‚Ð‚Ü‚è		‚Ç‚«‚Ç‚« ‚«‚ç‚ß‚« ƒoƒYƒŠƒEƒ€	4	1150	FALSE	ƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒg		
 SealId		ring4		APR4-010	‚Æ‚«‚ß‚«ƒnƒƒEƒBƒ“ƒuƒ‹[	‚Ý‚Â‚«		ƒ~ƒ‰ƒNƒ‹™ƒcƒCƒ“ƒXƒ}ƒCƒ‹	4	1150	FALSE	ƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒg		
 SealId		ring4		APR4-011	ƒJƒ‰ƒtƒ‹ƒVƒƒƒCƒ“ƒCƒGƒ[	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j		‚«‚ç‚ß‚«‚Ì‚¤‚½	4	1160	FALSE	ƒtƒ‰ƒ[ƒ}[ƒ`		
 SealId		ring4		APR4-012	ƒJƒ‰ƒtƒ‹ƒVƒƒƒCƒ“ƒp[ƒvƒ‹	ƒŠƒ“ƒO		ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXi‚Â‚Þ‚¬EƒŠƒ“ƒOj	4	1160	FALSE	ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
-	9200062	ring4	0.5	APR4-012P	ƒJƒ‰ƒtƒ‹ƒVƒƒƒCƒ“ƒp[ƒvƒ‹	ƒŠƒ“ƒO	ƒpƒ‰ƒŒƒ‹	ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXi‚Â‚Þ‚¬EƒŠƒ“ƒOj	4	1160	FALSE	ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
+	9200062	ring4	0.5	APR4-012P	ƒJƒ‰ƒtƒ‹ƒVƒƒƒCƒ“ƒp[ƒvƒ‹	ƒŠƒ“ƒO	ƒpƒ‰ƒŒƒ‹	ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXi‚Â‚Þ‚¬EƒŠƒ“ƒOj	4	1160	FALSE	ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO	Cards/APR4-012P_O.jpg	Cards/APR4-012P_U.jpg
 SealId		ring4		APR4-013	‚ ‚±‚ª‚êƒRƒYƒ~ƒbƒNƒcƒCƒ“@‚·‚Î‚é	‚·‚Î‚é		Piece Of Dream	4	1180	FALSE	ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹		
 SealId		ring4		APR4-014	‚ ‚±‚ª‚êƒRƒYƒ~ƒbƒNƒcƒCƒ“@‚¨‚Æ‚ß	‚¨‚Æ‚ß		ƒRƒRƒEƒAƒXƒgƒƒm[ƒc	4	1180	FALSE	ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹		
 SealId		ring4		APR4-015	‚µ‚ ‚í‚¹ƒi[ƒX	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒXver.j		‚«‚ç‚ß‚«‚Ì‚¤‚½	4	1130	FALSE	ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX		
 SealId		ring4		APR4-016	‚µ‚ ‚í‚¹ƒi[ƒX	ƒŠƒ“ƒO		ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXi‚Â‚Þ‚¬EƒŠƒ“ƒOj	4	1130	FALSE	ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX		
 SealId		ring4		APR4-017	ƒtƒ‰ƒ[ƒK[ƒfƒ“	‚Â‚Þ‚¬		We're The World	4	1140	FALSE	ƒtƒ‰ƒ[ƒ}[ƒ`		
-	9200063	ring4	0.6	APR4-017P	ƒtƒ‰ƒ[ƒK[ƒfƒ“	‚Â‚Þ‚¬	ƒpƒ‰ƒŒƒ‹	We're The World	4	1140	FALSE	ƒtƒ‰ƒ[ƒ}[ƒ`		
+	9200063	ring4	0.6	APR4-017P	ƒtƒ‰ƒ[ƒK[ƒfƒ“	‚Â‚Þ‚¬	ƒpƒ‰ƒŒƒ‹	We're The World	4	1140	FALSE	ƒtƒ‰ƒ[ƒ}[ƒ`	Cards/APR4-017P_O.jpg	Cards/APR4-017P_U.jpg
 SealId		ring4		APR4-018	ƒtƒ‰ƒ[ƒK[ƒfƒ“ƒsƒ“ƒN	‚Ð‚Ü‚è		ƒ~ƒ‰ƒNƒ‹™ƒcƒCƒ“ƒXƒ}ƒCƒ‹	4	1140	FALSE	ƒtƒ‰ƒ[ƒ}[ƒ`		
 SealId		ring4		APR4-019	ƒtƒ‰ƒ[ƒK[ƒfƒ“ƒuƒ‹[	‚Ý‚Â‚«		‚Ò‚©‚Ò‚©ƒ}ƒCƒXƒg[ƒŠ[	4	1140	FALSE	ƒtƒ‰ƒ[ƒ}[ƒ`		
 SealId		ring4		APR4-020	‚¨‚Æ‚¬‚Î‚È‚µ‚©‚®‚â‚Ð‚ßƒsƒ…ƒAƒsƒ“ƒN	‚Â‚Þ‚¬		ƒqƒJƒŠƒmƒRƒgƒo	4	1190	FALSE	ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX		
@@ -710,4 +710,4 @@ SealId		ring4		APR4-058	‚·‚Î‚é‚ÌƒAƒCƒ€ƒD	‚¨‚Æ‚ß		ƒRƒRƒEƒAƒXƒgƒƒm[ƒc	2	950	TR
 SealId		ring4		APR4-059	‚¨‚Æ‚ß‚ÌƒAƒCƒ€ƒD	‚¨‚Æ‚ß		‚Ç‚«‚Ç‚« ‚«‚ç‚ß‚« ƒoƒYƒŠƒEƒ€	2	980	TRUE	ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹		
 SealId		ring4		APR4-060	ƒ‰ƒuƒŠ[ƒAƒCƒhƒ‹ƒzƒƒCƒgƒsƒ“ƒN	‚Ð‚Ü‚è		ƒpƒXƒeƒ‹ƒXƒeƒbƒvƒfƒCƒY	2	880	TRUE	ƒ|ƒbƒsƒ“ƒn[ƒg		
 SealId		ring4		APR4-061	ƒ‰ƒuƒŠ[ƒAƒCƒhƒ‹ƒtƒŒƒbƒVƒ…‚¢‚¿‚²	‚¶‚ã‚è‚ 		’´Easy Drive™	2	930	TRUE	ƒ|ƒbƒsƒ“ƒn[ƒg		
-	9200064	gumi		G5-004	‚Ù‚µ‚¼‚ç‚Ì‚Ü‚Ù‚¤‚Â‚©‚¢ƒuƒ‰ƒbƒN
+	9200064	gumi		G5-004	‚Ù‚µ‚¼‚ç‚Ì‚Ü‚Ù‚¤‚Â‚©‚¢ƒuƒ‰ƒbƒN									
