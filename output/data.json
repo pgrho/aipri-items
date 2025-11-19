@@ -13630,6 +13630,24 @@
       "ChapterId": "special",
       "Name": "カラフルシャインレッド",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900158,
+      "ChapterId": "special",
+      "Name": "エターナルアニマルビビアンチィフローラ ビビ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900159,
+      "ChapterId": "special",
+      "Name": "エターナルアニマルビビアンチィフローラ チィ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900160,
+      "ChapterId": "special",
+      "Name": "スペシャルクリスマスピンク",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -35556,6 +35574,48 @@
     {
       "Id": 910599,
       "CoordinateId": 9900157,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910600,
+      "CoordinateId": 9900158,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910601,
+      "CoordinateId": 9900158,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910602,
+      "CoordinateId": 9900158,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910603,
+      "CoordinateId": 9900159,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910604,
+      "CoordinateId": 9900160,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910605,
+      "CoordinateId": 9900160,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910606,
+      "CoordinateId": 9900160,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
