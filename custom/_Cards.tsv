@@ -712,6 +712,12 @@ SealId		ring4		APR4-060	ƒ‰ƒuƒŠ[ƒAƒCƒhƒ‹ƒzƒƒCƒgƒsƒ“ƒN	‚Ð‚Ü‚è		ƒpƒXƒeƒ‹ƒXƒeƒbƒvƒ
 SealId		ring4		APR4-061	ƒ‰ƒuƒŠ[ƒAƒCƒhƒ‹ƒtƒŒƒbƒVƒ…‚¢‚¿‚²	‚¶‚ã‚è‚ 		’´Easy Drive™	2	930	TRUE	ƒ|ƒbƒsƒ“ƒn[ƒg		
 	9200064	gumi		G5-004	‚Ù‚µ‚¼‚ç‚Ì‚Ü‚Ù‚¤‚Â‚©‚¢ƒuƒ‰ƒbƒN									
 SealId		ring5		APR5-001	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒn[ƒ‚ƒj[ƒsƒ“ƒN	‚Ð‚Ü‚è		ƒLƒYƒi~ƒŠƒ“ƒN	4	1250	FALSE	ƒ|ƒbƒsƒ“ƒn[ƒg		
+	9200065	ring5	0.1	APR5-002P	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒn[ƒ‚ƒj[ƒuƒ‹[	‚Ý‚Â‚«	ƒpƒ‰ƒŒƒ‹	ƒ~ƒ‰ƒNƒ‹™ƒcƒCƒ“ƒXƒ}ƒCƒ‹	4	1250	FALSE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
+	9200066	ring5	0.2	APR5-003P	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒAƒ“ƒTƒ“ƒuƒ‹ƒŒƒbƒh	ƒTƒNƒ‰	ƒpƒ‰ƒŒƒ‹	ƒjƒ…[ƒXƒ^[ƒWƒ‡[ƒJ[iƒŠƒ“ƒO•Òj	4	1250	FALSE	ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
+	9200067	ring5	0.3	APR5-004P	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒAƒ“ƒTƒ“ƒuƒ‹ƒuƒ‹[	ƒ^ƒ}ƒL	ƒpƒ‰ƒŒƒ‹	ƒŒƒWƒFƒ“ƒhEƒXƒg[ƒŠ[!!!!	4	1250	FALSE	ƒƒ[ƒbƒVƒ‡ƒ“		
+	9200068	ring5	0.4	APR5-005P	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒAƒ“ƒTƒ“ƒuƒ‹ƒOƒŠ[ƒ“	ƒAƒCƒŠ	ƒpƒ‰ƒŒƒ‹	ƒjƒ…[ƒXƒ^[ƒWƒ‡[ƒJ[iƒŠƒ“ƒO•Òj	4	1250	FALSE	ƒŒƒCƒ“ƒ{[ƒLƒƒƒ“ƒfƒB		
+	9200069	ring5	0.5	APR5-006P	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒAƒ“ƒTƒ“ƒuƒ‹ƒIƒŒƒ“ƒW	ƒŠƒ“ƒŠƒ“	ƒpƒ‰ƒŒƒ‹	Perfect™STARs	4	1250	FALSE	ƒxƒAƒxƒAƒxƒA		
+	9200070	ring5	0.6	APR5-008P	ƒGƒ^[ƒiƒ‹ƒtƒ‰ƒ[ƒ‹ƒ~ƒiƒXƒtƒ[ƒ‰	ƒŠƒ“ƒO		ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXi‚Â‚Þ‚¬EƒŠƒ“ƒOj	4	1250	FALSE	ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
 SealId		ring5		APR5-002	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒn[ƒ‚ƒj[ƒuƒ‹[	‚Ý‚Â‚«		ƒ~ƒ‰ƒNƒ‹™ƒcƒCƒ“ƒXƒ}ƒCƒ‹	4	1250	FALSE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
 SealId		ring5		APR5-003	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒAƒ“ƒTƒ“ƒuƒ‹ƒŒƒbƒh	ƒTƒNƒ‰		ƒjƒ…[ƒXƒ^[ƒWƒ‡[ƒJ[iƒŠƒ“ƒO•Òj	4	1250	FALSE	ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
 SealId		ring5		APR5-004	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒAƒ“ƒTƒ“ƒuƒ‹ƒuƒ‹[	ƒ^ƒ}ƒL		ƒŒƒWƒFƒ“ƒhEƒXƒg[ƒŠ[!!!!	4	1250	FALSE	ƒƒ[ƒbƒVƒ‡ƒ“		
@@ -725,15 +731,15 @@ SealId		ring5		APR5-011	ƒJƒ‹ƒeƒbƒgƒŒƒWƒFƒ“ƒh	ƒAƒCƒŠ		ƒŒƒWƒFƒ“ƒhEƒXƒg[ƒŠ[!!!!	
 SealId		ring5		APR5-012	ƒJƒ‹ƒeƒbƒgƒŒƒWƒFƒ“ƒh	ƒŠƒ“ƒŠƒ“		ƒŒƒWƒFƒ“ƒhEƒXƒg[ƒŠ[!!!!	4	1220	FALSE	ƒxƒAƒxƒAƒxƒA		
 SealId		ring5		APR5-013	‚¶‚µ‚ñ‚ÌƒAƒjƒ}ƒ‹ƒcƒCƒ“@ƒ`ƒB	ƒ`ƒB		GIRA GIRA STAR	4	1230	FALSE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
 SealId		ring5		APR5-014	‚¶‚µ‚ñ‚ÌƒAƒjƒ}ƒ‹ƒcƒCƒ“@ƒrƒr	ƒrƒr		‚í‚¢‚é‚Ç™‚·‚½[iƒrƒrEƒ`ƒBj	4	1230	FALSE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
-SealId		ring5		APR5-015	‚Ð‚Ý‚Â‚ÌƒNƒŠƒXƒ}ƒXƒŒƒbƒh	‚Ð‚Ü‚è		ƒNƒŠƒXƒ}ƒXƒV[ƒNƒŒƒbƒg	4	1180	FALSE	ƒ|ƒbƒsƒ“ƒn[ƒg		
-SealId		ring5		APR5-016	‚Ð‚Ý‚Â‚ÌƒNƒŠƒXƒ}ƒXƒlƒCƒr[	‚Ý‚Â‚«		ƒNƒŠƒXƒ}ƒXƒV[ƒNƒŒƒbƒg	4	1180	FALSE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
-SealId		ring5		APR5-017	‚Ð‚Ý‚Â‚ÌƒNƒŠƒXƒ}ƒXƒŒƒbƒh	‚Â‚Þ‚¬		ƒNƒŠƒXƒ}ƒXƒV[ƒNƒŒƒbƒg	4	1180	FALSE	ƒ|ƒbƒsƒ“ƒn[ƒg		
+SealId		ring5		APR5-015	‚Ð‚Ý‚Â‚ÌƒNƒŠƒXƒ}ƒXƒŒƒbƒh	‚Ð‚Ü‚è		ƒNƒŠƒXƒ}ƒXEƒV[ƒNƒŒƒbƒg	4	1180	FALSE	ƒ|ƒbƒsƒ“ƒn[ƒg		
+SealId		ring5		APR5-016	‚Ð‚Ý‚Â‚ÌƒNƒŠƒXƒ}ƒXƒlƒCƒr[	‚Ý‚Â‚«		ƒNƒŠƒXƒ}ƒXEƒV[ƒNƒŒƒbƒg	4	1180	FALSE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
+SealId		ring5		APR5-017	‚Ð‚Ý‚Â‚ÌƒNƒŠƒXƒ}ƒXƒŒƒbƒh	‚Â‚Þ‚¬		ƒNƒŠƒXƒ}ƒXEƒV[ƒNƒŒƒbƒg	4	1180	FALSE	ƒ|ƒbƒsƒ“ƒn[ƒg		
 SealId		ring5		APR5-018	ƒxƒŠƒLƒ…[ƒfƒjƒ€ƒXƒvƒŠƒ“ƒO	‚¶‚ã‚è‚ 		‚Ç‚«‚Ç‚« ‚«‚ç‚ß‚« ƒoƒYƒŠƒEƒ€	4	1200	FALSE	ƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒg		
 SealId		ring5		APR5-019	ƒxƒŠƒLƒ…[ƒfƒjƒ€ƒ‰ƒu	‚¦‚é		‚í‚½‚µ‚Ì‘åØ‚É‚µ‚Ä‚½‚±‚Æ	4	1200	FALSE	ƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒg		
 SealId		ring5		APR5-020	ƒXƒN[ƒ‹ƒƒCƒcƒN[ƒ‹	‚·‚Î‚é		ƒŒƒbƒcIƒAƒCƒvƒŠi‚·‚Î‚éj	4	1200	FALSE	ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹		
 SealId		ring5		APR5-021	ƒXƒN[ƒ‹ƒƒCƒcƒ‰ƒuƒŠ[	‚¨‚Æ‚ß		‚Ç‚«‚Ç‚« ‚«‚ç‚ß‚« ƒoƒYƒŠƒEƒ€	4	1200	FALSE	ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹		
-SealId		ring5		APR5-022	ƒAƒCƒvƒŠƒo[ƒXƒ|ƒbƒsƒ“ƒn[ƒg	‚Ð‚Ü‚è		ƒNƒŠƒXƒ}ƒXƒV[ƒNƒŒƒbƒg	3	1050	TRUE	ƒ|ƒbƒsƒ“ƒn[ƒg		
-SealId		ring5		APR5-023	ƒAƒCƒvƒŠƒo[ƒXƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“	‚Ý‚Â‚«		ƒNƒŠƒXƒ}ƒXƒV[ƒNƒŒƒbƒg	3	1050	TRUE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
+SealId		ring5		APR5-022	ƒAƒCƒvƒŠƒo[ƒXƒ|ƒbƒsƒ“ƒn[ƒg	‚Ð‚Ü‚è		ƒNƒŠƒXƒ}ƒXEƒV[ƒNƒŒƒbƒg	3	1050	TRUE	ƒ|ƒbƒsƒ“ƒn[ƒg		
+SealId		ring5		APR5-023	ƒAƒCƒvƒŠƒo[ƒXƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“	‚Ý‚Â‚«		ƒNƒŠƒXƒ}ƒXEƒV[ƒNƒŒƒbƒg	3	1050	TRUE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
 SealId		ring5		APR5-024	ƒAƒCƒvƒŠƒo[ƒXƒtƒ‰ƒ[ƒ}[ƒ`	‚Â‚Þ‚¬		ƒnƒsƒnƒsƒnƒbƒs[™ƒ}ƒCƒo[ƒXƒf[i‚Â‚Þ‚¬j	3	1050	TRUE	ƒtƒ‰ƒ[ƒ}[ƒ`		
 SealId		ring5		APR5-025	ƒAƒCƒvƒŠƒo[ƒXƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC	ƒTƒNƒ‰		ƒVƒ“ƒfƒŒƒ‰‚Ìƒ‰ƒ‰ƒ‰	3	1050	TRUE	ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
 SealId		ring5		APR5-026	ƒAƒCƒvƒŠƒo[ƒXƒƒ[ƒbƒVƒ‡ƒ“	ƒ^ƒ}ƒL		ƒnƒsƒnƒsƒnƒbƒs[™ƒ}ƒCƒo[ƒXƒf[iƒ^ƒ}ƒLj	3	1050	TRUE	ƒƒ[ƒbƒVƒ‡ƒ“		

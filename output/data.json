@@ -14296,6 +14296,12 @@
       "ChapterId": "special",
       "Name": "ひみつのクリスマスイエロー",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900163,
+      "ChapterId": "special",
+      "Name": "おとめざみつきブルー",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -37300,6 +37306,30 @@
       "CoordinateId": 9900162,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910614,
+      "CoordinateId": 9900163,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910615,
+      "CoordinateId": 9900163,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910616,
+      "CoordinateId": 9900163,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910617,
+      "CoordinateId": 9900163,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -39746,6 +39776,48 @@
       "Name": "リンリンRモデル",
       "Description": "リング5だん",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0108.webp"
+    },
+    {
+      "Id": 346,
+      "CategoryId": 7,
+      "Name": "ダークサクラアイ",
+      "Description": "アイムゥプレゼント",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0076.webp"
+    },
+    {
+      "Id": 347,
+      "CategoryId": 12,
+      "Name": "ダークチィモデル",
+      "Description": "リング5だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0010.webp"
+    },
+    {
+      "Id": 348,
+      "CategoryId": 12,
+      "Name": "ダークサクラモデル",
+      "Description": "リング5だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0011.webp"
+    },
+    {
+      "Id": 349,
+      "CategoryId": 12,
+      "Name": "ダークタマキモデル",
+      "Description": "リング5だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0012.webp"
+    },
+    {
+      "Id": 350,
+      "CategoryId": 12,
+      "Name": "ダークアイリモデル",
+      "Description": "リング5だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0013.webp"
+    },
+    {
+      "Id": 351,
+      "CategoryId": 12,
+      "Name": "ダークリンリンモデル",
+      "Description": "リング5だん",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0014.webp"
     }
   ],
   "HimitsuChapters": [
@@ -40343,7 +40415,7 @@
     },
     {
       "Id": 68,
-      "Name": "クリスマスシークレット",
+      "Name": "クリスマス・シークレット",
       "SingerIds": [
         1,
         2,
@@ -52270,6 +52342,89 @@
       "Image2Url": "https://aipri.jp/card/img/ring4/APR4M-006_U.webp"
     },
     {
+      "Id": 9200065,
+      "ChapterId": "ring5",
+      "BrandId": 2,
+      "SealId": "APR5-002P",
+      "Coordinate": "メロディバズリウムハーモニーブルー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Variant": "パラレル",
+      "Song": "ミラクル☆ツインスマイル",
+      "SongId": 59,
+      "Star": 4,
+      "Point": 1250
+    },
+    {
+      "Id": 9200066,
+      "ChapterId": "ring5",
+      "BrandId": 5,
+      "SealId": "APR5-003P",
+      "Coordinate": "メロディバズリウムアンサンブルレッド",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Variant": "パラレル",
+      "Song": "ニュースタージョーカー（リング編）",
+      "SongId": 66,
+      "Star": 4,
+      "Point": 1250
+    },
+    {
+      "Id": 9200067,
+      "ChapterId": "ring5",
+      "BrandId": 7,
+      "SealId": "APR5-004P",
+      "Coordinate": "メロディバズリウムアンサンブルブルー",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Variant": "パラレル",
+      "Song": "レジェンド・ストーリー!!!!",
+      "SongId": 67,
+      "Star": 4,
+      "Point": 1250
+    },
+    {
+      "Id": 9200068,
+      "ChapterId": "ring5",
+      "BrandId": 9,
+      "SealId": "APR5-005P",
+      "Coordinate": "メロディバズリウムアンサンブルグリーン",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Variant": "パラレル",
+      "Song": "ニュースタージョーカー（リング編）",
+      "SongId": 66,
+      "Star": 4,
+      "Point": 1250
+    },
+    {
+      "Id": 9200069,
+      "ChapterId": "ring5",
+      "BrandId": 10,
+      "SealId": "APR5-006P",
+      "Coordinate": "メロディバズリウムアンサンブルオレンジ",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Variant": "パラレル",
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
+      "Star": 4,
+      "Point": 1250
+    },
+    {
+      "Id": 9200070,
+      "ChapterId": "ring5",
+      "BrandId": 13,
+      "SealId": "APR5-008P",
+      "Coordinate": "エターナルフラワールミナスフローラ",
+      "Character": "リング",
+      "CharacterId": 22,
+      "Song": "ミライのプリンセス（つむぎ・リング）",
+      "SongId": 60,
+      "Star": 4,
+      "Point": 1250
+    },
+    {
       "Id": 897,
       "ChapterId": "ring5",
       "BrandId": 1,
@@ -52487,7 +52642,7 @@
       "Coordinate": "ひみつのクリスマスレッド",
       "Character": "ひまり",
       "CharacterId": 1,
-      "Song": "クリスマスシークレット",
+      "Song": "クリスマス・シークレット",
       "SongId": 68,
       "Star": 4,
       "Point": 1180,
@@ -52502,7 +52657,7 @@
       "Coordinate": "ひみつのクリスマスネイビー",
       "Character": "みつき",
       "CharacterId": 2,
-      "Song": "クリスマスシークレット",
+      "Song": "クリスマス・シークレット",
       "SongId": 68,
       "Star": 4,
       "Point": 1180,
@@ -52517,7 +52672,7 @@
       "Coordinate": "ひみつのクリスマスレッド",
       "Character": "つむぎ",
       "CharacterId": 4,
-      "Song": "クリスマスシークレット",
+      "Song": "クリスマス・シークレット",
       "SongId": 68,
       "Star": 4,
       "Point": 1180,
@@ -52592,7 +52747,7 @@
       "Coordinate": "アイプリバースポッピンハート",
       "Character": "ひまり",
       "CharacterId": 1,
-      "Song": "クリスマスシークレット",
+      "Song": "クリスマス・シークレット",
       "SongId": 68,
       "Star": 3,
       "Point": 1050,
@@ -52608,7 +52763,7 @@
       "Coordinate": "アイプリバースミラクルムーン",
       "Character": "みつき",
       "CharacterId": 2,
-      "Song": "クリスマスシークレット",
+      "Song": "クリスマス・シークレット",
       "SongId": 68,
       "Star": 3,
       "Point": 1050,
@@ -53217,6 +53372,16 @@
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/ring5/APR5-061_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring5/APR5-061_U.webp"
+    },
+    {
+      "Id": 959,
+      "ChapterId": "special",
+      "SealId": "P-224",
+      "Coordinate": "ひみつのクリスマスイエロー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-224_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-224_U.webp"
     },
     {
       "Id": 958,
