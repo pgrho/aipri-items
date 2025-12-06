@@ -1872,6 +1872,7 @@
       "Kind": "★3",
       "Start": "2024-06-06",
       "End": "2024-07-31",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -2070,6 +2071,7 @@
       "Kind": "★2",
       "Start": "2024-06-06",
       "End": "2024-07-31",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -2986,6 +2988,7 @@
       "Kind": "★★★",
       "Start": "2024-08-01",
       "End": "2024-10-02",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -4020,6 +4023,7 @@
       "Kind": "★★★",
       "Start": "2024-10-03",
       "End": "2024-12-04",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -13612,6 +13616,7 @@
       "ChapterId": "special",
       "Name": "ギフトリボン",
       "Group": "アイプリカード コレクショングミvol.3",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -13619,6 +13624,7 @@
       "ChapterId": "special",
       "Name": "ギフトリボンゴールド",
       "Group": "アイプリカード コレクショングミvol.3",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -13626,6 +13632,7 @@
       "ChapterId": "special",
       "Name": "あめぽつぽつゆうやけオレンジ",
       "Group": "アイプリカード コレクショングミvol.3",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -13633,6 +13640,7 @@
       "ChapterId": "special",
       "Name": "パンキッシュペンギンレッド",
       "Group": "アイプリカード コレクショングミvol.3",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -13940,6 +13948,7 @@
       "ChapterId": "special",
       "Name": "インフルブルームあじさいブルー",
       "Group": "アイプリカード コレクショングミvol.4",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -13955,6 +13964,7 @@
       "ChapterId": "special",
       "Name": "ジュエルバズリウムルビーイエロー",
       "Group": "アイプリカード コレクショングミvol.4",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -13962,6 +13972,7 @@
       "ChapterId": "special",
       "Name": "うらないしピンク",
       "Group": "アイプリカード コレクショングミvol.4",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -13969,6 +13980,7 @@
       "ChapterId": "special",
       "Name": "アイプリバースラブマイミュージックイエロー",
       "Group": "アイプリカード コレクショングミvol.4",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -14235,30 +14247,35 @@
       "Id": 9900152,
       "ChapterId": "special",
       "Name": "ほしぞらのまほうつかいブルー",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
       "Id": 9900153,
       "ChapterId": "special",
       "Name": "ほしぞらのまほうつかいブラック",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
       "Id": 9900154,
       "ChapterId": "special",
       "Name": "アニマルバズリウムパンサービビッド",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
       "Id": 9900155,
       "ChapterId": "special",
       "Name": "アイプリバースロゼッションレッド",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
       "Id": 9900156,
       "ChapterId": "special",
       "Name": "ハートメロディゴールドシルバー",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -40022,7 +40039,9 @@
       "Name": "Stand Get Up",
       "SingerIds": [
         3,
-        5
+        5,
+        6,
+        7
       ]
     },
     {
@@ -40030,7 +40049,9 @@
       "Name": "ムテキDUOエナジー",
       "SingerIds": [
         1,
-        2
+        2,
+        15,
+        16
       ]
     },
     {
@@ -40055,6 +40076,8 @@
       "Id": 17,
       "Name": "ネバギバラバー",
       "SingerIds": [
+        3,
+        5,
         6,
         7
       ]
@@ -40215,6 +40238,8 @@
       "Id": 45,
       "Name": "ときめきグラビティ",
       "SingerIds": [
+        1,
+        2,
         15,
         16
       ]
@@ -40280,6 +40305,8 @@
       "Id": 52,
       "Name": "ココロ・アストロノーツ",
       "SingerIds": [
+        1,
+        2,
         18,
         19
       ]
@@ -40303,6 +40330,8 @@
       "Name": "わいるど☆すたー（ビビ・チィ）",
       "SingerIds": [
         8,
+        18,
+        19,
         21
       ]
     },
@@ -44623,7 +44652,7 @@
       "Star": 4,
       "Point": 999,
       "Image1Url": "Cards/AP5-001P_O.jpg",
-      "Image2Url": "Cards/AP5-001P_O.jpg"
+      "Image2Url": "Cards/AP5-001P_U.jpg"
     },
     {
       "Id": 9200022,
@@ -47106,6 +47135,9 @@
       "Coordinate": "ほしぞらのまほうつかいブルー",
       "Character": "おとめ",
       "CharacterId": 19,
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-001_U.webp"
     },
@@ -47116,6 +47148,9 @@
       "Coordinate": "ほしぞらのまほうつかいブルー",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-002_U.webp"
     },
@@ -47126,6 +47161,9 @@
       "Coordinate": "ほしぞらのまほうつかいブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "レッツ！アイプリ（ひまり・みつき）",
+      "SongId": 42,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-003_U.webp"
     },
@@ -47136,6 +47174,9 @@
       "Coordinate": "アニマルバズリウムパンサービビッド",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "わいるど☆すたー（ビビ・チィ）",
+      "SongId": 54,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-005_U.webp"
     },
@@ -47146,6 +47187,9 @@
       "Coordinate": "アイプリバースロゼッションレッド",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Song": "Stand Get Up",
+      "SongId": 9,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-006_U.webp"
     },
@@ -47156,6 +47200,9 @@
       "Coordinate": "アイプリバースロゼッションレッド",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-007_U.webp"
     },
@@ -47166,6 +47213,9 @@
       "Coordinate": "ハートメロディゴールドシルバー",
       "Character": "じゅりあ",
       "CharacterId": 15,
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-008_U.webp"
     },
@@ -47176,6 +47226,9 @@
       "Coordinate": "ハートメロディゴールドシルバー",
       "Character": "える",
       "CharacterId": 16,
+      "Song": "わたしの大切にしてたこと",
+      "SongId": 49,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-009_U.webp"
     },
@@ -47186,6 +47239,9 @@
       "Coordinate": "おえかきパレットやんちゃブルー",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-010_U.webp"
     },
@@ -47196,6 +47252,9 @@
       "Coordinate": "おえかきパレットやんちゃブルー",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Song": "レッツ！アイプリ（リンリン）",
+      "SongId": 24,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-011_U.webp"
     },
@@ -47206,6 +47265,9 @@
       "Coordinate": "ぽんぽんすずらんピンク",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "We're The World",
+      "SongId": 16,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-012_U.webp"
     },
@@ -47216,6 +47278,9 @@
       "Coordinate": "ぽんぽんすずらんピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "パステルステップデイズ",
+      "SongId": 35,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-013_U.webp"
     },
@@ -47226,6 +47291,9 @@
       "Coordinate": "ぽんぽんすずらんピンク",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-014_U.webp"
     },
@@ -47236,6 +47304,9 @@
       "Coordinate": "インフルブルームあじさいブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-001_U.webp"
     },
@@ -47246,6 +47317,9 @@
       "Coordinate": "インフルブルームあじさいブルー",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "Ring Ring Ring feat. ひまり",
+      "SongId": 46,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-002_U.webp"
     },
@@ -47256,6 +47330,9 @@
       "Coordinate": "インフルブルームあじさいブルー",
       "Character": "じゅりあ",
       "CharacterId": 15,
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-003_U.webp"
     },
@@ -47266,6 +47343,9 @@
       "Coordinate": "ジュエルバズリウムルビーイエロー",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "We're The World",
+      "SongId": 16,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-005_U.webp"
     },
@@ -47276,6 +47356,9 @@
       "Coordinate": "うらないしピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-006_U.webp"
     },
@@ -47286,6 +47369,9 @@
       "Coordinate": "うらないしピンク",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-007_U.webp"
     },
@@ -47296,6 +47382,9 @@
       "Coordinate": "アイプリバースラブマイミュージックイエロー",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "ひみつのふふふ",
+      "SongId": 53,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-008_U.webp"
     },
@@ -47306,6 +47395,9 @@
       "Coordinate": "アイプリバースラブマイミュージックイエロー",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "Ring Ring Ring feat. ひまり",
+      "SongId": 46,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-009_U.webp"
     },
@@ -47316,6 +47408,9 @@
       "Coordinate": "アイスクリームオレンジ",
       "Character": "じゅりあ",
       "CharacterId": 15,
+      "Song": "超Easy Drive☆",
+      "SongId": 47,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-010_U.webp"
     },
@@ -47326,6 +47421,9 @@
       "Coordinate": "アイスクリームオレンジ",
       "Character": "える",
       "CharacterId": 16,
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-011_U.webp"
     },
@@ -47336,6 +47434,9 @@
       "Coordinate": "ハッピーチアブルー",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "We're The World",
+      "SongId": 16,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-012_U.webp"
     },
@@ -47346,6 +47447,9 @@
       "Coordinate": "サクラのアイムゥ",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Song": "Stand Get Up",
+      "SongId": 9,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-013_U.webp"
     },
@@ -47356,6 +47460,9 @@
       "Coordinate": "アイリのアイムゥ",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-014_U.webp"
     },
@@ -47366,6 +47473,9 @@
       "Coordinate": "ギフトリボン",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-001_U.webp"
     },
@@ -47376,6 +47486,9 @@
       "Coordinate": "ギフトリボン",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-002_U.webp"
     },
@@ -47386,6 +47499,9 @@
       "Coordinate": "ギフトリボン",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-003_U.webp"
     },
@@ -47396,6 +47512,9 @@
       "Coordinate": "ギフトリボン",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-004_U.webp"
     },
@@ -47406,6 +47525,9 @@
       "Coordinate": "あめぽつぽつゆうやけオレンジ",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-006_U.webp"
     },
@@ -47416,6 +47538,9 @@
       "Coordinate": "あめぽつぽつゆうやけオレンジ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "パステルステップデイズ",
+      "SongId": 35,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-007_U.webp"
     },
@@ -47426,6 +47551,9 @@
       "Coordinate": "あめぽつぽつゆうやけオレンジ",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "We're The World",
+      "SongId": 16,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-008_U.webp"
     },
@@ -47436,6 +47564,9 @@
       "Coordinate": "パンキッシュペンギンレッド",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "GIRA GIRA STAR",
+      "SongId": 26,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-009_U.webp"
     },
@@ -47446,6 +47577,9 @@
       "Coordinate": "パンキッシュペンギンレッド",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Song": "Stand Get Up",
+      "SongId": 9,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-010_U.webp"
     },
@@ -47456,6 +47590,9 @@
       "Coordinate": "パンキッシュペンギンレッド",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-011_U.webp"
     },
@@ -47466,6 +47603,9 @@
       "Coordinate": "ファンタジースノー",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-012_U.webp"
     },
@@ -47476,6 +47616,9 @@
       "Coordinate": "クールアイドルナチュラル",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-013_U.webp"
     },
@@ -47486,6 +47629,9 @@
       "Coordinate": "つむぎのアイムゥ",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "GIRA GIRA STAR",
+      "SongId": 26,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-014_U.webp"
     },
@@ -47495,7 +47641,8 @@
       "SealId": "G3-005",
       "Coordinate": "ギフトリボンゴールド",
       "Character": "つむぎ（プリンセスver.）",
-      "CharacterId": 9
+      "CharacterId": 9,
+      "IsChance": true
     },
     {
       "Id": 9200051,
@@ -47511,7 +47658,10 @@
       "Id": 9200064,
       "ChapterId": "gumi",
       "SealId": "G5-004",
-      "Coordinate": "ほしぞらのまほうつかいブラック"
+      "Coordinate": "ほしぞらのまほうつかいブラック",
+      "Character": "ビビ",
+      "CharacterId": 21,
+      "IsChance": true
     },
     {
       "Id": 678,
@@ -47520,6 +47670,8 @@
       "Coordinate": "ポッピンハートバズリウム",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "パステルステップデイズ",
+      "SongId": 35,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-147_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-147_U.webp"
     },
@@ -47530,6 +47682,8 @@
       "Coordinate": "ミラクルムーンバズリウム",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-148_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-148_U.webp"
     },
@@ -47540,6 +47694,8 @@
       "Coordinate": "フラワーマーチバズリウム",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-149_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-149_U.webp"
     },
@@ -47550,6 +47706,8 @@
       "Coordinate": "スカーレットバタフライバズリウム",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Song": "Stand Get Up",
+      "SongId": 9,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-150_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-150_U.webp"
     },
@@ -47560,6 +47718,8 @@
       "Coordinate": "ロゼッションバズリウム",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Song": "Stand Get Up",
+      "SongId": 9,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-151_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-151_U.webp"
     },
@@ -47570,6 +47730,8 @@
       "Coordinate": "レインボーキャンディバズリウム",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-152_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-152_U.webp"
     },
@@ -47580,6 +47742,8 @@
       "Coordinate": "ベアベアベアバズリウム",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-153_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-153_U.webp"
     },
@@ -47590,6 +47754,8 @@
       "Coordinate": "ラブマイミュージックバズリウム",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "GIRA GIRA STAR",
+      "SongId": 26,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-154_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-154_U.webp"
     },
@@ -47600,6 +47766,8 @@
       "Coordinate": "アイプリバースポッピンハート",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "P.O.P.P.Y",
+      "SongId": 1,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-155_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-155_U.webp"
     },
@@ -47610,6 +47778,8 @@
       "Coordinate": "アイプリバースミラクルムーン",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "シークレット・ドリーム",
+      "SongId": 2,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-156_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-156_U.webp"
     },
@@ -47620,6 +47790,8 @@
       "Coordinate": "アイプリバースフラワーマーチ",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "ヒカリノコトバ",
+      "SongId": 11,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-157_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-157_U.webp"
     },
@@ -47630,6 +47802,8 @@
       "Coordinate": "アイプリバーススカーレットバタフライ",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-158_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-158_U.webp"
     },
@@ -47640,6 +47814,8 @@
       "Coordinate": "アイプリバースロゼッション",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-159_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-159_U.webp"
     },
@@ -47650,6 +47826,8 @@
       "Coordinate": "アイプリバースレインボーキャンディ",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-160_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-160_U.webp"
     },
@@ -47660,6 +47838,8 @@
       "Coordinate": "アイプリバースベアベアベア",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-161_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-161_U.webp"
     },
@@ -47670,6 +47850,8 @@
       "Coordinate": "アイプリバースラブマイミュージック",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "チィのひみつマイソング♪",
+      "SongId": 30,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-162_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-162_U.webp"
     },
@@ -47680,6 +47862,8 @@
       "Coordinate": "アイプリバースフラワーマーチプリンセス",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-163_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-163_U.webp"
     },
@@ -47690,6 +47874,8 @@
       "Coordinate": "パラダイスがくえんせいふく１ねん",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "レッツ！アイプリ（ひまり）",
+      "SongId": 6,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-164_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-164_U.webp"
     },
@@ -47700,6 +47886,8 @@
       "Coordinate": "パラダイスがくえんせいふく１ねん",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "レッツ！アイプリ（みつき）",
+      "SongId": 7,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-165_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-165_U.webp"
     },
@@ -47710,6 +47898,8 @@
       "Coordinate": "パラダイスがくえんせいふく２ねん",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Song": "レッツ！アイプリ（サクラ）",
+      "SongId": 3,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-166_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-166_U.webp"
     },
@@ -47720,6 +47910,8 @@
       "Coordinate": "パラダイスがくえんせいふく２ねん",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Song": "レッツ！アイプリ（タマキ）",
+      "SongId": 15,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-167_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-167_U.webp"
     },
@@ -47730,6 +47922,8 @@
       "Coordinate": "パラダイスがくえんせいふく２ねん",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Song": "レッツ！アイプリ（アイリ）",
+      "SongId": 23,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-168_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-168_U.webp"
     },
@@ -47740,6 +47934,8 @@
       "Coordinate": "パラダイスがくえんせいふく２ねん",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Song": "レッツ！アイプリ（リンリン）",
+      "SongId": 24,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-169_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-169_U.webp"
     },
@@ -47750,6 +47946,8 @@
       "Coordinate": "パラダイスがくえんせいふく１ねん",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "レッツ！アイプリ（チィ）",
+      "SongId": 29,
       "Image1Url": "https://aipri.jp/card/img/memorial/P-170_O.webp",
       "Image2Url": "https://aipri.jp/card/img/memorial/P-170_U.webp"
     },
@@ -51178,60 +51376,90 @@
     {
       "Id": 766,
       "ChapterId": "ring3",
+      "BrandId": 15,
       "SealId": "APR3M-001",
       "Coordinate": "フィーバーデビルピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
+      "Star": 4,
+      "Point": 1100,
       "Image1Url": "https://aipri.jp/card/img/ring3/APR3M-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring3/APR3M-001_U.webp"
     },
     {
       "Id": 767,
       "ChapterId": "ring3",
+      "BrandId": 15,
       "SealId": "APR3M-002",
       "Coordinate": "フィーバーエンジェルブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
+      "Star": 4,
+      "Point": 1100,
       "Image1Url": "https://aipri.jp/card/img/ring3/APR3M-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring3/APR3M-002_U.webp"
     },
     {
       "Id": 768,
       "ChapterId": "ring3",
+      "BrandId": 9,
       "SealId": "APR3M-003",
       "Coordinate": "カワイイあめちゃんレッド",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
+      "Star": 4,
+      "Point": 1100,
       "Image1Url": "https://aipri.jp/card/img/ring3/APR3M-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring3/APR3M-003_U.webp"
     },
     {
       "Id": 769,
       "ChapterId": "ring3",
+      "BrandId": 10,
       "SealId": "APR3M-004",
       "Coordinate": "カワイイくまさんブルー",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
+      "Star": 4,
+      "Point": 1100,
       "Image1Url": "https://aipri.jp/card/img/ring3/APR3M-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring3/APR3M-004_U.webp"
     },
     {
       "Id": 770,
       "ChapterId": "ring3",
+      "BrandId": 1,
       "SealId": "APR3M-005",
       "Coordinate": "フレッシュレモンときめきゴールド",
       "Character": "じゅりあ",
       "CharacterId": 15,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
+      "Star": 4,
+      "Point": 1100,
       "Image1Url": "https://aipri.jp/card/img/ring3/APR3M-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring3/APR3M-005_U.webp"
     },
     {
       "Id": 771,
       "ChapterId": "ring3",
+      "BrandId": 2,
       "SealId": "APR3M-006",
       "Coordinate": "フレッシュレモンときめきシルバー",
       "Character": "える",
       "CharacterId": 16,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
+      "Star": 4,
+      "Point": 1100,
       "Image1Url": "https://aipri.jp/card/img/ring3/APR3M-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring3/APR3M-006_U.webp"
     },
@@ -52284,60 +52512,90 @@
     {
       "Id": 888,
       "ChapterId": "ring4",
+      "BrandId": 17,
       "SealId": "APR4M-001",
       "Coordinate": "スクールメイツラブリーピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
+      "Star": 4,
+      "Point": 1150,
       "Image1Url": "https://aipri.jp/card/img/ring4/APR4M-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring4/APR4M-001_U.webp"
     },
     {
       "Id": 889,
       "ChapterId": "ring4",
+      "BrandId": 17,
       "SealId": "APR4M-002",
       "Coordinate": "スクールメイツクールブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
+      "Star": 4,
+      "Point": 1150,
       "Image1Url": "https://aipri.jp/card/img/ring4/APR4M-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring4/APR4M-002_U.webp"
     },
     {
       "Id": 890,
       "ChapterId": "ring4",
+      "BrandId": 7,
       "SealId": "APR4M-003",
       "Coordinate": "エレガントジュエルグリーン",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Song": "Stand Get Up",
+      "SongId": 9,
+      "Star": 4,
+      "Point": 1150,
       "Image1Url": "https://aipri.jp/card/img/ring4/APR4M-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring4/APR4M-003_U.webp"
     },
     {
       "Id": 891,
       "ChapterId": "ring4",
+      "BrandId": 5,
       "SealId": "APR4M-004",
       "Coordinate": "エレガントジュエルオレンジ",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Song": "Stand Get Up",
+      "SongId": 9,
+      "Star": 4,
+      "Point": 1150,
       "Image1Url": "https://aipri.jp/card/img/ring4/APR4M-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring4/APR4M-004_U.webp"
     },
     {
       "Id": 892,
       "ChapterId": "ring4",
+      "BrandId": 17,
       "SealId": "APR4M-005",
       "Coordinate": "わいるど☆スタークールネイビー",
       "Character": "すばる",
       "CharacterId": 18,
+      "Song": "わいるど☆すたー（ビビ・チィ）",
+      "SongId": 54,
+      "Star": 4,
+      "Point": 1150,
       "Image1Url": "https://aipri.jp/card/img/ring4/APR4M-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring4/APR4M-005_U.webp"
     },
     {
       "Id": 893,
       "ChapterId": "ring4",
+      "BrandId": 12,
       "SealId": "APR4M-006",
       "Coordinate": "わいるど☆スターおとめピンク",
       "Character": "おとめ",
       "CharacterId": 19,
+      "Song": "わいるど☆すたー（ビビ・チィ）",
+      "SongId": 54,
+      "Star": 4,
+      "Point": 1150,
       "Image1Url": "https://aipri.jp/card/img/ring4/APR4M-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring4/APR4M-006_U.webp"
     },
@@ -53380,6 +53638,8 @@
       "Coordinate": "ひみつのクリスマスイエロー",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-224_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-224_U.webp"
     },
@@ -53390,6 +53650,8 @@
       "Coordinate": "わんわん アリ・リオ コーデ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/P-142_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-142_U.webp"
     },
@@ -53400,6 +53662,8 @@
       "Coordinate": "ゴシックベアパープル",
       "Character": "タマキ",
       "CharacterId": 5,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
       "Image1Url": "https://aipri.jp/card/img/special/P-209_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-209_U.webp"
     },
@@ -53410,6 +53674,8 @@
       "Coordinate": "カルテットレジェンドピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "どきどき きらめき バズリウム",
+      "SongId": 64,
       "Image1Url": "https://aipri.jp/card/img/special/P-228_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-228_U.webp"
     },
@@ -53420,6 +53686,8 @@
       "Coordinate": "おとめざみつきブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/P-227_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-227_U.webp"
     },
@@ -53430,6 +53698,8 @@
       "Coordinate": "エターナルアニマルビビアンチィフローラ",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "わいるど☆すたー（ビビ・チィ）",
+      "SongId": 54,
       "Image1Url": "https://aipri.jp/card/img/special/P-212_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-212_U.webp"
     },
@@ -53440,6 +53710,8 @@
       "Coordinate": "エターナルアニマルビビアンチィフローラ",
       "Character": "ビビ",
       "CharacterId": 21,
+      "Song": "わいるど☆すたー（ビビ）",
+      "SongId": 55,
       "Image1Url": "https://aipri.jp/card/img/special/P-211_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-211_U.webp"
     },
@@ -53450,6 +53722,8 @@
       "Coordinate": "ミラクルハロウィンピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "パステルステップデイズ",
+      "SongId": 35,
       "Image1Url": "https://aipri.jp/card/img/special/P-220_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-220_U.webp"
     },
@@ -53460,6 +53734,8 @@
       "Coordinate": "フラワーバズリウムカンパニュラピンク",
       "Character": "リング",
       "CharacterId": 22,
+      "Song": "ミライのプリンセス（つむぎ・リング）",
+      "SongId": 60,
       "Image1Url": "https://aipri.jp/card/img/special/P-216_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-216_U.webp"
     },
@@ -53480,6 +53756,8 @@
       "Coordinate": "ファンタジーリング",
       "Character": "リング",
       "CharacterId": 22,
+      "Song": "ミライのプリンセス（リング）",
+      "SongId": 61,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-090_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-090_U.webp"
     },
@@ -53500,6 +53778,8 @@
       "Coordinate": "おとぎばなしシンデレラ",
       "Character": "リング",
       "CharacterId": 22,
+      "Song": "ミライのプリンセス（リング）",
+      "SongId": 61,
       "Image1Url": "https://aipri.jp/card/img/special/P-214_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-214_U.webp"
     },
@@ -53510,6 +53790,8 @@
       "Coordinate": "フラワーマーチプリンセスバズリウム",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
       "Image1Url": "https://aipri.jp/card/img/special/P-221_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-221_U.webp"
     },
@@ -53530,6 +53812,8 @@
       "Coordinate": "おとぎばなしシンデレラグリーン",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "ミライのプリンセス（つむぎ・リング）",
+      "SongId": 60,
       "Image1Url": "https://aipri.jp/card/img/special/P-210_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-210_U.webp"
     },
@@ -53540,6 +53824,8 @@
       "Coordinate": "フラワーマーチバズリウムシークレットフレンズ∞",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-181_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-181_U.webp"
     },
@@ -53550,6 +53836,8 @@
       "Coordinate": "てんしなえびてん だいすきコーデ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/P-180_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-180_U.webp"
     },
@@ -53560,6 +53848,8 @@
       "Coordinate": "エターナルスペースジャンピンロケットクールレッド",
       "Character": "すばる",
       "CharacterId": 18,
+      "Song": "Piece Of Dream",
+      "SongId": 51,
       "Image1Url": "https://aipri.jp/card/img/special/P-178_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-178_U.webp"
     },
@@ -53570,6 +53860,8 @@
       "Coordinate": "エターナルスペースジャンピンロケットラブリーパープル",
       "Character": "おとめ",
       "CharacterId": 19,
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
       "Image1Url": "https://aipri.jp/card/img/special/P-177_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-177_U.webp"
     },
@@ -53580,6 +53872,8 @@
       "Coordinate": "スポーティバレエコアブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ぴかぴかマイストーリー",
+      "SongId": 50,
       "Image1Url": "https://aipri.jp/card/img/special/P-176_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-176_U.webp"
     },
@@ -53590,6 +53884,8 @@
       "Coordinate": "アニマルロックピンク",
       "Character": "ビビ",
       "CharacterId": 21,
+      "Song": "わいるど☆すたー（ビビ・チィ）",
+      "SongId": 54,
       "Image1Url": "https://aipri.jp/card/img/special/P-175_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-175_U.webp"
     },
@@ -53600,6 +53896,8 @@
       "Coordinate": "ミラクルムーンバズリウムシークレットフレンズ∞",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-145_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-145_U.webp"
     },
@@ -53610,6 +53908,8 @@
       "Coordinate": "スペースダイナーミント",
       "Character": "おとめ",
       "CharacterId": 19,
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
       "Image1Url": "https://aipri.jp/card/img/special/P-140_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-140_U.webp"
     },
@@ -53620,6 +53920,8 @@
       "Coordinate": "クローバーメロディ",
       "Character": "わかな",
       "CharacterId": 23,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-114_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-114_U.webp"
     },
@@ -53630,6 +53932,8 @@
       "Coordinate": "ジュエルバズリウムサファイア",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "レッツ！アイプリ（ひまり・みつき）",
+      "SongId": 42,
       "Image1Url": "https://aipri.jp/card/img/special/P-191_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-191_U.webp"
     },
@@ -53640,6 +53944,8 @@
       "Coordinate": "ジュエルバズリウムサファイア",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "レッツ！アイプリ（ひまり・みつき）",
+      "SongId": 42,
       "Image1Url": "https://aipri.jp/card/img/special/P-186_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-186_U.webp"
     },
@@ -53650,6 +53956,8 @@
       "Coordinate": "ジュエルバズリウムルビー",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/P-190_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-190_U.webp"
     },
@@ -53660,6 +53968,8 @@
       "Coordinate": "ジュエルバズリウムルビー",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/P-185_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-185_U.webp"
     },
@@ -53670,6 +53980,8 @@
       "Coordinate": "フラワーマーチプリンセスバズリウムブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-193_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-193_U.webp"
     },
@@ -53680,6 +53992,8 @@
       "Coordinate": "フラワーマーチプリンセスバズリウム",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
       "Image1Url": "https://aipri.jp/card/img/special/P-192_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-192_U.webp"
     },
@@ -53700,6 +54014,8 @@
       "Coordinate": "トゥインクルスター",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-080_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-080_U.webp"
     },
@@ -53710,6 +54026,8 @@
       "Coordinate": "クロミ パーティー みつきブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-079_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-079_U.webp"
     },
@@ -53720,6 +54038,8 @@
       "Coordinate": "マイメロディ パーティー ひまりピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "Ring Ring Ring feat. ひまり",
+      "SongId": 46,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-078_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-078_U.webp"
     },
@@ -53730,6 +54050,8 @@
       "Coordinate": "スクールチェックネイビー",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-077_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-077_U.webp"
     },
@@ -53740,6 +54062,8 @@
       "Coordinate": "スクールチェックネイビー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-076_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-076_U.webp"
     },
@@ -53750,6 +54074,8 @@
       "Coordinate": "【おしのこ】 アイ コーデ",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/P-172_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-172_U.webp"
     },
@@ -53760,6 +54086,8 @@
       "Coordinate": "【おしのこ】 アイ コーデ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/P-171_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-171_U.webp"
     },
@@ -53770,6 +54098,8 @@
       "Coordinate": "プリうさおでかけブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-146_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-146_U.webp"
     },
@@ -53780,6 +54110,8 @@
       "Coordinate": "エターナルジュエルブルーピンク",
       "Character": "じゅりあ",
       "CharacterId": 15,
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
       "Image1Url": "https://aipri.jp/card/img/special/P-144_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-144_U.webp"
     },
@@ -53790,6 +54122,8 @@
       "Coordinate": "エターナルジュエルブルーピンク",
       "Character": "える",
       "CharacterId": 16,
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
       "Image1Url": "https://aipri.jp/card/img/special/P-143_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-143_U.webp"
     },
@@ -53800,6 +54134,8 @@
       "Coordinate": "スターメロディ",
       "Character": "あと",
       "CharacterId": 20,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-113_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-113_U.webp"
     },
@@ -53820,6 +54156,8 @@
       "Coordinate": "ポッピンハートバズリウム",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-089_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-089_U.webp"
     },
@@ -53830,6 +54168,8 @@
       "Coordinate": "アイドルチェッククールモカベージュ",
       "Character": "すばる",
       "CharacterId": 18,
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
       "Image1Url": "https://aipri.jp/card/img/special/P-139_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-139_U.webp"
     },
@@ -53840,6 +54180,8 @@
       "Coordinate": "クロミ パーティー",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "GIRA GIRA STAR",
+      "SongId": 26,
       "Image1Url": "https://aipri.jp/card/img/special/P-137_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-137_U.webp"
     },
@@ -53850,6 +54192,8 @@
       "Coordinate": "マイメロディ なかよし",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "パステルステップデイズ",
+      "SongId": 35,
       "Image1Url": "https://aipri.jp/card/img/special/P-136_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-136_U.webp"
     },
@@ -53860,6 +54204,8 @@
       "Coordinate": "ガーリーピアノピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/P-101_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-101_U.webp"
     },
@@ -53870,6 +54216,8 @@
       "Coordinate": "リカちゃんフラワードレス",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
       "Image1Url": "https://aipri.jp/card/img/special/P-111_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-111_U.webp"
     },
@@ -53880,6 +54228,8 @@
       "Coordinate": "リカちゃんシャイニングブルードレス",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/P-110_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-110_U.webp"
     },
@@ -53890,6 +54240,8 @@
       "Coordinate": "ゆめみるリカちゃんホワイトドレス",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "Ring Ring Ring feat. ひまり",
+      "SongId": 46,
       "Image1Url": "https://aipri.jp/card/img/special/P-109_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-109_U.webp"
     },
@@ -53930,6 +54282,8 @@
       "Coordinate": "ときせん ひよりん コーデ",
       "Character": "える",
       "CharacterId": 16,
+      "Song": "ひみつのふふふ",
+      "SongId": 53,
       "Image1Url": "https://aipri.jp/card/img/special/P-118_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-118_U.webp"
     },
@@ -53940,6 +54294,8 @@
       "Coordinate": "ときせん あきちゃん コーデ",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "ひみつのふふふ",
+      "SongId": 53,
       "Image1Url": "https://aipri.jp/card/img/special/P-115_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-115_U.webp"
     },
@@ -53950,6 +54306,8 @@
       "Coordinate": "ときせん おはる コーデ",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "ひみつのふ・ふ・ふ・",
+      "SongId": 48,
       "Image1Url": "https://aipri.jp/card/img/special/P-116_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-116_U.webp"
     },
@@ -53960,6 +54318,8 @@
       "Coordinate": "ときせん ひとちゃん コーデ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ひみつのふ・ふ・ふ・",
+      "SongId": 48,
       "Image1Url": "https://aipri.jp/card/img/special/P-104_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-104_U.webp"
     },
@@ -53970,6 +54330,8 @@
       "Coordinate": "ときせん ジュリ コーデ",
       "Character": "じゅりあ",
       "CharacterId": 15,
+      "Song": "ひみつのふ・ふ・ふ・",
+      "SongId": 48,
       "Image1Url": "https://aipri.jp/card/img/special/P-117_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-117_U.webp"
     },
@@ -53980,6 +54342,8 @@
       "Coordinate": "ときせん かなみん コーデ",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ひみつのふ・ふ・ふ・",
+      "SongId": 48,
       "Image1Url": "https://aipri.jp/card/img/special/P-105_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-105_U.webp"
     },
@@ -53990,6 +54354,8 @@
       "Coordinate": "ハートメロディ",
       "Character": "かほちー",
       "CharacterId": 17,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-112_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-112_U.webp"
     },
@@ -54000,6 +54366,8 @@
       "Coordinate": "ドーナツパティシエールパープル",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "Ring Ring Ring feat. ひまり",
+      "SongId": 46,
       "Image1Url": "https://aipri.jp/card/img/special/P-099_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-099_U.webp"
     },
@@ -54010,6 +54378,8 @@
       "Coordinate": "フラワーマーチプリンセスバズリウムピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-096_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-096_U.webp"
     },
@@ -54020,6 +54390,8 @@
       "Coordinate": "きらきらくらげレッド",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-001_U.webp"
     },
@@ -54030,6 +54402,8 @@
       "Coordinate": "フォーチュンコスメタロット",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-067_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-067_U.webp"
     },
@@ -54070,6 +54444,8 @@
       "Coordinate": "フレンチチェックブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-063_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-063_U.webp"
     },
@@ -54090,6 +54466,8 @@
       "Coordinate": "シャイニービジュー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-061_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-061_U.webp"
     },
@@ -54100,6 +54478,8 @@
       "Coordinate": "シャイニービジュー",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-060_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-060_U.webp"
     },
@@ -54110,6 +54490,8 @@
       "Coordinate": "ファンタジームーン",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-059_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-059_U.webp"
     },
@@ -54120,6 +54502,8 @@
       "Coordinate": "ファンタジーハート",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-058_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-058_U.webp"
     },
@@ -54130,6 +54514,8 @@
       "Coordinate": "フラワーペイント",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-057_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-057_U.webp"
     },
@@ -54150,6 +54536,8 @@
       "Coordinate": "フレンドスターグランプリパステル",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-055_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-055_U.webp"
     },
@@ -54160,6 +54548,8 @@
       "Coordinate": "フレンドスターグランプリパステル",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-054_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-054_U.webp"
     },
@@ -54170,6 +54560,8 @@
       "Coordinate": "ぴょんぴょんうさぎ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "Ring Ring Ring feat. ひまり",
+      "SongId": 46,
       "Image1Url": "https://aipri.jp/card/img/special/P-103_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-103_U.webp"
     },
@@ -54180,6 +54572,8 @@
       "Coordinate": "ベリキューデニムラブパープル",
       "Character": "える",
       "CharacterId": 16,
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
       "Image1Url": "https://aipri.jp/card/img/special/P-102_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-102_U.webp"
     },
@@ -54190,6 +54584,8 @@
       "Coordinate": "ロマンスルージュピンク",
       "Character": "じゅりあ",
       "CharacterId": 15,
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
       "Image1Url": "https://aipri.jp/card/img/special/P-100_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-100_U.webp"
     },
@@ -54210,6 +54606,8 @@
       "Coordinate": "キューティーラビット",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
       "Image1Url": "https://aipri.jp/card/img/special/P-097_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-097_U.webp"
     },
@@ -54220,6 +54618,8 @@
       "Coordinate": "ポッピンハートバズリウムシークレットフレンズ",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
       "Image1Url": "https://aipri.jp/card/img/special/P-092_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-092_U.webp"
     },
@@ -54230,6 +54630,8 @@
       "Coordinate": "バレンタインレターパープル",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-090_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-090_U.webp"
     },
@@ -54240,6 +54642,8 @@
       "Coordinate": "ポッピンハートバズリウム",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ぜんりょくじょしりょくかくめい！",
+      "SongId": 4,
       "Image1Url": "https://aipri.jp/card/img/special/P-039_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-039_U.webp"
     },
@@ -54250,6 +54654,8 @@
       "Coordinate": "シークレットフレンズ∞バズリウムピュアホワイト",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-091_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-091_U.webp"
     },
@@ -54260,6 +54666,8 @@
       "Coordinate": "カルテットスターバズリウムハートピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/P-071_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-071_U.webp"
     },
@@ -54270,6 +54678,8 @@
       "Coordinate": "パンキッシュペンギンホワイト",
       "Character": "チィ",
       "CharacterId": 8,
+      "Song": "GIRA GIRA STAR",
+      "SongId": 26,
       "Image1Url": "https://aipri.jp/card/img/special/P-067_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-067_U.webp"
     },
@@ -54280,6 +54690,8 @@
       "Coordinate": "オーロラスノーグランプリプレミアム",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Song": "きらめきのうた",
+      "SongId": 32,
       "Image1Url": "https://aipri.jp/card/img/special/P-066_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-066_U.webp"
     },
@@ -54290,6 +54702,8 @@
       "Coordinate": "フラワーマーチバズリウム",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-065_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-065_U.webp"
     },
@@ -54300,6 +54714,8 @@
       "Coordinate": "アイプリバースポッピンハート",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-064_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-064_U.webp"
     },
@@ -54310,6 +54726,8 @@
       "Coordinate": "おしょうがつミント",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-063_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-063_U.webp"
     },
@@ -54330,6 +54748,8 @@
       "Coordinate": "おとぎばなししらゆきひめホワイト",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Song": "きらめきのうた",
+      "SongId": 32,
       "Image1Url": "https://aipri.jp/card/img/special/P-068_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-068_U.webp"
     },
@@ -54340,6 +54760,8 @@
       "Coordinate": "マジシャンキャットイエロー",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-062_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-062_U.webp"
     },
@@ -54350,6 +54772,8 @@
       "Coordinate": "フラワーマーチバズリウムブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-073_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-073_U.webp"
     },
@@ -54360,6 +54784,8 @@
       "Coordinate": "ウィンターパープルバタフライ",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-053_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-053_U.webp"
     },
@@ -54370,6 +54796,8 @@
       "Coordinate": "バタフライマジックキュート",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-052_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-052_U.webp"
     },
@@ -54380,6 +54808,8 @@
       "Coordinate": "アイプリバースフラワーマーチプリンセス",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "ヒカリノコトバ",
+      "SongId": 11,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-051_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-051_U.webp"
     },
@@ -54390,6 +54820,8 @@
       "Coordinate": "ウィンタースノー",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-050_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-050_U.webp"
     },
@@ -54400,6 +54832,8 @@
       "Coordinate": "ミラクルムーンバズリウムピンク",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/P-043_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-043_U.webp"
     },
@@ -54410,6 +54844,8 @@
       "Coordinate": "ポッピンハートバズリウムブルー",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/P-042_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-042_U.webp"
     },
@@ -54420,6 +54856,8 @@
       "Coordinate": "カワイイあめちゃんげんきオレンジ",
       "Character": "アイリ",
       "CharacterId": 6,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
       "Image1Url": "https://aipri.jp/card/img/special/P-047_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-047_U.webp"
     },
@@ -54430,6 +54868,8 @@
       "Coordinate": "フェザーグランプリクールピンク",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
       "Image1Url": "https://aipri.jp/card/img/special/P-046_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-046_U.webp"
     },
@@ -54440,6 +54880,8 @@
       "Coordinate": "シークレットフレンズ∞バズリウムパープル",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-041_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-041_U.webp"
     },
@@ -54450,6 +54892,8 @@
       "Coordinate": "シークレットフレンズ∞バズリウムパープル",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-040_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-040_U.webp"
     },
@@ -54460,6 +54904,8 @@
       "Coordinate": "シークレットフレンズ∞バズリウムパープル",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-039_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-039_U.webp"
     },
@@ -54470,6 +54916,8 @@
       "Coordinate": "スカーレットバタフライバズリウム",
       "Character": "サクラ",
       "CharacterId": 3,
+      "Song": "Perfect☆STARs",
+      "SongId": 25,
       "Image1Url": "https://aipri.jp/card/img/special/P-045_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-045_U.webp"
     },
@@ -54480,6 +54928,8 @@
       "Coordinate": "フラワーマーチバズリウム",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-044_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-044_U.webp"
     },
@@ -54490,6 +54940,8 @@
       "Coordinate": "ピタTガール",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "オシャレまじょラブandベリー",
+      "SongId": 31,
       "Image1Url": "https://aipri.jp/card/img/special/P-041_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-041_U.webp"
     },
@@ -54500,6 +54952,8 @@
       "Coordinate": "フレッシュレモンゆめかわ",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ぜんりょくじょしりょくかくめい！",
+      "SongId": 4,
       "Image1Url": "https://aipri.jp/card/img/special/P-038_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-038_U.webp"
     },
@@ -54510,6 +54964,8 @@
       "Coordinate": "ミルキーウェイピンク",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-028_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-028_U.webp"
     },
@@ -54520,6 +54976,8 @@
       "Coordinate": "マーメイドグランプリパープル",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-027_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-027_U.webp"
     },
@@ -54530,6 +54988,8 @@
       "Coordinate": "ミラクルムーンバズリウム",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/P-037P_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-037P_U.webp"
     },
@@ -54549,6 +55009,8 @@
       "Coordinate": "リトルフェアリーブルー",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "We're The World",
+      "SongId": 16,
       "Image1Url": "https://aipri.jp/card/img/special/P-033_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-033_U.webp"
     },
@@ -54559,6 +55021,8 @@
       "Coordinate": "カワイイくまさんゆめかわ",
       "Character": "リンリン",
       "CharacterId": 7,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
       "Image1Url": "https://aipri.jp/card/img/special/P-031_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-031_U.webp"
     },
@@ -54569,6 +55033,8 @@
       "Coordinate": "ポムポムプリン パーティー",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "ヒカリノコトバ",
+      "SongId": 11,
       "Image1Url": "https://aipri.jp/card/img/special/P-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-029_U.webp"
     },
@@ -54579,6 +55045,8 @@
       "Coordinate": "ポッピンハートバズリウム",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/P-036P_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-036P_U.webp"
     },
@@ -54589,6 +55057,8 @@
       "Coordinate": "ポッピンハートバズリウム",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ムテキDUOエナジー",
+      "SongId": 10,
       "Image1Url": "https://aipri.jp/card/img/special/P-036_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-036_U.webp"
     },
@@ -54599,6 +55069,8 @@
       "Coordinate": "ミラクルムーンバズリウム",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "シークレット・ドリーム",
+      "SongId": 2,
       "Image1Url": "https://aipri.jp/card/img/special/P-026_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-026_U.webp"
     },
@@ -54609,6 +55081,8 @@
       "Coordinate": "オーシャンコスメパープル",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ぜんりょくじょしりょくかくめい！",
+      "SongId": 4,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-030_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-030_U.webp"
     },
@@ -54619,6 +55093,8 @@
       "Coordinate": "さわやかブルーシャボン",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "ぜんりょくじょしりょくかくめい！",
+      "SongId": 4,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-029_U.webp"
     },
@@ -54629,6 +55105,8 @@
       "Coordinate": "フラワーチュールすずらん",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "ヒカリノコトバ",
+      "SongId": 11,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-028_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-028_U.webp"
     },
@@ -54639,6 +55117,8 @@
       "Coordinate": "パッションコスメ",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "ヒカリノコトバ",
+      "SongId": 11,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-027_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-027_U.webp"
     },
@@ -54649,6 +55129,8 @@
       "Coordinate": "ネイルポリッシュナチュラル",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "ヒカリノコトバ",
+      "SongId": 11,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-026_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-026_U.webp"
     },
@@ -54659,6 +55141,8 @@
       "Coordinate": "イエローグリーンジュエル",
       "Character": "つむぎ",
       "CharacterId": 4,
+      "Song": "ヒカリノコトバ",
+      "SongId": 11,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-025_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-025_U.webp"
     },
@@ -54696,6 +55180,8 @@
       "Coordinate": "アイスブラウニークレープ",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "ぜんりょくじょしりょくかくめい！",
+      "SongId": 4,
       "Image1Url": "https://aipri.jp/card/img/special/P-023_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-023_U.webp"
     },
@@ -54887,6 +55373,8 @@
       "Coordinate": "ネイルポリッシュクール",
       "Character": "みつき",
       "CharacterId": 2,
+      "Song": "シークレット・ドリーム",
+      "SongId": 2,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-009_U.webp"
     },
@@ -54897,6 +55385,8 @@
       "Coordinate": "ネイルポリッシュラブリー",
       "Character": "ひまり",
       "CharacterId": 1,
+      "Song": "P.O.P.P.Y",
+      "SongId": 1,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/TOY-008_U.webp"
     },

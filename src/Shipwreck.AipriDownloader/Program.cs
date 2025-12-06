@@ -1,7 +1,14 @@
 ﻿using System.Globalization;
+using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks.Sources;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using HtmlAgilityPack;
+using Shipwreck.Aipri;
+using Shipwreck.Phash;
+using Shipwreck.Phash.PresentationCore;
 
 namespace Shipwreck.AipriDownloader;
 
@@ -107,8 +114,6 @@ internal class Program
             d.DataSet.Brands.Remove(b);
         }
 
-
-
         var comparer = StringComparer.Create(
             CultureInfo.InvariantCulture, CompareOptions.IgnoreCase | CompareOptions.IgnoreNonSpace | CompareOptions.IgnoreKanaType | CompareOptions.IgnoreWidth);
 
@@ -124,11 +129,84 @@ internal class Program
             c.HasChance = chanceCoords.TryGetValue(c.Name, out var cardStart);
             c.Start ??= cardStart;
         }
+
+        var songHashes = new Dictionary<Song, (ulong dct, byte[] coefficients)>();
         foreach (var sg in d.DataSet.Cards.GroupBy(e => e.GetSong()))
         {
-            if (sg.Key != null)
+            if (sg.Key is not Song song)
             {
-                sg.Key.SingerIds = sg.Select(e => e.CharacterId).Where(e => e > 0).Distinct().Order().ToList();
+                continue;
+            }
+
+            song.SingerIds = sg.Select(e => e.CharacterId).Where(e => e > 0).Distinct().Order().ToList();
+
+            var img = new FileInfo(Path.Combine(d.GetCustomDirectory(), "Songs", song.Name + ".jpg"));
+            if (img.Exists)
+            {
+                using var stream = img.OpenRead();
+                var bmp = BitmapFrame.Create(stream, BitmapCreateOptions.None, BitmapCacheOption.Default);
+
+                var bytes = bmp.ToLuminanceImage();
+
+                songHashes.Add(song, (ImagePhash.ComputeDctHash(bytes), ImagePhash.ComputeDigest(bytes).Coefficients));
+            }
+        }
+
+        foreach (var c in d.DataSet.Cards
+                                .Where(e => e.GetSong() is not Song s || !songHashes.ContainsKey(s))
+                                .Where(e => e.Image2Url?.StartsWith("https://aipri.jp/") == true
+                                            && e.Image2Url.EndsWith(".webp")))
+        {
+            var img = new FileInfo(Path.Combine(Path.GetDirectoryName(d.GetCustomDirectory())!, "output", string.Format(Constants.CARD_PATH_FORMAT2, c.Id, ".webp")));
+
+            if (!img.Exists)
+            {
+                continue;
+            }
+
+            using var stream = img.OpenRead();
+            BitmapSource bmp = BitmapFrame.Create(stream, BitmapCreateOptions.None, BitmapCacheOption.Default);
+
+            const int W = 814;
+            const int H = 1186;
+
+            if (bmp.PixelWidth != W || bmp.PixelHeight != H)
+            {
+                bmp = new TransformedBitmap(bmp, new ScaleTransform(W / (double)bmp.PixelWidth, H / (double)bmp.PixelHeight));
+            }
+
+            var s = c.GetSong();
+            if (s == null || !songHashes.ContainsKey(s))
+            {
+                var songImage = new CroppedBitmap(bmp, new(546, 349, 250, 250));
+
+                var bytes = songImage.ToLuminanceImage();
+
+                var dct = ImagePhash.ComputeDctHash(bytes);
+                var coeff = ImagePhash.ComputeDigest(bytes).Coefficients;
+
+                if (s != null)
+                {
+                    var enc = new JpegBitmapEncoder();
+                    enc.Frames.Add(BitmapFrame.Create(songImage));
+                    using var fs = new FileStream(Path.Combine(d.GetCustomDirectory(), "Songs", s.Name + ".jpg"), FileMode.Create);
+                    enc.Save(fs);
+
+                    songHashes.Add(s, (dct, coeff));
+                }
+                else
+                {
+                    var matched = songHashes.Select(
+                        e => (
+                        s: e.Key,
+                        r: ImagePhash.GetHammingDistance(e.Value.dct ^ dct) >= 8 ? -1 : ImagePhash.GetCrossCorrelation(e.Value.coefficients, coeff)))
+                        .Where(e => e.r > 0.9)
+                        .OrderByDescending(e => e.r)
+                        .FirstOrDefault().s;
+
+                    c.Song = matched?.Name;
+                    c.SongId = matched?.Id ?? 0;
+                }
             }
         }
     }
