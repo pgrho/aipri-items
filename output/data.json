@@ -11945,6 +11945,135 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 881,
+      "ChapterId": "ring5",
+      "BrandId": 17,
+      "Star": 4,
+      "Name": "スペースバズリウムギャラクシーピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR5-178.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR5-178_thumb.webp",
+      "Group": "すばる＆おとめ イチオシひろば",
+      "Kind": "すばる＆おとめ イチオシひろば",
+      "Start": "2025-12-25",
+      "End": "2026-01-07",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 882,
+      "ChapterId": "ring5",
+      "BrandId": 17,
+      "Star": 4,
+      "Name": "スペースバズリウムプラネットネイビー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR5-181.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR5-181_thumb.webp",
+      "Group": "すばる＆おとめ イチオシひろば",
+      "Kind": "すばる＆おとめ イチオシひろば",
+      "Start": "2025-12-25",
+      "End": "2026-01-07",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 883,
+      "ChapterId": "ring5",
+      "BrandId": 17,
+      "Star": 4,
+      "Name": "アイドルチェッククールグリーン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR5-184.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR5-184_thumb.webp",
+      "Group": "すばる＆おとめ イチオシひろば",
+      "Kind": "すばる＆おとめ イチオシひろば",
+      "Start": "2025-12-25",
+      "End": "2026-01-07",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 884,
+      "ChapterId": "ring5",
+      "BrandId": 17,
+      "Star": 4,
+      "Name": "アイドルチェックラブリーパープル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR5-188.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR5-188_thumb.webp",
+      "Group": "すばる＆おとめ イチオシひろば",
+      "Kind": "すばる＆おとめ イチオシひろば",
+      "Start": "2025-12-25",
+      "End": "2026-01-07",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 885,
+      "ChapterId": "ring5",
+      "BrandId": 17,
+      "Star": 4,
+      "Name": "スペースバズリウムギャラクシー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR2-007.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR2-007_thumb.webp",
+      "Group": "すばる＆おとめ イチオシひろば",
+      "Kind": "すばる＆おとめ イチオシひろば",
+      "Start": "2025-12-25",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        31620,
+        31621,
+        31622
+      ]
+    },
+    {
+      "Id": 886,
+      "ChapterId": "ring5",
+      "BrandId": 17,
+      "Star": 4,
+      "Name": "スペースバズリウムプラネット",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR2-010.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR2-010_thumb.webp",
+      "Group": "すばる＆おとめ イチオシひろば",
+      "Kind": "すばる＆おとめ イチオシひろば",
+      "Start": "2025-12-25",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        31623,
+        31624,
+        31625
+      ]
+    },
+    {
+      "Id": 887,
+      "ChapterId": "ring5",
+      "BrandId": 17,
+      "Star": 4,
+      "Name": "スクールメイツクール",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR2-068.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR2-068_thumb.webp",
+      "Group": "すばる＆おとめ イチオシひろば",
+      "Kind": "すばる＆おとめ イチオシひろば",
+      "Start": "2025-12-25",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        31675,
+        31676,
+        31677
+      ]
+    },
+    {
+      "Id": 888,
+      "ChapterId": "ring5",
+      "BrandId": 17,
+      "Star": 4,
+      "Name": "スクールメイツラブリー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR2-071.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR2-071_thumb.webp",
+      "Group": "すばる＆おとめ イチオシひろば",
+      "Kind": "すばる＆おとめ イチオシひろば",
+      "Start": "2025-12-25",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        31678,
+        31679,
+        31680,
+        31681
+      ]
+    },
+    {
       "Id": 852,
       "ChapterId": "ring5",
       "BrandId": 4,
@@ -12340,6 +12469,192 @@
       "Start": "2025-12-04",
       "End": "2026-01-07",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 889,
+      "ChapterId": "ring5",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとぎばなしシンデレラ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/V1-044.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/V1-044_thumb.webp",
+      "Group": "おとぎばなしひろば",
+      "Kind": "おとぎばなしひろば",
+      "Start": "2025-12-18",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        30019,
+        30157,
+        30158,
+        30159
+      ]
+    },
+    {
+      "Id": 890,
+      "ChapterId": "ring5",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとぎばなししらゆきひめ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/V2-044.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/V2-044_thumb.webp",
+      "Group": "おとぎばなしひろば",
+      "Kind": "おとぎばなしひろば",
+      "Start": "2025-12-18",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        30258,
+        30259,
+        30260
+      ]
+    },
+    {
+      "Id": 891,
+      "ChapterId": "ring5",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとぎばなしあかずきん",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/V3-051.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/V3-051_thumb.webp",
+      "Group": "おとぎばなしひろば",
+      "Kind": "おとぎばなしひろば",
+      "Start": "2025-12-18",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        30509,
+        30510,
+        30511,
+        30512
+      ]
+    },
+    {
+      "Id": 892,
+      "ChapterId": "ring5",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとぎばなしピーターパン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/V4-057.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/V4-057_thumb.webp",
+      "Group": "おとぎばなしひろば",
+      "Kind": "おとぎばなしひろば",
+      "Start": "2025-12-18",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        30733,
+        30734,
+        30735
+      ]
+    },
+    {
+      "Id": 893,
+      "ChapterId": "ring5",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとぎばなしワンダーランド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/V5-052.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/V5-052_thumb.webp",
+      "Group": "おとぎばなしひろば",
+      "Kind": "おとぎばなしひろば",
+      "Start": "2025-12-18",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        30938,
+        30939,
+        30940,
+        30941
+      ]
+    },
+    {
+      "Id": 894,
+      "ChapterId": "ring5",
+      "BrandId": 3,
+      "Star": 4,
+      "Name": "おとぎばなしアラビアンナイト",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/V6-062.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/V6-062_thumb.webp",
+      "Group": "おとぎばなしひろば",
+      "Kind": "おとぎばなしひろば",
+      "Start": "2025-12-18",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        31170,
+        31171,
+        31172,
+        31173
+      ]
+    },
+    {
+      "Id": 895,
+      "ChapterId": "ring5",
+      "BrandId": 5,
+      "Star": 4,
+      "Name": "チェックメイト",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/V2-028.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/V2-028_thumb.webp",
+      "Group": "ショップ ふゆやすみキャンペーン",
+      "Kind": "ショップ ふゆやすみキャンペーン",
+      "Start": "2025-12-04",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        30239,
+        30240,
+        30241,
+        30242
+      ]
+    },
+    {
+      "Id": 896,
+      "ChapterId": "ring5",
+      "BrandId": 2,
+      "Star": 4,
+      "Name": "スペシャルクリスマスホワイト",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/20241129_150103.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/20241129_150103_thumb.webp",
+      "Group": "ショップ ふゆやすみキャンペーン",
+      "Kind": "ショップ ふゆやすみキャンペーン",
+      "Start": "2025-12-04",
+      "End": "2026-01-07",
+      "LinkedItemIds": [
+        40431,
+        40432,
+        40433
+      ]
+    },
+    {
+      "Id": 897,
+      "ChapterId": "ring5",
+      "BrandId": 10,
+      "Star": 4,
+      "Name": "おやすみメリー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/V3-065.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/V3-065_thumb.webp",
+      "Group": "ショップ ふゆやすみキャンペーン",
+      "Kind": "ショップ ふゆやすみキャンペーン",
+      "Start": "2026-01-01",
+      "End": "2026-01-14",
+      "LinkedItemIds": [
+        30523,
+        30524,
+        30525
+      ]
+    },
+    {
+      "Id": 898,
+      "ChapterId": "ring5",
+      "BrandId": 1,
+      "Star": 4,
+      "Name": "おしょうがつピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/V5-060.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/V5-060_thumb.webp",
+      "Group": "ショップ ふゆやすみキャンペーン",
+      "Kind": "ショップ ふゆやすみキャンペーン",
+      "Start": "2026-01-01",
+      "End": "2026-01-14",
+      "LinkedItemIds": [
+        30946,
+        30947,
+        30948,
+        30949
+      ]
     },
     {
       "Id": 878,
@@ -31799,6 +32114,118 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32391.webp"
     },
     {
+      "Id": 32543,
+      "CoordinateId": 881,
+      "SealId": "APR5-178",
+      "CategoryId": 2,
+      "Point": 530,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32543.webp"
+    },
+    {
+      "Id": 32544,
+      "CoordinateId": 881,
+      "SealId": "APR5-179",
+      "CategoryId": 4,
+      "Point": 270,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32544.webp"
+    },
+    {
+      "Id": 32545,
+      "CoordinateId": 881,
+      "SealId": "APR5-180",
+      "CategoryId": 5,
+      "Point": 260,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32545.webp"
+    },
+    {
+      "Id": 32546,
+      "CoordinateId": 882,
+      "SealId": "APR5-181",
+      "CategoryId": 2,
+      "Point": 540,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32546.webp"
+    },
+    {
+      "Id": 32547,
+      "CoordinateId": 882,
+      "SealId": "APR5-182",
+      "CategoryId": 4,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32547.webp"
+    },
+    {
+      "Id": 32548,
+      "CoordinateId": 882,
+      "SealId": "APR5-183",
+      "CategoryId": 5,
+      "Point": 270,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32548.webp"
+    },
+    {
+      "Id": 32549,
+      "CoordinateId": 883,
+      "SealId": "APR5-184",
+      "CategoryId": 1,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32549.webp"
+    },
+    {
+      "Id": 32550,
+      "CoordinateId": 883,
+      "SealId": "APR5-185",
+      "CategoryId": 3,
+      "Point": 270,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32550.webp"
+    },
+    {
+      "Id": 32551,
+      "CoordinateId": 883,
+      "SealId": "APR5-186",
+      "CategoryId": 4,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32551.webp"
+    },
+    {
+      "Id": 32552,
+      "CoordinateId": 883,
+      "SealId": "APR5-187",
+      "CategoryId": 5,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32552.webp"
+    },
+    {
+      "Id": 32553,
+      "CoordinateId": 884,
+      "SealId": "APR5-188",
+      "CategoryId": 1,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32553.webp"
+    },
+    {
+      "Id": 32554,
+      "CoordinateId": 884,
+      "SealId": "APR5-189",
+      "CategoryId": 3,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32554.webp"
+    },
+    {
+      "Id": 32555,
+      "CoordinateId": 884,
+      "SealId": "APR5-190",
+      "CategoryId": 4,
+      "Point": 270,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32555.webp"
+    },
+    {
+      "Id": 32556,
+      "CoordinateId": 884,
+      "SealId": "APR5-191",
+      "CategoryId": 5,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32556.webp"
+    },
+    {
       "Id": 32516,
       "CoordinateId": 852,
       "SealId": "APR5-163",
@@ -39859,6 +40286,27 @@
       "Name": "ダークリンリンモデル",
       "Description": "リング5だん",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Bracelet_0014.webp"
+    },
+    {
+      "Id": 352,
+      "CategoryId": 4,
+      "Name": "さらさらパッツン",
+      "Description": "すばる＆おとめ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0021.webp"
+    },
+    {
+      "Id": 353,
+      "CategoryId": 6,
+      "Name": "カーネーションレッド",
+      "Description": "リング5だんマイキャラフェス②",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0070.webp"
+    },
+    {
+      "Id": 354,
+      "CategoryId": 10,
+      "Name": "コバルトローズメイク",
+      "Description": "リング5だんマイキャラフェス①",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0038.webp"
     }
   ],
   "HimitsuChapters": [
@@ -47166,6 +47614,7 @@
       "CharacterId": 19,
       "Song": "ココロ・アストロノーツ",
       "SongId": 52,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-001_U.webp"
@@ -47179,6 +47628,7 @@
       "CharacterId": 1,
       "Song": "キズナ×リンク",
       "SongId": 44,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-002_U.webp"
@@ -47192,6 +47642,7 @@
       "CharacterId": 2,
       "Song": "レッツ！アイプリ（ひまり・みつき）",
       "SongId": 42,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-003_U.webp"
@@ -47205,6 +47656,7 @@
       "CharacterId": 8,
       "Song": "わいるど☆すたー（ビビ・チィ）",
       "SongId": 54,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-005_U.webp"
@@ -47218,6 +47670,7 @@
       "CharacterId": 5,
       "Song": "Stand Get Up",
       "SongId": 9,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-006_U.webp"
@@ -47231,6 +47684,7 @@
       "CharacterId": 3,
       "Song": "Perfect☆STARs",
       "SongId": 25,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-007_U.webp"
@@ -47244,6 +47698,7 @@
       "CharacterId": 15,
       "Song": "ときめきグラビティ",
       "SongId": 45,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-008_U.webp"
@@ -47257,6 +47712,7 @@
       "CharacterId": 16,
       "Song": "わたしの大切にしてたこと",
       "SongId": 49,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-009_U.webp"
@@ -47270,6 +47726,7 @@
       "CharacterId": 6,
       "Song": "ネバギバラバー",
       "SongId": 17,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-010_U.webp"
@@ -47283,6 +47740,7 @@
       "CharacterId": 7,
       "Song": "レッツ！アイプリ（リンリン）",
       "SongId": 24,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-011_U.webp"
@@ -47296,6 +47754,7 @@
       "CharacterId": 4,
       "Song": "We're The World",
       "SongId": 16,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-012_U.webp"
@@ -47309,6 +47768,7 @@
       "CharacterId": 1,
       "Song": "パステルステップデイズ",
       "SongId": 35,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-013_U.webp"
@@ -47322,6 +47782,7 @@
       "CharacterId": 2,
       "Song": "キズナ×リンク",
       "SongId": 44,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G5-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G5-014_U.webp"
@@ -47335,6 +47796,7 @@
       "CharacterId": 2,
       "Song": "キズナ×リンク",
       "SongId": 44,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-001_U.webp"
@@ -47348,6 +47810,7 @@
       "CharacterId": 1,
       "Song": "Ring Ring Ring feat. ひまり",
       "SongId": 46,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-002_U.webp"
@@ -47361,6 +47824,7 @@
       "CharacterId": 15,
       "Song": "ときめきグラビティ",
       "SongId": 45,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-003_U.webp"
@@ -47374,6 +47838,7 @@
       "CharacterId": 4,
       "Song": "We're The World",
       "SongId": 16,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-005_U.webp"
@@ -47387,6 +47852,7 @@
       "CharacterId": 1,
       "Song": "キズナ×リンク",
       "SongId": 44,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-006_U.webp"
@@ -47400,6 +47866,7 @@
       "CharacterId": 2,
       "Song": "ムテキDUOエナジー",
       "SongId": 10,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-007_U.webp"
@@ -47413,6 +47880,7 @@
       "CharacterId": 8,
       "Song": "ひみつのふふふ",
       "SongId": 53,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-008_U.webp"
@@ -47426,6 +47894,7 @@
       "CharacterId": 4,
       "Song": "Ring Ring Ring feat. ひまり",
       "SongId": 46,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-009_U.webp"
@@ -47439,6 +47908,7 @@
       "CharacterId": 15,
       "Song": "超Easy Drive☆",
       "SongId": 47,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-010_U.webp"
@@ -47452,6 +47922,7 @@
       "CharacterId": 16,
       "Song": "ときめきグラビティ",
       "SongId": 45,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-011_U.webp"
@@ -47465,6 +47936,7 @@
       "CharacterId": 1,
       "Song": "We're The World",
       "SongId": 16,
+      "Star": 2,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-012_U.webp"
@@ -47478,6 +47950,7 @@
       "CharacterId": 5,
       "Song": "Stand Get Up",
       "SongId": 9,
+      "Star": 2,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-013_U.webp"
@@ -47491,6 +47964,7 @@
       "CharacterId": 7,
       "Song": "ネバギバラバー",
       "SongId": 17,
+      "Star": 2,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G4-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G4-014_U.webp"
@@ -47504,6 +47978,7 @@
       "CharacterId": 7,
       "Song": "Perfect☆STARs",
       "SongId": 25,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-001_U.webp"
@@ -47517,6 +47992,7 @@
       "CharacterId": 1,
       "Song": "ムテキDUOエナジー",
       "SongId": 10,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-002_U.webp"
@@ -47530,6 +48006,7 @@
       "CharacterId": 2,
       "Song": "We're The World",
       "SongId": 16,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-003_U.webp"
@@ -47543,6 +48020,7 @@
       "CharacterId": 6,
       "Song": "ネバギバラバー",
       "SongId": 17,
+      "Star": 4,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-004_U.webp"
@@ -47556,6 +48034,7 @@
       "CharacterId": 2,
       "Song": "ムテキDUOエナジー",
       "SongId": 10,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-006_U.webp"
@@ -47569,6 +48048,7 @@
       "CharacterId": 1,
       "Song": "パステルステップデイズ",
       "SongId": 35,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-007_U.webp"
@@ -47582,6 +48062,7 @@
       "CharacterId": 4,
       "Song": "We're The World",
       "SongId": 16,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-008_U.webp"
@@ -47595,6 +48076,7 @@
       "CharacterId": 8,
       "Song": "GIRA GIRA STAR",
       "SongId": 26,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-009_U.webp"
@@ -47608,6 +48090,7 @@
       "CharacterId": 3,
       "Song": "Stand Get Up",
       "SongId": 9,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-010_U.webp"
@@ -47621,6 +48104,7 @@
       "CharacterId": 6,
       "Song": "Perfect☆STARs",
       "SongId": 25,
+      "Star": 3,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-011_U.webp"
@@ -47634,6 +48118,7 @@
       "CharacterId": 7,
       "Song": "ネバギバラバー",
       "SongId": 17,
+      "Star": 2,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-012_U.webp"
@@ -47647,6 +48132,7 @@
       "CharacterId": 5,
       "Song": "Perfect☆STARs",
       "SongId": 25,
+      "Star": 2,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-013_U.webp"
@@ -47660,6 +48146,7 @@
       "CharacterId": 8,
       "Song": "GIRA GIRA STAR",
       "SongId": 26,
+      "Star": 2,
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/G3-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/G3-014_U.webp"
@@ -47671,6 +48158,7 @@
       "Coordinate": "ギフトリボンゴールド",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Star": 4,
       "IsChance": true
     },
     {
@@ -47690,6 +48178,7 @@
       "Coordinate": "ほしぞらのまほうつかいブラック",
       "Character": "ビビ",
       "CharacterId": 21,
+      "Star": 4,
       "IsChance": true
     },
     {
