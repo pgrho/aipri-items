@@ -54878,6 +54878,98 @@
       "Image2Url": "https://aipri.jp/card/img/ring5/APR5-061_U.webp"
     },
     {
+      "Id": 963,
+      "ChapterId": "ring5",
+      "SealId": "APR5M-001",
+      "Coordinate": "フレンドスターグランプリイエロー",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
+      "Image1Url": "https://aipri.jp/card/img/ring5/APR5M-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/ring5/APR5M-001_U.webp"
+    },
+    {
+      "Id": 964,
+      "ChapterId": "ring5",
+      "SealId": "APR5M-002",
+      "Coordinate": "フレンドスターグランプリパープル",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Image1Url": "https://aipri.jp/card/img/ring5/APR5M-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/ring5/APR5M-002_U.webp"
+    },
+    {
+      "Id": 965,
+      "ChapterId": "ring5",
+      "SealId": "APR5M-003",
+      "Coordinate": "スクールメイツクールレッド",
+      "Character": "ビビ",
+      "CharacterId": 21,
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
+      "Image1Url": "https://aipri.jp/card/img/ring5/APR5M-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/ring5/APR5M-003_U.webp"
+    },
+    {
+      "Id": 966,
+      "ChapterId": "ring5",
+      "SealId": "APR5M-004",
+      "Coordinate": "スクールメイツラブリーパープル",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
+      "Image1Url": "https://aipri.jp/card/img/ring5/APR5M-004_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/ring5/APR5M-004_U.webp"
+    },
+    {
+      "Id": 967,
+      "ChapterId": "ring5",
+      "SealId": "APR5M-005",
+      "Coordinate": "カラフルシャインミルキーピンク",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/ring5/APR5M-005_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/ring5/APR5M-005_U.webp"
+    },
+    {
+      "Id": 968,
+      "ChapterId": "ring5",
+      "SealId": "APR5M-006",
+      "Coordinate": "カラフルシャインミルキーブルー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Song": "ミライのプリンセス（つむぎ・リング）",
+      "SongId": 60,
+      "Image1Url": "https://aipri.jp/card/img/ring5/APR5M-006_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/ring5/APR5M-006_U.webp"
+    },
+    {
+      "Id": 969,
+      "ChapterId": "special",
+      "SealId": "P-263",
+      "Coordinate": "きらきらくらげオレンジ",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
+      "Image1Url": "https://aipri.jp/card/img/special/P-263_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-263_U.webp"
+    },
+    {
+      "Id": 970,
+      "ChapterId": "special",
+      "SealId": "P-262",
+      "Coordinate": "きらきらくらげオレンジ",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Song": "ミラクル☆ツインスマイル",
+      "SongId": 59,
+      "Image1Url": "https://aipri.jp/card/img/special/P-262_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-262_U.webp"
+    },
+    {
       "Id": 960,
       "ChapterId": "special",
       "SealId": "P-223",
