@@ -48362,6 +48362,158 @@
       "Image2Url": "https://aipri.jp/card/img/gumi/G1-014_U.webp"
     },
     {
+      "Id": 971,
+      "ChapterId": "gumi",
+      "SealId": "G6-001",
+      "Coordinate": "ゆきうさぎケープアイスブルー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Song": "ミラクル☆ツインスマイル",
+      "SongId": 59,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-001_U.webp"
+    },
+    {
+      "Id": 972,
+      "ChapterId": "gumi",
+      "SealId": "G6-002",
+      "Coordinate": "ゆきうさぎケープアイスブルー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-002_U.webp"
+    },
+    {
+      "Id": 973,
+      "ChapterId": "gumi",
+      "SealId": "G6-003",
+      "Coordinate": "ゆきうさぎケープアイスブルー",
+      "Character": "リンリン",
+      "CharacterId": 7,
+      "Song": "ネバギバラバー",
+      "SongId": 17,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-003_U.webp"
+    },
+    {
+      "Id": 974,
+      "ChapterId": "gumi",
+      "SealId": "G6-005",
+      "Coordinate": "スペースバズリウムギャラクシーレッド",
+      "Character": "すばる",
+      "CharacterId": 18,
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-005_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-005_U.webp"
+    },
+    {
+      "Id": 975,
+      "ChapterId": "gumi",
+      "SealId": "G6-006",
+      "Coordinate": "マジカルカラットゴールド",
+      "Character": "じゅりあ",
+      "CharacterId": 15,
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-006_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-006_U.webp"
+    },
+    {
+      "Id": 976,
+      "ChapterId": "gumi",
+      "SealId": "G6-007",
+      "Coordinate": "マジカルカラットゴールド",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Song": "Stand Get Up",
+      "SongId": 9,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-007_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-007_U.webp"
+    },
+    {
+      "Id": 977,
+      "ChapterId": "gumi",
+      "SealId": "G6-008",
+      "Coordinate": "メロディコーラス",
+      "Character": "ビビ",
+      "CharacterId": 21,
+      "Song": "わいるど☆すたー（ビビ）",
+      "SongId": 55,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-008_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-008_U.webp"
+    },
+    {
+      "Id": 978,
+      "ChapterId": "gumi",
+      "SealId": "G6-009",
+      "Coordinate": "メロディコーラスクラシック",
+      "Character": "リング",
+      "CharacterId": 22,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-009_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-009_U.webp"
+    },
+    {
+      "Id": 979,
+      "ChapterId": "gumi",
+      "SealId": "G6-010",
+      "Coordinate": "ティーパーティー",
+      "Character": "える",
+      "CharacterId": 16,
+      "Song": "わたしの大切にしてたこと",
+      "SongId": 49,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-010_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-010_U.webp"
+    },
+    {
+      "Id": 980,
+      "ChapterId": "gumi",
+      "SealId": "G6-011",
+      "Coordinate": "たんけんかオレンジ",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Song": "わいるど☆すたー（ビビ・チィ）",
+      "SongId": 54,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-011_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-011_U.webp"
+    },
+    {
+      "Id": 981,
+      "ChapterId": "gumi",
+      "SealId": "G6-012",
+      "Coordinate": "スターアイドルネイビー",
+      "Character": "おとめ",
+      "CharacterId": 19,
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-012_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-012_U.webp"
+    },
+    {
+      "Id": 982,
+      "ChapterId": "gumi",
+      "SealId": "G6-013",
+      "Coordinate": "クラシックライブラリーパステル",
+      "Character": "タマキ",
+      "CharacterId": 5,
+      "Song": "ニュースタージョーカー（リング編）",
+      "SongId": 66,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-013_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-013_U.webp"
+    },
+    {
+      "Id": 983,
+      "ChapterId": "gumi",
+      "SealId": "G6-014",
+      "Coordinate": "ロッキンスター",
+      "Character": "アイリ",
+      "CharacterId": 6,
+      "Song": "レジェンド・ストーリー!!!!",
+      "SongId": 67,
+      "Image1Url": "https://aipri.jp/card/img/gumi/G6-014_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/G6-014_U.webp"
+    },
+    {
       "Id": 847,
       "ChapterId": "gumi",
       "SealId": "G5-001",
@@ -53885,7 +54037,9 @@
       "Song": "ミラクル☆ツインスマイル",
       "SongId": 59,
       "Star": 4,
-      "Point": 1250
+      "Point": 1250,
+      "Image1Url": "Cards/APR5-002P_O.webp",
+      "Image2Url": "Cards/APR5-002P_U.webp"
     },
     {
       "Id": 9200066,
@@ -53899,7 +54053,9 @@
       "Song": "ニュースタージョーカー（リング編）",
       "SongId": 66,
       "Star": 4,
-      "Point": 1250
+      "Point": 1250,
+      "Image1Url": "Cards/APR5-003P_O.jpg",
+      "Image2Url": "Cards/APR5-003P_U.webp"
     },
     {
       "Id": 9200067,
@@ -53913,7 +54069,9 @@
       "Song": "レジェンド・ストーリー!!!!",
       "SongId": 67,
       "Star": 4,
-      "Point": 1250
+      "Point": 1250,
+      "Image1Url": "Cards/APR5-004P_O.webp",
+      "Image2Url": "Cards/APR5-004P_U.webp"
     },
     {
       "Id": 9200068,
@@ -53927,7 +54085,9 @@
       "Song": "ニュースタージョーカー（リング編）",
       "SongId": 66,
       "Star": 4,
-      "Point": 1250
+      "Point": 1250,
+      "Image1Url": "Cards/APR5-005P_O.webp",
+      "Image2Url": "Cards/APR5-005P_U.webp"
     },
     {
       "Id": 9200069,
@@ -53941,7 +54101,9 @@
       "Song": "Perfect☆STARs",
       "SongId": 25,
       "Star": 4,
-      "Point": 1250
+      "Point": 1250,
+      "Image1Url": "Cards/APR5-006P_O.webp",
+      "Image2Url": "Cards/APR5-006P_U.webp"
     },
     {
       "Id": 9200070,
@@ -53954,7 +54116,9 @@
       "Song": "ミライのプリンセス（つむぎ・リング）",
       "SongId": 60,
       "Star": 4,
-      "Point": 1250
+      "Point": 1250,
+      "Image1Url": "Cards/APR5-008P_O.webp",
+      "Image2Url": "Cards/APR5-008P_U.webp"
     },
     {
       "Id": 897,
