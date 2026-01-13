@@ -14903,6 +14903,12 @@
       "ChapterId": "special",
       "Name": "きらきらくらげオレンジ",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900170,
+      "ChapterId": "special",
+      "Name": "ロマンチックリボンリボンピュアホワイト",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -38513,6 +38519,30 @@
     {
       "Id": 910633,
       "CoordinateId": 9900169,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910634,
+      "CoordinateId": 9900170,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910635,
+      "CoordinateId": 9900170,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910636,
+      "CoordinateId": 9900170,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910637,
+      "CoordinateId": 9900170,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
