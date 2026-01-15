@@ -11945,6 +11945,136 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 915,
+      "ChapterId": "ring5",
+      "BrandId": 12,
+      "Star": 4,
+      "Name": "アニマルバズリウムパンサーブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR5-192.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR5-192_thumb.webp",
+      "Group": "ビビ＆チィ イチオシひろば",
+      "Kind": "ビビ＆チィ イチオシひろば",
+      "Start": "2026-01-22",
+      "End": "2026-02-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 916,
+      "ChapterId": "ring5",
+      "BrandId": 12,
+      "Star": 4,
+      "Name": "アニマルバズリウムタイガーイエロー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR5-195.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR5-195_thumb.webp",
+      "Group": "ビビ＆チィ イチオシひろば",
+      "Kind": "ビビ＆チィ イチオシひろば",
+      "Start": "2026-01-22",
+      "End": "2026-02-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 917,
+      "ChapterId": "ring5",
+      "BrandId": 12,
+      "Star": 4,
+      "Name": "アニマルロッククラシカル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR5-198.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR5-198_thumb.webp",
+      "Group": "ビビ＆チィ イチオシひろば",
+      "Kind": "ビビ＆チィ イチオシひろば",
+      "Start": "2026-01-22",
+      "End": "2026-02-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 918,
+      "ChapterId": "ring5",
+      "BrandId": 12,
+      "Star": 4,
+      "Name": "ウィッシュスターグランプリレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR5-202.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR5-202_thumb.webp",
+      "Group": "ビビ＆チィ イチオシひろば",
+      "Kind": "ビビ＆チィ イチオシひろば",
+      "Start": "2026-01-22",
+      "End": "2026-02-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 919,
+      "ChapterId": "ring5",
+      "BrandId": 12,
+      "Star": 4,
+      "Name": "アニマルバズリウムパンサー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR3-010.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR3-010_thumb.webp",
+      "Group": "ビビ＆チィ イチオシひろば",
+      "Kind": "ビビ＆チィ イチオシひろば",
+      "Start": "2026-01-22",
+      "End": "2026-02-04",
+      "LinkedItemIds": [
+        31925,
+        31926,
+        31927
+      ]
+    },
+    {
+      "Id": 920,
+      "ChapterId": "ring5",
+      "BrandId": 12,
+      "Star": 4,
+      "Name": "アニマルバズリウムタイガー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR3-013.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR3-013_thumb.webp",
+      "Group": "ビビ＆チィ イチオシひろば",
+      "Kind": "ビビ＆チィ イチオシひろば",
+      "Start": "2026-01-22",
+      "End": "2026-02-04",
+      "LinkedItemIds": [
+        31928,
+        31929,
+        31930
+      ]
+    },
+    {
+      "Id": 921,
+      "ChapterId": "ring5",
+      "BrandId": 12,
+      "Star": 4,
+      "Name": "わいるど☆すたーパープル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR3-058.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR3-058_thumb.webp",
+      "Group": "ビビ＆チィ イチオシひろば",
+      "Kind": "ビビ＆チィ イチオシひろば",
+      "Start": "2026-01-22",
+      "End": "2026-02-04",
+      "LinkedItemIds": [
+        31931,
+        31932,
+        31933,
+        31934
+      ]
+    },
+    {
+      "Id": 922,
+      "ChapterId": "ring5",
+      "BrandId": 12,
+      "Star": 4,
+      "Name": "わいるど☆すたーレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/APR3-062.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring5/APR3-062_thumb.webp",
+      "Group": "ビビ＆チィ イチオシひろば",
+      "Kind": "ビビ＆チィ イチオシひろば",
+      "Start": "2026-01-22",
+      "End": "2026-02-04",
+      "LinkedItemIds": [
+        31935,
+        31936,
+        31937,
+        31938
+      ]
+    },
+    {
       "Id": 843,
       "ChapterId": "ring5",
       "BrandId": 5,
@@ -32391,6 +32521,110 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32238.webp"
     },
     {
+      "Id": 32557,
+      "CoordinateId": 915,
+      "SealId": "APR5-192",
+      "CategoryId": 2,
+      "Point": 530,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32557.webp"
+    },
+    {
+      "Id": 32558,
+      "CoordinateId": 915,
+      "SealId": "APR5-193",
+      "CategoryId": 4,
+      "Point": 260,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32558.webp"
+    },
+    {
+      "Id": 32559,
+      "CoordinateId": 915,
+      "SealId": "APR5-194",
+      "CategoryId": 5,
+      "Point": 270,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32559.webp"
+    },
+    {
+      "Id": 32560,
+      "CoordinateId": 916,
+      "SealId": "APR5-195",
+      "CategoryId": 2,
+      "Point": 550,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32560.webp"
+    },
+    {
+      "Id": 32561,
+      "CoordinateId": 916,
+      "SealId": "APR5-196",
+      "CategoryId": 4,
+      "Point": 260,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32561.webp"
+    },
+    {
+      "Id": 32562,
+      "CoordinateId": 916,
+      "SealId": "APR5-197",
+      "CategoryId": 5,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32562.webp"
+    },
+    {
+      "Id": 32563,
+      "CoordinateId": 917,
+      "SealId": "APR5-198",
+      "CategoryId": 1,
+      "Point": 260,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32563.webp"
+    },
+    {
+      "Id": 32564,
+      "CoordinateId": 917,
+      "SealId": "APR5-199",
+      "CategoryId": 3,
+      "Point": 260,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32564.webp"
+    },
+    {
+      "Id": 32565,
+      "CoordinateId": 917,
+      "SealId": "APR5-200",
+      "CategoryId": 4,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32565.webp"
+    },
+    {
+      "Id": 32566,
+      "CoordinateId": 917,
+      "SealId": "APR5-201",
+      "CategoryId": 5,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32566.webp"
+    },
+    {
+      "Id": 32567,
+      "CoordinateId": 918,
+      "SealId": "APR5-202",
+      "CategoryId": 2,
+      "Point": 510,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32567.webp"
+    },
+    {
+      "Id": 32568,
+      "CoordinateId": 918,
+      "SealId": "APR5-203",
+      "CategoryId": 4,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32568.webp"
+    },
+    {
+      "Id": 32569,
+      "CoordinateId": 918,
+      "SealId": "APR5-204",
+      "CategoryId": 5,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring5/Item_ID32569.webp"
+    },
+    {
       "Id": 32363,
       "CoordinateId": 843,
       "SealId": "APR5-007",
@@ -41089,6 +41323,13 @@
       "Name": "シンフォニアリボンデコ",
       "Description": "ドリーム「Prizmmy☆」",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0048.webp"
+    },
+    {
+      "Id": 360,
+      "CategoryId": 10,
+      "Name": "うるツヤビューティーメイク",
+      "Description": "ビビ＆チィ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0039.webp"
     }
   ],
   "HimitsuChapters": [
