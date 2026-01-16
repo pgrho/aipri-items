@@ -15039,6 +15039,36 @@
       "ChapterId": "special",
       "Name": "ロマンチックリボンリボンピュアホワイト",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900171,
+      "ChapterId": "special",
+      "Name": "エターナルジュエルシークレットフレンズ∞",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900172,
+      "ChapterId": "special",
+      "Name": "ゆきうさぎケープアイスブルー",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900173,
+      "ChapterId": "special",
+      "Name": "ゆきうさぎケープミルキーピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900174,
+      "ChapterId": "special",
+      "Name": "スペースバズリウムギャラクシーレッド",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900175,
+      "ChapterId": "special",
+      "Name": "マジカルカラットゴールド",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -38779,6 +38809,114 @@
       "CoordinateId": 9900170,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910638,
+      "CoordinateId": 9900171,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910639,
+      "CoordinateId": 9900171,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910640,
+      "CoordinateId": 9900171,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910641,
+      "CoordinateId": 9900172,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910642,
+      "CoordinateId": 9900172,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910643,
+      "CoordinateId": 9900172,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910644,
+      "CoordinateId": 9900172,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910645,
+      "CoordinateId": 9900173,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910646,
+      "CoordinateId": 9900173,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910647,
+      "CoordinateId": 9900173,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910648,
+      "CoordinateId": 9900173,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910649,
+      "CoordinateId": 9900174,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910650,
+      "CoordinateId": 9900174,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910651,
+      "CoordinateId": 9900174,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910652,
+      "CoordinateId": 9900175,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910653,
+      "CoordinateId": 9900175,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910654,
+      "CoordinateId": 9900175,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910655,
+      "CoordinateId": 9900175,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -49359,6 +49497,12 @@
       "CharacterId": 21,
       "Star": 4,
       "IsChance": true
+    },
+    {
+      "Id": 9200071,
+      "ChapterId": "gumi",
+      "SealId": "",
+      "Coordinate": "ゆきうさぎケープミルキーピンク"
     },
     {
       "Id": 678,
