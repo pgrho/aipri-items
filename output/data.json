@@ -15069,6 +15069,13 @@
       "ChapterId": "special",
       "Name": "マジカルカラットゴールド",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900176,
+      "ChapterId": "special",
+      "Name": "スペースバズリウムプラネットミント",
+      "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -38917,6 +38924,24 @@
       "CoordinateId": 9900175,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910656,
+      "CoordinateId": 9900176,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910657,
+      "CoordinateId": 9900176,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910658,
+      "CoordinateId": 9900176,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -41657,7 +41682,8 @@
       "Id": 1,
       "Name": "P.O.P.P.Y",
       "SingerIds": [
-        1
+        1,
+        24
       ]
     },
     {
@@ -41698,7 +41724,8 @@
         1,
         2,
         15,
-        16
+        16,
+        25
       ]
     },
     {
@@ -42016,7 +42043,9 @@
       "Name": "ミラクル☆ツインスマイル",
       "SingerIds": [
         1,
-        2
+        2,
+        24,
+        25
       ]
     },
     {
@@ -42067,8 +42096,11 @@
         5,
         7,
         15,
+        16,
+        18,
         19,
-        21
+        21,
+        22
       ]
     },
     {
@@ -42093,6 +42125,7 @@
       "Id": 67,
       "Name": "レジェンド・ストーリー!!!!",
       "SingerIds": [
+        3,
         5,
         6,
         7
