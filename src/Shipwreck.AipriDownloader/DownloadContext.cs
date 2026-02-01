@@ -632,10 +632,39 @@ public sealed class DownloadContext : IDisposable
         {
             using (var fs = new FileStream(hpn, FileMode.Create))
             {
+                var chapterOrders = new Dictionary<string, long>();
                 long getChapterOrder(string? chapterId)
-                    => string.IsNullOrEmpty(chapterId) ? long.MaxValue
-                    : int.TryParse(chapterId, out var c1) ? c1
-                    : long.MaxValue;
+                {
+                    var k = chapterId ?? string.Empty;
+                    if (!chapterOrders.TryGetValue(k, out var order))
+                    {
+                        order = string.IsNullOrEmpty(chapterId) ? long.MaxValue
+                                : int.TryParse(chapterId, out var c1) ? c1
+                                : chapterId.StartsWith("ring") && int.TryParse(chapterId[4..], out var c2) ? c2 + (long)int.MaxValue
+                                : long.MaxValue;
+
+                        chapterOrders[k] = order;
+                    }
+                    return order;
+                }
+
+                int getCharacterOrder(string? name)
+                    => name == null ? int.MaxValue
+                    : name.Contains("ひまり") ? 1
+                    : name.Contains("みつき") ? 2
+                    : name.Contains("つむぎ") ? 3
+                    : name.Contains("サクラ") ? 4
+                    : name.Contains("タマキ") ? 5
+                    : name.Contains("アイリ") ? 6
+                    : name.Contains("リンリン") ? 7
+                    : name.Contains("チィ") ? 8
+                    : name.Contains("じゅりあ") ? 9
+                    : name.Contains("える") ? 10
+                    : name.Contains("すばる") ? 11
+                    : name.Contains("おとめ") ? 12
+                    : name.Contains("ビビ") ? 13
+                    : name.Contains("リング") ? 14
+                    : int.MaxValue;
 
                 JsonSerializer.Serialize(fs, new AipriDataSet()
                 {
@@ -662,7 +691,10 @@ public sealed class DownloadContext : IDisposable
                                                     .OrderBy(e => getChapterOrder(e.Id))
                                                     .ThenBy(e => e.Id)
                                                     .Select(e => e.Clone())),
-                    Characters = new(_DataSet.Characters.OrderBy(e => e.Id).Select(e => e.Clone())),
+                    Characters = new(_DataSet.Characters
+                                        .OrderBy(e => getCharacterOrder(e.Name))
+                                        .ThenBy(e => e.Id)
+                                        .Select(e => e.Clone())),
                     Songs = new(_DataSet.Songs
                                             .OrderBy(e => e.Name.EndsWith("のひみつマイソング♪") ? 1 : 0)
                                             .ThenBy(e => e.Name.StartsWith("レッツ！アイプリ") ? 1 : 0)
