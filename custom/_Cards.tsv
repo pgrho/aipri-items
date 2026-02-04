@@ -763,7 +763,7 @@ SealId		ring6		APR6-032	ƒAƒCƒvƒŠƒo[ƒXƒtƒ‰ƒ[ƒ}[ƒ`ƒvƒŠƒ“ƒZƒX	‚Â‚Þ‚¬iƒvƒŠƒ“ƒZƒ
 SealId		ring6		APR6-033	ƒAƒCƒvƒŠƒo[ƒXƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒgƒN[ƒ‹	‚¶‚ã‚è‚ 		‚Æ‚«‚ß‚«ƒOƒ‰ƒrƒeƒB	3	1100	TRUE	ƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒg		
 SealId		ring6		APR6-034	ƒAƒCƒvƒŠƒo[ƒXƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒgƒ‰ƒuƒŠ[	‚¦‚é		‚í‚½‚µ‚Ì‘åØ‚É‚µ‚Ä‚½‚±‚Æ	3	1100	TRUE	ƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒg		
 SealId		ring6		APR6-035	ƒAƒCƒvƒŠƒo[ƒXƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹ƒN[ƒ‹	‚·‚Î‚é		‚Ç‚«‚Ç‚« ‚«‚ç‚ß‚« ƒoƒYƒŠƒEƒ€	3	1100	TRUE	ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹		
-SealId		ring6		APR6-036	ƒAƒCƒvƒŠƒo[ƒXƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹ƒ‰ƒuƒŠ[	‚¨‚Æ‚ß		ƒGƒ”ƒŠƒfƒC™ƒAƒCƒvƒŠTime	3	1100	TRUE	ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹		
+SealId		ring6		APR6-036	ƒAƒCƒvƒŠƒo[ƒXƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹ƒ‰ƒuƒŠ[	‚¨‚Æ‚ß		ƒAƒCƒvƒŠƒo[ƒXƒƒhƒŒ[3	3	1100	TRUE	ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹		
 SealId		ring6		APR6-037	ƒAƒCƒvƒŠƒo[ƒXƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒNƒ^ƒCƒK[	ƒrƒr		‚í‚¢‚é‚Ç™‚·‚½[iƒrƒrEƒ`ƒBj	3	1100	TRUE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
 SealId		ring6		APR6-038	ƒAƒCƒvƒŠƒo[ƒXƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO	ƒŠƒ“ƒO		‚Ç‚«‚Ç‚« ‚«‚ç‚ß‚« ƒoƒYƒŠƒEƒ€	3	1100	TRUE	ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN		
 SealId		ring6		APR6-039	ƒh[ƒiƒcƒpƒeƒBƒVƒG[ƒ‹ƒŒƒbƒh	‚Ð‚Ü‚è		‚Ð‚Ü‚è‚Ì‚Ð‚Ý‚Âƒ}ƒCƒ\ƒ“ƒOô	3	1030	TRUE	ƒ|ƒbƒsƒ“ƒn[ƒg		
@@ -790,7 +790,7 @@ SealId		ring6		APR6-059	ƒpƒ‰ƒ_ƒCƒX‚ª‚­‚¦‚ñ‚¹‚¢‚Ó‚­‚P‚Ë‚ñ	‚¶‚ã‚è‚ 		‚Ç‚«‚Ç‚« ‚«‚ç
 SealId		ring6		APR6-060	ƒpƒ‰ƒ_ƒCƒX‚ª‚­‚¦‚ñ‚¹‚¢‚Ó‚­‚P‚Ë‚ñ	‚¦‚é		‚í‚½‚µ‚Ì‘åØ‚É‚µ‚Ä‚½‚±‚Æ	2	1000	TRUE	ƒvƒŠƒYƒ€ƒXƒg[ƒ“		
 SealId		ring6		APR6-061	ƒpƒ‰ƒ_ƒCƒX‚ª‚­‚¦‚ñ‚¹‚¢‚Ó‚­‚·‚Î‚é	‚·‚Î‚é		ƒŒƒbƒcIƒAƒCƒvƒŠi‚·‚Î‚éj	2	1000	TRUE	ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹		
 SealId		ring6		APR6-062	ƒpƒ‰ƒ_ƒCƒX‚ª‚­‚¦‚ñ‚¹‚¢‚Ó‚­‚Q‚Ë‚ñ	‚¨‚Æ‚ß		ƒVƒ“ƒfƒŒƒ‰‚Ìƒ‰ƒ‰ƒ‰	2	1000	TRUE	ƒvƒŠƒYƒ€ƒXƒg[ƒ“		
-SealId		ring6		APR6-063	ƒpƒ‰ƒ_ƒCƒX‚ª‚­‚¦‚ñ‚¹‚¢‚Ó‚­‚P‚Ë‚ñ	ƒrƒr		ƒGƒ”ƒŠƒfƒC™ƒAƒCƒvƒŠTime	2	1000	TRUE	ƒvƒŠƒYƒ€ƒXƒg[ƒ“		
+SealId		ring6		APR6-063	ƒpƒ‰ƒ_ƒCƒX‚ª‚­‚¦‚ñ‚¹‚¢‚Ó‚­‚P‚Ë‚ñ	ƒrƒr		ƒAƒCƒvƒŠƒo[ƒXƒƒhƒŒ[3	2	1000	TRUE	ƒvƒŠƒYƒ€ƒXƒg[ƒ“		
 SealId			101	G1-001	ƒ|ƒbƒsƒ“ƒn[ƒgƒoƒYƒŠƒEƒ€ƒ~ƒ“ƒg	‚Ð‚Ü‚è		P.O.P.P.Y	4	730	TRUE	ƒ|ƒbƒsƒ“ƒn[ƒg		
 SealId			102	G1-002	‚Õ‚é‚é‚ñƒ[ƒŠ[ƒƒƒ“	‚Ý‚Â‚«		ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	4	710	TRUE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
 SealId			103	G1-003	‚Õ‚é‚é‚ñƒ[ƒŠ[ƒƒƒ“	‚Ð‚Ü‚è		P.O.P.P.Y	4	690	TRUE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
