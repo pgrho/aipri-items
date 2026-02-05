@@ -377,7 +377,9 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910378	9900108		アクセ		_generic-4.png
 	910379	9900109		ワンピ		_generic-1.png
 	910380	9900109		シューズ		_generic-3.png
+	910380	9900110		シューズ		_generic-3.png
 	910381	9900109		アクセ		_generic-4.png
+	910381	9900110		アクセ		_generic-4.png
 	910382	9900110		ワンピ		_generic-1.png
 	910383	9900111		トップス		_generic-1.png
 	910384	9900111		ボトムス		_generic-2.png
@@ -550,7 +552,9 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910599	9900157		アクセ		_generic-4.png
 	910600	9900158		ワンピ		_generic-1.png
 	910601	9900158		シューズ		_generic-3.png
+	910601	9900159		シューズ		_generic-3.png
 	910602	9900158		アクセ		_generic-4.png
+	910602	9900159		アクセ		_generic-4.png
 	910603	9900159		ワンピ		_generic-1.png
 	910604	9900160		ワンピ		_generic-1.png
 	910605	9900160		シューズ		_generic-3.png
@@ -577,7 +581,9 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl
 	910626	9900166		アクセ		_generic-4.png
 	910627	9900167		ワンピ		_generic-1.png
 	910628	9900167		シューズ		_generic-3.png
+	910628	9900168		シューズ		_generic-3.png
 	910629	9900167		アクセ		_generic-4.png
+	910629	9900168		アクセ		_generic-4.png
 	910630	9900168		ワンピ		_generic-1.png
 	910631	9900169		ワンピ		_generic-1.png
 	910632	9900169		シューズ		_generic-3.png

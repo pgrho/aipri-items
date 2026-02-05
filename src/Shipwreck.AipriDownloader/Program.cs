@@ -691,7 +691,9 @@ internal class Program
                 };
 
                 var t = d.DataSet.CoordinateItems.FirstOrDefault(pred);
-                if (t == null && dt.Id > 0 && d.DataSet.Coordinates.GetById(dt.CoordinateId) is Coordinate coord)
+                var coord = d.DataSet.Coordinates.GetById(dt.CoordinateId);
+
+                if (t == null && dt.Id > 0 && coord != null)
                 {
                     t = new()
                     {
@@ -709,6 +711,13 @@ internal class Program
                     }
                     t.Point = dt.Point > 0 ? dt.Point : t.Point;
                     t.BeginSetImageUrl(dt.ImageUrl, d);
+
+                    if (coord != null
+                        && t.CoordinateId != coord.Id)
+                    {
+                        coord.LinkedItemIds.Remove(t.Id);
+                        coord.LinkedItemIds.Add(t.Id);
+                    }
                 }
             }
         }

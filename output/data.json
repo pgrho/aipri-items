@@ -15247,7 +15247,10 @@
       "ChapterId": "special",
       "Name": "エターナルジュエルブルーピンク じゅりあ",
       "Group": "店頭大会",
-      "LinkedItemIds": []
+      "LinkedItemIds": [
+        910380,
+        910381
+      ]
     },
     {
       "Id": 9900111,
@@ -15600,7 +15603,10 @@
       "Id": 9900159,
       "ChapterId": "special",
       "Name": "エターナルアニマルビビアンチィフローラ チィ",
-      "LinkedItemIds": []
+      "LinkedItemIds": [
+        910601,
+        910602
+      ]
     },
     {
       "Id": 9900160,
@@ -15657,7 +15663,10 @@
       "Id": 9900168,
       "ChapterId": "special",
       "Name": "エターナルフラワールミナスフローラノーブル つむぎ",
-      "LinkedItemIds": []
+      "LinkedItemIds": [
+        910628,
+        910629
+      ]
     },
     {
       "Id": 9900169,
@@ -55456,6 +55465,76 @@
       "Image2Url": "https://aipri.jp/card/img/ring5/APR5M-006_U.webp"
     },
     {
+      "Id": 9200072,
+      "ChapterId": "ring6",
+      "BrandId": 5,
+      "SealId": "APR6-006P",
+      "Coordinate": "エターナルメロディカルテットスター",
+      "Character": "サクラ",
+      "CharacterId": 3,
+      "Variant": "パラレル",
+      "Song": "レジェンド・ストーリー!!!!",
+      "SongId": 67,
+      "Star": 4,
+      "Point": 1270
+    },
+    {
+      "Id": 9200073,
+      "ChapterId": "ring6",
+      "BrandId": 15,
+      "SealId": "APR6-010P",
+      "Coordinate": "エターナルジュエルラブジュリエル",
+      "Character": "じゅりあ",
+      "CharacterId": 15,
+      "Variant": "パラレル",
+      "Song": "ときめきグラビティ",
+      "SongId": 45,
+      "Star": 4,
+      "Point": 1270
+    },
+    {
+      "Id": 9200074,
+      "ChapterId": "ring6",
+      "BrandId": 17,
+      "SealId": "APR6-012P",
+      "Coordinate": "エターナルスぺースジャンピンロケットクール",
+      "Character": "すばる",
+      "CharacterId": 18,
+      "Variant": "パラレル",
+      "Song": "ココロ・アストロノーツ",
+      "SongId": 52,
+      "Star": 4,
+      "Point": 1270
+    },
+    {
+      "Id": 9200075,
+      "ChapterId": "ring6",
+      "BrandId": 12,
+      "SealId": "APR6-014P",
+      "Coordinate": "エターナルアニマルビビアンチィ",
+      "Character": "チィ",
+      "CharacterId": 8,
+      "Variant": "パラレル",
+      "Song": "わいるど☆すたー（ビビ・チィ）",
+      "SongId": 54,
+      "Star": 4,
+      "Point": 1270
+    },
+    {
+      "Id": 9200076,
+      "ChapterId": "ring6",
+      "BrandId": 8,
+      "SealId": "APR6-018P",
+      "Coordinate": "ゆうきのブロッサムツイン つむぎ",
+      "Character": "つむぎ（プリンセスver.）",
+      "CharacterId": 9,
+      "Variant": "パラレル",
+      "Song": "ミライのプリンセス（つむぎ・リング）",
+      "SongId": 60,
+      "Star": 4,
+      "Point": 1280
+    },
+    {
       "Id": 986,
       "ChapterId": "ring6",
       "BrandId": 1,
@@ -58425,6 +58504,30 @@
       "Star": 4,
       "Point": 860,
       "Image1Url": "Cards/M3-003.jpg"
+    },
+    {
+      "Id": 1049,
+      "ChapterId": "special",
+      "SealId": "P-273",
+      "Coordinate": "ジュエルバズリウムサファイア",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Song": "ミラクル☆ツインスマイル",
+      "SongId": 59,
+      "Image1Url": "https://aipri.jp/card/img/special/P-273_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-273_U.webp"
+    },
+    {
+      "Id": 1050,
+      "ChapterId": "special",
+      "SealId": "P-272",
+      "Coordinate": "ジュエルバズリウムルビー",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Song": "ミラクル☆ツインスマイル",
+      "SongId": 59,
+      "Image1Url": "https://aipri.jp/card/img/special/P-272_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-272_U.webp"
     },
     {
       "Id": 984,
