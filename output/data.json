@@ -15716,6 +15716,36 @@
       "Name": "スペースバズリウムプラネットミント",
       "Group": "CD・Blu-ray",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900177,
+      "ChapterId": "special",
+      "Name": "プリンセスバズリウムハートイエロー",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900178,
+      "ChapterId": "special",
+      "Name": "プリンセスアイプリバズリウムピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900179,
+      "ChapterId": "special",
+      "Name": "プリンセスアイプリバズリウムブルー",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900180,
+      "ChapterId": "special",
+      "Name": "プリンセスバズリウムムーンミルキーパープル",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900181,
+      "ChapterId": "special",
+      "Name": "カラフルシャインブラック",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -40686,6 +40716,102 @@
       "CoordinateId": 9900176,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910659,
+      "CoordinateId": 9900177,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910660,
+      "CoordinateId": 9900177,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910661,
+      "CoordinateId": 9900177,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910662,
+      "CoordinateId": 9900178,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910663,
+      "CoordinateId": 9900178,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910664,
+      "CoordinateId": 9900178,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910665,
+      "CoordinateId": 9900179,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910666,
+      "CoordinateId": 9900179,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910667,
+      "CoordinateId": 9900179,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910668,
+      "CoordinateId": 9900180,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910669,
+      "CoordinateId": 9900180,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910670,
+      "CoordinateId": 9900180,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910671,
+      "CoordinateId": 9900181,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910672,
+      "CoordinateId": 9900181,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910673,
+      "CoordinateId": 9900181,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910674,
+      "CoordinateId": 9900181,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -58504,6 +58630,42 @@
       "Star": 4,
       "Point": 860,
       "Image1Url": "Cards/M3-003.jpg"
+    },
+    {
+      "Id": 1051,
+      "ChapterId": "special",
+      "SealId": "P-270",
+      "Coordinate": "プリンセスバズリウムムーンミルキーパープル",
+      "Character": "リング",
+      "CharacterId": 22,
+      "Song": "ミライのプリンセス（つむぎ・リング）",
+      "SongId": 60,
+      "Image1Url": "https://aipri.jp/card/img/special/P-270_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-270_U.webp"
+    },
+    {
+      "Id": 1052,
+      "ChapterId": "special",
+      "SealId": "P-266",
+      "Coordinate": "プリンセスアイプリバズリウムブルー",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Song": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "SongId": 43,
+      "Image1Url": "https://aipri.jp/card/img/special/P-266_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-266_U.webp"
+    },
+    {
+      "Id": 1053,
+      "ChapterId": "special",
+      "SealId": "P-265",
+      "Coordinate": "プリンセスアイプリバズリウムピンク",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Song": "ミラクル☆ツインスマイル",
+      "SongId": 59,
+      "Image1Url": "https://aipri.jp/card/img/special/P-265_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-265_U.webp"
     },
     {
       "Id": 1049,
