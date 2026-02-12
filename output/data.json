@@ -13259,6 +13259,136 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 966,
+      "ChapterId": "ring6",
+      "BrandId": 13,
+      "Star": 4,
+      "Name": "フラワーバズリウムカンパニュラブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/APR6-122.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring6/APR6-122_thumb.webp",
+      "Group": "つむぎ＆リングイチオシひろば",
+      "Kind": "つむぎ＆リングイチオシひろば",
+      "Start": "2026-02-19",
+      "End": "2026-03-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 967,
+      "ChapterId": "ring6",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "フラワーバズリウムクローバーレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/APR6-125.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring6/APR6-125_thumb.webp",
+      "Group": "つむぎ＆リングイチオシひろば",
+      "Kind": "つむぎ＆リングイチオシひろば",
+      "Start": "2026-02-19",
+      "End": "2026-03-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 968,
+      "ChapterId": "ring6",
+      "BrandId": 13,
+      "Star": 4,
+      "Name": "カラフルシャインレモンイエロー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/APR6-128.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring6/APR6-128_thumb.webp",
+      "Group": "つむぎ＆リングイチオシひろば",
+      "Kind": "つむぎ＆リングイチオシひろば",
+      "Start": "2026-02-19",
+      "End": "2026-03-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 969,
+      "ChapterId": "ring6",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "フラワーマーチプリンセスバズリウムミルキーパープル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/APR6-132.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring6/APR6-132_thumb.webp",
+      "Group": "つむぎ＆リングイチオシひろば",
+      "Kind": "つむぎ＆リングイチオシひろば",
+      "Start": "2026-02-19",
+      "End": "2026-03-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 970,
+      "ChapterId": "ring6",
+      "BrandId": 13,
+      "Star": 4,
+      "Name": "フラワーバズリウムカンパニュラ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/APR4-007.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring6/APR4-007_thumb.webp",
+      "Group": "つむぎ＆リングイチオシひろば",
+      "Kind": "つむぎ＆リングイチオシひろば",
+      "Start": "2026-02-19",
+      "End": "2026-03-04",
+      "LinkedItemIds": [
+        32113,
+        32114,
+        32115
+      ]
+    },
+    {
+      "Id": 971,
+      "ChapterId": "ring6",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "フラワーバズリウムクローバー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/APR4-010.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring6/APR4-010_thumb.webp",
+      "Group": "つむぎ＆リングイチオシひろば",
+      "Kind": "つむぎ＆リングイチオシひろば",
+      "Start": "2026-02-19",
+      "End": "2026-03-04",
+      "LinkedItemIds": [
+        32116,
+        32117,
+        32118
+      ]
+    },
+    {
+      "Id": 972,
+      "ChapterId": "ring6",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "カラフルシャインイエロー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/APR4-052.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring6/APR4-052_thumb.webp",
+      "Group": "つむぎ＆リングイチオシひろば",
+      "Kind": "つむぎ＆リングイチオシひろば",
+      "Start": "2026-02-19",
+      "End": "2026-03-04",
+      "LinkedItemIds": [
+        32154,
+        32155,
+        32156,
+        32157
+      ]
+    },
+    {
+      "Id": 973,
+      "ChapterId": "ring6",
+      "BrandId": 13,
+      "Star": 4,
+      "Name": "カラフルシャインパープル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/APR4-056.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring6/APR4-056_thumb.webp",
+      "Group": "つむぎ＆リングイチオシひろば",
+      "Kind": "つむぎ＆リングイチオシひろば",
+      "Start": "2026-02-19",
+      "End": "2026-03-04",
+      "LinkedItemIds": [
+        32158,
+        32159,
+        32160,
+        32161
+      ]
+    },
+    {
       "Id": 936,
       "ChapterId": "ring6",
       "BrandId": 4,
@@ -34804,6 +34934,110 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32622.webp"
     },
     {
+      "Id": 32719,
+      "CoordinateId": 966,
+      "SealId": "APR6-122",
+      "CategoryId": 2,
+      "Point": 560,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32719.webp"
+    },
+    {
+      "Id": 32720,
+      "CoordinateId": 966,
+      "SealId": "APR6-123",
+      "CategoryId": 4,
+      "Point": 270,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32720.webp"
+    },
+    {
+      "Id": 32721,
+      "CoordinateId": 966,
+      "SealId": "APR6-124",
+      "CategoryId": 5,
+      "Point": 270,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32721.webp"
+    },
+    {
+      "Id": 32722,
+      "CoordinateId": 967,
+      "SealId": "APR6-125",
+      "CategoryId": 2,
+      "Point": 560,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32722.webp"
+    },
+    {
+      "Id": 32723,
+      "CoordinateId": 967,
+      "SealId": "APR6-126",
+      "CategoryId": 4,
+      "Point": 280,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32723.webp"
+    },
+    {
+      "Id": 32724,
+      "CoordinateId": 967,
+      "SealId": "APR6-127",
+      "CategoryId": 5,
+      "Point": 260,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32724.webp"
+    },
+    {
+      "Id": 32725,
+      "CoordinateId": 968,
+      "SealId": "APR6-128",
+      "CategoryId": 1,
+      "Point": 270,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32725.webp"
+    },
+    {
+      "Id": 32726,
+      "CoordinateId": 968,
+      "SealId": "APR6-129",
+      "CategoryId": 3,
+      "Point": 270,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32726.webp"
+    },
+    {
+      "Id": 32727,
+      "CoordinateId": 968,
+      "SealId": "APR6-130",
+      "CategoryId": 4,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32727.webp"
+    },
+    {
+      "Id": 32728,
+      "CoordinateId": 968,
+      "SealId": "APR6-131",
+      "CategoryId": 5,
+      "Point": 260,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32728.webp"
+    },
+    {
+      "Id": 32729,
+      "CoordinateId": 969,
+      "SealId": "APR6-132",
+      "CategoryId": 2,
+      "Point": 530,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32729.webp"
+    },
+    {
+      "Id": 32730,
+      "CoordinateId": 969,
+      "SealId": "APR6-133",
+      "CategoryId": 4,
+      "Point": 280,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32730.webp"
+    },
+    {
+      "Id": 32731,
+      "CoordinateId": 969,
+      "SealId": "APR6-134",
+      "CategoryId": 5,
+      "Point": 290,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32731.webp"
+    },
+    {
       "Id": 32689,
       "CoordinateId": 936,
       "SealId": "APR6-102",
@@ -43433,6 +43667,27 @@
       "Name": "ほっぺリボンホワイト",
       "Description": "アイムゥプレゼント",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0020.webp"
+    },
+    {
+      "Id": 371,
+      "CategoryId": 6,
+      "Name": "ビターチョコレート",
+      "Description": "リング6だんマイキャラフェス①",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0076.webp"
+    },
+    {
+      "Id": 372,
+      "CategoryId": 9,
+      "Name": "かがやきジュエリーデコ",
+      "Description": "リング6だんマイキャラフェス②",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0051.webp"
+    },
+    {
+      "Id": 373,
+      "CategoryId": 11,
+      "Name": "プリンセスティアラ",
+      "Description": "つむぎ＆リング",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0021.webp"
     }
   ],
   "HimitsuChapters": [
