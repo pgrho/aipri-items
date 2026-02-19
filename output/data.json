@@ -55857,7 +55857,9 @@
       "Song": "レジェンド・ストーリー!!!!",
       "SongId": 67,
       "Star": 4,
-      "Point": 1270
+      "Point": 1270,
+      "Image1Url": "Cards/APR6-006P_O.jpg",
+      "Image2Url": "Cards/APR6-006P_U.jpg"
     },
     {
       "Id": 9200073,
@@ -55871,21 +55873,25 @@
       "Song": "ときめきグラビティ",
       "SongId": 45,
       "Star": 4,
-      "Point": 1270
+      "Point": 1270,
+      "Image1Url": "Cards/APR6-010P_O.jpg",
+      "Image2Url": "Cards/APR6-010P_U.jpg"
     },
     {
       "Id": 9200074,
       "ChapterId": "ring6",
       "BrandId": 17,
-      "SealId": "APR6-012P",
-      "Coordinate": "エターナルスぺースジャンピンロケットクール",
-      "Character": "すばる",
-      "CharacterId": 18,
+      "SealId": "APR6-013P",
+      "Coordinate": "エターナルスぺースジャンピンロケットラブリー",
+      "Character": "おとめ",
+      "CharacterId": 19,
       "Variant": "パラレル",
-      "Song": "ココロ・アストロノーツ",
-      "SongId": 52,
+      "Song": "どきどき きらめき バズリウム",
+      "SongId": 64,
       "Star": 4,
-      "Point": 1270
+      "Point": 1270,
+      "Image1Url": "Cards/APR6-013P_O.jpg",
+      "Image2Url": "Cards/APR6-013P_U.jpg"
     },
     {
       "Id": 9200075,
@@ -55899,7 +55905,9 @@
       "Song": "わいるど☆すたー（ビビ・チィ）",
       "SongId": 54,
       "Star": 4,
-      "Point": 1270
+      "Point": 1270,
+      "Image1Url": "Cards/APR6-014P_O.jpg",
+      "Image2Url": "Cards/APR6-014P_U.jpg"
     },
     {
       "Id": 9200076,
@@ -55913,7 +55921,9 @@
       "Song": "ミライのプリンセス（つむぎ・リング）",
       "SongId": 60,
       "Star": 4,
-      "Point": 1280
+      "Point": 1280,
+      "Image1Url": "Cards/APR6-018P_O.jpg",
+      "Image2Url": "Cards/APR6-018P_U.jpg"
     },
     {
       "Id": 986,
