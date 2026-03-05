@@ -14250,6 +14250,20 @@
       ]
     },
     {
+      "Id": 1001,
+      "ChapterId": "ring6",
+      "BrandId": 8,
+      "Star": 4,
+      "Name": "フラワーガーデンパープル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Taito-cp.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/ring6/Taito-cp_thumb.webp",
+      "Group": "ショップタイトーステーションキャンペーン",
+      "Kind": "ショップタイトーステーションキャンペーン",
+      "Start": "2026-03-12",
+      "End": "2026-04-01",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 232,
       "ChapterId": "special",
       "BrandId": 5,
@@ -36584,6 +36598,34 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32767.webp"
     },
     {
+      "Id": 41000,
+      "CoordinateId": 1001,
+      "CategoryId": 1,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID41000.webp"
+    },
+    {
+      "Id": 41001,
+      "CoordinateId": 1001,
+      "CategoryId": 3,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID41001.webp"
+    },
+    {
+      "Id": 41002,
+      "CoordinateId": 1001,
+      "CategoryId": 4,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID41002.webp"
+    },
+    {
+      "Id": 41003,
+      "CoordinateId": 1001,
+      "CategoryId": 5,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID41003.webp"
+    },
+    {
       "Id": 30681,
       "CoordinateId": 232,
       "SealId": "",
@@ -45154,6 +45196,16 @@
       "SingerIds": [
         19,
         21
+      ]
+    },
+    {
+      "Id": 71,
+      "Name": "キズナ×リンク（4人ver.）",
+      "SingerIds": [
+        9,
+        22,
+        24,
+        25
       ]
     },
     {
@@ -57709,60 +57761,90 @@
     {
       "Id": 1054,
       "ChapterId": "ring6",
+      "BrandId": 13,
       "SealId": "APR6M-001",
       "Coordinate": "エターナルアイプリ",
       "Character": "ひまり（プリンセスver.）",
       "CharacterId": 24,
+      "Song": "キズナ×リンク（4人ver.）",
+      "SongId": 71,
+      "Star": 4,
+      "Point": 1328,
       "Image1Url": "https://aipri.jp/card/img/ring6/APR6M-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring6/APR6M-001_U.webp"
     },
     {
       "Id": 1055,
       "ChapterId": "ring6",
+      "BrandId": 13,
       "SealId": "APR6M-002",
       "Coordinate": "エターナルアイプリ",
       "Character": "みつき（プリンセスver.）",
       "CharacterId": 25,
+      "Song": "キズナ×リンク（4人ver.）",
+      "SongId": 71,
+      "Star": 4,
+      "Point": 1328,
       "Image1Url": "https://aipri.jp/card/img/ring6/APR6M-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring6/APR6M-002_U.webp"
     },
     {
       "Id": 1056,
       "ChapterId": "ring6",
+      "BrandId": 8,
       "SealId": "APR6M-003",
       "Coordinate": "エターナルフラワールミナスフローラ",
       "Character": "つむぎ（プリンセスver.）",
       "CharacterId": 9,
+      "Song": "キズナ×リンク（4人ver.）",
+      "SongId": 71,
+      "Star": 4,
+      "Point": 1328,
       "Image1Url": "https://aipri.jp/card/img/ring6/APR6M-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring6/APR6M-003_U.webp"
     },
     {
       "Id": 1057,
       "ChapterId": "ring6",
+      "BrandId": 13,
       "SealId": "APR6M-004",
       "Coordinate": "エターナルフラワールミナスフローラ",
       "Character": "リング",
       "CharacterId": 22,
+      "Song": "キズナ×リンク（4人ver.）",
+      "SongId": 71,
+      "Star": 4,
+      "Point": 1328,
       "Image1Url": "https://aipri.jp/card/img/ring6/APR6M-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring6/APR6M-004_U.webp"
     },
     {
       "Id": 1058,
       "ChapterId": "ring6",
+      "BrandId": 13,
       "SealId": "APR6M-005",
       "Coordinate": "エターナルアイプリ",
       "Character": "ひまり（プリンセスver.）",
       "CharacterId": 24,
+      "Song": "キズナ×リンク（4人ver.）",
+      "SongId": 71,
+      "Star": 4,
+      "Point": 1328,
       "Image1Url": "https://aipri.jp/card/img/ring6/APR6M-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring6/APR6M-005_U.webp"
     },
     {
       "Id": 1059,
       "ChapterId": "ring6",
+      "BrandId": 13,
       "SealId": "APR6M-006",
       "Coordinate": "エターナルアイプリ",
       "Character": "みつき（プリンセスver.）",
       "CharacterId": 25,
+      "Song": "キズナ×リンク（4人ver.）",
+      "SongId": 71,
+      "Star": 4,
+      "Point": 1328,
       "Image1Url": "https://aipri.jp/card/img/ring6/APR6M-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/ring6/APR6M-006_U.webp"
     },
@@ -59755,6 +59837,28 @@
       "Image1Url": "Cards/M3-003.jpg"
     },
     {
+      "Id": 1060,
+      "ChapterId": "special",
+      "SealId": "P-256",
+      "Coordinate": "ゆうじょうさくらツイン\u3000グリーン",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/special/P-256_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-256_U.webp"
+    },
+    {
+      "Id": 1061,
+      "ChapterId": "special",
+      "SealId": "P-271",
+      "Coordinate": "プリンセスバズリウムポッピンドリーミン",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Song": "キズナ×リンク",
+      "SongId": 44,
+      "Image1Url": "https://aipri.jp/card/img/special/P-271_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-271_U.webp"
+    },
+    {
       "Id": 1051,
       "ChapterId": "special",
       "SealId": "P-270",
@@ -59791,6 +59895,16 @@
       "Image2Url": "https://aipri.jp/card/img/special/P-265_U.webp"
     },
     {
+      "Id": 1062,
+      "ChapterId": "special",
+      "SealId": "P-264",
+      "Coordinate": "フラワーバズリウムコスモスピンク",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Image1Url": "https://aipri.jp/card/img/special/P-264_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-264_U.webp"
+    },
+    {
       "Id": 1049,
       "ChapterId": "special",
       "SealId": "P-273",
@@ -59825,6 +59939,18 @@
       "SongId": 59,
       "Image1Url": "https://aipri.jp/card/img/special/P-231_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-231_U.webp"
+    },
+    {
+      "Id": 1063,
+      "ChapterId": "special",
+      "SealId": "P-251",
+      "Coordinate": "プリンセスアイプリバズリウム",
+      "Character": "みつき",
+      "CharacterId": 2,
+      "Song": "キズナ×リンク（4人ver.）",
+      "SongId": 71,
+      "Image1Url": "https://aipri.jp/card/img/special/P-251_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-251_U.webp"
     },
     {
       "Id": 985,
@@ -59885,6 +60011,16 @@
       "Image2Url": "https://aipri.jp/card/img/special/P-222_U.webp"
     },
     {
+      "Id": 1064,
+      "ChapterId": "special",
+      "SealId": "P-230",
+      "Coordinate": "ロマンチックリボンリボンピュアホワイト",
+      "Character": "つむぎ",
+      "CharacterId": 4,
+      "Image1Url": "https://aipri.jp/card/img/special/P-230_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-230_U.webp"
+    },
+    {
       "Id": 962,
       "ChapterId": "special",
       "SealId": "P-229",
@@ -59908,6 +60044,16 @@
       "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/P-224_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/P-224_U.webp"
+    },
+    {
+      "Id": 1065,
+      "ChapterId": "special",
+      "SealId": "P-213",
+      "Coordinate": "スペシャルクリスマスピンク",
+      "Character": "リング",
+      "CharacterId": 22,
+      "Image1Url": "https://aipri.jp/card/img/special/P-213_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/P-213_U.webp"
     },
     {
       "Id": 958,
