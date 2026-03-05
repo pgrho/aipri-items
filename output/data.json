@@ -16324,6 +16324,30 @@
       "ChapterId": "special",
       "Name": "カラフルシャインブラック",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900182,
+      "ChapterId": "special",
+      "Name": "プリンセスバズリウムポッピンドリーミン",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900183,
+      "ChapterId": "special",
+      "Name": "ゆうじょうさくらツイン グリーン",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900184,
+      "ChapterId": "special",
+      "Name": "おとぎばなしワンダーランドパープル",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900185,
+      "ChapterId": "special",
+      "Name": "アイドルチェックラブリーパステル",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -41858,6 +41882,90 @@
       "CoordinateId": 9900181,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910675,
+      "CoordinateId": 9900182,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910676,
+      "CoordinateId": 9900182,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910677,
+      "CoordinateId": 9900182,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910678,
+      "CoordinateId": 9900183,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910679,
+      "CoordinateId": 9900183,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910680,
+      "CoordinateId": 9900183,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910681,
+      "CoordinateId": 9900184,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910682,
+      "CoordinateId": 9900184,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910683,
+      "CoordinateId": 9900184,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910684,
+      "CoordinateId": 9900184,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910685,
+      "CoordinateId": 9900185,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910686,
+      "CoordinateId": 9900185,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 910687,
+      "CoordinateId": 9900185,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910688,
+      "CoordinateId": 9900185,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -45202,6 +45310,7 @@
       "Id": 71,
       "Name": "キズナ×リンク（4人ver.）",
       "SingerIds": [
+        2,
         9,
         22,
         24,
