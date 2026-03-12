@@ -14345,12 +14345,7 @@
       "Kind": "ショップ タイトーステーションキャンペーン",
       "Start": "2026-03-12",
       "End": "2026-04-01",
-      "LinkedItemIds": [
-        41000,
-        41001,
-        41002,
-        41003
-      ]
+      "LinkedItemIds": []
     },
     {
       "Id": 1001,
@@ -36873,6 +36868,34 @@
       "CategoryId": 5,
       "Point": 260,
       "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID32767.webp"
+    },
+    {
+      "Id": 41000,
+      "CoordinateId": 1008,
+      "CategoryId": 1,
+      "Point": 240,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID41000.webp"
+    },
+    {
+      "Id": 41001,
+      "CoordinateId": 1008,
+      "CategoryId": 3,
+      "Point": 230,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID41001.webp"
+    },
+    {
+      "Id": 41002,
+      "CoordinateId": 1008,
+      "CategoryId": 4,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID41002.webp"
+    },
+    {
+      "Id": 41003,
+      "CoordinateId": 1008,
+      "CategoryId": 5,
+      "Point": 250,
+      "ImageUrl": "https://aipri.jp/verse/item/img/ring6/Item_ID41003.webp"
     },
     {
       "Id": 30681,
