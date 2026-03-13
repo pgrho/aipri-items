@@ -16452,6 +16452,18 @@
       "ChapterId": "special",
       "Name": "ゆうじょうさくらツイン パープル",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9900187,
+      "ChapterId": "special",
+      "Name": "ゆうじょうさくらツイン イエロー",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900188,
+      "ChapterId": "special",
+      "Name": "ゆうじょうさくらツイン ピュアパープル",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -42230,6 +42242,42 @@
     {
       "Id": 910691,
       "CoordinateId": 9900186,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910692,
+      "CoordinateId": 9900187,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910693,
+      "CoordinateId": 9900187,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910694,
+      "CoordinateId": 9900187,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 910695,
+      "CoordinateId": 9900188,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 910696,
+      "CoordinateId": 9900188,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 910697,
+      "CoordinateId": 9900188,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
