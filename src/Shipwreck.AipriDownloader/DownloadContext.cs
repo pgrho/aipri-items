@@ -638,11 +638,14 @@ public sealed class DownloadContext : IDisposable
                     var k = chapterId ?? string.Empty;
                     if (!chapterOrders.TryGetValue(k, out var order))
                     {
-                        order = string.IsNullOrEmpty(chapterId) ? long.MaxValue
-                                : int.TryParse(chapterId, out var c1) ? c1
-                                : chapterId.StartsWith("ring") && int.TryParse(chapterId[4..], out var c2) ? c2 + (long)int.MaxValue
-                                : long.MaxValue;
-
+                        if (Chapter.TryParseId(k, out var y, out var n))
+                        {
+                            order = y * (long)int.MaxValue + n;
+                        }
+                        else
+                        {
+                            order = long.MaxValue;
+                        }
                         chapterOrders[k] = order;
                     }
                     return order;

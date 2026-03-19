@@ -18,7 +18,7 @@ public sealed partial class Chapter : DataItem
             End = End,
         };
 
-    [GeneratedRegex("^(?:ring)?[1-9]$")]
+    [GeneratedRegex("^(?:ring|oa)?[1-9]$")]
     private static partial Regex ChapterIdPattern();
 
     public static long ParseIdOrder(string id)
@@ -39,6 +39,7 @@ public sealed partial class Chapter : DataItem
             {
                 year = id[0] switch
                 {
+                    'o' or 'O' => 3,
                     'r' or 'R' => 2,
                     >= '1' and <= '9' => 1,
                     _ => int.MaxValue
