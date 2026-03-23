@@ -16,7 +16,6 @@ internal class Program
 {
     private const string VERSE_HOME = "https://aipri.jp/verse/";
     private const string ITEM_FORMAT = VERSE_HOME + "item/{0}.html";
-    private const string PARTS = VERSE_HOME + "parts/";
 
     private const string HIMITSU_HOME = "https://aipri.jp/";
     private const string CARD_FORMAT = HIMITSU_HOME + "card/{0}.html";
@@ -33,7 +32,15 @@ internal class Program
             c.LinkedItemIds.Clear();
         }
 
-        await ParsePartsAsync(d).ConfigureAwait(false);
+        var old = d.DataSet.Parts.ToList();
+
+        await ParsePartsAsync(d, VERSE_HOME + "parts/index2.html", old).ConfigureAwait(false);
+        await ParsePartsAsync(d, VERSE_HOME + "parts/", old).ConfigureAwait(false);
+
+        foreach (var oc in old)
+        {
+            d.DataSet.Parts.Remove(oc);
+        }
 
         var order = 1;
         await ParseItemAsync(d, string.Format(ITEM_FORMAT, "1"), true, order).ConfigureAwait(false);
@@ -242,7 +249,7 @@ internal class Program
 
         if (parseChapters)
         {
-            foreach (HtmlNodeNavigator cNode in nav.Select("//ul[@class='toggleList toggleList--pageSelect']/li/a/@href"))
+            foreach (HtmlNodeNavigator cNode in nav.Select("//ul[@class='toggleList toggleList--pageSelect']//a/@href"))
             {
                 var v = Path.GetFileNameWithoutExtension(cNode.GetAttribute("href", null));
                 var t = cNode.Value?.Trim2();
@@ -488,17 +495,15 @@ internal class Program
         }
     }
 
-    static async Task ParsePartsAsync(DownloadContext d)
+    static async Task ParsePartsAsync(DownloadContext d, string path, List<Part> old)
     {
-        var url = new Uri(PARTS);
-        using var html = await d.GetAsync(PARTS).ConfigureAwait(false);
+        var url = new Uri(path);
+        using var html = await d.GetAsync(path).ConfigureAwait(false);
 
         var doc = new HtmlDocument();
         doc.Load(html);
 
         var nav = (HtmlAgilityPack.HtmlNodeNavigator)doc.CreateNavigator();
-
-        var old = d.DataSet.Parts.ToList();
 
         var list = new HashSet<Part>();
 
@@ -543,11 +548,6 @@ internal class Program
                 list.Add(p);
                 old.Remove(p);
             }
-        }
-
-        foreach (var oc in old)
-        {
-            d.DataSet.Parts.Remove(oc);
         }
     }
 
