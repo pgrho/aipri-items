@@ -275,7 +275,11 @@ public sealed class DownloadContext : IDisposable
                 _DataSet.VerseChapters.Add(c);
             }
 
-            c.Name = name;
+            if (c.Name == null
+                || name != c.Id + ".html")
+            {
+                c.Name = name;
+            }
 
             return c;
         }
