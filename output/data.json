@@ -16963,6 +16963,122 @@
       "ChapterId": "special",
       "Name": "ゆうじょうさくらツイン ピュアパープル",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901001,
+      "ChapterId": "special",
+      "Name": "すきのクリスタルいのりピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901002,
+      "ChapterId": "special",
+      "Name": "プリズムハートパープル",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901003,
+      "ChapterId": "special",
+      "Name": "リボンアイドルパステル",
+      "Group": "おねがいアイプリ ファイルバッグセット",
+      "Kind": "おねがいアイプリ ファイルバッグセット",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901004,
+      "ChapterId": "special",
+      "Name": "アイプリゆめゆめブルー",
+      "Group": "おねがいアイプリ デビューカードセット",
+      "Kind": "おねがいアイプリ デビューカードセット",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901005,
+      "ChapterId": "special",
+      "Name": "アイプリすきすきレッド",
+      "Group": "おねがいアイプリ デビューカードセット",
+      "Kind": "おねがいアイプリ デビューカードセット",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901006,
+      "ChapterId": "special",
+      "Name": "プリズムハートブルー",
+      "Group": "おねがいアイプリ ミラーパクト",
+      "Kind": "おねがいアイプリ ミラーパクト プリズムブルー",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901007,
+      "ChapterId": "special",
+      "Name": "プリズムハートピンク",
+      "Group": "おねがいアイプリ ミラーパクト",
+      "Kind": "おねがいアイプリ ミラーパクト プリズムピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901008,
+      "ChapterId": "special",
+      "Name": "ハピネスキューピット",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "Kind": "おねがいアイプリ ミルフィーカードvol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901009,
+      "ChapterId": "special",
+      "Name": "ハピネスバタフライ",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "Kind": "おねがいアイプリ ミルフィーカードvol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901010,
+      "ChapterId": "special",
+      "Name": "アニマルロックミント",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "Kind": "おねがいアイプリ ミルフィーカードvol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901011,
+      "ChapterId": "special",
+      "Name": "フラワーエプロングリーン",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "Kind": "おねがいアイプリ ミルフィーカードvol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901012,
+      "ChapterId": "special",
+      "Name": "にゃんにゃんロリータブルー",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "Kind": "おねがいアイプリ ミルフィーカードvol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901013,
+      "ChapterId": "special",
+      "Name": "うさぎぬいぐるみオレンジ",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "Kind": "おねがいアイプリ ミルフィーカードvol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901014,
+      "ChapterId": "special",
+      "Name": "レディフライトピンク",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "Kind": "おねがいアイプリ ミルフィーカードvol.1",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901015,
+      "ChapterId": "special",
+      "Name": "アイプリバースフューチャースクールクールパープル",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "Kind": "おねがいアイプリ ミルフィーカードvol.1",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -43697,6 +43813,366 @@
     {
       "Id": 910697,
       "CoordinateId": 9900188,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911001,
+      "CoordinateId": 9901001,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911002,
+      "CoordinateId": 9901001,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911003,
+      "CoordinateId": 9901001,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911004,
+      "CoordinateId": 9901001,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911005,
+      "CoordinateId": 9901002,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911006,
+      "CoordinateId": 9901002,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911007,
+      "CoordinateId": 9901002,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911008,
+      "CoordinateId": 9901002,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911009,
+      "CoordinateId": 9901003,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911010,
+      "CoordinateId": 9901003,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911011,
+      "CoordinateId": 9901003,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911012,
+      "CoordinateId": 9901003,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911013,
+      "CoordinateId": 9901004,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911014,
+      "CoordinateId": 9901004,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911015,
+      "CoordinateId": 9901004,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911016,
+      "CoordinateId": 9901004,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911017,
+      "CoordinateId": 9901005,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911018,
+      "CoordinateId": 9901005,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911019,
+      "CoordinateId": 9901005,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911020,
+      "CoordinateId": 9901005,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911021,
+      "CoordinateId": 9901006,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911022,
+      "CoordinateId": 9901006,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911023,
+      "CoordinateId": 9901006,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911024,
+      "CoordinateId": 9901006,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911025,
+      "CoordinateId": 9901007,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911026,
+      "CoordinateId": 9901007,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911027,
+      "CoordinateId": 9901007,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911028,
+      "CoordinateId": 9901007,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911029,
+      "CoordinateId": 9901008,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911030,
+      "CoordinateId": 9901008,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911031,
+      "CoordinateId": 9901008,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911032,
+      "CoordinateId": 9901008,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911033,
+      "CoordinateId": 9901009,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911034,
+      "CoordinateId": 9901009,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911035,
+      "CoordinateId": 9901009,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911036,
+      "CoordinateId": 9901009,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911037,
+      "CoordinateId": 9901010,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911038,
+      "CoordinateId": 9901010,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911039,
+      "CoordinateId": 9901010,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911040,
+      "CoordinateId": 9901010,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911041,
+      "CoordinateId": 9901011,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911042,
+      "CoordinateId": 9901011,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911043,
+      "CoordinateId": 9901011,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911044,
+      "CoordinateId": 9901011,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911045,
+      "CoordinateId": 9901012,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911046,
+      "CoordinateId": 9901012,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911047,
+      "CoordinateId": 9901012,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911048,
+      "CoordinateId": 9901012,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911049,
+      "CoordinateId": 9901013,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911050,
+      "CoordinateId": 9901013,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911051,
+      "CoordinateId": 9901013,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911052,
+      "CoordinateId": 9901013,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911053,
+      "CoordinateId": 9901014,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911054,
+      "CoordinateId": 9901014,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911055,
+      "CoordinateId": 9901014,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911056,
+      "CoordinateId": 9901014,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911057,
+      "CoordinateId": 9901015,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911058,
+      "CoordinateId": 9901015,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png"
+    },
+    {
+      "Id": 911059,
+      "CoordinateId": 9901015,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911060,
+      "CoordinateId": 9901015,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
