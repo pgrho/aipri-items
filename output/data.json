@@ -46652,6 +46652,10 @@
     {
       "Id": "special",
       "Name": "スペシャルアイプリカード"
+    },
+    {
+      "Id": "special_oa",
+      "Name": "スペシャルカード"
     }
   ],
   "Characters": [
@@ -64522,6 +64526,86 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1121,
+      "ChapterId": "special_oa",
+      "SealId": "OP-014",
+      "Coordinate": "すきのクリスタルいのりピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-014_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-014_U.webp"
+    },
+    {
+      "Id": 1122,
+      "ChapterId": "special_oa",
+      "SealId": "OTOY-015",
+      "Coordinate": "プリズムハートパープル",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-015_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-015_U.webp"
+    },
+    {
+      "Id": 1123,
+      "ChapterId": "special_oa",
+      "SealId": "OTOY-005",
+      "Coordinate": "リボンアイドルパステル",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-005_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-005_U.webp"
+    },
+    {
+      "Id": 1124,
+      "ChapterId": "special_oa",
+      "SealId": "OTOY-004",
+      "Coordinate": "リボンアイドルパステル",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-004_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-004_U.webp"
+    },
+    {
+      "Id": 1125,
+      "ChapterId": "special_oa",
+      "SealId": "OTOY-003",
+      "Coordinate": "アイプリゆめゆめブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-003_U.webp"
+    },
+    {
+      "Id": 1126,
+      "ChapterId": "special_oa",
+      "SealId": "OTOY-002",
+      "Coordinate": "アイプリすきすきレッド",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-002_U.webp"
+    },
+    {
+      "Id": 1127,
+      "ChapterId": "special_oa",
+      "SealId": "OTOY-001",
+      "Coordinate": "プリズムハートブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-001_U.webp"
+    },
+    {
+      "Id": 1128,
+      "ChapterId": "special_oa",
+      "SealId": "OTOY-000",
+      "Coordinate": "プリズムハートピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-000_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-000_U.webp"
     }
   ]
 }

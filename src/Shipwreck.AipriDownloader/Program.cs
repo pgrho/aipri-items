@@ -62,14 +62,15 @@ internal class Program
         order = 1;
         await ParseCardAsync(d, string.Format(CARD_FORMAT, "1"), true, order).ConfigureAwait(false);
 
+        order += 1000;
+        await ParseCardAsync(d, string.Format(CARD_FORMAT, "oa1"), true, order).ConfigureAwait(false);
+
         foreach (var ch in d.DataSet.HimitsuChapters.Where(e => e.Id != "1"))
         {
             order += 1000;
             await ParseCardAsync(d, string.Format(CARD_FORMAT, ch.Id), false, order).ConfigureAwait(false);
         }
 
-        order += 1000;
-        await ParseCardAsync(d, string.Format(CARD_FORMAT, "oa1"), true, order).ConfigureAwait(false);
 
         await Task.WhenAll(
             d.DataSet.Cards.SelectMany(e => new[]
@@ -580,6 +581,13 @@ internal class Program
         if (parseChapters)
         {
             foreach (HtmlNodeNavigator cNode in nav.Select("//ul[@class='toggleList toggleList--pageSelect']/li/a"))
+            {
+                var v = Path.GetFileNameWithoutExtension(cNode.GetAttribute("href", null));
+                var t = cNode.Value?.Trim2();
+                d.AddHimitsuChapter(v, t ?? v);
+                Console.WriteLine("   - HimitsuChapter[{0}]: {1}", v, t ?? v);
+            }
+            foreach (HtmlNodeNavigator cNode in nav.Select("//div[@class='acc-content']//a"))
             {
                 var v = Path.GetFileNameWithoutExtension(cNode.GetAttribute("href", null));
                 var t = cNode.Value?.Trim2();
