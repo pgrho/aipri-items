@@ -14861,6 +14861,26 @@
       ]
     },
     {
+      "Id": 9901016,
+      "ChapterId": "oa1",
+      "Name": "すきすきハートバズリウムピュアピンク",
+      "Group": "★★★★",
+      "Kind": "★★★★",
+      "Start": "2026-04-02",
+      "End": "2026-05-13",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901017,
+      "ChapterId": "oa1",
+      "Name": "ゆめゆめスターバズリウムピュアブルー",
+      "Group": "フルコーデガチャ おねがい1だん前半",
+      "Kind": "フルコーデガチャ おねがい1だん前半",
+      "Start": "2026-04-02",
+      "End": "2026-05-13",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 232,
       "ChapterId": "special",
       "BrandId": 5,
@@ -37658,7 +37678,8 @@
       "SealId": "OA1-017",
       "CategoryId": 3,
       "Point": 330,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32797.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32797.webp",
+      "IsSet": true
     },
     {
       "Id": 32798,
@@ -37690,7 +37711,8 @@
       "SealId": "OA1-021",
       "CategoryId": 3,
       "Point": 370,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32801.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32801.webp",
+      "IsSet": true
     },
     {
       "Id": 32802,
@@ -37722,7 +37744,8 @@
       "SealId": "OA1-025",
       "CategoryId": 3,
       "Point": 340,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32805.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32805.webp",
+      "IsSet": true
     },
     {
       "Id": 32806,
@@ -37754,7 +37777,8 @@
       "SealId": "OA1-029",
       "CategoryId": 3,
       "Point": 350,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32809.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32809.webp",
+      "IsSet": true
     },
     {
       "Id": 32810,
@@ -37786,7 +37810,8 @@
       "SealId": "OA1-033",
       "CategoryId": 3,
       "Point": 350,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32813.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32813.webp",
+      "IsSet": true
     },
     {
       "Id": 32814,
@@ -37914,7 +37939,8 @@
       "SealId": "OA1-046",
       "CategoryId": 3,
       "Point": 340,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32826.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32826.webp",
+      "IsSet": true
     },
     {
       "Id": 32827,
@@ -37946,7 +37972,8 @@
       "SealId": "OA1-050",
       "CategoryId": 3,
       "Point": 330,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32830.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32830.webp",
+      "IsSet": true
     },
     {
       "Id": 32831,
@@ -37978,7 +38005,8 @@
       "SealId": "OA1-054",
       "CategoryId": 3,
       "Point": 310,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32834.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32834.webp",
+      "IsSet": true
     },
     {
       "Id": 32835,
@@ -38098,7 +38126,8 @@
       "SealId": "OA1-069",
       "CategoryId": 3,
       "Point": 280,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32849.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32849.webp",
+      "IsSet": true
     },
     {
       "Id": 32850,
@@ -38130,7 +38159,8 @@
       "SealId": "OA1-073",
       "CategoryId": 3,
       "Point": 270,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32853.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32853.webp",
+      "IsSet": true
     },
     {
       "Id": 32854,
@@ -38186,7 +38216,8 @@
       "SealId": "OA1-118",
       "CategoryId": 3,
       "Point": 350,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32946.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32946.webp",
+      "IsSet": true
     },
     {
       "Id": 32947,
@@ -38218,7 +38249,8 @@
       "SealId": "OAF1-001-2",
       "CategoryId": 3,
       "Point": 360,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32857.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32857.webp",
+      "IsSet": true
     },
     {
       "Id": 32858,
@@ -38226,7 +38258,8 @@
       "SealId": "OAF1-001-3",
       "CategoryId": 4,
       "Point": 350,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32858.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32858.webp",
+      "IsSet": true
     },
     {
       "Id": 32859,
@@ -38234,7 +38267,8 @@
       "SealId": "OAF1-001-4",
       "CategoryId": 5,
       "Point": 360,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32859.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32859.webp",
+      "IsSet": true
     },
     {
       "Id": 32860,
@@ -38250,7 +38284,8 @@
       "SealId": "OAF1-002-2",
       "CategoryId": 4,
       "Point": 350,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32861.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32861.webp",
+      "IsSet": true
     },
     {
       "Id": 32862,
@@ -38258,7 +38293,8 @@
       "SealId": "OAF1-002-3",
       "CategoryId": 5,
       "Point": 350,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32862.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32862.webp",
+      "IsSet": true
     },
     {
       "Id": 32863,
@@ -38274,7 +38310,8 @@
       "SealId": "OAF1-003-2",
       "CategoryId": 4,
       "Point": 360,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32864.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32864.webp",
+      "IsSet": true
     },
     {
       "Id": 32865,
@@ -38282,7 +38319,8 @@
       "SealId": "OAF1-003-3",
       "CategoryId": 5,
       "Point": 360,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32865.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32865.webp",
+      "IsSet": true
     },
     {
       "Id": 32866,
@@ -38298,7 +38336,8 @@
       "SealId": "OAF1-004-2",
       "CategoryId": 4,
       "Point": 340,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32867.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32867.webp",
+      "IsSet": true
     },
     {
       "Id": 32868,
@@ -38306,7 +38345,8 @@
       "SealId": "OAF1-004-3",
       "CategoryId": 5,
       "Point": 340,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32868.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32868.webp",
+      "IsSet": true
     },
     {
       "Id": 32869,
@@ -38322,7 +38362,8 @@
       "SealId": "OAF1-005-2",
       "CategoryId": 3,
       "Point": 360,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32870.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32870.webp",
+      "IsSet": true
     },
     {
       "Id": 32871,
@@ -38330,7 +38371,8 @@
       "SealId": "OAF1-005-3",
       "CategoryId": 4,
       "Point": 350,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32871.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32871.webp",
+      "IsSet": true
     },
     {
       "Id": 32872,
@@ -38338,7 +38380,8 @@
       "SealId": "OAF1-005-4",
       "CategoryId": 5,
       "Point": 360,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32872.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32872.webp",
+      "IsSet": true
     },
     {
       "Id": 32873,
@@ -38354,7 +38397,8 @@
       "SealId": "OAF1-006-2",
       "CategoryId": 3,
       "Point": 330,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32874.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32874.webp",
+      "IsSet": true
     },
     {
       "Id": 32875,
@@ -38362,7 +38406,8 @@
       "SealId": "OAF1-006-3",
       "CategoryId": 4,
       "Point": 370,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32875.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32875.webp",
+      "IsSet": true
     },
     {
       "Id": 32876,
@@ -38370,7 +38415,8 @@
       "SealId": "OAF1-006-4",
       "CategoryId": 5,
       "Point": 350,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32876.webp"
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32876.webp",
+      "IsSet": true
     },
     {
       "Id": 32910,
@@ -38443,6 +38489,44 @@
       "CategoryId": 5,
       "Point": 340,
       "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32918.webp"
+    },
+    {
+      "Id": 911061,
+      "CoordinateId": 9901016,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911062,
+      "CoordinateId": 9901016,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911063,
+      "CoordinateId": 9901016,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911064,
+      "CoordinateId": 9901017,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911065,
+      "CoordinateId": 9901017,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911066,
+      "CoordinateId": 9901017,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png",
+      "IsSet": true
     },
     {
       "Id": 30681,

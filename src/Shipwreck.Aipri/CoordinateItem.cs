@@ -21,6 +21,8 @@ public sealed class CoordinateItem : DataItem
     public short Point { get; set; }
     public string? ImageUrl { get; set; }
 
+    public bool IsSet { get; set; }
+
     [JsonIgnore]
     internal string? LoadingImageUrl { get; set; }
 
@@ -38,6 +40,7 @@ public sealed class CoordinateItem : DataItem
             SealId = SealId,
             CategoryId = CategoryId,
             Point = Point,
-            ImageUrl = ImageUrl
+            ImageUrl = ImageUrl,
+            IsSet = IsSet,
         };
 }

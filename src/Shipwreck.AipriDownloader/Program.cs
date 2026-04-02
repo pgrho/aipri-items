@@ -383,6 +383,13 @@ internal class Program
                     {
                         var item = await d.AddItemAsync(coord, iid, category, point, new Uri(url, iUrl).ToString(), eid).ConfigureAwait(false);
 
+                        item.IsSet = category switch
+                        {
+                            "トップス" => false,
+                            "ワンピ" => false,
+                            "ボトムス" => coord.ChapterId?.StartsWith("oa") == true,
+                            _ => coord.ChapterId?.StartsWith("oa") == true && kind?.Contains("フルコーデ") == true,
+                        };
                         item.IsCurrentRun = true;
 
                         Console.WriteLine("     - Item[{0}]: {1}", item.Id, category);
@@ -730,6 +737,7 @@ internal class Program
                         t.CategoryId = dt.CategoryId;
                     }
                     t.Point = dt.Point > 0 ? dt.Point : t.Point;
+                    t.IsSet = dt.IsSet;
                     t.BeginSetImageUrl(dt.ImageUrl, d);
 
                     if (coord != null

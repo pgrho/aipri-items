@@ -831,6 +831,7 @@ public sealed class DownloadContext : IDisposable
                 var point = Array.IndexOf(ha, nameof(CoordinateItem.Point));
                 var brand = Array.IndexOf(ha, "Brand");
                 var imageUrl = Array.IndexOf(ha, nameof(CoordinateItem.ImageUrl));
+                var isSet = Array.IndexOf(ha, nameof(CoordinateItem.IsSet));
 
                 if (key >= 0)
                 {
@@ -851,6 +852,7 @@ public sealed class DownloadContext : IDisposable
                                 CategoryId = AddCategory(read(category))?.Id ?? 0,
                                 Point = short.TryParse(read(point), out var s) ? s : default,
                                 ImageUrl = read(imageUrl) ?? string.Empty,
+                                IsSet = "true".Equals(read(isSet), StringComparison.InvariantCultureIgnoreCase),
                             }
                         });
                     }
