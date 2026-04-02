@@ -17099,6 +17099,12 @@
       "Group": "おねがいアイプリ ミルフィーカード",
       "Kind": "おねがいアイプリ ミルフィーカードvol.1",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901018,
+      "ChapterId": "special",
+      "Name": "トキメキトゥインクルグリーン",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -43910,7 +43916,8 @@
       "Id": 911002,
       "CoordinateId": 9901001,
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
     },
     {
       "Id": 911003,
@@ -43934,7 +43941,8 @@
       "Id": 911006,
       "CoordinateId": 9901002,
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
     },
     {
       "Id": 911007,
@@ -44030,7 +44038,8 @@
       "Id": 911022,
       "CoordinateId": 9901006,
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
     },
     {
       "Id": 911023,
@@ -44054,7 +44063,8 @@
       "Id": 911026,
       "CoordinateId": 9901007,
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
     },
     {
       "Id": 911027,
@@ -44257,6 +44267,24 @@
     {
       "Id": 911060,
       "CoordinateId": 9901015,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911067,
+      "CoordinateId": 9901018,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911068,
+      "CoordinateId": 9901018,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911069,
+      "CoordinateId": 9901018,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }

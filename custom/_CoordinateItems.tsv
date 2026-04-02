@@ -653,11 +653,11 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl	IsSet
 	910696	9900188		シューズ		_generic-3.png	
 	910697	9900188		アクセ		_generic-4.png	
 	911001	9901001		トップス		_generic-1.png	
-	911002	9901001		ボトムス		_generic-2.png	
+	911002	9901001		ボトムス		_generic-2.png	TRUE
 	911003	9901001		シューズ		_generic-3.png	
 	911004	9901001		アクセ		_generic-4.png	
 	911005	9901002		トップス		_generic-1.png	
-	911006	9901002		ボトムス		_generic-2.png	
+	911006	9901002		ボトムス		_generic-2.png	TRUE
 	911007	9901002		シューズ		_generic-3.png	
 	911008	9901002		アクセ		_generic-4.png	
 	911009	9901003		トップス		_generic-1.png	
@@ -673,11 +673,11 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl	IsSet
 	911019	9901005		シューズ		_generic-3.png	
 	911020	9901005		アクセ		_generic-4.png	
 	911021	9901006		トップス		_generic-1.png	
-	911022	9901006		ボトムス		_generic-2.png	
+	911022	9901006		ボトムス		_generic-2.png	TRUE
 	911023	9901006		シューズ		_generic-3.png	
 	911024	9901006		アクセ		_generic-4.png	
 	911025	9901007		トップス		_generic-1.png	
-	911026	9901007		ボトムス		_generic-2.png	
+	911026	9901007		ボトムス		_generic-2.png	TRUE
 	911027	9901007		シューズ		_generic-3.png	
 	911028	9901007		アクセ		_generic-4.png	
 	911029	9901008		トップス		_generic-1.png	
@@ -718,3 +718,6 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl	IsSet
 	911064	9901017		ワンピ		_generic-1.png	
 	911065	9901017		シューズ		_generic-3.png	TRUE
 	911066	9901017		アクセ		_generic-4.png	TRUE
+	911067	9901018		ワンピ		_generic-1.png	
+	911068	9901018		シューズ		_generic-3.png	
+	911069	9901018		アクセ		_generic-4.png	
