@@ -601,7 +601,9 @@ public sealed class DownloadContext : IDisposable
         Card? c;
         lock (_DataSet)
         {
-            c = _DataSet.Cards.FirstOrDefault(e => e.ChapterId == chapter?.Id && e.Image1Url == image1Url);
+            var altImage = image1Url?.StartsWith("https://aipri.jp/himitsu/card/img/") == true ? image1Url.Replace("/himitsu/", "/") : null;
+
+            c = _DataSet.Cards.FirstOrDefault(e => e.ChapterId == chapter?.Id && (e.Image1Url == image1Url || altImage?.Equals(e.Image1Url) == true));
             if (c == null)
             {
                 c = new()

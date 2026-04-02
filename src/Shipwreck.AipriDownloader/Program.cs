@@ -19,6 +19,7 @@ internal class Program
 
     private const string HIMITSU_HOME = "https://aipri.jp/";
     private const string CARD_FORMAT = HIMITSU_HOME + "card/{0}.html";
+    private const string CARD_FORMAT2 = HIMITSU_HOME + "himitsu/card/{0}.html";
 
     static async Task Main(string[] args)
     {
@@ -59,18 +60,32 @@ internal class Program
                     }).Concat(d.DataSet.CoordinateItems.Select(e => e.ImageTask)).OfType<Task>())
                 .ConfigureAwait(false);
 
+        var oldCards = d.DataSet.Cards.ToList();
         order = 1;
-        await ParseCardAsync(d, string.Format(CARD_FORMAT, "1"), true, order).ConfigureAwait(false);
+        await ParseCardAsync(d, string.Format(CARD_FORMAT2, "1"), true, order, oldCards).ConfigureAwait(false);
 
         order += 1000;
-        await ParseCardAsync(d, string.Format(CARD_FORMAT, "oa1"), true, order).ConfigureAwait(false);
+        await ParseCardAsync(d, string.Format(CARD_FORMAT, "oa1"), true, order, oldCards).ConfigureAwait(false);
 
-        foreach (var ch in d.DataSet.HimitsuChapters.Where(e => e.Id != "1"))
+        var himitsu = new Regex("^(ring)?[1-9]$");
+        var onegai = new Regex("^oa[1-9]$");
+
+        foreach (var ch in d.DataSet.HimitsuChapters.Where(e => e.Id != "1" && !onegai.IsMatch(e.Id)))
         {
             order += 1000;
-            await ParseCardAsync(d, string.Format(CARD_FORMAT, ch.Id), false, order).ConfigureAwait(false);
+            await ParseCardAsync(d, string.Format(CARD_FORMAT2, ch.Id), false, order, oldCards).ConfigureAwait(false);
         }
 
+        foreach (var ch in d.DataSet.HimitsuChapters.Where(e => e.Id != "oa1" && !himitsu.IsMatch(e.Id)))
+        {
+            order += 1000;
+            await ParseCardAsync(d, string.Format(CARD_FORMAT, ch.Id), false, order, oldCards).ConfigureAwait(false);
+        }
+
+        foreach (var oc in oldCards)
+        {
+            d.DataSet.Cards.Remove(oc);
+        }
 
         await Task.WhenAll(
             d.DataSet.Cards.SelectMany(e => new[]
@@ -552,10 +567,16 @@ internal class Program
         }
     }
 
-    static async Task ParseCardAsync(DownloadContext d, string itemUrl, bool parseChapters, int startOrder)
+    static async Task ParseCardAsync(DownloadContext d, string itemUrl, bool parseChapters, int startOrder, List<Card> oldCards)
     {
         var url = new Uri(itemUrl);
-        using var html = await d.GetAsync(itemUrl).ConfigureAwait(false);
+
+        using var html = await d.GetAsync(itemUrl).ContinueWith(t => t.IsCompletedSuccessfully ? t.Result : null).ConfigureAwait(false);
+
+        if (html == null)
+        {
+            return;
+        }
 
         var doc = new HtmlDocument();
         doc.Load(html);
@@ -598,10 +619,6 @@ internal class Program
 
         nav = (HtmlAgilityPack.HtmlNodeNavigator)doc.CreateNavigator();
 
-        var oldCards = d.DataSet.Cards.Where(e => e.ChapterId == chapter?.Id).ToList();
-
-        var newCards = new HashSet<Card>();
-
         foreach (HtmlNodeNavigator cNode in nav.Select(".//div[@class='grid__item' or starts-with(@class, 'grid__item ')]//a[@data-modal]"))
         {
             var term = cNode.GetAttribute("data-term", null)
@@ -633,19 +650,11 @@ internal class Program
                 string.IsNullOrEmpty(img1) ? null : new Uri(url, img1).ToString(),
                 string.IsNullOrEmpty(img2) ? null : new Uri(url, img2).ToString()).ConfigureAwait(false);
 
-            if (newCards.Add(card))
+            Console.WriteLine("   - Card[{0}]: {1}@{2}", card.Id, card.Coordinate, card.Character);
+            if (oldCards.Remove(card))
             {
-                Console.WriteLine("   - Card[{0}]: {1}@{2}", card.Id, card.Coordinate, card.Character);
             }
             card.Order = startOrder++;
-        }
-
-        foreach (var oc in oldCards)
-        {
-            if (!newCards.Contains(oc))
-            {
-                d.DataSet.Cards.Remove(oc);
-            }
         }
     }
 
