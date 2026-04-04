@@ -43983,14 +43983,8 @@
     {
       "Id": 911013,
       "CoordinateId": 9901004,
-      "CategoryId": 1,
+      "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
-    },
-    {
-      "Id": 911014,
-      "CoordinateId": 9901004,
-      "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 911015,
@@ -44007,14 +44001,8 @@
     {
       "Id": 911017,
       "CoordinateId": 9901005,
-      "CategoryId": 1,
+      "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
-    },
-    {
-      "Id": 911018,
-      "CoordinateId": 9901005,
-      "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
     },
     {
       "Id": 911019,
