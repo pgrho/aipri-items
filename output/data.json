@@ -17104,6 +17104,20 @@
       "Id": 9901018,
       "ChapterId": "special",
       "Name": "トキメキトゥインクルグリーン",
+      "Group": "ファンブック",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901019,
+      "ChapterId": "special",
+      "Name": "ラブリーマーガレットイエロー",
+      "Group": "ちゃお",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901020,
+      "ChapterId": "special",
+      "Name": "ほしのゆうびんやさんイエロー",
       "LinkedItemIds": []
     }
   ],
@@ -44273,6 +44287,56 @@
     {
       "Id": 911069,
       "CoordinateId": 9901018,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911070,
+      "CoordinateId": 9901019,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911071,
+      "CoordinateId": 9901019,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911072,
+      "CoordinateId": 9901019,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911073,
+      "CoordinateId": 9901019,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911074,
+      "CoordinateId": 9901019,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911075,
+      "CoordinateId": 9901020,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911076,
+      "CoordinateId": 9901020,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911077,
+      "CoordinateId": 9901020,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
