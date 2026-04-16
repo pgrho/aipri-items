@@ -14617,7 +14617,7 @@
     {
       "Id": 1028,
       "ChapterId": "oa1",
-      "Star": 3,
+      "Star": 2,
       "Name": "メロンソーダ",
       "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OA1-063.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OA1-063_thumb.webp",
@@ -14667,14 +14667,40 @@
       "LinkedItemIds": []
     },
     {
-      "Id": 1032,
+      "Id": 1046,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "ふわふわキャットブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OA1-100.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OA1-100_thumb.webp",
+      "Group": "プレミアムライブ いのりセレクション",
+      "Kind": "プレミアムライブ いのりセレクション",
+      "Start": "2026-04-23",
+      "End": "2026-05-13",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1047,
+      "ChapterId": "oa1",
+      "Star": 3,
+      "Name": "コスメティックレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OA1-104.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OA1-104_thumb.webp",
+      "Group": "プレミアムライブ いのりセレクション",
+      "Kind": "プレミアムライブ いのりセレクション",
+      "Start": "2026-04-23",
+      "End": "2026-05-13",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1048,
       "ChapterId": "oa1",
       "Star": 4,
       "Name": "きんのすきすきハートバズリウム",
       "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OA1-154.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OA1-154_thumb.webp",
-      "Group": "ぴかぴかスタートキャンペーン",
-      "Kind": "ぴかぴかスタートキャンペーン",
+      "Group": "スタートダッシュキャンペーン",
+      "Kind": "スタートダッシュキャンペーン",
       "Start": "2026-04-02",
       "End": "2026-04-22",
       "LinkedItemIds": []
@@ -14859,6 +14885,19 @@
         40146,
         40147
       ]
+    },
+    {
+      "Id": 1032,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "きんのすきすきハートバズリウム",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OA1-154.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OA1-154_thumb.webp",
+      "Group": "ぴかぴかスタートキャンペーン",
+      "Kind": "ぴかぴかスタートキャンペーン",
+      "Start": "2026-04-02",
+      "End": "2026-04-22",
+      "LinkedItemIds": []
     },
     {
       "Id": 9901016,
@@ -38199,8 +38238,74 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32855.webp"
     },
     {
+      "Id": 32928,
+      "CoordinateId": 1046,
+      "SealId": "OA1-100",
+      "CategoryId": 1,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32928.webp"
+    },
+    {
+      "Id": 32929,
+      "CoordinateId": 1046,
+      "SealId": "OA1-101",
+      "CategoryId": 3,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32929.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32930,
+      "CoordinateId": 1046,
+      "SealId": "OA1-102",
+      "CategoryId": 4,
+      "Point": 330,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32930.webp"
+    },
+    {
+      "Id": 32931,
+      "CoordinateId": 1046,
+      "SealId": "OA1-103",
+      "CategoryId": 5,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32931.webp"
+    },
+    {
+      "Id": 32932,
+      "CoordinateId": 1047,
+      "SealId": "OA1-104",
+      "CategoryId": 1,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32932.webp"
+    },
+    {
+      "Id": 32933,
+      "CoordinateId": 1047,
+      "SealId": "OA1-105",
+      "CategoryId": 3,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32933.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32934,
+      "CoordinateId": 1047,
+      "SealId": "OA1-106",
+      "CategoryId": 4,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32934.webp"
+    },
+    {
+      "Id": 32935,
+      "CoordinateId": 1047,
+      "SealId": "OA1-107",
+      "CategoryId": 5,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32935.webp"
+    },
+    {
       "Id": 32982,
-      "CoordinateId": 1032,
+      "CoordinateId": 1048,
       "SealId": "OA1-154",
       "CategoryId": 2,
       "Point": 730,
@@ -38208,7 +38313,7 @@
     },
     {
       "Id": 32983,
-      "CoordinateId": 1032,
+      "CoordinateId": 1048,
       "SealId": "OA1-155",
       "CategoryId": 4,
       "Point": 310,
@@ -38216,7 +38321,7 @@
     },
     {
       "Id": 32984,
-      "CoordinateId": 1032,
+      "CoordinateId": 1048,
       "SealId": "OA1-156",
       "CategoryId": 5,
       "Point": 400,
@@ -47209,6 +47314,27 @@
       "Name": "ゆうじょう",
       "Description": "はじめからえらべる",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Jewel_0003.webp"
+    },
+    {
+      "Id": 406,
+      "CategoryId": 5,
+      "Name": "ワンカールボブ",
+      "Description": "おねがい1だんマイキャラライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0026.webp"
+    },
+    {
+      "Id": 407,
+      "CategoryId": 6,
+      "Name": "しんかいブルー",
+      "Description": "おねがい1だんマイキャラライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0079.webp"
+    },
+    {
+      "Id": 408,
+      "CategoryId": 10,
+      "Name": "まんかいブロッサムメイク",
+      "Description": "プレミアムライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0044.webp"
     }
   ],
   "HimitsuChapters": [
