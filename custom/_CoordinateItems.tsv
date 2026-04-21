@@ -402,10 +402,10 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl	IsSet
 	910402	9900116		ワンピ		_generic-1.png	
 	910403	9900116		シューズ		_generic-3.png	
 	910404	9900116		アクセ		_generic-4.png	
-	910405	9900117		トップス		_generic-1.png	
-	910406	9900117		ボトムス		_generic-2.png	
-	910407	9900117		シューズ		_generic-3.png	
-	910408	9900117		アクセ		_generic-4.png	
+	910405	9900117		トップス		Items/koakuma_rock_green_purple-1.png	
+	910406	9900117		ボトムス		Items/koakuma_rock_green_purple-2.png	
+	910407	9900117		シューズ		Items/koakuma_rock_green_purple-3.png	
+	910408	9900117		アクセ		Items/koakuma_rock_green_purple-4.png	
 	910409	9900118		トップス		_generic-1.png	
 	910410	9900118		ボトムス		_generic-2.png	
 	910411	9900118		シューズ		_generic-3.png	
@@ -524,9 +524,9 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl	IsSet
 	910569	9900149		ボトムス		_generic-2.png	
 	910570	9900149		シューズ		_generic-3.png	
 	910571	9900149		アクセ		_generic-4.png	
-	910572	9900150		ワンピ		_generic-1.png	
-	910573	9900150		シューズ		_generic-3.png	
-	910574	9900150		アクセ		_generic-4.png	
+	910572	9900150		ワンピ		Items/40928.png	
+	910573	9900150		シューズ		Items/40929.png	
+	910574	9900150		アクセ		Items/40930.png	
 	910575	9900151		ワンピ		_generic-1.png	
 	910576	9900151		シューズ		_generic-3.png	
 	910577	9900151		アクセ		_generic-4.png	
@@ -610,9 +610,9 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl	IsSet
 	910653	9900175		ボトムス		_generic-2.png	
 	910654	9900175		シューズ		_generic-3.png	
 	910655	9900175		アクセ		_generic-4.png	
-	910656	9900176		ワンピ		_generic-1.png	
-	910657	9900176		シューズ		_generic-3.png	
-	910658	9900176		アクセ		_generic-4.png	
+	910656	9900176		ワンピ		Items/40987.png	
+	910657	9900176		シューズ		Items/40988.png	
+	910658	9900176		アクセ		Items/40989.png	
 	910659	9900177		ワンピ		_generic-1.png	
 	910660	9900177		シューズ		_generic-3.png	
 	910661	9900177		アクセ		_generic-4.png	
@@ -652,6 +652,12 @@ Key	Id	CoordinateId	SealId	Category	Point	ImageUrl	IsSet
 	910695	9900188		ワンピ		_generic-1.png	
 	910696	9900188		シューズ		_generic-3.png	
 	910697	9900188		アクセ		_generic-4.png	
+	41074	9900189		ワンピ		Items/41074.png	
+	41075	9900189		シューズ		Items/41075.png	
+	41076	9900189		アクセ		Items/41076.png	
+	41077	9900190		ワンピ		Items/41077.png	
+	41078	9900190		シューズ		Items/41078.png	
+	41079	9900190		アクセ		_generic-4.png	
 	911001	9901001		トップス		_generic-1.png	
 	911002	9901001		ボトムス		_generic-2.png	TRUE
 	911003	9901001		シューズ		_generic-3.png	

@@ -17024,6 +17024,20 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 9900189,
+      "ChapterId": "special",
+      "Name": "ジュエルバズリウムルビーピュアホワイト",
+      "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9900190,
+      "ChapterId": "special",
+      "Name": "ジュエルバズリウムサファイヤピュアホワイト",
+      "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 9901001,
       "ChapterId": "special",
       "Name": "すきのクリスタルいのりピンク",
@@ -42581,25 +42595,25 @@
       "Id": 910405,
       "CoordinateId": 9900117,
       "CategoryId": 1,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "Items/koakuma_rock_green_purple-1.png"
     },
     {
       "Id": 910406,
       "CoordinateId": 9900117,
       "CategoryId": 3,
-      "ImageUrl": "_generic-2.png"
+      "ImageUrl": "Items/koakuma_rock_green_purple-2.png"
     },
     {
       "Id": 910407,
       "CoordinateId": 9900117,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "Items/koakuma_rock_green_purple-3.png"
     },
     {
       "Id": 910408,
       "CoordinateId": 9900117,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "Items/koakuma_rock_green_purple-4.png"
     },
     {
       "Id": 910409,
@@ -43313,19 +43327,19 @@
       "Id": 910572,
       "CoordinateId": 9900150,
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "Items/40928.png"
     },
     {
       "Id": 910573,
       "CoordinateId": 9900150,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "Items/40929.png"
     },
     {
       "Id": 910574,
       "CoordinateId": 9900150,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "Items/40930.png"
     },
     {
       "Id": 910575,
@@ -43817,7 +43831,7 @@
       "Id": 910658,
       "CoordinateId": 9900176,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "_generic-3.png"
     },
     {
       "Id": 910659,
@@ -44050,6 +44064,42 @@
     {
       "Id": 910697,
       "CoordinateId": 9900188,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 41074,
+      "CoordinateId": 9900189,
+      "CategoryId": 2,
+      "ImageUrl": "Items/41074.png"
+    },
+    {
+      "Id": 41075,
+      "CoordinateId": 9900189,
+      "CategoryId": 4,
+      "ImageUrl": "Items/41075.png"
+    },
+    {
+      "Id": 41076,
+      "CoordinateId": 9900189,
+      "CategoryId": 5,
+      "ImageUrl": "Items/41076.png"
+    },
+    {
+      "Id": 41077,
+      "CoordinateId": 9900190,
+      "CategoryId": 2,
+      "ImageUrl": "Items/41077.png"
+    },
+    {
+      "Id": 41078,
+      "CoordinateId": 9900190,
+      "CategoryId": 4,
+      "ImageUrl": "Items/41078.png"
+    },
+    {
+      "Id": 41079,
+      "CoordinateId": 9900190,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     },
