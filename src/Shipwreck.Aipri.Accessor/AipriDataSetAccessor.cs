@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
@@ -11,16 +12,20 @@ namespace Shipwreck.Aipri.Accessor;
 public sealed class AipriDataSetAccessor : IDisposable
 {
     private const string URL = "https://github.com/pgrho/aipri-items.git";
+    private const string JSON_URL = "https://raw.githubusercontent.com/pgrho/aipri-items/refs/heads/master/output/data.json";
+    private readonly HttpClient _Http;
     private readonly DirectoryInfo _Directory;
 
     public AipriDataSetAccessor(string directoryPath)
     {
+        _Http = new();
         _Directory = new DirectoryInfo(Path.Combine(directoryPath, "aipri-items"));
     }
 
     public TimeSpan RefreshInterval { get; set; } = TimeSpan.FromMinutes(1);
 
     private Task<AipriGitDataSet>? _Task;
+    private string? _Etag;
     private DateTime _LastRefreshedAt;
 
     public Task<AipriGitDataSet> GetAsync(CancellationToken cancellationToken = default)
@@ -31,10 +36,48 @@ public sealed class AipriDataSetAccessor : IDisposable
             || t.Status == TaskStatus.Canceled
             || _LastRefreshedAt + RefreshInterval < DateTime.UtcNow)
         {
-            _Task = t = GetAsyncCore(cancellationToken);
+            if (t?.IsCompletedSuccessfully == true && _Etag is string etag)
+            {
+                _Task = t = ValidateEtagAsync(t, etag, cancellationToken);
+            }
+            else
+            {
+                _Task = t = GetAsyncCore(cancellationToken);
+            }
         }
 
         return t;
+    }
+
+    private async Task<string?> GetEtagAsync(CancellationToken cancellationToken)
+    {
+        try
+        {
+            var res = await _Http.SendAsync(new HttpRequestMessage(HttpMethod.Head, JSON_URL)).ConfigureAwait(false);
+            if (res.IsSuccessStatusCode)
+            {
+                return res.Headers.ETag?.Tag;
+            }
+        }
+        catch { }
+        return null;
+    }
+
+    private async Task<AipriGitDataSet> ValidateEtagAsync(Task<AipriGitDataSet> task, string etag, CancellationToken cancellationToken)
+    {
+        if (etag == await GetEtagAsync(cancellationToken).ConfigureAwait(false))
+        {
+            _Task = task;
+            _LastRefreshedAt = DateTime.UtcNow;
+            return task.Result;
+        }
+        else
+        {
+            _Task = task = GetAsyncCore(cancellationToken);
+            var r = await _Task.ConfigureAwait(false);
+            _Task = Task.FromResult(r);
+            return r;
+        }
     }
 
     private async Task<AipriGitDataSet> GetAsyncCore(CancellationToken cancellationToken)
@@ -47,6 +90,8 @@ public sealed class AipriDataSetAccessor : IDisposable
                 ?? throw new InvalidOperationException();
 
         ds.FileName = fn;
+
+        _Etag = await GetEtagAsync(cancellationToken).ConfigureAwait(false);
         _LastRefreshedAt = DateTime.UtcNow;
 
         return ds;
@@ -98,7 +143,6 @@ public sealed class AipriDataSetAccessor : IDisposable
         {
             pd.Create();
         }
-
 
         var co = new CloneOptions() { };
         co.FetchOptions.CertificateCheck = (_, _, _) => true;
