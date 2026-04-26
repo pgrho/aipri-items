@@ -17183,7 +17183,7 @@
     {
       "Id": 9901022,
       "ChapterId": "special",
-      "Name": "リボンバレリーナ(シークレット)",
+      "Name": "リボンバレリーナしんかいネイビー",
       "Group": "アイプリカード コレクショングミvol.1",
       "LinkedItemIds": []
     },
@@ -43819,19 +43819,19 @@
       "Id": 910656,
       "CoordinateId": 9900176,
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "Items/40987.png"
     },
     {
       "Id": 910657,
       "CoordinateId": 9900176,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "Items/40988.png"
     },
     {
       "Id": 910658,
       "CoordinateId": 9900176,
       "CategoryId": 5,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "Items/40989.png"
     },
     {
       "Id": 910659,
@@ -60845,6 +60845,66 @@
       "Image2Url": "https://aipri.jp/himitsu/card/img/ring6/APR6M-006_U.webp"
     },
     {
+      "Id": 9201001,
+      "ChapterId": "oa1",
+      "SealId": "OA01-001P",
+      "Coordinate": "すきすきハートバズリウム",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201002,
+      "ChapterId": "oa1",
+      "SealId": "OA01-003P",
+      "Coordinate": "ゆめゆめスターバズリウム",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201003,
+      "ChapterId": "oa1",
+      "SealId": "OA01-005P",
+      "Coordinate": "ゆうじょうスイーツバズリウム",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201004,
+      "ChapterId": "oa1",
+      "SealId": "OA01-013P",
+      "Coordinate": "ふわふわキャット",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201005,
+      "ChapterId": "oa1",
+      "SealId": "OA01-015P",
+      "Coordinate": "ほしのゆうびんやさん",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201006,
+      "ChapterId": "oa1",
+      "SealId": "OA01-020P",
+      "Coordinate": "ゆうじょうさくらツイン すきすきピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
       "Id": 1067,
       "ChapterId": "oa1",
       "SealId": "OA1-001",
@@ -62698,6 +62758,12 @@
       "CharacterId": 4
     },
     {
+      "Id": 9201007,
+      "ChapterId": "gumi",
+      "SealId": "",
+      "Coordinate": "リボンバレリーナしんかいネイビー"
+    },
+    {
       "Id": 678,
       "ChapterId": "memorial",
       "SealId": "P-147",
@@ -63581,66 +63647,6 @@
       "Star": 4,
       "Point": 860,
       "Image1Url": "Cards/M3-003.jpg"
-    },
-    {
-      "Id": 9201001,
-      "ChapterId": "oa1",
-      "SealId": "OA01-001P",
-      "Coordinate": "すきすきハートバズリウム",
-      "Character": "いのり",
-      "CharacterId": 26,
-      "Variant": "パラレル",
-      "Star": 4
-    },
-    {
-      "Id": 9201002,
-      "ChapterId": "oa1",
-      "SealId": "OA01-003P",
-      "Coordinate": "ゆめゆめスターバズリウム",
-      "Character": "あおい",
-      "CharacterId": 27,
-      "Variant": "パラレル",
-      "Star": 4
-    },
-    {
-      "Id": 9201003,
-      "ChapterId": "oa1",
-      "SealId": "OA01-005P",
-      "Coordinate": "ゆうじょうスイーツバズリウム",
-      "Character": "ぐみ",
-      "CharacterId": 28,
-      "Variant": "パラレル",
-      "Star": 4
-    },
-    {
-      "Id": 9201004,
-      "ChapterId": "oa1",
-      "SealId": "OA01-013P",
-      "Coordinate": "ふわふわキャット",
-      "Character": "いのり",
-      "CharacterId": 26,
-      "Variant": "パラレル",
-      "Star": 4
-    },
-    {
-      "Id": 9201005,
-      "ChapterId": "oa1",
-      "SealId": "OA01-015P",
-      "Coordinate": "ほしのゆうびんやさん",
-      "Character": "あおい",
-      "CharacterId": 27,
-      "Variant": "パラレル",
-      "Star": 4
-    },
-    {
-      "Id": 9201006,
-      "ChapterId": "oa1",
-      "SealId": "OA01-020P",
-      "Coordinate": "ゆうじょうさくらツイン すきすきピンク",
-      "Character": "いのり",
-      "CharacterId": 26,
-      "Variant": "パラレル",
-      "Star": 4
     },
     {
       "Id": 1066,
