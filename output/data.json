@@ -44101,7 +44101,7 @@
       "Id": 41079,
       "CoordinateId": 9900190,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "Items/41079.png"
     },
     {
       "Id": 911001,
@@ -44594,15 +44594,8 @@
     {
       "Id": 911089,
       "CoordinateId": 9901024,
-      "CategoryId": 1,
+      "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
-    },
-    {
-      "Id": 911090,
-      "CoordinateId": 9901024,
-      "CategoryId": 3,
-      "ImageUrl": "_generic-2.png",
-      "IsSet": true
     },
     {
       "Id": 911091,
