@@ -17200,6 +17200,13 @@
       "Name": "ブルーソーダ",
       "Group": "アイプリカード コレクショングミvol.1",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901025,
+      "ChapterId": "special",
+      "Name": "やきたてクッキーいちごミルク",
+      "Group": "ちゃお",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -44606,6 +44613,24 @@
     {
       "Id": 911092,
       "CoordinateId": 9901024,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911093,
+      "CoordinateId": 9901025,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911094,
+      "CoordinateId": 9901025,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911095,
+      "CoordinateId": 9901025,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
