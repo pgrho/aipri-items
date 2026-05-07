@@ -76,7 +76,7 @@
       "Id": "oa1",
       "Name": "おねがいアイプリ 1だん",
       "Start": "2026-04-02",
-      "End": "2026-05-13"
+      "End": "2026-06-10"
     },
     {
       "Id": "special",
@@ -14719,6 +14719,84 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 1049,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "マジカルミラクルパープル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-007-1.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-007-1_thumb.webp",
+      "Group": "フルコーデガチャ おねがい1だん後半",
+      "Kind": "フルコーデガチャ おねがい1だん後半",
+      "Start": "2026-05-14",
+      "End": "2026-06-10",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1050,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "ほしのゆうびんやさんゆめかわ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-008-1.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-008-1_thumb.webp",
+      "Group": "フルコーデガチャ おねがい1だん後半",
+      "Kind": "フルコーデガチャ おねがい1だん後半",
+      "Start": "2026-05-14",
+      "End": "2026-06-10",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1051,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "スペースダイナーオレンジ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-009-1.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-009-1_thumb.webp",
+      "Group": "フルコーデガチャ おねがい1だん後半",
+      "Kind": "フルコーデガチャ おねがい1だん後半",
+      "Start": "2026-05-14",
+      "End": "2026-06-10",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1052,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "ポップンマシュマログリーン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-010-1.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-010-1_thumb.webp",
+      "Group": "フルコーデガチャ おねがい1だん後半",
+      "Kind": "フルコーデガチャ おねがい1だん後半",
+      "Start": "2026-05-14",
+      "End": "2026-06-10",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1053,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "チェックメイトブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-011-1.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-011-1_thumb.webp",
+      "Group": "フルコーデガチャ おねがい1だん後半",
+      "Kind": "フルコーデガチャ おねがい1だん後半",
+      "Start": "2026-05-14",
+      "End": "2026-06-10",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1054,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "ハッピーデニムイエロー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-012-1.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OAF1-012-1_thumb.webp",
+      "Group": "フルコーデガチャ おねがい1だん後半",
+      "Kind": "フルコーデガチャ おねがい1だん後半",
+      "Start": "2026-05-14",
+      "End": "2026-06-10",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 1034,
       "ChapterId": "oa1",
       "Star": 4,
@@ -17206,6 +17284,12 @@
       "ChapterId": "special",
       "Name": "やきたてクッキーいちごミルク",
       "Group": "ちゃお",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901026,
+      "ChapterId": "special",
+      "Name": "おねがい1だん後半フルコーデシークレット",
       "LinkedItemIds": []
     }
   ],
@@ -38410,6 +38494,216 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32948.webp"
     },
     {
+      "Id": 32877,
+      "CoordinateId": 1049,
+      "SealId": "OAF1-007-1",
+      "CategoryId": 1,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32877.webp"
+    },
+    {
+      "Id": 32878,
+      "CoordinateId": 1049,
+      "SealId": "OAF1-007-2",
+      "CategoryId": 3,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32878.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32879,
+      "CoordinateId": 1049,
+      "SealId": "OAF1-007-3",
+      "CategoryId": 4,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32879.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32880,
+      "CoordinateId": 1049,
+      "SealId": "OAF1-007-4",
+      "CategoryId": 5,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32880.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32881,
+      "CoordinateId": 1050,
+      "SealId": "OAF1-008-1",
+      "CategoryId": 1,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32881.webp"
+    },
+    {
+      "Id": 32882,
+      "CoordinateId": 1050,
+      "SealId": "OAF1-008-2",
+      "CategoryId": 3,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32882.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32883,
+      "CoordinateId": 1050,
+      "SealId": "OAF1-008-3",
+      "CategoryId": 4,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32883.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32884,
+      "CoordinateId": 1050,
+      "SealId": "OAF1-008-4",
+      "CategoryId": 5,
+      "Point": 330,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32884.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32885,
+      "CoordinateId": 1051,
+      "SealId": "OAF1-009-1",
+      "CategoryId": 1,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32885.webp"
+    },
+    {
+      "Id": 32886,
+      "CoordinateId": 1051,
+      "SealId": "OAF1-009-2",
+      "CategoryId": 3,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32886.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32887,
+      "CoordinateId": 1051,
+      "SealId": "OAF1-009-3",
+      "CategoryId": 4,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32887.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32888,
+      "CoordinateId": 1051,
+      "SealId": "OAF1-009-4",
+      "CategoryId": 5,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32888.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32889,
+      "CoordinateId": 1052,
+      "SealId": "OAF1-010-1",
+      "CategoryId": 1,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32889.webp"
+    },
+    {
+      "Id": 32890,
+      "CoordinateId": 1052,
+      "SealId": "OAF1-010-2",
+      "CategoryId": 3,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32890.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32891,
+      "CoordinateId": 1052,
+      "SealId": "OAF1-010-3",
+      "CategoryId": 4,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32891.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32892,
+      "CoordinateId": 1052,
+      "SealId": "OAF1-010-4",
+      "CategoryId": 5,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32892.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32893,
+      "CoordinateId": 1053,
+      "SealId": "OAF1-011-1",
+      "CategoryId": 1,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32893.webp"
+    },
+    {
+      "Id": 32894,
+      "CoordinateId": 1053,
+      "SealId": "OAF1-011-2",
+      "CategoryId": 3,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32894.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32895,
+      "CoordinateId": 1053,
+      "SealId": "OAF1-011-3",
+      "CategoryId": 4,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32895.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32896,
+      "CoordinateId": 1053,
+      "SealId": "OAF1-011-4",
+      "CategoryId": 5,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32896.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32897,
+      "CoordinateId": 1054,
+      "SealId": "OAF1-012-1",
+      "CategoryId": 1,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32897.webp"
+    },
+    {
+      "Id": 32898,
+      "CoordinateId": 1054,
+      "SealId": "OAF1-012-2",
+      "CategoryId": 3,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32898.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32899,
+      "CoordinateId": 1054,
+      "SealId": "OAF1-012-3",
+      "CategoryId": 4,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32899.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 32900,
+      "CoordinateId": 1054,
+      "SealId": "OAF1-012-4",
+      "CategoryId": 5,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32900.webp",
+      "IsSet": true
+    },
+    {
       "Id": 32856,
       "CoordinateId": 1034,
       "SealId": "OAF1-001-1",
@@ -44634,6 +44928,12 @@
       "CoordinateId": 9901025,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911096,
+      "CoordinateId": 9901026,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
     }
   ],
   "PartCategories": [
@@ -47525,6 +47825,20 @@
       "Name": "まんかいブロッサムメイク",
       "Description": "プレミアムライブ",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0044.webp"
+    },
+    {
+      "Id": 409,
+      "CategoryId": 9,
+      "Name": "レインドロップデコ",
+      "Description": "スプリングジュエル",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0054.webp"
+    },
+    {
+      "Id": 410,
+      "CategoryId": 10,
+      "Name": "そよかぜリーフ",
+      "Description": "スプリングジュエル",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0043.webp"
     }
   ],
   "HimitsuChapters": [
@@ -47607,7 +47921,7 @@
     },
     {
       "Id": "special",
-      "Name": "スペシャルカード"
+      "Name": "スペシャルアイプリカード"
     }
   ],
   "Characters": [
@@ -61464,6 +61778,36 @@
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-054_U.webp"
     },
     {
+      "Id": 1154,
+      "ChapterId": "oa1",
+      "SealId": "OA1M-001",
+      "Coordinate": "バルーンフェスピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa1/OA1M-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa1/OA1M-001_U.webp"
+    },
+    {
+      "Id": 1155,
+      "ChapterId": "oa1",
+      "SealId": "OA1M-002",
+      "Coordinate": "バルーンフェスブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa1/OA1M-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa1/OA1M-002_U.webp"
+    },
+    {
+      "Id": 1156,
+      "ChapterId": "oa1",
+      "SealId": "OA1M-003",
+      "Coordinate": "バルーンフェスグリーン",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa1/OA1M-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa1/OA1M-003_U.webp"
+    },
+    {
       "Id": 394,
       "ChapterId": "gumi",
       "BrandId": 7,
@@ -65754,6 +66098,16 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1157,
+      "ChapterId": "special",
+      "SealId": "OP-021",
+      "Coordinate": "やきたてクッキーいちごミルク",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-021_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-021_U.webp"
     },
     {
       "Id": 1150,
