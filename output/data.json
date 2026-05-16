@@ -14984,7 +14984,7 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-04-02",
-      "End": "2026-05-13",
+      "End": "2026-06-10",
       "LinkedItemIds": []
     },
     {
@@ -14996,6 +14996,20 @@
       "Start": "2026-04-02",
       "End": "2026-05-13",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901026,
+      "ChapterId": "oa1",
+      "Name": "ゆめゆめスターバズリウムピュアブルー",
+      "Group": "フルコーデガチャ おねがい1だん後半",
+      "Kind": "フルコーデガチャ おねがい1だん後半",
+      "Start": "2026-05-14",
+      "End": "2026-06-10",
+      "LinkedItemIds": [
+        911064,
+        911065,
+        911066
+      ]
     },
     {
       "Id": 232,
@@ -17284,12 +17298,6 @@
       "ChapterId": "special",
       "Name": "やきたてクッキーいちごミルク",
       "Group": "ちゃお",
-      "LinkedItemIds": []
-    },
-    {
-      "Id": 9901026,
-      "ChapterId": "special",
-      "Name": "おねがい1だん後半フルコーデシークレット",
       "LinkedItemIds": []
     }
   ],
@@ -44928,12 +44936,6 @@
       "CoordinateId": 9901025,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
-    },
-    {
-      "Id": 911096,
-      "CoordinateId": 9901026,
-      "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
     }
   ],
   "PartCategories": [

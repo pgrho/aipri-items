@@ -698,7 +698,39 @@ internal class Program
                     t.Kind = dt.Kind.TrimOrNull() ?? t.Kind;
                     t.Start = dt.Start ?? t.Start ?? ch?.Start;
                     t.End = dt.End ?? t.End ?? ch?.End;
+
+                    foreach (var item in dt.ItemList ?? [])
+                    {
+                        if (item.Id <= 0)
+                        {
+                            continue;
+                        }
+
+                        var t2 = d.DataSet.CoordinateItems.FirstOrDefault(e => e.Id == item.Id);
+
+                        if (t2 != null)
+                        {
+                            t.LinkedItemIds.Remove(t2.Id);
+                            t.LinkedItemIds.Add(t2.Id);
+                        }
+                        else
+                        {
+                            t2 = new()
+                            {
+                                Id = item.Id,
+                                CoordinateId = t.Id,
+                                CategoryId = item.CategoryId,
+                                SealId = item.SealId.TrimOrNull(),
+                                Point = item.Point,
+                                IsSet = item.IsSet,
+                            };
+                            t2.BeginSetImageUrl(item.ImageUrl, d);
+
+                            d.DataSet.CoordinateItems.Add(t2);
+                        }
+                    }
                 }
+
             }
         }
     }

@@ -776,6 +776,31 @@ public sealed class DownloadContext : IDisposable
                 var start = Array.IndexOf(ha, "Start");
                 var end = Array.IndexOf(ha, "End");
 
+                var cat1 = Array.IndexOf(ha, "Item1Category");
+                var key1 = Array.IndexOf(ha, "Item1Key");
+                var img1 = Array.IndexOf(ha, "Item1Image");
+                var sid1 = Array.IndexOf(ha, "Item1SealId");
+                var pnt1 = Array.IndexOf(ha, "Item1Point");
+                var set1 = Array.IndexOf(ha, "Item1IsSet");
+                var cat2 = Array.IndexOf(ha, "Item2Category");
+                var key2 = Array.IndexOf(ha, "Item2Key");
+                var img2 = Array.IndexOf(ha, "Item2Image");
+                var sid2 = Array.IndexOf(ha, "Item2SealId");
+                var pnt2 = Array.IndexOf(ha, "Item2Point");
+                var set2 = Array.IndexOf(ha, "Item2IsSet");
+                var cat3 = Array.IndexOf(ha, "Item3Category");
+                var key3 = Array.IndexOf(ha, "Item3Key");
+                var img3 = Array.IndexOf(ha, "Item3Image");
+                var sid3 = Array.IndexOf(ha, "Item3SealId");
+                var pnt3 = Array.IndexOf(ha, "Item3Point");
+                var set3 = Array.IndexOf(ha, "Item3IsSet");
+                var cat4 = Array.IndexOf(ha, "Item4Category");
+                var key4 = Array.IndexOf(ha, "Item4Key");
+                var img4 = Array.IndexOf(ha, "Item4Image");
+                var sid4 = Array.IndexOf(ha, "Item4SealId");
+                var pnt4 = Array.IndexOf(ha, "Item4Point");
+                var set4 = Array.IndexOf(ha, "Item4IsSet");
+
                 if (key >= 0)
                 {
                     var brands = DataSet.Brands.ToDictionary(e => e.Name, e => e.Id);
@@ -783,23 +808,65 @@ public sealed class DownloadContext : IDisposable
                     {
                         var row = l.Split('\t');
 
-                        string? read(int id)
-                            => id >= 0 ? row.ElementAtOrDefault(id).TrimOrNull() : null;
+                        string? read(int id) => id >= 0 ? row.ElementAtOrDefault(id).TrimOrNull() : null;
+
+                        var data = new Coordinate()
+                        {
+                            Id = int.TryParse(read(id), out var i) ? i : 0,
+                            ChapterId = read(chapterId) ?? string.Empty,
+                            Name = read(name) ?? string.Empty,
+                            Group = read(group) ?? string.Empty,
+                            Kind = read(kind) ?? string.Empty,
+                            Star = byte.TryParse(read(star), out var st) ? st : null,
+                            BrandId = brands.TryGetValue(read(brand) ?? string.Empty, out var bid) ? bid : null,
+                            Start = DateOnly.TryParse(read(start), out var d1) ? d1 : null,
+                            End = DateOnly.TryParse(read(end), out var d2) ? d2 : null,
+                            ItemList = new List<CoordinateItem>(),
+                        };
+
+                        void addItem(int categoryColumn, int keyColumn, int imageColumn, int sealIdColumn, int pointColumn, int isSetColumn)
+                        {
+                            var cat = read(categoryColumn);
+                            if (!string.IsNullOrEmpty(cat)
+                                && AddCategory(cat)?.Id is int cid)
+                            {
+                                var key = read(keyColumn);
+                                var imgUrl = read(imageColumn) ?? cid switch
+                                {
+                                    1 or 2 => "_generic-1.png",
+                                    3 => "_generic-2.png",
+                                    4 => "_generic-3.png",
+                                    5 => "_generic-4.png",
+                                    _ => null
+                                };
+                                var point = short.TryParse(read(pointColumn), out var pt) ? pt : default;
+                                var sealId = read(sealIdColumn);
+                                var isSet = bool.TryParse(read(isSetColumn)?.ToLowerInvariant(), out var bv) && bv;
+
+                                if (int.TryParse(key, out var newId))
+                                {
+                                    data.ItemList.Add(new()
+                                    {
+                                        Id = newId,
+                                        SealId = sealId,
+                                        CategoryId = cid,
+                                        Point = point,
+                                        ImageUrl = imgUrl ?? string.Empty,
+                                        IsSet = isSet,
+                                    });
+                                }
+                            }
+                        }
+
+                        addItem(cat1, key1, img1, sid1, pnt1, set1);
+                        addItem(cat2, key2, img2, sid2, pnt2, set2);
+                        addItem(cat3, key3, img3, sid3, pnt3, set3);
+                        addItem(cat4, key4, img4, sid4, pnt4, set4);
+
                         list.Add(new()
                         {
                             Key = row.ElementAt(key),
-                            Data = new()
-                            {
-                                Id = int.TryParse(read(id), out var i) ? i : 0,
-                                ChapterId = read(chapterId) ?? string.Empty,
-                                Name = read(name) ?? string.Empty,
-                                Group = read(group) ?? string.Empty,
-                                Kind = read(kind) ?? string.Empty,
-                                Star = byte.TryParse(read(star), out var st) ? st : null,
-                                BrandId = brands.TryGetValue(read(brand) ?? string.Empty, out var bid) ? bid : null,
-                                Start = DateOnly.TryParse(read(start), out var d1) ? d1 : null,
-                                End = DateOnly.TryParse(read(end), out var d2) ? d2 : null,
-                            }
+                            Data = data
                         });
                     }
                 }

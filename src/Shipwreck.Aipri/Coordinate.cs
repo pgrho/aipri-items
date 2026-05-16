@@ -92,5 +92,8 @@ public sealed class Coordinate : DataItem
             Start = Start,
             End = End,
             _LinkedItemIds = _LinkedItemIds?.Count > 0 ? _LinkedItemIds?.ToList() : null,
-        }; 
+        };
+
+    [JsonIgnore]
+    internal IList<CoordinateItem>? ItemList { get; set; }
 }
