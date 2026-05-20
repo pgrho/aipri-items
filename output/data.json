@@ -14667,6 +14667,45 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 1055,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "バルーンフェスピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OA1-108.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OA1-108_thumb.webp",
+      "Group": "プレミアムライブ バルーンフェスコーデ",
+      "Kind": "プレミアムライブ バルーンフェスコーデ",
+      "Start": "2026-05-28",
+      "End": "2026-06-10",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1056,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "バルーンフェスブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OA1-111.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OA1-111_thumb.webp",
+      "Group": "プレミアムライブ バルーンフェスコーデ",
+      "Kind": "プレミアムライブ バルーンフェスコーデ",
+      "Start": "2026-05-28",
+      "End": "2026-06-10",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1057,
+      "ChapterId": "oa1",
+      "Star": 4,
+      "Name": "バルーンフェスグリーン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/OA1-114.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa1/OA1-114_thumb.webp",
+      "Group": "プレミアムライブ バルーンフェスコーデ",
+      "Kind": "プレミアムライブ バルーンフェスコーデ",
+      "Start": "2026-05-28",
+      "End": "2026-06-10",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 1046,
       "ChapterId": "oa1",
       "Star": 4,
@@ -38379,6 +38418,78 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32855.webp"
     },
     {
+      "Id": 32936,
+      "CoordinateId": 1055,
+      "SealId": "OA1-108",
+      "CategoryId": 2,
+      "Point": 720,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32936.webp"
+    },
+    {
+      "Id": 32937,
+      "CoordinateId": 1055,
+      "SealId": "OA1-109",
+      "CategoryId": 4,
+      "Point": 330,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32937.webp"
+    },
+    {
+      "Id": 32938,
+      "CoordinateId": 1055,
+      "SealId": "OA1-110",
+      "CategoryId": 5,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32938.webp"
+    },
+    {
+      "Id": 32939,
+      "CoordinateId": 1056,
+      "SealId": "OA1-111",
+      "CategoryId": 2,
+      "Point": 680,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32939.webp"
+    },
+    {
+      "Id": 32940,
+      "CoordinateId": 1056,
+      "SealId": "OA1-112",
+      "CategoryId": 4,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32940.webp"
+    },
+    {
+      "Id": 32941,
+      "CoordinateId": 1056,
+      "SealId": "OA1-113",
+      "CategoryId": 5,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32941.webp"
+    },
+    {
+      "Id": 32942,
+      "CoordinateId": 1057,
+      "SealId": "OA1-114",
+      "CategoryId": 2,
+      "Point": 710,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32942.webp"
+    },
+    {
+      "Id": 32943,
+      "CoordinateId": 1057,
+      "SealId": "OA1-115",
+      "CategoryId": 4,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32943.webp"
+    },
+    {
+      "Id": 32944,
+      "CoordinateId": 1057,
+      "SealId": "OA1-116",
+      "CategoryId": 5,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa1/Item_ID32944.webp"
+    },
+    {
       "Id": 32928,
       "CoordinateId": 1046,
       "SealId": "OA1-100",
@@ -47841,6 +47952,13 @@
       "Name": "そよかぜリーフ",
       "Description": "スプリングジュエル",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0043.webp"
+    },
+    {
+      "Id": 411,
+      "CategoryId": 4,
+      "Name": "おしゃれみつあみ",
+      "Description": "プレミアムライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0023.webp"
     }
   ],
   "HimitsuChapters": [
