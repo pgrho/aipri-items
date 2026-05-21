@@ -48028,6 +48028,10 @@
       "Start": "2026-04-02"
     },
     {
+      "Id": "oa2",
+      "Name": "おねがいアイプリ 1だん"
+    },
+    {
       "Id": "gumi",
       "Name": "アイプリカード♪コレクショングミ"
     },
@@ -48159,6 +48163,10 @@
     {
       "Id": 28,
       "Name": "ぐみ"
+    },
+    {
+      "Id": 29,
+      "Name": "おりびあ"
     }
   ],
   "Songs": [
@@ -61928,6 +61936,576 @@
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1M-003_U.webp"
     },
     {
+      "Id": 1160,
+      "ChapterId": "oa2",
+      "SealId": "OA2-001",
+      "Coordinate": "ゆうきのフラワーバズリウム",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-001_U.webp"
+    },
+    {
+      "Id": 1161,
+      "ChapterId": "oa2",
+      "SealId": "OA2-002",
+      "Coordinate": "すきすきハートバズリウム",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-002_U.webp"
+    },
+    {
+      "Id": 1162,
+      "ChapterId": "oa2",
+      "SealId": "OA2-003",
+      "Coordinate": "ゆめゆめスターバズリウム",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-003_U.webp"
+    },
+    {
+      "Id": 1163,
+      "ChapterId": "oa2",
+      "SealId": "OA2-004",
+      "Coordinate": "ゆうじょうスイーツバズリウム",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-004_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-004_U.webp"
+    },
+    {
+      "Id": 1164,
+      "ChapterId": "oa2",
+      "SealId": "OA2-005",
+      "Coordinate": "ビリーブマーチブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-005_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-005_U.webp"
+    },
+    {
+      "Id": 1165,
+      "ChapterId": "oa2",
+      "SealId": "OA2-006",
+      "Coordinate": "ビリーブマーチグリーン",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-006_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-006_U.webp"
+    },
+    {
+      "Id": 1166,
+      "ChapterId": "oa2",
+      "SealId": "OA2-007",
+      "Coordinate": "シールぺったんチアグリーン",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-007_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-007_U.webp"
+    },
+    {
+      "Id": 1167,
+      "ChapterId": "oa2",
+      "SealId": "OA2-008",
+      "Coordinate": "シールぺったんチアイエロー",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-008_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-008_U.webp"
+    },
+    {
+      "Id": 1168,
+      "ChapterId": "oa2",
+      "SealId": "OA2-009",
+      "Coordinate": "キャンディポップ",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-009_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-009_U.webp"
+    },
+    {
+      "Id": 1169,
+      "ChapterId": "oa2",
+      "SealId": "OA2-010",
+      "Coordinate": "キャンディポップ",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-010_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-010_U.webp"
+    },
+    {
+      "Id": 1170,
+      "ChapterId": "oa2",
+      "SealId": "OA2-011",
+      "Coordinate": "キャンディポップ",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-011_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-011_U.webp"
+    },
+    {
+      "Id": 1171,
+      "ChapterId": "oa2",
+      "SealId": "OA2-012",
+      "Coordinate": "キャンディポップ",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-012_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-012_U.webp"
+    },
+    {
+      "Id": 1172,
+      "ChapterId": "oa2",
+      "SealId": "OA2-013",
+      "Coordinate": "ゆめかわレインボー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-013_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-013_U.webp"
+    },
+    {
+      "Id": 1173,
+      "ChapterId": "oa2",
+      "SealId": "OA2-014",
+      "Coordinate": "ゆめかわレインボー",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-014_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-014_U.webp"
+    },
+    {
+      "Id": 1174,
+      "ChapterId": "oa2",
+      "SealId": "OA2-015",
+      "Coordinate": "ゆめかわレインボー",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-015_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-015_U.webp"
+    },
+    {
+      "Id": 1175,
+      "ChapterId": "oa2",
+      "SealId": "OA2-016",
+      "Coordinate": "リボンアイドルイエロー",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-016_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-016_U.webp"
+    },
+    {
+      "Id": 1176,
+      "ChapterId": "oa2",
+      "SealId": "OA2-017",
+      "Coordinate": "リボンアイドルピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-017_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-017_U.webp"
+    },
+    {
+      "Id": 1177,
+      "ChapterId": "oa2",
+      "SealId": "OA2-018",
+      "Coordinate": "ガーデンラビット",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-018_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-018_U.webp"
+    },
+    {
+      "Id": 1178,
+      "ChapterId": "oa2",
+      "SealId": "OA2-019",
+      "Coordinate": "ガーデンラビット",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-019_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-019_U.webp"
+    },
+    {
+      "Id": 1179,
+      "ChapterId": "oa2",
+      "SealId": "OA2-020",
+      "Coordinate": "ガーデンラビット",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-020_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-020_U.webp"
+    },
+    {
+      "Id": 1180,
+      "ChapterId": "oa2",
+      "SealId": "OA2-021",
+      "Coordinate": "ガーデンラビット",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-021_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-021_U.webp"
+    },
+    {
+      "Id": 1181,
+      "ChapterId": "oa2",
+      "SealId": "OA2-022",
+      "Coordinate": "ハッピーバースデー！ピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-022_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-022_U.webp"
+    },
+    {
+      "Id": 1182,
+      "ChapterId": "oa2",
+      "SealId": "OA2-023",
+      "Coordinate": "アイプリすきすき",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-023_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-023_U.webp"
+    },
+    {
+      "Id": 1183,
+      "ChapterId": "oa2",
+      "SealId": "OA2-024",
+      "Coordinate": "アイプリゆめゆめ",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-024_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-024_U.webp"
+    },
+    {
+      "Id": 1184,
+      "ChapterId": "oa2",
+      "SealId": "OA2-025",
+      "Coordinate": "アイプリゆうじょう",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-025_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-025_U.webp"
+    },
+    {
+      "Id": 1185,
+      "ChapterId": "oa2",
+      "SealId": "OA2-026",
+      "Coordinate": "アイプリゆうき",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-026_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-026_U.webp"
+    },
+    {
+      "Id": 1186,
+      "ChapterId": "oa2",
+      "SealId": "OA2-027",
+      "Coordinate": "たなばたおねがい",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-027_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-027_U.webp"
+    },
+    {
+      "Id": 1187,
+      "ChapterId": "oa2",
+      "SealId": "OA2-028",
+      "Coordinate": "たなばたおねがい",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-028_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-028_U.webp"
+    },
+    {
+      "Id": 1188,
+      "ChapterId": "oa2",
+      "SealId": "OA2-029",
+      "Coordinate": "たなばたおねがい",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-029_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-029_U.webp"
+    },
+    {
+      "Id": 1189,
+      "ChapterId": "oa2",
+      "SealId": "OA2-030",
+      "Coordinate": "たなばたおねがい",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-030_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-030_U.webp"
+    },
+    {
+      "Id": 1190,
+      "ChapterId": "oa2",
+      "SealId": "OA2-031",
+      "Coordinate": "ポッピンマーチピンク",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-031_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-031_U.webp"
+    },
+    {
+      "Id": 1191,
+      "ChapterId": "oa2",
+      "SealId": "OA2-032",
+      "Coordinate": "クラシックヴァイオリンブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-032_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-032_U.webp"
+    },
+    {
+      "Id": 1192,
+      "ChapterId": "oa2",
+      "SealId": "OA2-033",
+      "Coordinate": "ふっくらパン",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-033_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-033_U.webp"
+    },
+    {
+      "Id": 1193,
+      "ChapterId": "oa2",
+      "SealId": "OA2-034",
+      "Coordinate": "ふっくらパン",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-034_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-034_U.webp"
+    },
+    {
+      "Id": 1194,
+      "ChapterId": "oa2",
+      "SealId": "OA2-035",
+      "Coordinate": "ふっくらパン",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-035_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-035_U.webp"
+    },
+    {
+      "Id": 1195,
+      "ChapterId": "oa2",
+      "SealId": "OA2-036",
+      "Coordinate": "あめぽつぽつパープル",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-036_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-036_U.webp"
+    },
+    {
+      "Id": 1196,
+      "ChapterId": "oa2",
+      "SealId": "OA2-037",
+      "Coordinate": "あめぽつぽつパープル",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-037_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-037_U.webp"
+    },
+    {
+      "Id": 1197,
+      "ChapterId": "oa2",
+      "SealId": "OA2-038",
+      "Coordinate": "ひまわりサマーレッド",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-038_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-038_U.webp"
+    },
+    {
+      "Id": 1198,
+      "ChapterId": "oa2",
+      "SealId": "OA2-039",
+      "Coordinate": "ワンダーランドブルー",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-039_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-039_U.webp"
+    },
+    {
+      "Id": 1199,
+      "ChapterId": "oa2",
+      "SealId": "OA2-040",
+      "Coordinate": "アメリカンダイナー",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-040_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-040_U.webp"
+    },
+    {
+      "Id": 1200,
+      "ChapterId": "oa2",
+      "SealId": "OA2-041",
+      "Coordinate": "アメリカンダイナー",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-041_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-041_U.webp"
+    },
+    {
+      "Id": 1201,
+      "ChapterId": "oa2",
+      "SealId": "OA2-042",
+      "Coordinate": "おねがいパティシエール ハローキティ",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-042_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-042_U.webp"
+    },
+    {
+      "Id": 1202,
+      "ChapterId": "oa2",
+      "SealId": "OA2-043",
+      "Coordinate": "おねがいパティシエール シナモロール",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-043_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-043_U.webp"
+    },
+    {
+      "Id": 1203,
+      "ChapterId": "oa2",
+      "SealId": "OA2-044",
+      "Coordinate": "おねがいパティシエール けろけろけろっぴ",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-044_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-044_U.webp"
+    },
+    {
+      "Id": 1204,
+      "ChapterId": "oa2",
+      "SealId": "OA2-045",
+      "Coordinate": "おねがいパティシエール ポムポムプリン",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-045_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-045_U.webp"
+    },
+    {
+      "Id": 1205,
+      "ChapterId": "oa2",
+      "SealId": "OA2-046",
+      "Coordinate": "おねがいちゅうがくせいふく",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-046_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-046_U.webp"
+    },
+    {
+      "Id": 1206,
+      "ChapterId": "oa2",
+      "SealId": "OA2-047",
+      "Coordinate": "おねがいちゅうがくせいふく",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-047_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-047_U.webp"
+    },
+    {
+      "Id": 1207,
+      "ChapterId": "oa2",
+      "SealId": "OA2-048",
+      "Coordinate": "おねがいちゅうがくせいふく",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-048_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-048_U.webp"
+    },
+    {
+      "Id": 1208,
+      "ChapterId": "oa2",
+      "SealId": "OA2-049",
+      "Coordinate": "おねがいちゅうがくせいふく",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-049_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-049_U.webp"
+    },
+    {
+      "Id": 1209,
+      "ChapterId": "oa2",
+      "SealId": "OA2-050",
+      "Coordinate": "ワッペンデニム",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-050_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-050_U.webp"
+    },
+    {
+      "Id": 1210,
+      "ChapterId": "oa2",
+      "SealId": "OA2-051",
+      "Coordinate": "ワッペンデニム",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-051_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-051_U.webp"
+    },
+    {
+      "Id": 1211,
+      "ChapterId": "oa2",
+      "SealId": "OA2-052",
+      "Coordinate": "ワッペンパーカー",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-052_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-052_U.webp"
+    },
+    {
+      "Id": 1212,
+      "ChapterId": "oa2",
+      "SealId": "OA2-053",
+      "Coordinate": "ワッペンパーカー",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-053_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-053_U.webp"
+    },
+    {
+      "Id": 1213,
+      "ChapterId": "oa2",
+      "SealId": "OA2-054",
+      "Coordinate": "フレッシュフラワーピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-054_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-054_U.webp"
+    },
+    {
+      "Id": 1214,
+      "ChapterId": "oa2",
+      "SealId": "OA2-055",
+      "Coordinate": "チューリップビタミンイエロー",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-055_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-055_U.webp"
+    },
+    {
+      "Id": 1215,
+      "ChapterId": "oa2",
+      "SealId": "OA2-056",
+      "Coordinate": "レトロガールカナリア",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-056_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-056_U.webp"
+    },
+    {
+      "Id": 1216,
+      "ChapterId": "oa2",
+      "SealId": "OA2-057",
+      "Coordinate": "アクティブダンスイエロー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2-057_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2-057_U.webp"
+    },
+    {
       "Id": 394,
       "ChapterId": "gumi",
       "BrandId": 7,
@@ -66218,6 +66796,26 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1158,
+      "ChapterId": "special",
+      "SealId": "OP-033",
+      "Coordinate": "おねがいパティシエール ハローキティ",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-033_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-033_U.webp"
+    },
+    {
+      "Id": 1159,
+      "ChapterId": "special",
+      "SealId": "OP-032",
+      "Coordinate": "おねがいパティシエール ポムポムプリン",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-032_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-032_U.webp"
     },
     {
       "Id": 1157,
