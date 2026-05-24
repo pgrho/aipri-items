@@ -17338,6 +17338,14 @@
       "Name": "やきたてクッキーいちごミルク",
       "Group": "ちゃお",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901027,
+      "ChapterId": "special",
+      "BrandId": 2,
+      "Name": "プリンセスバズリウムナイトブルー",
+      "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -45047,6 +45055,24 @@
       "CoordinateId": 9901025,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911096,
+      "CoordinateId": 9901027,
+      "CategoryId": 2,
+      "ImageUrl": "Items/princess_buzrium_night_blue-1.png"
+    },
+    {
+      "Id": 911097,
+      "CoordinateId": 9901027,
+      "CategoryId": 4,
+      "ImageUrl": "Items/princess_buzrium_night_blue-2.png"
+    },
+    {
+      "Id": 911098,
+      "CoordinateId": 9901027,
+      "CategoryId": 5,
+      "ImageUrl": "Items/princess_buzrium_night_blue-3.png"
     }
   ],
   "PartCategories": [
