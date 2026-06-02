@@ -15647,6 +15647,26 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 9901028,
+      "ChapterId": "oa2",
+      "Name": "おねがい2だんシークレット",
+      "Group": "★★★★",
+      "Kind": "★★★★",
+      "Start": "2026-06-11",
+      "End": "2026-07-08",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901029,
+      "ChapterId": "oa2",
+      "Name": "おねがい2だんフルコーデ",
+      "Group": "フルコーデガチャ おねがい2だん前半",
+      "Kind": "フルコーデガチャ おねがい2だん前半",
+      "Start": "2026-06-11",
+      "End": "2026-07-08",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 232,
       "ChapterId": "special",
       "BrandId": 5,
@@ -17941,6 +17961,48 @@
       "BrandId": 2,
       "Name": "プリンセスバズリウムナイトブルー",
       "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901030,
+      "ChapterId": "special",
+      "Name": "たなばたおねがいミント",
+      "Group": "ちゃお",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901031,
+      "ChapterId": "special",
+      "Name": "フラワーブーケオレンジ",
+      "Group": "アイプリカード コレクショングミvol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901032,
+      "ChapterId": "special",
+      "Name": "フラワーブーケ(シクレ)",
+      "Group": "アイプリカード コレクショングミvol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901033,
+      "ChapterId": "special",
+      "Name": "ゆうじょうスイーツバズリウムレッド",
+      "Group": "アイプリカード コレクショングミvol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901034,
+      "ChapterId": "special",
+      "Name": "ピーチマリンスカイ",
+      "Group": "アイプリカード コレクショングミvol.2",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901035,
+      "ChapterId": "special",
+      "Name": "ファンブック2だん",
+      "Group": "ファンブック",
       "LinkedItemIds": []
     }
   ],
@@ -40841,6 +40903,58 @@
       "IsSet": true
     },
     {
+      "Id": 911099,
+      "CoordinateId": 9901028,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911100,
+      "CoordinateId": 9901028,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911101,
+      "CoordinateId": 9901028,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911102,
+      "CoordinateId": 9901028,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911103,
+      "CoordinateId": 9901029,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911104,
+      "CoordinateId": 9901029,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911105,
+      "CoordinateId": 9901029,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911106,
+      "CoordinateId": 9901029,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png",
+      "IsSet": true
+    },
+    {
       "Id": 30681,
       "CoordinateId": 232,
       "SealId": "",
@@ -46790,6 +46904,149 @@
       "CoordinateId": 9901027,
       "CategoryId": 5,
       "ImageUrl": "Items/princess_buzrium_night_blue-3.png"
+    },
+    {
+      "Id": 911107,
+      "CoordinateId": 9901030,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911108,
+      "CoordinateId": 9901030,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911109,
+      "CoordinateId": 9901030,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911110,
+      "CoordinateId": 9901030,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911111,
+      "CoordinateId": 9901031,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911112,
+      "CoordinateId": 9901031,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911113,
+      "CoordinateId": 9901031,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911114,
+      "CoordinateId": 9901031,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911115,
+      "CoordinateId": 9901032,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911116,
+      "CoordinateId": 9901032,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911117,
+      "CoordinateId": 9901032,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911118,
+      "CoordinateId": 9901032,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911119,
+      "CoordinateId": 9901033,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911121,
+      "CoordinateId": 9901033,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911122,
+      "CoordinateId": 9901033,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911123,
+      "CoordinateId": 9901034,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911124,
+      "CoordinateId": 9901034,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911125,
+      "CoordinateId": 9901034,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911126,
+      "CoordinateId": 9901034,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911127,
+      "CoordinateId": 9901035,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911128,
+      "CoordinateId": 9901035,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911129,
+      "CoordinateId": 9901035,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911130,
+      "CoordinateId": 9901035,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
