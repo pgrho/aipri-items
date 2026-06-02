@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.11822.327 insiders
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.AipriDownloader", "Shipwreck.AipriDownloader\Shipwreck.AipriDownloader.csproj", "{20BC90B0-1DE3-48E4-9C69-49670BD09832}"
 EndProject
@@ -15,6 +15,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.Aipri.Accessor", "Shipwreck.Aipri.Accessor\Shipwreck.Aipri.Accessor.csproj", "{78965C7B-09A5-4149-94C8-399321927909}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.Aipri.Accessor.Tests", "Shipwreck.Aipri.Accessor.Tests\Shipwreck.Aipri.Accessor.Tests.csproj", "{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipwreck.Aipri.CustomEditor", "Shipwreck.Aipri.CustomEditor\Shipwreck.Aipri.CustomEditor.csproj", "{9E0B340D-756E-F735-FDCC-F2377D30075D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B706F395-FB55-49BF-A0D6-C6588F8F2CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0B340D-756E-F735-FDCC-F2377D30075D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0B340D-756E-F735-FDCC-F2377D30075D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0B340D-756E-F735-FDCC-F2377D30075D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0B340D-756E-F735-FDCC-F2377D30075D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

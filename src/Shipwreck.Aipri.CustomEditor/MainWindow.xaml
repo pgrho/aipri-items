@@ -1,0 +1,108 @@
+﻿<vmu:FrameworkWindow
+    x:Class="Shipwreck.Aipri.CustomEditor.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:bs4="http://schema.shipwreck.jp/bootstrap-controls/"
+    xmlns:vmu="http://schema.shipwreck.jp/viewmodel-utils/"
+    xmlns:v="clr-namespace:Shipwreck.Aipri.CustomEditor"
+    mc:Ignorable="d"
+    Title="MainWindow"
+    Height="450"
+    Width="800"
+    d:DataContext="{d:DesignInstance Type=v:MainWindowViewModel, IsDesignTimeCreatable=False}">
+    <TabControl>
+        <TabItem
+            Header="プリフォト">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition
+                        Height="Auto" />
+                </Grid.RowDefinitions>
+                <DataGrid
+                    AutoGenerateColumns="False"
+                    ItemsSource="{Binding Coordinates}">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn
+                            Header="弾"
+                            Binding="{Binding NewChapter}" />
+                        <DataGridTextColumn
+                            Header="Id"
+                            Binding="{Binding NewId}" />
+                        <DataGridTextColumn
+                            Header="☆"
+                            Binding="{Binding NewStar}" />
+                        <DataGridTextColumn
+                            Header="コーデ"
+                            Binding="{Binding NewName}" />
+                        <DataGridTextColumn
+                            Header="分類"
+                            Binding="{Binding NewGroup}" />
+                        <DataGridTextColumn
+                            Header="種別"
+                            Binding="{Binding NewKind}" />
+                        <DataGridTextColumn
+                            Header="ブランド"
+                            Binding="{Binding NewBrand}" />
+                        <DataGridTextColumn
+                            Header="開始"
+                            Binding="{Binding NewStart, StringFormat=yy-MM-dd}" />
+                        <DataGridTextColumn
+                            Header="終了"
+                            Binding="{Binding NewEnd, StringFormat=yy-MM-dd}" />
+                        <DataGridTextColumn
+                            Header="種類1"
+                            Binding="{Binding Item1.NewCategory}" />
+                        <DataGridTextColumn
+                            Header="ID1"
+                            Binding="{Binding Item1.NewId}" />
+                        <DataGridCheckBoxColumn
+                            Header="セット"
+                            Binding="{Binding Item1.NewSet, UpdateSourceTrigger=PropertyChanged}" />
+                        <DataGridTextColumn
+                            Header="種類2"
+                            Binding="{Binding Item2.NewCategory}" />
+                        <DataGridTextColumn
+                            Header="ID2"
+                            Binding="{Binding Item2.NewId}" />
+                        <DataGridCheckBoxColumn
+                            Header="セット"
+                            Binding="{Binding Item2.NewSet, UpdateSourceTrigger=PropertyChanged}" />
+                        <DataGridTextColumn
+                            Header="種類3"
+                            Binding="{Binding Item3.NewCategory}" />
+                        <DataGridTextColumn
+                            Header="ID3"
+                            Binding="{Binding Item3.NewId}" />
+                        <DataGridCheckBoxColumn
+                            Header="セット"
+                            Binding="{Binding Item3.NewSet, UpdateSourceTrigger=PropertyChanged}" />
+                        <DataGridTextColumn
+                            Header="種類4"
+                            Binding="{Binding Item4.NewCategory}" />
+                        <DataGridTextColumn
+                            Header="ID4"
+                            Binding="{Binding Item4.NewId}" />
+                        <DataGridCheckBoxColumn
+                            Header="セット"
+                            Binding="{Binding Item4.NewSet, UpdateSourceTrigger=PropertyChanged}" />
+
+                    </DataGrid.Columns>
+                </DataGrid>
+                <WrapPanel
+                    Grid.Row="1"
+                    Orientation="Horizontal">
+                    <Button
+                        Style="{StaticResource CommandViewModel.Button.Medium}"
+                        DataContext="{Binding AddNewCoordinateCommand}" />
+                    <Button
+                        Style="{StaticResource CommandViewModel.Button.Medium}"
+                        DataContext="{Binding SaveCoordinatesCommand}" />
+                </WrapPanel>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</vmu:FrameworkWindow>
