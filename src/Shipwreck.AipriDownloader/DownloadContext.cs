@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -173,6 +174,7 @@ public sealed class DownloadContext : IDisposable
         }
 
         HttpResponseMessage res = null!;
+        var sw = new Stopwatch();
         for (var n = 1; n <= 10; n++)
         {
             try
@@ -183,14 +185,17 @@ public sealed class DownloadContext : IDisposable
                     req.Headers.IfNoneMatch.Add(new EntityTagHeaderValue(etag));
                 }
                 req.Headers.IfModifiedSince = lastModified;
+
+                sw.Restart();
                 res = await _Http.SendAsync(req).ConfigureAwait(false);
 
                 break;
             }
             catch (Exception ex)
             {
+                sw.Stop();
                 Console.WriteLine(
-                    "An exception caught while sending GET {0}. {1}", url, ex);
+                    "An exception caught while sending GET {0} in {1:#,0}ms. {2}", url, sw.ElapsedMilliseconds, ex);
 
                 if (n >= 10)
                 {
@@ -203,25 +208,27 @@ public sealed class DownloadContext : IDisposable
 
         if (res.StatusCode == System.Net.HttpStatusCode.NotModified)
         {
+            sw.Stop();
             // Console.WriteLine("Found cache for {0}.", url);
             return File.OpenRead(Path.Combine(_CacheDirectory.FullName, c.Id.ToString()));
         }
 
         lastModified = res.Content.Headers.LastModified?.UtcDateTime;
         etag = res.Headers.ETag?.Tag;
+        sw.Stop();
         if (res.IsSuccessStatusCode)
         {
             Console.WriteLine(
-                "GOT {0}. ({1}, {2} bytes, {3}, {4:yyyyMMddHHmmss})",
-                url,
+                "GOT {0} in {1:#,0}ms. ({2}, {3} bytes, {4}, {5:yyyyMMddHHmmss})",
+                url, sw.ElapsedMilliseconds,
                 res.Content.Headers.ContentType?.MediaType ?? "no Content-Type",
                 res.Content.Headers.ContentLength ?? -1, etag, lastModified);
         }
         else
         {
             Console.Error?.WriteLine(
-                "Failed to GET {0}. ({1})",
-                url,
+                "Failed to GET {0} in {1:#,0}ms. ({2})",
+                url, sw.ElapsedMilliseconds,
                 res.StatusCode);
 
             res.EnsureSuccessStatusCode();
