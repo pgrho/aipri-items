@@ -4,4 +4,5 @@ public enum CoordinateKey
 {
     Id,
     Name,
+    SealId,
 }

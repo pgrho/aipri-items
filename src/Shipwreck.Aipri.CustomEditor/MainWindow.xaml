@@ -104,5 +104,73 @@
                 </WrapPanel>
             </Grid>
         </TabItem>
+        <TabItem
+            Header="カード">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition
+                        Height="Auto" />
+                </Grid.RowDefinitions>
+                <DataGrid
+                    AutoGenerateColumns="False"
+                    ItemsSource="{Binding Cards}">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn
+                            Header="弾"
+                            Binding="{Binding NewChapter}" />
+                        <DataGridTextColumn
+                            Header="コード"
+                            Binding="{Binding NewSealId}" />
+                        <DataGridTextColumn
+                            Header="Id"
+                            Binding="{Binding NewId}" />
+                        <DataGridTextColumn
+                            Header="順序"
+                            Binding="{Binding NewOrder}" />
+                        <DataGridTextColumn
+                            Header="コーデ"
+                            Binding="{Binding NewCoordinate}" />
+                        <DataGridTextColumn
+                            Header="キャラ"
+                            Binding="{Binding NewCharacter}" />
+                        <DataGridTextColumn
+                            Header="種類"
+                            Binding="{Binding NewVariant}" />
+                        <DataGridTextColumn
+                            Header="曲"
+                            Binding="{Binding NewSong}" />
+                        <DataGridTextColumn
+                            Header="BP"
+                            Binding="{Binding NewPoint}" />
+                        <DataGridTextColumn
+                            Header="☆"
+                            Binding="{Binding NewStar}" />
+                        <DataGridCheckBoxColumn
+                            Header="チャンス"
+                            Binding="{Binding NewChance, UpdateSourceTrigger=PropertyChanged}" />
+                        <DataGridTextColumn
+                            Header="ブランド"
+                            Binding="{Binding NewBrand}" />
+                        <DataGridTextColumn
+                            Header="画像1"
+                            Binding="{Binding NewImage1}" />
+                        <DataGridTextColumn
+                            Header="画像2"
+                            Binding="{Binding NewImage2}" />
+                    </DataGrid.Columns>
+                </DataGrid>
+                <WrapPanel
+                    Grid.Row="1"
+                    Orientation="Horizontal">
+                    <Button
+                        Style="{StaticResource CommandViewModel.Button.Medium}"
+                        DataContext="{Binding AddNewCardCommand}" />
+                    <Button
+                        Style="{StaticResource CommandViewModel.Button.Medium}"
+                        DataContext="{Binding SaveCardsCommand}" />
+                </WrapPanel>
+            </Grid>
+        </TabItem>
     </TabControl>
 </vmu:FrameworkWindow>

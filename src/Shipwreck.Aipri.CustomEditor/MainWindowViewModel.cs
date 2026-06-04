@@ -198,11 +198,13 @@ public sealed class MainWindowViewModel : WindowViewModel
             });
             Coordinates.Add(row);
         }, title: "追加", icon: "fas fa-plus");
-    #endregion Coordinates
+
+    #endregion AddNewCoordinateCommand
 
     #region AddNewCoordinateCommand
 
     private CommandViewModelBase? _SaveCoordinatesCommand;
+
     public CommandViewModelBase SaveCoordinatesCommand
         => _SaveCoordinatesCommand ??= CommandViewModel.CreateAsync(
             async _ =>
@@ -314,4 +316,200 @@ public sealed class MainWindowViewModel : WindowViewModel
     #endregion AddNewCoordinateCommand
 
     #endregion プリフォト
+
+    #region カード
+
+    #region Cards
+
+    private BulkUpdateableCollection<CardViewModel>? _Cards;
+
+    public BulkUpdateableCollection<CardViewModel> Cards
+    {
+        get
+        {
+            if (_Cards == null)
+            {
+                _Cards = new();
+                LoadCardsAsync().GetHashCode();
+            }
+            return _Cards;
+        }
+    }
+
+    private async Task LoadCardsAsync()
+    {
+        async Task<List<CardViewModel>> load()
+        {
+            var list = new List<CardViewModel>();
+
+            var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_Cards.tsv"));
+            if (cor.Exists)
+            {
+                using var fs = cor.OpenRead();
+                using var sr = new StreamReader(fs, Encoding.GetEncoding(932));
+
+                var header = await sr.ReadLineAsync().ConfigureAwait(false);
+
+                if (header != null)
+                {
+                    var ha = header.Split('\t');
+                    var key = Array.IndexOf(ha, "Key");
+                    var id = Array.IndexOf(ha, "Id");
+                    var chapterId = Array.IndexOf(ha, "ChapterId");
+                    var order = Array.IndexOf(ha, "Order");
+                    var sealId = Array.IndexOf(ha, "SealId");
+                    var coordinate = Array.IndexOf(ha, "Coordinate");
+                    var character = Array.IndexOf(ha, "Character");
+                    var variant = Array.IndexOf(ha, "Variant");
+                    var song = Array.IndexOf(ha, "Song");
+                    var point = Array.IndexOf(ha, "Point");
+                    var star = Array.IndexOf(ha, "Star");
+                    var isChance = Array.IndexOf(ha, "IsChance");
+                    var brand = Array.IndexOf(ha, "Brand");
+                    var image1Url = Array.IndexOf(ha, "Image1Url");
+                    var image2Url = Array.IndexOf(ha, "Image2Url");
+
+                    if (key >= 0)
+                    {
+                        for (var l = await sr.ReadLineAsync().ConfigureAwait(false); l != null; l = await sr.ReadLineAsync().ConfigureAwait(false))
+                        {
+                            var row = l.Split('\t');
+
+                            string? read(int id) => id >= 0 ? row.ElementAtOrDefault(id)?.Trim() : null;
+
+                            var data = new CardViewModel()
+                            {
+                                CurrentKey = Enum.TryParse(read(key), out CoordinateKey k) ? k : CoordinateKey.Id,
+                                CurrentId = int.TryParse(read(id), out var i) ? i : 0,
+                                CurrentChapter = read(chapterId) ?? string.Empty,
+                                CurrentSealId = read(sealId) ?? string.Empty,
+                                CurrentOrder = double.TryParse(read(order), out var o) ? o : 0,
+                                CurrentCoordinate = read(coordinate) ?? string.Empty,
+                                CurrentCharacter = read(character) ?? string.Empty,
+                                CurrentVariant = read(variant) ?? string.Empty,
+                                CurrentSong = read(song) ?? string.Empty,
+                                CurrentPoint = int.TryParse(read(point), out var pt) ? pt : 0,
+                                CurrentStar = byte.TryParse(read(star), out var st) ? st : 0,
+                                CurrentChance = bool.TryParse(read(isChance), out var ic) && ic,
+                                CurrentBrand = read(brand) ?? string.Empty,
+                                CurrentImage1 = read(image1Url) ?? string.Empty,
+                                CurrentImage2 = read(image2Url) ?? string.Empty,
+                            };
+
+                            list.Add(data);
+                        }
+                    }
+                }
+            }
+            return list;
+        }
+
+        try
+        {
+            var items = await load();
+            Cards.Clear();
+
+            foreach (var e in items)
+            {
+                Cards.Add(e);
+            }
+        }
+        catch { }
+    }
+
+    #endregion Cards
+
+    #region AddNewCardCommand
+
+    private CommandViewModelBase? _AddNewCardCommand;
+
+    public CommandViewModelBase AddNewCardCommand
+        => _AddNewCardCommand
+        ??= CommandViewModel.Create(_ =>
+        {
+            var row = new CardViewModel();
+            row.NewId = (Cards.Max(e => e?.NewId) ?? 0) + 1;
+
+            Cards.Add(row);
+        }, title: "追加", icon: "fas fa-plus");
+
+    #endregion AddNewCardCommand
+
+    #region AddNewCardCommand
+
+    private CommandViewModelBase? _SaveCardsCommand;
+
+    public CommandViewModelBase SaveCardsCommand
+        => _SaveCardsCommand ??= CommandViewModel.CreateAsync(
+            async _ =>
+            {
+                try
+                {
+                    var src = Cards.OrderBy(e => e.NewKey).ThenBy(e => e.NewId).ThenBy(e => e.NewSealId).ThenBy(e => e.NewOrder).ToList();
+
+                    const char TAB = '\t';
+                    using (var fs = new FileStream(Path.Combine(GetCustomDirectory(), "_Cards.tsv"), FileMode.Create))
+                    using (var sw = new StreamWriter(fs, Encoding.GetEncoding(932)))
+                    {
+                        sw.Write("Key"); sw.Write(TAB);
+                        sw.Write("Id"); sw.Write(TAB);
+                        sw.Write("ChapterId"); sw.Write(TAB);
+                        sw.Write("Order"); sw.Write(TAB);
+                        sw.Write("SealId"); sw.Write(TAB);
+                        sw.Write("Coordinate"); sw.Write(TAB);
+                        sw.Write("Character"); sw.Write(TAB);
+                        sw.Write("Variant"); sw.Write(TAB);
+                        sw.Write("Song"); sw.Write(TAB);
+                        sw.Write("Star"); sw.Write(TAB);
+                        sw.Write("Point"); sw.Write(TAB);
+                        sw.Write("IsChance"); sw.Write(TAB);
+                        sw.Write("Brand"); sw.Write(TAB);
+                        sw.Write("Image1Url"); sw.Write(TAB);
+                        sw.Write("Image2Url");
+
+                        sw.WriteLine();
+
+                        foreach (var s in src)
+                        {
+                            sw.Write(s.NewKey switch
+                            {
+                                CoordinateKey.Id => "",
+                                _ => s.NewKey.ToString("G")
+                            });
+                            sw.Write(TAB);
+
+                            sw.Write(s.NewId.PositiveOrNull());
+                            sw.Write(TAB);
+                            sw.Write(s.NewChapter);
+                            sw.Write(TAB);
+
+                            sw.Write(s.NewOrder.PositiveOrNull());
+                            sw.Write(TAB);
+
+                            sw.Write(s.NewSealId); sw.Write(TAB);
+                            sw.Write(s.NewCoordinate); sw.Write(TAB);
+                            sw.Write(s.NewCharacter); sw.Write(TAB);
+                            sw.Write(s.NewVariant); sw.Write(TAB);
+                            sw.Write(s.NewSong); sw.Write(TAB);
+                            sw.Write(s.NewStar.PositiveOrNull()); sw.Write(TAB);
+                            sw.Write(s.NewPoint.PositiveOrNull()); sw.Write(TAB);
+                            sw.Write(s.NewChance ? "TRUE" : null); sw.Write(TAB);
+                            sw.Write(s.NewBrand); sw.Write(TAB);
+                            sw.Write(s.NewImage1); sw.Write(TAB);
+                            sw.Write(s.NewImage2);
+                            sw.WriteLine();
+                        }
+                    }
+
+                    await LoadCardsAsync();
+                }
+                catch { }
+            },
+            title: "保存",
+            style: BorderStyle.Primary,
+            iconGetter: c => c.IsExecuting ? "fas fa-pulse fa-spinner" : "fas fa-save");
+
+    #endregion AddNewCardCommand
+
+    #endregion カード
 }
