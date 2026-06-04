@@ -5333,6 +5333,7 @@
       "Kind": "ショップワッチャプリマジ！",
       "Start": "2024-12-05",
       "End": "2025-01-08",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -17926,6 +17927,7 @@
       "ChapterId": "special",
       "Name": "リボンバレリーナオーロラピンク",
       "Group": "アイプリカード コレクショングミvol.1",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -17941,6 +17943,7 @@
       "ChapterId": "special",
       "Name": "すきすきハートバズリウムパープル",
       "Group": "アイプリカード コレクショングミvol.1",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -17948,6 +17951,7 @@
       "ChapterId": "special",
       "Name": "ブルーソーダ",
       "Group": "アイプリカード コレクショングミvol.1",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -50767,6 +50771,106 @@
       ]
     },
     {
+      "Id": 72,
+      "Name": "トキメキ♡ジャンプ！",
+      "SingerIds": [
+        26
+      ]
+    },
+    {
+      "Id": 73,
+      "Name": "おねがいアイプリ！",
+      "SingerIds": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "Id": 74,
+      "Name": "夢色ビリーバー",
+      "SingerIds": [
+        26,
+        27
+      ]
+    },
+    {
+      "Id": 75,
+      "Name": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SingerIds": [
+        26,
+        27
+      ]
+    },
+    {
+      "Id": 76,
+      "Name": "フレフレベストフレンズ",
+      "SingerIds": [
+        28
+      ]
+    },
+    {
+      "Id": 77,
+      "Name": "アイプリMyDream",
+      "SingerIds": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "Id": 78,
+      "Name": "放課後のおねがい！",
+      "SingerIds": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "Id": 79,
+      "Name": "勇気のはばたきサイン",
+      "SingerIds": [
+        29
+      ]
+    },
+    {
+      "Id": 80,
+      "Name": "夢色ビリーバー（あおい・ぐみ）",
+      "SingerIds": [
+        27,
+        28
+      ]
+    },
+    {
+      "Id": 81,
+      "Name": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SingerIds": [
+        28,
+        29
+      ]
+    },
+    {
+      "Id": 82,
+      "Name": "ハピハピハッピー☆マイバースデー おねがいバージョン",
+      "SingerIds": [
+        26
+      ]
+    },
+    {
+      "Id": 83,
+      "Name": "なかよしParty!",
+      "SingerIds": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
       "Id": 3,
       "Name": "レッツ！アイプリ（サクラ）",
       "SingerIds": [
@@ -63414,6 +63518,8 @@
       "Character": "いのり",
       "CharacterId": 26,
       "Variant": "パラレル",
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
       "Star": 4
     },
     {
@@ -63424,6 +63530,8 @@
       "Character": "あおい",
       "CharacterId": 27,
       "Variant": "パラレル",
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Star": 4
     },
     {
@@ -63434,6 +63542,8 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "Variant": "パラレル",
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
       "Star": 4
     },
     {
@@ -63444,6 +63554,8 @@
       "Character": "いのり",
       "CharacterId": 26,
       "Variant": "パラレル",
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
       "Star": 4
     },
     {
@@ -63454,6 +63566,8 @@
       "Character": "あおい",
       "CharacterId": 27,
       "Variant": "パラレル",
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Star": 4
     },
     {
@@ -63464,6 +63578,8 @@
       "Character": "いのり",
       "CharacterId": 26,
       "Variant": "パラレル",
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Star": 4
     },
     {
@@ -63473,6 +63589,9 @@
       "Coordinate": "すきすきハートバズリウム",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-001_U.webp"
     },
@@ -63483,6 +63602,9 @@
       "Coordinate": "すきすきハートバズリウム",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-002_U.webp"
     },
@@ -63493,6 +63615,9 @@
       "Coordinate": "ゆめゆめスターバズリウム",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-003_U.webp"
     },
@@ -63503,6 +63628,9 @@
       "Coordinate": "ゆめゆめスターバズリウム",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-004_U.webp"
     },
@@ -63513,6 +63641,9 @@
       "Coordinate": "ゆうじょうスイーツバズリウム",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-005_U.webp"
     },
@@ -63523,6 +63654,9 @@
       "Coordinate": "トキメキトゥインクルピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-006_U.webp"
     },
@@ -63533,6 +63667,9 @@
       "Coordinate": "トキメキトゥインクルピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-007_U.webp"
     },
@@ -63543,6 +63680,9 @@
       "Coordinate": "トキメキトゥインクルブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-008_U.webp"
     },
@@ -63553,6 +63693,9 @@
       "Coordinate": "トキメキトゥインクルブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-009_U.webp"
     },
@@ -63563,6 +63706,9 @@
       "Coordinate": "リボンアイドルピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-010_U.webp"
     },
@@ -63573,6 +63719,9 @@
       "Coordinate": "リボンアイドルブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-011_U.webp"
     },
@@ -63583,6 +63732,9 @@
       "Coordinate": "リボンアイドルグリーン",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-012_U.webp"
     },
@@ -63593,6 +63745,9 @@
       "Coordinate": "ふわふわキャット",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-013_U.webp"
     },
@@ -63603,6 +63758,9 @@
       "Coordinate": "ふわふわキャット",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-014_U.webp"
     },
@@ -63613,6 +63771,9 @@
       "Coordinate": "ほしのゆうびんやさん",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-015_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-015_U.webp"
     },
@@ -63623,6 +63784,9 @@
       "Coordinate": "ほしのゆうびんやさん",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-016_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-016_U.webp"
     },
@@ -63633,6 +63797,9 @@
       "Coordinate": "ほしのゆうびんやさん",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-017_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-017_U.webp"
     },
@@ -63643,6 +63810,9 @@
       "Coordinate": "ポップンマシュマロ",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-018_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-018_U.webp"
     },
@@ -63653,6 +63823,9 @@
       "Coordinate": "ポップンマシュマロ",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-019_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-019_U.webp"
     },
@@ -63660,9 +63833,12 @@
       "Id": 1086,
       "ChapterId": "oa1",
       "SealId": "OA1-020",
-      "Coordinate": "ゆうじょうさくらツイン\u3000すきすきピンク",
+      "Coordinate": "ゆうじょうさくらツイン すきすきピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-020_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-020_U.webp"
     },
@@ -63670,9 +63846,12 @@
       "Id": 1087,
       "ChapterId": "oa1",
       "SealId": "OA1-021",
-      "Coordinate": "ゆうじょうさくらツイン\u3000ゆめゆめブルー",
+      "Coordinate": "ゆうじょうさくらツイン ゆめゆめブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-021_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-021_U.webp"
     },
@@ -63683,6 +63862,8 @@
       "Coordinate": "アイプリすきすき",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-022_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-022_U.webp"
     },
@@ -63693,6 +63874,8 @@
       "Coordinate": "アイプリすきすき",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-023_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-023_U.webp"
     },
@@ -63703,6 +63886,8 @@
       "Coordinate": "アイプリゆめゆめ",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-024_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-024_U.webp"
     },
@@ -63713,6 +63898,8 @@
       "Coordinate": "アイプリゆめゆめ",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-025_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-025_U.webp"
     },
@@ -63723,6 +63910,8 @@
       "Coordinate": "アイプリゆうじょう",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-026_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-026_U.webp"
     },
@@ -63733,6 +63922,8 @@
       "Coordinate": "ラブリーマーガレット",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-027_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-027_U.webp"
     },
@@ -63743,6 +63934,8 @@
       "Coordinate": "ラブリーマーガレット",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-028_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-028_U.webp"
     },
@@ -63753,6 +63946,8 @@
       "Coordinate": "ラブリーマーガレット",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-029_U.webp"
     },
@@ -63763,6 +63958,8 @@
       "Coordinate": "やきたてクッキー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-030_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-030_U.webp"
     },
@@ -63773,6 +63970,8 @@
       "Coordinate": "やきたてクッキー",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-031_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-031_U.webp"
     },
@@ -63783,6 +63982,8 @@
       "Coordinate": "やきたてクッキーココア",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-032_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-032_U.webp"
     },
@@ -63793,6 +63994,8 @@
       "Coordinate": "メロンソーダ",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-033_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-033_U.webp"
     },
@@ -63803,6 +64006,8 @@
       "Coordinate": "メロンソーダ",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-034_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-034_U.webp"
     },
@@ -63813,6 +64018,8 @@
       "Coordinate": "メロンソーダ",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-035_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-035_U.webp"
     },
@@ -63823,6 +64030,8 @@
       "Coordinate": "アイスクリーム",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-036_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-036_U.webp"
     },
@@ -63833,6 +64042,8 @@
       "Coordinate": "アイスクリーム",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-037_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-037_U.webp"
     },
@@ -63843,6 +64054,8 @@
       "Coordinate": "ひらめきたんていクラシック",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-038_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-038_U.webp"
     },
@@ -63853,6 +64066,8 @@
       "Coordinate": "ひらめきたんていクラシック",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-039_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-039_U.webp"
     },
@@ -63863,6 +64078,8 @@
       "Coordinate": "ハニービー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-040_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-040_U.webp"
     },
@@ -63873,6 +64090,8 @@
       "Coordinate": "ハニービー",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-041_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-041_U.webp"
     },
@@ -63883,6 +64102,8 @@
       "Coordinate": "パステルマカロンオレンジ",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-042_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-042_U.webp"
     },
@@ -63893,6 +64114,8 @@
       "Coordinate": "パステルマカロンオレンジ",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-043_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-043_U.webp"
     },
@@ -63903,6 +64126,8 @@
       "Coordinate": "しなこワールド",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-044_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-044_U.webp"
     },
@@ -63913,6 +64138,8 @@
       "Coordinate": "しなこワールド",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-045_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-045_U.webp"
     },
@@ -63923,6 +64150,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-046_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-046_U.webp"
     },
@@ -63933,6 +64162,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-047_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-047_U.webp"
     },
@@ -63943,6 +64174,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-048_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-048_U.webp"
     },
@@ -63953,6 +64186,8 @@
       "Coordinate": "ガーリーニット",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-049_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-049_U.webp"
     },
@@ -63963,6 +64198,8 @@
       "Coordinate": "ガーリーニットホワイト",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-050_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-050_U.webp"
     },
@@ -63973,6 +64210,8 @@
       "Coordinate": "ガーリーニットイエロー",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-051_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-051_U.webp"
     },
@@ -63983,6 +64222,8 @@
       "Coordinate": "チェックセットアップピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-052_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-052_U.webp"
     },
@@ -63993,6 +64234,8 @@
       "Coordinate": "チェックセットアップピンク",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-053_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-053_U.webp"
     },
@@ -64003,6 +64246,8 @@
       "Coordinate": "ツートンジャケット",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-054_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-054_U.webp"
     },
@@ -64013,6 +64258,9 @@
       "Coordinate": "バルーンフェスピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1M-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1M-001_U.webp"
     },
@@ -64023,6 +64271,9 @@
       "Coordinate": "バルーンフェスブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1M-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1M-002_U.webp"
     },
@@ -64033,6 +64284,9 @@
       "Coordinate": "バルーンフェスグリーン",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1M-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1M-003_U.webp"
     },
@@ -64044,6 +64298,8 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "Variant": "パラレル",
+      "Song": "勇気のはばたきサイン",
+      "SongId": 79,
       "Star": 4
     },
     {
@@ -64054,6 +64310,8 @@
       "Character": "あおい",
       "CharacterId": 27,
       "Variant": "パラレル",
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
       "Star": 4
     },
     {
@@ -64064,6 +64322,8 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "Variant": "パラレル",
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
       "Star": 4
     },
     {
@@ -64074,6 +64334,8 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "Variant": "パラレル",
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
       "Star": 4
     },
     {
@@ -64084,6 +64346,8 @@
       "Character": "あおい",
       "CharacterId": 27,
       "Variant": "パラレル",
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
       "Star": 4
     },
     {
@@ -64094,6 +64358,8 @@
       "Character": "いのり",
       "CharacterId": 26,
       "Variant": "パラレル",
+      "Song": "ハピハピハッピー☆マイバースデー おねがいバージョン",
+      "SongId": 82,
       "Star": 4
     },
     {
@@ -64103,6 +64369,9 @@
       "Coordinate": "ゆうきのフラワーバズリウム",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "勇気のはばたきサイン",
+      "SongId": 79,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-001_U.webp"
     },
@@ -64113,6 +64382,9 @@
       "Coordinate": "すきすきハートバズリウム",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-002_U.webp"
     },
@@ -64123,6 +64395,9 @@
       "Coordinate": "ゆめゆめスターバズリウム",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-003_U.webp"
     },
@@ -64133,6 +64408,9 @@
       "Coordinate": "ゆうじょうスイーツバズリウム",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-004_U.webp"
     },
@@ -64143,6 +64421,9 @@
       "Coordinate": "ビリーブマーチブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-005_U.webp"
     },
@@ -64153,6 +64434,9 @@
       "Coordinate": "ビリーブマーチグリーン",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-006_U.webp"
     },
@@ -64163,6 +64447,9 @@
       "Coordinate": "シールぺったんチアグリーン",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-007_U.webp"
     },
@@ -64173,6 +64460,9 @@
       "Coordinate": "シールぺったんチアイエロー",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-008_U.webp"
     },
@@ -64183,6 +64473,9 @@
       "Coordinate": "キャンディポップ",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-009_U.webp"
     },
@@ -64193,6 +64486,9 @@
       "Coordinate": "キャンディポップ",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-010_U.webp"
     },
@@ -64203,6 +64499,9 @@
       "Coordinate": "キャンディポップ",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-011_U.webp"
     },
@@ -64213,6 +64512,9 @@
       "Coordinate": "キャンディポップ",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-012_U.webp"
     },
@@ -64223,6 +64525,9 @@
       "Coordinate": "ゆめかわレインボー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-013_U.webp"
     },
@@ -64233,6 +64538,9 @@
       "Coordinate": "ゆめかわレインボー",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-014_U.webp"
     },
@@ -64243,6 +64551,9 @@
       "Coordinate": "ゆめかわレインボー",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-015_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-015_U.webp"
     },
@@ -64253,6 +64564,9 @@
       "Coordinate": "リボンアイドルイエロー",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "勇気のはばたきサイン",
+      "SongId": 79,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-016_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-016_U.webp"
     },
@@ -64263,6 +64577,9 @@
       "Coordinate": "リボンアイドルピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-017_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-017_U.webp"
     },
@@ -64273,6 +64590,9 @@
       "Coordinate": "ガーデンラビット",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "勇気のはばたきサイン",
+      "SongId": 79,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-018_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-018_U.webp"
     },
@@ -64283,6 +64603,9 @@
       "Coordinate": "ガーデンラビット",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-019_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-019_U.webp"
     },
@@ -64293,6 +64616,9 @@
       "Coordinate": "ガーデンラビット",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-020_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-020_U.webp"
     },
@@ -64303,6 +64629,9 @@
       "Coordinate": "ガーデンラビット",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-021_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-021_U.webp"
     },
@@ -64313,6 +64642,9 @@
       "Coordinate": "ハッピーバースデー！ピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ハピハピハッピー☆マイバースデー おねがいバージョン",
+      "SongId": 82,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-022_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-022_U.webp"
     },
@@ -64323,6 +64655,8 @@
       "Coordinate": "アイプリすきすき",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-023_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-023_U.webp"
     },
@@ -64333,6 +64667,8 @@
       "Coordinate": "アイプリゆめゆめ",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-024_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-024_U.webp"
     },
@@ -64343,6 +64679,8 @@
       "Coordinate": "アイプリゆうじょう",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-025_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-025_U.webp"
     },
@@ -64353,6 +64691,8 @@
       "Coordinate": "アイプリゆうき",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-026_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-026_U.webp"
     },
@@ -64363,6 +64703,8 @@
       "Coordinate": "たなばたおねがい",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-027_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-027_U.webp"
     },
@@ -64373,6 +64715,8 @@
       "Coordinate": "たなばたおねがい",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-028_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-028_U.webp"
     },
@@ -64383,6 +64727,8 @@
       "Coordinate": "たなばたおねがい",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-029_U.webp"
     },
@@ -64393,6 +64739,8 @@
       "Coordinate": "たなばたおねがい",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-030_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-030_U.webp"
     },
@@ -64403,6 +64751,8 @@
       "Coordinate": "ポッピンマーチピンク",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-031_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-031_U.webp"
     },
@@ -64413,6 +64763,8 @@
       "Coordinate": "クラシックヴァイオリンブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-032_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-032_U.webp"
     },
@@ -64423,6 +64775,8 @@
       "Coordinate": "ふっくらパン",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-033_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-033_U.webp"
     },
@@ -64433,6 +64787,8 @@
       "Coordinate": "ふっくらパン",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-034_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-034_U.webp"
     },
@@ -64443,6 +64799,8 @@
       "Coordinate": "ふっくらパン",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-035_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-035_U.webp"
     },
@@ -64453,6 +64811,8 @@
       "Coordinate": "あめぽつぽつパープル",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-036_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-036_U.webp"
     },
@@ -64463,6 +64823,8 @@
       "Coordinate": "あめぽつぽつパープル",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-037_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-037_U.webp"
     },
@@ -64473,6 +64835,8 @@
       "Coordinate": "ひまわりサマーレッド",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-038_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-038_U.webp"
     },
@@ -64483,6 +64847,8 @@
       "Coordinate": "ワンダーランドブルー",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-039_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-039_U.webp"
     },
@@ -64493,6 +64859,8 @@
       "Coordinate": "アメリカンダイナー",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-040_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-040_U.webp"
     },
@@ -64503,6 +64871,8 @@
       "Coordinate": "アメリカンダイナー",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "勇気のはばたきサイン",
+      "SongId": 79,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-041_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-041_U.webp"
     },
@@ -64513,6 +64883,8 @@
       "Coordinate": "おねがいパティシエール ハローキティ",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-042_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-042_U.webp"
     },
@@ -64523,6 +64895,8 @@
       "Coordinate": "おねがいパティシエール シナモロール",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-043_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-043_U.webp"
     },
@@ -64533,6 +64907,8 @@
       "Coordinate": "おねがいパティシエール けろけろけろっぴ",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-044_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-044_U.webp"
     },
@@ -64543,6 +64919,8 @@
       "Coordinate": "おねがいパティシエール ポムポムプリン",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-045_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-045_U.webp"
     },
@@ -64553,6 +64931,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-046_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-046_U.webp"
     },
@@ -64563,6 +64943,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-047_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-047_U.webp"
     },
@@ -64573,6 +64955,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-048_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-048_U.webp"
     },
@@ -64583,6 +64967,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-049_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-049_U.webp"
     },
@@ -64593,6 +64979,8 @@
       "Coordinate": "ワッペンデニム",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-050_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-050_U.webp"
     },
@@ -64603,6 +64991,8 @@
       "Coordinate": "ワッペンデニム",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-051_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-051_U.webp"
     },
@@ -64613,6 +65003,8 @@
       "Coordinate": "ワッペンパーカー",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-052_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-052_U.webp"
     },
@@ -64623,6 +65015,8 @@
       "Coordinate": "ワッペンパーカー",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-053_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-053_U.webp"
     },
@@ -64633,6 +65027,8 @@
       "Coordinate": "フレッシュフラワーピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-054_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-054_U.webp"
     },
@@ -64643,6 +65039,8 @@
       "Coordinate": "チューリップビタミンイエロー",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "勇気のはばたきサイン",
+      "SongId": 79,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-055_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-055_U.webp"
     },
@@ -64653,6 +65051,8 @@
       "Coordinate": "レトロガールカナリア",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-056_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-056_U.webp"
     },
@@ -64663,6 +65063,8 @@
       "Coordinate": "アクティブダンスイエロー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-057_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-057_U.webp"
     },
@@ -65818,6 +66220,10 @@
       "Coordinate": "リボンバレリーナオーロラピンク",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
+      "Star": 4,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-001_U.webp"
     },
@@ -65828,6 +66234,10 @@
       "Coordinate": "リボンバレリーナオーロラピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Star": 4,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-002_U.webp"
     },
@@ -65838,6 +66248,10 @@
       "Coordinate": "リボンバレリーナオーロラピンク",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
+      "Star": 4,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-003_U.webp"
     },
@@ -65848,6 +66262,10 @@
       "Coordinate": "すきすきハートバズリウムパープル",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Star": 4,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-005_U.webp"
     },
@@ -65858,6 +66276,10 @@
       "Coordinate": "ブルーソーダ",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-006_U.webp"
     },
@@ -65868,6 +66290,10 @@
       "Coordinate": "ブルーソーダ",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-007_U.webp"
     },
@@ -65878,6 +66304,10 @@
       "Coordinate": "ブルーソーダ",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-008_U.webp"
     },
@@ -65888,6 +66318,10 @@
       "Coordinate": "いたずらモンスター",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-009_U.webp"
     },
@@ -65898,6 +66332,9 @@
       "Coordinate": "いたずらモンスター",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-010_U.webp"
     },
@@ -65908,6 +66345,10 @@
       "Coordinate": "ローズプリンス",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-011_U.webp"
     },
@@ -65918,6 +66359,10 @@
       "Coordinate": "ローズプリンス",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-012_U.webp"
     },
@@ -65928,6 +66373,10 @@
       "Coordinate": "リトルプリンセス",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-013_U.webp"
     },
@@ -65938,6 +66387,10 @@
       "Coordinate": "リトルプリンセス",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
+      "Star": 3,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG1-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG1-014_U.webp"
     },
@@ -66789,6 +67242,8 @@
       "Coordinate": "ハピネスキューピッド",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/millefeui/OM1-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/millefeui/OM1-001_U.webp"
     },
@@ -66799,6 +67254,8 @@
       "Coordinate": "ハピネスバタフライ",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Image1Url": "https://aipri.jp/card/img/millefeui/OM1-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/millefeui/OM1-002_U.webp"
     },
@@ -66819,6 +67276,8 @@
       "Coordinate": "フラワーエプロングリーン",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/millefeui/OM1-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/millefeui/OM1-004_U.webp"
     },
@@ -66829,6 +67288,8 @@
       "Coordinate": "にゃんにゃんロリータブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
       "Image1Url": "https://aipri.jp/card/img/millefeui/OM1-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/millefeui/OM1-005_U.webp"
     },
@@ -66839,6 +67300,8 @@
       "Coordinate": "うさぎぬいぐるみオレンジ",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
       "Image1Url": "https://aipri.jp/card/img/millefeui/OM1-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/millefeui/OM1-006_U.webp"
     },
@@ -66849,6 +67312,8 @@
       "Coordinate": "レディーフライトピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/millefeui/OM1-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/millefeui/OM1-007_U.webp"
     },
@@ -66859,6 +67324,8 @@
       "Coordinate": "アイプリバースフューチャースクールクールパープル",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Image1Url": "https://aipri.jp/card/img/millefeui/OM1-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/millefeui/OM1-008_U.webp"
     },
@@ -66880,7 +67347,7 @@
       "Id": 1066,
       "ChapterId": "special",
       "SealId": "P-257",
-      "Coordinate": "ゆうじょうさくらツイン\u3000パープル",
+      "Coordinate": "ゆうじょうさくらツイン パープル",
       "Character": "ひまり",
       "CharacterId": 1,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/P-257_O.webp"
@@ -66889,7 +67356,7 @@
       "Id": 1060,
       "ChapterId": "special",
       "SealId": "P-256",
-      "Coordinate": "ゆうじょうさくらツイン\u3000グリーン",
+      "Coordinate": "ゆうじょうさくらツイン グリーン",
       "Character": "つむぎ",
       "CharacterId": 4,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/P-256_O.webp"
@@ -68971,6 +69438,8 @@
       "Coordinate": "たなばたおねがいミント",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/special/OP-026_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-026_U.webp"
     },
@@ -68981,6 +69450,8 @@
       "Coordinate": "シールぺったんチアホワイトブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
       "Image1Url": "https://aipri.jp/card/img/special/OP-025_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-025_U.webp"
     },
@@ -68991,6 +69462,8 @@
       "Coordinate": "きらめきティアラリボン",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
       "Image1Url": "https://aipri.jp/card/img/special/OP-024_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-024_U.webp"
     },
@@ -69001,6 +69474,8 @@
       "Coordinate": "シナモロール なかよしドリーム",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-019_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-019_U.webp"
     },
@@ -69011,6 +69486,8 @@
       "Coordinate": "ハローキティ なかよしラブリー",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-018_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-018_U.webp"
     },
@@ -69021,6 +69498,8 @@
       "Coordinate": "フォーチュおやすみ",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-017_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-017_U.webp"
     },
@@ -69031,6 +69510,8 @@
       "Coordinate": "フォーチュおやすみ",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-016_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-016_U.webp"
     },
@@ -69041,6 +69522,8 @@
       "Coordinate": "きらめきティアラリボン",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-014_U.webp"
     },
@@ -69051,6 +69534,8 @@
       "Coordinate": "おねがいパティシエール ハローキティ",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "なかよしParty!",
+      "SongId": 83,
       "Image1Url": "https://aipri.jp/card/img/special/OP-033_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-033_U.webp"
     },
@@ -69071,6 +69556,8 @@
       "Coordinate": "やきたてクッキーいちごミルク",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
       "Image1Url": "https://aipri.jp/card/img/special/OP-021_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-021_U.webp"
     },
@@ -69081,6 +69568,8 @@
       "Coordinate": "すきすきハートバズリウム",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/special/OP-022_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-022_U.webp"
     },
@@ -69091,6 +69580,8 @@
       "Coordinate": "ほしのゆうびんやさんイエロー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
       "Image1Url": "https://aipri.jp/card/img/special/OP-015_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-015_U.webp"
     },
@@ -69111,6 +69602,8 @@
       "Coordinate": "トキメキトゥインクルグリーン",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "フレフレベストフレンズ",
+      "SongId": 76,
       "Image1Url": "https://aipri.jp/card/img/special/OP-018_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-018_U.webp"
     },
@@ -69121,6 +69614,8 @@
       "Coordinate": "すきのクリスタルいのりピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
       "Image1Url": "https://aipri.jp/card/img/special/OP-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-014_U.webp"
     },
@@ -69131,6 +69626,8 @@
       "Coordinate": "プリズムハートパープル",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-015_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-015_U.webp"
     },
@@ -69141,6 +69638,8 @@
       "Coordinate": "リボンアイドルパステル",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-005_U.webp"
     },
@@ -69151,6 +69650,8 @@
       "Coordinate": "リボンアイドルパステル",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-004_U.webp"
     },
@@ -69161,6 +69662,8 @@
       "Coordinate": "アイプリゆめゆめブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-003_U.webp"
     },
@@ -69171,6 +69674,8 @@
       "Coordinate": "アイプリすきすきレッド",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-002_U.webp"
     },
@@ -69181,6 +69686,8 @@
       "Coordinate": "プリズムハートブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "夢色ビリーバー",
+      "SongId": 74,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-001_U.webp"
     },
@@ -69191,6 +69698,8 @@
       "Coordinate": "プリズムハートピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！",
+      "SongId": 72,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-000_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-000_U.webp"
     }

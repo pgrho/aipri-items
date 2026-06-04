@@ -6,6 +6,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
     xmlns:bs4="http://schema.shipwreck.jp/bootstrap-controls/"
+    xmlns:sys="clr-namespace:System;assembly=netstandard"
     xmlns:vmu="http://schema.shipwreck.jp/viewmodel-utils/"
     xmlns:v="clr-namespace:Shipwreck.Aipri.CustomEditor"
     mc:Ignorable="d"
@@ -13,164 +14,442 @@
     Height="450"
     Width="800"
     d:DataContext="{d:DesignInstance Type=v:MainWindowViewModel, IsDesignTimeCreatable=False}">
-    <TabControl>
-        <TabItem
-            Header="プリフォト">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition />
-                    <RowDefinition
-                        Height="Auto" />
-                </Grid.RowDefinitions>
-                <DataGrid
-                    AutoGenerateColumns="False"
-                    ItemsSource="{Binding Coordinates}">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn
-                            Header="弾"
-                            Binding="{Binding NewChapter}" />
-                        <DataGridTextColumn
-                            Header="Id"
-                            Binding="{Binding NewId}" />
-                        <DataGridTextColumn
-                            Header="☆"
-                            Binding="{Binding NewStar}" />
-                        <DataGridTextColumn
-                            Header="コーデ"
-                            Binding="{Binding NewName}" />
-                        <DataGridTextColumn
-                            Header="分類"
-                            Binding="{Binding NewGroup}" />
-                        <DataGridTextColumn
-                            Header="種別"
-                            Binding="{Binding NewKind}" />
-                        <DataGridTextColumn
-                            Header="ブランド"
-                            Binding="{Binding NewBrand}" />
-                        <DataGridTextColumn
-                            Header="開始"
-                            Binding="{Binding NewStart, StringFormat=yy-MM-dd}" />
-                        <DataGridTextColumn
-                            Header="終了"
-                            Binding="{Binding NewEnd, StringFormat=yy-MM-dd}" />
-                        <DataGridTextColumn
-                            Header="種類1"
-                            Binding="{Binding Item1.NewCategory}" />
-                        <DataGridTextColumn
-                            Header="ID1"
-                            Binding="{Binding Item1.NewId}" />
-                        <DataGridCheckBoxColumn
-                            Header="セット"
-                            Binding="{Binding Item1.NewSet, UpdateSourceTrigger=PropertyChanged}" />
-                        <DataGridTextColumn
-                            Header="種類2"
-                            Binding="{Binding Item2.NewCategory}" />
-                        <DataGridTextColumn
-                            Header="ID2"
-                            Binding="{Binding Item2.NewId}" />
-                        <DataGridCheckBoxColumn
-                            Header="セット"
-                            Binding="{Binding Item2.NewSet, UpdateSourceTrigger=PropertyChanged}" />
-                        <DataGridTextColumn
-                            Header="種類3"
-                            Binding="{Binding Item3.NewCategory}" />
-                        <DataGridTextColumn
-                            Header="ID3"
-                            Binding="{Binding Item3.NewId}" />
-                        <DataGridCheckBoxColumn
-                            Header="セット"
-                            Binding="{Binding Item3.NewSet, UpdateSourceTrigger=PropertyChanged}" />
-                        <DataGridTextColumn
-                            Header="種類4"
-                            Binding="{Binding Item4.NewCategory}" />
-                        <DataGridTextColumn
-                            Header="ID4"
-                            Binding="{Binding Item4.NewId}" />
-                        <DataGridCheckBoxColumn
-                            Header="セット"
-                            Binding="{Binding Item4.NewSet, UpdateSourceTrigger=PropertyChanged}" />
+    <vmu:FrameworkWindow.Resources>
+        <ContentPresenter
+            x:Key="dataContextPresenter"
+            Visibility="Collapsed"
+            Content="{Binding}" />
+    </vmu:FrameworkWindow.Resources>
+    <Grid>
+        <StaticResource
+            ResourceKey="dataContextPresenter" />
 
-                    </DataGrid.Columns>
-                </DataGrid>
-                <WrapPanel
-                    Grid.Row="1"
-                    Orientation="Horizontal">
-                    <Button
-                        Style="{StaticResource CommandViewModel.Button.Medium}"
-                        DataContext="{Binding AddNewCoordinateCommand}" />
-                    <Button
-                        Style="{StaticResource CommandViewModel.Button.Medium}"
-                        DataContext="{Binding SaveCoordinatesCommand}" />
-                </WrapPanel>
-            </Grid>
-        </TabItem>
-        <TabItem
-            Header="カード">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition />
-                    <RowDefinition
-                        Height="Auto" />
-                </Grid.RowDefinitions>
-                <DataGrid
-                    AutoGenerateColumns="False"
-                    ItemsSource="{Binding Cards}">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn
-                            Header="弾"
-                            Binding="{Binding NewChapter}" />
-                        <DataGridTextColumn
-                            Header="コード"
-                            Binding="{Binding NewSealId}" />
-                        <DataGridTextColumn
-                            Header="Id"
-                            Binding="{Binding NewId}" />
-                        <DataGridTextColumn
-                            Header="順序"
-                            Binding="{Binding NewOrder}" />
-                        <DataGridTextColumn
-                            Header="コーデ"
-                            Binding="{Binding NewCoordinate}" />
-                        <DataGridTextColumn
-                            Header="キャラ"
-                            Binding="{Binding NewCharacter}" />
-                        <DataGridTextColumn
-                            Header="種類"
-                            Binding="{Binding NewVariant}" />
-                        <DataGridTextColumn
-                            Header="曲"
-                            Binding="{Binding NewSong}" />
-                        <DataGridTextColumn
-                            Header="BP"
-                            Binding="{Binding NewPoint}" />
-                        <DataGridTextColumn
-                            Header="☆"
-                            Binding="{Binding NewStar}" />
-                        <DataGridCheckBoxColumn
-                            Header="チャンス"
-                            Binding="{Binding NewChance, UpdateSourceTrigger=PropertyChanged}" />
-                        <DataGridTextColumn
-                            Header="ブランド"
-                            Binding="{Binding NewBrand}" />
-                        <DataGridTextColumn
-                            Header="画像1"
-                            Binding="{Binding NewImage1}" />
-                        <DataGridTextColumn
-                            Header="画像2"
-                            Binding="{Binding NewImage2}" />
-                    </DataGrid.Columns>
-                </DataGrid>
-                <WrapPanel
-                    Grid.Row="1"
-                    Orientation="Horizontal">
-                    <Button
-                        Style="{StaticResource CommandViewModel.Button.Medium}"
-                        DataContext="{Binding AddNewCardCommand}" />
-                    <Button
-                        Style="{StaticResource CommandViewModel.Button.Medium}"
-                        DataContext="{Binding SaveCardsCommand}" />
-                </WrapPanel>
-            </Grid>
-        </TabItem>
-    </TabControl>
+        <TabControl>
+            <TabItem
+                Header="プリフォト">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+                            Height="Auto" />
+                        <RowDefinition />
+                        <RowDefinition
+                            Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBox
+                        Text="{Binding CoordinateFilter, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGrid
+                        Grid.Row="1"
+                        AutoGenerateColumns="False"
+                        ItemsSource="{Binding FilteredCoordinates}">
+                        <DataGrid.Columns>
+                            <DataGridComboBoxColumn
+                                Header="弾"
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.VerseChapters}"
+                                DisplayMemberPath="Name"
+                                SelectedValuePath="Id"
+                                SelectedValueBinding="{Binding NewChapter}">
+                                <DataGridComboBoxColumn.ElementStyle>
+                                    <Style
+                                        TargetType="ComboBox"
+                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid}">
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsChapterChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.ElementStyle>
+                                <DataGridComboBoxColumn.EditingElementStyle>
+                                    <Style
+                                        TargetType="ComboBox"
+                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid.Editing}">
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsChapterChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.EditingElementStyle>
+                            </DataGridComboBoxColumn>
+                            <DataGridTextColumn
+                                Header="Id"
+                                Binding="{Binding NewId}" />
+                            <DataGridComboBoxColumn
+                                Header="☆"
+                                SelectedItemBinding="{Binding NewStar}">
+                                <DataGridComboBoxColumn.ItemsSource>
+                                    <x:Array
+                                        Type="sys:Int32">
+                                        <sys:Int32>4</sys:Int32>
+                                        <sys:Int32>3</sys:Int32>
+                                        <sys:Int32>2</sys:Int32>
+                                        <sys:Int32>0</sys:Int32>
+                                    </x:Array>
+                                </DataGridComboBoxColumn.ItemsSource>
+                                <DataGridComboBoxColumn.ElementStyle>
+                                    <Style
+                                        TargetType="ComboBox"
+                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid}">
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsStarChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.ElementStyle>
+                                <DataGridComboBoxColumn.EditingElementStyle>
+                                    <Style
+                                        TargetType="ComboBox"
+                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid.Editing}">
+                                        <Setter
+                                            Property="IsEditable"
+                                            Value="True" />
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsStarChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.EditingElementStyle>
+                            </DataGridComboBoxColumn>
+                            <DataGridTextColumn
+                                Header="コーデ"
+                                Binding="{Binding NewName}">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style
+                                        TargetType="TextBlock"
+                                        BasedOn="{StaticResource MahApps.Styles.TextBlock.DataGrid}">
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsNameChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                                <DataGridTextColumn.EditingElementStyle>
+                                    <Style
+                                        TargetType="TextBox"
+                                        BasedOn="{StaticResource MahApps.Styles.TextBox.DataGrid.Editing}">
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsNameChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridTextColumn.EditingElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn
+                                Header="分類"
+                                Binding="{Binding NewGroup}" />
+                            <DataGridTextColumn
+                                Header="種別"
+                                Binding="{Binding NewKind}" />
+                            <DataGridTextColumn
+                                Header="ブランド"
+                                Binding="{Binding NewBrand}" />
+                            <DataGridTextColumn
+                                Header="開始"
+                                Binding="{Binding NewStart, StringFormat=yy-MM-dd}" />
+                            <DataGridTextColumn
+                                Header="終了"
+                                Binding="{Binding NewEnd, StringFormat=yy-MM-dd}" />
+                            <DataGridTextColumn
+                                Header="種類1"
+                                Binding="{Binding Item1.NewCategory}" />
+                            <DataGridTextColumn
+                                Header="ID1"
+                                Binding="{Binding Item1.NewId}" />
+                            <DataGridCheckBoxColumn
+                                Header="セット"
+                                Binding="{Binding Item1.NewSet, UpdateSourceTrigger=PropertyChanged}" />
+                            <DataGridTextColumn
+                                Header="種類2"
+                                Binding="{Binding Item2.NewCategory}" />
+                            <DataGridTextColumn
+                                Header="ID2"
+                                Binding="{Binding Item2.NewId}" />
+                            <DataGridCheckBoxColumn
+                                Header="セット"
+                                Binding="{Binding Item2.NewSet, UpdateSourceTrigger=PropertyChanged}" />
+                            <DataGridTextColumn
+                                Header="種類3"
+                                Binding="{Binding Item3.NewCategory}" />
+                            <DataGridTextColumn
+                                Header="ID3"
+                                Binding="{Binding Item3.NewId}" />
+                            <DataGridCheckBoxColumn
+                                Header="セット"
+                                Binding="{Binding Item3.NewSet, UpdateSourceTrigger=PropertyChanged}" />
+                            <DataGridTextColumn
+                                Header="種類4"
+                                Binding="{Binding Item4.NewCategory}" />
+                            <DataGridTextColumn
+                                Header="ID4"
+                                Binding="{Binding Item4.NewId}" />
+                            <DataGridCheckBoxColumn
+                                Header="セット"
+                                Binding="{Binding Item4.NewSet, UpdateSourceTrigger=PropertyChanged}" />
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <WrapPanel
+                        Grid.Row="2"
+                        Orientation="Horizontal">
+                        <Button
+                            Style="{StaticResource CommandViewModel.Button.Medium}"
+                            DataContext="{Binding AddNewCoordinateCommand}" />
+                        <Button
+                            Style="{StaticResource CommandViewModel.Button.Medium}"
+                            DataContext="{Binding SaveCoordinatesCommand}" />
+                    </WrapPanel>
+                </Grid>
+            </TabItem>
+            <TabItem
+                Header="カード">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+                            Height="Auto" />
+                        <RowDefinition />
+                        <RowDefinition
+                            Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBox
+                        Text="{Binding CardFilter, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGrid
+                        Grid.Row="1"
+                        AutoGenerateColumns="False"
+                        ItemsSource="{Binding FilteredCards}">
+                        <DataGrid.Columns>
+                            <DataGridComboBoxColumn
+                                Header="弾"
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.HimitsuChapters}"
+                                DisplayMemberPath="Name"
+                                SelectedValuePath="Id"
+                                SelectedValueBinding="{Binding NewChapter}">
+                                <DataGridComboBoxColumn.ElementStyle>
+                                    <Style
+                                        TargetType="ComboBox"
+                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid}">
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsChapterChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.ElementStyle>
+                                <DataGridComboBoxColumn.EditingElementStyle>
+                                    <Style
+                                        TargetType="ComboBox"
+                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid.Editing}">
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsChapterChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.EditingElementStyle>
+                            </DataGridComboBoxColumn>
+                            <DataGridTextColumn
+                                Header="コード"
+                                Binding="{Binding NewSealId}" />
+                            <DataGridTextColumn
+                                Header="Id"
+                                Binding="{Binding NewId}" />
+                            <DataGridTextColumn
+                                Header="順序"
+                                Binding="{Binding NewOrder}" />
+                            <DataGridTextColumn
+                                Header="コーデ"
+                                Binding="{Binding NewCoordinate}" />
+                            <DataGridTextColumn
+                                Header="キャラ"
+                                Binding="{Binding NewCharacter}" />
+                            <DataGridTextColumn
+                                Header="種類"
+                                Binding="{Binding NewVariant}" />
+
+                            <DataGridComboBoxColumn
+                                Header="曲"
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.Songs}"
+                                SelectedItemBinding="{Binding NewSong}">
+                                <DataGridComboBoxColumn.ElementStyle>
+                                    <Style
+                                        TargetType="ComboBox"
+                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid}">
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsSongChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.ElementStyle>
+                                <DataGridComboBoxColumn.EditingElementStyle>
+                                    <Style
+                                        TargetType="ComboBox"
+                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid.Editing}">
+                                        <Setter
+                                            Property="IsEditable"
+                                            Value="True" />
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsSongChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.EditingElementStyle>
+                            </DataGridComboBoxColumn>
+                            <DataGridTextColumn
+                                Header="BP"
+                                Binding="{Binding NewPoint}" />
+                            <DataGridComboBoxColumn
+                                Header="☆"
+                                SelectedItemBinding="{Binding NewStar}">
+                                <DataGridComboBoxColumn.ItemsSource>
+                                    <x:Array
+                                        Type="sys:Int32">
+                                        <sys:Int32>4</sys:Int32>
+                                        <sys:Int32>3</sys:Int32>
+                                        <sys:Int32>2</sys:Int32>
+                                        <sys:Int32>0</sys:Int32>
+                                    </x:Array>
+                                </DataGridComboBoxColumn.ItemsSource>
+                                <DataGridComboBoxColumn.ElementStyle>
+                                    <Style
+                                        TargetType="ComboBox"
+                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid}">
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsStarChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.ElementStyle>
+                                <DataGridComboBoxColumn.EditingElementStyle>
+                                    <Style
+                                        TargetType="ComboBox"
+                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid.Editing}">
+                                        <Setter
+                                            Property="IsEditable"
+                                            Value="True" />
+                                        <Style.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsStarChanged}"
+                                                Value="True">
+                                                <Setter
+                                                    Property="Foreground"
+                                                    Value="Red" />
+                                                <Setter
+                                                    Property="FontWeight"
+                                                    Value="Bold" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.EditingElementStyle>
+                            </DataGridComboBoxColumn>
+                            <DataGridCheckBoxColumn
+                                Header="チャンス"
+                                Binding="{Binding NewChance, UpdateSourceTrigger=PropertyChanged}" />
+                            <DataGridTextColumn
+                                Header="ブランド"
+                                Binding="{Binding NewBrand}" />
+                            <DataGridTextColumn
+                                Header="画像1"
+                                Binding="{Binding NewImage1}" />
+                            <DataGridTextColumn
+                                Header="画像2"
+                                Binding="{Binding NewImage2}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <WrapPanel
+                        Grid.Row="2"
+                        Orientation="Horizontal">
+                        <Button
+                            Style="{StaticResource CommandViewModel.Button.Medium}"
+                            DataContext="{Binding AddNewCardCommand}" />
+                        <Button
+                            Style="{StaticResource CommandViewModel.Button.Medium}"
+                            DataContext="{Binding SaveCardsCommand}" />
+                    </WrapPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
 </vmu:FrameworkWindow>

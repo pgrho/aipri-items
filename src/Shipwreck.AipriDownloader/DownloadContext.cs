@@ -942,7 +942,7 @@ public sealed class DownloadContext : IDisposable
         if (cor.Exists)
         {
             using var fs = cor.OpenRead();
-            using var sr = new StreamReader(fs, Encoding.GetEncoding(932));
+            using var sr = new StreamReader(fs, Encoding.UTF8);
 
             var header = await sr.ReadLineAsync().ConfigureAwait(false);
 

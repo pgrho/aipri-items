@@ -11,4 +11,7 @@
 		<ItemGroup>
 				<PackageReference Include="Shipwreck.ViewModelUtils.PresentationFramework" Version="$(_ViewModelUtilsVersion)" />
 		</ItemGroup>
+		<ItemGroup>
+		  <ProjectReference Include="..\Shipwreck.Aipri\Shipwreck.Aipri.csproj" />
+		</ItemGroup>
 </Project>

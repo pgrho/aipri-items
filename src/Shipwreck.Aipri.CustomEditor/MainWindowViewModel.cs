@@ -1,6 +1,8 @@
 ﻿using System.Data;
 using System.Runtime.CompilerServices;
+using System.Text.Json;
 using Shipwreck.ViewModelUtils;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace Shipwreck.Aipri.CustomEditor;
 
@@ -11,14 +13,140 @@ public sealed class MainWindowViewModel : WindowViewModel
         Window = window;
     }
 
-    private string GetCustomDirectory([CallerFilePath] string path = "")
-        => new Uri(new Uri(path), "../../custom").LocalPath;
+    private string GetCustomDirectory([CallerFilePath] string path = "", string relativePath = "../../custom")
+        => new Uri(new Uri(path), relativePath).LocalPath;
+
+    #region マスター
+
+    private Task<AipriDataSet>? _DataSetTask;
+
+    private Task<AipriDataSet> GetDataSetAsync()
+    {
+        if (_DataSetTask?.Status switch
+        {
+            null => true,
+            TaskStatus.Faulted => true,
+            TaskStatus.Canceled => true,
+            _ => false
+        })
+        {
+            async Task<AipriDataSet> load()
+            {
+                try
+                {
+                    var fi = new FileInfo(GetCustomDirectory(relativePath: "../../output/data.json"));
+
+                    if (fi.Exists)
+                    {
+                        using var fs = fi.OpenRead();
+                        return JsonSerializer.Deserialize<AipriDataSet>(fs)!;
+                    }
+                }
+                catch
+                {
+                }
+                return new();
+            }
+            _DataSetTask = load();
+        }
+        return _DataSetTask!;
+    }
+
+    #region VerseChapters
+
+    private BulkUpdateableCollection<Chapter>? _VerseChapters;
+
+    public BulkUpdateableCollection<Chapter> VerseChapters
+    {
+        get
+        {
+            if (_VerseChapters == null)
+            {
+                _VerseChapters = new();
+                async void load()
+                {
+                    try
+                    {
+                        var t = await GetDataSetAsync();
+                        _VerseChapters.SetIfNeeded(t.VerseChapters.Prepend(new() { Id = string.Empty }).ToList());
+                    }
+                    catch { }
+                }
+                load();
+            }
+
+            return _VerseChapters;
+        }
+    }
+
+    #endregion VerseChapters
+
+    #region HimitsuChapters
+
+    private BulkUpdateableCollection<Chapter>? _HimitsuChapters;
+
+    public BulkUpdateableCollection<Chapter> HimitsuChapters
+    {
+        get
+        {
+            if (_HimitsuChapters == null)
+            {
+                _HimitsuChapters = new();
+                async void load()
+                {
+                    try
+                    {
+                        var t = await GetDataSetAsync();
+                        _HimitsuChapters.SetIfNeeded(t.HimitsuChapters.Prepend(new() { Id = string.Empty }).ToList());
+                    }
+                    catch { }
+                }
+                load();
+            }
+
+            return _HimitsuChapters;
+        }
+    }
+
+    #endregion HimitsuChapters
+
+    #region Songs
+
+    private BulkUpdateableCollection<string>? _Songs;
+
+    public BulkUpdateableCollection<string> Songs
+    {
+        get
+        {
+            if (_Songs == null)
+            {
+                _Songs = new();
+                async void load()
+                {
+                    try
+                    {
+                        var t = await GetDataSetAsync();
+                        _Songs.SetIfNeeded(t.Songs.Select(e => e.Name ?? string.Empty).Prepend(string.Empty).ToList());
+                    }
+                    catch { }
+                }
+                load();
+            }
+
+            return _Songs;
+        }
+    }
+
+    #endregion Songs
+
+    #endregion マスター
 
     #region プリフォト
 
     #region Coordinates
 
     private BulkUpdateableCollection<CoordinateViewModel>? _Coordinates;
+    private BulkUpdateableCollection<CoordinateViewModel>? _FilteredCoordinates;
 
     public BulkUpdateableCollection<CoordinateViewModel> Coordinates
     {
@@ -27,9 +155,22 @@ public sealed class MainWindowViewModel : WindowViewModel
             if (_Coordinates == null)
             {
                 _Coordinates = new();
+                _FilteredCoordinates = new();
                 LoadCoordinatesAsync().GetHashCode();
             }
             return _Coordinates;
+        }
+    }
+
+    public BulkUpdateableCollection<CoordinateViewModel> FilteredCoordinates
+    {
+        get
+        {
+            if (_FilteredCoordinates == null)
+            {
+                Coordinates.GetHashCode();
+            }
+            return _FilteredCoordinates!;
         }
     }
 
@@ -38,6 +179,8 @@ public sealed class MainWindowViewModel : WindowViewModel
         async Task<List<CoordinateViewModel>> load()
         {
             var list = new List<CoordinateViewModel>();
+
+            var ds = await GetDataSetAsync();
 
             var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_Coordinates.tsv"));
             if (cor.Exists)
@@ -156,11 +299,45 @@ public sealed class MainWindowViewModel : WindowViewModel
             {
                 Coordinates.Add(e);
             }
+            InvalidateCoordinateFilter();
         }
         catch { }
     }
 
     #endregion Coordinates
+
+    #region CoordinateFilter
+
+    private string _CoordinateFilter = string.Empty;
+
+    public string CoordinateFilter
+    {
+        get => _CoordinateFilter;
+        set
+        {
+            if (SetProperty(ref _CoordinateFilter, value?.Trim() ?? string.Empty))
+            {
+                InvalidateCoordinateFilter();
+            }
+        }
+    }
+
+    private void InvalidateCoordinateFilter()
+    {
+        var f = _CoordinateFilter;
+        if (string.IsNullOrEmpty(f))
+        {
+            FilteredCoordinates.SetIfNeeded(Coordinates);
+        }
+        else
+        {
+            FilteredCoordinates.SetIfNeeded(
+                Coordinates.Where(e => e.NewKind?.Contains(f, StringComparison.CurrentCultureIgnoreCase) == true || e.NewName?.Contains(f, StringComparison.CurrentCultureIgnoreCase) == true)
+                .ToList());
+        }
+    }
+
+    #endregion CoordinateFilter
 
     #region AddNewCoordinateCommand
 
@@ -322,6 +499,7 @@ public sealed class MainWindowViewModel : WindowViewModel
     #region Cards
 
     private BulkUpdateableCollection<CardViewModel>? _Cards;
+    private BulkUpdateableCollection<CardViewModel>? _FilteredCards;
 
     public BulkUpdateableCollection<CardViewModel> Cards
     {
@@ -330,9 +508,22 @@ public sealed class MainWindowViewModel : WindowViewModel
             if (_Cards == null)
             {
                 _Cards = new();
+                _FilteredCards = new();
                 LoadCardsAsync().GetHashCode();
             }
             return _Cards;
+        }
+    }
+
+    public BulkUpdateableCollection<CardViewModel> FilteredCards
+    {
+        get
+        {
+            if (_FilteredCards == null)
+            {
+                Cards.GetHashCode();
+            }
+            return _FilteredCards!;
         }
     }
 
@@ -346,7 +537,7 @@ public sealed class MainWindowViewModel : WindowViewModel
             if (cor.Exists)
             {
                 using var fs = cor.OpenRead();
-                using var sr = new StreamReader(fs, Encoding.GetEncoding(932));
+                using var sr = new StreamReader(fs, Encoding.UTF8);
 
                 var header = await sr.ReadLineAsync().ConfigureAwait(false);
 
@@ -401,6 +592,55 @@ public sealed class MainWindowViewModel : WindowViewModel
                     }
                 }
             }
+
+            var ds = await GetDataSetAsync();
+            var bs = ds.Brands.ToDictionary(e => e.Id);
+
+            foreach (var c in ds.Cards)
+            {
+                if (string.IsNullOrEmpty(c.SealId))
+                {
+                    continue;
+                }
+
+                var t = list.FirstOrDefault(e => e.NewKey switch
+                {
+                    CoordinateKey.Id => e.NewId == c.Id,
+                    CoordinateKey.SealId => e.NewSealId == c.SealId,
+                    _ => false
+                });
+
+                if (t == null)
+                {
+                    var data = new CardViewModel()
+                    {
+                        NewKey = CoordinateKey.SealId,
+                        NewId = c.Id,
+                        NewChapter = c.ChapterId ?? string.Empty,
+                        NewSealId = c.SealId,
+                        NewOrder = c.Order < int.MaxValue ? c.Order : 0,
+                        NewCoordinate = c.Coordinate,
+                        NewCharacter = c.Character ?? string.Empty,
+                        NewVariant = c.Variant ?? string.Empty,
+                        NewSong = c.Song ?? string.Empty,
+                        NewPoint = c.Point,
+                        NewStar = c.Star,
+                        NewChance = c.IsChance,
+                        NewBrand = bs.TryGetValue(c.BrandId ?? 0, out var b) ? b.Name : c.BrandId?.ToString() ?? string.Empty,
+                        NewImage1 = c.Image1Url ?? string.Empty,
+                        NewImage2 = c.Image2Url ?? string.Empty,
+                    };
+
+                    list.Add(data);
+                }
+                else
+                {
+                    t.NewSong = c.Song.TrimOrNull() ?? t.NewSong;
+                }
+            }
+
+            list = list.OrderBy(e => e.NewKey).ThenBy(e => e.NewId).ThenBy(e => e.NewSealId).ThenBy(e => e.NewOrder).ToList();
+
             return list;
         }
 
@@ -413,11 +653,45 @@ public sealed class MainWindowViewModel : WindowViewModel
             {
                 Cards.Add(e);
             }
+            InvalidateCardFilter();
         }
         catch { }
     }
 
     #endregion Cards
+
+    #region CardFilter
+
+    private string _CardFilter = string.Empty;
+
+    public string CardFilter
+    {
+        get => _CardFilter;
+        set
+        {
+            if (SetProperty(ref _CardFilter, value?.Trim() ?? string.Empty))
+            {
+                InvalidateCardFilter();
+            }
+        }
+    }
+
+    private void InvalidateCardFilter()
+    {
+        var f = _CardFilter;
+        if (string.IsNullOrEmpty(f))
+        {
+            FilteredCards.SetIfNeeded(Cards);
+        }
+        else
+        {
+            FilteredCards.SetIfNeeded(
+                Cards.Where(e => e.NewSealId?.Contains(f, StringComparison.CurrentCultureIgnoreCase) == true || e.NewCoordinate?.Contains(f, StringComparison.CurrentCultureIgnoreCase) == true)
+                .ToList());
+        }
+    }
+
+    #endregion CardFilter
 
     #region AddNewCardCommand
 
@@ -449,7 +723,7 @@ public sealed class MainWindowViewModel : WindowViewModel
 
                     const char TAB = '\t';
                     using (var fs = new FileStream(Path.Combine(GetCustomDirectory(), "_Cards.tsv"), FileMode.Create))
-                    using (var sw = new StreamWriter(fs, Encoding.GetEncoding(932)))
+                    using (var sw = new StreamWriter(fs, Encoding.UTF8))
                     {
                         sw.Write("Key"); sw.Write(TAB);
                         sw.Write("Id"); sw.Write(TAB);
