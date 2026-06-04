@@ -17677,6 +17677,7 @@
       "Id": 9900173,
       "ChapterId": "special",
       "Name": "ゆきうさぎケープミルキーピンク",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -17932,6 +17933,7 @@
       "ChapterId": "special",
       "Name": "リボンバレリーナしんかいネイビー",
       "Group": "アイプリカード コレクショングミvol.1",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -50127,8 +50129,8 @@
     },
     {
       "Id": "oa2",
-      "Name": "おねがいアイプリ 1だん",
-      "Start": "2026-06-11"
+      "Name": "おねがいアイプリ 2だん",
+      "Start": "2026-06-04"
     },
     {
       "Id": "gumi",
@@ -63407,7 +63409,7 @@
     {
       "Id": 9201001,
       "ChapterId": "oa1",
-      "SealId": "OA01-001P",
+      "SealId": "OA1-001P",
       "Coordinate": "すきすきハートバズリウム",
       "Character": "いのり",
       "CharacterId": 26,
@@ -63417,7 +63419,7 @@
     {
       "Id": 9201002,
       "ChapterId": "oa1",
-      "SealId": "OA01-003P",
+      "SealId": "OA1-003P",
       "Coordinate": "ゆめゆめスターバズリウム",
       "Character": "あおい",
       "CharacterId": 27,
@@ -63427,7 +63429,7 @@
     {
       "Id": 9201003,
       "ChapterId": "oa1",
-      "SealId": "OA01-005P",
+      "SealId": "OA1-005P",
       "Coordinate": "ゆうじょうスイーツバズリウム",
       "Character": "ぐみ",
       "CharacterId": 28,
@@ -63437,7 +63439,7 @@
     {
       "Id": 9201004,
       "ChapterId": "oa1",
-      "SealId": "OA01-013P",
+      "SealId": "OA1-013P",
       "Coordinate": "ふわふわキャット",
       "Character": "いのり",
       "CharacterId": 26,
@@ -63447,7 +63449,7 @@
     {
       "Id": 9201005,
       "ChapterId": "oa1",
-      "SealId": "OA01-015P",
+      "SealId": "OA1-015P",
       "Coordinate": "ほしのゆうびんやさん",
       "Character": "あおい",
       "CharacterId": 27,
@@ -63457,7 +63459,7 @@
     {
       "Id": 9201006,
       "ChapterId": "oa1",
-      "SealId": "OA01-020P",
+      "SealId": "OA1-020P",
       "Coordinate": "ゆうじょうさくらツイン すきすきピンク",
       "Character": "いのり",
       "CharacterId": 26,
@@ -64033,6 +64035,66 @@
       "CharacterId": 28,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1M-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1M-003_U.webp"
+    },
+    {
+      "Id": 9201008,
+      "ChapterId": "oa2",
+      "SealId": "OA2-001P",
+      "Coordinate": "ゆうきのフラワーバズリウム",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201009,
+      "ChapterId": "oa2",
+      "SealId": "OA2-005P",
+      "Coordinate": "ビリーブマーチブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201010,
+      "ChapterId": "oa2",
+      "SealId": "OA2-007P",
+      "Coordinate": "シールぺったんチアグリーン",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201011,
+      "ChapterId": "oa2",
+      "SealId": "OA2-009P",
+      "Coordinate": "キャンディポップ",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201012,
+      "ChapterId": "oa2",
+      "SealId": "OA2-013P",
+      "Coordinate": "ゆめかわレインボー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201013,
+      "ChapterId": "oa2",
+      "SealId": "OA2-022P",
+      "Coordinate": "ハッピーバースデー！ピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Variant": "パラレル",
+      "Star": 4
     },
     {
       "Id": 1160,
@@ -65915,13 +65977,19 @@
       "SealId": "",
       "Coordinate": "ゆきうさぎケープミルキーピンク",
       "Character": "つむぎ",
-      "CharacterId": 4
+      "CharacterId": 4,
+      "Star": 4,
+      "IsChance": true
     },
     {
       "Id": 9201007,
       "ChapterId": "gumi",
       "SealId": "OG1-004",
-      "Coordinate": "リボンバレリーナしんかいネイビー"
+      "Coordinate": "リボンバレリーナしんかいネイビー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Star": 4,
+      "IsChance": true
     },
     {
       "Id": 678,
@@ -68895,6 +68963,86 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1217,
+      "ChapterId": "special",
+      "SealId": "OP-026",
+      "Coordinate": "たなばたおねがいミント",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-026_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-026_U.webp"
+    },
+    {
+      "Id": 1218,
+      "ChapterId": "special",
+      "SealId": "OP-025",
+      "Coordinate": "シールぺったんチアホワイトブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-025_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-025_U.webp"
+    },
+    {
+      "Id": 1219,
+      "ChapterId": "special",
+      "SealId": "OP-024",
+      "Coordinate": "きらめきティアラリボン",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-024_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-024_U.webp"
+    },
+    {
+      "Id": 1220,
+      "ChapterId": "special",
+      "SealId": "OTOY-019",
+      "Coordinate": "シナモロール なかよしドリーム",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-019_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-019_U.webp"
+    },
+    {
+      "Id": 1221,
+      "ChapterId": "special",
+      "SealId": "OTOY-018",
+      "Coordinate": "ハローキティ なかよしラブリー",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-018_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-018_U.webp"
+    },
+    {
+      "Id": 1222,
+      "ChapterId": "special",
+      "SealId": "OTOY-017",
+      "Coordinate": "フォーチュおやすみ",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-017_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-017_U.webp"
+    },
+    {
+      "Id": 1223,
+      "ChapterId": "special",
+      "SealId": "OTOY-016",
+      "Coordinate": "フォーチュおやすみ",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-016_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-016_U.webp"
+    },
+    {
+      "Id": 1224,
+      "ChapterId": "special",
+      "SealId": "OTOY-014",
+      "Coordinate": "きらめきティアラリボン",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OTOY-014_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OTOY-014_U.webp"
     },
     {
       "Id": 1158,

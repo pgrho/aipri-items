@@ -1037,4 +1037,44 @@ public sealed class DownloadContext : IDisposable
 
         return list;
     }
+
+    public Task<List<Chapter>> EnumerateHimitsuChapterCorrection()
+        => EnumerateChapterCorrection("_HimitsuChapters.tsv");
+
+    private async Task<List<Chapter>> EnumerateChapterCorrection(string fileName)
+    {
+        var list = new List<Chapter>();
+        var cor = new FileInfo(Path.Combine(GetCustomDirectory(), fileName));
+        if (cor.Exists)
+        {
+            using var fs = cor.OpenRead();
+            using var sr = new StreamReader(fs, Encoding.GetEncoding(932));
+
+            var header = await sr.ReadLineAsync().ConfigureAwait(false);
+
+            if (header != null)
+            {
+                var ha = header.Split('\t');
+                var id = Array.IndexOf(ha, nameof(Chapter.Id));
+                var name = Array.IndexOf(ha, nameof(Chapter.Name));
+                var start = Array.IndexOf(ha, nameof(Chapter.Start));
+
+                for (var l = await sr.ReadLineAsync().ConfigureAwait(false); l != null; l = await sr.ReadLineAsync().ConfigureAwait(false))
+                {
+                    var row = l.Split('\t');
+
+                    string? read(int id)
+                        => id >= 0 ? row.ElementAtOrDefault(id).TrimOrNull() : null;
+                    list.Add(new()
+                    {
+                        Id = read(id) ?? string.Empty,
+                        Name = read(name) ?? string.Empty,
+                        Start = DateOnly.TryParse(read(start), out var d) ? d : null,
+                    });
+                }
+            }
+        }
+
+        return list;
+    }
 }

@@ -117,6 +117,16 @@ internal class Program
             }
         }
 
+        foreach (var chCor in await d.EnumerateHimitsuChapterCorrection().ConfigureAwait(false))
+        {
+            var ch = d.DataSet.HimitsuChapters.FirstOrDefault(e => e.Id == chCor.Id);
+            if (ch != null)
+            {
+                ch.Name = chCor.Name.TrimOrNull() ?? ch.Name;
+                ch.Start = chCor.Start ?? ch.Start;
+            }
+        }
+
         // 既知の誤記載を訂正する
         await FixCoordinateInfoAsync(d).ConfigureAwait(false);
         await FixCoordinateItemInfoAsync(d).ConfigureAwait(false);
@@ -730,7 +740,6 @@ internal class Program
                         }
                     }
                 }
-
             }
         }
     }
