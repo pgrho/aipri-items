@@ -1,11 +1,11 @@
 Key	Id	ChapterId	Order	SealId	Coordinate	Character	Variant	Song	Star	Point	IsChance	Brand	Image1Url	Image2Url
-Id	77			M1-001	ƒXƒvƒŠƒ“ƒOƒuƒƒbƒTƒ€	‚Ğ‚Ü‚è		P.O.P.P.Y	4	720		ƒ|ƒbƒsƒ“ƒn[ƒg		
-Id	78			M1-003	ƒoƒ^ƒtƒ‰ƒCƒ}ƒWƒbƒNƒuƒ‹[	‚İ‚Â‚«		ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	4	690		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
-Id	79			M1-004	ƒtƒ‰ƒ[ƒ`ƒ…[ƒ‹ƒXƒJ[ƒŒƒbƒg	ƒTƒNƒ‰		ƒŒƒbƒcIƒAƒCƒvƒŠiƒTƒNƒ‰j	3	540		ƒ|ƒbƒsƒ“ƒn[ƒg		
-Id	80			M1-005	ƒXƒ^[ƒƒƒfƒBƒ}ƒWƒJƒ‹	‚Ğ‚Ü‚è		P.O.P.P.Y	3	570		ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
-Id	81			M1-006	ƒnƒj[ƒr[ƒrƒrƒbƒhƒsƒ“ƒN	‚Ğ‚Ü‚è		P.O.P.P.Y	3	500		ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
-Id	82			M1-007	ƒ‰ƒuƒŠ[ƒAƒCƒhƒ‹ƒzƒƒCƒgƒuƒ‹[	‚İ‚Â‚«		ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	2	400		ƒ|ƒbƒsƒ“ƒn[ƒg		
-Id	83			M1-008	ƒN[ƒ‹ƒAƒCƒhƒ‹ƒp[ƒvƒ‹ƒuƒ‰ƒbƒN	ƒTƒNƒ‰		ƒŒƒbƒcIƒAƒCƒvƒŠiƒTƒNƒ‰j	2	450		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
+	77			M1-001	ƒXƒvƒŠƒ“ƒOƒuƒƒbƒTƒ€	‚Ğ‚Ü‚è		P.O.P.P.Y	4	720		ƒ|ƒbƒsƒ“ƒn[ƒg		
+	78			M1-003	ƒoƒ^ƒtƒ‰ƒCƒ}ƒWƒbƒNƒuƒ‹[	‚İ‚Â‚«		ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	4	690		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
+	79			M1-004	ƒtƒ‰ƒ[ƒ`ƒ…[ƒ‹ƒXƒJ[ƒŒƒbƒg	ƒTƒNƒ‰		ƒŒƒbƒcIƒAƒCƒvƒŠiƒTƒNƒ‰j	3	540		ƒ|ƒbƒsƒ“ƒn[ƒg		
+	80			M1-005	ƒXƒ^[ƒƒƒfƒBƒ}ƒWƒJƒ‹	‚Ğ‚Ü‚è		P.O.P.P.Y	3	570		ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
+	81			M1-006	ƒnƒj[ƒr[ƒrƒrƒbƒhƒsƒ“ƒN	‚Ğ‚Ü‚è		P.O.P.P.Y	3	500		ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
+	82			M1-007	ƒ‰ƒuƒŠ[ƒAƒCƒhƒ‹ƒzƒƒCƒgƒuƒ‹[	‚İ‚Â‚«		ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	2	400		ƒ|ƒbƒsƒ“ƒn[ƒg		
+	83			M1-008	ƒN[ƒ‹ƒAƒCƒhƒ‹ƒp[ƒvƒ‹ƒuƒ‰ƒbƒN	ƒTƒNƒ‰		ƒŒƒbƒcIƒAƒCƒvƒŠiƒTƒNƒ‰j	2	450		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
 	9200001	1	0.1	AP1-001P	ƒ|ƒbƒsƒ“ƒn[ƒgƒoƒYƒŠƒEƒ€	‚Ğ‚Ü‚è	ƒpƒ‰ƒŒƒ‹	P.O.P.P.Y	4	740		ƒ|ƒbƒsƒ“ƒn[ƒg	Cards/AP1-001P-1.jpg	Cards/AP1-001P-2.jpg
 	9200002	1	0.2	AP1-002P	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“ƒoƒYƒŠƒEƒ€	‚İ‚Â‚«	ƒpƒ‰ƒŒƒ‹	ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	4	740		ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“	Cards/AP1-002P-1.jpg	Cards/AP1-002P-2.jpg
 	9200003	1	0.3	AP1-003P	ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒCƒoƒYƒŠƒEƒ€	ƒTƒNƒ‰	ƒpƒ‰ƒŒƒ‹	ƒŒƒbƒcIƒAƒCƒvƒŠiƒTƒNƒ‰j	4	750		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC	Cards/AP1-003P-1.jpg	Cards/AP1-003P-2.jpg
@@ -31,14 +31,6 @@ Id	83			M1-008	ƒN[ƒ‹ƒAƒCƒhƒ‹ƒp[ƒvƒ‹ƒuƒ‰ƒbƒN	ƒTƒNƒ‰		ƒŒƒbƒcIƒAƒCƒvƒŠiƒTƒNƒ‰j
 	9200023	5	0.4	AP5-013P	‚Ò‚å‚ñ‚Ò‚å‚ñ‚¤‚³‚¬	‚Ğ‚Ü‚è	ƒpƒ‰ƒŒƒ‹	ƒpƒXƒeƒ‹ƒXƒeƒbƒvƒfƒCƒY	4	900		ƒ|ƒbƒsƒ“ƒn[ƒg	Cards/AP5-013P_O.jpg	Cards/AP5-013P_U.jpg
 	9200024	5	0.3	AP5-012P	ƒXƒyƒVƒƒƒ‹ƒNƒŠƒXƒ}ƒXƒzƒƒCƒg	‚İ‚Â‚«	ƒpƒ‰ƒŒƒ‹	ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	4	910		ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“	Cards/AP5-012P_O.jpg	Cards/AP5-012P_U.jpg
 	9200025	5	0.5	AP5-020P	ƒnƒbƒs[ƒo[ƒXƒf[I‚Â‚Ş‚¬	‚Â‚Ş‚¬	ƒpƒ‰ƒŒƒ‹	ƒnƒsƒnƒsƒnƒbƒs[™ƒ}ƒCƒo[ƒXƒf[i‚Â‚Ş‚¬j	4	888		ƒtƒ‰ƒ[ƒ}[ƒ`	Cards/AP5-020P_O.jpg	Cards/AP5-020P_U.jpg
-SealId	9200026	millefeui		TOY-042	‚¨‚Æ‚¬‚Î‚È‚µ‚©‚®‚â‚Ğ‚ß	‚Â‚Ş‚¬		We're The World	4	860		ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX		
-SealId	9200027	millefeui		TOY-043	‚¨‚Æ‚¬‚Î‚È‚µƒVƒ“ƒfƒŒƒ‰ƒsƒ“ƒN	‚Ğ‚Ü‚è		We're The World	4	860		ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX		
-SealId	9200028	millefeui		TOY-044	‚¨‚Æ‚¬‚Î‚È‚µ‚ ‚©‚¸‚«‚ñƒuƒ‹[	‚İ‚Â‚«		We're The World	4	860		ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX	Cards/M3-003.jpg	
-SealId	9200029	millefeui		TOY-045	ƒAƒCƒvƒŠƒo[ƒXƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒCƒ‰ƒuƒsƒ“ƒN	ƒTƒNƒ‰		Perfect™STARs	3	770		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
-SealId	9200030	millefeui		TOY-046	ƒAƒCƒXƒNƒŠ[ƒ€ƒOƒŒ[ƒv	ƒ`ƒB		GIRA GIRA STAR	3	720		ƒŒƒCƒ“ƒ{[ƒLƒƒƒ“ƒfƒB		
-SealId	9200031	millefeui		TOY-047	ƒ‰ƒuƒŠ\ƒAƒCƒhƒ‹ƒOƒŠ[ƒ“ƒIƒŒƒ“ƒW	ƒAƒCƒŠ		ƒlƒoƒMƒoƒ‰ƒo[	2	680		ƒŒƒCƒ“ƒ{[ƒLƒƒƒ“ƒfƒB		
-SealId	9200032	millefeui		TOY-048	ƒZ[ƒ‰[ƒJƒWƒ…ƒAƒ‹ƒlƒCƒr[ƒCƒGƒ[	ƒ^ƒ}ƒL		Stand Get Up	2	650		ƒƒ[ƒbƒVƒ‡ƒ“		
-SealId	9200033	millefeui		TOY-049	ƒ`ƒ…[ƒŠƒbƒvƒŒƒgƒƒuƒ‰ƒEƒ“	ƒŠƒ“ƒŠƒ“		Perfect™STARs	2	640		ƒxƒAƒxƒAƒxƒA		
 	9200034	6	0.1	AP6-002P	ƒ_[ƒNƒJƒ‹ƒeƒbƒgƒXƒ^[ƒoƒYƒŠƒEƒ€ƒuƒ‹[	ƒ_[ƒNƒ^ƒ}ƒL	ƒpƒ‰ƒŒƒ‹	ƒjƒ…[ƒXƒ^[ƒWƒ‡[ƒJ[	4	999		ƒƒ[ƒbƒVƒ‡ƒ“	Cards/AP6-002P_O.jpg	Cards/AP6-002P_U.jpg
 	9200035	6	0.2	AP6-003P	ƒ_[ƒNƒJƒ‹ƒeƒbƒgƒXƒ^[ƒoƒYƒŠƒEƒ€ƒOƒŠ[ƒ“	ƒ_[ƒNƒAƒCƒŠ	ƒpƒ‰ƒŒƒ‹	ƒjƒ…[ƒXƒ^[ƒWƒ‡[ƒJ[	4	999		ƒŒƒCƒ“ƒ{[ƒLƒƒƒ“ƒfƒB	Cards/AP6-003P_O.jpg	Cards/AP6-003P_U.jpg
 	9200036	6	0.3	AP6-014P	ƒoƒŒƒ“ƒ^ƒCƒ“ƒŒƒ^[ƒCƒGƒ[	‚Â‚Ş‚¬	ƒpƒ‰ƒŒƒ‹	We're The World	4	930		ƒtƒ‰ƒ[ƒ}[ƒ`	Cards/AP6-014P_O.jpg	Cards/AP6-014P_U.jpg
@@ -76,19 +68,25 @@ SealId	9200033	millefeui		TOY-049	ƒ`ƒ…[ƒŠƒbƒvƒŒƒgƒƒuƒ‰ƒEƒ“	ƒŠƒ“ƒŠƒ“		Perfect™
 	9200068	ring5	0.4	APR5-005P	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒAƒ“ƒTƒ“ƒuƒ‹ƒOƒŠ[ƒ“	ƒAƒCƒŠ	ƒpƒ‰ƒŒƒ‹	ƒjƒ…[ƒXƒ^[ƒWƒ‡[ƒJ[iƒŠƒ“ƒO•Òj	4	1250		ƒŒƒCƒ“ƒ{[ƒLƒƒƒ“ƒfƒB	Cards/APR5-005P_O.webp	Cards/APR5-005P_U.webp
 	9200069	ring5	0.5	APR5-006P	ƒƒƒfƒBƒoƒYƒŠƒEƒ€ƒAƒ“ƒTƒ“ƒuƒ‹ƒIƒŒƒ“ƒW	ƒŠƒ“ƒŠƒ“	ƒpƒ‰ƒŒƒ‹	Perfect™STARs	4	1250		ƒxƒAƒxƒAƒxƒA	Cards/APR5-006P_O.webp	Cards/APR5-006P_U.webp
 	9200070	ring5	0.6	APR5-008P	ƒGƒ^[ƒiƒ‹ƒtƒ‰ƒ[ƒ‹ƒ~ƒiƒXƒtƒ[ƒ‰	ƒŠƒ“ƒO		ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXi‚Â‚Ş‚¬EƒŠƒ“ƒOj	4	1250		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO	Cards/APR5-008P_O.webp	Cards/APR5-008P_U.webp
-	9200071	gumi			‚ä‚«‚¤‚³‚¬ƒP[ƒvƒ~ƒ‹ƒL[ƒsƒ“ƒN	‚Â‚Ş‚¬								
+	9200071	gumi			‚ä‚«‚¤‚³‚¬ƒP[ƒvƒ~ƒ‹ƒL[ƒsƒ“ƒN	‚Â‚Ş‚¬			4		TRUE			
 	9200072	ring6	0.1	APR6-006P	ƒGƒ^[ƒiƒ‹ƒƒƒfƒBƒJƒ‹ƒeƒbƒgƒXƒ^[	ƒTƒNƒ‰	ƒpƒ‰ƒŒƒ‹	ƒŒƒWƒFƒ“ƒhEƒXƒg[ƒŠ[!!!!	4	1270		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC	Cards/APR6-006P_O.jpg	Cards/APR6-006P_U.jpg
 	9200073	ring6	0.2	APR6-010P	ƒGƒ^[ƒiƒ‹ƒWƒ…ƒGƒ‹ƒ‰ƒuƒWƒ…ƒŠƒGƒ‹	‚¶‚ã‚è‚ 	ƒpƒ‰ƒŒƒ‹	‚Æ‚«‚ß‚«ƒOƒ‰ƒrƒeƒB	4	1270		ƒLƒ…[ƒeƒB[ƒJƒ‰ƒbƒg	Cards/APR6-010P_O.jpg	Cards/APR6-010P_U.jpg
 	9200074	ring6	0.3	APR6-013P	ƒGƒ^[ƒiƒ‹ƒX‚Ø[ƒXƒWƒƒƒ“ƒsƒ“ƒƒPƒbƒgƒ‰ƒuƒŠ[	‚¨‚Æ‚ß	ƒpƒ‰ƒŒƒ‹	‚Ç‚«‚Ç‚« ‚«‚ç‚ß‚« ƒoƒYƒŠƒEƒ€	4	1270		ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹	Cards/APR6-013P_O.jpg	Cards/APR6-013P_U.jpg
 	9200075	ring6	0.4	APR6-014P	ƒGƒ^[ƒiƒ‹ƒAƒjƒ}ƒ‹ƒrƒrƒAƒ“ƒ`ƒB	ƒ`ƒB	ƒpƒ‰ƒŒƒ‹	‚í‚¢‚é‚Ç™‚·‚½[iƒrƒrEƒ`ƒBj	4	1270		ƒ‰ƒuƒ}ƒCƒ~ƒ…[ƒWƒbƒN	Cards/APR6-014P_O.jpg	Cards/APR6-014P_U.jpg
 	9200076	ring6	0.5	APR6-018P	‚ä‚¤‚«‚ÌƒuƒƒbƒTƒ€ƒcƒCƒ“@‚Â‚Ş‚¬	‚Â‚Ş‚¬iƒvƒŠƒ“ƒZƒXver.j	ƒpƒ‰ƒŒƒ‹	ƒ~ƒ‰ƒC‚ÌƒvƒŠƒ“ƒZƒXi‚Â‚Ş‚¬EƒŠƒ“ƒOj	4	1280		ƒtƒ‰ƒ[ƒ}[ƒ`	Cards/APR6-018P_O.jpg	Cards/APR6-018P_U.jpg
-	9201001	oa1	0.1	OA01-001P	‚·‚«‚·‚«ƒn[ƒgƒoƒYƒŠƒEƒ€	‚¢‚Ì‚è	ƒpƒ‰ƒŒƒ‹		4					
-	9201002	oa1	0.2	OA01-003P	‚ä‚ß‚ä‚ßƒXƒ^[ƒoƒYƒŠƒEƒ€	‚ ‚¨‚¢	ƒpƒ‰ƒŒƒ‹		4					
-	9201003	oa1	0.3	OA01-005P	‚ä‚¤‚¶‚å‚¤ƒXƒC[ƒcƒoƒYƒŠƒEƒ€	‚®‚İ	ƒpƒ‰ƒŒƒ‹		4					
-	9201004	oa1	0.4	OA01-013P	‚Ó‚í‚Ó‚íƒLƒƒƒbƒg	‚¢‚Ì‚è	ƒpƒ‰ƒŒƒ‹		4					
-	9201005	oa1	0.5	OA01-015P	‚Ù‚µ‚Ì‚ä‚¤‚Ñ‚ñ‚â‚³‚ñ	‚ ‚¨‚¢	ƒpƒ‰ƒŒƒ‹		4					
-	9201006	oa1	0.6	OA01-020P	‚ä‚¤‚¶‚å‚¤‚³‚­‚çƒcƒCƒ“ ‚·‚«‚·‚«ƒsƒ“ƒN	‚¢‚Ì‚è	ƒpƒ‰ƒŒƒ‹		4					
-	9201007	gumi		OG1-004	ƒŠƒ{ƒ“ƒoƒŒƒŠ[ƒi‚µ‚ñ‚©‚¢ƒlƒCƒr[								
+	9201001	oa1	0.1	OA1-001P	‚·‚«‚·‚«ƒn[ƒgƒoƒYƒŠƒEƒ€	‚¢‚Ì‚è	ƒpƒ‰ƒŒƒ‹		4					
+	9201002	oa1	0.2	OA1-003P	‚ä‚ß‚ä‚ßƒXƒ^[ƒoƒYƒŠƒEƒ€	‚ ‚¨‚¢	ƒpƒ‰ƒŒƒ‹		4					
+	9201003	oa1	0.3	OA1-005P	‚ä‚¤‚¶‚å‚¤ƒXƒC[ƒcƒoƒYƒŠƒEƒ€	‚®‚İ	ƒpƒ‰ƒŒƒ‹		4					
+	9201004	oa1	0.4	OA1-013P	‚Ó‚í‚Ó‚íƒLƒƒƒbƒg	‚¢‚Ì‚è	ƒpƒ‰ƒŒƒ‹		4					
+	9201005	oa1	0.5	OA1-015P	‚Ù‚µ‚Ì‚ä‚¤‚Ñ‚ñ‚â‚³‚ñ	‚ ‚¨‚¢	ƒpƒ‰ƒŒƒ‹		4					
+	9201006	oa1	0.6	OA1-020P	‚ä‚¤‚¶‚å‚¤‚³‚­‚çƒcƒCƒ“ ‚·‚«‚·‚«ƒsƒ“ƒN	‚¢‚Ì‚è	ƒpƒ‰ƒŒƒ‹		4					
+	9201007	gumi		OG1-004	ƒŠƒ{ƒ“ƒoƒŒƒŠ[ƒi‚µ‚ñ‚©‚¢ƒlƒCƒr[	‚ ‚¨‚¢			4		TRUE			
+	9201008	oa2	0.1	OA2-001P	‚ä‚¤‚«‚Ìƒtƒ‰ƒ[ƒoƒYƒŠƒEƒ€	‚¨‚è‚Ñ‚ 	ƒpƒ‰ƒŒƒ‹		4					
+	9201009	oa2	0.2	OA2-005P	ƒrƒŠ[ƒuƒ}[ƒ`ƒuƒ‹[	‚ ‚¨‚¢	ƒpƒ‰ƒŒƒ‹		4					
+	9201010	oa2	0.3	OA2-007P	ƒV[ƒ‹‚Ø‚Á‚½‚ñƒ`ƒAƒOƒŠ[ƒ“	‚®‚İ	ƒpƒ‰ƒŒƒ‹		4					
+	9201011	oa2	0.4	OA2-009P	ƒLƒƒƒ“ƒfƒBƒ|ƒbƒv	‚®‚İ	ƒpƒ‰ƒŒƒ‹		4					
+	9201012	oa2	0.5	OA2-013P	‚ä‚ß‚©‚íƒŒƒCƒ“ƒ{[	‚ ‚¨‚¢	ƒpƒ‰ƒŒƒ‹		4					
+	9201013	oa2	0.6	OA2-022P	ƒnƒbƒs[ƒo[ƒXƒf[Iƒsƒ“ƒN	‚¢‚Ì‚è	ƒpƒ‰ƒŒƒ‹		4					
 SealId				AP1-001	ƒ|ƒbƒsƒ“ƒn[ƒgƒoƒYƒŠƒEƒ€	‚Ğ‚Ü‚è		P.O.P.P.Y	4	740		ƒ|ƒbƒsƒ“ƒn[ƒg		
 SealId				AP1-002	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“ƒoƒYƒŠƒEƒ€	‚İ‚Â‚«		ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	4	740		ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
 SealId				AP1-003	ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒCƒoƒYƒŠƒEƒ€	ƒTƒNƒ‰		ƒŒƒbƒcIƒAƒCƒvƒŠiƒTƒNƒ‰j	4	750		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
@@ -825,6 +823,12 @@ SealId		ring6		APR6-060	ƒpƒ‰ƒ_ƒCƒX‚ª‚­‚¦‚ñ‚¹‚¢‚Ó‚­‚P‚Ë‚ñ	‚¦‚é		‚í‚½‚µ‚Ì‘åØ‚É‚µ‚
 SealId		ring6		APR6-061	ƒpƒ‰ƒ_ƒCƒX‚ª‚­‚¦‚ñ‚¹‚¢‚Ó‚­‚·‚Î‚é	‚·‚Î‚é		ƒŒƒbƒcIƒAƒCƒvƒŠi‚·‚Î‚éj	2	1000	TRUE	ƒtƒ…[ƒ`ƒƒ[ƒXƒN[ƒ‹		
 SealId		ring6		APR6-062	ƒpƒ‰ƒ_ƒCƒX‚ª‚­‚¦‚ñ‚¹‚¢‚Ó‚­‚Q‚Ë‚ñ	‚¨‚Æ‚ß		ƒVƒ“ƒfƒŒƒ‰‚Ìƒ‰ƒ‰ƒ‰	2	1000	TRUE	ƒvƒŠƒYƒ€ƒXƒg[ƒ“		
 SealId		ring6		APR6-063	ƒpƒ‰ƒ_ƒCƒX‚ª‚­‚¦‚ñ‚¹‚¢‚Ó‚­‚P‚Ë‚ñ	ƒrƒr		ƒAƒCƒvƒŠƒo[ƒXƒƒhƒŒ[3	2	1000	TRUE	ƒvƒŠƒYƒ€ƒXƒg[ƒ“		
+SealId		ring6		APR6M-001	ƒGƒ^[ƒiƒ‹ƒAƒCƒvƒŠ	‚Ğ‚Ü‚èiƒvƒŠƒ“ƒZƒXver.j		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
+SealId		ring6		APR6M-002	ƒGƒ^[ƒiƒ‹ƒAƒCƒvƒŠ	‚İ‚Â‚«iƒvƒŠƒ“ƒZƒXver.j		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
+SealId		ring6		APR6M-003	ƒGƒ^[ƒiƒ‹ƒtƒ‰ƒ[ƒ‹ƒ~ƒiƒXƒtƒ[ƒ‰	‚Â‚Ş‚¬iƒvƒŠƒ“ƒZƒXver.j		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒtƒ‰ƒ[ƒ}[ƒ`		
+SealId		ring6		APR6M-004	ƒGƒ^[ƒiƒ‹ƒtƒ‰ƒ[ƒ‹ƒ~ƒiƒXƒtƒ[ƒ‰	ƒŠƒ“ƒO		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
+SealId		ring6		APR6M-005	ƒGƒ^[ƒiƒ‹ƒAƒCƒvƒŠ	‚Ğ‚Ü‚èiƒvƒŠƒ“ƒZƒXver.j		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
+SealId		ring6		APR6M-006	ƒGƒ^[ƒiƒ‹ƒAƒCƒvƒŠ	‚İ‚Â‚«iƒvƒŠƒ“ƒZƒXver.j		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
 SealId			101	G1-001	ƒ|ƒbƒsƒ“ƒn[ƒgƒoƒYƒŠƒEƒ€ƒ~ƒ“ƒg	‚Ğ‚Ü‚è		P.O.P.P.Y	4	730	TRUE	ƒ|ƒbƒsƒ“ƒn[ƒg		
 SealId			102	G1-002	‚Õ‚é‚é‚ñƒ[ƒŠ[ƒƒƒ“	‚İ‚Â‚«		ƒV[ƒNƒŒƒbƒgEƒhƒŠ[ƒ€	4	710	TRUE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
 SealId			103	G1-003	‚Õ‚é‚é‚ñƒ[ƒŠ[ƒƒƒ“	‚Ğ‚Ü‚è		P.O.P.P.Y	4	690	TRUE	ƒ~ƒ‰ƒNƒ‹ƒ€[ƒ“		
@@ -1101,9 +1105,11 @@ SealId		millefeui		TOY-096	ƒEƒBƒ“ƒ^[ƒXƒm[ƒAƒCƒXƒuƒ‹[	‚¦‚é
 SealId		millefeui		TOY-097	ƒ|ƒbƒsƒ“ƒ}[ƒ`ƒT[ƒJƒX	‚¶‚ã‚è‚ 								
 SealId		millefeui		TOY-098	ƒNƒ‰ƒVƒbƒNƒ”ƒ@ƒCƒIƒŠƒ“ƒhƒŠ[ƒ€	‚Ğ‚Ü‚è								
 SealId		millefeui		TOY-099	‚¢‚½‚¸‚çƒ‚ƒ“ƒXƒ^[ƒrƒrƒbƒh	ƒrƒr								
-SealId		ring6		APR6M-001	ƒGƒ^[ƒiƒ‹ƒAƒCƒvƒŠ	‚Ğ‚Ü‚èiƒvƒŠƒ“ƒZƒXver.j		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
-SealId		ring6		APR6M-002	ƒGƒ^[ƒiƒ‹ƒAƒCƒvƒŠ	‚İ‚Â‚«iƒvƒŠƒ“ƒZƒXver.j		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
-SealId		ring6		APR6M-003	ƒGƒ^[ƒiƒ‹ƒtƒ‰ƒ[ƒ‹ƒ~ƒiƒXƒtƒ[ƒ‰	‚Â‚Ş‚¬iƒvƒŠƒ“ƒZƒXver.j		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒtƒ‰ƒ[ƒ}[ƒ`		
-SealId		ring6		APR6M-004	ƒGƒ^[ƒiƒ‹ƒtƒ‰ƒ[ƒ‹ƒ~ƒiƒXƒtƒ[ƒ‰	ƒŠƒ“ƒO		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
-SealId		ring6		APR6M-005	ƒGƒ^[ƒiƒ‹ƒAƒCƒvƒŠ	‚Ğ‚Ü‚èiƒvƒŠƒ“ƒZƒXver.j		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
-SealId		ring6		APR6M-006	ƒGƒ^[ƒiƒ‹ƒAƒCƒvƒŠ	‚İ‚Â‚«iƒvƒŠƒ“ƒZƒXver.j		ƒLƒYƒi~ƒŠƒ“ƒNi4lver.j	4	1328		ƒvƒŠƒ“ƒZƒXƒŠƒ“ƒO		
+SealId	9200026	millefeui		TOY-042	‚¨‚Æ‚¬‚Î‚È‚µ‚©‚®‚â‚Ğ‚ß	‚Â‚Ş‚¬		We're The World	4	860		ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX		
+SealId	9200027	millefeui		TOY-043	‚¨‚Æ‚¬‚Î‚È‚µƒVƒ“ƒfƒŒƒ‰ƒsƒ“ƒN	‚Ğ‚Ü‚è		We're The World	4	860		ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX		
+SealId	9200028	millefeui		TOY-044	‚¨‚Æ‚¬‚Î‚È‚µ‚ ‚©‚¸‚«‚ñƒuƒ‹[	‚İ‚Â‚«		We're The World	4	860		ƒNƒŠƒXƒ^ƒ‹ƒo[ƒX	Cards/M3-003.jpg	
+SealId	9200029	millefeui		TOY-045	ƒAƒCƒvƒŠƒo[ƒXƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒCƒ‰ƒuƒsƒ“ƒN	ƒTƒNƒ‰		Perfect™STARs	3	770		ƒXƒJ[ƒŒƒbƒgƒoƒ^ƒtƒ‰ƒC		
+SealId	9200030	millefeui		TOY-046	ƒAƒCƒXƒNƒŠ[ƒ€ƒOƒŒ[ƒv	ƒ`ƒB		GIRA GIRA STAR	3	720		ƒŒƒCƒ“ƒ{[ƒLƒƒƒ“ƒfƒB		
+SealId	9200031	millefeui		TOY-047	ƒ‰ƒuƒŠ\ƒAƒCƒhƒ‹ƒOƒŠ[ƒ“ƒIƒŒƒ“ƒW	ƒAƒCƒŠ		ƒlƒoƒMƒoƒ‰ƒo[	2	680		ƒŒƒCƒ“ƒ{[ƒLƒƒƒ“ƒfƒB		
+SealId	9200032	millefeui		TOY-048	ƒZ[ƒ‰[ƒJƒWƒ…ƒAƒ‹ƒlƒCƒr[ƒCƒGƒ[	ƒ^ƒ}ƒL		Stand Get Up	2	650		ƒƒ[ƒbƒVƒ‡ƒ“		
+SealId	9200033	millefeui		TOY-049	ƒ`ƒ…[ƒŠƒbƒvƒŒƒgƒƒuƒ‰ƒEƒ“	ƒŠƒ“ƒŠƒ“		Perfect™STARs	2	640		ƒxƒAƒxƒAƒxƒA		
