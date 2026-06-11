@@ -15650,7 +15650,7 @@
     {
       "Id": 9901028,
       "ChapterId": "oa2",
-      "Name": "おねがい2だんシークレット",
+      "Name": "ゆうきのフラワーバズリウムレイニーパープル",
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
@@ -15660,7 +15660,7 @@
     {
       "Id": 9901029,
       "ChapterId": "oa2",
-      "Name": "おねがい2だんフルコーデ",
+      "Name": "ゆうじょうスイーツバズリウムレイニーパープル",
       "Group": "フルコーデガチャ おねがい2だん前半",
       "Kind": "フルコーデガチャ おねがい2だん前半",
       "Start": "2026-06-11",
@@ -40911,15 +40911,8 @@
     {
       "Id": 911099,
       "CoordinateId": 9901028,
-      "CategoryId": 1,
+      "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
-    },
-    {
-      "Id": 911100,
-      "CoordinateId": 9901028,
-      "CategoryId": 3,
-      "ImageUrl": "_generic-2.png",
-      "IsSet": true
     },
     {
       "Id": 911101,
@@ -40936,15 +40929,8 @@
     {
       "Id": 911103,
       "CoordinateId": 9901029,
-      "CategoryId": 1,
+      "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
-    },
-    {
-      "Id": 911104,
-      "CoordinateId": 9901029,
-      "CategoryId": 3,
-      "ImageUrl": "_generic-2.png",
-      "IsSet": true
     },
     {
       "Id": 911105,
@@ -50063,6 +50049,20 @@
       "Name": "ゆうき",
       "Description": "おねがい2だん",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Jewel_0004.webp"
+    },
+    {
+      "Id": 427,
+      "CategoryId": 4,
+      "Name": "ポンパドール",
+      "Description": "おねがい2だんマイキャラライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0025.webp"
+    },
+    {
+      "Id": 428,
+      "CategoryId": 11,
+      "Name": "ぐみぐみシール",
+      "Description": "おねがい2だんマイキャラライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0024.webp"
     }
   ],
   "HimitsuChapters": [
