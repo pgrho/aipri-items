@@ -201,15 +201,21 @@
                             <DataGridTextColumn
                                 Header="ID1"
                                 Binding="{Binding Item1.NewId}" />
+                            <DataGridTextColumn
+                                Header="画像1"
+                                Binding="{Binding Item1.NewImage}" />
                             <DataGridCheckBoxColumn
                                 Header="セット"
-                                Binding="{Binding Item1.NewSet, UpdateSourceTrigger=PropertyChanged}" />
+                                Binding="{Binding Item1.NewSet, UpdateSourceTrigger=PropertyChanged}" /> 
                             <DataGridTextColumn
                                 Header="種類2"
                                 Binding="{Binding Item2.NewCategory}" />
                             <DataGridTextColumn
                                 Header="ID2"
                                 Binding="{Binding Item2.NewId}" />
+                            <DataGridTextColumn
+                                Header="画像2"
+                                Binding="{Binding Item2.NewImage}" />
                             <DataGridCheckBoxColumn
                                 Header="セット"
                                 Binding="{Binding Item2.NewSet, UpdateSourceTrigger=PropertyChanged}" />
@@ -219,6 +225,9 @@
                             <DataGridTextColumn
                                 Header="ID3"
                                 Binding="{Binding Item3.NewId}" />
+                            <DataGridTextColumn
+                                Header="画像3"
+                                Binding="{Binding Item3.NewImage}" />
                             <DataGridCheckBoxColumn
                                 Header="セット"
                                 Binding="{Binding Item3.NewSet, UpdateSourceTrigger=PropertyChanged}" />
@@ -228,6 +237,9 @@
                             <DataGridTextColumn
                                 Header="ID4"
                                 Binding="{Binding Item4.NewId}" />
+                            <DataGridTextColumn
+                                Header="画像4"
+                                Binding="{Binding Item4.NewImage}" />
                             <DataGridCheckBoxColumn
                                 Header="セット"
                                 Binding="{Binding Item4.NewSet, UpdateSourceTrigger=PropertyChanged}" />

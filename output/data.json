@@ -15067,7 +15067,7 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15080,7 +15080,7 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": [
         32787,
         32788,
@@ -15097,7 +15097,7 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15110,7 +15110,7 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15123,7 +15123,7 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15136,7 +15136,7 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15149,7 +15149,7 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15162,7 +15162,7 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15175,7 +15175,7 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15188,85 +15188,85 @@
       "Group": "★★★★",
       "Kind": "★★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
-      "Id": 1068,
+      "Id": 1102,
       "ChapterId": "oa2",
       "Star": 3,
       "Name": "おねがいパティシエール ハローキティ",
       "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-082.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-082_thumb.webp",
-      "Group": "サンリオキャラクターズ コラボ",
-      "Kind": "サンリオキャラクターズ コラボ",
+      "Group": "サンリオキャラクターズコラボ",
+      "Kind": "サンリオキャラクターズコラボ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
-      "Id": 1069,
+      "Id": 1103,
       "ChapterId": "oa2",
       "Star": 3,
       "Name": "おねがいパティシエール シナモロール",
       "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-085.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-085_thumb.webp",
-      "Group": "サンリオキャラクターズ コラボ",
-      "Kind": "サンリオキャラクターズ コラボ",
+      "Group": "サンリオキャラクターズコラボ",
+      "Kind": "サンリオキャラクターズコラボ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
-      "Id": 1070,
+      "Id": 1104,
       "ChapterId": "oa2",
       "Star": 3,
       "Name": "おねがいパティシエール けろけろけろっぴ",
       "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-088.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-088_thumb.webp",
-      "Group": "サンリオキャラクターズ コラボ",
-      "Kind": "サンリオキャラクターズ コラボ",
+      "Group": "サンリオキャラクターズコラボ",
+      "Kind": "サンリオキャラクターズコラボ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
-      "Id": 1071,
+      "Id": 1105,
       "ChapterId": "oa2",
       "Star": 3,
       "Name": "おねがいパティシエール ポムポムプリン",
       "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-091.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-091_thumb.webp",
-      "Group": "サンリオキャラクターズ コラボ",
-      "Kind": "サンリオキャラクターズ コラボ",
+      "Group": "サンリオキャラクターズコラボ",
+      "Kind": "サンリオキャラクターズコラボ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
-      "Id": 1072,
+      "Id": 1106,
       "ChapterId": "oa2",
       "Star": 3,
       "Name": "おねがいパティシエール クロミ",
       "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-094.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-094_thumb.webp",
-      "Group": "サンリオキャラクターズ コラボ",
-      "Kind": "サンリオキャラクターズ コラボ",
+      "Group": "サンリオキャラクターズコラボ",
+      "Kind": "サンリオキャラクターズコラボ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
-      "Id": 1073,
+      "Id": 1107,
       "ChapterId": "oa2",
       "Star": 3,
       "Name": "おねがいパティシエール マイメロディ",
       "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-097.webp",
       "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-097_thumb.webp",
-      "Group": "サンリオキャラクターズ コラボ",
-      "Kind": "サンリオキャラクターズ コラボ",
+      "Group": "サンリオキャラクターズコラボ",
+      "Kind": "サンリオキャラクターズコラボ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15279,7 +15279,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15292,7 +15292,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15305,7 +15305,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15318,7 +15318,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15331,7 +15331,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15344,7 +15344,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15357,7 +15357,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15370,7 +15370,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15383,7 +15383,7 @@
       "Group": "★★★",
       "Kind": "★★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15396,7 +15396,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": [
         32847
       ]
@@ -15411,7 +15411,7 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15424,7 +15424,33 @@
       "Group": "★★",
       "Kind": "★★",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1108,
+      "ChapterId": "oa2",
+      "Star": 4,
+      "Name": "ガーデンラビットブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-115.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-115_thumb.webp",
+      "Group": "プレミアムライブ ぐみ＆おりびあセレクション",
+      "Kind": "プレミアムライブ ぐみ＆おりびあセレクション",
+      "Start": "2026-06-25",
+      "End": "2026-07-08",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1109,
+      "ChapterId": "oa2",
+      "Star": 3,
+      "Name": "ロックレザーオレンジ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-119.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-119_thumb.webp",
+      "Group": "プレミアムライブ ぐみ＆おりびあセレクション",
+      "Kind": "プレミアムライブ ぐみ＆おりびあセレクション",
+      "Start": "2026-06-25",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15450,7 +15476,7 @@
       "Group": "ミラーパクトスペシャルコーデ",
       "Kind": "ミラーパクトスペシャルコーデ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15541,7 +15567,7 @@
       "Group": "プリティーコレクションガチャ",
       "Kind": "プリティーコレクションガチャ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15554,7 +15580,7 @@
       "Group": "プリティーコレクションガチャ",
       "Kind": "プリティーコレクションガチャ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15567,7 +15593,7 @@
       "Group": "プリティーコレクションガチャ",
       "Kind": "プリティーコレクションガチャ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": []
     },
     {
@@ -15580,7 +15606,7 @@
       "Group": "プリティーコレクションガチャ",
       "Kind": "プリティーコレクションガチャ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": [
         30612,
         30613,
@@ -15597,7 +15623,7 @@
       "Group": "プリティーコレクションガチャ",
       "Kind": "プリティーコレクションガチャ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": [
         30615,
         30616,
@@ -15614,7 +15640,7 @@
       "Group": "プリティーコレクションガチャ",
       "Kind": "プリティーコレクションガチャ",
       "Start": "2026-06-11",
-      "End": "2026-08-05",
+      "End": "2026-07-08",
       "LinkedItemIds": [
         30618,
         30619,
@@ -15645,6 +15671,84 @@
       "Kind": "ハッピーバースデー！コーデ",
       "Start": "2026-07-01",
       "End": "2026-07-31",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1068,
+      "ChapterId": "oa2",
+      "Star": 3,
+      "Name": "おねがいパティシエール ハローキティ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-082.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-082_thumb.webp",
+      "Group": "サンリオキャラクターズ コラボ",
+      "Kind": "サンリオキャラクターズ コラボ",
+      "Start": "2026-06-11",
+      "End": "2026-08-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1069,
+      "ChapterId": "oa2",
+      "Star": 3,
+      "Name": "おねがいパティシエール シナモロール",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-085.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-085_thumb.webp",
+      "Group": "サンリオキャラクターズ コラボ",
+      "Kind": "サンリオキャラクターズ コラボ",
+      "Start": "2026-06-11",
+      "End": "2026-08-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1070,
+      "ChapterId": "oa2",
+      "Star": 3,
+      "Name": "おねがいパティシエール けろけろけろっぴ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-088.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-088_thumb.webp",
+      "Group": "サンリオキャラクターズ コラボ",
+      "Kind": "サンリオキャラクターズ コラボ",
+      "Start": "2026-06-11",
+      "End": "2026-08-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1071,
+      "ChapterId": "oa2",
+      "Star": 3,
+      "Name": "おねがいパティシエール ポムポムプリン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-091.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-091_thumb.webp",
+      "Group": "サンリオキャラクターズ コラボ",
+      "Kind": "サンリオキャラクターズ コラボ",
+      "Start": "2026-06-11",
+      "End": "2026-08-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1072,
+      "ChapterId": "oa2",
+      "Star": 3,
+      "Name": "おねがいパティシエール クロミ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-094.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-094_thumb.webp",
+      "Group": "サンリオキャラクターズ コラボ",
+      "Kind": "サンリオキャラクターズ コラボ",
+      "Start": "2026-06-11",
+      "End": "2026-08-05",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1073,
+      "ChapterId": "oa2",
+      "Star": 3,
+      "Name": "おねがいパティシエール マイメロディ",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-097.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-097_thumb.webp",
+      "Group": "サンリオキャラクターズ コラボ",
+      "Kind": "サンリオキャラクターズ コラボ",
+      "Start": "2026-06-11",
+      "End": "2026-08-05",
       "LinkedItemIds": []
     },
     {
@@ -40041,7 +40145,7 @@
     },
     {
       "Id": 33114,
-      "CoordinateId": 1068,
+      "CoordinateId": 1102,
       "SealId": "OA2-082",
       "CategoryId": 2,
       "Point": 660,
@@ -40049,7 +40153,7 @@
     },
     {
       "Id": 33115,
-      "CoordinateId": 1068,
+      "CoordinateId": 1102,
       "SealId": "OA2-083",
       "CategoryId": 4,
       "Point": 330,
@@ -40057,7 +40161,7 @@
     },
     {
       "Id": 33116,
-      "CoordinateId": 1068,
+      "CoordinateId": 1102,
       "SealId": "OA2-084",
       "CategoryId": 5,
       "Point": 350,
@@ -40065,7 +40169,7 @@
     },
     {
       "Id": 33117,
-      "CoordinateId": 1069,
+      "CoordinateId": 1103,
       "SealId": "OA2-085",
       "CategoryId": 2,
       "Point": 690,
@@ -40073,7 +40177,7 @@
     },
     {
       "Id": 33118,
-      "CoordinateId": 1069,
+      "CoordinateId": 1103,
       "SealId": "OA2-086",
       "CategoryId": 4,
       "Point": 320,
@@ -40081,7 +40185,7 @@
     },
     {
       "Id": 33119,
-      "CoordinateId": 1069,
+      "CoordinateId": 1103,
       "SealId": "OA2-087",
       "CategoryId": 5,
       "Point": 330,
@@ -40089,7 +40193,7 @@
     },
     {
       "Id": 33120,
-      "CoordinateId": 1070,
+      "CoordinateId": 1104,
       "SealId": "OA2-088",
       "CategoryId": 2,
       "Point": 680,
@@ -40097,7 +40201,7 @@
     },
     {
       "Id": 33121,
-      "CoordinateId": 1070,
+      "CoordinateId": 1104,
       "SealId": "OA2-089",
       "CategoryId": 4,
       "Point": 320,
@@ -40105,7 +40209,7 @@
     },
     {
       "Id": 33122,
-      "CoordinateId": 1070,
+      "CoordinateId": 1104,
       "SealId": "OA2-090",
       "CategoryId": 5,
       "Point": 340,
@@ -40113,7 +40217,7 @@
     },
     {
       "Id": 33123,
-      "CoordinateId": 1071,
+      "CoordinateId": 1105,
       "SealId": "OA2-091",
       "CategoryId": 2,
       "Point": 660,
@@ -40121,7 +40225,7 @@
     },
     {
       "Id": 33124,
-      "CoordinateId": 1071,
+      "CoordinateId": 1105,
       "SealId": "OA2-092",
       "CategoryId": 4,
       "Point": 350,
@@ -40129,7 +40233,7 @@
     },
     {
       "Id": 33125,
-      "CoordinateId": 1071,
+      "CoordinateId": 1105,
       "SealId": "OA2-093",
       "CategoryId": 5,
       "Point": 330,
@@ -40137,7 +40241,7 @@
     },
     {
       "Id": 33222,
-      "CoordinateId": 1072,
+      "CoordinateId": 1106,
       "SealId": "OA2-094",
       "CategoryId": 2,
       "Point": 680,
@@ -40145,7 +40249,7 @@
     },
     {
       "Id": 33223,
-      "CoordinateId": 1072,
+      "CoordinateId": 1106,
       "SealId": "OA2-095",
       "CategoryId": 4,
       "Point": 330,
@@ -40153,7 +40257,7 @@
     },
     {
       "Id": 33224,
-      "CoordinateId": 1072,
+      "CoordinateId": 1106,
       "SealId": "OA2-096",
       "CategoryId": 5,
       "Point": 330,
@@ -40161,7 +40265,7 @@
     },
     {
       "Id": 33225,
-      "CoordinateId": 1073,
+      "CoordinateId": 1107,
       "SealId": "OA2-097",
       "CategoryId": 2,
       "Point": 680,
@@ -40169,7 +40273,7 @@
     },
     {
       "Id": 33226,
-      "CoordinateId": 1073,
+      "CoordinateId": 1107,
       "SealId": "OA2-098",
       "CategoryId": 4,
       "Point": 320,
@@ -40177,7 +40281,7 @@
     },
     {
       "Id": 33227,
-      "CoordinateId": 1073,
+      "CoordinateId": 1107,
       "SealId": "OA2-099",
       "CategoryId": 5,
       "Point": 340,
@@ -40544,6 +40648,72 @@
       "CategoryId": 5,
       "Point": 300,
       "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33063.webp"
+    },
+    {
+      "Id": 33141,
+      "CoordinateId": 1108,
+      "SealId": "OA2-115",
+      "CategoryId": 1,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33141.webp"
+    },
+    {
+      "Id": 33142,
+      "CoordinateId": 1108,
+      "SealId": "OA2-116",
+      "CategoryId": 3,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33142.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 33143,
+      "CoordinateId": 1108,
+      "SealId": "OA2-117",
+      "CategoryId": 4,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33143.webp"
+    },
+    {
+      "Id": 33144,
+      "CoordinateId": 1108,
+      "SealId": "OA2-118",
+      "CategoryId": 5,
+      "Point": 380,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33144.webp"
+    },
+    {
+      "Id": 33145,
+      "CoordinateId": 1109,
+      "SealId": "OA2-119",
+      "CategoryId": 1,
+      "Point": 320,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33145.webp"
+    },
+    {
+      "Id": 33146,
+      "CoordinateId": 1109,
+      "SealId": "OA2-120",
+      "CategoryId": 3,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33146.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 33147,
+      "CoordinateId": 1109,
+      "SealId": "OA2-121",
+      "CategoryId": 4,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33147.webp"
+    },
+    {
+      "Id": 33148,
+      "CoordinateId": 1109,
+      "SealId": "OA2-122",
+      "CategoryId": 5,
+      "Point": 330,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33148.webp"
     },
     {
       "Id": 33174,
@@ -44414,7 +44584,7 @@
       "Id": 910330,
       "CoordinateId": 9900094,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "Items/kirakira_kurage_red-2.png"
     },
     {
       "Id": 910331,
@@ -50063,6 +50233,13 @@
       "Name": "ぐみぐみシール",
       "Description": "おねがい2だんマイキャラライブ",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0024.webp"
+    },
+    {
+      "Id": 429,
+      "CategoryId": 6,
+      "Name": "マリネオレンジ",
+      "Description": "プレミアムライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0081.webp"
     }
   ],
   "HimitsuChapters": [
@@ -69430,6 +69607,18 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1225,
+      "ChapterId": "special",
+      "SealId": "OP-023",
+      "Coordinate": "ゆめゆめスターバズリウム",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-023_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-023_U.webp"
     },
     {
       "Id": 1217,
