@@ -65246,6 +65246,54 @@
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-057_U.webp"
     },
     {
+      "Id": 1226,
+      "ChapterId": "oa2",
+      "SealId": "OA2M-001",
+      "Coordinate": "メルヘンフェスピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2M-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2M-001_U.webp"
+    },
+    {
+      "Id": 1227,
+      "ChapterId": "oa2",
+      "SealId": "OA2M-002",
+      "Coordinate": "メルヘンフェスブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2M-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2M-002_U.webp"
+    },
+    {
+      "Id": 1228,
+      "ChapterId": "oa2",
+      "SealId": "OA2M-003",
+      "Coordinate": "メルヘンフェスグリーン",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2M-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2M-003_U.webp"
+    },
+    {
+      "Id": 1229,
+      "ChapterId": "oa2",
+      "SealId": "OA2M-004",
+      "Coordinate": "メルヘンフェスイエロー",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Song": "勇気のはばたきサイン",
+      "SongId": 79,
+      "Image1Url": "https://aipri.jp/card/img/oa2/OA2M-004_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa2/OA2M-004_U.webp"
+    },
+    {
       "Id": 394,
       "ChapterId": "gumi",
       "BrandId": 7,
@@ -69607,6 +69655,28 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1230,
+      "ChapterId": "special",
+      "SealId": "OP-052",
+      "Coordinate": "バルーンフェスいのりピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-052_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-052_U.webp"
+    },
+    {
+      "Id": 1231,
+      "ChapterId": "special",
+      "SealId": "OP-051",
+      "Coordinate": "バルーンフェスイエロー",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-051_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-051_U.webp"
     },
     {
       "Id": 1225,
