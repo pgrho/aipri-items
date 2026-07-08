@@ -18,7 +18,9 @@
                 <ResourceDictionary
                     Source="pack://application:,,,/Shipwreck.ViewModelUtils.PresentationFramework;component/Styles/Controls.xaml" />
             </ResourceDictionary.MergedDictionaries>
+            <Style
+                TargetType="ScrollBar">
+            </Style>
         </ResourceDictionary>
-
     </Application.Resources>
 </Application>

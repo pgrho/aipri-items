@@ -373,12 +373,14 @@ public sealed class MainWindowViewModel : WindowViewModel
                 NewCategory = ItemCategory.Accessory,
                 NewId = cid + 4
             });
+
             Coordinates.Add(row);
+            InvalidateCoordinateFilter();
         }, title: "追加", icon: "fas fa-plus");
 
     #endregion AddNewCoordinateCommand
 
-    #region AddNewCoordinateCommand
+    #region SaveCoordinatesCommand
 
     private CommandViewModelBase? _SaveCoordinatesCommand;
 
@@ -490,7 +492,7 @@ public sealed class MainWindowViewModel : WindowViewModel
             style: BorderStyle.Primary,
             iconGetter: c => c.IsExecuting ? "fas fa-pulse fa-spinner" : "fas fa-save");
 
-    #endregion AddNewCoordinateCommand
+    #endregion SaveCoordinatesCommand
 
     #endregion プリフォト
 
@@ -705,11 +707,12 @@ public sealed class MainWindowViewModel : WindowViewModel
             row.NewId = (Cards.Max(e => e?.NewId) ?? 0) + 1;
 
             Cards.Add(row);
+            InvalidateCardFilter();
         }, title: "追加", icon: "fas fa-plus");
 
     #endregion AddNewCardCommand
 
-    #region AddNewCardCommand
+    #region SaveCardsCommand
 
     private CommandViewModelBase? _SaveCardsCommand;
 
@@ -783,7 +786,7 @@ public sealed class MainWindowViewModel : WindowViewModel
             style: BorderStyle.Primary,
             iconGetter: c => c.IsExecuting ? "fas fa-pulse fa-spinner" : "fas fa-save");
 
-    #endregion AddNewCardCommand
+    #endregion SaveCardsCommand
 
     #endregion カード
 }

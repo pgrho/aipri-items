@@ -18231,6 +18231,45 @@
       "Name": "シールぺったんチアホワイトブルー",
       "Group": "ファンブック",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901036,
+      "ChapterId": "special",
+      "Name": "フォーチュおやすみ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901037,
+      "ChapterId": "special",
+      "Name": "ふっくらパンチョコ",
+      "Group": "ぷっちぐみ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901038,
+      "ChapterId": "special",
+      "Name": "きらめきティアラリボン",
+      "Group": "アイプリスマホ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901039,
+      "ChapterId": "special",
+      "Name": "ゆめゆめスターバズリウムピュアピンク",
+      "Group": "アイプリスマホ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901040,
+      "ChapterId": "special",
+      "Name": "バルーンフェスいのりピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901041,
+      "ChapterId": "special",
+      "Name": "バルーンフェスイエロー",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -47610,6 +47649,128 @@
       "CoordinateId": 9901035,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911131,
+      "CoordinateId": 9901036,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911133,
+      "CoordinateId": 9901036,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911134,
+      "CoordinateId": 9901036,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911135,
+      "CoordinateId": 9901037,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911136,
+      "CoordinateId": 9901037,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911137,
+      "CoordinateId": 9901037,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911138,
+      "CoordinateId": 9901037,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911139,
+      "CoordinateId": 9901038,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911140,
+      "CoordinateId": 9901038,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911141,
+      "CoordinateId": 9901038,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911142,
+      "CoordinateId": 9901038,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911143,
+      "CoordinateId": 9901039,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911145,
+      "CoordinateId": 9901039,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911146,
+      "CoordinateId": 9901039,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911147,
+      "CoordinateId": 9901040,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911149,
+      "CoordinateId": 9901040,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911150,
+      "CoordinateId": 9901040,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911151,
+      "CoordinateId": 9901041,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911153,
+      "CoordinateId": 9901041,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911154,
+      "CoordinateId": 9901041,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -70077,6 +70238,52 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1233,
+      "ChapterId": "special",
+      "SealId": "OP-058",
+      "Coordinate": "シールぺったんチアイエロー",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-058_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-058_U.webp"
+    },
+    {
+      "Id": 1234,
+      "ChapterId": "special",
+      "SealId": "OP-057",
+      "Coordinate": "シールぺったんチアグリーン",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-057_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-057_U.webp"
+    },
+    {
+      "Id": 1235,
+      "ChapterId": "special",
+      "SealId": "OP-056",
+      "Coordinate": "トキメキトゥインクルブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-056_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-056_U.webp"
+    },
+    {
+      "Id": 1236,
+      "ChapterId": "special",
+      "SealId": "OP-055",
+      "Coordinate": "トキメキトゥインクルピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-055_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-055_U.webp"
     },
     {
       "Id": 1232,
