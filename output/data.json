@@ -15467,6 +15467,58 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 1119,
+      "ChapterId": "oa2",
+      "Star": 4,
+      "Name": "メルヘンフェスイエロー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-123.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-123_thumb.webp",
+      "Group": "プレミアムライブ メルヘンフェスコーデ",
+      "Kind": "プレミアムライブ メルヘンフェスコーデ",
+      "Start": "2026-07-16",
+      "End": "2026-07-29",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1120,
+      "ChapterId": "oa2",
+      "Star": 4,
+      "Name": "メルヘンフェスピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-126.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-126_thumb.webp",
+      "Group": "プレミアムライブ メルヘンフェスコーデ",
+      "Kind": "プレミアムライブ メルヘンフェスコーデ",
+      "Start": "2026-07-16",
+      "End": "2026-07-29",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1121,
+      "ChapterId": "oa2",
+      "Star": 4,
+      "Name": "メルヘンフェスブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-129.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-129_thumb.webp",
+      "Group": "プレミアムライブ メルヘンフェスコーデ",
+      "Kind": "プレミアムライブ メルヘンフェスコーデ",
+      "Start": "2026-07-16",
+      "End": "2026-07-29",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1122,
+      "ChapterId": "oa2",
+      "Star": 4,
+      "Name": "メルヘンフェスグリーン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/OA2-132.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa2/OA2-132_thumb.webp",
+      "Group": "プレミアムライブ メルヘンフェスコーデ",
+      "Kind": "プレミアムライブ メルヘンフェスコーデ",
+      "Start": "2026-07-16",
+      "End": "2026-07-29",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 1108,
       "ChapterId": "oa2",
       "Star": 4,
@@ -15887,6 +15939,20 @@
       "Start": "2026-06-11",
       "End": "2026-07-08",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901042,
+      "ChapterId": "oa2",
+      "Name": "ゆうじょうスイーツバズリウムレイニーパープル",
+      "Group": "フルコーデガチャ おねがい2だん後半",
+      "Kind": "フルコーデガチャ おねがい2だん後半",
+      "Start": "2026-07-09",
+      "End": "2026-07-29",
+      "LinkedItemIds": [
+        911103,
+        911105,
+        911106
+      ]
     },
     {
       "Id": 232,
@@ -40905,6 +40971,102 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33063.webp"
     },
     {
+      "Id": 33149,
+      "CoordinateId": 1119,
+      "SealId": "OA2-123",
+      "CategoryId": 2,
+      "Point": 720,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33149.webp"
+    },
+    {
+      "Id": 33150,
+      "CoordinateId": 1119,
+      "SealId": "OA2-124",
+      "CategoryId": 4,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33150.webp"
+    },
+    {
+      "Id": 33151,
+      "CoordinateId": 1119,
+      "SealId": "OA2-125",
+      "CategoryId": 5,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33151.webp"
+    },
+    {
+      "Id": 33152,
+      "CoordinateId": 1120,
+      "SealId": "OA2-126",
+      "CategoryId": 2,
+      "Point": 730,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33152.webp"
+    },
+    {
+      "Id": 33153,
+      "CoordinateId": 1120,
+      "SealId": "OA2-127",
+      "CategoryId": 4,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33153.webp"
+    },
+    {
+      "Id": 33154,
+      "CoordinateId": 1120,
+      "SealId": "OA2-128",
+      "CategoryId": 5,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33154.webp"
+    },
+    {
+      "Id": 33155,
+      "CoordinateId": 1121,
+      "SealId": "OA2-129",
+      "CategoryId": 2,
+      "Point": 730,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33155.webp"
+    },
+    {
+      "Id": 33156,
+      "CoordinateId": 1121,
+      "SealId": "OA2-130",
+      "CategoryId": 4,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33156.webp"
+    },
+    {
+      "Id": 33157,
+      "CoordinateId": 1121,
+      "SealId": "OA2-131",
+      "CategoryId": 5,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33157.webp"
+    },
+    {
+      "Id": 33158,
+      "CoordinateId": 1122,
+      "SealId": "OA2-132",
+      "CategoryId": 2,
+      "Point": 730,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33158.webp"
+    },
+    {
+      "Id": 33159,
+      "CoordinateId": 1122,
+      "SealId": "OA2-133",
+      "CategoryId": 4,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33159.webp"
+    },
+    {
+      "Id": 33160,
+      "CoordinateId": 1122,
+      "SealId": "OA2-134",
+      "CategoryId": 5,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa2/Item_ID33160.webp"
+    },
+    {
       "Id": 33141,
       "CoordinateId": 1108,
       "SealId": "OA2-115",
@@ -50823,6 +50985,27 @@
       "Name": "サマードロップグラス",
       "Description": "サマージュエル",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0023.webp"
+    },
+    {
+      "Id": 432,
+      "CategoryId": 5,
+      "Name": "トゲトゲツイン",
+      "Description": "プレミアムライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0028.webp"
+    },
+    {
+      "Id": 433,
+      "CategoryId": 7,
+      "Name": "ネオンバイオレット",
+      "Description": "なつやすみキャンペーン",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0100.webp"
+    },
+    {
+      "Id": 434,
+      "CategoryId": 9,
+      "Name": "ゆめゆめシールデコ",
+      "Description": "なつやすみキャンペーン",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0062.webp"
     }
   ],
   "HimitsuChapters": [
