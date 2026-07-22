@@ -19130,6 +19130,12 @@
       "Name": "こんぺいとうファンシー",
       "Group": "おねがいアイプリ ミルフィーカード",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901054,
+      "ChapterId": "special",
+      "Name": "トキメキトゥインクルミックス",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -50140,6 +50146,24 @@
       "CoordinateId": 9901051,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911199,
+      "CoordinateId": 9901054,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911201,
+      "CoordinateId": 9901054,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911202,
+      "CoordinateId": 9901054,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -54046,7 +54070,8 @@
         27,
         28,
         29,
-        30
+        30,
+        31
       ]
     },
     {
