@@ -570,7 +570,7 @@ public sealed class MainWindowViewModel : WindowViewModel
 
                             string? read(int id) => id >= 0 ? row.ElementAtOrDefault(id)?.Trim() : null;
 
-                            var data = new CardViewModel()
+                            var data = new CardViewModel(this)
                             {
                                 CurrentKey = Enum.TryParse(read(key), out CoordinateKey k) ? k : CoordinateKey.Id,
                                 CurrentId = int.TryParse(read(id), out var i) ? i : 0,
@@ -614,7 +614,7 @@ public sealed class MainWindowViewModel : WindowViewModel
 
                 if (t == null)
                 {
-                    var data = new CardViewModel()
+                    var data = new CardViewModel(this)
                     {
                         NewKey = CoordinateKey.SealId,
                         NewId = c.Id,
@@ -703,7 +703,7 @@ public sealed class MainWindowViewModel : WindowViewModel
         => _AddNewCardCommand
         ??= CommandViewModel.Create(_ =>
         {
-            var row = new CardViewModel();
+            var row = new CardViewModel(this);
             row.NewId = (Cards.Max(e => e?.NewId) ?? 0) + 1;
 
             Cards.Add(row);

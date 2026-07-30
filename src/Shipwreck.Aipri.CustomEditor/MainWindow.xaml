@@ -206,7 +206,7 @@
                                 Binding="{Binding Item1.NewImage}" />
                             <DataGridCheckBoxColumn
                                 Header="セット"
-                                Binding="{Binding Item1.NewSet, UpdateSourceTrigger=PropertyChanged}" /> 
+                                Binding="{Binding Item1.NewSet, UpdateSourceTrigger=PropertyChanged}" />
                             <DataGridTextColumn
                                 Header="種類2"
                                 Binding="{Binding Item2.NewCategory}" />
@@ -340,7 +340,7 @@
                             <DataGridComboBoxColumn
                                 Header="曲"
                                 ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.Songs}"
-                                SelectedItemBinding="{Binding NewSong}">
+                                TextBinding="{Binding NewSong}">
                                 <DataGridComboBoxColumn.ElementStyle>
                                     <Style
                                         TargetType="ComboBox"

@@ -4,6 +4,13 @@ namespace Shipwreck.Aipri.CustomEditor;
 
 public sealed class CardViewModel : ObservableModel
 {
+    internal CardViewModel(MainWindowViewModel window)
+    {
+        Window = window;
+    }
+
+    public MainWindowViewModel Window { get; }
+
     #region Key
 
     private CoordinateKey _CurrentKey;
@@ -342,6 +349,10 @@ public sealed class CardViewModel : ObservableModel
         {
             if (SetProperty(ref _NewSong, value?.Trim() ?? string.Empty))
             {
+                if (!string.IsNullOrEmpty(_NewSong) && !Window.Songs.Contains(_NewSong))
+                {
+                    Window.Songs.Add(_NewSong);
+                }
                 IsSongChanged = _NewSong != _CurrentSong;
             }
         }
@@ -393,7 +404,6 @@ public sealed class CardViewModel : ObservableModel
     }
 
     #endregion Point
-
 
     #region Star
 
@@ -473,7 +483,6 @@ public sealed class CardViewModel : ObservableModel
 
     #endregion Chance
 
-
     #region Brand
 
     private string _CurrentBrand = string.Empty;
@@ -512,7 +521,7 @@ public sealed class CardViewModel : ObservableModel
     }
 
     #endregion Brand
-     
+
     #region Image1
 
     private string _CurrentImage1 = string.Empty;
@@ -552,7 +561,6 @@ public sealed class CardViewModel : ObservableModel
 
     #endregion Image1
 
-
     #region Image2
 
     private string _CurrentImage2 = string.Empty;
@@ -591,5 +599,4 @@ public sealed class CardViewModel : ObservableModel
     }
 
     #endregion Image2
-
 }
