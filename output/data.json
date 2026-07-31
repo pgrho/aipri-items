@@ -19005,7 +19005,7 @@
     {
       "Id": 9901032,
       "ChapterId": "special",
-      "Name": "フラワーブーケ(シクレ)",
+      "Name": "フラワーブーケピンク",
       "Group": "アイプリカード コレクショングミvol.2",
       "LinkedItemIds": []
     },
@@ -54278,6 +54278,7 @@
       "Id": 87,
       "Name": "TOP POWER（ナナ・エマ）",
       "SingerIds": [
+        30,
         31
       ]
     },
@@ -54290,7 +54291,10 @@
       "Id": 89,
       "Name": "あっぱれアイプリおんど",
       "SingerIds": [
-        26
+        26,
+        27,
+        28,
+        29
       ]
     },
     {
@@ -70861,6 +70865,14 @@
       "IsChance": true
     },
     {
+      "Id": 9201020,
+      "ChapterId": "gumi",
+      "SealId": "OG2-004",
+      "Coordinate": "フラワーブーケピンク",
+      "Character": "いのり",
+      "CharacterId": 26
+    },
+    {
       "Id": 678,
       "ChapterId": "memorial",
       "SealId": "P-147",
@@ -71147,20 +71159,6 @@
       "SongId": 29,
       "Image1Url": "https://aipri.jp/himitsu/card/img/memorial/P-170_O.webp",
       "Image2Url": "https://aipri.jp/himitsu/card/img/memorial/P-170_U.webp"
-    },
-    {
-      "Id": 80,
-      "ChapterId": "millefeui",
-      "BrandId": 2,
-      "SealId": "M1-005",
-      "Coordinate": "スターメロディマジカル",
-      "Character": "ひまり",
-      "CharacterId": 1,
-      "Song": "P.O.P.P.Y",
-      "SongId": 1,
-      "Star": 3,
-      "Point": 570,
-      "Image1Url": "https://aipri.jp/himitsu/card/img/millefeui/TOY-018_O.webp"
     },
     {
       "Id": 9200005,
@@ -71608,6 +71606,20 @@
       "Star": 3,
       "Point": 540,
       "Image1Url": "https://aipri.jp/himitsu/card/img/millefeui/TOY-017_O.webp"
+    },
+    {
+      "Id": 80,
+      "ChapterId": "millefeui",
+      "BrandId": 2,
+      "SealId": "M1-005",
+      "Coordinate": "スターメロディマジカル",
+      "Character": "ひまり",
+      "CharacterId": 1,
+      "Song": "P.O.P.P.Y",
+      "SongId": 1,
+      "Star": 3,
+      "Point": 570,
+      "Image1Url": "https://aipri.jp/himitsu/card/img/millefeui/TOY-018_O.webp"
     },
     {
       "Id": 81,
