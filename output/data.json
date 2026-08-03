@@ -19019,7 +19019,7 @@
     {
       "Id": 9901034,
       "ChapterId": "special",
-      "Name": "ピーチマリンスカイ",
+      "Name": "ビーチマリンスカイ",
       "Group": "アイプリカード コレクショングミvol.2",
       "LinkedItemIds": []
     },
@@ -19170,6 +19170,13 @@
       "ChapterId": "special",
       "Name": "ゆうじょうスイーツバズリウムおりびあイエロー",
       "Group": "DMMスクラッチ",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901060,
+      "ChapterId": "special",
+      "Name": "ガーデンラビットのはらグリーン",
+      "Group": "ちゃお",
       "LinkedItemIds": []
     }
   ],
@@ -50273,6 +50280,31 @@
     {
       "Id": 911222,
       "CoordinateId": 9901059,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911223,
+      "CoordinateId": 9901060,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911224,
+      "CoordinateId": 9901060,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911225,
+      "CoordinateId": 9901060,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911226,
+      "CoordinateId": 9901060,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
