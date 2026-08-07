@@ -19148,28 +19148,28 @@
       "Id": 9901056,
       "ChapterId": "special",
       "Name": "ゆめゆめスターバズリウムいのりピンク",
-      "Group": "DMMスクラッチ",
+      "Group": "DMMくじ",
       "LinkedItemIds": []
     },
     {
       "Id": 9901057,
       "ChapterId": "special",
       "Name": "すきすきハートバズリウムあおいブルー",
-      "Group": "DMMスクラッチ",
+      "Group": "DMMくじ",
       "LinkedItemIds": []
     },
     {
       "Id": 9901058,
       "ChapterId": "special",
       "Name": "ゆうきのフラワーバズリウムぐみグリーン",
-      "Group": "DMMスクラッチ",
+      "Group": "DMMくじ",
       "LinkedItemIds": []
     },
     {
       "Id": 9901059,
       "ChapterId": "special",
       "Name": "ゆうじょうスイーツバズリウムおりびあイエロー",
-      "Group": "DMMスクラッチ",
+      "Group": "DMMくじ",
       "LinkedItemIds": []
     },
     {
@@ -74078,6 +74078,64 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1331,
+      "ChapterId": "special",
+      "SealId": "OP-028",
+      "Coordinate": "ゆめゆめスターバズリウムいのりピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-028_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-028_U.webp"
+    },
+    {
+      "Id": 1332,
+      "ChapterId": "special",
+      "SealId": "OP-029",
+      "Coordinate": "すきすきハートバズリウムあおいブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-029_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-029_U.webp"
+    },
+    {
+      "Id": 1333,
+      "ChapterId": "special",
+      "SealId": "OP-030",
+      "Coordinate": "ゆうきのフラワーバズリウムぐみグリーン",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-030_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-030_U.webp"
+    },
+    {
+      "Id": 1334,
+      "ChapterId": "special",
+      "SealId": "OP-031",
+      "Coordinate": "ゆうじょうスイーツバズリウムおりびあイエロー",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-031_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-031_U.webp"
+    },
+    {
+      "Id": 1335,
+      "ChapterId": "special",
+      "SealId": "OP-067",
+      "Coordinate": "ジューシーサマーパープル",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-067_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-067_U.webp"
     },
     {
       "Id": 1328,
