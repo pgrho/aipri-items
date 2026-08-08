@@ -19178,6 +19178,13 @@
       "Name": "ガーデンラビットのはらグリーン",
       "Group": "ちゃお",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901061,
+      "ChapterId": "special",
+      "Name": "ジューシーサマーパープル",
+      "Group": "ツリービレッジ",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -50305,6 +50312,24 @@
     {
       "Id": 911226,
       "CoordinateId": 9901060,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911227,
+      "CoordinateId": 9901061,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911229,
+      "CoordinateId": 9901061,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911230,
+      "CoordinateId": 9901061,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
