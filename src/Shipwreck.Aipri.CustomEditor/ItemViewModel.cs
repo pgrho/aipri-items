@@ -4,6 +4,8 @@ namespace Shipwreck.Aipri.CustomEditor;
 
 public sealed class ItemViewModel : ObservableModel
 {
+    internal CoordinateViewModel? Coordinate { get; set; }
+
     #region Category
 
     private ItemCategory _CurrentCategory;
@@ -28,9 +30,21 @@ public sealed class ItemViewModel : ObservableModel
         get => _NewCategory;
         set
         {
+            var onc = _NewCategory;
             if (SetProperty(ref _NewCategory, value))
             {
                 IsCategoryChanged = _NewCategory != _CurrentCategory;
+                if (onc == ItemCategory.Tops
+                    && _NewCategory == ItemCategory.OnePiece
+                    && Coordinate?.Items.FirstOrDefault(e => e.NewCategory == ItemCategory.Bottoms) is ItemViewModel b)
+                {
+                    b.NewCategory = ItemCategory.None;
+                    b.NewId = 0;
+                }
+                else if (_NewCategory == ItemCategory.None)
+                {
+                    NewId = 0;
+                }
             }
         }
     }

@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System.Collections.ObjectModel;
+using System.Data;
 using System.Runtime.CompilerServices;
 using System.Text.Json;
 using Shipwreck.ViewModelUtils;
@@ -493,6 +494,22 @@ public sealed class MainWindowViewModel : WindowViewModel
             iconGetter: c => c.IsExecuting ? "fas fa-pulse fa-spinner" : "fas fa-save");
 
     #endregion SaveCoordinatesCommand
+
+    #region ItemCategories
+
+    private ReadOnlyCollection<ItemCategory> _ItemCategories;
+
+    public ReadOnlyCollection<ItemCategory> ItemCategories
+        => _ItemCategories ??= new([
+            ItemCategory.None,
+            ItemCategory.Tops,
+            ItemCategory.OnePiece,
+            ItemCategory.Bottoms,
+            ItemCategory.Shoes,
+            ItemCategory.Accessory
+        ]);
+
+    #endregion ItemCategories
 
     #endregion プリフォト
 

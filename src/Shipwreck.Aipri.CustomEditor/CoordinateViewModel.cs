@@ -518,18 +518,22 @@ public sealed class CoordinateViewModel : ObservableModel
     {
         if (_Item1 == null)
         {
+            item.Coordinate = this;
             Item1 = item;
         }
         else if (_Item2 == null)
         {
+            item.Coordinate = this;
             Item2 = item;
         }
         else if (_Item3 == null)
         {
+            item.Coordinate = this;
             Item3 = item;
         }
         else if (_Item4 == null)
         {
+            item.Coordinate = this;
             Item4 = item;
         }
     }

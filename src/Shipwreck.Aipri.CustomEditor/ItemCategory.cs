@@ -4,6 +4,9 @@ namespace Shipwreck.Aipri.CustomEditor;
 
 public enum ItemCategory
 {
+    [Display(Name = "eds")]
+    None,
+
     [Display(Name = "トップス")]
     Tops,
 

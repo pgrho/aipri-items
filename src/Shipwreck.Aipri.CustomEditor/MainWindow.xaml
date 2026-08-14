@@ -195,9 +195,10 @@
                             <DataGridTextColumn
                                 Header="終了"
                                 Binding="{Binding NewEnd, StringFormat=yy-MM-dd}" />
-                            <DataGridTextColumn
+                            <DataGridComboBoxColumn
                                 Header="種類1"
-                                Binding="{Binding Item1.NewCategory}" />
+                                SelectedItemBinding="{Binding Item1.NewCategory}"
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}" />
                             <DataGridTextColumn
                                 Header="ID1"
                                 Binding="{Binding Item1.NewId}" />
@@ -207,9 +208,10 @@
                             <DataGridCheckBoxColumn
                                 Header="セット"
                                 Binding="{Binding Item1.NewSet, UpdateSourceTrigger=PropertyChanged}" />
-                            <DataGridTextColumn
+                            <DataGridComboBoxColumn
                                 Header="種類2"
-                                Binding="{Binding Item2.NewCategory}" />
+                                SelectedItemBinding="{Binding Item2.NewCategory}"
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}" />
                             <DataGridTextColumn
                                 Header="ID2"
                                 Binding="{Binding Item2.NewId}" />
@@ -219,9 +221,10 @@
                             <DataGridCheckBoxColumn
                                 Header="セット"
                                 Binding="{Binding Item2.NewSet, UpdateSourceTrigger=PropertyChanged}" />
-                            <DataGridTextColumn
+                            <DataGridComboBoxColumn
                                 Header="種類3"
-                                Binding="{Binding Item3.NewCategory}" />
+                                SelectedItemBinding="{Binding Item3.NewCategory}"
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}" />
                             <DataGridTextColumn
                                 Header="ID3"
                                 Binding="{Binding Item3.NewId}" />
@@ -231,9 +234,10 @@
                             <DataGridCheckBoxColumn
                                 Header="セット"
                                 Binding="{Binding Item3.NewSet, UpdateSourceTrigger=PropertyChanged}" />
-                            <DataGridTextColumn
+                            <DataGridComboBoxColumn
                                 Header="種類4"
-                                Binding="{Binding Item4.NewCategory}" />
+                                SelectedItemBinding="{Binding Item4.NewCategory}"
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}" />
                             <DataGridTextColumn
                                 Header="ID4"
                                 Binding="{Binding Item4.NewId}" />
