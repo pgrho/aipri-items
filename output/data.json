@@ -16299,6 +16299,32 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 1174,
+      "ChapterId": "oa3",
+      "Star": 4,
+      "Name": "うらないクォーツグリーン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/OA3-151.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa3/OA3-151_thumb.webp",
+      "Group": "プレミアムライブ ナナ＆エマセレクション",
+      "Kind": "プレミアムライブ ナナ＆エマセレクション",
+      "Start": "2026-08-20",
+      "End": "2026-09-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1175,
+      "ChapterId": "oa3",
+      "Star": 3,
+      "Name": "ローズプリンスブルー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/OA3-155.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa3/OA3-155_thumb.webp",
+      "Group": "プレミアムライブ ナナ＆エマセレクション",
+      "Kind": "プレミアムライブ ナナ＆エマセレクション",
+      "Start": "2026-08-20",
+      "End": "2026-09-02",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 1149,
       "ChapterId": "oa3",
       "Star": 4,
@@ -43290,6 +43316,72 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33306.webp"
     },
     {
+      "Id": 33421,
+      "CoordinateId": 1174,
+      "SealId": "OA3-151",
+      "CategoryId": 1,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33421.webp"
+    },
+    {
+      "Id": 33422,
+      "CoordinateId": 1174,
+      "SealId": "OA3-152",
+      "CategoryId": 3,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33422.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 33423,
+      "CoordinateId": 1174,
+      "SealId": "OA3-153",
+      "CategoryId": 4,
+      "Point": 350,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33423.webp"
+    },
+    {
+      "Id": 33424,
+      "CoordinateId": 1174,
+      "SealId": "OA3-154",
+      "CategoryId": 5,
+      "Point": 330,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33424.webp"
+    },
+    {
+      "Id": 33425,
+      "CoordinateId": 1175,
+      "SealId": "OA3-155",
+      "CategoryId": 1,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33425.webp"
+    },
+    {
+      "Id": 33426,
+      "CoordinateId": 1175,
+      "SealId": "OA3-156",
+      "CategoryId": 3,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33426.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 33427,
+      "CoordinateId": 1175,
+      "SealId": "OA3-157",
+      "CategoryId": 4,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33427.webp"
+    },
+    {
+      "Id": 33428,
+      "CoordinateId": 1175,
+      "SealId": "OA3-158",
+      "CategoryId": 5,
+      "Point": 340,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33428.webp"
+    },
+    {
       "Id": 33465,
       "CoordinateId": 1149,
       "SealId": "OA3-215",
@@ -53482,6 +53574,27 @@
       "Name": "ゴシックハートアイパッチ",
       "Description": "なつやすみキャンペーン後半",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Onepoint_0025.webp"
+    },
+    {
+      "Id": 446,
+      "CategoryId": 5,
+      "Name": "シンフォニーサイド",
+      "Description": "おねがい3だんマイキャラライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Backhair_0030.webp"
+    },
+    {
+      "Id": 447,
+      "CategoryId": 7,
+      "Name": "ほしくずクレッセント",
+      "Description": "プレミアムライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0103.webp"
+    },
+    {
+      "Id": 448,
+      "CategoryId": 9,
+      "Name": "プチブラックリボンデコ",
+      "Description": "おねがい3だんマイキャラライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0064.webp"
     }
   ],
   "HimitsuChapters": [
