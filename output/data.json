@@ -19211,6 +19211,13 @@
       "Name": "ジューシーサマーパープル",
       "Group": "ツリービレッジ",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901062,
+      "ChapterId": "special",
+      "Name": "ビリーブマーチブラックピンク",
+      "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -50422,6 +50429,24 @@
     {
       "Id": 911230,
       "CoordinateId": 9901061,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911231,
+      "CoordinateId": 9901062,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911233,
+      "CoordinateId": 9901062,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911234,
+      "CoordinateId": 9901062,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
