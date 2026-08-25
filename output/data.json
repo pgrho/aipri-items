@@ -50436,19 +50436,19 @@
       "Id": 911231,
       "CoordinateId": 9901062,
       "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
+      "ImageUrl": "Items/believe_march_black_pink-1.png"
     },
     {
       "Id": 911233,
       "CoordinateId": 9901062,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "Items/believe_march_black_pink-2.png"
     },
     {
       "Id": 911234,
       "CoordinateId": 9901062,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "Items/believe_march_black_pink-3.png"
     }
   ],
   "PartCategories": [
