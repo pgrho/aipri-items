@@ -42,56 +42,22 @@
                         AutoGenerateColumns="False"
                         ItemsSource="{Binding FilteredCoordinates}">
                         <DataGrid.Columns>
-                            <DataGridComboBoxColumn
+                            <v:CustomComboBoxColumn
                                 Header="弾"
                                 ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.VerseChapters}"
                                 DisplayMemberPath="Name"
                                 SelectedValuePath="Id"
-                                SelectedValueBinding="{Binding NewChapter}">
-                                <DataGridComboBoxColumn.ElementStyle>
-                                    <Style
-                                        TargetType="ComboBox"
-                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid}">
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsChapterChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridComboBoxColumn.ElementStyle>
-                                <DataGridComboBoxColumn.EditingElementStyle>
-                                    <Style
-                                        TargetType="ComboBox"
-                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid.Editing}">
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsChapterChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridComboBoxColumn.EditingElementStyle>
-                            </DataGridComboBoxColumn>
-                            <DataGridTextColumn
+                                SelectedValueBinding="{Binding NewChapter}"
+                                IsChangedBinding="{Binding IsChapterChanged}" />
+                            <v:CustomTextColumn
                                 Header="Id"
-                                Binding="{Binding NewId}" />
-                            <DataGridComboBoxColumn
+                                Binding="{Binding NewId}"
+                                IsChangedBinding="{Binding IsIdChanged}" />
+                            <v:CustomComboBoxColumn
                                 Header="☆"
-                                SelectedItemBinding="{Binding NewStar}">
-                                <DataGridComboBoxColumn.ItemsSource>
+                                SelectedItemBinding="{Binding NewStar}"
+                                IsChangedBinding="{Binding IsStarChanged}">
+                                <v:CustomComboBoxColumn.ItemsSource>
                                     <x:Array
                                         Type="sys:Int32">
                                         <sys:Int32>4</sys:Int32>
@@ -99,155 +65,100 @@
                                         <sys:Int32>2</sys:Int32>
                                         <sys:Int32>0</sys:Int32>
                                     </x:Array>
-                                </DataGridComboBoxColumn.ItemsSource>
-                                <DataGridComboBoxColumn.ElementStyle>
-                                    <Style
-                                        TargetType="ComboBox"
-                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid}">
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsStarChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridComboBoxColumn.ElementStyle>
-                                <DataGridComboBoxColumn.EditingElementStyle>
-                                    <Style
-                                        TargetType="ComboBox"
-                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid.Editing}">
-                                        <Setter
-                                            Property="IsEditable"
-                                            Value="True" />
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsStarChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridComboBoxColumn.EditingElementStyle>
-                            </DataGridComboBoxColumn>
-                            <DataGridTextColumn
+                                </v:CustomComboBoxColumn.ItemsSource>
+                            </v:CustomComboBoxColumn>
+                            <v:CustomTextColumn
                                 Header="コーデ"
-                                Binding="{Binding NewName}">
-                                <DataGridTextColumn.ElementStyle>
-                                    <Style
-                                        TargetType="TextBlock"
-                                        BasedOn="{StaticResource MahApps.Styles.TextBlock.DataGrid}">
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsNameChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridTextColumn.ElementStyle>
-                                <DataGridTextColumn.EditingElementStyle>
-                                    <Style
-                                        TargetType="TextBox"
-                                        BasedOn="{StaticResource MahApps.Styles.TextBox.DataGrid.Editing}">
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsNameChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridTextColumn.EditingElementStyle>
-                            </DataGridTextColumn>
-                            <DataGridTextColumn
+                                Binding="{Binding NewName}"
+                                IsChangedBinding="{Binding IsNameChanged}" />
+                            <v:CustomTextColumn
                                 Header="分類"
-                                Binding="{Binding NewGroup}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewGroup}"
+                                IsChangedBinding="{Binding IsGroupChanged}" />
+                            <v:CustomTextColumn
                                 Header="種別"
-                                Binding="{Binding NewKind}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewKind}"
+                                IsChangedBinding="{Binding IsKindChanged}" />
+                            <v:CustomTextColumn
                                 Header="ブランド"
-                                Binding="{Binding NewBrand}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewBrand}"
+                                IsChangedBinding="{Binding IsBrandChanged}" />
+                            <v:CustomTextColumn
                                 Header="開始"
-                                Binding="{Binding NewStart, StringFormat=yy-MM-dd}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewStart, StringFormat=yy-MM-dd}"
+                                IsChangedBinding="{Binding IsStartChanged}" />
+                            <v:CustomTextColumn
                                 Header="終了"
-                                Binding="{Binding NewEnd, StringFormat=yy-MM-dd}" />
-                            <DataGridComboBoxColumn
+                                Binding="{Binding NewEnd, StringFormat=yy-MM-dd}"
+                                IsChangedBinding="{Binding IsEndChanged}" />
+                            <v:CustomComboBoxColumn
                                 Header="種類1"
                                 SelectedItemBinding="{Binding Item1.NewCategory}"
-                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}" />
-                            <DataGridTextColumn
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}"
+                                IsChangedBinding="{Binding Item1.IsCategoryChanged}" />
+                            <v:CustomTextColumn
                                 Header="ID1"
-                                Binding="{Binding Item1.NewId}" />
-                            <DataGridTextColumn
+                                Binding="{Binding Item1.NewId}"
+                                IsChangedBinding="{Binding Item1.IsIdChanged}" />
+                            <v:CustomTextColumn
                                 Header="画像1"
-                                Binding="{Binding Item1.NewImage}" />
-                            <DataGridCheckBoxColumn
+                                Binding="{Binding Item1.NewImage}"
+                                IsChangedBinding="{Binding Item1.IsImageChanged}" />
+                            <v:CustomCheckBoxColumn
                                 Header="セット"
-                                Binding="{Binding Item1.NewSet, UpdateSourceTrigger=PropertyChanged}" />
-                            <DataGridComboBoxColumn
+                                Binding="{Binding Item1.NewSet, UpdateSourceTrigger=PropertyChanged}"
+                                IsChangedBinding="{Binding Item1.IsSetChanged}" />
+                            <v:CustomComboBoxColumn
                                 Header="種類2"
                                 SelectedItemBinding="{Binding Item2.NewCategory}"
-                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}" />
-                            <DataGridTextColumn
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}"
+                                IsChangedBinding="{Binding Item2.IsCategoryChanged}" />
+                            <v:CustomTextColumn
                                 Header="ID2"
-                                Binding="{Binding Item2.NewId}" />
-                            <DataGridTextColumn
+                                Binding="{Binding Item2.NewId}"
+                                IsChangedBinding="{Binding Item2.IsIdChanged}" />
+                            <v:CustomTextColumn
                                 Header="画像2"
-                                Binding="{Binding Item2.NewImage}" />
-                            <DataGridCheckBoxColumn
+                                Binding="{Binding Item2.NewImage}"
+                                IsChangedBinding="{Binding Item2.IsImageChanged}" />
+                            <v:CustomCheckBoxColumn
                                 Header="セット"
-                                Binding="{Binding Item2.NewSet, UpdateSourceTrigger=PropertyChanged}" />
-                            <DataGridComboBoxColumn
+                                Binding="{Binding Item2.NewSet, UpdateSourceTrigger=PropertyChanged}"
+                                IsChangedBinding="{Binding Item2.IsSetChanged}" />
+                            <v:CustomComboBoxColumn
                                 Header="種類3"
                                 SelectedItemBinding="{Binding Item3.NewCategory}"
-                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}" />
-                            <DataGridTextColumn
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}"
+                                IsChangedBinding="{Binding Item3.IsCategoryChanged}" />
+                            <v:CustomTextColumn
                                 Header="ID3"
-                                Binding="{Binding Item3.NewId}" />
-                            <DataGridTextColumn
+                                Binding="{Binding Item3.NewId}"
+                                IsChangedBinding="{Binding Item3.IsIdChanged}" />
+                            <v:CustomTextColumn
                                 Header="画像3"
-                                Binding="{Binding Item3.NewImage}" />
-                            <DataGridCheckBoxColumn
+                                Binding="{Binding Item3.NewImage}"
+                                IsChangedBinding="{Binding Item3.IsImageChanged}" />
+                            <v:CustomCheckBoxColumn
                                 Header="セット"
-                                Binding="{Binding Item3.NewSet, UpdateSourceTrigger=PropertyChanged}" />
-                            <DataGridComboBoxColumn
+                                Binding="{Binding Item3.NewSet, UpdateSourceTrigger=PropertyChanged}"
+                                IsChangedBinding="{Binding Item3.IsSetChanged}" />
+                            <v:CustomComboBoxColumn
                                 Header="種類4"
                                 SelectedItemBinding="{Binding Item4.NewCategory}"
-                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}" />
-                            <DataGridTextColumn
+                                ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.ItemCategories}"
+                                IsChangedBinding="{Binding Item4.IsCategoryChanged}" />
+                            <v:CustomTextColumn
                                 Header="ID4"
-                                Binding="{Binding Item4.NewId}" />
-                            <DataGridTextColumn
+                                Binding="{Binding Item4.NewId}"
+                                IsChangedBinding="{Binding Item4.IsIdChanged}" />
+                            <v:CustomTextColumn
                                 Header="画像4"
-                                Binding="{Binding Item4.NewImage}" />
-                            <DataGridCheckBoxColumn
+                                Binding="{Binding Item4.NewImage}"
+                                IsChangedBinding="{Binding Item4.IsImageChanged}" />
+                            <v:CustomCheckBoxColumn
                                 Header="セット"
-                                Binding="{Binding Item4.NewSet, UpdateSourceTrigger=PropertyChanged}" />
-
+                                Binding="{Binding Item4.NewSet, UpdateSourceTrigger=PropertyChanged}"
+                                IsChangedBinding="{Binding Item4.IsSetChanged}" />
                         </DataGrid.Columns>
                     </DataGrid>
                     <WrapPanel
@@ -279,119 +190,52 @@
                         AutoGenerateColumns="False"
                         ItemsSource="{Binding FilteredCards}">
                         <DataGrid.Columns>
-                            <DataGridComboBoxColumn
+                            <v:CustomComboBoxColumn
                                 Header="弾"
                                 ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.HimitsuChapters}"
                                 DisplayMemberPath="Name"
                                 SelectedValuePath="Id"
-                                SelectedValueBinding="{Binding NewChapter}">
-                                <DataGridComboBoxColumn.ElementStyle>
-                                    <Style
-                                        TargetType="ComboBox"
-                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid}">
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsChapterChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridComboBoxColumn.ElementStyle>
-                                <DataGridComboBoxColumn.EditingElementStyle>
-                                    <Style
-                                        TargetType="ComboBox"
-                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid.Editing}">
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsChapterChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridComboBoxColumn.EditingElementStyle>
-                            </DataGridComboBoxColumn>
-                            <DataGridTextColumn
+                                SelectedValueBinding="{Binding NewChapter}"
+                                IsChangedBinding="{Binding IsChapterChanged}" />
+                            <v:CustomTextColumn
                                 Header="コード"
-                                Binding="{Binding NewSealId}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewSealId}"
+                                IsChangedBinding="{Binding IsSealIdChanged}" />
+                            <v:CustomTextColumn
                                 Header="Id"
-                                Binding="{Binding NewId}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewId}"
+                                IsChangedBinding="{Binding IsIdChanged}" />
+                            <v:CustomTextColumn
                                 Header="順序"
-                                Binding="{Binding NewOrder}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewOrder}"
+                                IsChangedBinding="{Binding IsOrderChanged}" />
+                            <v:CustomTextColumn
                                 Header="コーデ"
-                                Binding="{Binding NewCoordinate}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewCoordinate}"
+                                IsChangedBinding="{Binding IsCoordinateChanged}" />
+                            <v:CustomTextColumn
                                 Header="キャラ"
-                                Binding="{Binding NewCharacter}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewCharacter}"
+                                IsChangedBinding="{Binding IsCharacterChanged}" />
+                            <v:CustomTextColumn
                                 Header="種類"
-                                Binding="{Binding NewVariant}" />
+                                Binding="{Binding NewVariant}"
+                                IsChangedBinding="{Binding IsVariantChanged}" />
 
-                            <DataGridComboBoxColumn
+                            <v:CustomComboBoxColumn
                                 Header="曲"
                                 ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.Songs}"
-                                TextBinding="{Binding NewSong}">
-                                <DataGridComboBoxColumn.ElementStyle>
-                                    <Style
-                                        TargetType="ComboBox"
-                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid}">
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsSongChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridComboBoxColumn.ElementStyle>
-                                <DataGridComboBoxColumn.EditingElementStyle>
-                                    <Style
-                                        TargetType="ComboBox"
-                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid.Editing}">
-                                        <Setter
-                                            Property="IsEditable"
-                                            Value="True" />
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsSongChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridComboBoxColumn.EditingElementStyle>
-                            </DataGridComboBoxColumn>
-                            <DataGridTextColumn
+                                TextBinding="{Binding NewSong}"
+                                IsChangedBinding="{Binding IsSongChanged}" />
+                            <v:CustomTextColumn
                                 Header="BP"
-                                Binding="{Binding NewPoint}" />
-                            <DataGridComboBoxColumn
+                                Binding="{Binding NewPoint}"
+                                IsChangedBinding="{Binding IsPointChanged}" />
+                            <v:CustomComboBoxColumn
                                 Header="☆"
-                                SelectedItemBinding="{Binding NewStar}">
-                                <DataGridComboBoxColumn.ItemsSource>
+                                SelectedItemBinding="{Binding NewStar}"
+                                IsChangedBinding="{Binding IsStarChanged}">
+                                <v:CustomComboBoxColumn.ItemsSource>
                                     <x:Array
                                         Type="sys:Int32">
                                         <sys:Int32>4</sys:Int32>
@@ -399,59 +243,24 @@
                                         <sys:Int32>2</sys:Int32>
                                         <sys:Int32>0</sys:Int32>
                                     </x:Array>
-                                </DataGridComboBoxColumn.ItemsSource>
-                                <DataGridComboBoxColumn.ElementStyle>
-                                    <Style
-                                        TargetType="ComboBox"
-                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid}">
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsStarChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridComboBoxColumn.ElementStyle>
-                                <DataGridComboBoxColumn.EditingElementStyle>
-                                    <Style
-                                        TargetType="ComboBox"
-                                        BasedOn="{StaticResource MahApps.Styles.ComboBox.DataGrid.Editing}">
-                                        <Setter
-                                            Property="IsEditable"
-                                            Value="True" />
-                                        <Style.Triggers>
-                                            <DataTrigger
-                                                Binding="{Binding IsStarChanged}"
-                                                Value="True">
-                                                <Setter
-                                                    Property="Foreground"
-                                                    Value="Red" />
-                                                <Setter
-                                                    Property="FontWeight"
-                                                    Value="Bold" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </DataGridComboBoxColumn.EditingElementStyle>
-                            </DataGridComboBoxColumn>
-                            <DataGridCheckBoxColumn
+                                </v:CustomComboBoxColumn.ItemsSource>
+                            </v:CustomComboBoxColumn>
+                            <v:CustomCheckBoxColumn
                                 Header="チャンス"
-                                Binding="{Binding NewChance, UpdateSourceTrigger=PropertyChanged}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewChance, UpdateSourceTrigger=PropertyChanged}"
+                                IsChangedBinding="{Binding IsChanceChanged}" />
+                            <v:CustomTextColumn
                                 Header="ブランド"
-                                Binding="{Binding NewBrand}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewBrand}"
+                                IsChangedBinding="{Binding IsBrandChanged}" />
+                            <v:CustomTextColumn
                                 Header="画像1"
-                                Binding="{Binding NewImage1}" />
-                            <DataGridTextColumn
+                                Binding="{Binding NewImage1}"
+                                IsChangedBinding="{Binding IsImage1Changed}" />
+                            <v:CustomTextColumn
                                 Header="画像2"
-                                Binding="{Binding NewImage2}" />
+                                Binding="{Binding NewImage2}"
+                                IsChangedBinding="{Binding IsImage2Changed}" />
                         </DataGrid.Columns>
                     </DataGrid>
                     <WrapPanel
