@@ -19026,6 +19026,7 @@
       "ChapterId": "special",
       "Name": "フラワーブーケオレンジ",
       "Group": "アイプリカード コレクショングミvol.2",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19040,6 +19041,7 @@
       "ChapterId": "special",
       "Name": "ゆうじょうスイーツバズリウムレッド",
       "Group": "アイプリカード コレクショングミvol.2",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19099,6 +19101,7 @@
       "Id": 9901043,
       "ChapterId": "special",
       "Name": "シールぺったんチアトゥインクル",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19168,6 +19171,7 @@
       "ChapterId": "special",
       "Name": "ゴシックフレアピンク",
       "Group": "ファンブック",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19175,6 +19179,7 @@
       "ChapterId": "special",
       "Name": "ゆめゆめスターバズリウムいのりピンク",
       "Group": "DMMくじ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19182,6 +19187,7 @@
       "ChapterId": "special",
       "Name": "すきすきハートバズリウムあおいブルー",
       "Group": "DMMくじ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19189,6 +19195,7 @@
       "ChapterId": "special",
       "Name": "ゆうきのフラワーバズリウムぐみグリーン",
       "Group": "DMMくじ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19196,6 +19203,7 @@
       "ChapterId": "special",
       "Name": "ゆうじょうスイーツバズリウムおりびあイエロー",
       "Group": "DMMくじ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19203,6 +19211,7 @@
       "ChapterId": "special",
       "Name": "ガーデンラビットのはらグリーン",
       "Group": "ちゃお",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19210,6 +19219,7 @@
       "ChapterId": "special",
       "Name": "ジューシーサマーパープル",
       "Group": "ツリービレッジ",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19217,6 +19227,41 @@
       "ChapterId": "special",
       "Name": "ビリーブマーチブラックピンク",
       "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901063,
+      "ChapterId": "special",
+      "Name": "ゴーストゴシックブラック",
+      "Group": "アイプリカード コレクショングミvol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901064,
+      "ChapterId": "special",
+      "Name": "ゴーストゴシックシークレット",
+      "Group": "アイプリカード コレクショングミvol.3",
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901065,
+      "ChapterId": "special",
+      "Name": "きぼうのクリスタルバズリウムミント",
+      "Group": "アイプリカード コレクショングミvol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901066,
+      "ChapterId": "special",
+      "Name": "パステルパッチワークピンク",
+      "Group": "アイプリカード コレクショングミvol.3",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901067,
+      "ChapterId": "special",
+      "Name": "ポップンマシュマロピンク",
       "LinkedItemIds": []
     }
   ],
@@ -50449,6 +50494,131 @@
       "CoordinateId": 9901062,
       "CategoryId": 5,
       "ImageUrl": "Items/believe_march_black_pink-3.png"
+    },
+    {
+      "Id": 911235,
+      "CoordinateId": 9901063,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911236,
+      "CoordinateId": 9901063,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911237,
+      "CoordinateId": 9901063,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911238,
+      "CoordinateId": 9901063,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911239,
+      "CoordinateId": 9901064,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911240,
+      "CoordinateId": 9901064,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911241,
+      "CoordinateId": 9901064,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911242,
+      "CoordinateId": 9901064,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911243,
+      "CoordinateId": 9901065,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911244,
+      "CoordinateId": 9901065,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911245,
+      "CoordinateId": 9901065,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911246,
+      "CoordinateId": 9901065,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911247,
+      "CoordinateId": 9901066,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911248,
+      "CoordinateId": 9901066,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911249,
+      "CoordinateId": 9901066,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911250,
+      "CoordinateId": 9901066,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911251,
+      "CoordinateId": 9901067,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911252,
+      "CoordinateId": 9901067,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911253,
+      "CoordinateId": 9901067,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911254,
+      "CoordinateId": 9901067,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -70685,6 +70855,7 @@
       "CharacterId": 29,
       "Song": "勇気のはばたきサイン",
       "SongId": 79,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG2-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG2-001_U.webp"
     },
@@ -70697,6 +70868,7 @@
       "CharacterId": 27,
       "Song": "夢色ビリーバー（あおい・ぐみ）",
       "SongId": 80,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG2-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG2-002_U.webp"
     },
@@ -70709,6 +70881,7 @@
       "CharacterId": 28,
       "Song": "おねがいアイプリ！",
       "SongId": 73,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG2-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG2-003_U.webp"
     },
@@ -70721,6 +70894,7 @@
       "CharacterId": 28,
       "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
       "SongId": 81,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG2-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG2-005_U.webp"
     },
@@ -74251,6 +74425,7 @@
       "CharacterId": 26,
       "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
       "SongId": 75,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/OP-028_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-028_U.webp"
     },
@@ -74263,6 +74438,7 @@
       "CharacterId": 27,
       "Song": "夢色ビリーバー（あおい・ぐみ）",
       "SongId": 80,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/OP-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-029_U.webp"
     },
@@ -74273,6 +74449,7 @@
       "Coordinate": "ゆうきのフラワーバズリウムぐみグリーン",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/OP-030_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-030_U.webp"
     },
@@ -74285,6 +74462,7 @@
       "CharacterId": 29,
       "Song": "おねがいアイプリ！",
       "SongId": 73,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/OP-031_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-031_U.webp"
     },
@@ -74297,6 +74475,7 @@
       "CharacterId": 26,
       "Song": "放課後のおねがい！",
       "SongId": 78,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/OP-067_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-067_U.webp"
     },
@@ -74309,6 +74488,7 @@
       "CharacterId": 26,
       "Song": "おねがいアイプリ！",
       "SongId": 73,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/OP-063_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-063_U.webp"
     },
@@ -74321,6 +74501,7 @@
       "CharacterId": 26,
       "Song": "放課後のおねがい！",
       "SongId": 78,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/OP-062_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-062_U.webp"
     },
@@ -74333,6 +74514,7 @@
       "CharacterId": 27,
       "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
       "SongId": 75,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/OP-059_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-059_U.webp"
     },
@@ -74731,6 +74913,13 @@
       "SongId": 72,
       "Image1Url": "https://aipri.jp/card/img/special/OTOY-000_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OTOY-000_U.webp"
+    },
+    {
+      "Id": 9201021,
+      "ChapterId": "special",
+      "SealId": "OG3-004",
+      "Coordinate": "ゴーストゴシックシークレット",
+      "IsChance": true
     }
   ]
 }

@@ -93,6 +93,8 @@
 	9201017	oa3		OA3-007P	ゴシックフレアレッド			TOP POWER（ナナ・エマ）	4					
 	9201018	oa3		OA3-010P	ジューシーサマーブルー			トキメキ♡ジャンプ！（いのり・あおい）	4					
 	9201019	oa3		OA3-023P	ハッピーバースデー！グリーン			ハピハピハッピー☆マイバースデー（おねがいver.）	4					
+	9201020	gumi		OG2-004	フラワーブーケピンク	いのり								
+	9201021	special		OG3-004	ゴーストゴシックシークレット						TRUE			
 SealId				AP1-001	ポッピンハートバズリウム	ひまり		P.O.P.P.Y	4	740		ポッピンハート		
 SealId				AP1-002	ミラクルムーンバズリウム	みつき		シークレット・ドリーム	4	740		ミラクルムーン		
 SealId				AP1-003	スカーレットバタフライバズリウム	サクラ		レッツ！アイプリ（サクラ）	4	750		スカーレットバタフライ		
@@ -1322,26 +1324,26 @@ SealId	1242	oa3		OA3-004	ゆうきのフラワーバズリウム	おりびあ		�
 SealId	1243	oa3		OA3-005	エプロンブーケイエロー	おりびあ		勇気のはばたきサイン（おりびあ・ナナ）	4				https://aipri.jp/card/img/oa3/OA3-005_O.webp	https://aipri.jp/card/img/oa3/OA3-005_U.webp
 SealId	1244	oa3		OA3-006	エプロンブーケレッド	ナナ		勇気のはばたきサイン（おりびあ・ナナ）	4				https://aipri.jp/card/img/oa3/OA3-006_O.webp	https://aipri.jp/card/img/oa3/OA3-006_U.webp
 SealId	1245	oa3		OA3-007	ゴシックフレアレッド	ナナ		TOP POWER（ナナ・エマ）	4				https://aipri.jp/card/img/oa3/OA3-007_O.webp	https://aipri.jp/card/img/oa3/OA3-007_U.webp
-SealId	1246	oa3		OA3-008	ゴシックフレアパープル	エマ			4				https://aipri.jp/card/img/oa3/OA3-008_O.webp	https://aipri.jp/card/img/oa3/OA3-008_U.webp
+SealId	1246	oa3		OA3-008	ゴシックフレアパープル	エマ		TOP POWER（ナナ・エマ）	4				https://aipri.jp/card/img/oa3/OA3-008_O.webp	https://aipri.jp/card/img/oa3/OA3-008_U.webp
 SealId	1247	oa3		OA3-009	ジューシーサマーピンク	いのり		放課後のおねがい！	4				https://aipri.jp/card/img/oa3/OA3-009_O.webp	https://aipri.jp/card/img/oa3/OA3-009_U.webp
 SealId	1248	oa3		OA3-010	ジューシーサマーブルー	あおい		トキメキ♡ジャンプ！（いのり・あおい）	4				https://aipri.jp/card/img/oa3/OA3-010_O.webp	https://aipri.jp/card/img/oa3/OA3-010_U.webp
 SealId	1249	oa3		OA3-011	マジカルミラクル	いのり		放課後のおねがい！	4				https://aipri.jp/card/img/oa3/OA3-011_O.webp	https://aipri.jp/card/img/oa3/OA3-011_U.webp
 SealId	1250	oa3		OA3-012	マジカルミラクルパープル	あおい		おねがいアイプリ！	4				https://aipri.jp/card/img/oa3/OA3-012_O.webp	https://aipri.jp/card/img/oa3/OA3-012_U.webp
-SealId	1251	oa3		OA3-013	ローズリボン	ナナ			4				https://aipri.jp/card/img/oa3/OA3-013_O.webp	https://aipri.jp/card/img/oa3/OA3-013_U.webp
-SealId	1252	oa3		OA3-014	ローズリボン	おりびあ			4				https://aipri.jp/card/img/oa3/OA3-014_O.webp	https://aipri.jp/card/img/oa3/OA3-014_U.webp
-SealId	1253	oa3		OA3-015	うらないクォーツ	エマ			4				https://aipri.jp/card/img/oa3/OA3-015_O.webp	https://aipri.jp/card/img/oa3/OA3-015_U.webp
+SealId	1251	oa3		OA3-013	ローズリボン	ナナ		TOP POWER	4				https://aipri.jp/card/img/oa3/OA3-013_O.webp	https://aipri.jp/card/img/oa3/OA3-013_U.webp
+SealId	1252	oa3		OA3-014	ローズリボン	おりびあ		勇気のはばたきサイン（おりびあ・ナナ）	4				https://aipri.jp/card/img/oa3/OA3-014_O.webp	https://aipri.jp/card/img/oa3/OA3-014_U.webp
+SealId	1253	oa3		OA3-015	うらないクォーツ	エマ		ネガイ・スペシャリスト	4				https://aipri.jp/card/img/oa3/OA3-015_O.webp	https://aipri.jp/card/img/oa3/OA3-015_U.webp
 SealId	1254	oa3		OA3-016	うらないクォーツ	あおい			4				https://aipri.jp/card/img/oa3/OA3-016_O.webp	https://aipri.jp/card/img/oa3/OA3-016_U.webp
-SealId	1255	oa3		OA3-017	うらないクォーツ	ナナ			4				https://aipri.jp/card/img/oa3/OA3-017_O.webp	https://aipri.jp/card/img/oa3/OA3-017_U.webp
+SealId	1255	oa3		OA3-017	うらないクォーツ	ナナ		TOP POWER（ナナ・エマ）	4				https://aipri.jp/card/img/oa3/OA3-017_O.webp	https://aipri.jp/card/img/oa3/OA3-017_U.webp
 SealId	1256	oa3		OA3-018	スイートいちご	いのり		アイプリMyDream	4				https://aipri.jp/card/img/oa3/OA3-018_O.webp	https://aipri.jp/card/img/oa3/OA3-018_U.webp
 SealId	1257	oa3		OA3-019	スイートいちご	ぐみ		フレフレベストフレンズ（ぐみ・おりびあ）	4				https://aipri.jp/card/img/oa3/OA3-019_O.webp	https://aipri.jp/card/img/oa3/OA3-019_U.webp
-SealId	1258	oa3		OA3-020	スイートいちご	エマ			4				https://aipri.jp/card/img/oa3/OA3-020_O.webp	https://aipri.jp/card/img/oa3/OA3-020_U.webp
+SealId	1258	oa3		OA3-020	スイートいちご	エマ		TOP POWER（ナナ・エマ）	4				https://aipri.jp/card/img/oa3/OA3-020_O.webp	https://aipri.jp/card/img/oa3/OA3-020_U.webp
 SealId	1259	oa3		OA3-021	ほしのゆうびんやさんファンシー	いのり		トキメキ♡ジャンプ！	4				https://aipri.jp/card/img/oa3/OA3-021_O.webp	https://aipri.jp/card/img/oa3/OA3-021_U.webp
-SealId	1260	oa3		OA3-022	ほしのゆうびんやさんファンシー	あおい			4				https://aipri.jp/card/img/oa3/OA3-022_O.webp	https://aipri.jp/card/img/oa3/OA3-022_U.webp
+SealId	1260	oa3		OA3-022	ほしのゆうびんやさんファンシー	あおい		あっぱれアイプリおんど	4				https://aipri.jp/card/img/oa3/OA3-022_O.webp	https://aipri.jp/card/img/oa3/OA3-022_U.webp
 SealId	1261	oa3		OA3-023	ハッピーバースデー！グリーン	ぐみ		ハピハピハッピー☆マイバースデー おねがいバージョン	4				https://aipri.jp/card/img/oa3/OA3-023_O.webp	https://aipri.jp/card/img/oa3/OA3-023_U.webp
-SealId	1262	oa3		OA3-024	アイプリすきすき	いのり							https://aipri.jp/card/img/oa3/OA3-024_O.webp	https://aipri.jp/card/img/oa3/OA3-024_U.webp
-SealId	1263	oa3		OA3-025	アイプリゆめゆめ	あおい							https://aipri.jp/card/img/oa3/OA3-025_O.webp	https://aipri.jp/card/img/oa3/OA3-025_U.webp
-SealId	1264	oa3		OA3-026	アイプリゆうじょう	ぐみ							https://aipri.jp/card/img/oa3/OA3-026_O.webp	https://aipri.jp/card/img/oa3/OA3-026_U.webp
-SealId	1265	oa3		OA3-027	アイプリゆうき	おりびあ							https://aipri.jp/card/img/oa3/OA3-027_O.webp	https://aipri.jp/card/img/oa3/OA3-027_U.webp
+SealId	1262	oa3		OA3-024	アイプリすきすき	いのり		あっぱれアイプリおんど					https://aipri.jp/card/img/oa3/OA3-024_O.webp	https://aipri.jp/card/img/oa3/OA3-024_U.webp
+SealId	1263	oa3		OA3-025	アイプリゆめゆめ	あおい		あっぱれアイプリおんど					https://aipri.jp/card/img/oa3/OA3-025_O.webp	https://aipri.jp/card/img/oa3/OA3-025_U.webp
+SealId	1264	oa3		OA3-026	アイプリゆうじょう	ぐみ		あっぱれアイプリおんど					https://aipri.jp/card/img/oa3/OA3-026_O.webp	https://aipri.jp/card/img/oa3/OA3-026_U.webp
+SealId	1265	oa3		OA3-027	アイプリゆうき	おりびあ		あっぱれアイプリおんど					https://aipri.jp/card/img/oa3/OA3-027_O.webp	https://aipri.jp/card/img/oa3/OA3-027_U.webp
 SealId	1266	oa3		OA3-028	アイプリじょうねつ	ナナ		おねがいアイプリ！					https://aipri.jp/card/img/oa3/OA3-028_O.webp	https://aipri.jp/card/img/oa3/OA3-028_U.webp
 SealId	1267	oa3		OA3-029	アイプリきぼう	エマ							https://aipri.jp/card/img/oa3/OA3-029_O.webp	https://aipri.jp/card/img/oa3/OA3-029_U.webp
 SealId	1268	oa3		OA3-030	イースターフリル	いのり		なかよしParty!					https://aipri.jp/card/img/oa3/OA3-030_O.webp	https://aipri.jp/card/img/oa3/OA3-030_U.webp
@@ -1352,15 +1354,15 @@ SealId	1272	oa3		OA3-034	フレッシュスポーティ	ぐみ		フレフレベ�
 SealId	1273	oa3		OA3-035	フレッシュスポーティ	あおい		夢色ビリーバー（あおい・ぐみ）					https://aipri.jp/card/img/oa3/OA3-035_O.webp	https://aipri.jp/card/img/oa3/OA3-035_U.webp
 SealId	1274	oa3		OA3-036	ミステリアスバタフライ	ナナ		なかよしParty!					https://aipri.jp/card/img/oa3/OA3-036_O.webp	https://aipri.jp/card/img/oa3/OA3-036_U.webp
 SealId	1275	oa3		OA3-037	ミステリアスバタフライ	エマ		アイプリMyDream					https://aipri.jp/card/img/oa3/OA3-037_O.webp	https://aipri.jp/card/img/oa3/OA3-037_U.webp
-SealId	1276	oa3		OA3-038	クレッセントムーン	エマ							https://aipri.jp/card/img/oa3/OA3-038_O.webp	https://aipri.jp/card/img/oa3/OA3-038_U.webp
-SealId	1277	oa3		OA3-039	クレッセントムーン	おりびあ							https://aipri.jp/card/img/oa3/OA3-039_O.webp	https://aipri.jp/card/img/oa3/OA3-039_U.webp
+SealId	1276	oa3		OA3-038	クレッセントムーン	エマ		ネガイ・スペシャリスト					https://aipri.jp/card/img/oa3/OA3-038_O.webp	https://aipri.jp/card/img/oa3/OA3-038_U.webp
+SealId	1277	oa3		OA3-039	クレッセントムーン	おりびあ		勇気のはばたきサイン（おりびあ・ナナ）					https://aipri.jp/card/img/oa3/OA3-039_O.webp	https://aipri.jp/card/img/oa3/OA3-039_U.webp
 SealId	1278	oa3		OA3-040	ビーチマリン	あおい		夢色ビリーバー					https://aipri.jp/card/img/oa3/OA3-040_O.webp	https://aipri.jp/card/img/oa3/OA3-040_U.webp
 SealId	1279	oa3		OA3-041	ビーチマリンサンセット	いのり							https://aipri.jp/card/img/oa3/OA3-041_O.webp	https://aipri.jp/card/img/oa3/OA3-041_U.webp
 SealId	1280	oa3		OA3-042	たれぱんだ コーデ	いのり		放課後のおねがい！					https://aipri.jp/card/img/oa3/OA3-042_O.webp	https://aipri.jp/card/img/oa3/OA3-042_U.webp
 SealId	1281	oa3		OA3-043	すみっコぐらし コーデ	あおい		夢色ビリーバー（あおい・ぐみ）					https://aipri.jp/card/img/oa3/OA3-043_O.webp	https://aipri.jp/card/img/oa3/OA3-043_U.webp
 SealId	1282	oa3		OA3-044	リラックマ コーデ	ぐみ		フレフレベストフレンズ（ぐみ・おりびあ）					https://aipri.jp/card/img/oa3/OA3-044_O.webp	https://aipri.jp/card/img/oa3/OA3-044_U.webp
-SealId	1283	oa3		OA3-045	リラックマ コーデ	おりびあ							https://aipri.jp/card/img/oa3/OA3-045_O.webp	https://aipri.jp/card/img/oa3/OA3-045_U.webp
-SealId	1284	oa3		OA3-046	センチメンタルサーカス コーデ	ナナ							https://aipri.jp/card/img/oa3/OA3-046_O.webp	https://aipri.jp/card/img/oa3/OA3-046_U.webp
+SealId	1283	oa3		OA3-045	リラックマ コーデ	おりびあ		勇気のはばたきサイン（おりびあ・ナナ）					https://aipri.jp/card/img/oa3/OA3-045_O.webp	https://aipri.jp/card/img/oa3/OA3-045_U.webp
+SealId	1284	oa3		OA3-046	センチメンタルサーカス コーデ	ナナ		TOP POWER（ナナ・エマ）					https://aipri.jp/card/img/oa3/OA3-046_O.webp	https://aipri.jp/card/img/oa3/OA3-046_U.webp
 SealId	1285	oa3		OA3-047	センチメンタルサーカス コーデ	エマ		アイプリMyDream					https://aipri.jp/card/img/oa3/OA3-047_O.webp	https://aipri.jp/card/img/oa3/OA3-047_U.webp
 SealId	1286	oa3		OA3-048	おねがいちゅうがくなつふく	いのり		トキメキ♡ジャンプ！					https://aipri.jp/card/img/oa3/OA3-048_O.webp	https://aipri.jp/card/img/oa3/OA3-048_U.webp
 SealId	1287	oa3		OA3-049	おねがいちゅうがくなつふく	あおい		夢色ビリーバー					https://aipri.jp/card/img/oa3/OA3-049_O.webp	https://aipri.jp/card/img/oa3/OA3-049_U.webp
@@ -1371,8 +1373,8 @@ SealId	1291	oa3		OA3-053	ハイセンスがくえんなつふく	エマ		おね�
 SealId	1292	oa3		OA3-054	ラブリーステージ	いのり		おねがいアイプリ！					https://aipri.jp/card/img/oa3/OA3-054_O.webp	https://aipri.jp/card/img/oa3/OA3-054_U.webp
 SealId	1293	oa3		OA3-055	ラブリーステージ	あおい		夢色ビリーバー（あおい・ぐみ）					https://aipri.jp/card/img/oa3/OA3-055_O.webp	https://aipri.jp/card/img/oa3/OA3-055_U.webp
 SealId	1294	oa3		OA3-056	げんきチェックテディベアブラウン	ぐみ		フレフレベストフレンズ（ぐみ・おりびあ）					https://aipri.jp/card/img/oa3/OA3-056_O.webp	https://aipri.jp/card/img/oa3/OA3-056_U.webp
-SealId	1295	oa3		OA3-057	ギンガムジャンパーグリーン	おりびあ							https://aipri.jp/card/img/oa3/OA3-057_O.webp	https://aipri.jp/card/img/oa3/OA3-057_U.webp
-SealId	1296	oa3		OA3-058	グレースドットレッド	ナナ							https://aipri.jp/card/img/oa3/OA3-058_O.webp	https://aipri.jp/card/img/oa3/OA3-058_U.webp
+SealId	1295	oa3		OA3-057	ギンガムジャンパーグリーン	おりびあ		勇気のはばたきサイン（おりびあ・ナナ）					https://aipri.jp/card/img/oa3/OA3-057_O.webp	https://aipri.jp/card/img/oa3/OA3-057_U.webp
+SealId	1296	oa3		OA3-058	グレースドットレッド	ナナ		TOP POWER					https://aipri.jp/card/img/oa3/OA3-058_O.webp	https://aipri.jp/card/img/oa3/OA3-058_U.webp
 SealId	1297	oa3		OA3-059	ショルダーフリルベリーぺリー	エマ		なかよしParty!					https://aipri.jp/card/img/oa3/OA3-059_O.webp	https://aipri.jp/card/img/oa3/OA3-059_U.webp
 SealId	1298	millefeui		OTOY-020	きらきらオーシャンドルフィン	あおい		夢色ビリーバー（あおい・ぐみ）					https://aipri.jp/card/img/millefeui/OTOY-020_O.webp	https://aipri.jp/card/img/millefeui/OTOY-020_U.webp
 SealId	1299	millefeui		OTOY-021	きらきらオーシャンペンギン	おりびあ		勇気のはばたきサイン					https://aipri.jp/card/img/millefeui/OTOY-021_O.webp	https://aipri.jp/card/img/millefeui/OTOY-021_U.webp
@@ -1391,11 +1393,10 @@ SealId	1311	millefeui		OTOY-011	うさぎぬいぐるみオレンジ	いのり		
 SealId	1312	millefeui		OTOY-012	レディーフライトピンク	いのり		おねがいアイプリ！					https://aipri.jp/card/img/millefeui/OTOY-012_O.webp	https://aipri.jp/card/img/millefeui/OTOY-012_U.webp
 SealId	1313	millefeui		OTOY-013	アイプリバースフューチャースクールクールパープル	あおい		夢色ビリーバー					https://aipri.jp/card/img/millefeui/OTOY-013_O.webp	https://aipri.jp/card/img/millefeui/OTOY-013_U.webp
 SealId	1314	special		OP-050	トキメキトゥインクルミックス	あおい		トキメキ♡ジャンプ！（いのり・あおい）					https://aipri.jp/card/img/special/OP-050_O.webp	https://aipri.jp/card/img/special/OP-050_U.webp
-SealId	1315	gumi		OG2-001	フラワーブーケオレンジ	おりびあ		勇気のはばたきサイン					https://aipri.jp/card/img/gumi/OG2-001_O.webp	https://aipri.jp/card/img/gumi/OG2-001_U.webp
-SealId	1316	gumi		OG2-002	フラワーブーケオレンジ	あおい		夢色ビリーバー（あおい・ぐみ）					https://aipri.jp/card/img/gumi/OG2-002_O.webp	https://aipri.jp/card/img/gumi/OG2-002_U.webp
-SealId	1317	gumi		OG2-003	フラワーブーケオレンジ	ぐみ		おねがいアイプリ！					https://aipri.jp/card/img/gumi/OG2-003_O.webp	https://aipri.jp/card/img/gumi/OG2-003_U.webp
-	9201020	gumi		OG2-004	フラワーブーケピンク	いのり
-SealId	1318	gumi		OG2-005	ゆうじょうスイーツバズリウムレッド	ぐみ		フレフレベストフレンズ（ぐみ・おりびあ）					https://aipri.jp/card/img/gumi/OG2-005_O.webp	https://aipri.jp/card/img/gumi/OG2-005_U.webp
+SealId	1315	gumi		OG2-001	フラワーブーケオレンジ	おりびあ		勇気のはばたきサイン			TRUE		https://aipri.jp/card/img/gumi/OG2-001_O.webp	https://aipri.jp/card/img/gumi/OG2-001_U.webp
+SealId	1316	gumi		OG2-002	フラワーブーケオレンジ	あおい		夢色ビリーバー（あおい・ぐみ）			TRUE		https://aipri.jp/card/img/gumi/OG2-002_O.webp	https://aipri.jp/card/img/gumi/OG2-002_U.webp
+SealId	1317	gumi		OG2-003	フラワーブーケオレンジ	ぐみ		おねがいアイプリ！			TRUE		https://aipri.jp/card/img/gumi/OG2-003_O.webp	https://aipri.jp/card/img/gumi/OG2-003_U.webp
+SealId	1318	gumi		OG2-005	ゆうじょうスイーツバズリウムレッド	ぐみ		フレフレベストフレンズ（ぐみ・おりびあ）			TRUE		https://aipri.jp/card/img/gumi/OG2-005_O.webp	https://aipri.jp/card/img/gumi/OG2-005_U.webp
 SealId	1319	gumi		OG2-006	ビーチマリンスカイ	あおい							https://aipri.jp/card/img/gumi/OG2-006_O.webp	https://aipri.jp/card/img/gumi/OG2-006_U.webp
 SealId	1320	gumi		OG2-007	ビーチマリンスカイ	いのり		トキメキ♡ジャンプ！					https://aipri.jp/card/img/gumi/OG2-007_O.webp	https://aipri.jp/card/img/gumi/OG2-007_U.webp
 SealId	1321	gumi		OG2-008	ビーチマリンスカイ	おりびあ		勇気のはばたきサイン					https://aipri.jp/card/img/gumi/OG2-008_O.webp	https://aipri.jp/card/img/gumi/OG2-008_U.webp
@@ -1405,9 +1406,14 @@ SealId	1324	gumi		OG2-011	アカデミー	おりびあ							https://aipri.jp/ca
 SealId	1325	gumi		OG2-012	アカデミー	いのり		おねがいアイプリ！					https://aipri.jp/card/img/gumi/OG2-012_O.webp	https://aipri.jp/card/img/gumi/OG2-012_U.webp
 SealId	1326	gumi		OG2-013	エンジェルアイス	いのり		アイプリMyDream					https://aipri.jp/card/img/gumi/OG2-013_O.webp	https://aipri.jp/card/img/gumi/OG2-013_U.webp
 SealId	1327	gumi		OG2-014	エンジェルアイス	ぐみ		フレフレベストフレンズ					https://aipri.jp/card/img/gumi/OG2-014_O.webp	https://aipri.jp/card/img/gumi/OG2-014_U.webp
-SealId	1328	special		OP-063	ガーデンラビットのはらグリーン	いのり		おねがいアイプリ！					https://aipri.jp/card/img/special/OP-063_O.webp	https://aipri.jp/card/img/special/OP-063_U.webp
-SealId	1329	special		OP-062	ゴシックフレアピンク	いのり		放課後のおねがい！					https://aipri.jp/card/img/special/OP-062_O.webp	https://aipri.jp/card/img/special/OP-062_U.webp
-SealId	1330	special		OP-059	シールぺったんチアトゥインクル	あおい		トキメキ♡ジャンプ！（いのり・あおい）					https://aipri.jp/card/img/special/OP-059_O.webp	https://aipri.jp/card/img/special/OP-059_U.webp
+SealId	1328	special		OP-063	ガーデンラビットのはらグリーン	いのり		おねがいアイプリ！			TRUE		https://aipri.jp/card/img/special/OP-063_O.webp	https://aipri.jp/card/img/special/OP-063_U.webp
+SealId	1329	special		OP-062	ゴシックフレアピンク	いのり		放課後のおねがい！			TRUE		https://aipri.jp/card/img/special/OP-062_O.webp	https://aipri.jp/card/img/special/OP-062_U.webp
+SealId	1330	special		OP-059	シールぺったんチアトゥインクル	あおい		トキメキ♡ジャンプ！（いのり・あおい）			TRUE		https://aipri.jp/card/img/special/OP-059_O.webp	https://aipri.jp/card/img/special/OP-059_U.webp
+SealId	1331	special		OP-028	ゆめゆめスターバズリウムいのりピンク	いのり		トキメキ♡ジャンプ！（いのり・あおい）			TRUE		https://aipri.jp/card/img/special/OP-028_O.webp	https://aipri.jp/card/img/special/OP-028_U.webp
+SealId	1332	special		OP-029	すきすきハートバズリウムあおいブルー	あおい		夢色ビリーバー（あおい・ぐみ）			TRUE		https://aipri.jp/card/img/special/OP-029_O.webp	https://aipri.jp/card/img/special/OP-029_U.webp
+SealId	1333	special		OP-030	ゆうきのフラワーバズリウムぐみグリーン	ぐみ					TRUE		https://aipri.jp/card/img/special/OP-030_O.webp	https://aipri.jp/card/img/special/OP-030_U.webp
+SealId	1334	special		OP-031	ゆうじょうスイーツバズリウムおりびあイエロー	おりびあ		おねがいアイプリ！			TRUE		https://aipri.jp/card/img/special/OP-031_O.webp	https://aipri.jp/card/img/special/OP-031_U.webp
+SealId	1335	special		OP-067	ジューシーサマーパープル	いのり		放課後のおねがい！			TRUE		https://aipri.jp/card/img/special/OP-067_O.webp	https://aipri.jp/card/img/special/OP-067_U.webp
 SealId	9200026	millefeui		TOY-042	おとぎばなしかぐやひめ	つむぎ		We're The World	4	860		クリスタルバース		
 SealId	9200027	millefeui		TOY-043	おとぎばなしシンデレラピンク	ひまり		We're The World	4	860		クリスタルバース		
 SealId	9200028	millefeui		TOY-044	おとぎばなしあかずきんブルー	みつき		We're The World	4	860		クリスタルバース	Cards/M3-003.jpg	
