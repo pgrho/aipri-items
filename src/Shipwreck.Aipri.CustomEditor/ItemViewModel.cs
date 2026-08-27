@@ -251,4 +251,7 @@ public sealed class ItemViewModel : ObservableModel
     }
 
     #endregion Set
+
+    public bool IsChanged() 
+        => IsCategoryChanged || IsIdChanged || IsImageChanged || IsSealIdChanged || IsPointChanged || IsSetChanged;
 }

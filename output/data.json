@@ -16825,8 +16825,19 @@
       "ChapterId": "oa3",
       "Name": "きぼうのクリスタルバズリウムコズミック",
       "Group": "フルコーデガチャ おねがい3だん前半",
+      "Kind": "フルコーデガチャ おねがい3だん前半",
       "Start": "2026-07-30",
       "End": "2026-09-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901070,
+      "ChapterId": "oa3",
+      "Name": "きぼうのクリスタルバズリウムコズミック",
+      "Group": "フルコーデガチャ おねがい3だん後半",
+      "Kind": "フルコーデガチャ おねがい3だん後半",
+      "Start": "2026-09-03",
+      "End": "2026-09-30",
       "LinkedItemIds": []
     },
     {
@@ -19166,6 +19177,7 @@
       "ChapterId": "special",
       "Name": "ビーチマリンスカイ",
       "Group": "アイプリカード コレクショングミvol.2",
+      "HasChance": true,
       "LinkedItemIds": []
     },
     {
@@ -19206,12 +19218,16 @@
       "Id": 9901040,
       "ChapterId": "special",
       "Name": "バルーンフェスいのりピンク",
+      "Group": "店頭大会",
+      "Kind": "お店でアイプリフェス",
       "LinkedItemIds": []
     },
     {
       "Id": 9901041,
       "ChapterId": "special",
       "Name": "バルーンフェスイエロー",
+      "Group": "店頭大会",
+      "Kind": "お店でアイプリフェス",
       "LinkedItemIds": []
     },
     {
@@ -19364,6 +19380,7 @@
     {
       "Id": 9901065,
       "ChapterId": "special",
+      "Star": 4,
       "Name": "きぼうのクリスタルバズリウムミント",
       "Group": "アイプリカード コレクショングミvol.3",
       "LinkedItemIds": []
@@ -19379,6 +19396,26 @@
       "Id": 9901067,
       "ChapterId": "special",
       "Name": "ポップンマシュマロピンク",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901068,
+      "ChapterId": "special",
+      "Star": 4,
+      "Name": "メルヘンフェスレッド",
+      "Group": "店頭大会",
+      "Kind": "お店でアイプリフェス",
+      "HasChance": true,
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901069,
+      "ChapterId": "special",
+      "Star": 4,
+      "Name": "メルヘンフェスパープル",
+      "Group": "店頭大会",
+      "Kind": "お店でアイプリフェス",
+      "HasChance": true,
       "LinkedItemIds": []
     }
   ],
@@ -44300,6 +44337,24 @@
       "IsSet": true
     },
     {
+      "Id": 911263,
+      "CoordinateId": 9901070,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911265,
+      "CoordinateId": 9901070,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911266,
+      "CoordinateId": 9901070,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
       "Id": 30681,
       "CoordinateId": 232,
       "SealId": "",
@@ -51016,6 +51071,42 @@
     {
       "Id": 911254,
       "CoordinateId": 9901067,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911255,
+      "CoordinateId": 9901068,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911257,
+      "CoordinateId": 9901068,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911258,
+      "CoordinateId": 9901068,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911259,
+      "CoordinateId": 9901069,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911261,
+      "CoordinateId": 9901069,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911262,
+      "CoordinateId": 9901069,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
@@ -71318,6 +71409,7 @@
       "Coordinate": "ビーチマリンスカイ",
       "Character": "あおい",
       "CharacterId": 27,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG2-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG2-006_U.webp"
     },
@@ -71330,6 +71422,7 @@
       "CharacterId": 26,
       "Song": "トキメキ♡ジャンプ！",
       "SongId": 72,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG2-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG2-007_U.webp"
     },
@@ -71342,6 +71435,7 @@
       "CharacterId": 29,
       "Song": "勇気のはばたきサイン",
       "SongId": 79,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG2-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG2-008_U.webp"
     },
@@ -74838,6 +74932,7 @@
       "CharacterId": 31,
       "Song": "TOP POWER（ナナ・エマ）",
       "SongId": 87,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/OP-065_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-065_U.webp"
     },
@@ -74850,6 +74945,7 @@
       "CharacterId": 30,
       "Song": "ネガイ・スペシャリスト",
       "SongId": 85,
+      "IsChance": true,
       "Image1Url": "https://aipri.jp/card/img/special/OP-066_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-066_U.webp"
     },

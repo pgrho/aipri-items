@@ -22,4 +22,13 @@ public partial class MainWindow
         InitializeComponent();
         DataContext = new MainWindowViewModel(this);
     }
+
+    private void FrameworkWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+    {
+        var vm = (MainWindowViewModel)DataContext;
+        if (!vm.ConfirmClose())
+        {
+            e.Cancel = true;
+        }
+    }
 }

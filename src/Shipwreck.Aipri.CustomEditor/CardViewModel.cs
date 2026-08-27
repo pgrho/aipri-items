@@ -599,4 +599,8 @@ public sealed class CardViewModel : ObservableModel
     }
 
     #endregion Image2
+
+    public bool IsChanged()
+        => IsKeyChanged || IsChapterChanged || IsIdChanged || IsOrderChanged || IsSealIdChanged || IsCoordinateChanged || IsCharacterChanged || IsVariantChanged || IsSongChanged || IsPointChanged
+        || IsStarChanged || IsChanceChanged || IsBrandChanged || IsImage1Changed || IsImage2Changed;
 }

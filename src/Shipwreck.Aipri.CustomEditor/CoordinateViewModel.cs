@@ -506,6 +506,15 @@ public sealed class CoordinateViewModel : ObservableModel
 
     #endregion Item4
 
+    public bool IsChanged()
+        => IsKeyChanged
+        || IsChapterChanged
+        || IsIdChanged
+        || IsStarChanged
+        || IsNameChanged 
+        || IsGroupChanged 
+        || IsKindChanged || IsBrandChanged || IsStartChanged || IsEndChanged || IsImageChanged
+        || Items.Any(e => e?.IsChanged() == true);
     private ReadOnlyCollection<ItemViewModel?>? _Items;
 
     public ReadOnlyCollection<ItemViewModel?> Items

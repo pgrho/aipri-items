@@ -13,7 +13,8 @@
     Title="MainWindow"
     Height="450"
     Width="800"
-    d:DataContext="{d:DesignInstance Type=v:MainWindowViewModel, IsDesignTimeCreatable=False}">
+    d:DataContext="{d:DesignInstance Type=v:MainWindowViewModel, IsDesignTimeCreatable=False}"
+    Closing="FrameworkWindow_Closing">
     <vmu:FrameworkWindow.Resources>
         <ContentPresenter
             x:Key="dataContextPresenter"

@@ -3,7 +3,6 @@ using System.Data;
 using System.Runtime.CompilerServices;
 using System.Text.Json;
 using Shipwreck.ViewModelUtils;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace Shipwreck.Aipri.CustomEditor;
 
@@ -806,4 +805,31 @@ public sealed class MainWindowViewModel : WindowViewModel
     #endregion SaveCardsCommand
 
     #endregion カード
+
+    public bool ConfirmClose()
+    {
+        var changed1 = Coordinates.Any(e => e.IsChanged());
+        var changed2 = Cards.Any(e => e.IsChanged());
+        if (!changed1 && !changed2)
+        {
+            return true;
+        }
+        var r = MessageBox.Show((changed1 && changed2 ? "プリフォトとカード" : changed1 ? "プリフォト" : "カード") + "が変更されています。保存しますか？", null, MessageBoxButton.YesNoCancel);
+        if (r == MessageBoxResult.Cancel)
+        {
+            return false;
+        }
+        if (r == MessageBoxResult.Yes)
+        {
+            if (changed1)
+            {
+                SaveCoordinatesCommand.Execute();
+            }
+            if (changed2)
+            {
+                SaveCardsCommand.Execute();
+            }
+        }
+        return true;
+    }
 }
