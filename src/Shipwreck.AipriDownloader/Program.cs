@@ -642,7 +642,7 @@ internal class Program
                                 ?.Replace("(", "（")
                                 ?.Replace(")", "）");
             var name = cNode.GetAttribute("data-name", null)
-                                ?.Replace("<br>", "");
+                                ?.Replace("<br>", "")?.Split('©', 'Ⓒ')?.FirstOrDefault();
             var img1 = cNode.GetAttribute("data-img1", null);
             var img2 = cNode.GetAttribute("data-img2", null);
 
@@ -834,7 +834,7 @@ internal class Program
                     {
                         dest.Order = src.Order;
                     }
-                    dest.Coordinate = src.Coordinate.TrimOrNull()?.Split('©', 'Ⓒ')?.FirstOrDefault() ?? dest.Coordinate;
+                    dest.Coordinate = src.Coordinate.TrimOrNull() ?? dest.Coordinate;
                     dest.Variant = src.Variant.TrimOrNull() ?? dest.Variant;
                     if (src.CharacterId > 0)
                     {
