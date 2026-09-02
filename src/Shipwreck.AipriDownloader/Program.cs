@@ -834,7 +834,7 @@ internal class Program
                     {
                         dest.Order = src.Order;
                     }
-                    dest.Coordinate = src.Coordinate.TrimOrNull() ?? dest.Coordinate;
+                    dest.Coordinate = src.Coordinate.TrimOrNull()?.Split('©', 'Ⓒ')?.FirstOrDefault() ?? dest.Coordinate;
                     dest.Variant = src.Variant.TrimOrNull() ?? dest.Variant;
                     if (src.CharacterId > 0)
                     {
