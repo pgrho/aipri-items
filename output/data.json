@@ -16817,7 +16817,7 @@
       "Name": "じょうねつゴシックバズリウムコズミック",
       "Group": "★★★★",
       "Start": "2026-07-30",
-      "End": "2026-09-02",
+      "End": "2026-09-30",
       "LinkedItemIds": []
     },
     {
@@ -16838,7 +16838,11 @@
       "Kind": "フルコーデガチャ おねがい3だん後半",
       "Start": "2026-09-03",
       "End": "2026-09-30",
-      "LinkedItemIds": []
+      "LinkedItemIds": [
+        911195,
+        911197,
+        911198
+      ]
     },
     {
       "Id": 232,
@@ -44335,24 +44339,6 @@
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png",
       "IsSet": true
-    },
-    {
-      "Id": 911263,
-      "CoordinateId": 9901070,
-      "CategoryId": 2,
-      "ImageUrl": "_generic-1.png"
-    },
-    {
-      "Id": 911265,
-      "CoordinateId": 9901070,
-      "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
-    },
-    {
-      "Id": 911266,
-      "CoordinateId": 9901070,
-      "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
     },
     {
       "Id": 30681,
