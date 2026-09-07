@@ -16338,6 +16338,32 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 1185,
+      "ChapterId": "oa3",
+      "Star": 4,
+      "Name": "シーサイドフェスピンク",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/OA3-159.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa3/OA3-159_thumb.webp",
+      "Group": "アイプリフェスストーリー",
+      "Kind": "アイプリフェスストーリー",
+      "Start": "2026-07-30",
+      "End": "2026-09-30",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1186,
+      "ChapterId": "oa3",
+      "Star": 4,
+      "Name": "シーサイドフェスグリーン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/OA3-167.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa3/OA3-167_thumb.webp",
+      "Group": "アイプリフェスストーリー",
+      "Kind": "アイプリフェスストーリー",
+      "Start": "2026-07-30",
+      "End": "2026-09-30",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 1174,
       "ChapterId": "oa3",
       "Star": 4,
@@ -43616,6 +43642,72 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33306.webp"
     },
     {
+      "Id": 33429,
+      "CoordinateId": 1185,
+      "SealId": "OA3-159",
+      "CategoryId": 1,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33429.webp"
+    },
+    {
+      "Id": 33430,
+      "CoordinateId": 1185,
+      "SealId": "OA3-160",
+      "CategoryId": 3,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33430.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 33431,
+      "CoordinateId": 1185,
+      "SealId": "OA3-161",
+      "CategoryId": 4,
+      "Point": 380,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33431.webp"
+    },
+    {
+      "Id": 33432,
+      "CoordinateId": 1185,
+      "SealId": "OA3-162",
+      "CategoryId": 5,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33432.webp"
+    },
+    {
+      "Id": 33437,
+      "CoordinateId": 1186,
+      "SealId": "OA3-167",
+      "CategoryId": 1,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33437.webp"
+    },
+    {
+      "Id": 33438,
+      "CoordinateId": 1186,
+      "SealId": "OA3-168",
+      "CategoryId": 3,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33438.webp",
+      "IsSet": true
+    },
+    {
+      "Id": 33439,
+      "CoordinateId": 1186,
+      "SealId": "OA3-169",
+      "CategoryId": 4,
+      "Point": 390,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33439.webp"
+    },
+    {
+      "Id": 33440,
+      "CoordinateId": 1186,
+      "SealId": "OA3-170",
+      "CategoryId": 5,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa3/Item_ID33440.webp"
+    },
+    {
       "Id": 33421,
       "CoordinateId": 1174,
       "SealId": "OA3-151",
@@ -51947,7 +52039,7 @@
       "Id": 114,
       "CategoryId": 4,
       "Name": "オトナワンレン",
-      "Description": "ドリーム「モデル」",
+      "Description": "フォーチュにドーナツプレゼント後半",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0010.webp"
     },
     {
@@ -52101,7 +52193,7 @@
       "Id": 136,
       "CategoryId": 9,
       "Name": "マーメイドデコ",
-      "Description": "3だんマイキャラフェス①",
+      "Description": "フォーチュにドーナツプレゼント後半",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Decoration_0013.webp"
     },
     {
@@ -54280,6 +54372,13 @@
       "Name": "パッションローズレッド",
       "Description": "オータムジュエル",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Eyecolor_0102.webp"
+    },
+    {
+      "Id": 451,
+      "CategoryId": 10,
+      "Name": "キラキラギャラクシーレッド",
+      "Description": "フォーチュにドーナツプレゼント後半",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0050.webp"
     }
   ],
   "HimitsuChapters": [
