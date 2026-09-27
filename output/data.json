@@ -20101,6 +20101,20 @@
       "Kind": "お店でアイプリフェス",
       "HasChance": true,
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901073,
+      "ChapterId": "special",
+      "Name": "エプロンブーケパステルグリーン",
+      "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901074,
+      "ChapterId": "special",
+      "Name": "エレガントクリスタルレッド",
+      "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -53141,6 +53155,42 @@
       "CoordinateId": 9901069,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911271,
+      "CoordinateId": 9901073,
+      "CategoryId": 2,
+      "ImageUrl": "Items/apron_bouquet_pastel_green-1.png"
+    },
+    {
+      "Id": 911273,
+      "CoordinateId": 9901073,
+      "CategoryId": 4,
+      "ImageUrl": "Items/apron_bouquet_pastel_green-2.png"
+    },
+    {
+      "Id": 911274,
+      "CoordinateId": 9901073,
+      "CategoryId": 5,
+      "ImageUrl": "Items/apron_bouquet_pastel_green-3.png"
+    },
+    {
+      "Id": 911275,
+      "CoordinateId": 9901074,
+      "CategoryId": 2,
+      "ImageUrl": "Items/elegant_crystal_red-1.png"
+    },
+    {
+      "Id": 911277,
+      "CoordinateId": 9901074,
+      "CategoryId": 4,
+      "ImageUrl": "Items/elegant_crystal_red-2.png"
+    },
+    {
+      "Id": 911278,
+      "CoordinateId": 9901074,
+      "CategoryId": 5,
+      "ImageUrl": "Items/elegant_crystal_red-3.png"
     }
   ],
   "PartCategories": [
