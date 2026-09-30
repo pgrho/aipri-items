@@ -171,6 +171,9 @@
                         <Button
                             Style="{StaticResource CommandViewModel.Button.Medium}"
                             DataContext="{Binding SaveCoordinatesCommand}" />
+                        <Button
+                            Style="{StaticResource CommandViewModel.Button.Medium}"
+                            DataContext="{Binding RunDownloaderCommand}" />
                     </WrapPanel>
                 </Grid>
             </TabItem>
@@ -273,6 +276,9 @@
                         <Button
                             Style="{StaticResource CommandViewModel.Button.Medium}"
                             DataContext="{Binding SaveCardsCommand}" />
+                        <Button
+                            Style="{StaticResource CommandViewModel.Button.Medium}"
+                            DataContext="{Binding RunDownloaderCommand}" />
                     </WrapPanel>
                 </Grid>
             </TabItem>

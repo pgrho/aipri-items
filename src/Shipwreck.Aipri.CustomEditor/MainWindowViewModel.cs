@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.Data;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text.Json;
 using Shipwreck.ViewModelUtils;
@@ -386,111 +387,116 @@ public sealed class MainWindowViewModel : WindowViewModel
 
     public CommandViewModelBase SaveCoordinatesCommand
         => _SaveCoordinatesCommand ??= CommandViewModel.CreateAsync(
-            async _ =>
-            {
-                try
-                {
-                    var src = Coordinates.OrderBy(e => e.NewKey).ThenBy(e => e.NewId).ThenBy(e => e.NewName).ToList();
-
-                    const char TAB = '\t';
-                    using (var fs = new FileStream(Path.Combine(GetCustomDirectory(), "_Coordinates.tsv"), FileMode.Create))
-                    using (var sw = new StreamWriter(fs, Encoding.GetEncoding(932)))
-                    {
-                        sw.Write("Key"); sw.Write(TAB);
-                        sw.Write("ChapterId"); sw.Write(TAB);
-                        sw.Write("Id"); sw.Write(TAB);
-                        sw.Write("Star"); sw.Write(TAB);
-                        sw.Write("Name"); sw.Write(TAB);
-                        sw.Write("Group"); sw.Write(TAB);
-                        sw.Write("Kind"); sw.Write(TAB);
-                        sw.Write("Brand"); sw.Write(TAB);
-                        sw.Write("Start"); sw.Write(TAB);
-                        sw.Write("End"); sw.Write(TAB);
-                        sw.Write("Image"); sw.Write(TAB);
-                        sw.Write("Item1Category"); sw.Write(TAB);
-                        sw.Write("Item1Key"); sw.Write(TAB);
-                        sw.Write("Item1Image"); sw.Write(TAB);
-                        sw.Write("Item1SealId"); sw.Write(TAB);
-                        sw.Write("Item1Point"); sw.Write(TAB);
-                        sw.Write("Item1IsSet"); sw.Write(TAB);
-                        sw.Write("Item2Category"); sw.Write(TAB);
-                        sw.Write("Item2Key"); sw.Write(TAB);
-                        sw.Write("Item2Image"); sw.Write(TAB);
-                        sw.Write("Item2SealId"); sw.Write(TAB);
-                        sw.Write("Item2Point"); sw.Write(TAB);
-                        sw.Write("Item2IsSet"); sw.Write(TAB);
-                        sw.Write("Item3Category"); sw.Write(TAB);
-                        sw.Write("Item3Key"); sw.Write(TAB);
-                        sw.Write("Item3Image"); sw.Write(TAB);
-                        sw.Write("Item3SealId"); sw.Write(TAB);
-                        sw.Write("Item3Point"); sw.Write(TAB);
-                        sw.Write("Item3IsSet"); sw.Write(TAB);
-                        sw.Write("Item4Category"); sw.Write(TAB);
-                        sw.Write("Item4Key"); sw.Write(TAB);
-                        sw.Write("Item4Image"); sw.Write(TAB);
-                        sw.Write("Item4SealId"); sw.Write(TAB);
-                        sw.Write("Item4Point"); sw.Write(TAB);
-                        sw.Write("Item4IsSet");
-                        sw.WriteLine();
-
-                        foreach (var s in src)
-                        {
-                            sw.Write(s.NewKey switch
-                            {
-                                CoordinateKey.Id => "",
-                                _ => s.NewKey.ToString("G")
-                            });
-                            sw.Write(TAB);
-                            sw.Write(s.NewChapter);
-                            sw.Write(TAB);
-                            sw.Write(s.NewId.PositiveOrNull());
-                            sw.Write(TAB);
-                            sw.Write(s.NewStar.PositiveOrNull());
-                            sw.Write(TAB);
-                            sw.Write(s.NewName);
-                            sw.Write(TAB);
-                            sw.Write(s.NewGroup);
-                            sw.Write(TAB);
-                            sw.Write(s.NewKind);
-                            sw.Write(TAB);
-                            sw.Write(s.NewBrand);
-                            sw.Write(TAB);
-                            sw.Write(s.NewStart?.ToString("yyyy/M/d"));
-                            sw.Write(TAB);
-                            sw.Write(s.NewEnd?.ToString("yyyy/M/d"));
-                            sw.Write(TAB);
-                            sw.Write(s.NewImage);
-
-                            foreach (var c in s.Items)
-                            {
-                                if (c?.NewId > 0)
-                                {
-                                    sw.Write(TAB);
-                                    sw.Write(c.NewCategory.GetDisplayName());
-                                    sw.Write(TAB);
-                                    sw.Write(c.NewId);
-                                    sw.Write(TAB);
-                                    sw.Write(c.NewImage);
-                                    sw.Write(TAB);
-                                    sw.Write(c.NewSealId);
-                                    sw.Write(TAB);
-                                    sw.Write(c.NewPoint.PositiveOrNull());
-                                    sw.Write(TAB);
-                                    sw.Write(c.NewSet ? "TRUE" : null);
-                                }
-                            }
-
-                            sw.WriteLine();
-                        }
-                    }
-
-                    await LoadCoordinatesAsync();
-                }
-                catch { }
-            },
+            _ => SaveCoordinatesAsync(),
             title: "保存",
             style: BorderStyle.Primary,
             iconGetter: c => c.IsExecuting ? "fas fa-pulse fa-spinner" : "fas fa-save");
+
+    private async Task<bool> SaveCoordinatesAsync()
+    {
+        try
+        {
+            var src = Coordinates.OrderBy(e => e.NewKey).ThenBy(e => e.NewId).ThenBy(e => e.NewName).ToList();
+
+            const char TAB = '\t';
+            using (var fs = new FileStream(Path.Combine(GetCustomDirectory(), "_Coordinates.tsv"), FileMode.Create))
+            using (var sw = new StreamWriter(fs, Encoding.GetEncoding(932)))
+            {
+                sw.Write("Key"); sw.Write(TAB);
+                sw.Write("ChapterId"); sw.Write(TAB);
+                sw.Write("Id"); sw.Write(TAB);
+                sw.Write("Star"); sw.Write(TAB);
+                sw.Write("Name"); sw.Write(TAB);
+                sw.Write("Group"); sw.Write(TAB);
+                sw.Write("Kind"); sw.Write(TAB);
+                sw.Write("Brand"); sw.Write(TAB);
+                sw.Write("Start"); sw.Write(TAB);
+                sw.Write("End"); sw.Write(TAB);
+                sw.Write("Image"); sw.Write(TAB);
+                sw.Write("Item1Category"); sw.Write(TAB);
+                sw.Write("Item1Key"); sw.Write(TAB);
+                sw.Write("Item1Image"); sw.Write(TAB);
+                sw.Write("Item1SealId"); sw.Write(TAB);
+                sw.Write("Item1Point"); sw.Write(TAB);
+                sw.Write("Item1IsSet"); sw.Write(TAB);
+                sw.Write("Item2Category"); sw.Write(TAB);
+                sw.Write("Item2Key"); sw.Write(TAB);
+                sw.Write("Item2Image"); sw.Write(TAB);
+                sw.Write("Item2SealId"); sw.Write(TAB);
+                sw.Write("Item2Point"); sw.Write(TAB);
+                sw.Write("Item2IsSet"); sw.Write(TAB);
+                sw.Write("Item3Category"); sw.Write(TAB);
+                sw.Write("Item3Key"); sw.Write(TAB);
+                sw.Write("Item3Image"); sw.Write(TAB);
+                sw.Write("Item3SealId"); sw.Write(TAB);
+                sw.Write("Item3Point"); sw.Write(TAB);
+                sw.Write("Item3IsSet"); sw.Write(TAB);
+                sw.Write("Item4Category"); sw.Write(TAB);
+                sw.Write("Item4Key"); sw.Write(TAB);
+                sw.Write("Item4Image"); sw.Write(TAB);
+                sw.Write("Item4SealId"); sw.Write(TAB);
+                sw.Write("Item4Point"); sw.Write(TAB);
+                sw.Write("Item4IsSet");
+                sw.WriteLine();
+
+                foreach (var s in src)
+                {
+                    sw.Write(s.NewKey switch
+                    {
+                        CoordinateKey.Id => "",
+                        _ => s.NewKey.ToString("G")
+                    });
+                    sw.Write(TAB);
+                    sw.Write(s.NewChapter);
+                    sw.Write(TAB);
+                    sw.Write(s.NewId.PositiveOrNull());
+                    sw.Write(TAB);
+                    sw.Write(s.NewStar.PositiveOrNull());
+                    sw.Write(TAB);
+                    sw.Write(s.NewName);
+                    sw.Write(TAB);
+                    sw.Write(s.NewGroup);
+                    sw.Write(TAB);
+                    sw.Write(s.NewKind);
+                    sw.Write(TAB);
+                    sw.Write(s.NewBrand);
+                    sw.Write(TAB);
+                    sw.Write(s.NewStart?.ToString("yyyy/M/d"));
+                    sw.Write(TAB);
+                    sw.Write(s.NewEnd?.ToString("yyyy/M/d"));
+                    sw.Write(TAB);
+                    sw.Write(s.NewImage);
+
+                    foreach (var c in s.Items)
+                    {
+                        if (c?.NewId > 0)
+                        {
+                            sw.Write(TAB);
+                            sw.Write(c.NewCategory.GetDisplayName());
+                            sw.Write(TAB);
+                            sw.Write(c.NewId);
+                            sw.Write(TAB);
+                            sw.Write(c.NewImage);
+                            sw.Write(TAB);
+                            sw.Write(c.NewSealId);
+                            sw.Write(TAB);
+                            sw.Write(c.NewPoint.PositiveOrNull());
+                            sw.Write(TAB);
+                            sw.Write(c.NewSet ? "TRUE" : null);
+                        }
+                    }
+
+                    sw.WriteLine();
+                }
+            }
+
+            await LoadCoordinatesAsync();
+
+            return true;
+        }
+        catch { }
+        return false;
+    }
 
     #endregion SaveCoordinatesCommand
 
@@ -734,75 +740,105 @@ public sealed class MainWindowViewModel : WindowViewModel
 
     public CommandViewModelBase SaveCardsCommand
         => _SaveCardsCommand ??= CommandViewModel.CreateAsync(
-            async _ =>
-            {
-                try
-                {
-                    var src = Cards.OrderBy(e => e.NewKey).ThenBy(e => e.NewId).ThenBy(e => e.NewSealId).ThenBy(e => e.NewOrder).ToList();
-
-                    const char TAB = '\t';
-                    using (var fs = new FileStream(Path.Combine(GetCustomDirectory(), "_Cards.tsv"), FileMode.Create))
-                    using (var sw = new StreamWriter(fs, Encoding.UTF8))
-                    {
-                        sw.Write("Key"); sw.Write(TAB);
-                        sw.Write("Id"); sw.Write(TAB);
-                        sw.Write("ChapterId"); sw.Write(TAB);
-                        sw.Write("Order"); sw.Write(TAB);
-                        sw.Write("SealId"); sw.Write(TAB);
-                        sw.Write("Coordinate"); sw.Write(TAB);
-                        sw.Write("Character"); sw.Write(TAB);
-                        sw.Write("Variant"); sw.Write(TAB);
-                        sw.Write("Song"); sw.Write(TAB);
-                        sw.Write("Star"); sw.Write(TAB);
-                        sw.Write("Point"); sw.Write(TAB);
-                        sw.Write("IsChance"); sw.Write(TAB);
-                        sw.Write("Brand"); sw.Write(TAB);
-                        sw.Write("Image1Url"); sw.Write(TAB);
-                        sw.Write("Image2Url");
-
-                        sw.WriteLine();
-
-                        foreach (var s in src)
-                        {
-                            sw.Write(s.NewKey switch
-                            {
-                                CoordinateKey.Id => "",
-                                _ => s.NewKey.ToString("G")
-                            });
-                            sw.Write(TAB);
-
-                            sw.Write(s.NewId.PositiveOrNull());
-                            sw.Write(TAB);
-                            sw.Write(s.NewChapter);
-                            sw.Write(TAB);
-
-                            sw.Write(s.NewOrder.PositiveOrNull());
-                            sw.Write(TAB);
-
-                            sw.Write(s.NewSealId); sw.Write(TAB);
-                            sw.Write(s.NewCoordinate); sw.Write(TAB);
-                            sw.Write(s.NewCharacter); sw.Write(TAB);
-                            sw.Write(s.NewVariant); sw.Write(TAB);
-                            sw.Write(s.NewSong); sw.Write(TAB);
-                            sw.Write(s.NewStar.PositiveOrNull()); sw.Write(TAB);
-                            sw.Write(s.NewPoint.PositiveOrNull()); sw.Write(TAB);
-                            sw.Write(s.NewChance ? "TRUE" : null); sw.Write(TAB);
-                            sw.Write(s.NewBrand); sw.Write(TAB);
-                            sw.Write(s.NewImage1); sw.Write(TAB);
-                            sw.Write(s.NewImage2);
-                            sw.WriteLine();
-                        }
-                    }
-
-                    await LoadCardsAsync();
-                }
-                catch { }
-            },
+            _ => SaveCardsAsync(),
             title: "保存",
             style: BorderStyle.Primary,
             iconGetter: c => c.IsExecuting ? "fas fa-pulse fa-spinner" : "fas fa-save");
 
+    private async Task<bool> SaveCardsAsync()
+    {
+        try
+        {
+            var src = Cards.OrderBy(e => e.NewKey).ThenBy(e => e.NewId).ThenBy(e => e.NewSealId).ThenBy(e => e.NewOrder).ToList();
+
+            const char TAB = '\t';
+            using (var fs = new FileStream(Path.Combine(GetCustomDirectory(), "_Cards.tsv"), FileMode.Create))
+            using (var sw = new StreamWriter(fs, Encoding.UTF8))
+            {
+                sw.Write("Key"); sw.Write(TAB);
+                sw.Write("Id"); sw.Write(TAB);
+                sw.Write("ChapterId"); sw.Write(TAB);
+                sw.Write("Order"); sw.Write(TAB);
+                sw.Write("SealId"); sw.Write(TAB);
+                sw.Write("Coordinate"); sw.Write(TAB);
+                sw.Write("Character"); sw.Write(TAB);
+                sw.Write("Variant"); sw.Write(TAB);
+                sw.Write("Song"); sw.Write(TAB);
+                sw.Write("Star"); sw.Write(TAB);
+                sw.Write("Point"); sw.Write(TAB);
+                sw.Write("IsChance"); sw.Write(TAB);
+                sw.Write("Brand"); sw.Write(TAB);
+                sw.Write("Image1Url"); sw.Write(TAB);
+                sw.Write("Image2Url");
+
+                sw.WriteLine();
+
+                foreach (var s in src)
+                {
+                    sw.Write(s.NewKey switch
+                    {
+                        CoordinateKey.Id => "",
+                        _ => s.NewKey.ToString("G")
+                    });
+                    sw.Write(TAB);
+
+                    sw.Write(s.NewId.PositiveOrNull());
+                    sw.Write(TAB);
+                    sw.Write(s.NewChapter);
+                    sw.Write(TAB);
+
+                    sw.Write(s.NewOrder.PositiveOrNull());
+                    sw.Write(TAB);
+
+                    sw.Write(s.NewSealId); sw.Write(TAB);
+                    sw.Write(s.NewCoordinate); sw.Write(TAB);
+                    sw.Write(s.NewCharacter); sw.Write(TAB);
+                    sw.Write(s.NewVariant); sw.Write(TAB);
+                    sw.Write(s.NewSong); sw.Write(TAB);
+                    sw.Write(s.NewStar.PositiveOrNull()); sw.Write(TAB);
+                    sw.Write(s.NewPoint.PositiveOrNull()); sw.Write(TAB);
+                    sw.Write(s.NewChance ? "TRUE" : null); sw.Write(TAB);
+                    sw.Write(s.NewBrand); sw.Write(TAB);
+                    sw.Write(s.NewImage1); sw.Write(TAB);
+                    sw.Write(s.NewImage2);
+                    sw.WriteLine();
+                }
+            }
+
+            await LoadCardsAsync();
+            return true;
+        }
+        catch { }
+        return false;
+    }
+
     #endregion SaveCardsCommand
+
+    #region RunDownloaderCommand
+
+    private CommandViewModelBase _RunDownloaderCommand;
+
+    public CommandViewModelBase RunDownloaderCommand
+        => _RunDownloaderCommand ??= CommandViewModel.CreateAsync(_ => RunDownloaderAsync(), title: "取込");
+
+    public async Task RunDownloaderAsync()
+    {
+        var dp = GetCustomDirectory(relativePath: "../Shipwreck.AipriDownloader");
+        var psi = new ProcessStartInfo("dotnet")
+        {
+            Arguments = "run",
+            WorkingDirectory = dp,
+            UseShellExecute = true,
+            RedirectStandardError = false,
+            RedirectStandardOutput = false,
+            RedirectStandardInput = false,
+        };
+
+        var pc = Process.Start(psi);
+        await pc.WaitForExitAsync();
+    }
+
+    #endregion RunDownloaderCommand
 
     #endregion カード
 
@@ -821,14 +857,34 @@ public sealed class MainWindowViewModel : WindowViewModel
         }
         if (r == MessageBoxResult.Yes)
         {
-            if (changed1)
+            async void saveOnClose()
             {
-                SaveCoordinatesCommand.Execute();
+                try
+                {
+                    if (changed1)
+                    {
+                        if (!await SaveCoordinatesAsync())
+                        {
+                            return;
+                        }
+                    }
+                    if (changed2)
+                    {
+                        if (!await SaveCardsAsync())
+                        {
+                            return;
+                        }
+                    }
+
+                    await RunDownloaderAsync();
+
+                    Close();
+                }
+                catch { }
             }
-            if (changed2)
-            {
-                SaveCardsCommand.Execute();
-            }
+
+            saveOnClose();
+            return false;
         }
         return true;
     }

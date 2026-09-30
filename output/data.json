@@ -20115,6 +20115,13 @@
       "Name": "エレガントクリスタルレッド",
       "Group": "CD・Blu-ray",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901075,
+      "ChapterId": "special",
+      "Name": "エレガントクリスタルミント",
+      "Group": "ファンブック",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -53191,6 +53198,24 @@
       "CoordinateId": 9901074,
       "CategoryId": 5,
       "ImageUrl": "Items/elegant_crystal_red-3.png"
+    },
+    {
+      "Id": 911279,
+      "CoordinateId": 9901075,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911281,
+      "CoordinateId": 9901075,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911282,
+      "CoordinateId": 9901075,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
