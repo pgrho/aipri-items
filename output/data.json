@@ -17508,7 +17508,7 @@
       "Id": 9901071,
       "ChapterId": "oa4",
       "Star": 4,
-      "Name": "おねがい4だんシークレット",
+      "Name": "ピュアハートバズリウムプリズムストーン",
       "Group": "★★★★",
       "Start": "2026-10-01",
       "End": "2026-12-02",
@@ -17518,7 +17518,7 @@
       "Id": 9901072,
       "ChapterId": "oa4",
       "Star": 4,
-      "Name": "おねがい4だんフルコーデ",
+      "Name": "スマイルハートバズリウムディアクラウン",
       "Group": "フルコーデガチャ おねがい4だん前半",
       "Start": "2026-10-01",
       "End": "2026-11-04",
@@ -20121,6 +20121,13 @@
       "ChapterId": "special",
       "Name": "エレガントクリスタルミント",
       "Group": "ファンブック",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901076,
+      "ChapterId": "special",
+      "Name": "ミラクルダイヤモンド",
+      "Group": "おねがいアイプリ ミラーパクト",
       "LinkedItemIds": []
     }
   ],
@@ -46360,15 +46367,8 @@
     {
       "Id": 911263,
       "CoordinateId": 9901071,
-      "CategoryId": 1,
+      "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
-    },
-    {
-      "Id": 911264,
-      "CoordinateId": 9901071,
-      "CategoryId": 3,
-      "ImageUrl": "_generic-2.png",
-      "IsSet": true
     },
     {
       "Id": 911265,
@@ -46385,15 +46385,8 @@
     {
       "Id": 911267,
       "CoordinateId": 9901072,
-      "CategoryId": 1,
+      "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
-    },
-    {
-      "Id": 911268,
-      "CoordinateId": 9901072,
-      "CategoryId": 3,
-      "ImageUrl": "_generic-2.png",
-      "IsSet": true
     },
     {
       "Id": 911269,
@@ -53214,6 +53207,31 @@
     {
       "Id": 911282,
       "CoordinateId": 9901075,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911283,
+      "CoordinateId": 9901076,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911284,
+      "CoordinateId": 9901076,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911285,
+      "CoordinateId": 9901076,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911286,
+      "CoordinateId": 9901076,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
