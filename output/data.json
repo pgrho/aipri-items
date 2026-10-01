@@ -17509,7 +17509,7 @@
       "ChapterId": "oa4",
       "Star": 4,
       "Name": "ピュアハートバズリウムプリズムストーン",
-      "Group": "★★★★",
+      "Group": "フルコーデガチャ おねがい4だん前半",
       "Start": "2026-10-01",
       "End": "2026-12-02",
       "LinkedItemIds": []
@@ -17519,7 +17519,7 @@
       "ChapterId": "oa4",
       "Star": 4,
       "Name": "スマイルハートバズリウムディアクラウン",
-      "Group": "フルコーデガチャ おねがい4だん前半",
+      "Group": "★★★★",
       "Start": "2026-10-01",
       "End": "2026-11-04",
       "LinkedItemIds": []
@@ -20128,6 +20128,20 @@
       "ChapterId": "special",
       "Name": "ミラクルダイヤモンド",
       "Group": "おねがいアイプリ ミラーパクト",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901077,
+      "ChapterId": "special",
+      "Name": "メモリアルクロックパープル",
+      "Group": "ちゃお",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901078,
+      "ChapterId": "special",
+      "Name": "エプロンブーケライトピンク",
+      "Group": "ちゃお",
       "LinkedItemIds": []
     }
   ],
@@ -46374,13 +46388,15 @@
       "Id": 911265,
       "CoordinateId": 9901071,
       "CategoryId": 4,
-      "ImageUrl": "_generic-3.png"
+      "ImageUrl": "_generic-3.png",
+      "IsSet": true
     },
     {
       "Id": 911266,
       "CoordinateId": 9901071,
       "CategoryId": 5,
-      "ImageUrl": "_generic-4.png"
+      "ImageUrl": "_generic-4.png",
+      "IsSet": true
     },
     {
       "Id": 911267,
@@ -53232,6 +53248,49 @@
     {
       "Id": 911286,
       "CoordinateId": 9901076,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911287,
+      "CoordinateId": 9901077,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911288,
+      "CoordinateId": 9901077,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911289,
+      "CoordinateId": 9901077,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911290,
+      "CoordinateId": 9901077,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911291,
+      "CoordinateId": 9901078,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911293,
+      "CoordinateId": 9901078,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911294,
+      "CoordinateId": 9901078,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
@@ -74308,6 +74367,154 @@
       "Image2Url": "https://aipri.jp/himitsu/card/img/gumi/G3-014_U.webp"
     },
     {
+      "Id": 1438,
+      "ChapterId": "gumi",
+      "SealId": "OG3-001",
+      "Coordinate": "ゴーストゴシックブラック",
+      "Character": "ナナ",
+      "CharacterId": 31,
+      "Song": "TOP POWER（ナナ・エマ）",
+      "SongId": 87,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-001_U.webp"
+    },
+    {
+      "Id": 1439,
+      "ChapterId": "gumi",
+      "SealId": "OG3-002",
+      "Coordinate": "ゴーストゴシックブラック",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-002_U.webp"
+    },
+    {
+      "Id": 1440,
+      "ChapterId": "gumi",
+      "SealId": "OG3-003",
+      "Coordinate": "ゴーストゴシックブラック",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-003_U.webp"
+    },
+    {
+      "Id": 1441,
+      "ChapterId": "gumi",
+      "SealId": "OG3-005",
+      "Coordinate": "きぼうのクリスタルバズリウムミント",
+      "Character": "エマ",
+      "CharacterId": 30,
+      "Song": "ネガイ・スペシャリスト",
+      "SongId": 85,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-005_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-005_U.webp"
+    },
+    {
+      "Id": 1442,
+      "ChapterId": "gumi",
+      "SealId": "OG3-006",
+      "Coordinate": "パステルパッチワークピンク",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Song": "勇気のはばたきサイン（おりびあ・ナナ）",
+      "SongId": 86,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-006_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-006_U.webp"
+    },
+    {
+      "Id": 1443,
+      "ChapterId": "gumi",
+      "SealId": "OG3-007",
+      "Coordinate": "パステルパッチワークピンク",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-007_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-007_U.webp"
+    },
+    {
+      "Id": 1444,
+      "ChapterId": "gumi",
+      "SealId": "OG3-008",
+      "Coordinate": "パステルパッチワークピンク",
+      "Character": "エマ",
+      "CharacterId": 30,
+      "Song": "アイプリMyDream",
+      "SongId": 77,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-008_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-008_U.webp"
+    },
+    {
+      "Id": 1445,
+      "ChapterId": "gumi",
+      "SealId": "OG3-009",
+      "Coordinate": "たいようさんさん",
+      "Character": "ナナ",
+      "CharacterId": 31,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-009_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-009_U.webp"
+    },
+    {
+      "Id": 1446,
+      "ChapterId": "gumi",
+      "SealId": "OG3-010",
+      "Coordinate": "たいようさんさん",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-010_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-010_U.webp"
+    },
+    {
+      "Id": 1447,
+      "ChapterId": "gumi",
+      "SealId": "OG3-011",
+      "Coordinate": "フォーチュンスター",
+      "Character": "エマ",
+      "CharacterId": 30,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-011_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-011_U.webp"
+    },
+    {
+      "Id": 1448,
+      "ChapterId": "gumi",
+      "SealId": "OG3-012",
+      "Coordinate": "フォーチュンスター",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Song": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "SongId": 75,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-012_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-012_U.webp"
+    },
+    {
+      "Id": 1449,
+      "ChapterId": "gumi",
+      "SealId": "OG3-013",
+      "Coordinate": "チャイナネオン",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Song": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "SongId": 81,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-013_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-013_U.webp"
+    },
+    {
+      "Id": 1450,
+      "ChapterId": "gumi",
+      "SealId": "OG3-014",
+      "Coordinate": "チャイナネオン",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Song": "おねがいアイプリ！",
+      "SongId": 73,
+      "Image1Url": "https://aipri.jp/card/img/gumi/OG3-014_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/gumi/OG3-014_U.webp"
+    },
+    {
       "Id": 1315,
       "ChapterId": "gumi",
       "SealId": "OG2-001",
@@ -78209,6 +78416,94 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1451,
+      "ChapterId": "special",
+      "SealId": "OP-071",
+      "Coordinate": "ゆめゆめスターバズリウム",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-071_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-071_U.webp"
+    },
+    {
+      "Id": 1452,
+      "ChapterId": "special",
+      "SealId": "OP-070",
+      "Coordinate": "すきすきハートバズリウム",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-070_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-070_U.webp"
+    },
+    {
+      "Id": 1453,
+      "ChapterId": "special",
+      "SealId": "OP-131",
+      "Coordinate": "ピュアパレードバズリウムパープル",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Song": "あっぱれアイプリおんど",
+      "SongId": 89,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-131_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-131_U.webp"
+    },
+    {
+      "Id": 1454,
+      "ChapterId": "special",
+      "SealId": "OP-123",
+      "Coordinate": "ギフトリボン",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-123_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-123_U.webp"
+    },
+    {
+      "Id": 1455,
+      "ChapterId": "special",
+      "SealId": "OP-122",
+      "Coordinate": "ギフトリボン",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Song": "放課後のおねがい！",
+      "SongId": 78,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-122_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-122_U.webp"
+    },
+    {
+      "Id": 1456,
+      "ChapterId": "special",
+      "SealId": "OP-129",
+      "Coordinate": "メモリアルクロックパープル",
+      "Character": "エマ",
+      "CharacterId": 30,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-129_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-129_U.webp"
+    },
+    {
+      "Id": 1457,
+      "ChapterId": "special",
+      "SealId": "OP-133",
+      "Coordinate": "エプロンブーケライトピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-133_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-133_U.webp"
+    },
+    {
+      "Id": 1458,
+      "ChapterId": "special",
+      "SealId": "OP-077",
+      "Coordinate": "エレガントクリスタルミント",
+      "Character": "ナナ",
+      "CharacterId": 31,
+      "Song": "TOP POWER（ナナ・エマ）",
+      "SongId": 87,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-077_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-077_U.webp"
     },
     {
       "Id": 1345,
