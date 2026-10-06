@@ -20143,6 +20143,48 @@
       "Name": "エプロンブーケライトピンク",
       "Group": "ちゃお",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901079,
+      "ChapterId": "special",
+      "Name": "トレジャーパイレーツピンク",
+      "Group": "アイプリワールド2026",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901080,
+      "ChapterId": "special",
+      "Name": "ミステリーファントムエメラルド",
+      "Group": "アイプリワールド2026",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901081,
+      "ChapterId": "special",
+      "Name": "マジカルミラクルライトブルー",
+      "Group": "アイプリワールド2026",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901082,
+      "ChapterId": "special",
+      "Name": "トレジャーパイレーツイエロー",
+      "Group": "アイプリワールド2026",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901083,
+      "ChapterId": "special",
+      "Name": "マジカルミラクルゴシックピンク",
+      "Group": "アイプリワールド2026",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901084,
+      "ChapterId": "special",
+      "Name": "ミステリーファントムホワイト",
+      "Group": "アイプリワールド2026",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -53291,6 +53333,156 @@
     {
       "Id": 911294,
       "CoordinateId": 9901078,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911295,
+      "CoordinateId": 9901079,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911296,
+      "CoordinateId": 9901079,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911297,
+      "CoordinateId": 9901079,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911298,
+      "CoordinateId": 9901079,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911299,
+      "CoordinateId": 9901080,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911300,
+      "CoordinateId": 9901080,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911301,
+      "CoordinateId": 9901080,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911302,
+      "CoordinateId": 9901080,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911303,
+      "CoordinateId": 9901081,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911304,
+      "CoordinateId": 9901081,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911305,
+      "CoordinateId": 9901081,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911306,
+      "CoordinateId": 9901081,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911307,
+      "CoordinateId": 9901082,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911308,
+      "CoordinateId": 9901082,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911309,
+      "CoordinateId": 9901082,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911310,
+      "CoordinateId": 9901082,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911311,
+      "CoordinateId": 9901083,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911312,
+      "CoordinateId": 9901083,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911313,
+      "CoordinateId": 9901083,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911314,
+      "CoordinateId": 9901083,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911315,
+      "CoordinateId": 9901084,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911316,
+      "CoordinateId": 9901084,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911317,
+      "CoordinateId": 9901084,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911318,
+      "CoordinateId": 9901084,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
