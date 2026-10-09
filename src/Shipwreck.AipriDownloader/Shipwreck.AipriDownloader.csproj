@@ -16,6 +16,10 @@
 				<None Include="..\..\output\**\*.png" Link="output\%(RecursiveDir)%(Filename).png" />
 				<None Include="..\..\output\**\*.json" Link="output\%(RecursiveDir)%(Filename).json" />
 		</ItemGroup>
+
+		<ItemGroup>
+		  <None Include="C:\Users\kkakigahara\source\repos\pgrho\puritto\submodules\aipri-items\custom\_CoordinateItems.tsv" Link="_CoordinateItems.tsv" />
+		</ItemGroup>
 		<ItemGroup>
 				<PackageReference Include="HtmlAgilityPack" Version="1.11.71" />
 				<PackageReference Include="Shipwreck.Phash.PresentationCore" Version="0.5.0" />
