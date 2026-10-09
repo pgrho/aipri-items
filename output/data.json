@@ -46283,10 +46283,9 @@
       "Id": 911319,
       "CoordinateId": 1229,
       "SealId": "OA4-114",
-      "CategoryId": 3,
+      "CategoryId": 4,
       "Point": 340,
-      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33667.webp",
-      "IsSet": true
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33667.webp"
     },
     {
       "Id": 33708,

@@ -779,7 +779,10 @@ internal class Program
                     }
                     t.Point = dt.Point > 0 ? dt.Point : t.Point;
                     t.IsSet = dt.IsSet;
-                    t.BeginSetImageUrl(dt.ImageUrl, d);
+                    if (!string.IsNullOrEmpty(dt.ImageUrl))
+                    {
+                        t.BeginSetImageUrl(dt.ImageUrl, d);
+                    }
 
                     if (coord != null
                         && t.CoordinateId != coord.Id)
