@@ -20185,6 +20185,13 @@
       "Name": "ミステリーファントムホワイト",
       "Group": "アイプリワールド2026",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901085,
+      "ChapterId": "special",
+      "Name": "ピュアパレードバズリウムパープル",
+      "Group": "アイプリワールド2026",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -53482,6 +53489,24 @@
     {
       "Id": 911318,
       "CoordinateId": 9901084,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911320,
+      "CoordinateId": 9901085,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911321,
+      "CoordinateId": 9901085,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911322,
+      "CoordinateId": 9901085,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
