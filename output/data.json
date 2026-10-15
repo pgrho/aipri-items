@@ -17247,6 +17247,32 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 1234,
+      "ChapterId": "oa4",
+      "Star": 4,
+      "Name": "パンプキンハロウィンネオン",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/OA4-116-0915.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa4/OA4-116-0915_thumb.webp",
+      "Group": "プレミアムライブ ハロウィンセレクション",
+      "Kind": "プレミアムライブ ハロウィンセレクション",
+      "Start": "2026-10-22",
+      "End": "2026-11-04",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1235,
+      "ChapterId": "oa4",
+      "Star": 4,
+      "Name": "ときめきハロウィンローズレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/OA4-119-0915.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa4/OA4-119-0915_thumb.webp",
+      "Group": "プレミアムライブ ハロウィンセレクション",
+      "Kind": "プレミアムライブ ハロウィンセレクション",
+      "Start": "2026-10-22",
+      "End": "2026-11-04",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 1215,
       "ChapterId": "oa4",
       "Star": 4,
@@ -45942,6 +45968,54 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33590.webp"
     },
     {
+      "Id": 33669,
+      "CoordinateId": 1234,
+      "SealId": "OA4-116",
+      "CategoryId": 2,
+      "Point": 780,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33669.webp"
+    },
+    {
+      "Id": 33670,
+      "CoordinateId": 1234,
+      "SealId": "OA4-117",
+      "CategoryId": 4,
+      "Point": 380,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33670.webp"
+    },
+    {
+      "Id": 33671,
+      "CoordinateId": 1234,
+      "SealId": "OA4-118",
+      "CategoryId": 5,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33671.webp"
+    },
+    {
+      "Id": 33672,
+      "CoordinateId": 1235,
+      "SealId": "OA4-119",
+      "CategoryId": 2,
+      "Point": 700,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33672.webp"
+    },
+    {
+      "Id": 33673,
+      "CoordinateId": 1235,
+      "SealId": "OA4-120",
+      "CategoryId": 4,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33673.webp"
+    },
+    {
+      "Id": 33674,
+      "CoordinateId": 1235,
+      "SealId": "OA4-121",
+      "CategoryId": 5,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33674.webp"
+    },
+    {
       "Id": 33705,
       "CoordinateId": 1215,
       "SealId": "OA4-156",
@@ -46287,7 +46361,7 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33659.webp"
     },
     {
-      "Id": 911319,
+      "Id": 33667,
       "CoordinateId": 1229,
       "SealId": "OA4-114",
       "CategoryId": 4,
@@ -56806,6 +56880,27 @@
       "Name": "きぼうジュエルパープルメイク",
       "Description": "ミラクルミラーパクトDX",
       "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0054.webp"
+    },
+    {
+      "Id": 467,
+      "CategoryId": 4,
+      "Name": "ぴょんぴょんインテーク",
+      "Description": "マイキャラライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Fronthair_0029.webp"
+    },
+    {
+      "Id": 468,
+      "CategoryId": 6,
+      "Name": "ベビーブルー",
+      "Description": "マイキャラライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Haircolor_0086.webp"
+    },
+    {
+      "Id": 469,
+      "CategoryId": 10,
+      "Name": "ハロウィンナイト",
+      "Description": "プレミアムライブ",
+      "ImageUrl": "https://aipri.jp/verse/parts/img/Make_0052.webp"
     }
   ],
   "HimitsuChapters": [
