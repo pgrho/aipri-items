@@ -20218,6 +20218,13 @@
       "Name": "ピュアパレードバズリウムパープル",
       "Group": "アイプリワールド2026",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901086,
+      "ChapterId": "special",
+      "Name": "すきすきハートバズリウムピンクブルー",
+      "Group": "しまむら",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -53583,6 +53590,18 @@
       "CoordinateId": 9901085,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911325,
+      "CoordinateId": 9901086,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911326,
+      "CoordinateId": 9901086,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -68226,6 +68245,7 @@
       "Coordinate": "エターナルフラワールミナスフローラ",
       "Character": "リング",
       "CharacterId": 22,
+      "Variant": "パラレル",
       "Song": "ミライのプリンセス（つむぎ・リング）",
       "SongId": 60,
       "Star": 4,
@@ -72847,6 +72867,9 @@
       "ChapterId": "oa3",
       "SealId": "OA3-001P",
       "Coordinate": "じょうねつゴシックバズリウム",
+      "Character": "ナナ",
+      "CharacterId": 31,
+      "Variant": "パラレル",
       "Song": "TOP POWER",
       "SongId": 84,
       "Star": 4
@@ -72894,6 +72917,66 @@
       "Coordinate": "ハッピーバースデー！グリーン",
       "Song": "ハピハピハッピー☆マイバースデー（おねがいver.）",
       "SongId": 88,
+      "Star": 4
+    },
+    {
+      "Id": 9201022,
+      "ChapterId": "oa4",
+      "SealId": "OA4-001P",
+      "Coordinate": "スマイルハートバズリウムピンク",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201023,
+      "ChapterId": "oa4",
+      "SealId": "OA4-002P",
+      "Coordinate": "ピュアハートバズリウムブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201024,
+      "ChapterId": "oa4",
+      "SealId": "OA4-010P",
+      "Coordinate": "エレガントクリスタルパープル",
+      "Character": "エマ",
+      "CharacterId": 30,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201025,
+      "ChapterId": "oa4",
+      "SealId": "OA4-012P",
+      "Coordinate": "パンプキンハロウィンブラック",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201026,
+      "ChapterId": "oa4",
+      "SealId": "OA4-021P",
+      "Coordinate": "ハッピーバースデー！スカイブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Variant": "パラレル",
+      "Star": 4
+    },
+    {
+      "Id": 9201027,
+      "ChapterId": "oa4",
+      "SealId": "OA4-022P",
+      "Coordinate": "ハッピーバースデー！レッド",
+      "Character": "ナナ",
+      "CharacterId": 31,
+      "Variant": "パラレル",
       "Star": 4
     },
     {
