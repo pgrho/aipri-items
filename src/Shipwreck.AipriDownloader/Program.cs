@@ -377,6 +377,11 @@ internal class Program
 
                 async Task addItemAsync(Coordinate coord, string? category, string? iUrl, string? iid, short point)
                 {
+                    // 公式typo
+                    if (iid == "OA4-114")
+                    {
+                        category = "シューズ";
+                    }
                     coord.Group = (chapterKey == "special" ? group : null) ?? kind;
                     coord.Kind = kind;
                     coord.Start = start;
@@ -387,7 +392,9 @@ internal class Program
                     var first = (string.IsNullOrEmpty(iid)
                         ? null
                         : d.DataSet.CoordinateItems.FirstOrDefault(e => e.SealId == iid && e.IsCurrentRun))
-                        ?? (d.DataSet.CoordinateItems.FirstOrDefault(e => e.GetCoordinate()?.Name == coord.Name && e.GetCategory()?.Name == category));
+                        ?? (d.DataSet.CoordinateItems.Where(e => e.GetCoordinate()?.Name == coord.Name && e.GetCategory()?.Name == category)
+                                .OrderBy(e => e.GetCoordinate()?.ChapterId == coord.ChapterId ? 0 : 1)
+                                .FirstOrDefault());
 
                     if (first == null || first.CoordinateId == coord.Id)
                     {
