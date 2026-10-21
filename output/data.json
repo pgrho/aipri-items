@@ -20225,6 +20225,13 @@
       "Name": "すきすきハートバズリウムピンクブルー",
       "Group": "しまむら",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901087,
+      "ChapterId": "special",
+      "Name": "スマイルハートバズリウムブルー",
+      "Group": "namco",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -53606,6 +53613,24 @@
     {
       "Id": 911326,
       "CoordinateId": 9901086,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911327,
+      "CoordinateId": 9901087,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911329,
+      "CoordinateId": 9901087,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911330,
+      "CoordinateId": 9901087,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
