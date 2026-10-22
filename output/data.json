@@ -17531,6 +17531,32 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 1236,
+      "ChapterId": "oa4",
+      "Star": 4,
+      "Name": "ビリーブマーチレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/believe-march-red.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa4/believe-march-red_thumb.webp",
+      "Group": "ナムコでゲット♪アイプリバースダブルキャンペーン",
+      "Kind": "ナムコでゲット♪アイプリバースダブルキャンペーン",
+      "Start": "2026-10-22",
+      "End": "2026-11-11",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1237,
+      "ChapterId": "oa4",
+      "Star": 4,
+      "Name": "シールぺったんチアハッピー",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/cheer-happy.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa4/cheer-happy_thumb.webp",
+      "Group": "ナムコでゲット♪アイプリバースダブルキャンペーン",
+      "Kind": "ナムコでゲット♪アイプリバースダブルキャンペーン",
+      "Start": "2026-11-12",
+      "End": "2026-12-02",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 9901071,
       "ChapterId": "oa4",
       "Star": 4,
@@ -46513,6 +46539,48 @@
       "CategoryId": 5,
       "Point": 360,
       "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33696.webp"
+    },
+    {
+      "Id": 41521,
+      "CoordinateId": 1236,
+      "CategoryId": 2,
+      "Point": 760,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID41521.webp"
+    },
+    {
+      "Id": 41522,
+      "CoordinateId": 1236,
+      "CategoryId": 4,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID41522.webp"
+    },
+    {
+      "Id": 41523,
+      "CoordinateId": 1236,
+      "CategoryId": 5,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID41523.webp"
+    },
+    {
+      "Id": 41524,
+      "CoordinateId": 1237,
+      "CategoryId": 2,
+      "Point": 760,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID41524.webp"
+    },
+    {
+      "Id": 41525,
+      "CoordinateId": 1237,
+      "CategoryId": 4,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID41525.webp"
+    },
+    {
+      "Id": 41526,
+      "CoordinateId": 1237,
+      "CategoryId": 5,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID41526.webp"
     },
     {
       "Id": 911263,
@@ -78841,6 +78909,28 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1459,
+      "ChapterId": "special",
+      "SealId": "OP-127",
+      "Coordinate": "スマイルハートバズリウムブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Song": "夢色ビリーバー（あおい・ぐみ）",
+      "SongId": 80,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-127_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-127_U.webp"
+    },
+    {
+      "Id": 1460,
+      "ChapterId": "special",
+      "SealId": "OP-132",
+      "Coordinate": "すきすきハートバズリウムピンクブルー",
+      "Character": "いのり",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-132_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-132_U.webp"
     },
     {
       "Id": 1451,
