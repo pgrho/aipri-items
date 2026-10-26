@@ -20108,7 +20108,7 @@
     {
       "Id": 9901064,
       "ChapterId": "special",
-      "Name": "ゴーストゴシックシークレット",
+      "Name": "ゴーストゴシックホワイト",
       "Group": "アイプリカード コレクショングミvol.3",
       "HasChance": true,
       "LinkedItemIds": []
@@ -79610,9 +79610,9 @@
     },
     {
       "Id": 9201021,
-      "ChapterId": "special",
+      "ChapterId": "gumi",
       "SealId": "OG3-004",
-      "Coordinate": "ゴーストゴシックシークレット",
+      "Coordinate": "ゴーストゴシックホワイト",
       "IsChance": true
     }
   ]
