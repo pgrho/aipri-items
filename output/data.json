@@ -20441,6 +20441,13 @@
       "Name": "スマイルハートバズリウムブルー",
       "Group": "namco",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901089,
+      "ChapterId": "special",
+      "Name": "エレガントクリスタルレッド",
+      "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -54280,6 +54287,31 @@
       "CoordinateId": 9901087,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911331,
+      "CoordinateId": 9901089,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911332,
+      "CoordinateId": 9901089,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911333,
+      "CoordinateId": 9901089,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911334,
+      "CoordinateId": 9901089,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
     }
   ],
   "PartCategories": [
@@ -58501,6 +58533,34 @@
         28,
         29,
         31
+      ]
+    },
+    {
+      "Id": 90,
+      "Name": "ポップにいこ～ん！",
+      "SingerIds": [
+        26
+      ]
+    },
+    {
+      "Id": 91,
+      "Name": "ブルーパレード",
+      "SingerIds": [
+        27
+      ]
+    },
+    {
+      "Id": 92,
+      "Name": "かなえてキセキのエール！",
+      "SingerIds": [
+        28
+      ]
+    },
+    {
+      "Id": 93,
+      "Name": "アイプリだいすきNo.1！",
+      "SingerIds": [
+        26
       ]
     },
     {
@@ -73626,6 +73686,8 @@
       "Character": "いのり",
       "CharacterId": 26,
       "Variant": "パラレル",
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Star": 4
     },
     {
@@ -73685,6 +73747,8 @@
       "Coordinate": "スマイルハートバズリウムピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-001_U.webp"
     },
@@ -73695,6 +73759,8 @@
       "Coordinate": "ピュアハートバズリウムブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-002_U.webp"
     },
@@ -73705,6 +73771,8 @@
       "Coordinate": "スマイルハートバズリウムグリーン",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-003_U.webp"
     },
@@ -73715,6 +73783,8 @@
       "Coordinate": "ピュアハートバズリウムイエロー",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-004_U.webp"
     },
@@ -73725,6 +73795,8 @@
       "Coordinate": "スマイルハートバズリウムレッド",
       "Character": "ナナ",
       "CharacterId": 31,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-005_U.webp"
     },
@@ -73735,6 +73807,8 @@
       "Coordinate": "ピュアハートバズリウムパープル",
       "Character": "エマ",
       "CharacterId": 30,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-006_U.webp"
     },
@@ -73769,6 +73843,8 @@
       "Coordinate": "ピュアパレードバズリウム",
       "Character": "エマ",
       "CharacterId": 30,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-009_U.webp"
     },
@@ -74027,6 +74103,8 @@
       "Coordinate": "テディベアフリル",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-032_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-032_U.webp"
     },
@@ -74073,6 +74151,8 @@
       "Coordinate": "マーチングエール",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-036_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-036_U.webp"
     },
@@ -74137,6 +74217,8 @@
       "Coordinate": "エンジェルブルー ポップデニム",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-042_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-042_U.webp"
     },
@@ -74171,6 +74253,8 @@
       "Coordinate": "メゾ ピアノ スイートリボン",
       "Character": "ナナ",
       "CharacterId": 31,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-045_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-045_U.webp"
     },
@@ -74191,6 +74275,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-047_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-047_U.webp"
     },
@@ -74201,6 +74287,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-048_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-048_U.webp"
     },
@@ -74211,6 +74299,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "かなえてキセキのエール！",
+      "SongId": 92,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-049_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-049_U.webp"
     },
@@ -74221,6 +74311,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "かなえてキセキのエール！",
+      "SongId": 92,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-050_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-050_U.webp"
     },
@@ -74279,6 +74371,8 @@
       "Coordinate": "キルティングハートカーデメロン",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-055_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-055_U.webp"
     },
@@ -74311,6 +74405,8 @@
       "Coordinate": "ドレッシーシャツ",
       "Character": "エマ",
       "CharacterId": 30,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-058_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-058_U.webp"
     },
@@ -74321,6 +74417,8 @@
       "Coordinate": "デザートフェスピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "アイプリだいすきNo.1！",
+      "SongId": 93,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4M-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4M-001_U.webp"
     },
@@ -74331,6 +74429,8 @@
       "Coordinate": "デザートフェスブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "アイプリだいすきNo.1！",
+      "SongId": 93,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4M-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4M-002_U.webp"
     },
@@ -75544,6 +75644,8 @@
       "Coordinate": "ゴーストゴシックブラック",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG3-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG3-002_U.webp"
     },
@@ -75590,6 +75692,8 @@
       "Coordinate": "パステルパッチワークピンク",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG3-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG3-007_U.webp"
     },
@@ -75612,6 +75716,8 @@
       "Coordinate": "たいようさんさん",
       "Character": "ナナ",
       "CharacterId": 31,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/gumi/OG3-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/gumi/OG3-009_U.webp"
     },
@@ -77172,6 +77278,8 @@
       "Coordinate": "スマイルパレードバズリウム",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-078_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-078_U.webp"
     },
@@ -77182,6 +77290,8 @@
       "Coordinate": "ピュアパレードバズリウム",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-079_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-079_U.webp"
     },
@@ -77216,6 +77326,8 @@
       "Coordinate": "スマイルパレードバズリウム",
       "Character": "ナナ",
       "CharacterId": 31,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-082_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-082_U.webp"
     },
@@ -77320,6 +77432,8 @@
       "Coordinate": "ゆめゆめスターバズリウム",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-091_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-091_U.webp"
     },
@@ -77330,6 +77444,8 @@
       "Coordinate": "ゆうじょうスイーツバズリウム",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-092_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-092_U.webp"
     },
@@ -77396,6 +77512,8 @@
       "Coordinate": "マジカルミラクルライトブルー",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-098_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-098_U.webp"
     },
@@ -77406,6 +77524,8 @@
       "Coordinate": "トレジャーパイレーツイエロー",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-099_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-099_U.webp"
     },
@@ -77428,6 +77548,8 @@
       "Coordinate": "ミステリーファントムホワイト",
       "Character": "エマ",
       "CharacterId": 30,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-101_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-101_U.webp"
     },
@@ -77438,6 +77560,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "かなえてキセキのエール！",
+      "SongId": 92,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-102_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-102_U.webp"
     },
@@ -77472,6 +77596,8 @@
       "Coordinate": "おねがいちゅうがくせいふく",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-105_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-105_U.webp"
     },
@@ -77482,6 +77608,8 @@
       "Coordinate": "ハイセンスがくえんせいふく",
       "Character": "ナナ",
       "CharacterId": 31,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-106_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-106_U.webp"
     },
@@ -77492,6 +77620,8 @@
       "Coordinate": "ハイセンスがくえんせいふく",
       "Character": "エマ",
       "CharacterId": 30,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/spcardpack/OP-107_O.webp",
       "Image2Url": "https://aipri.jp/card/img/spcardpack/OP-107_U.webp"
     },
@@ -79590,6 +79720,8 @@
       "Coordinate": "メゾ ピアノ スイートリボン",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/special/OP-130_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-130_U.webp"
     },
@@ -79600,6 +79732,8 @@
       "Coordinate": "シーサイドフェスホワイト",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/special/OP-124_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-124_U.webp"
     },
@@ -79610,6 +79744,8 @@
       "Coordinate": "シーサイドフェスしんかいブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/special/OP-125_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-125_U.webp"
     },
@@ -79641,6 +79777,8 @@
       "Coordinate": "すきすきハートバズリウムピンクブルー",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/special/OP-132_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-132_U.webp"
     },
@@ -79651,6 +79789,8 @@
       "Coordinate": "ゆめゆめスターバズリウム",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/special/OP-071_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-071_U.webp"
     },
@@ -79661,6 +79801,8 @@
       "Coordinate": "すきすきハートバズリウム",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/special/OP-070_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-070_U.webp"
     },
@@ -79707,6 +79849,8 @@
       "Coordinate": "メモリアルクロックパープル",
       "Character": "エマ",
       "CharacterId": 30,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/special/OP-129_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-129_U.webp"
     },
@@ -79717,6 +79861,8 @@
       "Coordinate": "エプロンブーケライトピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/special/OP-133_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-133_U.webp"
     },
@@ -79739,6 +79885,8 @@
       "Coordinate": "ピュアハートバズリウムブルー",
       "Character": "あおい",
       "CharacterId": 27,
+      "Song": "ブルーパレード",
+      "SongId": 91,
       "Image1Url": "https://aipri.jp/card/img/special/OP-076_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-076_U.webp"
     },
@@ -79749,6 +79897,8 @@
       "Coordinate": "スマイルハートバズリウムピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Song": "ポップにいこ～ん！",
+      "SongId": 90,
       "Image1Url": "https://aipri.jp/card/img/special/OP-075_O.webp",
       "Image2Url": "https://aipri.jp/card/img/special/OP-075_U.webp"
     },

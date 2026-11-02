@@ -4,6 +4,8 @@ internal sealed class CustomComboBoxColumn : DataGridComboBoxColumn
 {
     public Binding? IsChangedBinding { get; set; }
 
+    public bool? IsEditable { get; set; }
+
     protected override FrameworkElement GenerateElement(DataGridCell cell, object dataItem)
     {
         var b = IsChangedBinding;
@@ -15,6 +17,11 @@ internal sealed class CustomComboBoxColumn : DataGridComboBoxColumn
             if (bs1 != null)
             {
                 ElementStyle = AddTrigger(b, ElementStyle, bs1);
+
+                if (IsEditable != null && !ElementStyle.Setters.OfType<Setter>().Any(e => e.Property == ComboBox.IsEditableProperty))
+                {
+                    ElementStyle.Setters.Add(new Setter(ComboBox.IsEditableProperty, IsEditable));
+                }
             }
         }
 
@@ -32,6 +39,11 @@ internal sealed class CustomComboBoxColumn : DataGridComboBoxColumn
             if (bs1 != null)
             {
                 EditingElementStyle = AddTrigger(b, EditingElementStyle, bs1);
+
+                if (IsEditable != null && !EditingElementStyle.Setters.OfType<Setter>().Any(e => e.Property == ComboBox.IsEditableProperty))
+                {
+                    EditingElementStyle.Setters.Add(new Setter(ComboBox.IsEditableProperty, IsEditable));
+                }
             }
         }
 

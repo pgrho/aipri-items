@@ -95,7 +95,7 @@
 	9201019	oa3		OA3-023P	ハッピーバースデー！グリーン			ハピハピハッピー☆マイバースデー（おねがいver.）	4					
 	9201020	gumi		OG2-004	フラワーブーケピンク	いのり								
 	9201021	gumi		OG3-004	ゴーストゴシックホワイト						TRUE			
-	9201022	oa4	0.1	OA4-001P	スマイルハートバズリウムピンク	いのり	パラレル		4					
+	9201022	oa4	0.1	OA4-001P	スマイルハートバズリウムピンク	いのり	パラレル	ポップにいこ～ん！	4					
 	9201023	oa4	0.2	OA4-002P	ピュアハートバズリウムブルー	あおい	パラレル		4					
 	9201024	oa4	0.3	OA4-010P	エレガントクリスタルパープル	エマ	パラレル		4					
 	9201025	oa4	0.4	OA4-012P	パンプキンハロウィンブラック	ぐみ	パラレル		4					
@@ -1434,8 +1434,8 @@ SealId	1346	special		OP-075	スマイルハートバズリウムピンク	いの
 SealId	1347	special		OTOY-029	ミラクルダイヤモンド	あおい							https://aipri.jp/card/img/special/OTOY-029_O.webp	https://aipri.jp/card/img/special/OTOY-029_U.webp
 SealId	1348	special		OTOY-028	ミラクルダイヤモンド	いのり							https://aipri.jp/card/img/special/OTOY-028_O.webp	https://aipri.jp/card/img/special/OTOY-028_U.webp
 SealId	1349	special		OP-017	ポップンマシュマロピンク	あおい		夢色ビリーバー					https://aipri.jp/card/img/special/OP-017_O.webp	https://aipri.jp/card/img/special/OP-017_U.webp
-SealId	1350	oa4		OA4-001	スマイルハートバズリウムピンク	いのり							https://aipri.jp/card/img/oa4/OA4-001_O.webp	https://aipri.jp/card/img/oa4/OA4-001_U.webp
-SealId	1351	oa4		OA4-002	ピュアハートバズリウムブルー	あおい							https://aipri.jp/card/img/oa4/OA4-002_O.webp	https://aipri.jp/card/img/oa4/OA4-002_U.webp
+SealId	1350	oa4		OA4-001	スマイルハートバズリウムピンク	いのり		ポップにいこ～ん！					https://aipri.jp/card/img/oa4/OA4-001_O.webp	https://aipri.jp/card/img/oa4/OA4-001_U.webp
+SealId	1351	oa4		OA4-002	ピュアハートバズリウムブルー	あおい		ブルーパレード					https://aipri.jp/card/img/oa4/OA4-002_O.webp	https://aipri.jp/card/img/oa4/OA4-002_U.webp
 SealId	1352	oa4		OA4-003	スマイルハートバズリウムグリーン	ぐみ							https://aipri.jp/card/img/oa4/OA4-003_O.webp	https://aipri.jp/card/img/oa4/OA4-003_U.webp
 SealId	1353	oa4		OA4-004	ピュアハートバズリウムイエロー	おりびあ							https://aipri.jp/card/img/oa4/OA4-004_O.webp	https://aipri.jp/card/img/oa4/OA4-004_U.webp
 SealId	1354	oa4		OA4-005	スマイルハートバズリウムレッド	ナナ							https://aipri.jp/card/img/oa4/OA4-005_O.webp	https://aipri.jp/card/img/oa4/OA4-005_U.webp
@@ -1482,7 +1482,7 @@ SealId	1394	oa4		OA4-045	メゾ ピアノ スイートリボン	ナナ							htt
 SealId	1395	oa4		OA4-046	メゾ ピアノ スイートリボン	エマ							https://aipri.jp/card/img/oa4/OA4-046_O.webp	https://aipri.jp/card/img/oa4/OA4-046_U.webp
 SealId	1396	oa4		OA4-047	おねがいちゅうがくせいふく	いのり							https://aipri.jp/card/img/oa4/OA4-047_O.webp	https://aipri.jp/card/img/oa4/OA4-047_U.webp
 SealId	1397	oa4		OA4-048	おねがいちゅうがくせいふく	あおい							https://aipri.jp/card/img/oa4/OA4-048_O.webp	https://aipri.jp/card/img/oa4/OA4-048_U.webp
-SealId	1398	oa4		OA4-049	おねがいちゅうがくせいふく	ぐみ							https://aipri.jp/card/img/oa4/OA4-049_O.webp	https://aipri.jp/card/img/oa4/OA4-049_U.webp
+SealId	1398	oa4		OA4-049	おねがいちゅうがくせいふく	ぐみ		かなえてキセキのエール！					https://aipri.jp/card/img/oa4/OA4-049_O.webp	https://aipri.jp/card/img/oa4/OA4-049_U.webp
 SealId	1399	oa4		OA4-050	おねがいちゅうがくせいふく	おりびあ							https://aipri.jp/card/img/oa4/OA4-050_O.webp	https://aipri.jp/card/img/oa4/OA4-050_U.webp
 SealId	1400	oa4		OA4-051	ハイセンスがくえんせいふく	ナナ		あっぱれアイプリおんど					https://aipri.jp/card/img/oa4/OA4-051_O.webp	https://aipri.jp/card/img/oa4/OA4-051_U.webp
 SealId	1401	oa4		OA4-052	ハイセンスがくえんせいふく	エマ		アイプリMyDream					https://aipri.jp/card/img/oa4/OA4-052_O.webp	https://aipri.jp/card/img/oa4/OA4-052_U.webp
@@ -1543,6 +1543,18 @@ SealId	1455	special		OP-122	ギフトリボン	いのり		放課後のおねが�
 SealId	1456	special		OP-129	メモリアルクロックパープル	エマ							https://aipri.jp/card/img/special/OP-129_O.webp	https://aipri.jp/card/img/special/OP-129_U.webp
 SealId	1457	special		OP-133	エプロンブーケライトピンク	いのり							https://aipri.jp/card/img/special/OP-133_O.webp	https://aipri.jp/card/img/special/OP-133_U.webp
 SealId	1458	special		OP-077	エレガントクリスタルミント	ナナ		TOP POWER（ナナ・エマ）					https://aipri.jp/card/img/special/OP-077_O.webp	https://aipri.jp/card/img/special/OP-077_U.webp
+SealId	1459	special		OP-127	スマイルハートバズリウムブルー	あおい		夢色ビリーバー（あおい・ぐみ）					https://aipri.jp/card/img/special/OP-127_O.webp	https://aipri.jp/card/img/special/OP-127_U.webp
+SealId	1460	special		OP-132	すきすきハートバズリウムピンクブルー	いのり							https://aipri.jp/card/img/special/OP-132_O.webp	https://aipri.jp/card/img/special/OP-132_U.webp
+SealId	1461	special		OP-124	シーサイドフェスホワイト	ぐみ							https://aipri.jp/card/img/special/OP-124_O.webp	https://aipri.jp/card/img/special/OP-124_U.webp
+SealId	1462	special		OP-125	シーサイドフェスしんかいブルー	あおい							https://aipri.jp/card/img/special/OP-125_O.webp	https://aipri.jp/card/img/special/OP-125_U.webp
+SealId	1463	special		OP-126	すきすきハートバズリウム	いのり							https://aipri.jp/card/img/special/OP-126_O.webp	
+SealId	1464	oa4		OA4M-001	デザートフェスピンク	いのり		アイプリだいすきNo.1！					https://aipri.jp/card/img/oa4/OA4M-001_O.webp	https://aipri.jp/card/img/oa4/OA4M-001_U.webp
+SealId	1465	oa4		OA4M-002	デザートフェスブルー	あおい							https://aipri.jp/card/img/oa4/OA4M-002_O.webp	https://aipri.jp/card/img/oa4/OA4M-002_U.webp
+SealId	1466	oa4		OA4M-003	デザートフェスグリーン	ぐみ		夢色ビリーバー（あおい・ぐみ）					https://aipri.jp/card/img/oa4/OA4M-003_O.webp	https://aipri.jp/card/img/oa4/OA4M-003_U.webp
+SealId	1467	oa4		OA4M-004	デザートフェスイエロー	おりびあ							https://aipri.jp/card/img/oa4/OA4M-004_O.webp	https://aipri.jp/card/img/oa4/OA4M-004_U.webp
+SealId	1468	oa4		OA4M-005	デザートフェスレッド	ナナ		勇気のはばたきサイン（おりびあ・ナナ）					https://aipri.jp/card/img/oa4/OA4M-005_O.webp	https://aipri.jp/card/img/oa4/OA4M-005_U.webp
+SealId	1469	oa4		OA4M-006	デザートフェスパープル	エマ		TOP POWER（ナナ・エマ）					https://aipri.jp/card/img/oa4/OA4M-006_O.webp	https://aipri.jp/card/img/oa4/OA4M-006_U.webp
+SealId	1470	special		OP-130	メゾ ピアノ スイートリボン	いのり							https://aipri.jp/card/img/special/OP-130_O.webp	https://aipri.jp/card/img/special/OP-130_U.webp
 SealId	9200026	millefeui		TOY-042	おとぎばなしかぐやひめ	つむぎ		We're The World	4	860		クリスタルバース		
 SealId	9200027	millefeui		TOY-043	おとぎばなしシンデレラピンク	ひまり		We're The World	4	860		クリスタルバース		
 SealId	9200028	millefeui		TOY-044	おとぎばなしあかずきんブルー	みつき		We're The World	4	860		クリスタルバース	Cards/M3-003.jpg	

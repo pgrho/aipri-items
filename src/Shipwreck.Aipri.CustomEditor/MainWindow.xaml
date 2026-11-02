@@ -230,7 +230,8 @@
                                 Header="曲"
                                 ItemsSource="{Binding Source={StaticResource dataContextPresenter}, Path=Content.Songs}"
                                 TextBinding="{Binding NewSong}"
-                                IsChangedBinding="{Binding IsSongChanged}" />
+                                IsChangedBinding="{Binding IsSongChanged}"
+                                IsEditable="True" />
                             <v:CustomTextColumn
                                 Header="BP"
                                 Binding="{Binding NewPoint}"
