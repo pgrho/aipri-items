@@ -57888,6 +57888,7 @@
     {
       "Id": 1,
       "Name": "P.O.P.P.Y",
+      "AipriCount": 1,
       "SingerIds": [
         1,
         24
@@ -57896,6 +57897,7 @@
     {
       "Id": 2,
       "Name": "シークレット・ドリーム",
+      "AipriCount": 1,
       "SingerIds": [
         2
       ]
@@ -57903,6 +57905,7 @@
     {
       "Id": 4,
       "Name": "ぜんりょくじょしりょくかくめい！",
+      "AipriCount": 1,
       "SingerIds": [
         1,
         2,
@@ -57917,6 +57920,7 @@
     {
       "Id": 9,
       "Name": "Stand Get Up",
+      "AipriCount": 2,
       "SingerIds": [
         3,
         5,
@@ -57927,6 +57931,7 @@
     {
       "Id": 10,
       "Name": "ムテキDUOエナジー",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2,
@@ -57938,6 +57943,7 @@
     {
       "Id": 11,
       "Name": "ヒカリノコトバ",
+      "AipriCount": 1,
       "SingerIds": [
         4,
         9
@@ -57946,6 +57952,7 @@
     {
       "Id": 16,
       "Name": "We're The World",
+      "AipriCount": 3,
       "SingerIds": [
         1,
         2,
@@ -57959,6 +57966,7 @@
     {
       "Id": 17,
       "Name": "ネバギバラバー",
+      "AipriCount": 2,
       "SingerIds": [
         3,
         5,
@@ -57969,6 +57977,7 @@
     {
       "Id": 20,
       "Name": "ハピハピハッピー☆マイバースデー（ひまり）",
+      "AipriCount": 1,
       "SingerIds": [
         1
       ]
@@ -57976,6 +57985,7 @@
     {
       "Id": 21,
       "Name": "ハピハピハッピー☆マイバースデー（みつき）",
+      "AipriCount": 1,
       "SingerIds": [
         2
       ]
@@ -57983,6 +57993,7 @@
     {
       "Id": 22,
       "Name": "ハピハピハッピー☆マイバースデー（リンリン）",
+      "AipriCount": 1,
       "SingerIds": [
         7
       ]
@@ -57990,6 +58001,7 @@
     {
       "Id": 25,
       "Name": "Perfect☆STARs",
+      "AipriCount": 4,
       "SingerIds": [
         3,
         5,
@@ -58000,6 +58012,7 @@
     {
       "Id": 26,
       "Name": "GIRA GIRA STAR",
+      "AipriCount": 1,
       "SingerIds": [
         8
       ]
@@ -58007,6 +58020,7 @@
     {
       "Id": 27,
       "Name": "ハピハピハッピー☆マイバースデー（アイリ）",
+      "AipriCount": 1,
       "SingerIds": [
         6
       ]
@@ -58014,6 +58028,7 @@
     {
       "Id": 28,
       "Name": "ハピハピハッピー☆マイバースデー（チィ）",
+      "AipriCount": 1,
       "SingerIds": [
         8
       ]
@@ -58021,6 +58036,7 @@
     {
       "Id": 31,
       "Name": "オシャレまじょラブandベリー",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2,
@@ -58030,6 +58046,7 @@
     {
       "Id": 32,
       "Name": "きらめきのうた",
+      "AipriCount": 1,
       "SingerIds": [
         9
       ]
@@ -58037,6 +58054,7 @@
     {
       "Id": 33,
       "Name": "いっちょくせんだいさくせん！",
+      "AipriCount": 1,
       "SingerIds": [
         1,
         2,
@@ -58049,6 +58067,7 @@
     {
       "Id": 34,
       "Name": "クリスマス・カルテット",
+      "AipriCount": 4,
       "SingerIds": [
         3,
         5,
@@ -58059,6 +58078,7 @@
     {
       "Id": 35,
       "Name": "パステルステップデイズ",
+      "AipriCount": 1,
       "SingerIds": [
         1
       ]
@@ -58066,6 +58086,7 @@
     {
       "Id": 36,
       "Name": "ハピハピハッピー☆マイバースデー（つむぎ）",
+      "AipriCount": 1,
       "SingerIds": [
         4
       ]
@@ -58073,6 +58094,7 @@
     {
       "Id": 37,
       "Name": "ハピハピハッピー☆マイバースデー（タマキ）",
+      "AipriCount": 1,
       "SingerIds": [
         5
       ]
@@ -58080,6 +58102,7 @@
     {
       "Id": 39,
       "Name": "ニュースタージョーカー",
+      "AipriCount": 4,
       "SingerIds": [
         10,
         11,
@@ -58090,6 +58113,7 @@
     {
       "Id": 40,
       "Name": "ハピハピハッピー☆マイバースデー（サクラ）",
+      "AipriCount": 1,
       "SingerIds": [
         3
       ]
@@ -58097,6 +58121,7 @@
     {
       "Id": 41,
       "Name": "GIRA GIRA STAR（ダークチィ）",
+      "AipriCount": 1,
       "SingerIds": [
         14
       ]
@@ -58104,6 +58129,7 @@
     {
       "Id": 43,
       "Name": "きらめきのうた（ひまり・みつき・つむぎ）",
+      "AipriCount": 3,
       "SingerIds": [
         1,
         2,
@@ -58114,6 +58140,7 @@
     {
       "Id": 44,
       "Name": "キズナ×リンク",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2,
@@ -58124,6 +58151,7 @@
     {
       "Id": 45,
       "Name": "ときめきグラビティ",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2,
@@ -58134,6 +58162,7 @@
     {
       "Id": 46,
       "Name": "Ring Ring Ring feat. ひまり",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2,
@@ -58149,6 +58178,7 @@
     {
       "Id": 47,
       "Name": "超Easy Drive☆",
+      "AipriCount": 1,
       "SingerIds": [
         15
       ]
@@ -58156,6 +58186,7 @@
     {
       "Id": 48,
       "Name": "ひみつのふ・ふ・ふ・",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2,
@@ -58172,6 +58203,7 @@
     {
       "Id": 49,
       "Name": "わたしの大切にしてたこと",
+      "AipriCount": 1,
       "SingerIds": [
         16
       ]
@@ -58179,6 +58211,7 @@
     {
       "Id": 50,
       "Name": "ぴかぴかマイストーリー",
+      "AipriCount": 1,
       "SingerIds": [
         2
       ]
@@ -58186,6 +58219,7 @@
     {
       "Id": 51,
       "Name": "Piece Of Dream",
+      "AipriCount": 1,
       "SingerIds": [
         18
       ]
@@ -58193,6 +58227,7 @@
     {
       "Id": 52,
       "Name": "ココロ・アストロノーツ",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2,
@@ -58205,6 +58240,7 @@
     {
       "Id": 54,
       "Name": "わいるど☆すたー（ビビ・チィ）",
+      "AipriCount": 2,
       "SingerIds": [
         8,
         18,
@@ -58215,6 +58251,7 @@
     {
       "Id": 55,
       "Name": "わいるど☆すたー（ビビ）",
+      "AipriCount": 1,
       "SingerIds": [
         21
       ]
@@ -58222,6 +58259,7 @@
     {
       "Id": 57,
       "Name": "アイプリバースメドレー１",
+      "AipriCount": 1,
       "SingerIds": [
         8,
         21
@@ -58230,6 +58268,7 @@
     {
       "Id": 58,
       "Name": "アイプリバースメドレー２",
+      "AipriCount": 1,
       "SingerIds": [
         19
       ]
@@ -58237,6 +58276,7 @@
     {
       "Id": 59,
       "Name": "ミラクル☆ツインスマイル",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2,
@@ -58247,6 +58287,7 @@
     {
       "Id": 60,
       "Name": "ミライのプリンセス（つむぎ・リング）",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2,
@@ -58258,6 +58299,7 @@
     {
       "Id": 61,
       "Name": "ミライのプリンセス（リング）",
+      "AipriCount": 1,
       "SingerIds": [
         22
       ]
@@ -58265,6 +58307,7 @@
     {
       "Id": 63,
       "Name": "シンデレラのラララ",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2,
@@ -58282,6 +58325,7 @@
     {
       "Id": 64,
       "Name": "どきどき きらめき バズリウム",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         5,
@@ -58297,6 +58341,7 @@
     {
       "Id": 65,
       "Name": "START DASH SENSATION～あかりソロVer.～",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2
@@ -58305,6 +58350,7 @@
     {
       "Id": 66,
       "Name": "ニュースタージョーカー（リング編）",
+      "AipriCount": 4,
       "SingerIds": [
         3,
         5,
@@ -58315,6 +58361,7 @@
     {
       "Id": 67,
       "Name": "レジェンド・ストーリー!!!!",
+      "AipriCount": 4,
       "SingerIds": [
         3,
         5,
@@ -58325,6 +58372,7 @@
     {
       "Id": 68,
       "Name": "クリスマス・シークレット",
+      "AipriCount": 3,
       "SingerIds": [
         1,
         2,
@@ -58334,6 +58382,7 @@
     {
       "Id": 69,
       "Name": "サインはB",
+      "AipriCount": 1,
       "SingerIds": [
         1,
         2
@@ -58342,6 +58391,7 @@
     {
       "Id": 70,
       "Name": "アイプリバースメドレー3",
+      "AipriCount": 1,
       "SingerIds": [
         19,
         21
@@ -58350,6 +58400,7 @@
     {
       "Id": 71,
       "Name": "キズナ×リンク（4人ver.）",
+      "AipriCount": 4,
       "SingerIds": [
         2,
         9,
@@ -58361,6 +58412,7 @@
     {
       "Id": 72,
       "Name": "トキメキ♡ジャンプ！",
+      "AipriCount": 1,
       "SingerIds": [
         26
       ]
@@ -58368,6 +58420,7 @@
     {
       "Id": 73,
       "Name": "おねがいアイプリ！",
+      "AipriCount": 2,
       "SingerIds": [
         26,
         27,
@@ -58380,6 +58433,7 @@
     {
       "Id": 74,
       "Name": "夢色ビリーバー",
+      "AipriCount": 1,
       "SingerIds": [
         26,
         27
@@ -58388,6 +58442,7 @@
     {
       "Id": 75,
       "Name": "トキメキ♡ジャンプ！（いのり・あおい）",
+      "AipriCount": 2,
       "SingerIds": [
         26,
         27
@@ -58396,6 +58451,7 @@
     {
       "Id": 76,
       "Name": "フレフレベストフレンズ",
+      "AipriCount": 1,
       "SingerIds": [
         28
       ]
@@ -58403,6 +58459,7 @@
     {
       "Id": 77,
       "Name": "アイプリMyDream",
+      "AipriCount": 2,
       "SingerIds": [
         26,
         27,
@@ -58415,6 +58472,7 @@
     {
       "Id": 78,
       "Name": "放課後のおねがい！",
+      "AipriCount": 2,
       "SingerIds": [
         26,
         27,
@@ -58425,6 +58483,7 @@
     {
       "Id": 79,
       "Name": "勇気のはばたきサイン",
+      "AipriCount": 1,
       "SingerIds": [
         29
       ]
@@ -58432,6 +58491,7 @@
     {
       "Id": 80,
       "Name": "夢色ビリーバー（あおい・ぐみ）",
+      "AipriCount": 2,
       "SingerIds": [
         27,
         28
@@ -58440,6 +58500,7 @@
     {
       "Id": 81,
       "Name": "フレフレベストフレンズ（ぐみ・おりびあ）",
+      "AipriCount": 2,
       "SingerIds": [
         28,
         29
@@ -58448,6 +58509,7 @@
     {
       "Id": 82,
       "Name": "ハピハピハッピー☆マイバースデー（おねがいver.）",
+      "AipriCount": 2,
       "SingerIds": [
         26,
         27,
@@ -58458,6 +58520,7 @@
     {
       "Id": 83,
       "Name": "なかよしParty!",
+      "AipriCount": 2,
       "SingerIds": [
         26,
         27,
@@ -58470,6 +58533,7 @@
     {
       "Id": 84,
       "Name": "TOP POWER",
+      "AipriCount": 1,
       "SingerIds": [
         31
       ]
@@ -58477,6 +58541,7 @@
     {
       "Id": 85,
       "Name": "ネガイ・スペシャリスト",
+      "AipriCount": 1,
       "SingerIds": [
         30
       ]
@@ -58484,6 +58549,7 @@
     {
       "Id": 86,
       "Name": "勇気のはばたきサイン（おりびあ・ナナ）",
+      "AipriCount": 2,
       "SingerIds": [
         29,
         31
@@ -58492,6 +58558,7 @@
     {
       "Id": 87,
       "Name": "TOP POWER（ナナ・エマ）",
+      "AipriCount": 2,
       "SingerIds": [
         30,
         31
@@ -58500,6 +58567,7 @@
     {
       "Id": 89,
       "Name": "あっぱれアイプリおんど",
+      "AipriCount": 2,
       "SingerIds": [
         26,
         27,
@@ -58511,6 +58579,7 @@
     {
       "Id": 90,
       "Name": "ポップにいこ～ん！",
+      "AipriCount": 3,
       "SingerIds": [
         26,
         28,
@@ -58520,6 +58589,7 @@
     {
       "Id": 91,
       "Name": "ブルーパレード",
+      "AipriCount": 3,
       "SingerIds": [
         27,
         29,
@@ -58529,15 +58599,19 @@
     {
       "Id": 92,
       "Name": "かなえてキセキのエール！",
+      "AipriCount": 2,
       "SingerIds": [
         26,
+        27,
         28,
-        29
+        29,
+        31
       ]
     },
     {
       "Id": 93,
       "Name": "アイプリだいすきNo.1！",
+      "AipriCount": 2,
       "SingerIds": [
         26,
         27
@@ -58546,6 +58620,7 @@
     {
       "Id": 3,
       "Name": "レッツ！アイプリ（サクラ）",
+      "AipriCount": 1,
       "SingerIds": [
         3
       ]
@@ -58553,6 +58628,7 @@
     {
       "Id": 6,
       "Name": "レッツ！アイプリ（ひまり）",
+      "AipriCount": 1,
       "SingerIds": [
         1
       ]
@@ -58560,6 +58636,7 @@
     {
       "Id": 7,
       "Name": "レッツ！アイプリ（みつき）",
+      "AipriCount": 1,
       "SingerIds": [
         2
       ]
@@ -58567,6 +58644,7 @@
     {
       "Id": 12,
       "Name": "レッツ！アイプリ（つむぎ）",
+      "AipriCount": 1,
       "SingerIds": [
         4
       ]
@@ -58574,6 +58652,7 @@
     {
       "Id": 15,
       "Name": "レッツ！アイプリ（タマキ）",
+      "AipriCount": 1,
       "SingerIds": [
         5
       ]
@@ -58581,6 +58660,7 @@
     {
       "Id": 23,
       "Name": "レッツ！アイプリ（アイリ）",
+      "AipriCount": 1,
       "SingerIds": [
         6
       ]
@@ -58588,6 +58668,7 @@
     {
       "Id": 24,
       "Name": "レッツ！アイプリ（リンリン）",
+      "AipriCount": 1,
       "SingerIds": [
         7
       ]
@@ -58595,6 +58676,7 @@
     {
       "Id": 29,
       "Name": "レッツ！アイプリ（チィ）",
+      "AipriCount": 1,
       "SingerIds": [
         8
       ]
@@ -58602,6 +58684,7 @@
     {
       "Id": 42,
       "Name": "レッツ！アイプリ（ひまり・みつき）",
+      "AipriCount": 2,
       "SingerIds": [
         1,
         2
@@ -58610,6 +58693,7 @@
     {
       "Id": 56,
       "Name": "レッツ！アイプリ（すばる）",
+      "AipriCount": 1,
       "SingerIds": [
         18
       ]
@@ -58617,6 +58701,7 @@
     {
       "Id": 5,
       "Name": "みつきのひみつマイソング♪",
+      "AipriCount": 1,
       "SingerIds": [
         2
       ]
@@ -58624,6 +58709,7 @@
     {
       "Id": 8,
       "Name": "ひまりのひみつマイソング♪",
+      "AipriCount": 1,
       "SingerIds": [
         1,
         2
@@ -58632,6 +58718,7 @@
     {
       "Id": 13,
       "Name": "タマキのひみつマイソング♪",
+      "AipriCount": 1,
       "SingerIds": [
         5
       ]
@@ -58639,6 +58726,7 @@
     {
       "Id": 14,
       "Name": "サクラのひみつマイソング♪",
+      "AipriCount": 1,
       "SingerIds": [
         3
       ]
@@ -58646,6 +58734,7 @@
     {
       "Id": 18,
       "Name": "アイリのひみつマイソング♪",
+      "AipriCount": 1,
       "SingerIds": [
         6
       ]
@@ -58653,6 +58742,7 @@
     {
       "Id": 19,
       "Name": "リンリンのひみつマイソング♪",
+      "AipriCount": 1,
       "SingerIds": [
         7
       ]
@@ -58660,6 +58750,7 @@
     {
       "Id": 30,
       "Name": "チィのひみつマイソング♪",
+      "AipriCount": 1,
       "SingerIds": [
         8
       ]
@@ -58667,6 +58758,7 @@
     {
       "Id": 38,
       "Name": "つむぎのひみつマイソング♪",
+      "AipriCount": 1,
       "SingerIds": [
         4
       ]
@@ -72727,6 +72819,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 90,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-001_U.webp"
     },
@@ -72738,6 +72831,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 91,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-002_U.webp"
     },
@@ -72749,6 +72843,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 90,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-003_U.webp"
     },
@@ -72760,6 +72855,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 91,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-004_U.webp"
     },
@@ -72771,6 +72867,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 90,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-005_U.webp"
     },
@@ -72782,6 +72879,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 91,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-006_U.webp"
     },
@@ -72793,6 +72891,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-007_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-007_U.webp"
     },
@@ -72804,6 +72903,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 86,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-008_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-008_U.webp"
     },
@@ -72815,6 +72915,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 91,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-009_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-009_U.webp"
     },
@@ -72825,6 +72926,7 @@
       "Coordinate": "エレガントクリスタルパープル",
       "Character": "エマ",
       "CharacterId": 30,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-010_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-010_U.webp"
     },
@@ -72835,6 +72937,7 @@
       "Coordinate": "エレガントクリスタルピンク",
       "Character": "いのり",
       "CharacterId": 26,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-011_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-011_U.webp"
     },
@@ -72846,6 +72949,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 81,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-012_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-012_U.webp"
     },
@@ -72856,6 +72960,7 @@
       "Coordinate": "パンプキンハロウィンパープル",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-013_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-013_U.webp"
     },
@@ -72867,6 +72972,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 73,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-014_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-014_U.webp"
     },
@@ -72878,6 +72984,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 92,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-015_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-015_U.webp"
     },
@@ -72889,6 +72996,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 92,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-016_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-016_U.webp"
     },
@@ -72900,6 +73008,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 73,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-017_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-017_U.webp"
     },
@@ -72911,6 +73020,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 92,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-018_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-018_U.webp"
     },
@@ -72922,6 +73032,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 86,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-019_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-019_U.webp"
     },
@@ -72933,6 +73044,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 81,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-020_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-020_U.webp"
     },
@@ -72944,6 +73056,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 82,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-021_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-021_U.webp"
     },
@@ -72955,6 +73068,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 82,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-022_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-022_U.webp"
     },
@@ -73063,6 +73177,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 90,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-032_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-032_U.webp"
     },
@@ -73074,6 +73189,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 80,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-033_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-033_U.webp"
     },
@@ -73085,6 +73201,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-034_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-034_U.webp"
     },
@@ -73096,6 +73213,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-035_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-035_U.webp"
     },
@@ -73107,6 +73225,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 90,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-036_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-036_U.webp"
     },
@@ -73118,6 +73237,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 87,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-037_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-037_U.webp"
     },
@@ -73129,6 +73249,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-038_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-038_U.webp"
     },
@@ -73139,6 +73260,7 @@
       "Coordinate": "とうほくさん かれんくん コーデ",
       "Character": "いのり",
       "CharacterId": 26,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-039_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-039_U.webp"
     },
@@ -73149,6 +73271,7 @@
       "Coordinate": "とうほくさん みうちゃん コーデ",
       "Character": "あおい",
       "CharacterId": 27,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-040_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-040_U.webp"
     },
@@ -73160,6 +73283,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 92,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-041_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-041_U.webp"
     },
@@ -73171,6 +73295,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 91,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-042_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-042_U.webp"
     },
@@ -73182,6 +73307,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-043_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-043_U.webp"
     },
@@ -73193,6 +73319,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 86,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-044_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-044_U.webp"
     },
@@ -73204,6 +73331,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 90,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-045_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-045_U.webp"
     },
@@ -73214,6 +73342,7 @@
       "Coordinate": "メゾ ピアノ スイートリボン",
       "Character": "エマ",
       "CharacterId": 30,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-046_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-046_U.webp"
     },
@@ -73225,6 +73354,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 90,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-047_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-047_U.webp"
     },
@@ -73236,6 +73366,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 91,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-048_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-048_U.webp"
     },
@@ -73247,6 +73378,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 92,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-049_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-049_U.webp"
     },
@@ -73258,6 +73390,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 92,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-050_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-050_U.webp"
     },
@@ -73269,6 +73402,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 89,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-051_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-051_U.webp"
     },
@@ -73280,6 +73414,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 77,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-052_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-052_U.webp"
     },
@@ -73291,6 +73426,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-053_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-053_U.webp"
     },
@@ -73302,6 +73438,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 74,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-054_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-054_U.webp"
     },
@@ -73313,6 +73450,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 90,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-055_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-055_U.webp"
     },
@@ -73323,6 +73461,7 @@
       "Coordinate": "キルティングハートカーデ",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-056_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-056_U.webp"
     },
@@ -73334,6 +73473,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 77,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-057_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-057_U.webp"
     },
@@ -73345,6 +73485,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 91,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-058_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-058_U.webp"
     },
@@ -73356,6 +73497,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 93,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4M-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4M-001_U.webp"
     },
@@ -73367,6 +73509,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 93,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4M-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4M-002_U.webp"
     },
@@ -73378,6 +73521,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 80,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4M-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4M-003_U.webp"
     },
@@ -73388,6 +73532,7 @@
       "Coordinate": "デザートフェスイエロー",
       "Character": "おりびあ",
       "CharacterId": 29,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4M-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4M-004_U.webp"
     },
@@ -73399,6 +73544,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 86,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4M-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4M-005_U.webp"
     },
@@ -73410,6 +73556,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 87,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4M-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4M-006_U.webp"
     },

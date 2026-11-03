@@ -46,6 +46,7 @@ public sealed class Song : DataItem
         {
             Id = Id,
             Name = Name,
+            AipriCount = AipriCount,
             _SingerIds = _SingerIds?.ToList(),
         };
 }
