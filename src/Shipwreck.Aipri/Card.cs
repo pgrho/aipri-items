@@ -82,7 +82,7 @@ public sealed class Card : DataItem
     private string? _Song;
     private int _SongId;
 
-    [DefaultValue(null)]
+    [JsonIgnore]
     public string? Song
     {
         get

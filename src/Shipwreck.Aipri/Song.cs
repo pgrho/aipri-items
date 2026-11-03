@@ -5,6 +5,8 @@ public sealed class Song : DataItem
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
 
+    public int AipriCount { get; set; }
+
     #region SingerIds
 
     private List<int>? _SingerIds;

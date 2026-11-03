@@ -839,7 +839,7 @@ public sealed class MainWindowViewModel : WindowViewModel
     }
 
     #endregion RunDownloaderCommand
-
+     
     #endregion カード
 
     public bool ConfirmClose()

@@ -42,6 +42,15 @@
                         Grid.Row="1"
                         AutoGenerateColumns="False"
                         ItemsSource="{Binding FilteredCoordinates}">
+                        <DataGrid.RowStyle>
+                            <Style
+                                TargetType="DataGridRow"
+                                BasedOn="{StaticResource MahApps.Styles.DataGridRow}">
+                                <Setter
+                                    Property="IsSelected"
+                                    Value="{Binding IsSelected, Mode=TwoWay}" />
+                            </Style>
+                        </DataGrid.RowStyle>
                         <DataGrid.Columns>
                             <v:CustomComboBoxColumn
                                 Header="弾"
@@ -193,6 +202,15 @@
                         Grid.Row="1"
                         AutoGenerateColumns="False"
                         ItemsSource="{Binding FilteredCards}">
+                        <DataGrid.RowStyle>
+                            <Style
+                                TargetType="DataGridRow"
+                                BasedOn="{StaticResource MahApps.Styles.DataGridRow}">
+                                <Setter
+                                    Property="IsSelected"
+                                    Value="{Binding IsSelected, Mode=TwoWay}" />
+                            </Style>
+                        </DataGrid.RowStyle>
                         <DataGrid.Columns>
                             <v:CustomComboBoxColumn
                                 Header="弾"

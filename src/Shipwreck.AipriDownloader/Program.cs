@@ -167,6 +167,7 @@ internal class Program
         }
 
         var songHashes = new Dictionary<Song, (ulong dct, byte[] coefficients)>();
+        var songFixes = (await d.EnumerateSongCorrection()).GroupBy(e => e.Name).ToDictionary(g => g.Key, g => g.First().AipriCount);
         foreach (var sg in d.DataSet.Cards.GroupBy(e => e.GetSong()))
         {
             if (sg.Key is not Song song)
@@ -175,6 +176,8 @@ internal class Program
             }
 
             song.SingerIds = sg.Select(e => e.CharacterId).Where(e => e > 0).Distinct().Order().ToList();
+            songFixes.TryGetValue(song.Name, out var ac);
+            song.AipriCount = ac;
 
             var img = new FileInfo(Path.Combine(d.GetCustomDirectory(), "Songs", song.Name + ".jpg"));
             if (img.Exists)

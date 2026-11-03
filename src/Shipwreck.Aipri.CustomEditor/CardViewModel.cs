@@ -11,6 +11,18 @@ public sealed class CardViewModel : ObservableModel
 
     public MainWindowViewModel Window { get; }
 
+    #region IsSelected
+
+    private bool _IsSelected;
+
+    public bool IsSelected
+    {
+        get => _IsSelected;
+        set => SetProperty(ref _IsSelected, value);
+    }
+
+    #endregion IsSelected
+
     #region Key
 
     private CoordinateKey _CurrentKey;

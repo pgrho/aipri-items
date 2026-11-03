@@ -1077,4 +1077,39 @@ public sealed class DownloadContext : IDisposable
 
         return list;
     }
+
+    public async Task<List<Song>> EnumerateSongCorrection()
+    {
+        var list = new List<Song>();
+        var cor = new FileInfo(Path.Combine(GetCustomDirectory(), "_Songs.tsv"));
+        if (cor.Exists)
+        {
+            using var fs = cor.OpenRead();
+            using var sr = new StreamReader(fs);
+
+            var header = await sr.ReadLineAsync().ConfigureAwait(false);
+
+            if (header != null)
+            {
+                var ha = header.Split('\t');
+                var name = Array.IndexOf(ha, nameof(Song.Name));
+                var aipriCount = Array.IndexOf(ha, nameof(Song.AipriCount));
+
+                for (var l = await sr.ReadLineAsync().ConfigureAwait(false); l != null; l = await sr.ReadLineAsync().ConfigureAwait(false))
+                {
+                    var row = l.Split('\t');
+
+                    string? read(int id)
+                        => id >= 0 ? row.ElementAtOrDefault(id).TrimOrNull() : null;
+                    list.Add(new()
+                    {
+                        Name = read(name) ?? string.Empty,
+                        AipriCount = int.TryParse(read(aipriCount), out var c) ? c : 0,
+                    });
+                }
+            }
+        }
+
+        return list;
+    }
 }

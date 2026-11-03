@@ -17,11 +17,6 @@ internal sealed class CustomComboBoxColumn : DataGridComboBoxColumn
             if (bs1 != null)
             {
                 ElementStyle = AddTrigger(b, ElementStyle, bs1);
-
-                if (IsEditable != null && !ElementStyle.Setters.OfType<Setter>().Any(e => e.Property == ComboBox.IsEditableProperty))
-                {
-                    ElementStyle.Setters.Add(new Setter(ComboBox.IsEditableProperty, IsEditable));
-                }
             }
         }
 
