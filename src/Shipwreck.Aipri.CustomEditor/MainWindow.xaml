@@ -41,16 +41,9 @@
                     <DataGrid
                         Grid.Row="1"
                         AutoGenerateColumns="False"
-                        ItemsSource="{Binding FilteredCoordinates}">
-                        <DataGrid.RowStyle>
-                            <Style
-                                TargetType="DataGridRow"
-                                BasedOn="{StaticResource MahApps.Styles.DataGridRow}">
-                                <Setter
-                                    Property="IsSelected"
-                                    Value="{Binding IsSelected, Mode=TwoWay}" />
-                            </Style>
-                        </DataGrid.RowStyle>
+                        SelectionUnit="Cell"
+                        ItemsSource="{Binding FilteredCoordinates}"
+                        KeyDown="DataGrid_KeyDown">
                         <DataGrid.Columns>
                             <v:CustomComboBoxColumn
                                 Header="弾"
@@ -200,17 +193,10 @@
                         Text="{Binding CardFilter, UpdateSourceTrigger=PropertyChanged}" />
                     <DataGrid
                         Grid.Row="1"
+                        SelectionUnit="Cell"
                         AutoGenerateColumns="False"
-                        ItemsSource="{Binding FilteredCards}">
-                        <DataGrid.RowStyle>
-                            <Style
-                                TargetType="DataGridRow"
-                                BasedOn="{StaticResource MahApps.Styles.DataGridRow}">
-                                <Setter
-                                    Property="IsSelected"
-                                    Value="{Binding IsSelected, Mode=TwoWay}" />
-                            </Style>
-                        </DataGrid.RowStyle>
+                        ItemsSource="{Binding FilteredCards}"
+                        KeyDown="DataGrid_KeyDown">
                         <DataGrid.Columns>
                             <v:CustomComboBoxColumn
                                 Header="弾"

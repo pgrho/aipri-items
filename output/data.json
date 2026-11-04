@@ -20445,7 +20445,7 @@
     {
       "Id": 9901089,
       "ChapterId": "special",
-      "Name": "エレガントクリスタルレッド",
+      "Name": "エターナルアイプリさくらピンク",
       "Group": "CD・Blu-ray",
       "LinkedItemIds": []
     }
@@ -54291,15 +54291,8 @@
     {
       "Id": 911331,
       "CoordinateId": 9901089,
-      "CategoryId": 1,
+      "CategoryId": 2,
       "ImageUrl": "_generic-1.png"
-    },
-    {
-      "Id": 911332,
-      "CoordinateId": 9901089,
-      "CategoryId": 3,
-      "ImageUrl": "_generic-2.png",
-      "IsSet": true
     },
     {
       "Id": 911333,
@@ -70799,6 +70792,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-022_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-022_U.webp"
     },
@@ -70810,6 +70804,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-023_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-023_U.webp"
     },
@@ -70821,6 +70816,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-024_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-024_U.webp"
     },
@@ -70832,6 +70828,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 74,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-025_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-025_U.webp"
     },
@@ -70843,6 +70840,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 73,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-026_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-026_U.webp"
     },
@@ -70854,6 +70852,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 72,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-027_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-027_U.webp"
     },
@@ -70865,6 +70864,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 73,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-028_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-028_U.webp"
     },
@@ -70876,6 +70876,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-029_U.webp"
     },
@@ -70887,6 +70888,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 74,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-030_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-030_U.webp"
     },
@@ -70898,6 +70900,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 73,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-031_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-031_U.webp"
     },
@@ -70909,6 +70912,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 76,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-032_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-032_U.webp"
     },
@@ -70920,6 +70924,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 73,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-033_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-033_U.webp"
     },
@@ -70931,6 +70936,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 72,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-034_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-034_U.webp"
     },
@@ -70942,6 +70948,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 75,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-035_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-035_U.webp"
     },
@@ -70953,6 +70960,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 76,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-036_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-036_U.webp"
     },
@@ -70964,6 +70972,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-037_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-037_U.webp"
     },
@@ -70975,6 +70984,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 74,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-038_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-038_U.webp"
     },
@@ -70986,6 +70996,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-039_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-039_U.webp"
     },
@@ -70997,6 +71008,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 78,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-040_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-040_U.webp"
     },
@@ -71008,6 +71020,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 76,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-041_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-041_U.webp"
     },
@@ -71019,6 +71032,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 72,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-042_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-042_U.webp"
     },
@@ -71030,6 +71044,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 75,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-043_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-043_U.webp"
     },
@@ -71041,6 +71056,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 73,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-044_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-044_U.webp"
     },
@@ -71052,6 +71068,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 78,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-045_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-045_U.webp"
     },
@@ -71063,6 +71080,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 73,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-046_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-046_U.webp"
     },
@@ -71074,6 +71092,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 73,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-047_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-047_U.webp"
     },
@@ -71085,6 +71104,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 73,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-048_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-048_U.webp"
     },
@@ -71096,6 +71116,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 72,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-049_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-049_U.webp"
     },
@@ -71107,6 +71128,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 78,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-050_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-050_U.webp"
     },
@@ -71118,6 +71140,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 77,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-051_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-051_U.webp"
     },
@@ -71129,6 +71152,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-052_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-052_U.webp"
     },
@@ -71140,6 +71164,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 74,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-053_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-053_U.webp"
     },
@@ -71151,6 +71176,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 76,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa1/OA1-054_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa1/OA1-054_U.webp"
     },
@@ -71528,6 +71554,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-023_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-023_U.webp"
     },
@@ -71539,6 +71566,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-024_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-024_U.webp"
     },
@@ -71550,6 +71578,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-025_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-025_U.webp"
     },
@@ -71561,6 +71590,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-026_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-026_U.webp"
     },
@@ -71572,6 +71602,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-027_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-027_U.webp"
     },
@@ -71583,6 +71614,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 80,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-028_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-028_U.webp"
     },
@@ -71594,6 +71626,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 74,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-029_U.webp"
     },
@@ -71605,6 +71638,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 81,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-030_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-030_U.webp"
     },
@@ -71616,6 +71650,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 81,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-031_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-031_U.webp"
     },
@@ -71627,6 +71662,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-032_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-032_U.webp"
     },
@@ -71638,6 +71674,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-033_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-033_U.webp"
     },
@@ -71649,6 +71686,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 73,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-034_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-034_U.webp"
     },
@@ -71660,6 +71698,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 74,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-035_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-035_U.webp"
     },
@@ -71671,6 +71710,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-036_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-036_U.webp"
     },
@@ -71682,6 +71722,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 80,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-037_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-037_U.webp"
     },
@@ -71693,6 +71734,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 73,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-038_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-038_U.webp"
     },
@@ -71704,6 +71746,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-039_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-039_U.webp"
     },
@@ -71715,6 +71758,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 81,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-040_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-040_U.webp"
     },
@@ -71726,6 +71770,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 79,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-041_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-041_U.webp"
     },
@@ -71737,6 +71782,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-042_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-042_U.webp"
     },
@@ -71748,6 +71794,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-043_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-043_U.webp"
     },
@@ -71759,6 +71806,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-044_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-044_U.webp"
     },
@@ -71770,6 +71818,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2-045_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2-045_U.webp"
     },
@@ -72248,6 +72297,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 89,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-024_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-024_U.webp"
     },
@@ -72259,6 +72309,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 89,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-025_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-025_U.webp"
     },
@@ -72270,6 +72321,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 89,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-026_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-026_U.webp"
     },
@@ -72281,6 +72333,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 89,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-027_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-027_U.webp"
     },
@@ -72292,6 +72345,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 73,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-028_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-028_U.webp"
     },
@@ -72302,6 +72356,7 @@
       "Coordinate": "アイプリきぼう",
       "Character": "エマ",
       "CharacterId": 30,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-029_U.webp"
     },
@@ -72313,6 +72368,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-030_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-030_U.webp"
     },
@@ -72324,6 +72380,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-031_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-031_U.webp"
     },
@@ -72335,6 +72392,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 81,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-032_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-032_U.webp"
     },
@@ -72346,6 +72404,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 79,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-033_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-033_U.webp"
     },
@@ -72357,6 +72416,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 76,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-034_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-034_U.webp"
     },
@@ -72368,6 +72428,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 80,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-035_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-035_U.webp"
     },
@@ -72379,6 +72440,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 83,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-036_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-036_U.webp"
     },
@@ -72390,6 +72452,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-037_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-037_U.webp"
     },
@@ -72401,6 +72464,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 85,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-038_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-038_U.webp"
     },
@@ -72412,6 +72476,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 86,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-039_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-039_U.webp"
     },
@@ -72423,6 +72488,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 74,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-040_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-040_U.webp"
     },
@@ -72433,6 +72499,7 @@
       "Coordinate": "ビーチマリンサンセット",
       "Character": "いのり",
       "CharacterId": 26,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-041_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-041_U.webp"
     },
@@ -72444,6 +72511,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-042_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-042_U.webp"
     },
@@ -72455,6 +72523,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 80,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-043_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-043_U.webp"
     },
@@ -72466,6 +72535,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 81,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-044_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-044_U.webp"
     },
@@ -72477,6 +72547,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 86,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-045_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-045_U.webp"
     },
@@ -72488,6 +72559,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 87,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-046_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-046_U.webp"
     },
@@ -72499,6 +72571,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 77,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-047_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-047_U.webp"
     },
@@ -72510,6 +72583,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 72,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-048_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-048_U.webp"
     },
@@ -72521,6 +72595,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 74,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-049_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-049_U.webp"
     },
@@ -72532,6 +72607,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 76,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-050_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-050_U.webp"
     },
@@ -72543,6 +72619,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 79,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-051_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-051_U.webp"
     },
@@ -72553,6 +72630,7 @@
       "Coordinate": "ハイセンスがくえんなつふく",
       "Character": "ナナ",
       "CharacterId": 31,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-052_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-052_U.webp"
     },
@@ -72564,6 +72642,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 73,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-053_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-053_U.webp"
     },
@@ -72575,6 +72654,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 73,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-054_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-054_U.webp"
     },
@@ -72586,6 +72666,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 80,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-055_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-055_U.webp"
     },
@@ -72597,6 +72678,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 81,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-056_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-056_U.webp"
     },
@@ -72608,6 +72690,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 86,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-057_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-057_U.webp"
     },
@@ -72619,6 +72702,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 84,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-058_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-058_U.webp"
     },
@@ -72630,6 +72714,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 83,
+      "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3-059_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3-059_U.webp"
     },
@@ -72641,6 +72726,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 78,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3M-001_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3M-001_U.webp"
     },
@@ -72652,6 +72738,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 80,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3M-002_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3M-002_U.webp"
     },
@@ -72663,6 +72750,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 81,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3M-003_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3M-003_U.webp"
     },
@@ -72674,6 +72762,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 86,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3M-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3M-004_U.webp"
     },
@@ -72685,6 +72774,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 87,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3M-005_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3M-005_U.webp"
     },
@@ -72696,6 +72786,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 85,
+      "Star": 4,
       "Image1Url": "https://aipri.jp/card/img/oa3/OA3M-006_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3M-006_U.webp"
     },
@@ -73080,6 +73171,7 @@
       "Character": "いのり",
       "CharacterId": 26,
       "SongId": 72,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-023_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-023_U.webp"
     },
@@ -73091,6 +73183,7 @@
       "Character": "あおい",
       "CharacterId": 27,
       "SongId": 80,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-024_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-024_U.webp"
     },
@@ -73102,6 +73195,7 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "SongId": 76,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-025_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-025_U.webp"
     },
@@ -73113,6 +73207,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 79,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-026_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-026_U.webp"
     },
@@ -73124,6 +73219,7 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "SongId": 84,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-027_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-027_U.webp"
     },
@@ -73134,6 +73230,7 @@
       "Coordinate": "アイプリきぼう",
       "Character": "エマ",
       "CharacterId": 30,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-028_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-028_U.webp"
     },
@@ -73145,6 +73242,7 @@
       "Character": "エマ",
       "CharacterId": 30,
       "SongId": 85,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-029_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-029_U.webp"
     },
@@ -73156,6 +73254,7 @@
       "Character": "おりびあ",
       "CharacterId": 29,
       "SongId": 73,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-030_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-030_U.webp"
     },
@@ -73166,6 +73265,7 @@
       "Coordinate": "ピクニックバスケット",
       "Character": "ぐみ",
       "CharacterId": 28,
+      "Star": 3,
       "Image1Url": "https://aipri.jp/card/img/oa4/OA4-031_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4-031_U.webp"
     },
