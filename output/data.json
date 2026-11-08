@@ -70475,7 +70475,8 @@
       "CharacterId": 26,
       "Variant": "パラレル",
       "SongId": 72,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA1-001P-1.jpg"
     },
     {
       "Id": 9201002,
@@ -70486,7 +70487,8 @@
       "CharacterId": 27,
       "Variant": "パラレル",
       "SongId": 74,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA1-003P-1.jpg"
     },
     {
       "Id": 9201003,
@@ -70497,7 +70499,8 @@
       "CharacterId": 28,
       "Variant": "パラレル",
       "SongId": 76,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA1-005P-1.jpg"
     },
     {
       "Id": 9201004,
@@ -70508,7 +70511,8 @@
       "CharacterId": 26,
       "Variant": "パラレル",
       "SongId": 75,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA1-013P-1.jpg"
     },
     {
       "Id": 9201005,
@@ -70519,7 +70523,8 @@
       "CharacterId": 27,
       "Variant": "パラレル",
       "SongId": 74,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA1-015P-1.jpg"
     },
     {
       "Id": 9201006,
@@ -70530,7 +70535,8 @@
       "CharacterId": 26,
       "Variant": "パラレル",
       "SongId": 73,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA1-020P-1.jpg"
     },
     {
       "Id": 1067,
@@ -71225,7 +71231,8 @@
       "CharacterId": 29,
       "Variant": "パラレル",
       "SongId": 79,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA2-001P-1.jpg"
     },
     {
       "Id": 9201009,
@@ -71236,7 +71243,8 @@
       "CharacterId": 27,
       "Variant": "パラレル",
       "SongId": 80,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA2-005P-1.jpg"
     },
     {
       "Id": 9201010,
@@ -71247,7 +71255,8 @@
       "CharacterId": 28,
       "Variant": "パラレル",
       "SongId": 81,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA2-007P-1.jpg"
     },
     {
       "Id": 9201011,
@@ -71258,7 +71267,8 @@
       "CharacterId": 28,
       "Variant": "パラレル",
       "SongId": 76,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA2-009P-1.jpg"
     },
     {
       "Id": 9201012,
@@ -71269,7 +71279,8 @@
       "CharacterId": 27,
       "Variant": "パラレル",
       "SongId": 80,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA2-013P-1.jpg"
     },
     {
       "Id": 9201013,
@@ -71280,7 +71291,8 @@
       "CharacterId": 26,
       "Variant": "パラレル",
       "SongId": 82,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA2-022P-1.jpg"
     },
     {
       "Id": 1160,
@@ -72013,6 +72025,78 @@
       "Star": 2,
       "Image1Url": "https://aipri.jp/card/img/oa2/OA2M-004_O.webp",
       "Image2Url": "https://aipri.jp/card/img/oa2/OA2M-004_U.webp"
+    },
+    {
+      "Id": 9201014,
+      "ChapterId": "oa3",
+      "SealId": "OA3-001P",
+      "Coordinate": "じょうねつゴシックバズリウム",
+      "Character": "ナナ",
+      "CharacterId": 31,
+      "Variant": "パラレル",
+      "SongId": 84,
+      "Star": 4,
+      "Image1Url": "Cards/OA3-001P-1.jpg"
+    },
+    {
+      "Id": 9201015,
+      "ChapterId": "oa3",
+      "SealId": "OA3-002P",
+      "Coordinate": "きぼうのクリスタルバズリウム",
+      "Character": "エマ",
+      "CharacterId": 30,
+      "Variant": "パラレル",
+      "SongId": 85,
+      "Star": 4,
+      "Image1Url": "Cards/OA3-002P-1.jpg"
+    },
+    {
+      "Id": 9201016,
+      "ChapterId": "oa3",
+      "SealId": "OA3-005P",
+      "Coordinate": "エプロンブーケイエロー",
+      "Character": "おりびあ",
+      "CharacterId": 29,
+      "Variant": "パラレル",
+      "SongId": 86,
+      "Star": 4,
+      "Image1Url": "Cards/OA3-005P-1.jpg"
+    },
+    {
+      "Id": 9201017,
+      "ChapterId": "oa3",
+      "SealId": "OA3-007P",
+      "Coordinate": "ゴシックフレアレッド",
+      "Character": "ナナ",
+      "CharacterId": 31,
+      "Variant": "パラレル",
+      "SongId": 87,
+      "Star": 4,
+      "Image1Url": "Cards/OA3-007P-1.jpg"
+    },
+    {
+      "Id": 9201018,
+      "ChapterId": "oa3",
+      "SealId": "OA3-010P",
+      "Coordinate": "ジューシーサマーブルー",
+      "Character": "あおい",
+      "CharacterId": 27,
+      "Variant": "パラレル",
+      "SongId": 75,
+      "Star": 4,
+      "Image1Url": "Cards/OA3-010P-1.jpg"
+    },
+    {
+      "Id": 9201019,
+      "ChapterId": "oa3",
+      "SealId": "OA3-023P",
+      "Coordinate": "ハッピーバースデー！グリーン",
+      "Character": "ぐみ",
+      "CharacterId": 28,
+      "Variant": "パラレル",
+      "SongId": 82,
+      "Star": 4,
+      "Image1Url": "Cards/OA3-023P-1.jpg"
     },
     {
       "Id": 1239,
@@ -72791,57 +72875,6 @@
       "Image2Url": "https://aipri.jp/card/img/oa3/OA3M-006_U.webp"
     },
     {
-      "Id": 9201014,
-      "ChapterId": "oa3",
-      "SealId": "OA3-001P",
-      "Coordinate": "じょうねつゴシックバズリウム",
-      "Character": "ナナ",
-      "CharacterId": 31,
-      "Variant": "パラレル",
-      "SongId": 84,
-      "Star": 4
-    },
-    {
-      "Id": 9201015,
-      "ChapterId": "oa3",
-      "SealId": "OA3-002P",
-      "Coordinate": "きぼうのクリスタルバズリウム",
-      "SongId": 85,
-      "Star": 4
-    },
-    {
-      "Id": 9201016,
-      "ChapterId": "oa3",
-      "SealId": "OA3-005P",
-      "Coordinate": "エプロンブーケイエロー",
-      "SongId": 86,
-      "Star": 4
-    },
-    {
-      "Id": 9201017,
-      "ChapterId": "oa3",
-      "SealId": "OA3-007P",
-      "Coordinate": "ゴシックフレアレッド",
-      "SongId": 87,
-      "Star": 4
-    },
-    {
-      "Id": 9201018,
-      "ChapterId": "oa3",
-      "SealId": "OA3-010P",
-      "Coordinate": "ジューシーサマーブルー",
-      "SongId": 75,
-      "Star": 4
-    },
-    {
-      "Id": 9201019,
-      "ChapterId": "oa3",
-      "SealId": "OA3-023P",
-      "Coordinate": "ハッピーバースデー！グリーン",
-      "SongId": 82,
-      "Star": 4
-    },
-    {
       "Id": 9201022,
       "ChapterId": "oa4",
       "SealId": "OA4-001P",
@@ -72850,7 +72883,8 @@
       "CharacterId": 26,
       "Variant": "パラレル",
       "SongId": 90,
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA4-001P-1.jpg"
     },
     {
       "Id": 9201023,
@@ -72860,7 +72894,8 @@
       "Character": "あおい",
       "CharacterId": 27,
       "Variant": "パラレル",
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA4-002P-1.jpg"
     },
     {
       "Id": 9201024,
@@ -72870,7 +72905,8 @@
       "Character": "エマ",
       "CharacterId": 30,
       "Variant": "パラレル",
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA4-010P-1.jpg"
     },
     {
       "Id": 9201025,
@@ -72880,7 +72916,8 @@
       "Character": "ぐみ",
       "CharacterId": 28,
       "Variant": "パラレル",
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA4-012P-1.jpg"
     },
     {
       "Id": 9201026,
@@ -72890,7 +72927,8 @@
       "Character": "あおい",
       "CharacterId": 27,
       "Variant": "パラレル",
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA4-021P-1.jpg"
     },
     {
       "Id": 9201027,
@@ -72900,7 +72938,8 @@
       "Character": "ナナ",
       "CharacterId": 31,
       "Variant": "パラレル",
-      "Star": 4
+      "Star": 4,
+      "Image1Url": "Cards/OA4-022P-1.jpg"
     },
     {
       "Id": 1350,
