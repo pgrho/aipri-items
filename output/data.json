@@ -17286,6 +17286,32 @@
       "LinkedItemIds": []
     },
     {
+      "Id": 1251,
+      "ChapterId": "oa4",
+      "Star": 4,
+      "Name": "デザートフェスレッド",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/OA4-134.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa4/OA4-134_thumb.webp",
+      "Group": "アイプリフェスストーリー",
+      "Kind": "アイプリフェスストーリー",
+      "Start": "2026-10-01",
+      "End": "2026-12-02",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 1252,
+      "ChapterId": "oa4",
+      "Star": 4,
+      "Name": "デザートフェスパープル",
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/OA4-137.webp",
+      "ThumbnailUrl": "https://aipri.jp/verse/item/img/oa4/OA4-137_thumb.webp",
+      "Group": "アイプリフェスストーリー",
+      "Kind": "アイプリフェスストーリー",
+      "Start": "2026-10-01",
+      "End": "2026-12-02",
+      "LinkedItemIds": []
+    },
+    {
       "Id": 1234,
       "ChapterId": "oa4",
       "Star": 4,
@@ -20447,6 +20473,13 @@
       "ChapterId": "special",
       "Name": "エターナルアイプリさくらピンク",
       "Group": "CD・Blu-ray",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901090,
+      "ChapterId": "special",
+      "Name": "おとぎばなしかぐやひめレッド",
+      "Group": "イオン",
       "LinkedItemIds": []
     }
   ],
@@ -46297,6 +46330,54 @@
       "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33590.webp"
     },
     {
+      "Id": 33687,
+      "CoordinateId": 1251,
+      "SealId": "OA4-134",
+      "CategoryId": 2,
+      "Point": 780,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33687.webp"
+    },
+    {
+      "Id": 33688,
+      "CoordinateId": 1251,
+      "SealId": "OA4-135",
+      "CategoryId": 4,
+      "Point": 360,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33688.webp"
+    },
+    {
+      "Id": 33689,
+      "CoordinateId": 1251,
+      "SealId": "OA4-136",
+      "CategoryId": 5,
+      "Point": 380,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33689.webp"
+    },
+    {
+      "Id": 33690,
+      "CoordinateId": 1252,
+      "SealId": "OA4-137",
+      "CategoryId": 2,
+      "Point": 750,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33690.webp"
+    },
+    {
+      "Id": 33691,
+      "CoordinateId": 1252,
+      "SealId": "OA4-138",
+      "CategoryId": 4,
+      "Point": 370,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33691.webp"
+    },
+    {
+      "Id": 33692,
+      "CoordinateId": 1252,
+      "SealId": "OA4-139",
+      "CategoryId": 5,
+      "Point": 400,
+      "ImageUrl": "https://aipri.jp/verse/item/img/oa4/Item_ID33692.webp"
+    },
+    {
       "Id": 33669,
       "CoordinateId": 1234,
       "SealId": "OA4-116",
@@ -54303,6 +54384,24 @@
     {
       "Id": 911334,
       "CoordinateId": 9901089,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911335,
+      "CoordinateId": 9901090,
+      "CategoryId": 2,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911337,
+      "CoordinateId": 9901090,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911338,
+      "CoordinateId": 9901090,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
