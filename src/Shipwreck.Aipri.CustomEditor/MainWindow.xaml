@@ -44,6 +44,11 @@
                         SelectionUnit="Cell"
                         ItemsSource="{Binding FilteredCoordinates}"
                         KeyDown="DataGrid_KeyDown">
+                        <DataGrid.CommandBindings>
+                            <CommandBinding
+                                Command="{x:Static ApplicationCommands.Paste}"
+                                Executed="PasteCommandBinding_Executed" />
+                        </DataGrid.CommandBindings>
                         <DataGrid.Columns>
                             <v:CustomComboBoxColumn
                                 Header="弾"
@@ -197,6 +202,11 @@
                         AutoGenerateColumns="False"
                         ItemsSource="{Binding FilteredCards}"
                         KeyDown="DataGrid_KeyDown">
+                        <DataGrid.CommandBindings>
+                            <CommandBinding
+                                Command="{x:Static ApplicationCommands.Paste}"
+                                Executed="PasteCommandBinding_Executed" />
+                        </DataGrid.CommandBindings>
                         <DataGrid.Columns>
                             <v:CustomComboBoxColumn
                                 Header="弾"
