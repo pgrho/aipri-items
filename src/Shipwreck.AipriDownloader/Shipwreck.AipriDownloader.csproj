@@ -1,33 +1,35 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-		<PropertyGroup>
-				<OutputType>Exe</OutputType>
-				<TargetFramework>net9.0-windows</TargetFramework>
-				<ImplicitUsings>enable</ImplicitUsings>
-				<Nullable>enable</Nullable>
-				<UseWPF>true</UseWPF>
-		</PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
 
-		<ItemGroup>
-				<None Include="..\..\custom\**\*.tsv" Link="custom\%(RecursiveDir)%(Filename).tsv" />
-				<None Include="..\..\custom\**\*.webp" Link="custom\%(RecursiveDir)%(Filename).webp" />
-				<None Include="..\..\custom\**\*.png" Link="custom\%(RecursiveDir)%(Filename).png" />
-				<None Include="..\..\output\**\*.webp" Link="output\%(RecursiveDir)%(Filename).webp" />
-				<None Include="..\..\output\**\*.png" Link="output\%(RecursiveDir)%(Filename).png" />
-				<None Include="..\..\output\**\*.json" Link="output\%(RecursiveDir)%(Filename).json" />
-		</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\custom\**\*.tsv" Link="custom\%(RecursiveDir)%(Filename).tsv" />
+		<None Include="..\..\custom\**\*.webp" Link="custom\%(RecursiveDir)%(Filename).webp" />
+		<None Include="..\..\custom\**\*.png" Link="custom\%(RecursiveDir)%(Filename).png" />
+		<None Include="..\..\custom\**\*.jpg" Link="custom\%(RecursiveDir)%(Filename).jpg" />
+		<None Include="..\..\output\**\*.webp" Link="output\%(RecursiveDir)%(Filename).webp" />
+		<None Include="..\..\output\**\*.png" Link="output\%(RecursiveDir)%(Filename).png" />
+		<None Include="..\..\output\**\*.jpg" Link="output\%(RecursiveDir)%(Filename).jpg" />
+		<None Include="..\..\output\**\*.json" Link="output\%(RecursiveDir)%(Filename).json" />
+	</ItemGroup>
 
-		<ItemGroup>
-		  <None Include="C:\Users\kkakigahara\source\repos\pgrho\puritto\submodules\aipri-items\custom\_CoordinateItems.tsv" Link="_CoordinateItems.tsv" />
-		  <None Include="C:\Users\shipw\source\repos\pgrho\puritto\submodules\aipri-items\custom\_Songs.tsv" Link="_Songs.tsv" />
-		</ItemGroup>
-		<ItemGroup>
-				<PackageReference Include="HtmlAgilityPack" Version="1.11.71" />
-				<PackageReference Include="Shipwreck.Phash.PresentationCore" Version="0.5.0" />
-		</ItemGroup>
+	<ItemGroup>
+		<None Include="C:\Users\kkakigahara\source\repos\pgrho\puritto\submodules\aipri-items\custom\_CoordinateItems.tsv" Link="_CoordinateItems.tsv" />
+		<None Include="C:\Users\shipw\source\repos\pgrho\puritto\submodules\aipri-items\custom\_Songs.tsv" Link="_Songs.tsv" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="HtmlAgilityPack" Version="1.11.71" />
+		<PackageReference Include="Shipwreck.Phash.PresentationCore" Version="0.5.0" />
+	</ItemGroup>
 
-		<ItemGroup>
-				<ProjectReference Include="..\Shipwreck.Aipri\Shipwreck.Aipri.csproj" />
-		</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Shipwreck.Aipri\Shipwreck.Aipri.csproj" />
+	</ItemGroup>
 
 </Project>

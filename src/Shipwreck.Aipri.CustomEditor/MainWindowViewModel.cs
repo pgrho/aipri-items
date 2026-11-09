@@ -502,7 +502,7 @@ public sealed class MainWindowViewModel : WindowViewModel
 
     #region ItemCategories
 
-    private ReadOnlyCollection<ItemCategory> _ItemCategories;
+    private ReadOnlyCollection<ItemCategory>? _ItemCategories;
 
     public ReadOnlyCollection<ItemCategory> ItemCategories
         => _ItemCategories ??= new([
@@ -651,8 +651,8 @@ public sealed class MainWindowViewModel : WindowViewModel
                         NewStar = c.Star,
                         NewChance = c.IsChance,
                         NewBrand = bs.TryGetValue(c.BrandId ?? 0, out var b) ? b.Name : c.BrandId?.ToString() ?? string.Empty,
-                        NewImage1 = c.Image1Url ?? string.Empty,
-                        NewImage2 = c.Image2Url ?? string.Empty,
+                        NewImage1 = (c.Image1Url?.StartsWith("https://aipri.jp/") == true ? null : c.Image1Url) ?? string.Empty,
+                        NewImage2 = (c.Image2Url?.StartsWith("https://aipri.jp/") == true ? null : c.Image2Url) ?? string.Empty,
                     };
 
                     list.Add(data);
@@ -839,7 +839,7 @@ public sealed class MainWindowViewModel : WindowViewModel
     }
 
     #endregion RunDownloaderCommand
-     
+
     #endregion カード
 
     public bool ConfirmClose()
