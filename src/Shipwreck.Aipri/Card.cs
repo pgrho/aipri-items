@@ -28,7 +28,7 @@ public sealed class Card : DataItem
     private string? _Character;
     private int _CharacterId;
 
-    [DefaultValue(null)]
+    [JsonIgnore]
     public string? Character
     {
         get
