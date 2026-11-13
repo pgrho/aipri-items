@@ -412,14 +412,14 @@ internal class Program
                         };
                         item.IsCurrentRun = true;
 
-                        Console.WriteLine("     - Item[{0}]: {1}", item.Id, category);
+                        // Console.WriteLine("     - Item[{0}]: {1}", item.Id, category);
 
                         newCoordinateItems.Add(item);
                     }
                     else
                     {
                         coord.LinkedItemIds.Add(first.Id);
-                        Console.WriteLine("     - Item[{0}]: {1} (Linked to {2})", first.Id, first.GetCategory()?.Name, d.DataSet.Coordinates.GetById(first.CoordinateId)?.Name);
+                        // Console.WriteLine("     - Item[{0}]: {1} (Linked to {2})", first.Id, first.GetCategory()?.Name, d.DataSet.Coordinates.GetById(first.CoordinateId)?.Name);
                     }
                 }
 
@@ -436,7 +436,7 @@ internal class Program
 
                     if (newCoordinates.Add(coord))
                     {
-                        Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
+                        // Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
                     }
                     coord.Order = startOrder++;
 
@@ -472,7 +472,7 @@ internal class Program
 
                     if (newCoordinates.Add(coord))
                     {
-                        Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
+                        // Console.WriteLine("   - Coordinate[{0}]: {1}", coord.Id, coord.Name);
                     }
                     coord.Order = startOrder++;
 
@@ -677,7 +677,7 @@ internal class Program
                 string.IsNullOrEmpty(img1) ? null : new Uri(url, img1).ToString(),
                 string.IsNullOrEmpty(img2) ? null : new Uri(url, img2).ToString()).ConfigureAwait(false);
 
-            Console.WriteLine("   - Card[{0}]: {1}@{2}", card.Id, card.Coordinate, card.Character);
+            // Console.WriteLine("   - Card[{0}]: {1}@{2}", card.Id, card.Coordinate, card.Character);
             if (oldCards.Remove(card))
             {
             }
