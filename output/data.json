@@ -20586,6 +20586,62 @@
       "Name": "クレッセントムーンノーブルグリーン",
       "Group": "アイプリカード コレクショングミvol.4",
       "LinkedItemIds": []
+    },
+    {
+      "Id": 9901098,
+      "ChapterId": "special",
+      "Name": "ウィンターファンタジースノー",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901099,
+      "ChapterId": "special",
+      "Name": "ウィンターファンタジーフラワー",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901100,
+      "ChapterId": "special",
+      "Name": "ポップンマシュマロいちごチョコ",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901101,
+      "ChapterId": "special",
+      "Name": "エンジェルスポーツイエロー",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901102,
+      "ChapterId": "special",
+      "Name": "イースターフリルグリーン",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901103,
+      "ChapterId": "special",
+      "Name": "クラシックライブラリークール",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901104,
+      "ChapterId": "special",
+      "Name": "わくわくベーカリーレッド",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "LinkedItemIds": []
+    },
+    {
+      "Id": 9901105,
+      "ChapterId": "special",
+      "Name": "たなばたおねがいパステル",
+      "Group": "おねがいアイプリ ミルフィーカード",
+      "LinkedItemIds": []
     }
   ],
   "CoordinateItems": [
@@ -54778,6 +54834,206 @@
     {
       "Id": 911366,
       "CoordinateId": 9901097,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911367,
+      "CoordinateId": 9901098,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911368,
+      "CoordinateId": 9901098,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911369,
+      "CoordinateId": 9901098,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911370,
+      "CoordinateId": 9901098,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911371,
+      "CoordinateId": 9901099,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911372,
+      "CoordinateId": 9901099,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911373,
+      "CoordinateId": 9901099,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911374,
+      "CoordinateId": 9901099,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911375,
+      "CoordinateId": 9901100,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911376,
+      "CoordinateId": 9901100,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911377,
+      "CoordinateId": 9901100,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911378,
+      "CoordinateId": 9901100,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911379,
+      "CoordinateId": 9901101,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911380,
+      "CoordinateId": 9901101,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911381,
+      "CoordinateId": 9901101,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911382,
+      "CoordinateId": 9901101,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911383,
+      "CoordinateId": 9901102,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911384,
+      "CoordinateId": 9901102,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911385,
+      "CoordinateId": 9901102,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911386,
+      "CoordinateId": 9901102,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911387,
+      "CoordinateId": 9901103,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911388,
+      "CoordinateId": 9901103,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911389,
+      "CoordinateId": 9901103,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911390,
+      "CoordinateId": 9901103,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911391,
+      "CoordinateId": 9901104,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911392,
+      "CoordinateId": 9901104,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911393,
+      "CoordinateId": 9901104,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911394,
+      "CoordinateId": 9901104,
+      "CategoryId": 5,
+      "ImageUrl": "_generic-4.png"
+    },
+    {
+      "Id": 911395,
+      "CoordinateId": 9901105,
+      "CategoryId": 1,
+      "ImageUrl": "_generic-1.png"
+    },
+    {
+      "Id": 911396,
+      "CoordinateId": 9901105,
+      "CategoryId": 3,
+      "ImageUrl": "_generic-2.png",
+      "IsSet": true
+    },
+    {
+      "Id": 911397,
+      "CoordinateId": 9901105,
+      "CategoryId": 4,
+      "ImageUrl": "_generic-3.png"
+    },
+    {
+      "Id": 911398,
+      "CoordinateId": 9901105,
       "CategoryId": 5,
       "ImageUrl": "_generic-4.png"
     }
