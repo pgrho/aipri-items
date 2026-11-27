@@ -58466,8 +58466,12 @@
       "Start": "2026-10-01"
     },
     {
+      "Id": "oa5",
+      "Name": "おねがいアイプリ 5だん"
+    },
+    {
       "Id": "gumi",
-      "Name": "アイプリカード♪コレクショングミ"
+      "Name": "アイプリカード♪おねがいアイプリグミ"
     },
     {
       "Id": "memorial",
@@ -58613,6 +58617,18 @@
     {
       "Id": 31,
       "Name": "ナナ"
+    },
+    {
+      "Id": 32,
+      "Name": "フォーチュ"
+    },
+    {
+      "Id": 33,
+      "Name": "アイナ"
+    },
+    {
+      "Id": 34,
+      "Name": "モモカ"
     }
   ],
   "Songs": [
@@ -73364,6 +73380,590 @@
       "Image2Url": "https://aipri.jp/card/img/oa4/OA4M-006_U.webp"
     },
     {
+      "Id": 1474,
+      "ChapterId": "oa5",
+      "SealId": "OA5-001",
+      "Coordinate": "ピュアパレードバズリウム",
+      "CharacterId": 27,
+      "SongId": 75,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-001_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-001_U.webp"
+    },
+    {
+      "Id": 1475,
+      "ChapterId": "oa5",
+      "SealId": "OA5-002",
+      "Coordinate": "スマイルパレードバズリウム",
+      "CharacterId": 28,
+      "SongId": 92,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-002_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-002_U.webp"
+    },
+    {
+      "Id": 1476,
+      "ChapterId": "oa5",
+      "SealId": "OA5-003",
+      "Coordinate": "スマイルパレードバズリウム",
+      "CharacterId": 31,
+      "SongId": 89,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-003_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-003_U.webp"
+    },
+    {
+      "Id": 1477,
+      "ChapterId": "oa5",
+      "SealId": "OA5-004",
+      "Coordinate": "きせきのプリズムバズリウム",
+      "CharacterId": 32,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-004_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-004_U.webp"
+    },
+    {
+      "Id": 1478,
+      "ChapterId": "oa5",
+      "SealId": "OA5-005",
+      "Coordinate": "きせきのプリズムバズリウム",
+      "CharacterId": 32,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-005_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-005_U.webp"
+    },
+    {
+      "Id": 1479,
+      "ChapterId": "oa5",
+      "SealId": "OA5-006",
+      "Coordinate": "きせきのプリズムバズリウム",
+      "CharacterId": 32,
+      "SongId": 77,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-006_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-006_U.webp"
+    },
+    {
+      "Id": 1480,
+      "ChapterId": "oa5",
+      "SealId": "OA5-007",
+      "Coordinate": "ロイヤルフェザー",
+      "CharacterId": 32,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-007_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-007_U.webp"
+    },
+    {
+      "Id": 1481,
+      "ChapterId": "oa5",
+      "SealId": "OA5-008",
+      "Coordinate": "ゴージャスクリスマスレッド",
+      "CharacterId": 31,
+      "SongId": 87,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-008_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-008_U.webp"
+    },
+    {
+      "Id": 1482,
+      "ChapterId": "oa5",
+      "SealId": "OA5-009",
+      "Coordinate": "ゴージャスクリスマスパープル",
+      "CharacterId": 30,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-009_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-009_U.webp"
+    },
+    {
+      "Id": 1483,
+      "ChapterId": "oa5",
+      "SealId": "OA5-010",
+      "Coordinate": "ゴージャスクリスマスホワイトパステル",
+      "CharacterId": 26,
+      "SongId": 73,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-010_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-010_U.webp"
+    },
+    {
+      "Id": 1484,
+      "ChapterId": "oa5",
+      "SealId": "OA5-011",
+      "Coordinate": "ゴージャスクリスマスホワイトパステル",
+      "CharacterId": 27,
+      "SongId": 91,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-011_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-011_U.webp"
+    },
+    {
+      "Id": 1485,
+      "ChapterId": "oa5",
+      "SealId": "OA5-012",
+      "Coordinate": "ハッピーサーカス",
+      "CharacterId": 29,
+      "SongId": 86,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-012_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-012_U.webp"
+    },
+    {
+      "Id": 1486,
+      "ChapterId": "oa5",
+      "SealId": "OA5-013",
+      "Coordinate": "ハッピーサーカス",
+      "CharacterId": 28,
+      "SongId": 81,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-013_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-013_U.webp"
+    },
+    {
+      "Id": 1487,
+      "ChapterId": "oa5",
+      "SealId": "OA5-014",
+      "Coordinate": "ふわもこパンダ",
+      "CharacterId": 26,
+      "SongId": 90,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-014_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-014_U.webp"
+    },
+    {
+      "Id": 1488,
+      "ChapterId": "oa5",
+      "SealId": "OA5-015",
+      "Coordinate": "ふわもこパンダオレンジ",
+      "CharacterId": 28,
+      "SongId": 83,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-015_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-015_U.webp"
+    },
+    {
+      "Id": 1489,
+      "ChapterId": "oa5",
+      "SealId": "OA5-016",
+      "Coordinate": "レインボーユニコーン",
+      "CharacterId": 32,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-016_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-016_U.webp"
+    },
+    {
+      "Id": 1490,
+      "ChapterId": "oa5",
+      "SealId": "OA5-017",
+      "Coordinate": "アイプリだいすきナンバーワン！",
+      "CharacterId": 26,
+      "SongId": 93,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-017_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-017_U.webp"
+    },
+    {
+      "Id": 1491,
+      "ChapterId": "oa5",
+      "SealId": "OA5-018",
+      "Coordinate": "アイプリだいすきナンバーワン！",
+      "CharacterId": 27,
+      "SongId": 93,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-018_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-018_U.webp"
+    },
+    {
+      "Id": 1492,
+      "ChapterId": "oa5",
+      "SealId": "OA5-019",
+      "Coordinate": "ミラクルダイヤモンドブルー",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-019_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-019_U.webp"
+    },
+    {
+      "Id": 1493,
+      "ChapterId": "oa5",
+      "SealId": "OA5-020",
+      "Coordinate": "ミラクルダイヤモンドブルー",
+      "CharacterId": 27,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-020_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-020_U.webp"
+    },
+    {
+      "Id": 1494,
+      "ChapterId": "oa5",
+      "SealId": "OA5-021",
+      "Coordinate": "スイートいちごグリーン",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-021_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-021_U.webp"
+    },
+    {
+      "Id": 1495,
+      "ChapterId": "oa5",
+      "SealId": "OA5-022",
+      "Coordinate": "トレジャーパイレーツ",
+      "CharacterId": 31,
+      "SongId": 87,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-022_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-022_U.webp"
+    },
+    {
+      "Id": 1496,
+      "ChapterId": "oa5",
+      "SealId": "OA5-023",
+      "Coordinate": "トレジャーパイレーツグリーン",
+      "CharacterId": 30,
+      "SongId": 92,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-023_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-023_U.webp"
+    },
+    {
+      "Id": 1497,
+      "ChapterId": "oa5",
+      "SealId": "OA5-024",
+      "Coordinate": "アイプリきせき",
+      "CharacterId": 32,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-024_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-024_U.webp"
+    },
+    {
+      "Id": 1498,
+      "ChapterId": "oa5",
+      "SealId": "OA5-025",
+      "Coordinate": "アイプリすきすき",
+      "CharacterId": 26,
+      "SongId": 93,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-025_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-025_U.webp"
+    },
+    {
+      "Id": 1499,
+      "ChapterId": "oa5",
+      "SealId": "OA5-026",
+      "Coordinate": "アイプリゆめゆめ",
+      "CharacterId": 27,
+      "SongId": 93,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-026_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-026_U.webp"
+    },
+    {
+      "Id": 1500,
+      "ChapterId": "oa5",
+      "SealId": "OA5-027",
+      "Coordinate": "アイプリゆうじょう",
+      "CharacterId": 28,
+      "SongId": 80,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-027_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-027_U.webp"
+    },
+    {
+      "Id": 1501,
+      "ChapterId": "oa5",
+      "SealId": "OA5-028",
+      "Coordinate": "フラワーフェアリー",
+      "CharacterId": 32,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-028_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-028_U.webp"
+    },
+    {
+      "Id": 1502,
+      "ChapterId": "oa5",
+      "SealId": "OA5-029",
+      "Coordinate": "フラワーフェアリー",
+      "CharacterId": 27,
+      "SongId": 80,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-029_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-029_U.webp"
+    },
+    {
+      "Id": 1503,
+      "ChapterId": "oa5",
+      "SealId": "OA5-030",
+      "Coordinate": "ギンガムコスメリボン",
+      "CharacterId": 31,
+      "SongId": 84,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-030_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-030_U.webp"
+    },
+    {
+      "Id": 1504,
+      "ChapterId": "oa5",
+      "SealId": "OA5-031",
+      "Coordinate": "パステルパッチワークオレンジ",
+      "CharacterId": 28,
+      "SongId": 81,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-031_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-031_U.webp"
+    },
+    {
+      "Id": 1505,
+      "ChapterId": "oa5",
+      "SealId": "OA5-032",
+      "Coordinate": "クレッセントムーンナイトブルー",
+      "CharacterId": 29,
+      "SongId": 91,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-032_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-032_U.webp"
+    },
+    {
+      "Id": 1506,
+      "ChapterId": "oa5",
+      "SealId": "OA5-033",
+      "Coordinate": "オーロラウルフ",
+      "CharacterId": 30,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-033_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-033_U.webp"
+    },
+    {
+      "Id": 1507,
+      "ChapterId": "oa5",
+      "SealId": "OA5-034",
+      "Coordinate": "マーチングエールホワイトパステル",
+      "CharacterId": 27,
+      "SongId": 83,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-034_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-034_U.webp"
+    },
+    {
+      "Id": 1508,
+      "ChapterId": "oa5",
+      "SealId": "OA5-035",
+      "Coordinate": "マーチングエールホワイトパステル",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-035_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-035_U.webp"
+    },
+    {
+      "Id": 1509,
+      "ChapterId": "oa5",
+      "SealId": "OA5-036",
+      "Coordinate": "マーチングエールホワイトパステル",
+      "CharacterId": 30,
+      "SongId": 91,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-036_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-036_U.webp"
+    },
+    {
+      "Id": 1510,
+      "ChapterId": "oa5",
+      "SealId": "OA5-037",
+      "Coordinate": "はんなりゆかた",
+      "CharacterId": 26,
+      "SongId": 89,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-037_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-037_U.webp"
+    },
+    {
+      "Id": 1511,
+      "ChapterId": "oa5",
+      "SealId": "OA5-038",
+      "Coordinate": "フラワーパターン",
+      "CharacterId": 28,
+      "SongId": 90,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-038_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-038_U.webp"
+    },
+    {
+      "Id": 1512,
+      "ChapterId": "oa5",
+      "SealId": "OA5-039",
+      "Coordinate": "テディベアフリルレッド",
+      "CharacterId": 31,
+      "SongId": 90,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-039_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-039_U.webp"
+    },
+    {
+      "Id": 1513,
+      "ChapterId": "oa5",
+      "SealId": "OA5-040",
+      "Coordinate": "アイプリじょうねつゴシックブルー",
+      "CharacterId": 30,
+      "SongId": 77,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-040_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-040_U.webp"
+    },
+    {
+      "Id": 1514,
+      "ChapterId": "oa5",
+      "SealId": "OA5-041",
+      "Coordinate": "とうほくさん るんちゃん コーデ",
+      "CharacterId": 26,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-041_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-041_U.webp"
+    },
+    {
+      "Id": 1515,
+      "ChapterId": "oa5",
+      "SealId": "OA5-042",
+      "Coordinate": "とうほくさん わかりん コーデ",
+      "CharacterId": 29,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-042_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-042_U.webp"
+    },
+    {
+      "Id": 1516,
+      "ChapterId": "oa5",
+      "SealId": "OA5-043",
+      "Coordinate": "とうほくさん かーやさん コーデ",
+      "CharacterId": 31,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-043_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-043_U.webp"
+    },
+    {
+      "Id": 1517,
+      "ChapterId": "oa5",
+      "SealId": "OA5-057",
+      "Coordinate": "ミッキーデザイン ダンス☆マジックコーデ",
+      "CharacterId": 33,
+      "SongId": 89,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-057_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-057_U.webp"
+    },
+    {
+      "Id": 1518,
+      "ChapterId": "oa5",
+      "SealId": "OA5-058",
+      "Coordinate": "ミッキーデザイン ダンス☆マジックコーデ",
+      "CharacterId": 33,
+      "SongId": 80,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-058_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-058_U.webp"
+    },
+    {
+      "Id": 1519,
+      "ChapterId": "oa5",
+      "SealId": "OA5-059",
+      "Coordinate": "ミニーデザイン ダンス☆マジックコーデ",
+      "CharacterId": 34,
+      "SongId": 77,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-059_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-059_U.webp"
+    },
+    {
+      "Id": 1520,
+      "ChapterId": "oa5",
+      "SealId": "OA5-060",
+      "Coordinate": "ミニーデザイン ダンス☆マジックコーデ",
+      "CharacterId": 34,
+      "SongId": 78,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-060_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-060_U.webp"
+    },
+    {
+      "Id": 1521,
+      "ChapterId": "oa5",
+      "SealId": "OA5-044",
+      "Coordinate": "おねがいちゅうがくせいふく",
+      "CharacterId": 26,
+      "SongId": 72,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-044_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-044_U.webp"
+    },
+    {
+      "Id": 1522,
+      "ChapterId": "oa5",
+      "SealId": "OA5-045",
+      "Coordinate": "おねがいちゅうがくせいふく",
+      "CharacterId": 28,
+      "SongId": 93,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-045_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-045_U.webp"
+    },
+    {
+      "Id": 1523,
+      "ChapterId": "oa5",
+      "SealId": "OA5-046",
+      "Coordinate": "ハイセンスがくえんせいふく",
+      "CharacterId": 31,
+      "SongId": 90,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-046_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-046_U.webp"
+    },
+    {
+      "Id": 1524,
+      "ChapterId": "oa5",
+      "SealId": "OA5-047",
+      "Coordinate": "シューティングスター",
+      "CharacterId": 27,
+      "SongId": 73,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-047_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-047_U.webp"
+    },
+    {
+      "Id": 1525,
+      "ChapterId": "oa5",
+      "SealId": "OA5-048",
+      "Coordinate": "シューティングスター",
+      "CharacterId": 26,
+      "SongId": 78,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-048_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-048_U.webp"
+    },
+    {
+      "Id": 1526,
+      "ChapterId": "oa5",
+      "SealId": "OA5-049",
+      "Coordinate": "グレースドットライラック",
+      "CharacterId": 32,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-049_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-049_U.webp"
+    },
+    {
+      "Id": 1527,
+      "ChapterId": "oa5",
+      "SealId": "OA5-050",
+      "Coordinate": "ゆめかわサロペットピンク",
+      "CharacterId": 26,
+      "SongId": 92,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-050_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-050_U.webp"
+    },
+    {
+      "Id": 1528,
+      "ChapterId": "oa5",
+      "SealId": "OA5-051",
+      "Coordinate": "オーバーサイズパーカーアクア",
+      "CharacterId": 27,
+      "SongId": 89,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-051_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-051_U.webp"
+    },
+    {
+      "Id": 1529,
+      "ChapterId": "oa5",
+      "SealId": "OA5-052",
+      "Coordinate": "おやすみベア",
+      "CharacterId": 28,
+      "SongId": 73,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-052_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-052_U.webp"
+    },
+    {
+      "Id": 1530,
+      "ChapterId": "oa5",
+      "SealId": "OA5-053",
+      "Coordinate": "フローラルパターン",
+      "CharacterId": 29,
+      "SongId": 93,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-053_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-053_U.webp"
+    },
+    {
+      "Id": 1531,
+      "ChapterId": "oa5",
+      "SealId": "OA5-054",
+      "Coordinate": "クラシックラビットブルー",
+      "CharacterId": 31,
+      "SongId": 86,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-054_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-054_U.webp"
+    },
+    {
+      "Id": 1532,
+      "ChapterId": "oa5",
+      "SealId": "OA5-055",
+      "Coordinate": "プチパールベージュ",
+      "CharacterId": 30,
+      "SongId": 85,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-055_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-055_U.webp"
+    },
+    {
+      "Id": 1533,
+      "ChapterId": "oa5",
+      "SealId": "OA5-056",
+      "Coordinate": "ウィンターファー",
+      "CharacterId": 32,
+      "SongId": 92,
+      "Image1Url": "https://aipri.jp/card/img/oa5/OA5-056_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/oa5/OA5-056_U.webp"
+    },
+    {
       "Id": 394,
       "ChapterId": "gumi",
       "BrandId": 7,
@@ -77836,6 +78436,35 @@
       "SongId": 1,
       "Point": 680,
       "Image1Url": "https://aipri.jp/himitsu/card/img/special/TOY-000_O.webp"
+    },
+    {
+      "Id": 1471,
+      "ChapterId": "special",
+      "SealId": "OP-150",
+      "Coordinate": "ロイヤルフェザーピンク",
+      "CharacterId": 32,
+      "SongId": 93,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-150_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-150_U.webp"
+    },
+    {
+      "Id": 1472,
+      "ChapterId": "special",
+      "SealId": "OP-149",
+      "Coordinate": "ふわもこパンダスカイブルー",
+      "CharacterId": 32,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-149_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-149_U.webp"
+    },
+    {
+      "Id": 1473,
+      "ChapterId": "special",
+      "SealId": "OP-019",
+      "Coordinate": "ふわふわキャットブラウン",
+      "CharacterId": 26,
+      "SongId": 89,
+      "Image1Url": "https://aipri.jp/card/img/special/OP-019_O.webp",
+      "Image2Url": "https://aipri.jp/card/img/special/OP-019_U.webp"
     },
     {
       "Id": 1470,
